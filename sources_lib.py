@@ -1,5 +1,5 @@
-"""Core 'add or update a journal' primitive, generic over the feed (Crossref,
-ISSN portal, DOAJ, ...). Ports the guts add_missing_journals match/mint/update
+"""Core source-registry primitives, generic over the feed (Crossref, ISSN
+portal, DOAJ, ...). Ports the guts add_missing_journals match/mint/update
 logic onto the normalized sources + source_issn schema.
 
 Match is on ISSN (source_issn.UNIQUE(issn) is the authoritative index):
@@ -7,7 +7,12 @@ Match is on ISSN (source_issn.UNIQUE(issn) is the authoritative index):
   - exactly 1 source matches            -> ENRICH it (add missing ISSNs; fill
                                            display_name/publisher, override-guarded)
   - >1 source matches                   -> CONFLICT: log a merge candidate, skip
+
+Merges (merge_source) are first-class: loser's ISSNs move to the winner, the
+loser keeps a merge_into_id redirect, and every merge is audited in source_merge.
 """
+import json
+
 from sqlalchemy import text
 
 
@@ -145,3 +150,75 @@ def upsert_journal_by_issn(
             text("UPDATE sources SET updated_date = now() WHERE id = :id"), {"id": sid}
         )
     return "updated", sid
+
+
+def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None):
+    """Merge loser into winner. Returns an outcome string; 'merged' on success,
+    otherwise the guard that refused ('already_merged', 'loser_overridden', ...).
+
+    Effects: loser's ISSNs re-point to the winner, loser gets merge_into_id +
+    merge_into_date, winner's issn_l is re-resolved over its enlarged ISSN set,
+    and the merge is recorded in source_merge.
+    """
+    if loser_id == winner_id:
+        return "same_source"
+    rows = {
+        r.id: r
+        for r in conn.execute(
+            text(
+                "SELECT id, merge_into_id, override_timestamp "
+                "FROM sources WHERE id IN (:l, :w)"
+            ),
+            {"l": loser_id, "w": winner_id},
+        )
+    }
+    if loser_id not in rows or winner_id not in rows:
+        return "missing_source"
+    if rows[loser_id].merge_into_id is not None or rows[winner_id].merge_into_id is not None:
+        return "already_merged"
+    if rows[loser_id].override_timestamp is not None:
+        return "loser_overridden"  # a curator touched the loser; needs a human
+
+    conn.execute(
+        text("UPDATE source_issn SET source_id = :w, is_issn_l = FALSE WHERE source_id = :l"),
+        {"l": loser_id, "w": winner_id},
+    )
+    conn.execute(
+        text(
+            "UPDATE sources SET merge_into_id = :w, merge_into_date = now(), "
+            "updated_date = now() WHERE id = :l"
+        ),
+        {"l": loser_id, "w": winner_id},
+    )
+
+    # re-resolve the winner's ISSN-L over its enlarged ISSN set
+    issns = [
+        r[0]
+        for r in conn.execute(
+            text("SELECT issn FROM source_issn WHERE source_id = :id"), {"id": winner_id}
+        )
+    ]
+    issn_l = resolve_issn_l(conn, issns)
+    conn.execute(
+        text("UPDATE sources SET issn_l = :l, updated_date = now() WHERE id = :id"),
+        {"l": issn_l, "id": winner_id},
+    )
+    conn.execute(
+        text("UPDATE source_issn SET is_issn_l = (issn = :l) WHERE source_id = :id"),
+        {"l": issn_l, "id": winner_id},
+    )
+
+    conn.execute(
+        text(
+            "INSERT INTO source_merge (loser_id, winner_id, rule, source_feed, detail) "
+            "VALUES (:l, :w, :r, :f, CAST(:d AS JSONB))"
+        ),
+        {
+            "l": loser_id,
+            "w": winner_id,
+            "r": rule,
+            "f": source_feed,
+            "d": json.dumps(detail) if detail is not None else None,
+        },
+    )
+    return "merged"
