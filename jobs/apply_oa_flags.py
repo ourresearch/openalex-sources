@@ -53,11 +53,11 @@ def run(dry_run=False):
             )
             SELECT s.id,
                    COALESCE(ps.matched_ojs, FALSE) AS new_is_ojs,
-                   (s.publisher ~* :pub_rule
+                   (COALESCE(s.publisher ~* :pub_rule, FALSE)
                     OR COALESCE(s.is_in_scielo, FALSE)
                     OR COALESCE(ps.ojs_is_oa, FALSE)
                     OR COALESCE(ps.hoar_listed, FALSE)) AS new_hoar,
-                   CASE WHEN s.publisher ~* :pub_rule
+                   CASE WHEN COALESCE(s.publisher ~* :pub_rule, FALSE)
                           OR COALESCE(s.is_in_scielo, FALSE)
                           OR COALESCE(ps.ojs_is_oa, FALSE) THEN NULL
                         ELSE ps.hoar_start END AS new_hoar_start,
