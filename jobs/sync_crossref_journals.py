@@ -84,8 +84,27 @@ def run(dry_run=False, limit=None, batch=500):
     finally:
         conn.close()
 
+    if not dry_run:
+        apply_scielo_flag()
     print("outcome summary:", dict(counts))
     return counts
+
+
+def apply_scielo_flag():
+    """SciELO membership is derived from the Crossref publisher prefix (walden
+    parity); flag any matched source not yet flagged. SciELO journals are OA."""
+    with engine.begin() as conn:
+        n = conn.execute(text("""
+            UPDATE sources s SET is_in_scielo = TRUE, is_oa = TRUE, updated_date = now()
+            WHERE s.merge_into_id IS NULL
+              AND s.is_in_scielo IS DISTINCT FROM TRUE
+              AND EXISTS (
+                SELECT 1 FROM crossref_journal d
+                CROSS JOIN LATERAL unnest(d.issns) AS di(issn)
+                JOIN source_issn si ON si.issn = UPPER(di.issn)
+                WHERE si.source_id = s.id AND LOWER(d.publisher) LIKE 'scielo%')
+        """)).rowcount
+        print(f"scielo flag: {n} sources newly flagged", flush=True)
 
 
 def main():
