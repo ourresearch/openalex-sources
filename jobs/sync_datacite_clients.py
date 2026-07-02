@@ -13,11 +13,7 @@ checked ISSN overlap for DataCite -- a duplicate-source vector this fixes):
   python -m jobs.sync_datacite_clients [--dry-run] [--limit N]
 """
 import argparse
-import os
-import sys
 from collections import Counter, defaultdict
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from sqlalchemy import text
 

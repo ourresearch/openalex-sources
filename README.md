@@ -41,7 +41,7 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 
 | job | what it does |
 |---|---|
-| `crossref_journals` | Fetch api.crossref.org/journals → `crossref_journal` (~137K). `--resume` continues from a saved cursor. |
+| `crossref_journals` | Fetch api.crossref.org/journals → `crossref_journal` (~137K). |
 | `sync_crossref_journals` | Upsert staged journals via `sources_lib.upsert_journal_by_issn` (mint / enrich / conflict). Also derives the SciELO flag from the Crossref publisher prefix. |
 | `datacite_clients` | Fetch api.datacite.org/clients + providers → `datacite_client` (~4.4K). |
 | `sync_datacite_clients` | ISSN-first cascade: already linked → fill-NULLs; ISSN match → link; no ISSN → unique-exact-name link; else mint (`periodical`→journal, else repository). |

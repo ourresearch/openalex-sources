@@ -15,10 +15,6 @@ the mapping tables, and weekly to pick up new mints + publication-span drift.
   python -m jobs.apply_oa_flags [--dry-run]
 """
 import argparse
-import os
-import sys
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from sqlalchemy import text
 

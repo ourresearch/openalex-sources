@@ -9,11 +9,7 @@ touching the DB, so we only write actual mints/enrichments. --dry-run reports th
 classification with no writes and no id minting.
 """
 import argparse
-import os
-import sys
 from collections import Counter, defaultdict
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from sqlalchemy import text
 

@@ -9,10 +9,6 @@ journals, no credentials), stage it, and apply DOAJ status to sources:
 import argparse
 import csv
 import io
-import os
-import sys
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import requests
 from sqlalchemy import text

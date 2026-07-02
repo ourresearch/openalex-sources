@@ -13,11 +13,7 @@ tie broken by lower (older) id. All queue rows carrying the same id-set are
 resolved together.
 """
 import argparse
-import os
-import sys
 from collections import Counter
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from sqlalchemy import text
 

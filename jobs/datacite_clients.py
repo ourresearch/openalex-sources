@@ -6,11 +6,7 @@ TRUNCATE + reload). Stage 2 is jobs/sync_datacite_clients.py.
 """
 import argparse
 import json
-import os
-import sys
 import time
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import requests
 from sqlalchemy import text
