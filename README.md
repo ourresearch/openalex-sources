@@ -31,6 +31,7 @@ duplicates, parking everything else for a human.
 | `source_ingest_issue` | Conflict queue. One row per (feed, issue type, matched id-set) — ever; resolved rows keep their `resolution`. |
 | `source_works_count` | Operational snapshot of per-source works counts from Databricks (winner-selection signal for merges). Check `as_of` before trusting. |
 | `crossref_journal`, `datacite_client`, `doaj_journal` | Full-snapshot staging tables (TRUNCATE + reload on each fetch). |
+| `jstage_journal`, `ojs_journal`, `high_oa_rate_issn`, `source_publication_years` | OA-flag mapping tables imported from Databricks (`scripts/import_oa_flag_tables.py`); drive `jobs/apply_oa_flags`. |
 | `source_export` (view) | **The Databricks read contract.** All columns, merged rows included; consumers filter `merge_into_id IS NULL`. JSONB columns federate as strings (parse with `from_json`). |
 
 ## Jobs
@@ -47,6 +48,7 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | `doaj` | Fetch the public DOAJ CSV (~23K) and apply `is_in_doaj` / `doaj_license` / `is_in_doaj_start_year`, including delistings with a guarded `is_oa` recompute. |
 | `issn_to_issnl` | Reload the ISSN→ISSN-L table from issn.org (atomic TRUNCATE + COPY). |
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
+| `apply_oa_flags` | Recompute `is_ojs`, `is_oa_high_oa_rate`, `is_fully_open_in_jstage`, and the derived `is_oa` from the mapping tables. Feeds never assert `is_oa`; this job derives it. |
 
 ## Scheduling (Advanced Scheduler)
 
@@ -58,6 +60,7 @@ Bearer `ADVANCED_SCHEDULER_API_TOKEN`) — no dashboard clicking. Current schedu
 | Mon 05:00 | `issn_to_issnl` |
 | Mon 05:30 | `datacite_clients && sync_datacite_clients` |
 | Mon 05:45 | `doaj` |
+| Mon 05:55 | `apply_oa_flags` |
 | daily 06:00 | `crossref_journals && sync_crossref_journals` |
 | daily 06:30 | `resolve_conflicts` |
 
