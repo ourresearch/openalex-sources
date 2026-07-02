@@ -120,7 +120,10 @@ def run(dry_run=False, limit=None, batch=200):
                     trans.commit()
                     trans = conn.begin()
                 print(f"  {done}/{len(sets)} sets processed", flush=True)
-        trans.rollback() if dry_run else trans.commit()
+        if dry_run:
+            trans.rollback()
+        else:
+            trans.commit()
     except Exception:
         trans.rollback()
         raise

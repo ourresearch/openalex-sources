@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sqlalchemy import text
 
 from db import engine
-from sources_lib import normalize_issns, normalize_name, resolve_issn_l
+from sources_lib import insert_issns, normalize_issns, normalize_name, resolve_issn_l
 
 CLIENT_TYPE_TO_SOURCE_TYPE = {"periodical": "journal", "repository": "repository"}
 
@@ -44,15 +44,16 @@ def _link(conn, client_id, source_id):
 
 
 def _enrich(conn, source_id, client):
-    """Fill NULL fields from the client; never overwrite existing values."""
+    """Fill missing homepage_url / publisher from the client; never overwrite
+    existing values. The WHERE keeps updated_date untouched when nothing fills."""
     conn.execute(text(
         "UPDATE sources SET "
-        "homepage_url = COALESCE(homepage_url, :url), "
-        "publisher = CASE WHEN publisher IS NULL AND publisher_id IS NULL "
-        "                 THEN :prov ELSE publisher END, "
-        "updated_date = now() "
-        "WHERE id = :id AND (homepage_url IS NULL AND :url IS NOT NULL "
-        "                    OR publisher IS NULL AND publisher_id IS NULL AND :prov IS NOT NULL)"
+        "  homepage_url = COALESCE(homepage_url, :url), "
+        "  publisher = COALESCE(publisher, CASE WHEN publisher_id IS NULL THEN :prov END), "
+        "  updated_date = now() "
+        "WHERE id = :id "
+        "  AND ((homepage_url IS NULL AND :url IS NOT NULL) "
+        "       OR (publisher IS NULL AND publisher_id IS NULL AND :prov IS NOT NULL))"
     ), {"id": source_id, "url": client.url, "prov": client.provider_name})
 
 
@@ -64,10 +65,7 @@ def _mint(conn, client, issns):
         "VALUES (:dn, :t, :l, :pub, :url, TRUE) RETURNING id"
     ), {"dn": client.display_name, "t": stype, "l": issn_l,
         "pub": client.provider_name, "url": client.url}).scalar()
-    for issn in issns:
-        conn.execute(text(
-            "INSERT INTO source_issn (source_id, issn, is_issn_l) VALUES (:s, :i, :b) "
-            "ON CONFLICT (issn) DO NOTHING"), {"s": sid, "i": issn, "b": issn == issn_l})
+    insert_issns(conn, sid, issns, issn_l)
     _link(conn, client.id, sid)
     return sid
 
@@ -152,7 +150,10 @@ def run(dry_run=False, limit=None, batch=200):
                     trans.commit()
                     trans = conn.begin()
                 print(f"  {done}/{len(clients)} clients", flush=True)
-        trans.rollback() if dry_run else trans.commit()
+        if dry_run:
+            trans.rollback()
+        else:
+            trans.commit()
     except Exception:
         trans.rollback()
         raise

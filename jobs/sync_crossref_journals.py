@@ -77,7 +77,10 @@ def run(dry_run=False, limit=None, batch=500):
             if written % batch == 0:
                 trans.commit()
                 trans = conn.begin()
-        trans.rollback() if dry_run else trans.commit()
+        if dry_run:
+            trans.rollback()
+        else:
+            trans.commit()
     except Exception:
         trans.rollback()
         raise

@@ -56,7 +56,7 @@ def resolve_issn_l(conn, issns):
     return row[0] if row else issns[0]
 
 
-def _insert_issns(conn, source_id, issns, issn_l):
+def insert_issns(conn, source_id, issns, issn_l):
     for issn in issns:
         conn.execute(
             text(
@@ -117,7 +117,7 @@ def upsert_journal_by_issn(
             ),
             {"dn": display_name, "l": issn_l, "pub": publisher, "cid": crossref_id},
         ).scalar()
-        _insert_issns(conn, sid, issns, issn_l)
+        insert_issns(conn, sid, issns, issn_l)
         return "added", sid
 
     # ---- enrich the single matching source -----------------------------
@@ -156,7 +156,7 @@ def upsert_journal_by_issn(
 
     if missing:
         issn_l = resolve_issn_l(conn, list(existing | set(issns)))
-        _insert_issns(conn, sid, missing, issn_l)
+        insert_issns(conn, sid, missing, issn_l)
     if updates:
         set_clause = ", ".join(f"{k} = :{k}" for k in updates)
         conn.execute(
