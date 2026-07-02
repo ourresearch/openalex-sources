@@ -60,9 +60,11 @@ def _enrich(conn, source_id, client):
 def _mint(conn, client, issns):
     stype = CLIENT_TYPE_TO_SOURCE_TYPE.get(client.client_type, "repository")
     issn_l = resolve_issn_l(conn, issns) if issns else None
+    # is_oa=FALSE at mint (CreateSources parity: is_oa is derived from the DOAJ/
+    # SciELO/J-STAGE/high-OA-rate flags by jobs/apply_oa_flags, not asserted by feeds)
     sid = conn.execute(text(
         "INSERT INTO sources (display_name, type, issn_l, publisher, homepage_url, is_oa) "
-        "VALUES (:dn, :t, :l, :pub, :url, TRUE) RETURNING id"
+        "VALUES (:dn, :t, :l, :pub, :url, FALSE) RETURNING id"
     ), {"dn": client.display_name, "t": stype, "l": issn_l,
         "pub": client.provider_name, "url": client.url}).scalar()
     insert_issns(conn, sid, issns, issn_l)
