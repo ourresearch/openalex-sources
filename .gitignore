@@ -1,6 +1,9 @@
 # Environment
 .env
 
+# Local job state (resumable fetch cursor)
+.crossref_fetch_state.json
+
 # IDE
 .idea/
 .vscode/
