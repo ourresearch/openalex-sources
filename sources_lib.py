@@ -77,11 +77,14 @@ def upsert_journal_by_issn(
 
     if len(matched) > 1:
         if not dry_run:
+            # one row per (feed, id-set) ever -- persisting conflicts re-surface
+            # every sync run and must not re-accumulate (see migration 005)
             conn.execute(
                 text(
                     "INSERT INTO source_ingest_issue "
                     "(source_feed, issue_type, issns, matched_source_ids, detail) "
-                    "VALUES (:f, 'multi_match', :i, :m, :d)"
+                    "VALUES (:f, 'multi_match', :i, :m, :d) "
+                    "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
                 ),
                 {"f": source_feed, "i": issns, "m": matched, "d": display_name},
             )
