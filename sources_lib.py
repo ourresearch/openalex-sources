@@ -12,8 +12,23 @@ Merges (merge_source) are first-class: loser's ISSNs move to the winner, the
 loser keeps a merge_into_id redirect, and every merge is audited in source_merge.
 """
 import json
+import unicodedata
 
 from sqlalchemy import text
+
+
+def normalize_name(name):
+    """Diacritic/case/punctuation-insensitive form for exact-name comparison."""
+    if not name:
+        return ""
+    s = unicodedata.normalize("NFKD", name)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = s.casefold().replace("&", " and ")
+    s = "".join(c if c.isalnum() else " " for c in s)
+    s = " ".join(s.split())
+    if s.startswith("the "):
+        s = s[4:]
+    return s
 
 
 def normalize_issns(issns):

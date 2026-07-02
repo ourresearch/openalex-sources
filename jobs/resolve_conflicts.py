@@ -15,7 +15,6 @@ resolved together.
 import argparse
 import os
 import sys
-import unicodedata
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -23,20 +22,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sqlalchemy import text
 
 from db import engine
-from sources_lib import merge_source
-
-
-def normalize_name(name):
-    if not name:
-        return ""
-    s = unicodedata.normalize("NFKD", name)
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    s = s.casefold().replace("&", " and ")
-    s = "".join(c if c.isalnum() else " " for c in s)
-    s = " ".join(s.split())
-    if s.startswith("the "):
-        s = s[4:]
-    return s
+from sources_lib import merge_source, normalize_name
 
 
 def classify(pair, sources, works, merged_this_run):
