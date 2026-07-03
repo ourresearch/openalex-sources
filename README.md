@@ -22,7 +22,7 @@ duplicates, parking everything else for a human.
 
 | table | what it is |
 |---|---|
-| `sources` | The registry. PK = OpenAlex S-id (BIGINT). New ids auto-mint from `source_id_seq`. Merged sources stay as redirect rows (`merge_into_id`, `merge_into_date`). |
+| `sources` | The registry AND the Databricks read contract (read directly via federation). PK = OpenAlex S-id (BIGINT). New ids auto-mint from `source_id_seq`. `issns` is a derived column refreshed from `source_issn` on every write (like `datacite_ids`). Merged sources stay as redirect rows (`merge_into_id`, `merge_into_date`); consumers filter `merge_into_id IS NULL`. |
 | `source_issn` | Normalized ISSN membership. **UNIQUE(issn)** is the one-ISSN-one-source invariant. `is_issn_l` marks the linking ISSN. |
 | `source_datacite_id` | DataCite client → source link. PK on the client id = one-client-one-source. `sources.datacite_ids` (JSONB) is derived from this table. |
 | `issn_to_issnl` | ISSN → ISSN-L map, reloaded weekly from the ISSN International Centre's daily file (~2.6M rows). |
@@ -32,7 +32,6 @@ duplicates, parking everything else for a human.
 | `source_works_count` | Operational snapshot of per-source works counts from Databricks (winner-selection signal for merges). Check `as_of` before trusting. |
 | `crossref_journal`, `datacite_client`, `doaj_journal` | Full-snapshot staging tables (TRUNCATE + reload on each fetch). |
 | `jstage_journal`, `ojs_journal`, `high_oa_rate_issn`, `source_publication_years` | OA-flag mapping tables imported from Databricks (`scripts/import_oa_flag_tables.py`); drive `jobs/apply_oa_flags`. |
-| `source_export` (view) | **The Databricks read contract.** All columns, merged rows included; consumers filter `merge_into_id IS NULL`. JSONB columns federate as strings (parse with `from_json`). |
 
 ## Jobs
 
@@ -110,7 +109,9 @@ git push heroku main          # deploy; release phase runs migrations
 ## Databricks side
 
 - Federated catalog: `openalex_sources` (UC connection `postgres-sources`); read
-  `openalex_sources.public.source_export`.
+  `openalex_sources.public.sources` directly (`issns` federates as a proper array;
+  JSONB columns federate as strings — parse with `from_json`). Legacy column names are
+  the consumer's job: `issn_l AS issn`, `homepage_url AS webpage`.
 - Until the Phase-5 cutover, the walden `CreateSources` DLT still builds the production
   sources table from a frozen 2026-06-30 snapshot; changes made here become
   production-visible at cutover. See the parity audit + cutover checklist in
