@@ -56,6 +56,19 @@ def resolve_issn_l(conn, issns):
     return row[0] if row else issns[0]
 
 
+def refresh_issns_column(conn, source_id):
+    """Re-derive sources.issns (ISSN-L first, then alphabetical) from source_issn.
+    source_issn is the authority; the array column exists for readers (Databricks
+    federates it as a proper array). Called by every path that writes source_issn."""
+    conn.execute(
+        text(
+            "UPDATE sources SET issns = (SELECT array_agg(issn ORDER BY is_issn_l DESC, issn) "
+            "FROM source_issn WHERE source_id = :id) WHERE id = :id"
+        ),
+        {"id": source_id},
+    )
+
+
 def insert_issns(conn, source_id, issns, issn_l):
     for issn in issns:
         conn.execute(
@@ -65,6 +78,7 @@ def insert_issns(conn, source_id, issns, issn_l):
             ),
             {"sid": source_id, "issn": issn, "is_l": issn == issn_l},
         )
+    refresh_issns_column(conn, source_id)
 
 
 def upsert_journal_by_issn(
@@ -225,6 +239,8 @@ def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None)
         text("UPDATE source_issn SET is_issn_l = (issn = :l) WHERE source_id = :id"),
         {"l": issn_l, "id": winner_id},
     )
+    refresh_issns_column(conn, loser_id)   # -> NULL (all ISSNs moved away)
+    refresh_issns_column(conn, winner_id)
 
     conn.execute(
         text(
