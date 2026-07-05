@@ -44,7 +44,7 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | `sync_crossref_journals` | Upsert staged journals via `sources_lib.upsert_journal_by_issn` (mint / enrich / conflict). Also derives the SciELO flag from the Crossref publisher prefix. |
 | `datacite_clients` | Fetch api.datacite.org/clients + providers → `datacite_client` (~4.4K). |
 | `sync_datacite_clients` | ISSN-first cascade: already linked → fill-NULLs; ISSN match → link; no ISSN → unique-exact-name link; else mint (`periodical`→journal, else repository). |
-| `doaj` | Fetch the public DOAJ CSV (~23K) and apply `is_in_doaj` / `doaj_license` / `is_in_doaj_start_year`, including delistings with a guarded `is_oa` recompute. |
+| `doaj` | Fetch the public DOAJ CSV (~23K) and apply `is_in_doaj` / `doaj_license` / `is_in_doaj_start_year`, including delistings with a guarded `is_oa` recompute. `--mint` also adds journals the registry lacks (ISSN → unique-name link → mint cascade). |
 | `issn_to_issnl` | Reload the ISSN→ISSN-L table from issn.org (atomic TRUNCATE + COPY). |
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
 | `apply_oa_flags` | Recompute `is_ojs`, `is_oa_high_oa_rate`, `is_fully_open_in_jstage`, and the derived `is_oa` from the mapping tables. Feeds never assert `is_oa`; this job derives it. |
@@ -58,7 +58,7 @@ Bearer `ADVANCED_SCHEDULER_API_TOKEN`) — no dashboard clicking. Current schedu
 |---|---|
 | Mon 05:00 | `issn_to_issnl` |
 | Mon 05:30 | `datacite_clients && sync_datacite_clients` |
-| Mon 05:45 | `doaj` |
+| Mon 05:45 | `doaj --mint` |
 | Mon 05:55 | `apply_oa_flags` |
 | daily 06:00 | `crossref_journals && sync_crossref_journals` |
 | daily 06:30 | `resolve_conflicts` |
