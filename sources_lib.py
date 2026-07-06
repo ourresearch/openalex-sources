@@ -218,7 +218,7 @@ def park_multi_match(conn, source_feed, issns, matched_ids, detail):
 
 def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
                 publisher=None, crossref_id=None, homepage_url=None):
-    """Mint a new source (auto-minted id from source_id_seq) and register it in
+    """Mint a new source (id assigned by the identity column) and register it in
     the context. is_oa starts FALSE: it is derived, see recompute_is_oa."""
     issn_l = resolve_issn_l(conn, issns) if issns else None
     sid = conn.execute(text(

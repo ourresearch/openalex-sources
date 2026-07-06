@@ -163,7 +163,7 @@ def main():
         cols_sql = ", ".join(SOURCE_COLUMNS)
         execute_values(
             cur,
-            f"INSERT INTO sources ({cols_sql}) VALUES %s",
+            f"INSERT INTO sources ({cols_sql}) OVERRIDING SYSTEM VALUE VALUES %s",
             source_rows,
             page_size=1000,
         )
@@ -184,10 +184,10 @@ def main():
             page_size=1000,
         )
 
-        cur.execute("SELECT setval('source_id_seq', (SELECT MAX(id) FROM sources));")
+        cur.execute("SELECT setval(pg_get_serial_sequence('sources','id'), (SELECT MAX(id) FROM sources));")
         seq = cur.fetchone()[0]
         raw.commit()
-        print(f"committed. source_id_seq -> {seq}")
+        print(f"committed. id sequence -> {seq}")
     finally:
         raw.close()
 

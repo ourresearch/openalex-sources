@@ -136,11 +136,12 @@ def main():
             # sequence when actually committing, else a dry-run would leave the
             # live sequence pointing into walden's id range
             if args.execute:
-                seq = conn.execute(text("SELECT setval('source_id_seq', :v)"),
-                                   {"v": args.walden_max + n}).scalar()
-                print(f"source_id_seq -> {seq} (next mint: {seq + 1})")
+                seq = conn.execute(text(
+                    "SELECT setval(pg_get_serial_sequence('sources','id'), :v)"),
+                    {"v": args.walden_max + n}).scalar()
+                print(f"id sequence -> {seq} (next mint: {seq + 1})")
             else:
-                print(f"source_id_seq would be set to {args.walden_max + n} "
+                print(f"id sequence would be set to {args.walden_max + n} "
                       f"(next mint: {args.walden_max + n + 1}) -- skipped in dry-run")
 
             # post-checks: the collision zone must be fully vacated for the

@@ -79,7 +79,8 @@ def main():
 
             cols_sql = ", ".join(SOURCE_COLUMNS)
             params_sql = ", ".join(f":{c}" for c in SOURCE_COLUMNS)
-            insert_source = text(f"INSERT INTO sources ({cols_sql}) VALUES ({params_sql})")
+            insert_source = text(
+                f"INSERT INTO sources ({cols_sql}) OVERRIDING SYSTEM VALUE VALUES ({params_sql})")
 
             n_issns = n_conflicts = 0
             for rec in records:
