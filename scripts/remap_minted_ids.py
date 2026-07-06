@@ -132,9 +132,16 @@ def main():
             if r.rowcount:
                 print(f"  source_ingest_issue.matched_source_ids: {r.rowcount} rows repointed")
 
-            seq = conn.execute(text("SELECT setval('source_id_seq', :v)"),
-                               {"v": args.walden_max + n}).scalar()
-            print(f"source_id_seq -> {seq} (next mint: {seq + 1})")
+            # setval is NON-transactional (never rolled back) -- only touch the
+            # sequence when actually committing, else a dry-run would leave the
+            # live sequence pointing into walden's id range
+            if args.execute:
+                seq = conn.execute(text("SELECT setval('source_id_seq', :v)"),
+                                   {"v": args.walden_max + n}).scalar()
+                print(f"source_id_seq -> {seq} (next mint: {seq + 1})")
+            else:
+                print(f"source_id_seq would be set to {args.walden_max + n} "
+                      f"(next mint: {args.walden_max + n + 1}) -- skipped in dry-run")
 
             # post-checks: the collision zone must be fully vacated for the
             # walden import, and nothing may sit past the new sequence head
