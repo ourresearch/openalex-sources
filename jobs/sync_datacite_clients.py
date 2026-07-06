@@ -1,24 +1,26 @@
 """Stage 2 of the DataCite job: reconcile `datacite_client` staging against the
-sources registry with an ISSN-FIRST match cascade (the Databricks pipeline never
-checked ISSN overlap for DataCite -- a duplicate-source vector this fixes):
+sources registry via the shared match cascade (sources_lib) — ISSN-FIRST (the
+Databricks pipeline never checked ISSN overlap for DataCite, a duplicate-source
+vector this fixes):
 
   1. client already linked (source_datacite_id)     -> enrich NULL fields only
-  2. unlinked, has ISSNs -> match source_issn:
+  2. unlinked, has ISSNs -> match_source (no name fallback):
        1 source  -> LINK it (+ enrich)
        >1        -> conflict row (merge candidate, feed='datacite')
        0         -> MINT (periodical->journal, else repository)
-  3. unlinked, no ISSNs -> unique exact-normalized-name match among unlinked
-     sources -> LINK; none -> MINT repository; ambiguous -> conflict row
+  3. unlinked, no ISSNs -> match_source name fallback among unlinked sources:
+     unique guarded match -> LINK; refused/ambiguous -> conflict row;
+     none -> MINT repository
 
   python -m jobs.sync_datacite_clients [--dry-run] [--limit N]
 """
 import argparse
-from collections import Counter, defaultdict
+from collections import Counter
 
 from sqlalchemy import text
 
 from db import engine
-from sources_lib import insert_issns, name_link_guard, normalize_issns, normalize_name, resolve_issn_l
+from sources_lib import MatchContext, match_source, mint_source, normalize_issns, park_multi_match
 
 CLIENT_TYPE_TO_SOURCE_TYPE = {"periodical": "journal", "repository": "repository"}
 
@@ -53,28 +55,14 @@ def _enrich(conn, source_id, client):
     ), {"id": source_id, "url": client.url, "prov": client.provider_name})
 
 
-def _mint(conn, client, issns):
-    stype = CLIENT_TYPE_TO_SOURCE_TYPE.get(client.client_type, "repository")
-    issn_l = resolve_issn_l(conn, issns) if issns else None
-    # is_oa=FALSE at mint (CreateSources parity: is_oa is derived from the DOAJ/
-    # SciELO/J-STAGE/high-OA-rate flags by jobs/apply_oa_flags, not asserted by feeds)
-    sid = conn.execute(text(
-        "INSERT INTO sources (display_name, type, issn_l, publisher, homepage_url, is_oa) "
-        "VALUES (:dn, :t, :l, :pub, :url, FALSE) RETURNING id"
-    ), {"dn": client.display_name, "t": stype, "l": issn_l,
-        "pub": client.provider_name, "url": client.url}).scalar()
-    insert_issns(conn, sid, issns, issn_l)
+def _mint(conn, ctx, client, issns):
+    sid = mint_source(
+        conn, ctx, client.display_name,
+        source_type=CLIENT_TYPE_TO_SOURCE_TYPE.get(client.client_type, "repository"),
+        issns=issns, publisher=client.provider_name, homepage_url=client.url,
+    )
     _link(conn, client.id, sid)
     return sid
-
-
-def _conflict(conn, client, matched_ids, issue_type="multi_match", extra=""):
-    conn.execute(text(
-        "INSERT INTO source_ingest_issue (source_feed, issue_type, issns, matched_source_ids, detail) "
-        "VALUES ('datacite', :t, :i, :m, :d) "
-        "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
-    ), {"t": issue_type, "i": normalize_issns(list(client.issns or [])), "m": sorted(matched_ids),
-        "d": f"{client.id}: {client.display_name}{extra}"})
 
 
 def run(dry_run=False, limit=None, batch=200):
@@ -84,19 +72,8 @@ def run(dry_run=False, limit=None, batch=200):
             sql += f" LIMIT {int(limit)}"
         clients = conn.execute(text(sql)).fetchall()
         linked = dict(conn.execute(text("SELECT datacite_id, source_id FROM source_datacite_id")).fetchall())
-        issn_to_sid = dict(conn.execute(text("SELECT issn, source_id FROM source_issn")).fetchall())
-        # name index over active sources without a datacite link (rule 3)
-        name_index = defaultdict(list)
-        linked_sids = set(linked.values())
-        for sid, name, publisher in conn.execute(text(
-                "SELECT id, display_name, publisher FROM sources WHERE merge_into_id IS NULL")).fetchall():
-            if sid not in linked_sids:
-                name_index[normalize_name(name)].append((sid, publisher))
-        # sources with an unresolved name-link refusal stay parked even if the
-        # guard would now pass (covers audited unlinks awaiting human review)
-        parked = {r[0] for r in conn.execute(text(
-            "SELECT DISTINCT unnest(matched_source_ids) FROM source_ingest_issue "
-            "WHERE issue_type = 'name_link_conflict' AND resolved_at IS NULL"))}
+        # name index excludes sources already carrying a datacite link (rule 3)
+        ctx = MatchContext(conn, name_link=True, exclude_from_names=set(linked.values()))
     print(f"{len(clients)} staged clients; {len(linked)} already linked; dry_run={dry_run}", flush=True)
 
     counts = Counter()
@@ -110,53 +87,43 @@ def run(dry_run=False, limit=None, batch=200):
                 counts["already_linked"] += 1
                 if not dry_run:
                     _enrich(conn, linked[c.id], c)
-            elif issns:
-                matched = {issn_to_sid[i] for i in issns if i in issn_to_sid}
-                if len(matched) == 1:
-                    sid = next(iter(matched))
-                    counts["linked_by_issn"] += 1
-                    if not dry_run:
-                        _link(conn, c.id, sid)
-                        _enrich(conn, sid, c)
-                    linked[c.id] = sid
-                elif len(matched) > 1:
-                    counts["conflict"] += 1
-                    if not dry_run:
-                        _conflict(conn, c, matched)
-                else:
-                    counts["added"] += 1
-                    if not dry_run:
-                        sid = _mint(conn, c, issns)
-                        for i in issns:
-                            issn_to_sid[i] = sid
-                        linked[c.id] = sid
+                kind = None
             else:
-                candidates = name_index.get(normalize_name(c.display_name), [])
-                if len(candidates) == 1:
-                    sid, src_publisher = candidates[0]
-                    refused = name_link_guard(c.display_name, src_publisher, c.provider_name)
-                    if not refused and sid in parked:
-                        refused = "previously_parked"
-                    if refused:
-                        counts[f"name_link_parked_{refused}"] += 1
-                        if not dry_run:
-                            _conflict(conn, c, [sid], issue_type="name_link_conflict",
-                                      extra=f" | {refused} | provider={c.provider_name} | src_pub={src_publisher}")
-                    else:
-                        counts["linked_by_name"] += 1
-                        if not dry_run:
-                            _link(conn, c.id, sid)
-                            _enrich(conn, sid, c)
-                        linked[c.id] = sid
-                elif len(candidates) > 1:
-                    counts["conflict"] += 1
-                    if not dry_run:
-                        _conflict(conn, c, [s for s, _ in candidates])
-                else:
-                    counts["added"] += 1
-                    if not dry_run:
-                        sid = _mint(conn, c, [])
-                        linked[c.id] = sid
+                # name fallback only for ISSN-less clients: a client WITH ISSNs
+                # that matches nothing is a new source, not a name-link candidate
+                kind, val = match_source(conn, ctx, issns, c.display_name, "datacite",
+                                         publisher=c.provider_name, use_name=not issns,
+                                         dry_run=dry_run)
+            if kind is None:
+                pass
+            elif kind == "issn":
+                counts["linked_by_issn"] += 1
+                if not dry_run:
+                    _link(conn, c.id, val)
+                    _enrich(conn, val, c)
+                linked[c.id] = val
+            elif kind == "issn_multi":
+                counts["conflict"] += 1
+                if not dry_run:
+                    park_multi_match(conn, "datacite", issns, val,
+                                     f"{c.id}: {c.display_name}")
+            elif kind == "name":
+                counts["linked_by_name"] += 1
+                if not dry_run:
+                    _link(conn, c.id, val)
+                    _enrich(conn, val, c)
+                linked[c.id] = val
+            elif kind == "name_parked":
+                counts[f"name_link_parked_{val}"] += 1
+            elif kind == "name_multi":
+                counts["conflict"] += 1
+                if not dry_run:
+                    park_multi_match(conn, "datacite", issns, val,
+                                     f"{c.id}: {c.display_name}")
+            else:  # 'none'
+                counts["added"] += 1
+                if not dry_run:
+                    linked[c.id] = _mint(conn, ctx, c, issns)
             done += 1
             if done % batch == 0:
                 if not dry_run:

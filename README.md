@@ -41,13 +41,13 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | job | what it does |
 |---|---|
 | `crossref_journals` | Fetch api.crossref.org/journals → `crossref_journal` (~137K). |
-| `sync_crossref_journals` | Upsert staged journals via `sources_lib.upsert_journal_by_issn` (mint / enrich / conflict). Also derives the SciELO flag from the Crossref publisher prefix. |
+| `sync_crossref_journals` | Reconcile staged journals via the shared match cascade (mint / enrich / conflict; no name fallback). Also derives the SciELO flag from the Crossref publisher prefix. |
 | `datacite_clients` | Fetch api.datacite.org/clients + providers → `datacite_client` (~4.4K). |
-| `sync_datacite_clients` | ISSN-first cascade: already linked → fill-NULLs; ISSN match → link; no ISSN → unique-exact-name link; else mint (`periodical`→journal, else repository). |
-| `doaj` | Fetch the public DOAJ CSV (~23K) and apply `is_in_doaj` / `doaj_license` / `is_in_doaj_start_year`, including delistings with a guarded `is_oa` recompute. `--mint` also adds journals the registry lacks (ISSN → unique-name link → mint cascade). |
+| `sync_datacite_clients` | Shared cascade, ISSN-first: already linked → fill-NULLs; ISSN match → link; no ISSN → guarded name link; else mint (`periodical`→journal, else repository). |
+| `doaj` | Fetch the public DOAJ CSV (~23K) and apply `is_in_doaj` / `doaj_license` / `is_in_doaj_start_year`, including delistings. `--mint` also adds journals the registry lacks (shared cascade: ISSN → guarded name link → mint). |
 | `issn_to_issnl` | Reload the ISSN→ISSN-L table from issn.org (atomic TRUNCATE + COPY). |
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
-| `apply_oa_flags` | Recompute `is_ojs`, `is_oa_high_oa_rate`, `is_fully_open_in_jstage`, and the derived `is_oa` from the mapping tables. Feeds never assert `is_oa`; this job derives it. |
+| `apply_oa_flags` | Recompute `is_ojs`, `is_oa_high_oa_rate`, `is_fully_open_in_jstage` from the mapping tables. |
 
 ## Scheduling (Advanced Scheduler)
 
@@ -70,9 +70,15 @@ day (exit-code based).
 
 `sources_lib.py` holds the primitives every feed shares:
 
-- `upsert_journal_by_issn(conn, issns, ...)` — the match/mint/enrich/conflict cascade.
-  Enrichment is override-guarded: a source touched by a curator (`override_timestamp`)
-  never has its `display_name` overwritten by a feed.
+- `MatchContext(conn, name_link=..., exclude_from_names=...)` + `match_source(...)` —
+  THE match cascade, one implementation for every feed: ISSN match → guarded unique-name
+  match (`name_link_guard`: ≥3 name tokens, no publisher contradiction, previously-parked
+  sources stay parked) → no match. Ambiguous/refused outcomes park in the conflict queue.
+- `mint_source(...)` / `enrich_journal(...)` — mint with an auto-minted S-id; feed-refresh
+  a matched journal. Enrichment is override-guarded: a source touched by a curator
+  (`override_timestamp`) never has its `display_name` overwritten by a feed.
+- `recompute_is_oa(conn)` — the SINGLE writer of `is_oa` (any of the four OA signals);
+  every feed job calls it at the end of its run instead of asserting `is_oa` itself.
 - `merge_source(conn, loser_id, winner_id, rule, ...)` — first-class merge: ISSNs move to
   the winner, the loser becomes a redirect, the winner's ISSN-L is re-resolved, and the
   merge is audited.

@@ -2,32 +2,34 @@
 journals, no credentials), stage it, and apply DOAJ status to sources:
 
   is_in_doaj / is_in_doaj_start_year / doaj_license, plus delistings (flag off
-  when a journal leaves DOAJ) and a guarded is_oa recompute on changed rows.
+  when a journal leaves DOAJ); is_oa is re-derived by sources_lib.recompute_is_oa.
 
 With --mint, DOAJ also ADDS journals the registry lacks (DOAJ is human-vetted,
 and we already harvest DOAJ articles into the works pipeline — their locations
-need these sources to match against). Same cascade as the DataCite sync:
-ISSN match -> already known; unique exact-normalized-name match -> attach the
-DOAJ ISSNs to that source; ambiguous name -> conflict row; no match -> mint.
+need these sources to match against) via the shared match cascade (sources_lib):
+ISSN match -> already known; unique guarded name match -> attach the DOAJ ISSNs
+to that source; ambiguous or guard-refused -> conflict row; no match -> mint.
 
   python -m jobs.doaj [--dry-run] [--skip-fetch] [--mint]
 """
 import argparse
 import csv
 import io
-from collections import Counter, defaultdict
+from collections import Counter
 
 import requests
 from sqlalchemy import text
 
 from db import engine
 from sources_lib import (
+    MatchContext,
     insert_issns,
-    name_link_guard,
+    match_source,
+    mint_source,
     normalize_issns,
-    normalize_name,
+    park_multi_match,
+    recompute_is_oa,
     resolve_issn_l,
-    upsert_journal_by_issn,
 )
 
 DOAJ_CSV_URL = "https://doaj.org/csv"
@@ -82,17 +84,7 @@ def mint_missing(dry_run=False, batch=200):
     with engine.connect() as conn:
         staged = conn.execute(text(
             "SELECT issns, title, publisher FROM doaj_journal ORDER BY id")).fetchall()
-        issn_to_sid = dict(conn.execute(text(
-            "SELECT issn, source_id FROM source_issn")).fetchall())
-        name_index = defaultdict(list)
-        for sid, name, publisher in conn.execute(text(
-                "SELECT id, display_name, publisher FROM sources WHERE merge_into_id IS NULL")).fetchall():
-            name_index[normalize_name(name)].append((sid, publisher))
-        # sources with an unresolved name-link refusal stay parked even if the
-        # guard would now pass (covers audited unlinks awaiting human review)
-        parked = {r[0] for r in conn.execute(text(
-            "SELECT DISTINCT unnest(matched_source_ids) FROM source_ingest_issue "
-            "WHERE issue_type = 'name_link_conflict' AND resolved_at IS NULL"))}
+        ctx = MatchContext(conn, name_link=True)
 
     counts = Counter()
     conn = engine.connect()
@@ -101,51 +93,32 @@ def mint_missing(dry_run=False, batch=200):
     try:
         for row in staged:
             issns = normalize_issns(list(row.issns or []))
-            if not issns or any(i in issn_to_sid for i in issns):
+            if not issns:
                 counts["already_known"] += 1
                 continue
-            candidates = name_index.get(normalize_name(row.title), [])
-            if len(candidates) == 1:
-                sid, src_publisher = candidates[0]
-                refused = name_link_guard(row.title, src_publisher, row.publisher)
-                if not refused and sid in parked:
-                    refused = "previously_parked"
-                if refused:
-                    counts[f"name_link_parked_{refused}"] += 1
-                    if not dry_run:
-                        conn.execute(text(
-                            "INSERT INTO source_ingest_issue "
-                            "(source_feed, issue_type, issns, matched_source_ids, detail) "
-                            "VALUES ('doaj', 'name_link_conflict', :i, :m, :d) "
-                            "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
-                        ), {"i": issns, "m": [sid],
-                            "d": f"{refused}: {row.title} | doaj_pub={row.publisher} | src_pub={src_publisher}"})
-                    continue
+            kind, val = match_source(conn, ctx, issns, row.title, "doaj",
+                                     publisher=row.publisher, dry_run=dry_run)
+            if kind in ("issn", "issn_multi"):
+                # any known ISSN means the journal exists; apply() flags it.
+                # multi-ISSN merge candidates are Crossref's daily job's beat.
+                counts["already_known"] += 1
+                continue
+            if kind == "name":
                 counts["linked_by_name"] += 1
                 if not dry_run:
                     issn_l = resolve_issn_l(conn, issns)
-                    insert_issns(conn, sid, issns, issn_l)
-                    for i in issns:
-                        issn_to_sid[i] = sid
-            elif len(candidates) > 1:
+                    insert_issns(conn, val, issns, issn_l)
+                    ctx.register(val, issns)
+            elif kind == "name_parked":
+                counts[f"name_link_parked_{val}"] += 1
+            elif kind == "name_multi":
                 counts["conflict"] += 1
                 if not dry_run:
-                    conn.execute(text(
-                        "INSERT INTO source_ingest_issue "
-                        "(source_feed, issue_type, issns, matched_source_ids, detail) "
-                        "VALUES ('doaj', 'multi_match', :i, :m, :d) "
-                        "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
-                    ), {"i": issns, "m": sorted(c[0] for c in candidates), "d": row.title})
-            else:
+                    park_multi_match(conn, "doaj", issns, val, row.title)
+            else:  # 'none'
                 counts["added"] += 1
                 if not dry_run:
-                    _, sid = upsert_journal_by_issn(
-                        conn, issns, display_name=row.title,
-                        publisher=row.publisher, source_feed="doaj")
-                    if sid:
-                        for i in issns:
-                            issn_to_sid[i] = sid
-                        name_index[normalize_name(row.title)].append((sid, row.publisher))
+                    mint_source(conn, ctx, row.title, issns=issns, publisher=row.publisher)
             done += 1
             if done % batch == 0 and not dry_run:
                 trans.commit()
@@ -198,7 +171,6 @@ def apply(dry_run=False):
                 is_in_doaj = TRUE,
                 is_in_doaj_start_year = f.start_year,
                 doaj_license = f.license,
-                is_oa = TRUE,
                 updated_date = now()
             FROM _doaj_flags f
             WHERE f.source_id = s.id
@@ -206,20 +178,18 @@ def apply(dry_run=False):
                    OR s.is_in_doaj_start_year IS DISTINCT FROM f.start_year
                    OR s.doaj_license IS DISTINCT FROM f.license)
         """))
-        # delistings: flag off and recompute is_oa from the remaining OA signals
+        # delistings: flag off; is_oa is re-derived below
         conn.execute(text("""
             UPDATE sources s SET
                 is_in_doaj = FALSE,
                 is_in_doaj_start_year = NULL,
                 doaj_license = NULL,
-                is_oa = (COALESCE(s.is_in_scielo, FALSE)
-                         OR COALESCE(s.is_oa_high_oa_rate, FALSE)
-                         OR COALESCE(s.is_fully_open_in_jstage, FALSE)),
                 updated_date = now()
             WHERE s.is_in_doaj = TRUE AND s.merge_into_id IS NULL
               AND NOT EXISTS (SELECT 1 FROM _doaj_flags f WHERE f.source_id = s.id)
         """))
-    print("applied (DONE)", flush=True)
+        oa = recompute_is_oa(conn)
+    print(f"applied (DONE); is_oa recomputed on {oa}", flush=True)
 
 
 def main():

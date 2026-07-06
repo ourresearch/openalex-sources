@@ -6,8 +6,9 @@
                              OR the effective high_oa_rate_issn list
   is_fully_open_in_jstage -- a J-STAGE OA window covers the source's whole
                              publication span (source_publication_years snapshot)
-  is_oa                   -- is_in_doaj OR is_fully_open_in_jstage OR is_in_scielo
-                             OR is_oa_high_oa_rate
+
+is_oa itself is then re-derived by sources_lib.recompute_is_oa (the single
+writer of is_oa: is_in_doaj OR jstage_full OR is_in_scielo OR high_oa_rate).
 
 Only changed rows are written. Run after scripts/import_oa_flag_tables.py refreshes
 the mapping tables, and weekly to pick up new mints + publication-span drift.
@@ -19,6 +20,7 @@ import argparse
 from sqlalchemy import text
 
 from db import engine
+from sources_lib import recompute_is_oa
 
 PUBLISHER_OA_RULE = "^(mdpi|academic journals|edorium journals)"
 
@@ -83,19 +85,16 @@ def run(dry_run=False):
                 is_oa_high_oa_rate = f.new_hoar,
                 high_oa_rate_start_year = CASE WHEN f.new_hoar THEN f.new_hoar_start END,
                 is_fully_open_in_jstage = f.new_jstage_full,
-                is_oa = (COALESCE(s.is_in_doaj, FALSE) OR f.new_jstage_full
-                         OR COALESCE(s.is_in_scielo, FALSE) OR f.new_hoar),
                 updated_date = now()
             FROM _oa_flags f
             WHERE f.id = s.id
               AND (s.is_ojs IS DISTINCT FROM f.new_is_ojs
                    OR s.is_oa_high_oa_rate IS DISTINCT FROM f.new_hoar
                    OR (s.high_oa_rate_start_year IS DISTINCT FROM f.new_hoar_start AND f.new_hoar)
-                   OR s.is_fully_open_in_jstage IS DISTINCT FROM f.new_jstage_full
-                   OR s.is_oa IS DISTINCT FROM (COALESCE(s.is_in_doaj, FALSE) OR f.new_jstage_full
-                                                OR COALESCE(s.is_in_scielo, FALSE) OR f.new_hoar))
+                   OR s.is_fully_open_in_jstage IS DISTINCT FROM f.new_jstage_full)
         """))
-    print("applied (DONE)", flush=True)
+        oa = recompute_is_oa(conn)
+    print(f"applied (DONE); is_oa recomputed on {oa}", flush=True)
 
 
 def main():

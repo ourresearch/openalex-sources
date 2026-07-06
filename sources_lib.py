@@ -1,18 +1,28 @@
 """Core source-registry primitives, generic over the feed (Crossref, ISSN
-portal, DOAJ, ...). Ports the guts add_missing_journals match/mint/update
-logic onto the normalized sources + source_issn schema.
+portal, DOAJ, DataCite, ...).
 
-Match is on ISSN (source_issn.UNIQUE(issn) is the authoritative index):
-  - 0 incoming ISSNs match an existing source -> MINT a new journal source
-  - exactly 1 source matches            -> ENRICH it (add missing ISSNs; fill
-                                           display_name/publisher, override-guarded)
-  - >1 source matches                   -> CONFLICT: log a merge candidate, skip
+Every feed sync is the same cascade, implemented ONCE here:
+
+  1. build a MatchContext (in-memory ISSN / name / parked indexes, one scan each)
+  2. per staged row, match_source() finds the existing source:
+       ISSN matches 1 source   -> ('issn', sid)
+       ISSN matches >1         -> ('issn_multi', ids)   caller parks a merge candidate
+       unique name match       -> ('name', sid)          guarded: name_link_guard +
+                                                          previously-parked stay parked
+       ambiguous / refused     -> ('name_multi', ids) / ('name_parked', reason)
+       nothing                 -> ('none', None)
+  3. the feed job acts on the outcome: enrich_journal() / mint_source() /
+     park_multi_match() / its own feed-native link step (e.g. source_datacite_id)
+
+is_oa is DERIVED, with a single writer: feeds set only their own signal column
+(is_in_doaj, is_in_scielo, ...) and call recompute_is_oa() at the end of the run.
 
 Merges (merge_source) are first-class: loser's ISSNs move to the winner, the
 loser keeps a merge_into_id redirect, and every merge is audited in source_merge.
 """
 import json
 import unicodedata
+from collections import defaultdict
 
 from sqlalchemy import text
 
@@ -101,96 +111,155 @@ def insert_issns(conn, source_id, issns, issn_l):
     refresh_issns_column(conn, source_id)
 
 
-def upsert_journal_by_issn(
-    conn,
-    issns,
-    display_name=None,
-    publisher=None,
-    crossref_id=None,
-    source_feed="crossref",
-    dry_run=False,
-):
-    """Returns (outcome, source_id). outcome in
-    {added, updated, unchanged, conflict, skipped_no_issn}."""
-    issns = normalize_issns(issns)
-    if not issns:
-        return "skipped_no_issn", None
+class MatchContext:
+    """In-memory match indexes for one reconcile run (one scan per table).
 
-    matched = sorted(
-        r[0]
-        for r in conn.execute(
-            text("SELECT DISTINCT source_id FROM source_issn WHERE issn = ANY(:issns)"),
-            {"issns": issns},
-        )
-    )
+    name_link=True additionally builds the name index over active sources and
+    the parked set for the guarded name-link fallback; exclude_from_names drops
+    sources that must not be name-link candidates (e.g. the DataCite sync
+    excludes sources that already carry a datacite link).
+    """
 
-    if len(matched) > 1:
-        if not dry_run:
-            # one row per (feed, id-set) ever -- persisting conflicts re-surface
-            # every sync run and must not re-accumulate (see migration 005)
-            conn.execute(
-                text(
+    def __init__(self, conn, name_link=False, exclude_from_names=()):
+        self.issn_to_sid = {}
+        self.sid_to_issns = defaultdict(set)
+        for sid, issn in conn.execute(text("SELECT source_id, issn FROM source_issn")):
+            self.issn_to_sid[issn] = sid
+            self.sid_to_issns[sid].add(issn)
+        self.name_link = name_link
+        self.name_index = defaultdict(list)  # normalized name -> [(sid, publisher)]
+        self.parked = set()
+        if name_link:
+            skip = set(exclude_from_names)
+            for sid, name, publisher in conn.execute(text(
+                    "SELECT id, display_name, publisher FROM sources WHERE merge_into_id IS NULL")):
+                if sid not in skip:
+                    self.name_index[normalize_name(name)].append((sid, publisher))
+            # sources with an unresolved name-link refusal stay parked even if
+            # the guard would now pass (covers audited unlinks awaiting review)
+            self.parked = {r[0] for r in conn.execute(text(
+                "SELECT DISTINCT unnest(matched_source_ids) FROM source_ingest_issue "
+                "WHERE issue_type = 'name_link_conflict' AND resolved_at IS NULL"))}
+
+    def classify(self, issns):
+        """No-write fast path: added / updated / unchanged / conflict."""
+        matched = {self.issn_to_sid[i] for i in issns if i in self.issn_to_sid}
+        if not matched:
+            return "added"
+        if len(matched) > 1:
+            return "conflict"
+        sid = next(iter(matched))
+        return "updated" if set(issns) - self.sid_to_issns[sid] else "unchanged"
+
+    def register(self, sid, issns=(), name=None, publisher=None):
+        """Keep the indexes current after an in-run mint / link / enrich."""
+        for i in issns:
+            self.issn_to_sid[i] = sid
+            self.sid_to_issns[sid].add(i)
+        if self.name_link and name:
+            self.name_index[normalize_name(name)].append((sid, publisher))
+
+
+def match_source(conn, ctx, issns, display_name, source_feed,
+                 publisher=None, use_name=None, dry_run=False):
+    """The shared match step. Returns (kind, value):
+
+      ('issn', sid)            exactly one source owns an incoming ISSN
+      ('issn_multi', ids)      merge candidate -- caller decides (park_multi_match)
+      ('name', sid)            unique guarded name match (only when use_name)
+      ('name_parked', reason)  guard refused; queue row written here
+      ('name_multi', ids)      ambiguous name -- caller decides
+      ('none', None)           no match; caller mints
+
+    use_name defaults to ctx.name_link; pass False to skip the name fallback for
+    a specific call (e.g. DataCite clients WITH ISSNs mint on no-match instead).
+    """
+    matched = sorted({ctx.issn_to_sid[i] for i in issns if i in ctx.issn_to_sid})
+    if len(matched) == 1:
+        return "issn", matched[0]
+    if matched:
+        return "issn_multi", matched
+
+    use_name = ctx.name_link if use_name is None else (use_name and ctx.name_link)
+    if not use_name or not display_name:
+        return "none", None
+    candidates = ctx.name_index.get(normalize_name(display_name), [])
+    if len(candidates) == 1:
+        sid, src_publisher = candidates[0]
+        refused = name_link_guard(display_name, src_publisher, publisher)
+        if not refused and sid in ctx.parked:
+            refused = "previously_parked"
+        if refused:
+            if not dry_run:
+                conn.execute(text(
                     "INSERT INTO source_ingest_issue "
                     "(source_feed, issue_type, issns, matched_source_ids, detail) "
-                    "VALUES (:f, 'multi_match', :i, :m, :d) "
+                    "VALUES (:f, 'name_link_conflict', :i, :m, :d) "
                     "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
-                ),
-                {"f": source_feed, "i": issns, "m": matched, "d": display_name},
-            )
-        return "conflict", None
+                ), {"f": source_feed, "i": list(issns), "m": [sid],
+                    "d": f"{refused}: {display_name} | feed_pub={publisher} | src_pub={src_publisher}"})
+            return "name_parked", refused
+        return "name", sid
+    if len(candidates) > 1:
+        return "name_multi", [s for s, _ in candidates]
+    return "none", None
 
-    # ---- mint a new journal source -------------------------------------
-    if not matched:
-        if dry_run:
-            return "added", None
-        issn_l = resolve_issn_l(conn, issns)
-        sid = conn.execute(
-            text(
-                "INSERT INTO sources (display_name, type, issn_l, publisher, crossref_id) "
-                "VALUES (:dn, 'journal', :l, :pub, :cid) RETURNING id"
-            ),
-            {"dn": display_name, "l": issn_l, "pub": publisher, "cid": crossref_id},
-        ).scalar()
+
+def park_multi_match(conn, source_feed, issns, matched_ids, detail):
+    """Queue a merge candidate. One row per (feed, id-set) ever -- persisting
+    conflicts re-surface every sync run and must not re-accumulate (mig. 005)."""
+    conn.execute(text(
+        "INSERT INTO source_ingest_issue "
+        "(source_feed, issue_type, issns, matched_source_ids, detail) "
+        "VALUES (:f, 'multi_match', :i, :m, :d) "
+        "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
+    ), {"f": source_feed, "i": list(issns), "m": sorted(matched_ids), "d": detail})
+
+
+def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
+                publisher=None, crossref_id=None, homepage_url=None):
+    """Mint a new source (auto-minted id from source_id_seq) and register it in
+    the context. is_oa starts FALSE: it is derived, see recompute_is_oa."""
+    issn_l = resolve_issn_l(conn, issns) if issns else None
+    sid = conn.execute(text(
+        "INSERT INTO sources (display_name, type, issn_l, publisher, crossref_id, "
+        "homepage_url, is_oa) VALUES (:dn, :t, :l, :pub, :cid, :url, FALSE) RETURNING id"
+    ), {"dn": display_name, "t": source_type, "l": issn_l, "pub": publisher,
+        "cid": crossref_id, "url": homepage_url}).scalar()
+    if issns:
         insert_issns(conn, sid, issns, issn_l)
-        return "added", sid
+    ctx.register(sid, issns, name=display_name, publisher=publisher)
+    return sid
 
-    # ---- enrich the single matching source -----------------------------
-    sid = matched[0]
-    existing = {
-        r[0]
-        for r in conn.execute(
-            text("SELECT issn FROM source_issn WHERE source_id = :id"), {"id": sid}
-        )
-    }
+
+def enrich_journal(conn, ctx, sid, issns=(), display_name=None, publisher=None,
+                   crossref_id=None):
+    """Feed-refresh of an ISSN-matched journal: attach missing ISSNs, refresh
+    display_name unless curator-overridden (guts parity), fill publisher when we
+    have no resolved publisher, fill crossref_id. Returns 'updated'/'unchanged'."""
+    existing = {r[0] for r in conn.execute(
+        text("SELECT issn FROM source_issn WHERE source_id = :id"), {"id": sid})}
     missing = [i for i in issns if i not in existing]
 
-    row = conn.execute(
-        text(
-            "SELECT display_name, publisher, publisher_id, crossref_id, override_timestamp "
-            "FROM sources WHERE id = :id"
-        ),
-        {"id": sid},
-    ).fetchone()
+    row = conn.execute(text(
+        "SELECT display_name, publisher, publisher_id, crossref_id, override_timestamp "
+        "FROM sources WHERE id = :id"), {"id": sid}).fetchone()
 
     updates = {}
-    # display_name: refresh from feed only when not human-overridden (guts parity)
     if display_name and row.override_timestamp is None and display_name != row.display_name:
         updates["display_name"] = display_name
-    # publisher: only fill when we don't already have a resolved publisher
     if publisher and row.publisher_id is None and not row.publisher:
         updates["publisher"] = publisher
     if crossref_id and not row.crossref_id:
         updates["crossref_id"] = crossref_id
 
     if not missing and not updates:
-        return "unchanged", sid
-
-    if dry_run:
-        return "updated", sid
+        return "unchanged"
 
     if missing:
         issn_l = resolve_issn_l(conn, list(existing | set(issns)))
         insert_issns(conn, sid, missing, issn_l)
+        ctx.register(sid, missing)
     if updates:
         set_clause = ", ".join(f"{k} = :{k}" for k in updates)
         conn.execute(
@@ -201,7 +270,23 @@ def upsert_journal_by_issn(
         conn.execute(
             text("UPDATE sources SET updated_date = now() WHERE id = :id"), {"id": sid}
         )
-    return "updated", sid
+    return "updated"
+
+
+def recompute_is_oa(conn):
+    """THE single writer of sources.is_oa (= any of the four OA signals).
+    Feeds set only their own signal column and call this at the end of the run.
+    Returns the number of rows whose is_oa changed."""
+    return conn.execute(text("""
+        UPDATE sources SET
+            is_oa = (COALESCE(is_in_doaj, FALSE) OR COALESCE(is_fully_open_in_jstage, FALSE)
+                     OR COALESCE(is_in_scielo, FALSE) OR COALESCE(is_oa_high_oa_rate, FALSE)),
+            updated_date = now()
+        WHERE merge_into_id IS NULL
+          AND is_oa IS DISTINCT FROM
+              (COALESCE(is_in_doaj, FALSE) OR COALESCE(is_fully_open_in_jstage, FALSE)
+               OR COALESCE(is_in_scielo, FALSE) OR COALESCE(is_oa_high_oa_rate, FALSE))
+    """)).rowcount
 
 
 def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None):
