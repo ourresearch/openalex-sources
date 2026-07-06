@@ -88,6 +88,11 @@ def mint_missing(dry_run=False, batch=200):
         for sid, name, publisher in conn.execute(text(
                 "SELECT id, display_name, publisher FROM sources WHERE merge_into_id IS NULL")).fetchall():
             name_index[normalize_name(name)].append((sid, publisher))
+        # sources with an unresolved name-link refusal stay parked even if the
+        # guard would now pass (covers audited unlinks awaiting human review)
+        parked = {r[0] for r in conn.execute(text(
+            "SELECT DISTINCT unnest(matched_source_ids) FROM source_ingest_issue "
+            "WHERE issue_type = 'name_link_conflict' AND resolved_at IS NULL"))}
 
     counts = Counter()
     conn = engine.connect()
@@ -103,6 +108,8 @@ def mint_missing(dry_run=False, batch=200):
             if len(candidates) == 1:
                 sid, src_publisher = candidates[0]
                 refused = name_link_guard(row.title, src_publisher, row.publisher)
+                if not refused and sid in parked:
+                    refused = "previously_parked"
                 if refused:
                     counts[f"name_link_parked_{refused}"] += 1
                     if not dry_run:

@@ -92,6 +92,11 @@ def run(dry_run=False, limit=None, batch=200):
                 "SELECT id, display_name, publisher FROM sources WHERE merge_into_id IS NULL")).fetchall():
             if sid not in linked_sids:
                 name_index[normalize_name(name)].append((sid, publisher))
+        # sources with an unresolved name-link refusal stay parked even if the
+        # guard would now pass (covers audited unlinks awaiting human review)
+        parked = {r[0] for r in conn.execute(text(
+            "SELECT DISTINCT unnest(matched_source_ids) FROM source_ingest_issue "
+            "WHERE issue_type = 'name_link_conflict' AND resolved_at IS NULL"))}
     print(f"{len(clients)} staged clients; {len(linked)} already linked; dry_run={dry_run}", flush=True)
 
     counts = Counter()
@@ -130,6 +135,8 @@ def run(dry_run=False, limit=None, batch=200):
                 if len(candidates) == 1:
                     sid, src_publisher = candidates[0]
                     refused = name_link_guard(c.display_name, src_publisher, c.provider_name)
+                    if not refused and sid in parked:
+                        refused = "previously_parked"
                     if refused:
                         counts[f"name_link_parked_{refused}"] += 1
                         if not dry_run:
