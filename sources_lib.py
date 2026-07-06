@@ -44,6 +44,26 @@ def normalize_issns(issns):
     return out
 
 
+def name_link_guard(name, source_publisher, feed_publisher):
+    """Guard for name-only auto-links (no shared ISSN / feed-native id evidence).
+    Returns None when the link may proceed, else the refusal reason.
+
+    An exact-normalized-name match is weak evidence on its own: generic titles
+    ("Currents", "Kritika", "Matrix") exist independently at multiple publishers,
+    and the 2026-07-06 pre-cutover audit found real cross-publisher mis-links from
+    this path. A name-only link must clear both checks:
+      - the name has >=3 tokens (generic short titles are never auto-linked), and
+      - the two publishers, when both known, don't contradict (substring-tolerant).
+    Refused links belong in source_ingest_issue as 'name_link_conflict'.
+    """
+    if len(normalize_name(name).split()) < 3:
+        return "short_name"
+    a, b = normalize_name(source_publisher), normalize_name(feed_publisher)
+    if a and b and a != b and a not in b and b not in a:
+        return "publisher_conflict"
+    return None
+
+
 def resolve_issn_l(conn, issns):
     """Best-effort ISSN-L: use the issn_to_issnl map if it knows any of these
     ISSNs, else fall back to the first ISSN."""

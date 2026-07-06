@@ -18,7 +18,7 @@ from collections import Counter, defaultdict
 from sqlalchemy import text
 
 from db import engine
-from sources_lib import insert_issns, normalize_issns, normalize_name, resolve_issn_l
+from sources_lib import insert_issns, name_link_guard, normalize_issns, normalize_name, resolve_issn_l
 
 CLIENT_TYPE_TO_SOURCE_TYPE = {"periodical": "journal", "repository": "repository"}
 
@@ -68,13 +68,13 @@ def _mint(conn, client, issns):
     return sid
 
 
-def _conflict(conn, client, matched_ids):
+def _conflict(conn, client, matched_ids, issue_type="multi_match", extra=""):
     conn.execute(text(
         "INSERT INTO source_ingest_issue (source_feed, issue_type, issns, matched_source_ids, detail) "
-        "VALUES ('datacite', 'multi_match', :i, :m, :d) "
+        "VALUES ('datacite', :t, :i, :m, :d) "
         "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
-    ), {"i": normalize_issns(list(client.issns or [])), "m": sorted(matched_ids),
-        "d": f"{client.id}: {client.display_name}"})
+    ), {"t": issue_type, "i": normalize_issns(list(client.issns or [])), "m": sorted(matched_ids),
+        "d": f"{client.id}: {client.display_name}{extra}"})
 
 
 def run(dry_run=False, limit=None, batch=200):
@@ -88,10 +88,10 @@ def run(dry_run=False, limit=None, batch=200):
         # name index over active sources without a datacite link (rule 3)
         name_index = defaultdict(list)
         linked_sids = set(linked.values())
-        for sid, name in conn.execute(text(
-                "SELECT id, display_name FROM sources WHERE merge_into_id IS NULL")).fetchall():
+        for sid, name, publisher in conn.execute(text(
+                "SELECT id, display_name, publisher FROM sources WHERE merge_into_id IS NULL")).fetchall():
             if sid not in linked_sids:
-                name_index[normalize_name(name)].append(sid)
+                name_index[normalize_name(name)].append((sid, publisher))
     print(f"{len(clients)} staged clients; {len(linked)} already linked; dry_run={dry_run}", flush=True)
 
     counts = Counter()
@@ -128,15 +128,23 @@ def run(dry_run=False, limit=None, batch=200):
             else:
                 candidates = name_index.get(normalize_name(c.display_name), [])
                 if len(candidates) == 1:
-                    counts["linked_by_name"] += 1
-                    if not dry_run:
-                        _link(conn, c.id, candidates[0])
-                        _enrich(conn, candidates[0], c)
-                    linked[c.id] = candidates[0]
+                    sid, src_publisher = candidates[0]
+                    refused = name_link_guard(c.display_name, src_publisher, c.provider_name)
+                    if refused:
+                        counts[f"name_link_parked_{refused}"] += 1
+                        if not dry_run:
+                            _conflict(conn, c, [sid], issue_type="name_link_conflict",
+                                      extra=f" | {refused} | provider={c.provider_name} | src_pub={src_publisher}")
+                    else:
+                        counts["linked_by_name"] += 1
+                        if not dry_run:
+                            _link(conn, c.id, sid)
+                            _enrich(conn, sid, c)
+                        linked[c.id] = sid
                 elif len(candidates) > 1:
                     counts["conflict"] += 1
                     if not dry_run:
-                        _conflict(conn, c, candidates)
+                        _conflict(conn, c, [s for s, _ in candidates])
                 else:
                     counts["added"] += 1
                     if not dry_run:

@@ -23,6 +23,7 @@ from sqlalchemy import text
 from db import engine
 from sources_lib import (
     insert_issns,
+    name_link_guard,
     normalize_issns,
     normalize_name,
     resolve_issn_l,
@@ -84,9 +85,9 @@ def mint_missing(dry_run=False, batch=200):
         issn_to_sid = dict(conn.execute(text(
             "SELECT issn, source_id FROM source_issn")).fetchall())
         name_index = defaultdict(list)
-        for sid, name in conn.execute(text(
-                "SELECT id, display_name FROM sources WHERE merge_into_id IS NULL")).fetchall():
-            name_index[normalize_name(name)].append(sid)
+        for sid, name, publisher in conn.execute(text(
+                "SELECT id, display_name, publisher FROM sources WHERE merge_into_id IS NULL")).fetchall():
+            name_index[normalize_name(name)].append((sid, publisher))
 
     counts = Counter()
     conn = engine.connect()
@@ -100,9 +101,21 @@ def mint_missing(dry_run=False, batch=200):
                 continue
             candidates = name_index.get(normalize_name(row.title), [])
             if len(candidates) == 1:
+                sid, src_publisher = candidates[0]
+                refused = name_link_guard(row.title, src_publisher, row.publisher)
+                if refused:
+                    counts[f"name_link_parked_{refused}"] += 1
+                    if not dry_run:
+                        conn.execute(text(
+                            "INSERT INTO source_ingest_issue "
+                            "(source_feed, issue_type, issns, matched_source_ids, detail) "
+                            "VALUES ('doaj', 'name_link_conflict', :i, :m, :d) "
+                            "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
+                        ), {"i": issns, "m": [sid],
+                            "d": f"{refused}: {row.title} | doaj_pub={row.publisher} | src_pub={src_publisher}"})
+                    continue
                 counts["linked_by_name"] += 1
                 if not dry_run:
-                    sid = candidates[0]
                     issn_l = resolve_issn_l(conn, issns)
                     insert_issns(conn, sid, issns, issn_l)
                     for i in issns:
@@ -115,7 +128,7 @@ def mint_missing(dry_run=False, batch=200):
                         "(source_feed, issue_type, issns, matched_source_ids, detail) "
                         "VALUES ('doaj', 'multi_match', :i, :m, :d) "
                         "ON CONFLICT (source_feed, issue_type, matched_source_ids) DO NOTHING"
-                    ), {"i": issns, "m": sorted(candidates), "d": row.title})
+                    ), {"i": issns, "m": sorted(c[0] for c in candidates), "d": row.title})
             else:
                 counts["added"] += 1
                 if not dry_run:
@@ -125,7 +138,7 @@ def mint_missing(dry_run=False, batch=200):
                     if sid:
                         for i in issns:
                             issn_to_sid[i] = sid
-                        name_index[normalize_name(row.title)].append(sid)
+                        name_index[normalize_name(row.title)].append((sid, row.publisher))
             done += 1
             if done % batch == 0 and not dry_run:
                 trans.commit()
