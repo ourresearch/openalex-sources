@@ -1,0 +1,163 @@
+"""Cutover id remap (oxjob #548): keep every walden id, close the 7.5B jump.
+
+Two id-minting systems ran in parallel after the 2026-06-30 backfill:
+  - walden's CreateSources kept minting daily from 7,407,059,452 upward; those
+    ids are live on the public API and MUST be preserved.
+  - this app minted 978 ids in the same range (collision zone), then was bumped
+    to a 7,500,000,000+ mitigation range and kept minting there.
+
+At cutover, walden stops minting and every APP-minted row (id > BACKFILL_MAX)
+is re-assigned to continue sequentially from walden's final max id — no jump
+to 7.5B. The vacated collision-zone ids are then free for
+scripts/import_walden_mints.py to import walden's own post-export mints at
+their public ids.
+
+Run order at cutover (end2end + app Scheduler triggers paused):
+  1. pause walden end2end + this app's Scheduler triggers
+  2. WALDEN_MAX=$(walden: SELECT MAX(id) FROM openalex.sources.sources)
+  3. python scripts/remap_minted_ids.py --walden-max $WALDEN_MAX [--execute]
+  4. python scripts/import_walden_mints.py --parquet <walden post-export mints>
+
+Dry-run by default; pass --execute to commit. Everything runs in ONE
+transaction: the FKs that reference sources(id) are made DEFERRABLE and
+checked at commit. sources.id itself is remapped via a negative-id staging
+phase because the new range can overlap the collision zone being vacated
+(a direct UPDATE would trip the primary key mid-statement).
+
+Usage:
+  python scripts/remap_minted_ids.py --walden-max 7407060000 [--execute]
+"""
+import argparse
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from sqlalchemy import text
+
+from db import engine
+
+BACKFILL_MAX = 7407059451          # highest id loaded by load_initial_sources.py
+WALDEN_MAX_FLOOR = 7407059709      # walden MAX(id) observed 2026-07-06; refuse anything lower
+MITIGATION_RANGE_START = 7500000000
+
+# (table, column) pairs holding source ids, beyond sources.id itself
+ID_COLUMNS = [
+    ("sources", "merge_into_id"),
+    ("source_issn", "source_id"),
+    ("source_datacite_id", "source_id"),
+    ("source_merge", "loser_id"),
+    ("source_merge", "winner_id"),
+    ("source_works_count", "source_id"),
+    ("source_publication_years", "source_id"),
+]
+
+
+def make_fks_deferrable(conn):
+    fks = conn.execute(text("""
+        SELECT conrelid::regclass AS rel, conname
+        FROM pg_constraint
+        WHERE contype = 'f' AND confrelid = 'sources'::regclass
+    """)).fetchall()
+    for rel, name in fks:
+        conn.execute(text(f'ALTER TABLE {rel} ALTER CONSTRAINT "{name}" DEFERRABLE'))
+    conn.execute(text("SET CONSTRAINTS ALL DEFERRED"))
+    print(f"deferred {len(fks)} FKs referencing sources(id)")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--walden-max", type=int, required=True,
+                    help="walden's MAX(id) at pause time; new ids start right after it")
+    ap.add_argument("--execute", action="store_true", help="commit (default: dry-run)")
+    args = ap.parse_args()
+
+    if args.walden_max < WALDEN_MAX_FLOOR:
+        sys.exit(f"--walden-max {args.walden_max} < {WALDEN_MAX_FLOOR} (walden max "
+                 f"observed 2026-07-06); pass walden's CURRENT MAX(id) at pause time")
+    if args.walden_max >= MITIGATION_RANGE_START:
+        sys.exit(f"--walden-max {args.walden_max} is in the app's 7.5B mitigation range; "
+                 "that cannot be a walden id")
+
+    with engine.connect() as conn:
+        trans = conn.begin()
+        try:
+            make_fks_deferrable(conn)
+
+            conn.execute(text("""
+                CREATE TEMP TABLE id_remap ON COMMIT DROP AS
+                SELECT id AS old_id,
+                       :wmax + ROW_NUMBER() OVER (ORDER BY id) AS new_id
+                FROM sources WHERE id > :bmax
+            """), {"wmax": args.walden_max, "bmax": BACKFILL_MAX})
+            n = conn.execute(text("SELECT COUNT(*) FROM id_remap")).scalar()
+            lo, hi = conn.execute(text("SELECT MIN(new_id), MAX(new_id) FROM id_remap")).fetchone()
+            zone = conn.execute(text(
+                "SELECT COUNT(*) FROM id_remap WHERE old_id < :m"),
+                {"m": MITIGATION_RANGE_START}).scalar()
+            print(f"remapping {n} app-minted ids ({zone} collision-zone + {n - zone} at 7.5B+) "
+                  f"-> {lo}..{hi}")
+
+            sample = conn.execute(text(
+                "SELECT old_id, new_id FROM id_remap ORDER BY old_id LIMIT 5")).fetchall()
+            for o, w in sample:
+                print(f"  {o} -> {w}")
+
+            # permanent audit trail (migration 011)
+            conn.execute(text(
+                "INSERT INTO source_id_remap (old_id, new_id) SELECT old_id, new_id FROM id_remap"))
+
+            # sources.id via negative staging: the target range can overlap the
+            # collision zone being vacated, so a direct old->new UPDATE could
+            # collide with a not-yet-updated row inside the same statement.
+            conn.execute(text("UPDATE sources SET id = -id WHERE id > :bmax"),
+                         {"bmax": BACKFILL_MAX})
+            conn.execute(text(
+                "UPDATE sources s SET id = m.new_id FROM id_remap m WHERE s.id = -m.old_id"))
+
+            for table, col in ID_COLUMNS:
+                r = conn.execute(text(
+                    f"UPDATE {table} t SET {col} = m.new_id FROM id_remap m "
+                    f"WHERE t.{col} = m.old_id"))
+                if r.rowcount:
+                    print(f"  {table}.{col}: {r.rowcount} rows repointed")
+
+            r = conn.execute(text("""
+                UPDATE source_ingest_issue SET matched_source_ids = (
+                    SELECT array_agg(COALESCE(m.new_id, x.v) ORDER BY x.ord)
+                    FROM unnest(matched_source_ids) WITH ORDINALITY AS x(v, ord)
+                    LEFT JOIN id_remap m ON m.old_id = x.v)
+                WHERE matched_source_ids && ARRAY(SELECT old_id FROM id_remap)
+            """))
+            if r.rowcount:
+                print(f"  source_ingest_issue.matched_source_ids: {r.rowcount} rows repointed")
+
+            seq = conn.execute(text("SELECT setval('source_id_seq', :v)"),
+                               {"v": args.walden_max + n}).scalar()
+            print(f"source_id_seq -> {seq} (next mint: {seq + 1})")
+
+            # post-checks: the collision zone must be fully vacated for the
+            # walden import, and nothing may sit past the new sequence head
+            leftover = conn.execute(text(
+                "SELECT COUNT(*) FROM sources WHERE id > :bmax AND id <= :wmax"),
+                {"bmax": BACKFILL_MAX, "wmax": args.walden_max}).scalar()
+            overrun = conn.execute(text(
+                "SELECT COUNT(*) FROM sources WHERE id > :v"), {"v": args.walden_max + n}).scalar()
+            assert leftover == 0, f"{leftover} rows still in (backfill_max, walden_max]"
+            assert overrun == 0, f"{overrun} rows past the new sequence head"
+            print(f"post-checks OK: (≤{BACKFILL_MAX}] + [{args.walden_max + 1}..{args.walden_max + n}] "
+                  "with the walden range vacated for import")
+
+            if args.execute:
+                trans.commit()
+                print("COMMITTED")
+            else:
+                trans.rollback()
+                print("dry-run: rolled back")
+        except Exception:
+            trans.rollback()
+            raise
+
+
+if __name__ == "__main__":
+    main()
