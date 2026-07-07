@@ -82,11 +82,23 @@ def main():
             insert_source = text(
                 f"INSERT INTO sources ({cols_sql}) OVERRIDING SYSTEM VALUE VALUES ({params_sql})")
 
-            n_issns = n_conflicts = 0
+            n_issns = n_conflicts = n_dcids = 0
             for rec in records:
                 row = dict(zip(SOURCE_COLUMNS, build_source_row(rec)))
                 sid = row["id"]
+                # build_source_row NULLs merge_into_id for the loader's two-pass
+                # FK ordering; here parents always precede in walden's own data,
+                # and the FK is checked per-statement, so restore it directly
+                row["merge_into_id"] = _to_int(rec.get("merge_into_id"))
                 conn.execute(insert_source, row)
+                # keep the authoritative datacite link table in step with the
+                # JSONB column (migration 006 seeded it only at initial backfill)
+                for dcid in _parse_json(rec.get("datacite_ids_json")) or []:
+                    conn.execute(text(
+                        "INSERT INTO source_datacite_id (datacite_id, source_id) "
+                        "VALUES (:d, :s) ON CONFLICT (datacite_id) DO NOTHING"),
+                        {"d": dcid, "s": sid})
+                    n_dcids += 1
 
                 issn_l = _clean(rec.get("issn_l"))
                 for issn in normalize_issns(_parse_json(rec.get("issns_json")) or []):
@@ -111,7 +123,8 @@ def main():
                 refresh_issns_column(conn, sid)
 
             print(f"imported {len(records)} sources, attached {n_issns} issns, "
-                  f"queued {n_conflicts} issn conflicts for the merge queue")
+                  f"{n_dcids} datacite links, queued {n_conflicts} issn conflicts "
+                  "for the merge queue")
             if args.execute:
                 trans.commit()
                 print("COMMITTED")

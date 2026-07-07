@@ -51,17 +51,25 @@ def run(dry_run=False):
             )
             SELECT s.id,
                    COALESCE(ps.matched_ojs, FALSE) AS new_is_ojs,
-                   (COALESCE(s.publisher ~* :pub_rule, FALSE)
-                    OR COALESCE(s.is_in_scielo, FALSE)
-                    OR COALESCE(ps.ojs_is_oa, FALSE)
-                    OR COALESCE(ps.hoar_listed, FALSE)) AS new_hoar,
-                   CASE WHEN COALESCE(s.publisher ~* :pub_rule, FALSE)
+                   -- curation override (source_oa_override) is the FINAL word,
+                   -- with the retired DLT's exact precedence: is_oa beats
+                   -- flip_year beats the computed value
+                   CASE WHEN o.curated_is_oa IS NOT NULL THEN o.curated_is_oa
+                        WHEN o.curated_flip_year IS NOT NULL THEN TRUE
+                        ELSE (COALESCE(s.publisher ~* :pub_rule, FALSE)
+                              OR COALESCE(s.is_in_scielo, FALSE)
+                              OR COALESCE(ps.ojs_is_oa, FALSE)
+                              OR COALESCE(ps.hoar_listed, FALSE)) END AS new_hoar,
+                   CASE WHEN o.curated_is_oa = FALSE THEN NULL
+                        WHEN o.curated_flip_year IS NOT NULL THEN o.curated_flip_year + 1
+                        WHEN COALESCE(s.publisher ~* :pub_rule, FALSE)
                           OR COALESCE(s.is_in_scielo, FALSE)
                           OR COALESCE(ps.ojs_is_oa, FALSE) THEN NULL
                         ELSE ps.hoar_start END AS new_hoar_start,
                    COALESCE(ps.jstage_full, FALSE) AS new_jstage_full
             FROM sources s
             JOIN per_source ps ON ps.id = s.id
+            LEFT JOIN source_oa_override o ON o.source_id = s.id
         """), {"pub_rule": PUBLISHER_OA_RULE})
 
         changes = conn.execute(text("""

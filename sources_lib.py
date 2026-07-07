@@ -108,6 +108,13 @@ def insert_issns(conn, source_id, issns, issn_l):
             ),
             {"sid": source_id, "issn": issn, "is_l": issn == issn_l},
         )
+    # a previously ISSN-less source (e.g. a name-linked repo) gains an ISSN-L;
+    # never overwrite an existing issn_l (API-visible, may be curated)
+    if issn_l:
+        conn.execute(
+            text("UPDATE sources SET issn_l = COALESCE(issn_l, :l) WHERE id = :id"),
+            {"l": issn_l, "id": source_id},
+        )
     refresh_issns_column(conn, source_id)
 
 
@@ -217,9 +224,21 @@ def park_multi_match(conn, source_feed, issns, matched_ids, detail):
 
 
 def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
-                publisher=None, crossref_id=None, homepage_url=None):
+                publisher=None, crossref_id=None, homepage_url=None,
+                register_name=True):
     """Mint a new source (id assigned by the identity column) and register it in
-    the context. is_oa starts FALSE: it is derived, see recompute_is_oa."""
+    the context. is_oa starts FALSE: it is derived, see recompute_is_oa.
+
+    register_name=False keeps the mint out of the context's name index — the
+    DataCite sync needs this because its index excludes already-linked sources,
+    and a just-minted client IS linked (two distinct same-named clients must not
+    collapse onto one source).
+    """
+    # preprint servers are typed repository regardless of feed (parity with the
+    # retired CreateSources DLT rule)
+    lowered = (display_name or "").lower()
+    if source_type == "journal" and ("rxiv" in lowered or "research square" in lowered):
+        source_type = "repository"
     issn_l = resolve_issn_l(conn, issns) if issns else None
     sid = conn.execute(text(
         "INSERT INTO sources (display_name, type, issn_l, publisher, crossref_id, "
@@ -228,7 +247,8 @@ def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
         "cid": crossref_id, "url": homepage_url}).scalar()
     if issns:
         insert_issns(conn, sid, issns, issn_l)
-    ctx.register(sid, issns, name=display_name, publisher=publisher)
+    ctx.register(sid, issns, name=display_name if register_name else None,
+                 publisher=publisher)
     return sid
 
 

@@ -63,6 +63,15 @@ def make_fks_deferrable(conn):
         conn.execute(text(f'ALTER TABLE {rel} ALTER CONSTRAINT "{name}" DEFERRABLE'))
     conn.execute(text("SET CONSTRAINTS ALL DEFERRED"))
     print(f"deferred {len(fks)} FKs referencing sources(id)")
+    return fks
+
+
+def restore_fks(conn, fks):
+    """ALTER CONSTRAINT ... DEFERRABLE is persistent (SET CONSTRAINTS is only
+    transaction-local); put the schema back the way we found it."""
+    for rel, name in fks:
+        conn.execute(text(f'ALTER TABLE {rel} ALTER CONSTRAINT "{name}" NOT DEFERRABLE'))
+    print(f"restored {len(fks)} FKs to NOT DEFERRABLE")
 
 
 def main():
@@ -82,7 +91,7 @@ def main():
     with engine.connect() as conn:
         trans = conn.begin()
         try:
-            make_fks_deferrable(conn)
+            fks = make_fks_deferrable(conn)
 
             # sources.id is GENERATED ALWAYS (migration 012), which forbids
             # UPDATEs of the column; relax to BY DEFAULT for this transaction
@@ -167,6 +176,7 @@ def main():
             # rather than at COMMIT anyway
             conn.execute(text("SET CONSTRAINTS ALL IMMEDIATE"))
             conn.execute(text("ALTER TABLE sources ALTER COLUMN id SET GENERATED ALWAYS"))
+            restore_fks(conn, fks)
 
             if args.execute:
                 trans.commit()

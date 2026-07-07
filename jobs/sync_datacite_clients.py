@@ -66,6 +66,7 @@ def _mint(conn, ctx, client, issns):
         conn, ctx, client.display_name,
         source_type=CLIENT_TYPE_TO_SOURCE_TYPE.get(client.client_type, "repository"),
         issns=issns, publisher=client.provider_name, homepage_url=client.url,
+        register_name=False,  # minted client is linked; keep out of the name index
     )
     _link(conn, client.id, sid)
     return sid
