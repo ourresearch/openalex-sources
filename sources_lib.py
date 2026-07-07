@@ -74,15 +74,19 @@ def name_link_guard(name, source_publisher, feed_publisher):
     return None
 
 
-def resolve_issn_l(conn, issns):
+def resolve_issn_l(conn, issns, member_only=False):
     """Best-effort ISSN-L: use the issn_to_issnl map if it knows any of these
-    ISSNs, else fall back to the first ISSN."""
+    ISSNs, else fall back to the first ISSN. member_only restricts the answer
+    to the given set -- required wherever the result becomes sources.issn_l of
+    a source that owns exactly these ISSNs (issn_l membership is FK-enforced,
+    mig. 014)."""
     if not issns:
         return None
-    row = conn.execute(
-        text("SELECT issn_l FROM issn_to_issnl WHERE issn = ANY(:issns) AND issn_l IS NOT NULL LIMIT 1"),
-        {"issns": issns},
-    ).fetchone()
+    sql = "SELECT issn_l FROM issn_to_issnl WHERE issn = ANY(:issns) AND issn_l IS NOT NULL"
+    if member_only:
+        sql += " AND issn_l = ANY(:issns)"
+    sql += " ORDER BY issn LIMIT 1"
+    row = conn.execute(text(sql), {"issns": list(issns)}).fetchone()
     return row[0] if row else issns[0]
 
 
@@ -100,21 +104,37 @@ def refresh_issns_column(conn, source_id):
 
 
 def insert_issns(conn, source_id, issns, issn_l):
+    """Attach ISSNs and maintain the ISSN-L invariant: sources.issn_l is one of
+    the source's OWN ISSNs (FK-enforced, mig. 014) and is_issn_l flags exactly
+    the matching row. Never overwrites an existing issn_l (API-visible, may be
+    curated) -- flags are re-synced to whatever issn_l ends up being, so a
+    freshly resolved candidate that loses to the stored value can't leave a
+    second is_issn_l row behind."""
     for issn in issns:
         conn.execute(
             text(
                 "INSERT INTO source_issn (source_id, issn, is_issn_l) "
-                "VALUES (:sid, :issn, :is_l) ON CONFLICT (issn) DO NOTHING"
+                "VALUES (:sid, :issn, FALSE) ON CONFLICT (issn) DO NOTHING"
             ),
-            {"sid": source_id, "issn": issn, "is_l": issn == issn_l},
+            {"sid": source_id, "issn": issn},
         )
-    # a previously ISSN-less source (e.g. a name-linked repo) gains an ISSN-L;
-    # never overwrite an existing issn_l (API-visible, may be curated)
     if issn_l:
+        # fill only when unset, and only with an ISSN the source actually owns
         conn.execute(
-            text("UPDATE sources SET issn_l = COALESCE(issn_l, :l) WHERE id = :id"),
+            text(
+                "UPDATE sources SET issn_l = :l WHERE id = :id AND issn_l IS NULL "
+                "AND EXISTS (SELECT 1 FROM source_issn WHERE source_id = :id AND issn = :l)"
+            ),
             {"l": issn_l, "id": source_id},
         )
+    conn.execute(
+        text(
+            "UPDATE source_issn si SET is_issn_l = (si.issn IS NOT DISTINCT FROM s.issn_l) "
+            "FROM sources s WHERE s.id = :id AND si.source_id = :id "
+            "AND si.is_issn_l IS DISTINCT FROM (si.issn IS NOT DISTINCT FROM s.issn_l)"
+        ),
+        {"id": source_id},
+    )
     refresh_issns_column(conn, source_id)
 
 
@@ -133,6 +153,14 @@ class MatchContext:
         for sid, issn in conn.execute(text("SELECT source_id, issn FROM source_issn")):
             self.issn_to_sid[issn] = sid
             self.sid_to_issns[sid].add(issn)
+        # issn_l is FK-guaranteed to be an owned ISSN (mig. 014), so this index
+        # is normally a subset of issn_to_sid; it still catches any source whose
+        # issn_l membership is pending repair (e.g. a parked collision pair)
+        self.issnl_to_sid = {
+            issn_l: sid
+            for sid, issn_l in conn.execute(text(
+                "SELECT id, issn_l FROM sources WHERE merge_into_id IS NULL AND issn_l IS NOT NULL"))
+        }
         self.name_link = name_link
         self.name_index = defaultdict(list)  # normalized name -> [(sid, publisher)]
         self.parked = set()
@@ -181,7 +209,21 @@ def match_source(conn, ctx, issns, display_name, source_feed,
     use_name defaults to ctx.name_link; pass False to skip the name fallback for
     a specific call (e.g. DataCite clients WITH ISSNs mint on no-match instead).
     """
-    matched = sorted({ctx.issn_to_sid[i] for i in issns if i in ctx.issn_to_sid})
+    matched = {ctx.issn_to_sid[i] for i in issns if i in ctx.issn_to_sid}
+    if not matched and issns:
+        # ISSN-L expansion: no incoming ISSN is owned directly, but the registry
+        # map may link one to a source we already have (print vs online ISSN
+        # split). Without this, such rows minted duplicates whose issn_l
+        # collided with the existing source (2026-07-07 audit: 8 pairs).
+        mapped = {r[0] for r in conn.execute(text(
+            "SELECT DISTINCT issn_l FROM issn_to_issnl "
+            "WHERE issn = ANY(:i) AND issn_l IS NOT NULL"), {"i": list(issns)})}
+        for i in mapped | set(issns):
+            if i in ctx.issn_to_sid:
+                matched.add(ctx.issn_to_sid[i])
+            if i in ctx.issnl_to_sid:
+                matched.add(ctx.issnl_to_sid[i])
+    matched = sorted(matched)
     if len(matched) == 1:
         return "issn", matched[0]
     if matched:
@@ -239,7 +281,20 @@ def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
     lowered = (display_name or "").lower()
     if source_type == "journal" and ("rxiv" in lowered or "research square" in lowered):
         source_type = "repository"
+    issns = list(issns)
     issn_l = resolve_issn_l(conn, issns) if issns else None
+    if issn_l and issn_l not in issns:
+        # the registry map's linking ISSN isn't in the feed's set: adopt it as
+        # owned (issn_l membership is FK-enforced) -- unless another source owns
+        # it, which match_source's ISSN-L expansion should have caught; fall
+        # back to our own set rather than point at someone else's ISSN
+        owned = conn.execute(
+            text("SELECT 1 FROM source_issn WHERE issn = :l"), {"l": issn_l}
+        ).fetchone()
+        if owned:
+            issn_l = resolve_issn_l(conn, issns, member_only=True)
+        else:
+            issns.append(issn_l)
     sid = conn.execute(text(
         "INSERT INTO sources (display_name, type, issn_l, publisher, crossref_id, "
         "homepage_url, is_oa) VALUES (:dn, :t, :l, :pub, :cid, :url, FALSE) RETURNING id"
@@ -277,7 +332,10 @@ def enrich_journal(conn, ctx, sid, issns=(), display_name=None, publisher=None,
         return "unchanged"
 
     if missing:
-        issn_l = resolve_issn_l(conn, list(existing | set(issns)))
+        # member_only: the candidate must come from the source's own (enlarged)
+        # set -- a map-preferred outsider ISSN must not become issn_l here (it
+        # used to leave a second is_issn_l flag behind: 591 sources, mig. 014)
+        issn_l = resolve_issn_l(conn, list(existing | set(issns)), member_only=True)
         insert_issns(conn, sid, missing, issn_l)
         ctx.register(sid, missing)
     if updates:
@@ -342,8 +400,10 @@ def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None)
     )
     conn.execute(
         text(
+            # issn_l = NULL: the loser's ISSNs just moved to the winner, and a
+            # redirect row must not keep referencing an ISSN it no longer owns
             "UPDATE sources SET merge_into_id = :w, merge_into_date = now(), "
-            "updated_date = now() WHERE id = :l"
+            "issn_l = NULL, updated_date = now() WHERE id = :l"
         ),
         {"l": loser_id, "w": winner_id},
     )
@@ -355,7 +415,7 @@ def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None)
             text("SELECT issn FROM source_issn WHERE source_id = :id"), {"id": winner_id}
         )
     ]
-    issn_l = resolve_issn_l(conn, issns)
+    issn_l = resolve_issn_l(conn, issns, member_only=True) if issns else None
     conn.execute(
         text("UPDATE sources SET issn_l = :l, updated_date = now() WHERE id = :id"),
         {"l": issn_l, "id": winner_id},

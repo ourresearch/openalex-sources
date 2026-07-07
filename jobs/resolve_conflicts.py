@@ -42,7 +42,7 @@ def classify(pair, sources, works, merged_this_run):
 def run(dry_run=False, limit=None, batch=200):
     with engine.connect() as conn:
         issues = conn.execute(text(
-            "SELECT id, matched_source_ids, detail FROM source_ingest_issue "
+            "SELECT id, source_feed, matched_source_ids, detail FROM source_ingest_issue "
             "WHERE issue_type = 'multi_match' AND resolved_at IS NULL ORDER BY id"
         )).fetchall()
         all_ids = sorted({i for r in issues for i in r.matched_source_ids})
@@ -85,7 +85,8 @@ def run(dry_run=False, limit=None, batch=200):
 
             if verdict == "auto" and not dry_run:
                 outcome = merge_source(
-                    conn, loser, winner, rule="auto_name_match", source_feed="crossref",
+                    conn, loser, winner, rule="auto_name_match",
+                    source_feed=rows[0].source_feed,
                     detail={
                         "issue_ids": [r.id for r in rows],
                         "loser_name": sources[loser].display_name,

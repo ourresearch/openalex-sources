@@ -23,7 +23,7 @@ duplicates, parking everything else for a human.
 | table | what it is |
 |---|---|
 | `sources` | The registry AND the Databricks read contract (read directly via federation). PK = OpenAlex S-id (BIGINT). `id` is a `GENERATED ALWAYS AS IDENTITY` column — new ids auto-mint; explicit ids (backfill / walden-mint import only) require `OVERRIDING SYSTEM VALUE` + a `setval` resync to MAX(id). `issns` is a derived column refreshed from `source_issn` on every write (like `datacite_ids`). Merged sources stay as redirect rows (`merge_into_id`, `merge_into_date`); consumers filter `merge_into_id IS NULL`. |
-| `source_issn` | Normalized ISSN membership. **UNIQUE(issn)** is the one-ISSN-one-source invariant. `is_issn_l` marks the linking ISSN. |
+| `source_issn` | Normalized ISSN membership. **UNIQUE(issn)** is the one-ISSN-one-source invariant. `is_issn_l` marks the linking ISSN. A composite FK (mig. 014) forces `sources.issn_l` to be one of the source's own ISSNs, so `issn_l` can never point at another source's ISSN. |
 | `source_datacite_id` | DataCite client → source link. PK on the client id = one-client-one-source. `sources.datacite_ids` (JSONB) is derived from this table. |
 | `issn_to_issnl` | ISSN → ISSN-L map, reloaded weekly from the ISSN International Centre's daily file (~2.6M rows). |
 | `source_type` | Controlled vocabulary for `sources.type`. |
@@ -71,8 +71,10 @@ day (exit-code based).
 `sources_lib.py` holds the primitives every feed shares:
 
 - `MatchContext(conn, name_link=..., exclude_from_names=...)` + `match_source(...)` —
-  THE match cascade, one implementation for every feed: ISSN match → guarded unique-name
-  match (`name_link_guard`: ≥3 name tokens, no publisher contradiction, previously-parked
+  THE match cascade, one implementation for every feed: direct ISSN match → ISSN-L
+  expansion (incoming ISSNs are resolved through the `issn_to_issnl` map, catching
+  print/online twins whose ISSN sets don't overlap) → guarded unique-name match
+  (`name_link_guard`: ≥3 name tokens, no publisher contradiction, previously-parked
   sources stay parked) → no match. Ambiguous/refused outcomes park in the conflict queue.
 - `mint_source(...)` / `enrich_journal(...)` — mint with an auto-minted S-id; feed-refresh
   a matched journal. Enrichment is override-guarded: a source touched by a curator
@@ -80,8 +82,8 @@ day (exit-code based).
 - `recompute_is_oa(conn)` — the SINGLE writer of `is_oa` (any of the four OA signals);
   every feed job calls it at the end of its run instead of asserting `is_oa` itself.
 - `merge_source(conn, loser_id, winner_id, rule, ...)` — first-class merge: ISSNs move to
-  the winner, the loser becomes a redirect, the winner's ISSN-L is re-resolved, and the
-  merge is audited.
+  the winner, the loser becomes a redirect (`issn_l` cleared), the winner's ISSN-L is
+  re-resolved over its own enlarged set, and the merge is audited.
 - `normalize_issns`, `normalize_name`, `resolve_issn_l`, `insert_issns` — shared helpers.
 
 ## Migrations
