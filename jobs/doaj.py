@@ -4,6 +4,14 @@ journals, no credentials), stage it, and apply DOAJ status to sources:
   is_in_doaj / is_in_doaj_start_year / doaj_license, plus delistings (flag off
   when a journal leaves DOAJ); is_oa is re-derived by sources_lib.recompute_is_oa.
 
+The CSV lags DOAJ's live index by a month or more for newly created records
+(oxjob #548 C5: 8 confirmed journals admitted 2026-06-08..07-03 absent from the
+2026-07-07 CSV; API total 23,155 vs CSV 23,041), so treating it as the full
+universe falsely delists recently (re)admitted journals. fetch() therefore
+supplements the staging with a search-API sweep of records created in the last
+SUPPLEMENT_WINDOW_DAYS. Both the CSV floor check and any API failure abort the
+run BEFORE staging is replaced — a partial universe must never reach apply().
+
 With --mint, DOAJ also ADDS journals the registry lacks (DOAJ is human-vetted,
 and we already harvest DOAJ articles into the works pipeline — their locations
 need these sources to match against) via the shared match cascade (sources_lib):
@@ -16,6 +24,8 @@ import argparse
 import csv
 import io
 from collections import Counter
+from datetime import datetime, timedelta, timezone
+from urllib.parse import quote
 
 import requests
 from sqlalchemy import text
@@ -33,6 +43,9 @@ from sources_lib import (
 )
 
 DOAJ_CSV_URL = "https://doaj.org/csv"
+DOAJ_API_SEARCH = "https://doaj.org/api/search/journals/"
+SUPPLEMENT_WINDOW_DAYS = 365  # observed CSV lag is ~1 month; a year is cheap (~24 pages)
+MIN_CSV_ROWS = 20000  # truncated CSV would mass-delist; abort instead
 
 LICENSE_MAP = {
     "CC BY": "cc-by",
@@ -43,6 +56,63 @@ LICENSE_MAP = {
     "CC BY-ND": "cc-by-nd",
     "Public domain": "public-domain",
 }
+
+
+def supplement_from_api(staged_issns):
+    """Journals created in the last SUPPLEMENT_WINDOW_DAYS that the CSV lacks.
+
+    Raises on any API failure — apply() must never run against a universe
+    that is missing the recent-admissions window.
+    """
+    # The search API rejects paging past 1,000 results, so walk the window in
+    # date chunks and split any chunk that would overflow the cap.
+    since = (datetime.now(timezone.utc) - timedelta(days=SUPPLEMENT_WINDOW_DAYS)).date()
+    until = (datetime.now(timezone.utc) + timedelta(days=1)).date()
+    rows = []
+    spans = [(since, until)]
+    while spans:
+        a, b = spans.pop()
+        query = quote(f"created_date:[{a} TO {b}]", safe="")
+        page = 1
+        while True:
+            r = requests.get(f"{DOAJ_API_SEARCH}{query}",
+                             params={"page": page, "pageSize": 100}, timeout=60)
+            r.raise_for_status()
+            data = r.json()
+            total = data.get("total", 0)
+            if total > 1000:
+                if (b - a).days <= 1:
+                    raise RuntimeError(f"DOAJ span {a}..{b} exceeds the API paging cap")
+                mid = a + (b - a) / 2
+                spans.extend([(a, mid), (mid, b)])
+                break
+            for rec in data.get("results", []):
+                bj = rec.get("bibjson", {})
+                issns = [v.strip().upper() for v in (bj.get("pissn"), bj.get("eissn"))
+                         if v and v.strip()]
+                if not issns or any(i in staged_issns for i in issns):
+                    continue
+                licenses = [l.get("type") for l in (bj.get("license") or [])]
+                publisher = bj.get("publisher") or {}
+                rows.append({
+                    "issns": issns,
+                    "title": (bj.get("title") or "").strip() or None,
+                    "publisher": (publisher.get("name") or "").strip() or None,
+                    "license": next((LICENSE_MAP[t] for t in licenses if t in LICENSE_MAP), None),
+                    "oa_start_year": bj.get("oa_start") if isinstance(bj.get("oa_start"), int) else None,
+                    "country": (publisher.get("country") or "").strip() or None,
+                })
+            if page * 100 >= total:
+                break
+            page += 1
+    # adjacent spans share a boundary day; drop any duplicate journals
+    seen, deduped = set(), []
+    for row in rows:
+        key = tuple(sorted(row["issns"]))
+        if key not in seen:
+            seen.add(key)
+            deduped.append(row)
+    return deduped
 
 
 def fetch():
@@ -68,6 +138,11 @@ def fetch():
             "oa_start_year": int(year) if year.isdigit() else None,
             "country": (rec.get("Country of publisher") or "").strip() or None,
         })
+    if len(rows) < MIN_CSV_ROWS:
+        raise RuntimeError(f"DOAJ CSV suspiciously small ({len(rows)} rows < {MIN_CSV_ROWS}); "
+                           "aborting before staging to avoid a mass delist")
+    staged_issns = {i for row in rows for i in row["issns"]}
+    api_rows = supplement_from_api(staged_issns)  # raises on failure, before TRUNCATE
     insert = text(
         "INSERT INTO doaj_journal (issns, title, publisher, license, oa_start_year, country) "
         "VALUES (:issns, :title, :publisher, :license, :oa_start_year, :country)"
@@ -76,7 +151,10 @@ def fetch():
         conn.execute(text("TRUNCATE doaj_journal"))
         for i in range(0, len(rows), 5000):
             conn.execute(insert, rows[i:i + 5000])
-    print(f"staged {len(rows)} DOAJ journals", flush=True)
+        if api_rows:
+            conn.execute(insert, api_rows)
+    print(f"staged {len(rows)} DOAJ journals from CSV "
+          f"+ {len(api_rows)} recent admissions the CSV lacks (API supplement)", flush=True)
 
 
 def mint_missing(dry_run=False, batch=200):
