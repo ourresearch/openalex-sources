@@ -184,7 +184,7 @@ def mint_missing(dry_run=False, batch=200):
             if kind == "name":
                 counts["linked_by_name"] += 1
                 if not dry_run:
-                    issn_l = resolve_issn_l(conn, issns)
+                    issn_l = resolve_issn_l(conn, issns, member_only=True)
                     insert_issns(conn, val, issns, issn_l)
                     ctx.register(val, issns)
             elif kind == "name_parked":
