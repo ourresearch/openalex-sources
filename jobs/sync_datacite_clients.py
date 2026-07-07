@@ -24,6 +24,12 @@ from sources_lib import MatchContext, match_source, mint_source, normalize_issns
 
 CLIENT_TYPE_TO_SOURCE_TYPE = {"periodical": "journal", "repository": "repository"}
 
+# DataCite parks dead/transferred clients under administrative pseudo-providers;
+# they are not live venues and must never mint or link (the 2026-07-07 post-cutover
+# LLM audit found 234 sources minted from these buckets — parked as
+# 'invalid_source' in the queue).
+ADMIN_PROVIDER_PREFIXES = ("deactivated repositories", "repositories moved")
+
 
 def _refresh_datacite_jsonb(conn, source_id):
     conn.execute(text(
@@ -82,6 +88,9 @@ def run(dry_run=False, limit=None, batch=200):
     done = 0
     try:
         for c in clients:
+            if (c.provider_name or "").strip().lower().startswith(ADMIN_PROVIDER_PREFIXES):
+                counts["skipped_admin_provider"] += 1
+                continue
             issns = normalize_issns(list(c.issns or []))
             if c.id in linked:
                 counts["already_linked"] += 1
