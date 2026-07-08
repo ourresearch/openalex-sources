@@ -371,9 +371,9 @@ def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None)
     """Merge loser into winner. Returns an outcome string; 'merged' on success,
     otherwise the guard that refused ('already_merged', 'loser_overridden', ...).
 
-    Effects: loser's ISSNs re-point to the winner, loser gets merge_into_id +
-    merge_into_date, winner's issn_l is re-resolved over its enlarged ISSN set,
-    and the merge is recorded in source_merge.
+    Effects: loser's ISSNs and endpoint links re-point to the winner, loser gets
+    merge_into_id + merge_into_date, winner's issn_l is re-resolved over its
+    enlarged ISSN set, and the merge is recorded in source_merge.
     """
     if loser_id == winner_id:
         return "same_source"
@@ -396,6 +396,10 @@ def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None)
 
     conn.execute(
         text("UPDATE source_issn SET source_id = :w, is_issn_l = FALSE WHERE source_id = :l"),
+        {"l": loser_id, "w": winner_id},
+    )
+    conn.execute(
+        text("UPDATE source_endpoint SET source_id = :w WHERE source_id = :l"),
         {"l": loser_id, "w": winner_id},
     )
     conn.execute(
