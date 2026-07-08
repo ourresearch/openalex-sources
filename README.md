@@ -29,9 +29,9 @@ duplicates, parking everything else for a human.
 | `source_type` | Controlled vocabulary for `sources.type`. |
 | `source_merge` | Audit log of every merge (loser, winner, rule, detail JSONB). |
 | `source_ingest_issue` | Conflict queue. One row per (feed, issue type, matched id-set) — ever; resolved rows keep their `resolution`. |
-| `source_works_count` | Operational snapshot of per-source works counts from Databricks (winner-selection signal for merges). Check `as_of` before trusting. |
+| `source_works_count`, `source_publication_years` | Per-source works counts + publication spans, refreshed weekly from the OpenAlex API (`jobs/refresh_source_stats`; `as_of`-stamped). Works counts drive merge winner selection; publication spans drive `is_fully_open_in_jstage`. |
 | `crossref_journal`, `datacite_client`, `doaj_journal` | Full-snapshot staging tables (TRUNCATE + reload on each fetch). |
-| `jstage_journal`, `ojs_journal`, `high_oa_rate_issn`, `source_publication_years` | OA-flag mapping tables imported from Databricks (`scripts/import_oa_flag_tables.py`); drive `jobs/apply_oa_flags`. |
+| `jstage_journal`, `ojs_journal`, `high_oa_rate_issn` | OA-flag mapping tables, one-time imports from Databricks (`scripts/import_oa_flag_tables.py`); drive `jobs/apply_oa_flags`. Not refreshed — slated to be dropped once the registry's own flags fully supersede them. |
 
 ## Jobs
 
@@ -48,6 +48,7 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | `issn_to_issnl` | Reload the ISSN→ISSN-L table from issn.org (atomic TRUNCATE + COPY). |
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
 | `apply_oa_flags` | Recompute `is_ojs`, `is_oa_high_oa_rate`, `is_fully_open_in_jstage` from the mapping tables. |
+| `refresh_source_stats` | Reload `source_works_count` + `source_publication_years` from api.openalex.org/sources (~282K sources, ~1,400 cursor pages, one-transaction TRUNCATE+COPY). Uses `OPENALEX_UI_ADMIN_API_KEY` to run unthrottled. |
 
 ## Scheduling (Advanced Scheduler)
 
@@ -57,6 +58,7 @@ Bearer `ADVANCED_SCHEDULER_API_TOKEN`) — no dashboard clicking. Current schedu
 | when | job |
 |---|---|
 | Mon 05:00 | `issn_to_issnl` |
+| Mon 05:15 | `refresh_source_stats` |
 | Mon 05:30 | `datacite_clients && sync_datacite_clients` |
 | Mon 05:45 | `doaj --mint` |
 | Mon 05:55 | `apply_oa_flags` |
