@@ -33,8 +33,8 @@ def run(dry_run=False):
                 SELECT s.id,
                        BOOL_OR(oj.issn IS NOT NULL) AS matched_ojs,
                        BOOL_OR(oj.is_oa) AS ojs_is_oa,
-                       BOOL_OR(h.is_oa_high_oa_rate) AS hoar_listed,
-                       MIN(h.start_year) FILTER (WHERE h.is_oa_high_oa_rate) AS hoar_start,
+                       BOOL_OR(h.issn_l IS NOT NULL) AS hoar_listed,
+                       MIN(h.start_year) AS hoar_start,
                        BOOL_OR(j.issn IS NOT NULL
                                AND p.first_publication_year IS NOT NULL
                                AND p.last_publication_year IS NOT NULL

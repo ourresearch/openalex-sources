@@ -32,7 +32,7 @@ duplicates, parking everything else for a human.
 | `source_ingest_issue` | Conflict queue. One row per (feed, issue type, matched id-set) — ever; resolved rows keep their `resolution`. |
 | `source_works_count`, `source_publication_years` | Per-source works counts + publication spans, refreshed weekly from the OpenAlex API (`jobs/refresh_source_stats`; `as_of`-stamped). Works counts drive merge winner selection; publication spans drive `is_fully_open_in_jstage`. |
 | `crossref_journal`, `datacite_client`, `doaj_journal` | Full-snapshot staging tables (TRUNCATE + reload on each fetch). |
-| `jstage_journal`, `ojs_journal`, `high_oa_rate_issn` | OA-flag mapping tables, one-time imports from Databricks (`scripts/import_oa_flag_tables.py`); drive `jobs/apply_oa_flags`. Not refreshed — slated to be dropped once the registry's own flags fully supersede them. |
+| `jstage_journal`, `ojs_journal`, `high_oa_rate_issn` | OA-flag mapping tables, one-time imports from Databricks (2026-07-02); drive `jobs/apply_oa_flags`. Membership in `high_oa_rate_issn` IS the flag (mig. 019 — curator force-excludes were deleted rather than kept as false rows). Not refreshed — slated to be dropped once the registry's own flags fully supersede them. |
 
 ## Jobs
 
