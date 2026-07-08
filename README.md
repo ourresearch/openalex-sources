@@ -25,6 +25,7 @@ duplicates, parking everything else for a human.
 | `sources` | The registry AND the Databricks read contract (read directly via federation). PK = OpenAlex S-id (BIGINT). `id` is a `GENERATED ALWAYS AS IDENTITY` column — new ids auto-mint; explicit ids (backfill / walden-mint import only) require `OVERRIDING SYSTEM VALUE` + a `setval` resync to MAX(id). `issns` is a derived column refreshed from `source_issn` on every write (like `datacite_ids`). Merged sources stay as redirect rows (`merge_into_id`, `merge_into_date`); consumers filter `merge_into_id IS NULL`. |
 | `source_issn` | Normalized ISSN membership. **UNIQUE(issn)** is the one-ISSN-one-source invariant. `is_issn_l` marks the linking ISSN. A composite FK (mig. 014) forces `sources.issn_l` to be one of the source's own ISSNs, so `issn_l` can never point at another source's ISSN. |
 | `source_datacite_id` | DataCite client → source link. PK on the client id = one-client-one-source. `sources.datacite_ids` (JSONB) is derived from this table. |
+| `source_endpoint` | OAI endpoint → source link (PK endpoint_id, FKs to `endpoint` + `sources`). Read daily by walden's CreateSources snapshot into `openalex.sources.endpoint_to_source` for CreateLocationsWithSources' repo-matching tier. `merge_source` re-points a loser's links to the winner. |
 | `issn_to_issnl` | ISSN → ISSN-L map, reloaded weekly from the ISSN International Centre's daily file (~2.6M rows). |
 | `source_type` | Controlled vocabulary for `sources.type`. |
 | `source_merge` | Audit log of every merge (loser, winner, rule, detail JSONB). |
