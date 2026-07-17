@@ -23,6 +23,7 @@ already_merged pairs are skipped.
 """
 import argparse
 import csv
+import os
 from collections import Counter
 
 from sqlalchemy import text
@@ -84,11 +85,20 @@ def main():
     ap.add_argument("--execute", action="store_true", help="actually merge (default: dry run)")
     ap.add_argument("--limit", type=int, help="stop after N pairs (canary)")
     ap.add_argument("--batch", default="A", help="batch label recorded in source_merge.detail")
+    ap.add_argument(
+        "--skip-log",
+        default=None,
+        help="CSV to append skipped/refused pairs to (default: <manifest>_skips.csv); "
+        "feeds the WEIRD-CASES intake queue in oxjob #629",
+    )
     args = ap.parse_args()
 
     pairs = load_manifest(args.manifest)
     if args.limit:
         pairs = pairs[: args.limit]
+
+    skip_log = args.skip_log or args.manifest.replace(".csv", "_skips.csv")
+    skip_rows = []
 
     outcomes = Counter()
     for winner_id, loser_id, subclass in pairs:
@@ -96,6 +106,7 @@ def main():
             verdict = check_pair(conn, winner_id, loser_id)
             if verdict != "ok":
                 outcomes[f"skip:{verdict}"] += 1
+                skip_rows.append((winner_id, loser_id, subclass, verdict, args.batch))
                 print(f"SKIP  {loser_id} -> {winner_id}  {verdict}")
                 continue
             if not args.execute:
@@ -111,7 +122,17 @@ def main():
             )
             outcomes[result] += 1
             if result != "merged":
+                skip_rows.append((winner_id, loser_id, subclass, f"refused:{result}", args.batch))
                 print(f"REFUSED  {loser_id} -> {winner_id}  {result}")
+
+    if skip_rows:
+        new_file = not os.path.exists(skip_log)
+        with open(skip_log, "a", newline="") as f:
+            w = csv.writer(f)
+            if new_file:
+                w.writerow(["winner_id", "loser_id", "subclass", "reason", "batch"])
+            w.writerows(skip_rows)
+        print(f"skip log: {len(skip_rows)} rows appended to {skip_log}")
 
     mode = "EXECUTE" if args.execute else "DRY RUN"
     print(f"\n{mode} — {len(pairs)} pairs: {dict(outcomes)}")
