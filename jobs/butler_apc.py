@@ -45,6 +45,7 @@ import json
 from collections import Counter, defaultdict
 from datetime import date
 
+import psycopg2.extras
 from sqlalchemy import text
 
 from db import engine
@@ -127,18 +128,20 @@ def parse_file(path, dataset_version):
 
 
 def stage(rows, dataset_version):
-    insert = text(
+    # execute_batch, not executemany: one round trip per row is fine on a
+    # dyno but ~20 min from a laptop over WAN for 36k rows
+    insert = (
         "INSERT INTO butler_apc_journal_year (unique_id, publisher, issns, journal, "
         "oa_status, apc_provided, apc_order, apc_year, apc_date, prices, price_usd, "
-        "apc_source, dataset_version) VALUES (:unique_id, :publisher, :issns, "
-        ":journal, :oa_status, :apc_provided, :apc_order, :apc_year, "
-        "CAST(:apc_date AS DATE), CAST(:prices AS JSONB), :price_usd, :apc_source, "
-        ":dataset_version)"
+        "apc_source, dataset_version) VALUES (%(unique_id)s, %(publisher)s, "
+        "%(issns)s, %(journal)s, %(oa_status)s, %(apc_provided)s, %(apc_order)s, "
+        "%(apc_year)s, %(apc_date)s::date, %(prices)s::jsonb, %(price_usd)s, "
+        "%(apc_source)s, %(dataset_version)s)"
     )
     with engine.begin() as conn:
         conn.execute(text("TRUNCATE butler_apc_journal_year"))
-        for i in range(0, len(rows), 5000):
-            conn.execute(insert, rows[i:i + 5000])
+        psycopg2.extras.execute_batch(
+            conn.connection.cursor(), insert, rows, page_size=500)
     print(f"staged {len(rows)} Butler journal-year rows ({dataset_version})", flush=True)
 
 
@@ -250,15 +253,15 @@ def build_usd_by_year(rows, counts):
 
 
 def apply(dataset_version, rows=None, dry_run=False):
-    update = text(
+    update = (
         # apc_usd and apc_prices deliberately NOT in this statement
         # (precedence deferred / walden fixed-schema contract; module doc).
         # updated_date deliberately NOT bumped either (deviation from repo
         # convention, pending Casey ack): the bump triggers downstream
         # re-sync and can't be un-done, while adding it later is one UPDATE
         # over WHERE apc_usd_by_year IS NOT NULL.
-        "UPDATE sources SET apc_usd_by_year = CAST(:by_year AS JSONB) "
-        "WHERE id = :id"
+        "UPDATE sources SET apc_usd_by_year = %(by_year)s::jsonb "
+        "WHERE id = %(id)s"
     )
     with engine.begin() as conn:
         if rows is None:
@@ -267,6 +270,7 @@ def apply(dataset_version, rows=None, dry_run=False):
         print(f"[{dataset_version}] match: {dict(counts)}; "
               f"{len(per_source)} candidate sources; dry_run={dry_run}", flush=True)
         samples = []
+        pending = []
         for sid, srows in per_source.items():
             by_year, current = build_usd_by_year(srows, counts)
             if not by_year:
@@ -278,8 +282,11 @@ def apply(dataset_version, rows=None, dry_run=False):
                 if len(samples) < 3 or (journal and "scientific reports" in journal.lower()):
                     samples.append((sid, journal, by_year, current))
             else:
-                conn.execute(update, {"id": sid, "by_year": json.dumps(by_year)})
+                pending.append({"id": sid, "by_year": json.dumps(by_year)})
                 counts["updated"] += 1
+        if pending:
+            psycopg2.extras.execute_batch(
+                conn.connection.cursor(), update, pending, page_size=500)
         if dry_run:
             for issns, ids, detail in issues[:20]:
                 print(f"  multi_match {issns} -> {ids} ({detail})")
