@@ -1,19 +1,21 @@
 -- 020 per-year APC list prices (oxjob #571, Butler et al. dataset)
+-- DRAFT — lives in apc-571-prep until approved; copy to migrations/ to apply.
 -- Idempotent: safe to re-run.
 --
 -- Medallion split (Jason/Casey 2026-07-17):
 --   bronze = butler_apc_journal_year (raw rows, ALL currencies, collection
 --            metadata; the audit trail)
---   gold   = sources.apc_usd_by_year (USD-only, dense years 2000..present,
---            carry-forward filled; written by jobs/butler_apc.py)
+--   gold   = sources.apc_usd_by_year (USD-only, OBSERVED years only, no
+--            fill in either direction -- Casey/Kyle 2026-07-21; written by
+--            jobs/butler_apc.py)
 -- Gold shape (convention, enforced by the job): JSONB object
---   {"2000": 3000, "2001": 3000, ..., "2026": 3690}
--- string year keys -> integer USD. Dict over 2000-indexed array: self-
--- describing, no base-year constant for consumers to get off-by-one
--- (SCHEMA-DESIGN.md). apc_usd and apc_prices are UNTOUCHED: Butler-vs-DOAJ
--- precedence is deferred to phase 2 (decision 2026-07-20), and walden parses
--- apc_prices with a fixed ARRAY<STRUCT<price INT, currency STRING>> schema;
--- never change it.
+--   {"2019": 1790, ..., "2023": 2390}
+-- string year keys -> integer USD; self-describing (SCHEMA-DESIGN.md).
+-- apc_usd is derived by the job as the most recent observed value (Casey
+-- ack 2026-07-21). apc_prices is UNTOUCHED: walden parses it with a fixed
+-- ARRAY<STRUCT<price INT, currency STRING>> schema; never change it.
+-- (Comment updated 2026-07-21 to match the decided shape; SQL unchanged,
+-- migration already applied as v46.)
 
 ALTER TABLE sources ADD COLUMN IF NOT EXISTS apc_usd_by_year JSONB;
 

@@ -5,26 +5,28 @@ Medallion split (Jason/Casey decision 2026-07-17):
   bronze  butler_apc_journal_year -- raw rows, ALL original currencies +
           collection metadata (the audit trail). Staged TRUNCATE+reload,
           one transaction.
-  gold    sources.apc_usd_by_year -- USD-only JSONB dict {"2000": 3000, ...},
-          DENSE from 2000 through the current year, carry-forward filled
-          (gaps + post-window = last observed value; pre-window = first
-          observed value carried backward; NEVER midpoint interpolation).
-
-Backward-fill to 2000 overstates early years for journals first observed
-later (APCs mostly rose; many weren't OA in 2000). Decided in-meeting, but
-get explicit Casey ack before anything PUBLIC reads this column
-(OPEN-QUESTIONS #2).
+  gold    sources.apc_usd_by_year -- USD-only JSONB dict of OBSERVED years
+          only, e.g. {"2019": 1790, ..., "2023": 2390}. NO fill in either
+          direction (Casey + Kyle decision 2026-07-21, reversing the
+          dense-2000->present shape shipped 07-21 morning: "populate the
+          years we have rather than repeat data going backwards" / backfill
+          "would be a lot of bad data"). In-window gaps stay absent too.
+          Pre-/post-window fallback is CONSUMER-side (phase-2 work-level
+          lookup; apc_usd below covers "current").
 
 apply: match each staged journal's ISSNs against source_issn with ISSN-L
 expansion (issn_to_issnl), resolve multi-matches (issn_l preference -> active
--> more works, per SCHEMA-DESIGN.md), then write apc_usd_by_year per source.
+-> more works, per SCHEMA-DESIGN.md), then write per source:
+  apc_usd_by_year  the observed-years dict (gold)
+  apc_usd          the MOST RECENT observed year's value (Casey ack
+                   2026-07-21 in-meeting; no other job writes apc_usd --
+                   verified, the old DOAJ-derived values were frozen).
+                   NOTE: 56 explicit-$0 journals set apc_usd = 0, which
+                   downstream flags them diamond OA -- intended.
 
-Legacy columns are UNTOUCHED, deliberately:
-  apc_prices  walden parses it with a FIXED ARRAY<STRUCT<price INT,
-              currency STRING>> schema -- never change its shape or
-              semantics from this job.
-  apc_usd     Butler-vs-DOAJ precedence is DEFERRED to phase 2 (decision
-              2026-07-20); the new column does not compete with it yet.
+apc_prices stays UNTOUCHED: walden parses it with a FIXED
+ARRAY<STRUCT<price INT, currency STRING>> schema -- never change its shape
+or semantics from this job.
 
 Rows priced in some currency but with no USD value would need conversion at
 today's FX rate (meeting decision); in v1 every priced row has a USD value,
@@ -54,7 +56,6 @@ from sources_lib import normalize_issns
 CURRENCIES = ("USD", "EUR", "GBP", "JPY", "CHF", "CAD")
 MIN_ROWS = 30000  # a truncated download must not mass-wipe the staging
 PROVENANCE_PREFIX = "butler"
-FILL_START_YEAR = 2000  # gold column covers FILL_START_YEAR..current year, dense
 
 
 def normalize_issn(raw):
@@ -220,15 +221,14 @@ def _as_date(v):
 
 
 def build_usd_by_year(rows, counts):
-    """Row dicts (possibly from several unique_ids on one source) -> dense
-    {"2000": usd, ..., "<current year>": usd} dict + current-year value.
+    """Row dicts (possibly from several unique_ids on one source) ->
+    ({"<observed year>": usd, ...}, most-recent observed value).
 
     Observation per year: the row's dataset USD value (original or Butler-
     converted), rounded. Collisions within a year (publisher-transfer
     duplicates, order-2 transitions) resolve by highest apc_order then latest
     apc_date. Rows with APC_provided != yes have price_usd NULL and are not
-    observations. Fill: carry-forward between/after observations, first value
-    carried backward before the window. Never interpolates."""
+    observations. NO fill: observed years only (module doc)."""
     observed = {}  # year -> (order, date, usd)
     for r in rows:
         if r["price_usd"] is None:
@@ -242,26 +242,17 @@ def build_usd_by_year(rows, counts):
             observed[r["apc_year"]] = (order, rdate, round(r["price_usd"]))
     if not observed:
         return None, None
-    this_year = date.today().year
-    years = sorted(observed)
-    filled, last = {}, observed[years[0]][2]  # pre-window = first value backward
-    for y in range(FILL_START_YEAR, this_year + 1):
-        if y in observed:
-            last = observed[y][2]
-        filled[str(y)] = last
-    return filled, filled[str(this_year)]
+    return ({str(y): observed[y][2] for y in sorted(observed)},
+            observed[max(observed)][2])
 
 
 def apply(dataset_version, rows=None, dry_run=False):
     update = (
-        # apc_usd and apc_prices deliberately NOT in this statement
-        # (precedence deferred / walden fixed-schema contract; module doc).
-        # updated_date deliberately NOT bumped either (deviation from repo
-        # convention, pending Casey ack): the bump triggers downstream
-        # re-sync and can't be un-done, while adding it later is one UPDATE
-        # over WHERE apc_usd_by_year IS NOT NULL.
-        "UPDATE sources SET apc_usd_by_year = %(by_year)s::jsonb "
-        "WHERE id = %(id)s"
+        # apc_prices deliberately NOT in this statement (walden fixed-schema
+        # contract; module doc). apc_usd = most recent observed value
+        # (Casey ack 2026-07-21).
+        "UPDATE sources SET apc_usd_by_year = %(by_year)s::jsonb, "
+        "apc_usd = %(usd)s, updated_date = now() WHERE id = %(id)s"
     )
     with engine.begin() as conn:
         if rows is None:
@@ -282,7 +273,8 @@ def apply(dataset_version, rows=None, dry_run=False):
                 if len(samples) < 3 or (journal and "scientific reports" in journal.lower()):
                     samples.append((sid, journal, by_year, current))
             else:
-                pending.append({"id": sid, "by_year": json.dumps(by_year)})
+                pending.append({"id": sid, "by_year": json.dumps(by_year),
+                                "usd": current})
                 counts["updated"] += 1
         if pending:
             psycopg2.extras.execute_batch(
