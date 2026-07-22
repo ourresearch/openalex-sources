@@ -24,9 +24,14 @@ expansion (issn_to_issnl), resolve multi-matches (issn_l preference -> active
                    NOTE: 56 explicit-$0 journals set apc_usd = 0, which
                    downstream flags them diamond OA -- intended.
 
-apc_prices stays UNTOUCHED: walden parses it with a FIXED
-ARRAY<STRUCT<price INT, currency STRING>> schema -- never change its shape
-or semantics from this job.
+  apc_prices       refreshed on covered sources from the most recent
+                   observed year's ORIGINAL-currency prices in bronze
+                   (fallback: the dataset USD value). Shape kept EXACTLY
+                   [{"price": int, "currency": str}] -- walden parses it
+                   with a FIXED ARRAY<STRUCT<price INT, currency STRING>>
+                   schema; never change the shape. Refresh added 2026-07-22:
+                   the 2022-frozen values visibly contradicted the new
+                   apc_usd in API responses.
 
 Rows priced in some currency but with no USD value would need conversion at
 today's FX rate (meeting decision); in v1 every priced row has a USD value,
@@ -229,7 +234,7 @@ def build_usd_by_year(rows, counts):
     duplicates, order-2 transitions) resolve by highest apc_order then latest
     apc_date. Rows with APC_provided != yes have price_usd NULL and are not
     observations. NO fill: observed years only (module doc)."""
-    observed = {}  # year -> (order, date, usd)
+    observed = {}  # year -> (order, date, usd, original-currency prices)
     for r in rows:
         if r["price_usd"] is None:
             if r["prices"]:  # priced in some currency but no USD: needs FX
@@ -239,20 +244,27 @@ def build_usd_by_year(rows, counts):
         rdate = _as_date(r["apc_date"]) or date.min
         cur = observed.get(r["apc_year"])
         if cur is None or (order, rdate) > cur[:2]:
-            observed[r["apc_year"]] = (order, rdate, round(r["price_usd"]))
+            raw = r["prices"]
+            raw = json.loads(raw) if isinstance(raw, str) else (raw or [])
+            observed[r["apc_year"]] = (order, rdate, round(r["price_usd"]), raw)
     if not observed:
-        return None, None
+        return None, None, None
+    latest = observed[max(observed)]
+    # apc_prices payload: latest year's original-currency entries, walden
+    # shape [{"price", "currency"}]; no originals -> the dataset USD value
+    prices = ([{"price": p["price"], "currency": p["currency"]} for p in latest[3]]
+              or [{"price": latest[2], "currency": "USD"}])
     return ({str(y): observed[y][2] for y in sorted(observed)},
-            observed[max(observed)][2])
+            latest[2], prices)
 
 
 def apply(dataset_version, rows=None, dry_run=False):
     update = (
-        # apc_prices deliberately NOT in this statement (walden fixed-schema
-        # contract; module doc). apc_usd = most recent observed value
-        # (Casey ack 2026-07-21).
+        # apc_prices: same fixed shape walden parses, refreshed content
+        # (module doc). apc_usd = most recent observed value (Casey ack).
         "UPDATE sources SET apc_usd_by_year = %(by_year)s::jsonb, "
-        "apc_usd = %(usd)s, updated_date = now() WHERE id = %(id)s"
+        "apc_usd = %(usd)s, apc_prices = %(prices)s::jsonb, "
+        "updated_date = now() WHERE id = %(id)s"
     )
     with engine.begin() as conn:
         if rows is None:
@@ -263,7 +275,7 @@ def apply(dataset_version, rows=None, dry_run=False):
         samples = []
         pending = []
         for sid, srows in per_source.items():
-            by_year, current = build_usd_by_year(srows, counts)
+            by_year, current, prices = build_usd_by_year(srows, counts)
             if not by_year:
                 counts["no_priced_rows"] += 1
                 continue
@@ -271,10 +283,10 @@ def apply(dataset_version, rows=None, dry_run=False):
                 counts["would_update"] += 1
                 journal = next((r["journal"] for r in srows if r["journal"]), None)
                 if len(samples) < 3 or (journal and "scientific reports" in journal.lower()):
-                    samples.append((sid, journal, by_year, current))
+                    samples.append((sid, journal, by_year, current, prices))
             else:
                 pending.append({"id": sid, "by_year": json.dumps(by_year),
-                                "usd": current})
+                                "usd": current, "prices": json.dumps(prices)})
                 counts["updated"] += 1
         if pending:
             psycopg2.extras.execute_batch(
@@ -282,11 +294,11 @@ def apply(dataset_version, rows=None, dry_run=False):
         if dry_run:
             for issns, ids, detail in issues[:20]:
                 print(f"  multi_match {issns} -> {ids} ({detail})")
-            for sid, journal, by_year, current in samples[:8]:
+            for sid, journal, by_year, current, prices in samples[:8]:
                 years = sorted(by_year)
                 edges = {y: by_year[y] for y in years[:2] + years[-2:]}
                 print(f"  sample source {sid} ({journal}): {len(by_year)} years, "
-                      f"edges {edges}, current={current}")
+                      f"edges {edges}, current={current}, apc_prices={prices}")
             print(f"dry-run (NO WRITES): {dict(counts)}", flush=True)
             return counts
         # multi-match pairs are logged, NOT parked into source_ingest_issue
