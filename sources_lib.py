@@ -402,6 +402,36 @@ def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None)
         text("UPDATE source_endpoint SET source_id = :w WHERE source_id = :l"),
         {"l": loser_id, "w": winner_id},
     )
+
+    # preserve the loser's identity strings on the winner (deduped
+    # case-insensitively; skip anything that normalizes to the winner's own
+    # display_name). Cross-language merges otherwise shed the venue's
+    # other-language titles from active search.
+    names = {
+        r.id: (r.display_name, list(r.alternate_titles or []))
+        for r in conn.execute(
+            text("SELECT id, display_name, alternate_titles FROM sources "
+                 "WHERE id IN (:l, :w)"),
+            {"l": loser_id, "w": winner_id},
+        )
+    }
+    l_name, l_alt = names[loser_id]
+    w_name, w_alt = names[winner_id]
+    have = {t.strip().lower() for t in w_alt + [w_name or ""]}
+    w_norm = normalize_name(w_name or "")
+    gained = []
+    for t in [l_name or ""] + l_alt:
+        t = (t or "").strip()
+        if t and t.lower() not in have and normalize_name(t) != w_norm:
+            gained.append(t)
+            have.add(t.lower())
+    if gained:
+        conn.execute(
+            text("UPDATE sources SET alternate_titles = CAST(:a AS JSONB) "
+                 "WHERE id = :id"),
+            {"a": json.dumps(w_alt + gained), "id": winner_id},
+        )
+
     conn.execute(
         text(
             # issn_l = NULL: the loser's ISSNs just moved to the winner, and a
