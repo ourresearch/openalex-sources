@@ -40,7 +40,7 @@ def load_manifest(path):
         ]
 
 
-def check_pair(conn, winner_id, loser_id):
+def check_pair(conn, winner_id, loser_id, allow_name_diverged=False):
     """Re-run every guard now. Returns 'ok' or a refusal reason."""
     rows = {
         r.id: r
@@ -62,7 +62,8 @@ def check_pair(conn, winner_id, loser_id):
     if l.override_timestamp is not None:
         return "loser_overridden"
     if normalize_name(w.display_name) != normalize_name(l.display_name):
-        return "name_diverged"
+        if not allow_name_diverged:
+            return "name_diverged"
     if w.type and l.type and w.type != l.type:
         return "type_conflict"
     works = {
@@ -86,6 +87,10 @@ def main():
     ap.add_argument("manifest")
     ap.add_argument("--execute", action="store_true", help="actually merge (default: dry run)")
     ap.add_argument("--limit", type=int, help="stop after N pairs (canary)")
+    ap.add_argument("--allow-name-diverged", action="store_true",
+                    help="bypass the name guard — ONLY for manifests where every pair carries "
+                         "a judge verdict AND an adversarial-refuter CONFIRM (double-verdict). "
+                         "NEVER for fact manifests; the guard proved itself there.")
     ap.add_argument("--batch", default="A", help="batch label recorded in source_merge.detail")
     ap.add_argument(
         "--skip-log",
@@ -105,7 +110,8 @@ def main():
     outcomes = Counter()
     for winner_id, loser_id, subclass in pairs:
         with engine.begin() as conn:
-            verdict = check_pair(conn, winner_id, loser_id)
+            verdict = check_pair(conn, winner_id, loser_id,
+                                 allow_name_diverged=args.allow_name_diverged)
             if verdict != "ok":
                 outcomes[f"skip:{verdict}"] += 1
                 skip_rows.append((winner_id, loser_id, subclass, verdict, args.batch))
