@@ -83,6 +83,9 @@ def check_pair(conn, winner_id, loser_id, allow_name_diverged=False):
 
 
 def main():
+    raise SystemExit(
+        "DISABLED post-D1: merge columns were dropped (oxjob #629 endgame). "
+        "This job needs the delete-not-tombstone rework before it can run again.")
     ap = argparse.ArgumentParser()
     ap.add_argument("manifest")
     ap.add_argument("--execute", action="store_true", help="actually merge (default: dry run)")

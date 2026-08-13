@@ -178,7 +178,7 @@ def match_rows(conn, rows):
             "WHERE issn = ANY(:i) AND issn_l IS NOT NULL"), {"i": all_issns}):
         issnl_map[issn].add(issn_l)
     meta = {r.id: r for r in conn.execute(text(
-        "SELECT s.id, s.issn_l, s.merge_into_id, COALESCE(w.works_count, 0) AS works "
+        "SELECT s.id, s.issn_l, COALESCE(w.works_count, 0) AS works "
         "FROM sources s LEFT JOIN source_works_count w ON w.source_id = s.id"))}
 
     by_journal = defaultdict(list)
@@ -202,16 +202,11 @@ def match_rows(conn, rows):
             counts["multi_match"] += 1
             winner = min(candidates, key=lambda sid: (
                 0 if meta[sid].issn_l in issns else 1,       # owns a dataset ISSN-L
-                0 if meta[sid].merge_into_id is None else 1,  # active beats redirect
                 -meta[sid].works,                             # more works
                 sid,                                          # older id
             ))
             issues.append((issns, sorted(candidates),
                            f"butler unique_id={uid} -> winner {winner}"))
-        # follow a merge redirect so the series lands on the surviving source
-        if meta[winner].merge_into_id is not None:
-            counts["redirected"] += 1
-            winner = meta[winner].merge_into_id
         per_source[winner].extend(jrows)
     return per_source, issues, counts
 

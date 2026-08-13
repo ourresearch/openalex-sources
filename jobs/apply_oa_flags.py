@@ -46,7 +46,6 @@ def run(dry_run=False):
                 LEFT JOIN high_oa_rate_issn h ON h.issn_l = si.issn
                 LEFT JOIN jstage_journal j ON j.issn = si.issn
                 LEFT JOIN source_publication_years p ON p.source_id = s.id
-                WHERE s.merge_into_id IS NULL
                 GROUP BY s.id
             )
             SELECT s.id,

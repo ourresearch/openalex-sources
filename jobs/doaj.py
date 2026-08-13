@@ -236,7 +236,7 @@ def apply(dry_run=False):
         """)).scalar()
         turned_off = conn.execute(text("""
             SELECT COUNT(*) FROM sources s
-            WHERE s.is_in_doaj = TRUE AND s.merge_into_id IS NULL
+            WHERE s.is_in_doaj = TRUE
               AND NOT EXISTS (SELECT 1 FROM _doaj_flags f WHERE f.source_id = s.id)
         """)).scalar()
         print(f"{n_match} sources matched in DOAJ; {turned_on} to set/update, "
@@ -263,7 +263,7 @@ def apply(dry_run=False):
                 is_in_doaj_start_year = NULL,
                 doaj_license = NULL,
                 updated_date = now()
-            WHERE s.is_in_doaj = TRUE AND s.merge_into_id IS NULL
+            WHERE s.is_in_doaj = TRUE
               AND NOT EXISTS (SELECT 1 FROM _doaj_flags f WHERE f.source_id = s.id)
         """))
         oa = recompute_is_oa(conn)

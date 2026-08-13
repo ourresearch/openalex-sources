@@ -159,7 +159,7 @@ class MatchContext:
         self.issnl_to_sid = {
             issn_l: sid
             for sid, issn_l in conn.execute(text(
-                "SELECT id, issn_l FROM sources WHERE merge_into_id IS NULL AND issn_l IS NOT NULL"))
+                "SELECT id, issn_l FROM sources WHERE issn_l IS NOT NULL"))
         }
         self.name_link = name_link
         self.name_index = defaultdict(list)  # normalized name -> [(sid, publisher)]
@@ -167,7 +167,7 @@ class MatchContext:
         if name_link:
             skip = set(exclude_from_names)
             for sid, name, publisher in conn.execute(text(
-                    "SELECT id, display_name, publisher FROM sources WHERE merge_into_id IS NULL")):
+                    "SELECT id, display_name, publisher FROM sources")):
                 if sid not in skip:
                     self.name_index[normalize_name(name)].append((sid, publisher))
             # sources with an unresolved name-link refusal stay parked even if
@@ -360,8 +360,7 @@ def recompute_is_oa(conn):
             is_oa = (COALESCE(is_in_doaj, FALSE) OR COALESCE(is_fully_open_in_jstage, FALSE)
                      OR COALESCE(is_in_scielo, FALSE) OR COALESCE(is_oa_high_oa_rate, FALSE)),
             updated_date = now()
-        WHERE merge_into_id IS NULL
-          AND is_oa IS DISTINCT FROM
+        WHERE is_oa IS DISTINCT FROM
               (COALESCE(is_in_doaj, FALSE) OR COALESCE(is_fully_open_in_jstage, FALSE)
                OR COALESCE(is_in_scielo, FALSE) OR COALESCE(is_oa_high_oa_rate, FALSE))
     """)).rowcount

@@ -132,6 +132,9 @@ def run(dry_run=False, limit=None, batch=200):
 
 
 def main():
+    raise SystemExit(
+        "DISABLED post-D1: merge columns were dropped (oxjob #629 endgame). "
+        "This job needs the delete-not-tombstone rework before it can run again.")
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--limit", type=int, default=None)

@@ -84,8 +84,7 @@ def apply_scielo_flag():
     with engine.begin() as conn:
         n = conn.execute(text("""
             UPDATE sources s SET is_in_scielo = TRUE, updated_date = now()
-            WHERE s.merge_into_id IS NULL
-              AND s.is_in_scielo IS DISTINCT FROM TRUE
+            WHERE s.is_in_scielo IS DISTINCT FROM TRUE
               AND EXISTS (
                 SELECT 1 FROM crossref_journal d
                 CROSS JOIN LATERAL unnest(d.issns) AS di(issn)
