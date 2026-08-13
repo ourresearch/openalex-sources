@@ -9,9 +9,10 @@
 -- database, a real drop on a fresh rebuild (where no tombstone data can exist,
 -- since migrations run before any ingest).
 --
--- NOTE for migrate.py: plain DDL only — no DO blocks, no RAISE, no '%'
--- characters; the runner executes this file raw via exec_driver_sql and
--- percent signs break psycopg2 parameter handling.
+-- NOTE for migrate.py: plain DDL only — no DO blocks, no RAISE, and no
+-- percent characters anywhere in the file (comments included); the runner
+-- executes this file raw via exec_driver_sql and percent signs break
+-- psycopg2 parameter handling.
 --
 -- The source_merge ledger is KEPT — it is now the sole record of merges and
 -- the anti-join filter used by the walden mirror (CreateSources).
