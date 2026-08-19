@@ -1,5 +1,13 @@
-"""Butler et al. historical APC list prices -> per-year APC on sources
-(oxjob #571; dataset doi:10.7910/DVN/CR1MMV, CC0).
+"""Butler et al. / ScholCommLab historical APC list prices -> per-year APC
+on sources (oxjob #571; v1 doi:10.7910/DVN/CR1MMV, v2 doi:10.7910/DVN/AZ985C,
+both CC0).
+
+v2 (2019-2025, 14 publishers, 69,856 rows) renamed every column (lowercase),
+added issn_l + AUD + type_of_fee/apc_text, and dropped APC_provided/APC_order
+(journal-year duplicates are resolved upstream). parse_file() detects the
+layout per file, so v1 reruns still work. Bronze schema is unchanged:
+type_of_fee/apc_text/collector/comment stay file-only (the raw file is
+archived on Dataverse; apc_provided is derived from price presence).
 
 Medallion split (Jason/Casey decision 2026-07-17):
   bronze  butler_apc_journal_year -- raw rows, ALL original currencies +
@@ -33,10 +41,20 @@ expansion (issn_to_issnl), resolve multi-matches (issn_l preference -> active
                    the 2022-frozen values visibly contradicted the new
                    apc_usd in API responses.
 
+RECENCY GUARD (added for the v2 rerun): apc_usd/apc_prices claim to describe
+TODAY, so they are only written when the dataset observed the journal within
+RECENCY_WINDOW years of its own max year. A journal whose observations stop
+early (publisher transfer, delisting) keeps whatever the registry currently
+says -- which may be post-v1 curation the dataset predates (e.g. the 2026-08
+Comptes Rendus fix: their Elsevier rows end 2020, the journals are diamond
+now). The history dict is still written for such journals; history is not
+a claim about the present.
+
 Rows priced in some currency but with no USD value would need conversion at
-today's FX rate (meeting decision); in v1 every priced row has a USD value,
-so the job counts-and-skips such rows (counter no_usd_needs_fx) rather than
-shipping an FX table it can't exercise.
+today's FX rate (meeting decision); in v1 AND v2 every priced row has a USD
+value (v2's 505 USD-less rows are unpriced complex-fee rows, empty in every
+currency), so the job counts-and-skips such rows (counter no_usd_needs_fx)
+rather than shipping an FX table it can't exercise.
 
 --dry-run is fully read-only and safe BEFORE migration 020: the file is
 parsed in memory (bronze is neither required nor written), matching runs
@@ -45,10 +63,13 @@ counters, dicts built, and sample gold output.
 
   python -m jobs.butler_apc --file APCdataset-annualAPCs_Published-v1.txt \
       --dataset-version butler_v1 [--dry-run] [--skip-fetch]
+  python -m jobs.butler_apc --file scholcommlab_apc_dataset_2019_2025.csv \
+      --dataset-version butler_v2 [--dry-run] [--skip-fetch]
 """
 import argparse
 import csv
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import date
 
@@ -58,8 +79,14 @@ from sqlalchemy import text
 from db import engine
 from sources_lib import normalize_issns
 
-CURRENCIES = ("USD", "EUR", "GBP", "JPY", "CHF", "CAD")
-MIN_ROWS = 30000  # a truncated download must not mass-wipe the staging
+CURRENCIES = ("USD", "EUR", "GBP", "JPY", "CHF", "CAD", "AUD")  # AUD: v2+
+MIN_ROWS = 30000       # a truncated download must not mass-wipe the staging
+MIN_ROWS_V2 = 60000    # v2 has 69,856 rows; the v1 floor would let a 43%
+                       # truncation through and TRUNCATE bronze behind it
+RECENCY_WINDOW = 1  # years behind the dataset's max year a journal's latest
+                    # observation may lag and still refresh apc_usd/apc_prices
+                    # (1 absorbs known collection gaps, e.g. Sage 2025 =
+                    # hybrid-only; older = history-only, see module doc)
 PROVENANCE_PREFIX = "butler"
 
 
@@ -115,19 +142,110 @@ def parse_row(row):
     }
 
 
+def parse_row_v2(row):
+    """One v2-layout row -> the same staging dict shape as parse_row.
+    APC_provided is derived (any price present = yes); APC_order stays NULL
+    (v2 resolved mid-year transitions upstream). The file's issn_l column is
+    a FALLBACK only, never merged with direct ISSNs: 18 journals carry an
+    issn_l that is a DIFFERENT journal's direct ISSN (upstream fuzzy-
+    validation errors, e.g. Environmental Epigenetics carrying Current
+    Zoology's 1674-5507), which would mis-route their prices -- and all 18
+    have direct ISSNs, so the fallback never fires for them. 113 rows have
+    ONLY an issn_l; for those it is the one identifier there is. The
+    registry's own issn_to_issnl expansion covers linking either way."""
+    issns = normalize_issns(
+        [normalize_issn(row.get("issn1")), normalize_issn(row.get("issn2"))]
+    )
+    if not issns:
+        issns = normalize_issns([normalize_issn(row.get("issn_l"))])
+    if not issns:
+        return None
+    # v2's original/converted flags are unreliable: tens of thousands of rows
+    # flag annual-FX-derived values (cents, varying yearly with the rate) as
+    # "original". Two-part verdict per entry, staged alongside the raw flag so
+    # bronze keeps the full audit trail and gold filters on the verdict:
+    #   1. a currency NAMED by other columns' "converted from X" flags is the
+    #      conversion source = genuinely original, cents or not (keeps Year's
+    #      Work in English Studies' real GBP 3028.20);
+    #   2. otherwise flagged-original counts only if integer-valued -- list
+    #      prices are integers; rounding 535.78 AUD into apc_prices would
+    #      fabricate one. price_usd is unaffected either way: converted USD
+    #      is explicitly usable (2026-07-17 meeting).
+    conversion_sources = set()
+    for cur in CURRENCIES:
+        flag = (row.get(f"apc_{cur.lower()}_originalORconverted") or "").strip()
+        m = re.search(r"converted\s*from\s*([A-Za-z]{3})", flag, re.IGNORECASE)
+        if m:  # also matches the file's lone "ConvertedFromUSD" variant
+            conversion_sources.add(m.group(1).upper())
+    prices = []
+    price_usd = None
+    for cur in CURRENCIES:
+        val = (row.get(f"apc_{cur.lower()}") or "").strip()
+        flag = (row.get(f"apc_{cur.lower()}_originalORconverted") or "").strip()
+        if not val:
+            continue
+        if cur == "USD":
+            price_usd = float(val)
+        prices.append({
+            "currency": cur, "price": float(val), "flag": flag,
+            "original": flag == "original" and (
+                cur in conversion_sources or float(val).is_integer()),
+        })
+    # v2 apc_date carries a timestamp suffix ("2021-06-10 00:00:00 UTC");
+    # one row is DD/MM/YYYY, which would abort the staging transaction at
+    # the ::date cast (Postgres default datestyle is MDY)
+    apc_date = (row.get("apc_date") or "").split(" ")[0].strip() or None
+    if apc_date:
+        try:
+            if "/" in apc_date:  # one row is DD/MM/YYYY
+                d, m, y = apc_date.split("/")
+                apc_date = f"{y}-{int(m):02d}-{int(d):02d}"
+            date.fromisoformat(apc_date)
+        except (ValueError, TypeError):
+            apc_date = None
+    return {
+        "unique_id": int(row["unique_id"]),
+        "publisher": (row.get("publisher") or "").strip() or None,
+        "issns": issns,
+        "journal": (row.get("journal") or "").strip() or None,
+        "oa_status": (row.get("oa_status") or "").strip() or None,
+        "apc_provided": "yes" if (price_usd is not None or prices) else "no",
+        "apc_order": None,
+        "apc_year": int(row["apc_year"]),
+        "apc_date": apc_date,
+        "prices": json.dumps(prices) if prices else None,
+        "price_usd": price_usd,
+        "apc_source": (row.get("apc_source") or "").strip() or None,
+    }
+
+
 def parse_file(path, dataset_version):
     rows, skipped = [], 0
     with open(path, encoding="utf-8-sig", errors="replace") as f:
-        for raw in csv.DictReader(f, delimiter="\t"):
-            parsed = parse_row(raw)
+        header = f.readline()
+        f.seek(0)
+        # v1 ships tab-delimited .txt; v2's Dataverse zip ships comma CSV
+        # (the .tab re-export is tab). Detect both, per file.
+        reader = csv.DictReader(f, delimiter="\t" if "\t" in header else ",")
+        fields = set(reader.fieldnames or [])
+        if "issn1" in fields:
+            row_parser = parse_row_v2
+        elif "ISSN_1" in fields:
+            row_parser = parse_row
+        else:
+            raise RuntimeError(
+                f"unrecognized Butler column layout: {sorted(fields)[:8]}...")
+        for raw in reader:
+            parsed = row_parser(raw)
             if parsed is None:
                 skipped += 1
                 continue
             parsed["dataset_version"] = dataset_version
             rows.append(parsed)
-    if len(rows) < MIN_ROWS:
+    min_rows = MIN_ROWS_V2 if row_parser is parse_row_v2 else MIN_ROWS
+    if len(rows) < min_rows:
         raise RuntimeError(f"Butler file suspiciously small ({len(rows)} rows "
-                           f"< {MIN_ROWS}); aborting before staging")
+                           f"< {min_rows}); aborting before staging")
     print(f"parsed {len(rows)} Butler journal-year rows "
           f"({skipped} skipped: no usable ISSN)", flush=True)
     return rows
@@ -153,8 +271,8 @@ def stage(rows, dataset_version):
 
 def load_staged(conn):
     return [dict(r._mapping) for r in conn.execute(text(
-        "SELECT unique_id, issns, journal, apc_year, apc_order, apc_date, "
-        "prices, price_usd, apc_provided, dataset_version "
+        "SELECT unique_id, publisher, issns, journal, apc_year, apc_order, "
+        "apc_date, prices, price_usd, apc_provided, dataset_version "
         "FROM butler_apc_journal_year"))]
 
 
@@ -222,35 +340,50 @@ def _as_date(v):
 
 def build_usd_by_year(rows, counts):
     """Row dicts (possibly from several unique_ids on one source) ->
-    ({"<observed year>": usd, ...}, most-recent observed value).
+    ({"<observed year>": usd, ...}, most-recent observed value, apc_prices).
 
     Observation per year: the row's dataset USD value (original or Butler-
-    converted), rounded. Collisions within a year (publisher-transfer
-    duplicates, order-2 transitions) resolve by highest apc_order then latest
-    apc_date. Rows with APC_provided != yes have price_usd NULL and are not
-    observations. NO fill: observed years only (module doc)."""
-    observed = {}  # year -> (order, date, usd, original-currency prices)
+    converted), rounded. Collisions within a year resolve by highest
+    apc_order, then -- when order gives no answer and the colliding rows
+    name different publishers (v2's publisher-transfer duplicate) -- the
+    INCOMING publisher (the one that isn't the previous year's: the transfer
+    year runs on the new publisher's list), then latest apc_date. Rows
+    without a USD value are not observations. NO fill: observed years only
+    (module doc)."""
+    by_year = defaultdict(list)
     for r in rows:
         if r["price_usd"] is None:
             if r["prices"]:  # priced in some currency but no USD: needs FX
                 counts["no_usd_needs_fx"] += 1
             continue
-        order = r["apc_order"] or 1
-        rdate = _as_date(r["apc_date"]) or date.min
-        cur = observed.get(r["apc_year"])
-        if cur is None or (order, rdate) > cur[:2]:
-            raw = r["prices"]
-            raw = json.loads(raw) if isinstance(raw, str) else (raw or [])
-            observed[r["apc_year"]] = (order, rdate, round(r["price_usd"]), raw)
-    if not observed:
+        by_year[r["apc_year"]].append(r)
+    if not by_year:
         return None, None, None
+    observed = {}  # year -> (usd, price entries)
+    prev_pub = None
+    for y in sorted(by_year):
+        cands = by_year[y]
+        transfer = len({c.get("publisher") for c in cands}) > 1
+        best = max(cands, key=lambda r: (
+            r["apc_order"] or 1,
+            1 if (transfer and prev_pub and r.get("publisher")
+                  and r["publisher"] != prev_pub) else 0,
+            _as_date(r["apc_date"]) or date.min,
+        ))
+        raw = best["prices"]
+        raw = json.loads(raw) if isinstance(raw, str) else (raw or [])
+        observed[y] = (round(best["price_usd"]), raw)
+        prev_pub = best.get("publisher") or prev_pub
     latest = observed[max(observed)]
-    # apc_prices payload: latest year's original-currency entries, walden
-    # shape [{"price", "currency"}]; no originals -> the dataset USD value
-    prices = ([{"price": p["price"], "currency": p["currency"]} for p in latest[3]]
-              or [{"price": latest[2], "currency": "USD"}])
-    return ({str(y): observed[y][2] for y in sorted(observed)},
-            latest[2], prices)
+    # apc_prices payload: latest year's original-verdict entries (v1 rows
+    # carry only originals; v2 rows carry every cell plus the verdict --
+    # module doc), walden shape [{"price", "currency"}]; no originals ->
+    # the dataset USD value
+    prices = ([{"price": round(p["price"]), "currency": p["currency"]}
+               for p in latest[1] if p.get("original")]
+              or [{"price": latest[0], "currency": "USD"}])
+    return ({str(y): observed[y][0] for y in sorted(observed)},
+            latest[0], prices)
 
 
 def apply(dataset_version, rows=None, dry_run=False):
@@ -261,24 +394,53 @@ def apply(dataset_version, rows=None, dry_run=False):
         "apc_usd = %(usd)s, apc_prices = %(prices)s::jsonb, "
         "updated_date = now() WHERE id = %(id)s"
     )
+    update_history_only = (
+        # recency guard (module doc): stale journals get history only;
+        # apc_usd/apc_prices keep the registry's current state (curation
+        # may be newer than the dataset's last sighting of the journal).
+        "UPDATE sources SET apc_usd_by_year = %(by_year)s::jsonb, "
+        "updated_date = now() WHERE id = %(id)s"
+    )
     with engine.begin() as conn:
         if rows is None:
             rows = load_staged(conn)
+        dataset_max_year = max(r["apc_year"] for r in rows)
+        # a dataset that is itself old (a v1 re-run, or this file years from
+        # now) must not stamp its terminal years as current prices: force
+        # every write down the history-only path
+        dataset_is_stale = dataset_max_year < date.today().year - 1
+        if dataset_is_stale:
+            print(f"dataset max year {dataset_max_year} is stale vs today: "
+                  f"ALL updates will be history-only", flush=True)
         per_source, issues, counts = match_rows(conn, rows)
         print(f"[{dataset_version}] match: {dict(counts)}; "
               f"{len(per_source)} candidate sources; dry_run={dry_run}", flush=True)
         samples = []
+        stale_samples = []
         pending = []
+        pending_history = []
         for sid, srows in per_source.items():
             by_year, current, prices = build_usd_by_year(srows, counts)
             if not by_year:
                 counts["no_priced_rows"] += 1
                 continue
+            stale = dataset_is_stale or (
+                max(int(y) for y in by_year) < dataset_max_year - RECENCY_WINDOW)
+            if len({r["unique_id"] for r in srows}) > 1:
+                counts["multi_uid_sources"] += 1
             if dry_run:
-                counts["would_update"] += 1
                 journal = next((r["journal"] for r in srows if r["journal"]), None)
-                if len(samples) < 3 or (journal and "scientific reports" in journal.lower()):
-                    samples.append((sid, journal, by_year, current, prices))
+                if stale:
+                    counts["would_update_history_only"] += 1
+                    if len(stale_samples) < 8:
+                        stale_samples.append((sid, journal, by_year))
+                else:
+                    counts["would_update"] += 1
+                    if len(samples) < 3 or (journal and "scientific reports" in journal.lower()):
+                        samples.append((sid, journal, by_year, current, prices))
+            elif stale:
+                pending_history.append({"id": sid, "by_year": json.dumps(by_year)})
+                counts["updated_history_only"] += 1
             else:
                 pending.append({"id": sid, "by_year": json.dumps(by_year),
                                 "usd": current, "prices": json.dumps(prices)})
@@ -286,6 +448,10 @@ def apply(dataset_version, rows=None, dry_run=False):
         if pending:
             psycopg2.extras.execute_batch(
                 conn.connection.cursor(), update, pending, page_size=500)
+        if pending_history:
+            psycopg2.extras.execute_batch(
+                conn.connection.cursor(), update_history_only, pending_history,
+                page_size=500)
         if dry_run:
             for issns, ids, detail in issues[:20]:
                 print(f"  multi_match {issns} -> {ids} ({detail})")
@@ -294,6 +460,10 @@ def apply(dataset_version, rows=None, dry_run=False):
                 edges = {y: by_year[y] for y in years[:2] + years[-2:]}
                 print(f"  sample source {sid} ({journal}): {len(by_year)} years, "
                       f"edges {edges}, current={current}, apc_prices={prices}")
+            for sid, journal, by_year in stale_samples:
+                print(f"  history-only source {sid} ({journal}): last observed "
+                      f"{max(by_year)} < {dataset_max_year - RECENCY_WINDOW}, "
+                      f"apc_usd/apc_prices untouched")
             print(f"dry-run (NO WRITES): {dict(counts)}", flush=True)
             return counts
         # multi-match pairs are logged, NOT parked into source_ingest_issue
