@@ -67,6 +67,22 @@ def protected_fixture():
         "2b57dfbd43207095dbc": observation(
             "2b57dfbd43207095dbc", matcher=4377196246, legacy=(4377196246,)
         ),
+        "vzs6na3qd8sizyhrp6u5": observation(
+            "vzs6na3qd8sizyhrp6u5",
+            matcher=4306402621,
+            legacy=(4306402621,),
+            pmh_url="https://api.figshare.com/v2/oai",
+        ),
+        "rqyjzdijqflhirw6ao8v": backfill.Observation(
+            endpoint_id="rqyjzdijqflhirw6ao8v",
+            canonical_source_id=None,
+            source_endpoint_source_id=7407051385,
+            legacy_source_ids=(),
+            pmh_url="https://api.figshare.com/v2/oai",
+            pmh_set="set=portal_959",
+            metadata_prefix="oai_dc",
+            ready_to_run=False,
+        ),
     }
     corrections = {
         "b174b390e74e8df2b0a": decision(
@@ -82,7 +98,13 @@ def protected_fixture():
             "b54a0400f7544929302", values["b54a0400f7544929302"], "LEAVE_NULL"
         ),
         "2b57dfbd43207095dbc": decision(
-            "2b57dfbd43207095dbc", values["2b57dfbd43207095dbc"], "HARD_DELETE"
+            "2b57dfbd43207095dbc", values["2b57dfbd43207095dbc"], "ESCALATE"
+        ),
+        "vzs6na3qd8sizyhrp6u5": decision(
+            "vzs6na3qd8sizyhrp6u5", values["vzs6na3qd8sizyhrp6u5"], "LEAVE_NULL"
+        ),
+        "rqyjzdijqflhirw6ao8v": decision(
+            "rqyjzdijqflhirw6ao8v", values["rqyjzdijqflhirw6ao8v"], "LEAVE_NULL"
         ),
     }
     return list(values.values()), corrections
@@ -170,6 +192,8 @@ class PlanningTests(unittest.TestCase):
             4377196541,
             2764988245,
             4377196246,
+            4306402621,
+            7407051385,
         }
         return protected + ordinary, direct, corrections, existing
 
@@ -187,11 +211,14 @@ class PlanningTests(unittest.TestCase):
         self.assertEqual(rows["orphan"].status, "REMAINING_NULL")
         self.assertEqual((rows["conflict"].status, rows["conflict"].proposed_source_id), ("UPDATE", 13))
 
-        # The ordinary legacy agreement would copy all four without this overlay.
+        # Ordinary legacy evidence would copy all six without this overlay.
         self.assertEqual(rows["b174b390e74e8df2b0a"].status, "REMAINING_NULL")
         self.assertEqual(rows["b54a0400f7544929302"].status, "REMAINING_NULL")
-        self.assertEqual(rows["2b57dfbd43207095dbc"].disposition, "HARD_DELETE")
+        self.assertEqual(rows["2b57dfbd43207095dbc"].status, "REMAINING_NULL")
+        self.assertEqual(rows["2b57dfbd43207095dbc"].disposition, "ESCALATE")
         self.assertEqual(rows["6333d6bcffb78f92839"].proposed_source_id, 4377196541)
+        self.assertEqual(rows["vzs6na3qd8sizyhrp6u5"].status, "REMAINING_NULL")
+        self.assertEqual(rows["rqyjzdijqflhirw6ao8v"].status, "REMAINING_NULL")
 
     def test_missing_protected_decision_fails_closed(self):
         observations, direct, corrections, existing = self.full_fixture()
@@ -208,6 +235,88 @@ class PlanningTests(unittest.TestCase):
         with self.assertRaisesRegex(backfill.PreflightError, "target must be 4377196541"):
             backfill.build_plan(observations, direct, corrections, existing)
 
+    def test_configuration_risk_requires_explicit_decision(self):
+        observations, direct, corrections, existing = self.full_fixture()
+        observations.append(
+            observation(
+                "future_setless_figshare",
+                matcher=999,
+                legacy=(999,),
+                pmh_url="https://api.figshare.com/v2/oai",
+            )
+        )
+        existing.add(999)
+        with self.assertRaisesRegex(backfill.PreflightError, "configuration-risk"):
+            backfill.build_plan(observations, direct, corrections, existing)
+
+    def test_verified_global_figshare_agreement_remains_automatic(self):
+        observations, direct, corrections, existing = self.full_fixture()
+        observations.append(
+            observation(
+                "verified_global_figshare",
+                matcher=backfill.FIGSHARE_GLOBAL_SOURCE_ID,
+                legacy=(backfill.FIGSHARE_GLOBAL_SOURCE_ID,),
+                pmh_url="http://api.figshare.com/v2/oai",
+            )
+        )
+        existing.add(backfill.FIGSHARE_GLOBAL_SOURCE_ID)
+        plan = backfill.build_plan(observations, direct, corrections, existing)
+        row = next(
+            value for value in plan if value.endpoint_id == "verified_global_figshare"
+        )
+        self.assertEqual(row.status, "UPDATE")
+        self.assertEqual(row.proposed_source_id, backfill.FIGSHARE_GLOBAL_SOURCE_ID)
+        self.assertIn(
+            "setless_figshare_aggregate",
+            next(
+                value["signals"]
+                for value in backfill.semantic_risk_rows(observations, corrections)
+                if value["endpoint_id"] == "verified_global_figshare"
+            ),
+        )
+
+    def test_figshare_and_pmh_set_configuration_signals(self):
+        setless = observation(
+            "figshare",
+            matcher=1,
+            legacy=(1,),
+            pmh_url="https://api.figshare.com/v2/oai/",
+        )
+        scoped = backfill.Observation(
+            **{**setless.__dict__, "endpoint_id": "scoped", "pmh_set": "portal_959"}
+        )
+        malformed = backfill.Observation(
+            **{**setless.__dict__, "endpoint_id": "malformed", "pmh_set": "set=portal_959"}
+        )
+        self.assertEqual(
+            backfill.configuration_risk_signals(setless),
+            ["setless_figshare_aggregate"],
+        )
+        self.assertEqual(backfill.configuration_risk_signals(scoped), [])
+        self.assertEqual(
+            backfill.configuration_risk_signals(malformed),
+            ["pmh_set_contains_parameter_name"],
+        )
+        trusted = observation(
+            "trusted",
+            matcher=backfill.FIGSHARE_GLOBAL_SOURCE_ID,
+            legacy=(backfill.FIGSHARE_GLOBAL_SOURCE_ID,),
+            pmh_url="http://api.figshare.com/v2/oai",
+        )
+        self.assertFalse(backfill.requires_configuration_decision(trusted))
+        self.assertTrue(backfill.requires_configuration_decision(setless))
+
+    def test_semantic_report_includes_configuration_signals(self):
+        observations, _, corrections, _ = self.full_fixture()
+        signals = {
+            row["endpoint_id"]: row["signals"]
+            for row in backfill.semantic_risk_rows(observations, corrections)
+        }
+        self.assertIn("setless_figshare_aggregate", signals["vzs6na3qd8sizyhrp6u5"])
+        self.assertIn(
+            "pmh_set_contains_parameter_name", signals["rqyjzdijqflhirw6ao8v"]
+        )
+
     def test_direct_manifest_must_match_query_exactly(self):
         observations, direct, corrections, existing = self.full_fixture()
         direct.clear()
@@ -222,6 +331,75 @@ class PlanningTests(unittest.TestCase):
                 **direct["conflict"].__dict__,
                 "expected_source_endpoint_source_id": conflict.source_endpoint_source_id + 1,
             }
+        )
+        with self.assertRaisesRegex(backfill.PreflightError, "stale exact-value guard"):
+            backfill.build_plan(observations, direct, corrections, existing)
+
+    def test_set_source_manifest_accepts_its_approved_post_state_on_rerun(self):
+        observations, direct, corrections, existing = self.full_fixture()
+        conflict_index = next(
+            index for index, value in enumerate(observations) if value.endpoint_id == "conflict"
+        )
+        observations[conflict_index] = observation(
+            "conflict", canonical=13, matcher=13, legacy=(14,)
+        )
+        archive_index = next(
+            index
+            for index, value in enumerate(observations)
+            if value.endpoint_id == "6333d6bcffb78f92839"
+        )
+        observations[archive_index] = observation(
+            "6333d6bcffb78f92839",
+            canonical=4377196541,
+            matcher=4210203682,
+            legacy=(4210203682,),
+        )
+
+        plan = backfill.build_plan(observations, direct, corrections, existing)
+        rows = {row.endpoint_id: row for row in plan}
+        self.assertEqual(rows["conflict"].status, "NOOP")
+        self.assertEqual(rows["6333d6bcffb78f92839"].status, "NOOP")
+
+    def test_reviewed_set_source_can_correct_a_nonnull_canonical_value(self):
+        observations, direct, corrections, existing = self.full_fixture()
+        archive_index = next(
+            index
+            for index, value in enumerate(observations)
+            if value.endpoint_id == "6333d6bcffb78f92839"
+        )
+        observations[archive_index] = observation(
+            "6333d6bcffb78f92839",
+            canonical=4210203682,
+            matcher=4210203682,
+            legacy=(4210203682,),
+        )
+        corrections["6333d6bcffb78f92839"] = decision(
+            "6333d6bcffb78f92839",
+            observations[archive_index],
+            "SET_SOURCE",
+            4377196541,
+        )
+
+        plan = backfill.build_plan(observations, direct, corrections, existing)
+        row = next(
+            value for value in plan if value.endpoint_id == "6333d6bcffb78f92839"
+        )
+        self.assertEqual(row.before_source_id, 4210203682)
+        self.assertEqual(row.proposed_source_id, 4377196541)
+        self.assertEqual(row.status, "UPDATE")
+
+    def test_non_set_source_manifest_keeps_strict_canonical_guard(self):
+        observations, direct, corrections, existing = self.full_fixture()
+        datacite_index = next(
+            index
+            for index, value in enumerate(observations)
+            if value.endpoint_id == "b174b390e74e8df2b0a"
+        )
+        observations[datacite_index] = observation(
+            "b174b390e74e8df2b0a",
+            canonical=4406922384,
+            matcher=4406922384,
+            legacy=(4406922384,),
         )
         with self.assertRaisesRegex(backfill.PreflightError, "stale exact-value guard"):
             backfill.build_plan(observations, direct, corrections, existing)
@@ -355,6 +533,11 @@ class PlanningTests(unittest.TestCase):
             }
             self.assertEqual({path.name for path in output.iterdir()}, expected)
             self.assertEqual(json.loads((output / "plan.json").read_text())["plan_sha256"], plan_hash)
+            metadata = json.loads((output / "run_metadata.json").read_text())
+            self.assertEqual(
+                metadata["remaining_nulls_sha256"],
+                backfill.sha256_bytes((output / "remaining_nulls.csv").read_bytes()),
+            )
             self.assertEqual(counts["endpoint_rows"], len(observations))
             self.assertNotIn("reviewed evidence", (output / "known_corrections.csv").read_text())
 

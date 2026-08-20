@@ -25,6 +25,7 @@ import csv
 import hashlib
 import io
 import json
+import re
 import sys
 import uuid
 from collections import Counter
@@ -32,10 +33,14 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable, Mapping, Optional, Sequence, cast
+from urllib.parse import urlsplit
 
 
 AUDIT_TABLE = "endpoint_source_backfill_audit"
-PLAN_SCHEMA_VERSION = 1
+PLAN_SCHEMA_VERSION = 2
+FIGSHARE_GLOBAL_SOURCE_ID = 4377196282
+
+PMH_SET_PARAMETER_RE = re.compile(r"^\s*[?&]?\s*set\s*=", re.IGNORECASE)
 
 COMMON_MANIFEST_COLUMNS = {
     "endpoint_id",
@@ -56,7 +61,7 @@ PLACEHOLDER_VALUES = {"", "todo", "tbd", "unknown", "pending", "n/a"}
 # These are fail-closed identity canaries, not embedded disposition rows. A local,
 # reviewed correction manifest must still carry the exact observations, action,
 # reviewer, approval reference, and evidence for every one. Keeping the IDs here
-# prevents a missing overlay from silently canonizing the four already-verified
+# prevents a missing overlay from silently canonizing the six already-verified
 # bad/special bindings during the ordinary copy pass.
 PROTECTED_CORRECTION_ENDPOINTS: Mapping[str, Mapping[str, Any]] = {
     "b174b390e74e8df2b0a": {
@@ -75,6 +80,14 @@ PROTECTED_CORRECTION_ENDPOINTS: Mapping[str, Mapping[str, Any]] = {
     "2b57dfbd43207095dbc": {
         "label": "CISION content-class exclusion",
         "allowed_actions": {"HARD_DELETE", "ESCALATE"},
+    },
+    "vzs6na3qd8sizyhrp6u5": {
+        "label": "set-less Figshare aggregate previously bound to INDIGO",
+        "allowed_actions": {"LEAVE_NULL", "ESCALATE"},
+    },
+    "rqyjzdijqflhirw6ao8v": {
+        "label": "Figshare endpoint with malformed set=portal_959 configuration",
+        "allowed_actions": {"LEAVE_NULL", "ESCALATE"},
     },
 }
 
@@ -329,18 +342,82 @@ def is_direct_conflict(observation: Observation) -> bool:
     )
 
 
+def pmh_set_contains_parameter_name(value: Optional[str]) -> bool:
+    """Return true when a stored set incorrectly includes the ``set=`` key."""
+
+    return bool(value and PMH_SET_PARAMETER_RE.search(value))
+
+
+def is_setless_figshare_aggregate(observation: Observation) -> bool:
+    """Identify Figshare's shared base feed when no Source-scoping set is stored."""
+
+    if observation.pmh_set and observation.pmh_set.strip():
+        return False
+    try:
+        parsed = urlsplit((observation.pmh_url or "").strip())
+    except ValueError:
+        return False
+    return (
+        parsed.hostname == "api.figshare.com"
+        and parsed.path.rstrip("/").lower() == "/v2/oai"
+    )
+
+
+def configuration_risk_signals(observation: Observation) -> list[str]:
+    signals: list[str] = []
+    if is_setless_figshare_aggregate(observation):
+        signals.append("setless_figshare_aggregate")
+    if pmh_set_contains_parameter_name(observation.pmh_set):
+        signals.append("pmh_set_contains_parameter_name")
+    return signals
+
+
+def has_trusted_global_figshare_mapping(observation: Observation) -> bool:
+    """Allow only the verified whole-feed Figshare identity without extra review."""
+
+    return (
+        is_setless_figshare_aggregate(observation)
+        and observation.source_endpoint_source_id == FIGSHARE_GLOBAL_SOURCE_ID
+        and observation.legacy_source_ids == (FIGSHARE_GLOBAL_SOURCE_ID,)
+    )
+
+
+def requires_configuration_decision(observation: Observation) -> bool:
+    if pmh_set_contains_parameter_name(observation.pmh_set):
+        return True
+    if is_setless_figshare_aggregate(observation):
+        return not has_trusted_global_figshare_mapping(observation)
+    return False
+
+
 def assert_decision_matches(decision: ManifestDecision, observation: Observation) -> None:
-    expected = (
-        decision.expected_canonical_source_id,
-        decision.expected_source_endpoint_source_id,
-        decision.expected_legacy_source_ids,
+    # A SET_SOURCE row may already equal its reviewed target after a committed
+    # canary or earlier batch. Treat that as an idempotent post-state while still
+    # requiring the two legacy observations to match the reviewed evidence
+    # exactly. Every non-SET_SOURCE action retains strict canonical equality.
+    canonical_matches = (
+        observation.canonical_source_id == decision.expected_canonical_source_id
+        or (
+            decision.action == "SET_SOURCE"
+            and observation.canonical_source_id == decision.target_source_id
+        )
     )
-    actual = (
-        observation.canonical_source_id,
-        observation.source_endpoint_source_id,
-        observation.legacy_source_ids,
+    legacy_matches = (
+        observation.source_endpoint_source_id
+        == decision.expected_source_endpoint_source_id
+        and observation.legacy_source_ids == decision.expected_legacy_source_ids
     )
-    if expected != actual:
+    if not canonical_matches or not legacy_matches:
+        expected = (
+            decision.expected_canonical_source_id,
+            decision.expected_source_endpoint_source_id,
+            decision.expected_legacy_source_ids,
+        )
+        actual = (
+            observation.canonical_source_id,
+            observation.source_endpoint_source_id,
+            observation.legacy_source_ids,
+        )
         raise PreflightError(
             f"{decision.manifest_kind} {decision.endpoint_id}: stale exact-value guard; "
             f"expected canonical/matcher/legacy={expected!r}, observed={actual!r}"
@@ -373,6 +450,16 @@ def validate_manifest_parity(
         raise PreflightError(
             "known-correction manifest must explicitly adjudicate protected endpoints: "
             + ", ".join(labels)
+        )
+
+    configuration_risk_ids = {
+        row.endpoint_id for row in observations if requires_configuration_decision(row)
+    }
+    missing_configuration_decisions = configuration_risk_ids - set(direct) - set(corrections)
+    if missing_configuration_decisions:
+        raise PreflightError(
+            "configuration-risk endpoints require an explicit direct or correction "
+            f"decision: {sorted(missing_configuration_decisions)}"
         )
 
     for decision in list(direct.values()) + list(corrections.values()):
@@ -413,6 +500,9 @@ def validate_manifest_parity(
 
 
 def base_decision(observation: Observation) -> tuple[Optional[int], str, str]:
+    risks = configuration_risk_signals(observation)
+    if requires_configuration_decision(observation):
+        return None, f"configuration_risk:{'+'.join(risks)}", "REVIEW"
     se_id = observation.source_endpoint_source_id
     legacy_ids = observation.legacy_source_ids
     if se_id is not None and legacy_ids == (se_id,):
@@ -636,7 +726,7 @@ def semantic_risk_rows(
 ) -> list[dict[str, Any]]:
     results: list[dict[str, Any]] = []
     for observation in observations:
-        signals: list[str] = []
+        signals = configuration_risk_signals(observation)
         if observation.endpoint_id in corrections:
             signals.append("reviewed_known_correction")
         if len(observation.legacy_source_ids) > 1:
@@ -744,6 +834,9 @@ def write_review_package(
         "plan_sha256": plan_hash,
         "direct_conflict_manifest_sha256": direct_sha256,
         "known_correction_manifest_sha256": corrections_sha256,
+        "remaining_nulls_sha256": sha256_bytes(
+            (output_dir / "remaining_nulls.csv").read_bytes()
+        ),
         "combined_manifest_sha256": manifest_combined_hash(
             direct_sha256, corrections_sha256
         ),
