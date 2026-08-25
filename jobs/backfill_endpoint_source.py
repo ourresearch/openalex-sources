@@ -78,12 +78,12 @@ PROTECTED_CORRECTION_ENDPOINTS: Mapping[str, Mapping[str, Any]] = {
         "allowed_actions": {"LEAVE_NULL", "HARD_DELETE", "ESCALATE"},
     },
     "2b57dfbd43207095dbc": {
-        "label": "CISION content-class exclusion",
-        "allowed_actions": {"HARD_DELETE", "ESCALATE"},
+        "label": "CISION dead aggregator with legacy-mapped records (Casey 2026-08-24: keep, link to legacy source)",
+        "allowed_actions": {"SET_SOURCE", "HARD_DELETE", "ESCALATE"},
     },
     "vzs6na3qd8sizyhrp6u5": {
-        "label": "set-less Figshare aggregate previously bound to INDIGO",
-        "allowed_actions": {"LEAVE_NULL", "ESCALATE"},
+        "label": "set-less Figshare aggregate previously bound to INDIGO (Casey 2026-08-24: link to Figshare 4377196282)",
+        "allowed_actions": {"SET_SOURCE", "LEAVE_NULL", "ESCALATE"},
     },
     "rqyjzdijqflhirw6ao8v": {
         "label": "Figshare endpoint with malformed set=portal_959 configuration",
