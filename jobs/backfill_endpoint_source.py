@@ -161,7 +161,7 @@ SELECT
     e.pmh_set,
     e.metadata_prefix,
     e.ready_to_run
-FROM endpoint e
+FROM oai_pmh_endpoint e
 LEFT JOIN source_endpoint se ON se.endpoint_id = e.id
 WHERE e.status = 'active'
 ORDER BY e.id
@@ -182,7 +182,7 @@ SELECT
     e.pmh_set,
     e.metadata_prefix,
     e.ready_to_run
-FROM endpoint e
+FROM oai_pmh_endpoint e
 LEFT JOIN source_endpoint se ON se.endpoint_id = e.id
 WHERE e.id = :endpoint_id
   AND e.status = 'active'
@@ -862,7 +862,7 @@ def verify_022_schema(conn: Any) -> dict[str, Any]:
     column = conn.execute(
         text(
             "SELECT data_type, is_nullable FROM information_schema.columns "
-            "WHERE table_schema = current_schema() AND table_name = 'endpoint' "
+            "WHERE table_schema = current_schema() AND table_name = 'oai_pmh_endpoint' "
             "AND column_name = 'source_id'"
         )
     ).mappings().one_or_none()
@@ -878,7 +878,7 @@ def verify_022_schema(conn: Any) -> dict[str, Any]:
             "   AND a.attnum = c.conkey[1]"
             " JOIN pg_attribute ra ON ra.attrelid = c.confrelid"
             "   AND ra.attnum = c.confkey[1]"
-            " WHERE t.oid = 'endpoint'::regclass"
+            " WHERE t.oid = 'oai_pmh_endpoint'::regclass"
             "   AND c.conname = 'endpoint_source_id_fkey'"
             "   AND c.contype = 'f' AND c.confdeltype = 'r'"
             "   AND c.confrelid = 'sources'::regclass"
@@ -1184,7 +1184,7 @@ def execute_batches(
                     )
                 result = conn.execute(
                     text(
-                        "UPDATE endpoint SET source_id = :after_source_id "
+                        "UPDATE oai_pmh_endpoint SET source_id = :after_source_id "
                         "WHERE id = :endpoint_id "
                         "AND source_id IS NOT DISTINCT FROM :before_source_id "
                         "AND (SELECT se.source_id FROM source_endpoint se "

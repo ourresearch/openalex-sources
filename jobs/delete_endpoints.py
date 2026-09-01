@@ -104,7 +104,7 @@ SELECT
         FROM sources s
         WHERE s.endpoint_id = e.id
     ) AS repo_record_count
-FROM endpoint e
+FROM oai_pmh_endpoint e
 WHERE e.id = ANY(CAST(:endpoint_ids AS text[]))
 ORDER BY e.id
 """
@@ -121,7 +121,7 @@ SELECT
         FROM sources s
         WHERE s.endpoint_id = e.id
     ) AS repo_record_count
-FROM endpoint e
+FROM oai_pmh_endpoint e
 WHERE e.id = :endpoint_id
 FOR UPDATE OF e
 """
@@ -330,10 +330,10 @@ def verify_operational_schema(conn: Any) -> None:
     from sqlalchemy import text
 
     required_types = {
-        ("endpoint", "id"): "text",
-        ("endpoint", "pmh_url"): "text",
-        ("endpoint", "pmh_set"): "text",
-        ("endpoint", "source_id"): "bigint",
+        ("oai_pmh_endpoint", "id"): "text",
+        ("oai_pmh_endpoint", "pmh_url"): "text",
+        ("oai_pmh_endpoint", "pmh_set"): "text",
+        ("oai_pmh_endpoint", "source_id"): "bigint",
         ("source_endpoint", "endpoint_id"): "text",
         ("source_endpoint", "source_id"): "bigint",
         ("sources", "endpoint_id"): "text",
@@ -345,7 +345,7 @@ def verify_operational_schema(conn: Any) -> None:
                 "SELECT table_name, column_name, data_type, is_nullable "
                 "FROM information_schema.columns "
                 "WHERE table_schema = current_schema() "
-                "AND table_name IN ('endpoint', 'source_endpoint', 'sources')"
+                "AND table_name IN ('oai_pmh_endpoint', 'source_endpoint', 'sources')"
             )
         ).mappings()
     }
@@ -394,7 +394,7 @@ def verify_operational_schema(conn: Any) -> None:
             "   AND ra.attnum = c.confkey[1]"
             " WHERE c.conrelid = 'source_endpoint'::regclass"
             "   AND c.contype = 'f'"
-            "   AND c.confrelid = 'endpoint'::regclass"
+            "   AND c.confrelid = 'oai_pmh_endpoint'::regclass"
             "   AND a.attname = 'endpoint_id' AND ra.attname = 'id'"
             "   AND c.confdeltype IN ('a', 'r')"
             "   AND array_length(c.conkey, 1) = 1"
@@ -404,7 +404,7 @@ def verify_operational_schema(conn: Any) -> None:
     ).scalar_one()
     if not endpoint_fk:
         raise PreflightError(
-            "source_endpoint.endpoint_id must reference endpoint.id with NO ACTION/RESTRICT"
+            "source_endpoint.endpoint_id must reference oai_pmh_endpoint.id with NO ACTION/RESTRICT"
         )
 
 
@@ -717,7 +717,7 @@ def execute_batches(
 
                 endpoint_result = conn.execute(
                     text(
-                        "DELETE FROM endpoint AS e "
+                        "DELETE FROM oai_pmh_endpoint AS e "
                         "WHERE e.id = :endpoint_id "
                         "AND e.source_id IS NOT DISTINCT FROM :source_id "
                         "AND e.pmh_url IS NOT DISTINCT FROM :pmh_url "
