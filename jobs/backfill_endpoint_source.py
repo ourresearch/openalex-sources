@@ -163,6 +163,7 @@ SELECT
     e.ready_to_run
 FROM endpoint e
 LEFT JOIN source_endpoint se ON se.endpoint_id = e.id
+WHERE e.status = 'active'
 ORDER BY e.id
 """
 
@@ -184,6 +185,7 @@ SELECT
 FROM endpoint e
 LEFT JOIN source_endpoint se ON se.endpoint_id = e.id
 WHERE e.id = :endpoint_id
+  AND e.status = 'active'
 FOR UPDATE OF e
 """
 
