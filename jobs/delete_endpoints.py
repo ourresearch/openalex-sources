@@ -277,7 +277,10 @@ def build_plan(
         decision = manifest[endpoint_id]
         observed = observed_by_id[endpoint_id]
         expected = (decision.expected_source_id, decision.expected_pmh_url)
-        actual = (observed.source_id, observed.pmh_url)
+        # The manifest parser strips edge whitespace; compare the observed URL the
+        # same way so a legacy row whose pmh_url carries a trailing space can be
+        # matched (1 such row in the 2026-09-01 batch). Identity is by endpoint_id.
+        actual = (observed.source_id, parse_optional_text(observed.pmh_url))
         if expected != actual:
             raise PreflightError(
                 f"{endpoint_id}: stale exact-value guard; expected source/url={expected!r}, "
