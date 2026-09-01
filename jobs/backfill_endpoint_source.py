@@ -1361,9 +1361,19 @@ def main(argv: Optional[Sequence[str]] = None, engine: Any = None) -> int:
                 f"database mismatch: expected {args.expected_database!r}, "
                 f"connected to {metadata.get('database_name')!r}"
             )
-        blocked = [row.endpoint_id for row in plan if row.status == "BLOCKED"]
+        # Refuse only when a BLOCKED row is inside the hashed execution scope.
+        # Rows outside the scope are reported in the package but never written,
+        # so a BLOCKED row elsewhere in the table (for example a canonical value
+        # set by a later job with no legacy relationship) must not veto a
+        # reviewed batch. (2026-09-01)
+        in_scope = {row.endpoint_id for row in (selected or ())}
+        blocked = [
+            row.endpoint_id
+            for row in plan
+            if row.status == "BLOCKED" and row.endpoint_id in in_scope
+        ]
         if blocked:
-            raise PreflightError(f"plan contains BLOCKED rows: {blocked[:20]}")
+            raise PreflightError(f"execution scope contains BLOCKED rows: {blocked[:20]}")
         if selected is None or scope_hash is None:
             raise PreflightError("execute mode requires an explicit hashed scope")
         if scope_hash.lower() != args.approved_scope_hash.lower():
