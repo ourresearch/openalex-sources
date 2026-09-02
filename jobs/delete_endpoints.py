@@ -8,7 +8,7 @@ fresh plan and the SHA-256 digest that must be approved before execution::
 ``--execute`` additionally requires the approved plan hash, exact database name,
 run UUID, actor, and execution approval reference. The manifest is the execution
 scope. Every execution rebuilds the plan from a fresh database snapshot, deletes
-``source_endpoint`` before ``endpoint``, and writes one durable audit receipt per
+the row from ``oai_pmh_endpoint`` (legacy stores are gone since mig 037), and writes one durable audit receipt per
 endpoint in the same transaction. Batches commit independently and may contain at
 most 500 endpoints. Each write batch also takes a short-lived PostgreSQL SHARE
 lock on ``sources`` so the legacy repository-record count cannot change between
@@ -94,16 +94,8 @@ SELECT
     e.pmh_url,
     e.pmh_set,
     e.source_id,
-    (
-        SELECT se.source_id
-        FROM source_endpoint se
-        WHERE se.endpoint_id = e.id
-    ) AS legacy_source_endpoint_source_id,
-    (
-        SELECT count(*)
-        FROM sources s
-        WHERE s.endpoint_id = e.id
-    ) AS repo_record_count
+    CAST(NULL AS bigint) AS legacy_source_endpoint_source_id,
+    0 AS repo_record_count
 FROM oai_pmh_endpoint e
 WHERE e.id = ANY(CAST(:endpoint_ids AS text[]))
 ORDER BY e.id
@@ -116,11 +108,7 @@ SELECT
     e.pmh_url,
     e.pmh_set,
     e.source_id,
-    (
-        SELECT count(*)
-        FROM sources s
-        WHERE s.endpoint_id = e.id
-    ) AS repo_record_count
+    0 AS repo_record_count
 FROM oai_pmh_endpoint e
 WHERE e.id = :endpoint_id
 FOR UPDATE OF e
@@ -334,9 +322,6 @@ def verify_operational_schema(conn: Any) -> None:
         ("oai_pmh_endpoint", "pmh_url"): "text",
         ("oai_pmh_endpoint", "pmh_set"): "text",
         ("oai_pmh_endpoint", "source_id"): "bigint",
-        ("source_endpoint", "endpoint_id"): "text",
-        ("source_endpoint", "source_id"): "bigint",
-        ("sources", "endpoint_id"): "text",
     }
     columns = {
         (row["table_name"], row["column_name"]): row
@@ -345,7 +330,7 @@ def verify_operational_schema(conn: Any) -> None:
                 "SELECT table_name, column_name, data_type, is_nullable "
                 "FROM information_schema.columns "
                 "WHERE table_schema = current_schema() "
-                "AND table_name IN ('oai_pmh_endpoint', 'source_endpoint', 'sources')"
+                "AND table_name IN ('oai_pmh_endpoint')"
             )
         ).mappings()
     }
@@ -363,49 +348,8 @@ def verify_operational_schema(conn: Any) -> None:
         raise PreflightError(
             f"endpoint deletion found unexpected column types {wrong_types}"
         )
-    if columns[("source_endpoint", "source_id")]["is_nullable"] != "NO":
-        raise PreflightError("source_endpoint.source_id must be NOT NULL")
-
-    unique_endpoint = conn.execute(
-        text(
-            "SELECT EXISTS ("
-            " SELECT 1 FROM pg_constraint c"
-            " WHERE c.conrelid = 'source_endpoint'::regclass"
-            "   AND c.contype IN ('p', 'u')"
-            "   AND ("
-            "     SELECT array_agg(a.attname ORDER BY key_column.ordinality)"
-            "     FROM unnest(c.conkey) WITH ORDINALITY AS key_column(attnum, ordinality)"
-            "     JOIN pg_attribute a"
-            "       ON a.attrelid = c.conrelid AND a.attnum = key_column.attnum"
-            "   ) = ARRAY['endpoint_id']::name[]"
-            ")"
-        )
-    ).scalar_one()
-    if not unique_endpoint:
-        raise PreflightError("source_endpoint.endpoint_id must be unique")
-
-    endpoint_fk = conn.execute(
-        text(
-            "SELECT EXISTS ("
-            " SELECT 1 FROM pg_constraint c"
-            " JOIN pg_attribute a ON a.attrelid = c.conrelid"
-            "   AND a.attnum = c.conkey[1]"
-            " JOIN pg_attribute ra ON ra.attrelid = c.confrelid"
-            "   AND ra.attnum = c.confkey[1]"
-            " WHERE c.conrelid = 'source_endpoint'::regclass"
-            "   AND c.contype = 'f'"
-            "   AND c.confrelid = 'oai_pmh_endpoint'::regclass"
-            "   AND a.attname = 'endpoint_id' AND ra.attname = 'id'"
-            "   AND c.confdeltype IN ('a', 'r')"
-            "   AND array_length(c.conkey, 1) = 1"
-            "   AND array_length(c.confkey, 1) = 1"
-            ")"
-        )
-    ).scalar_one()
-    if not endpoint_fk:
-        raise PreflightError(
-            "source_endpoint.endpoint_id must reference oai_pmh_endpoint.id with NO ACTION/RESTRICT"
-        )
+    # source_endpoint and sources.endpoint_id were dropped by migration 037; the registry
+    # binding is oai_pmh_endpoint.source_id alone.
 
 
 def read_snapshot(
@@ -560,16 +504,7 @@ def read_locked_observation(conn: Any, endpoint_id: str) -> Observation:
     if endpoint_row is None:
         raise ExecutionDrift(f"{endpoint_id}: endpoint disappeared")
     endpoint = row_mapping(endpoint_row)
-    child_row = conn.execute(
-        text(
-            "SELECT source_id FROM source_endpoint "
-            "WHERE endpoint_id = :endpoint_id FOR UPDATE"
-        ),
-        {"endpoint_id": endpoint_id},
-    ).one_or_none()
-    child_source_id = (
-        None if child_row is None else int(row_mapping(child_row)["source_id"])
-    )
+    child_source_id = None  # legacy store dropped (mig 037)
     return Observation(
         endpoint_id=str(endpoint["endpoint_id"]),
         pmh_url=endpoint.get("pmh_url"),
@@ -695,25 +630,6 @@ def execute_batches(
                         f"{audit_result.rowcount}, expected 1"
                     )
 
-                expected_child_count = (
-                    0 if planned.legacy_source_endpoint_source_id is None else 1
-                )
-                child_result = conn.execute(
-                    text(
-                        "DELETE FROM source_endpoint "
-                        "WHERE endpoint_id = :endpoint_id "
-                        "AND source_id IS NOT DISTINCT FROM :legacy_source_id"
-                    ),
-                    {
-                        "endpoint_id": planned.endpoint_id,
-                        "legacy_source_id": planned.legacy_source_endpoint_source_id,
-                    },
-                )
-                if child_result.rowcount != expected_child_count:
-                    raise ExecutionDrift(
-                        f"{planned.endpoint_id}: guarded source_endpoint DELETE affected "
-                        f"{child_result.rowcount}, expected {expected_child_count}"
-                    )
 
                 endpoint_result = conn.execute(
                     text(
@@ -721,13 +637,7 @@ def execute_batches(
                         "WHERE e.id = :endpoint_id "
                         "AND e.source_id IS NOT DISTINCT FROM :source_id "
                         "AND e.pmh_url IS NOT DISTINCT FROM :pmh_url "
-                        "AND e.pmh_set IS NOT DISTINCT FROM :pmh_set "
-                        "AND NOT EXISTS ("
-                        "  SELECT 1 FROM source_endpoint se WHERE se.endpoint_id = e.id"
-                        ") "
-                        "AND ("
-                        "  SELECT count(*) FROM sources s WHERE s.endpoint_id = e.id"
-                        ") = :repo_record_count"
+                        "AND e.pmh_set IS NOT DISTINCT FROM :pmh_set"
                     ),
                     {
                         "endpoint_id": planned.endpoint_id,
