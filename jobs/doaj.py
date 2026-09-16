@@ -39,6 +39,7 @@ from sources_lib import (
     normalize_issns,
     park_multi_match,
     recompute_is_oa,
+    recompute_listed_in,
     resolve_issn_l,
 )
 
@@ -267,6 +268,8 @@ def apply(dry_run=False):
               AND NOT EXISTS (SELECT 1 FROM _doaj_flags f WHERE f.source_id = s.id)
         """))
         oa = recompute_is_oa(conn)
+        listed = recompute_listed_in(conn)
+        print(f"listed_in rows changed: {listed}")
     print(f"applied (DONE); is_oa recomputed on {oa}", flush=True)
 
 

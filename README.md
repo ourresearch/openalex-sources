@@ -33,6 +33,7 @@ duplicates, parking everything else for a human.
 | `source_works_count`, `source_publication_years` | Per-source works counts + publication spans, refreshed weekly from the OpenAlex API (`jobs/refresh_source_stats`; `as_of`-stamped). Works counts drive merge winner selection; publication spans drive `is_fully_open_in_jstage`. |
 | `crossref_journal`, `datacite_client`, `doaj_journal` | Full-snapshot staging tables (TRUNCATE + reload on each fetch). |
 | `jstage_journal`, `ojs_journal`, `high_oa_rate_issn` | OA-flag mapping tables, one-time imports from Databricks (2026-07-02); drive `jobs/apply_oa_flags`. Membership in `high_oa_rate_issn` IS the flag (mig. 019 — curator force-excludes were deleted rather than kept as false rows). Not refreshed — slated to be dropped once the registry's own flags fully supersede them. |
+| `source_list`, `source_list_member` | External source lists exposed as `sources.listed_in` (oxjob #1205): list registry (id, maintainer, URL, loaded edition) + ISSN-keyed membership for file-loaded lists. `sources.listed_in` is DERIVED by `sources_lib.recompute_listed_in` = `is_core`→`cwts-core`, `is_in_doaj`→`doaj`, plus active members via `source_issn`. Non-normative: membership only. |
 
 ## Jobs
 
@@ -50,6 +51,33 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
 | `apply_oa_flags` | Recompute `is_ojs`, `is_oa_high_oa_rate`, `is_fully_open_in_jstage` from the mapping tables. |
 | `refresh_source_stats` | Reload `source_works_count` + `source_publication_years` from api.openalex.org/sources (~282K sources, ~1,400 cursor pages, one-transaction TRUNCATE+COPY). Uses `OPENALEX_UI_ADMIN_API_KEY` to run unthrottled. |
+| `load_source_list` | **By hand, on request** (no schedule, by decision — oxjob #1205). Full-replace one external source list from a CSV in `data/source_lists/` into `source_list_member`, then `recompute_listed_in`. Run when a maintainer sends a new edition (email / support ticket). |
+
+## Source lists (`sources.listed_in`)
+
+"Which external lists is this source on?" — a multivalued, non-normative column
+(`listed_in text[]`, e.g. `{cdd-cnu-sante,cwts-core}`) that replaces adding one
+boolean per list. Lists live in `source_list`; ISSN-keyed membership for lists we
+load from a file lives in `source_list_member`. `recompute_listed_in` is the single
+writer of the column and is called by `jobs/doaj` and `jobs/load_source_list`.
+
+**Updating a list is a manual step, on purpose.** There is no fetch job: the
+maintainers email a new edition (or it arrives in a support ticket), someone
+converts it to the CSV shape documented in `jobs/load_source_list.py`
+(`name,issns,active,withdrawn_date,withdrawal_reason`), drops it in
+`data/source_lists/<list>-<YYYY-MM-DD>.csv`, and runs:
+
+```bash
+python -m jobs.load_source_list --list cdd-cnu-sante \
+    --csv data/source_lists/cdd-cnu-sante-2026-07-01.csv --version 2026-07-01 --dry-run
+python -m jobs.load_source_list --list cdd-cnu-sante \
+    --csv data/source_lists/cdd-cnu-sante-2026-07-01.csv --version 2026-07-01
+```
+
+Idempotent (re-running the same file changes nothing). Adding a brand-new list =
+one `INSERT INTO source_list` (id is the public value users filter on; kebab-case)
+plus a load. Walden mirrors the column verbatim (`CreateSources`) into the sources
+API and the dehydrated source on work locations.
 
 ## Scheduling (Advanced Scheduler)
 

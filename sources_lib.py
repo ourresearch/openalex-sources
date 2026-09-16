@@ -351,6 +351,45 @@ def enrich_journal(conn, ctx, sid, issns=(), display_name=None, publisher=None,
     return "updated"
 
 
+def recompute_listed_in(conn):
+    """The SINGLE writer of sources.listed_in (oxjob #1205).
+
+    listed_in = ids of the external lists a source appears on: the legacy
+    booleans (is_core -> 'cwts-core', is_in_doaj -> 'doaj') OR'd with the active
+    file-loaded memberships in source_list_member (joined through source_issn).
+    NULL when the source is on no list. Sorted, deduped, so the array is stable
+    and the walden mirror / ES hash don't see spurious changes. Only rows whose
+    value actually changes are written. Call at the end of any job that flips
+    is_core / is_in_doaj / source_list_member (doaj, load_source_list).
+    Returns the number of rows changed.
+    """
+    return conn.execute(text("""
+        WITH file_lists AS (
+            SELECT si.source_id, ARRAY_AGG(DISTINCT m.list_id) AS ids
+            FROM source_issn si
+            JOIN source_list_member m ON m.issn = si.issn AND m.active
+            GROUP BY si.source_id
+        ),
+        computed AS (
+            SELECT s.id,
+                   (SELECT ARRAY_AGG(DISTINCT x ORDER BY x)
+                      FROM UNNEST(
+                        ARRAY_REMOVE(ARRAY[
+                            CASE WHEN s.is_core THEN 'cwts-core' END,
+                            CASE WHEN s.is_in_doaj THEN 'doaj' END
+                        ], NULL) || COALESCE(f.ids, '{}')
+                      ) AS x) AS new_listed_in
+            FROM sources s
+            LEFT JOIN file_lists f ON f.source_id = s.id
+        )
+        UPDATE sources s
+           SET listed_in = c.new_listed_in
+          FROM computed c
+         WHERE c.id = s.id
+           AND s.listed_in IS DISTINCT FROM c.new_listed_in
+    """)).rowcount
+
+
 def recompute_is_oa(conn):
     """THE single writer of sources.is_oa (= any of the four OA signals).
     Feeds set only their own signal column and call this at the end of the run.
