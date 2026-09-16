@@ -56,7 +56,7 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 ## Source lists (`sources.listed_in`)
 
 "Which external lists is this source on?" — a multivalued, non-normative column
-(`listed_in text[]`, e.g. `{cdd-cnu-sante,cwts-core}`) that replaces adding one
+(`listed_in text[]`, e.g. `{doyens,cwts-core}`) that replaces adding one
 boolean per list. Lists live in `source_list`; ISSN-keyed membership for lists we
 load from a file lives in `source_list_member`. `recompute_listed_in` is the single
 writer of the column and is called by `jobs/doaj` and `jobs/load_source_list`.
@@ -68,10 +68,10 @@ converts it to the CSV shape documented in `jobs/load_source_list.py`
 `data/source_lists/<list>-<YYYY-MM-DD>.csv`, and runs:
 
 ```bash
-python -m jobs.load_source_list --list cdd-cnu-sante \
-    --csv data/source_lists/cdd-cnu-sante-2026-07-01.csv --version 2026-07-01 --dry-run
-python -m jobs.load_source_list --list cdd-cnu-sante \
-    --csv data/source_lists/cdd-cnu-sante-2026-07-01.csv --version 2026-07-01
+python -m jobs.load_source_list --list doyens \
+    --csv data/source_lists/doyens-2026-07-01.csv --version 2026-07-01 --dry-run
+python -m jobs.load_source_list --list doyens \
+    --csv data/source_lists/doyens-2026-07-01.csv --version 2026-07-01
 ```
 
 Idempotent (re-running the same file changes nothing). Adding a brand-new list =

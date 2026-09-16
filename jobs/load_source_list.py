@@ -19,8 +19,8 @@ sources_lib.recompute_listed_in() rewrites sources.listed_in for every source
 whose value changed (all lists, not just this one). Idempotent: re-running on
 the same file changes nothing.
 
-  python -m jobs.load_source_list --list cdd-cnu-sante \
-      --csv data/source_lists/cdd-cnu-sante-2026-07-01.csv --version 2026-07-01 [--dry-run]
+  python -m jobs.load_source_list --list doyens \
+      --csv data/source_lists/doyens-2026-07-01.csv --version 2026-07-01 [--dry-run]
 """
 import argparse
 import csv
@@ -133,7 +133,7 @@ def run(list_id, csv_path, version, dry_run=False):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--list", required=True, help="source_list.id, e.g. cdd-cnu-sante")
+    ap.add_argument("--list", required=True, help="source_list.id, e.g. doyens")
     ap.add_argument("--csv", required=True)
     ap.add_argument("--version", required=True, help="edition date YYYY-MM-DD, recorded on source_list")
     ap.add_argument("--dry-run", action="store_true")

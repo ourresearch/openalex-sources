@@ -46,7 +46,7 @@ INSERT INTO source_list (id, display_name, maintainer, url, scope) VALUES
   ('doaj', 'Directory of Open Access Journals',
    'DOAJ', 'https://doaj.org/',
    'Fully open-access journals vetted by DOAJ; derived from sources.is_in_doaj (weekly jobs/doaj).'),
-  ('cdd-cnu-sante', 'Liste de revues recommandables (CDD / CNU Santé)',
+  ('doyens', 'Liste de revues recommandables (CDD / CNU Santé)',
    'Conférence des Doyens de Médecine and Conseil National des Universités – Santé (France)',
    'https://conferencedesdoyensdemedecine.org/la-conference-des-doyens-de-medecine-et-du-cnu-sante-luttent-contre-les-revues-predatrices/',
    'Health, medicine and biology journals in French and English; updated quarterly by the maintainers, loaded by hand from the published spreadsheet.')
