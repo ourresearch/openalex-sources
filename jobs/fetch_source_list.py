@@ -15,6 +15,7 @@ loaded as ONE list of every approved channel (level >= 1); the level itself is
 not part of the API value because levels are re-set every year.
 """
 import argparse
+import calendar
 import csv
 import io
 import json
@@ -181,9 +182,10 @@ def _partial_date(yyyymmdd):
     y, m, d = yyyymmdd[:4], yyyymmdd[4:6], yyyymmdd[6:8]
     if not y.isdigit():
         return ""
-    m = m if m.isdigit() and m != "00" else "01"
-    d = d if d.isdigit() and d != "00" else "01"
-    return f"{y}-{m}-{d}"
+    m = int(m) if m.isdigit() and 1 <= int(m) <= 12 else 1
+    d = int(d) if d.isdigit() and int(d) >= 1 else 1
+    d = min(d, calendar.monthrange(int(y), m)[1])  # ArticleMeta has e.g. 20230931
+    return f"{y}-{m:02d}-{d:02d}"
 
 
 def fetch_scielo():
