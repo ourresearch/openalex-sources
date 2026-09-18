@@ -1,12 +1,12 @@
 name,issns,active,withdrawn_date,withdrawal_reason
-Anales de la Asociación Química Argentina,0365-0375,false,2006-00-00,deceased in SciELO collection arg
-The Journal of Argentine Chemical Society,1852-1428,false,2015-05-00,deceased in SciELO collection arg
-Revista argentina de neurocirugía,1850-1532,false,2014-08-00,deceased in SciELO collection arg
-Kurtziana,1852-5962,false,2014-06-00,deceased in SciELO collection arg
-Ameghiniana,0002-7014;1851-8044,false,2014-07-00,deceased in SciELO collection arg
-Revista argentina de sociología,1669-3248,false,2015-03-00,deceased in SciELO collection arg
-Cuadernos de historia de España,1850-2717;0325-1195,false,2017-05-00,deceased in SciELO collection arg
-Revista de la Asociación Argentina de Sedimentología,1853-6360;0328-1159,false,2011-05-00,deceased in SciELO collection arg
+Anales de la Asociación Química Argentina,0365-0375,false,2006-01-01,deceased in SciELO collection arg
+The Journal of Argentine Chemical Society,1852-1428,false,2015-05-01,deceased in SciELO collection arg
+Revista argentina de neurocirugía,1850-1532,false,2014-08-01,deceased in SciELO collection arg
+Kurtziana,1852-5962,false,2014-06-01,deceased in SciELO collection arg
+Ameghiniana,0002-7014;1851-8044,false,2014-07-01,deceased in SciELO collection arg
+Revista argentina de sociología,1669-3248,false,2015-03-01,deceased in SciELO collection arg
+Cuadernos de historia de España,1850-2717;0325-1195,false,2017-05-01,deceased in SciELO collection arg
+Revista de la Asociación Argentina de Sedimentología,1853-6360;0328-1159,false,2011-05-01,deceased in SciELO collection arg
 Revista de la Unión Matemática Argentina,1669-9637;0041-6932,false,2017-07-21,deceased in SciELO collection arg
 Biocell,1667-5746;0327-9545,false,2017-07-21,deceased in SciELO collection arg
 Temas medievales,1850-2628;0327-5094,false,2017-07-21,deceased in SciELO collection arg
@@ -27,11 +27,11 @@ Phyton (Buenos Aires),1851-5657,false,2019-02-27,deceased in SciELO collection a
 Geoacta,1852-7744,false,2019-03-29,deceased in SciELO collection arg
 Medicina (Buenos Aires),1669-9106;0025-7680,true,,
 Quebracho (Santiago del Estero),0328-0543;1851-3026,false,2018-01-17,deceased in SciELO collection arg
-Subjetividad y procesos cognitivos,1852-7310,false,2019-10-00,deceased in SciELO collection arg
-Revista de la Facultad,1850-9371;2314-3061,false,2019-10-00,deceased in SciELO collection arg
-Revista Argentina de Ciencias del Comportamiento,1852-4206,false,2019-10-00,deceased in SciELO collection arg
-Revista iberoamericana de ciencia tecnología y sociedad,1850-0013,false,2019-10-00,deceased in SciELO collection arg
-Acta geológica lilloana,1852-6217;0567-7513,false,2019-10-00,deceased in SciELO collection arg
+Subjetividad y procesos cognitivos,1852-7310,false,2019-10-01,deceased in SciELO collection arg
+Revista de la Facultad,1850-9371;2314-3061,false,2019-10-01,deceased in SciELO collection arg
+Revista Argentina de Ciencias del Comportamiento,1852-4206,false,2019-10-01,deceased in SciELO collection arg
+Revista iberoamericana de ciencia tecnología y sociedad,1850-0013,false,2019-10-01,deceased in SciELO collection arg
+Acta geológica lilloana,1852-6217;0567-7513,false,2019-10-01,deceased in SciELO collection arg
 Comechingonia,1851-0027,true,,
 Visión de futuro,1668-8708;1669-7634,true,,
 "Información, cultura y sociedad",1514-8327;1851-1740,true,,
@@ -76,7 +76,7 @@ Palabra clave,1853-9912,true,,
 Revista argentina de dermatología,1851-300X,true,,
 RASAL lingüística,2618-3455,true,,
 Revista de historia del derecho,1853-1784,true,,
-La zaranda de ideas,1853-1296,false,2022-12-00,deceased in SciELO collection arg
+La zaranda de ideas,1853-1296,false,2022-12-01,deceased in SciELO collection arg
 Anales (Asociación Física Argentina),0327-358X;1850-1168,true,,
 Boletín de estudios geográficos,2525-1813,true,,
 Ciencia Veterinaria,1853-8495;1515-1883,true,,
@@ -196,27 +196,27 @@ Scripta Mediaevalia,1851-8753;2362-4868,true,,
 Etcétera,2618-4281,true,,
 Electronic Journal of Biotechnology,0717-3458,false,2017-04-20,suspended in SciELO collection chl
 Revista chilena de cirugía,0718-4026,false,2019-05-02,deceased in SciELO collection chl
-Boletín chileno de parasitología,0365-9402,false,2002-01-00,deceased in SciELO collection chl
-Revista geológica de Chile,0716-0208,false,2008-07-00,deceased in SciELO collection chl
-Cuadernos de economía,0717-6821,false,2010-11-00,deceased in SciELO collection chl
-Parasitología latinoamericana,0717-7712,false,2008-12-00,deceased in SciELO collection chl
-Revista de la ciencia del suelo y nutrición vegetal,0718-2791,false,2010-00-00,deceased in SciELO collection chl
+Boletín chileno de parasitología,0365-9402,false,2002-01-01,deceased in SciELO collection chl
+Revista geológica de Chile,0716-0208,false,2008-07-01,deceased in SciELO collection chl
+Cuadernos de economía,0717-6821,false,2010-11-01,deceased in SciELO collection chl
+Parasitología latinoamericana,0717-7712,false,2008-12-01,deceased in SciELO collection chl
+Revista de la ciencia del suelo y nutrición vegetal,0718-2791,false,2010-01-01,deceased in SciELO collection chl
 Archivos de medicina veterinaria,0301-732X,false,2017-02-01,deceased in SciELO collection chl
-Parasitología al día,0716-0720,false,2001-07-00,deceased in SciELO collection chl
-Investigaciones marinas,0717-7178,false,2007-11-00,deceased in SciELO collection chl
-Latin american journal of economics,0719-0433,false,2017-03-00,deceased in SciELO collection chl
-Journal of soil science and plant nutrition,0718-9516,false,2019-01-00,deceased in SciELO collection chl
+Parasitología al día,0716-0720,false,2001-07-01,deceased in SciELO collection chl
+Investigaciones marinas,0717-7178,false,2007-11-01,deceased in SciELO collection chl
+Latin american journal of economics,0719-0433,false,2017-03-01,deceased in SciELO collection chl
+Journal of soil science and plant nutrition,0718-9516,false,2019-01-01,deceased in SciELO collection chl
 Ciencia & trabajo,0718-2449,false,2020-02-11,suspended in SciELO collection chl
 "Revista clínica de periodoncia, implantología y rehabilitación oral",0719-0107,false,2020-04-24,deceased in SciELO collection chl
 Ciencia e investigación agraria,0718-1620,false,2020-06-11,deceased in SciELO collection chl
-Boletín de la Sociedad Chilena de Química,0366-1644,false,2002-00-00,deceased in SciELO collection chl
-Revista chilena de anatomía,0716-9868,false,2002-00-00,deceased in SciELO collection chl
+Boletín de la Sociedad Chilena de Química,0366-1644,false,2002-01-01,deceased in SciELO collection chl
+Revista chilena de anatomía,0716-9868,false,2002-01-01,deceased in SciELO collection chl
 Cultura-hombre-sociedad,0716-1557;0719-2789,false,2020-08-20,deceased in SciELO collection chl
 Revista chilena de pediatría,0370-4106,false,2021-03-11,deceased in SciELO collection chl
 Journal of theoretical and applied electronic commerce research,0718-1876,false,2021-03-11,deceased in SciELO collection chl
-Agricultura Técnica,0365-2807,false,2008-07-00,deceased in SciELO collection chl
+Agricultura Técnica,0365-2807,false,2008-07-01,deceased in SciELO collection chl
 Revista chilena de radiología,0717-9308,false,2024-06-26,deceased in SciELO collection chl
-Revista Facultad de Ingeniería - Universidad de Tarapacá,0718-1337,false,2006-00-00,deceased in SciELO collection chl
+Revista Facultad de Ingeniería - Universidad de Tarapacá,0718-1337,false,2006-01-01,deceased in SciELO collection chl
 Revista de derecho (Valparaíso),0718-6851,false,2024-11-14,deceased in SciELO collection chl
 Gayana (Concepción),0717-652X;0717-6538,true,,
 Revista chilena de derecho,0718-3437,true,,
@@ -367,7 +367,7 @@ Revista Colombiana de Cardiología,0120-5633,true,,
 Revista Salud Uninorte,0120-5552;2011-7531,true,,
 "Revista de Relaciones Internacionales, Estrategia y Seguridad",1909-3063,true,,
 Psicología desde el Caribe,0123-417X;2011-7485,true,,
-Apuntes: Revista de Estudios sobre Patrimonio Cultural - Journal of Cultural Heritage Studies,1657-9763,false,2017-10-00,suspended in SciELO collection col
+Apuntes: Revista de Estudios sobre Patrimonio Cultural - Journal of Cultural Heritage Studies,1657-9763,false,2017-10-01,suspended in SciELO collection col
 Perfil de Coyuntura Económica,1657-4214,false,2017-11-02,suspended in SciELO collection col
 "Revista de la Academia Colombiana de Ciencias Exactas, Físicas y Naturales",0370-3908,true,,
 Revista de Ingeniería,0121-4993,false,2018-03-13,suspended in SciELO collection col
@@ -614,8 +614,8 @@ Revista Lasallista de Investigación,1794-4449,true,,
 Producción + Limpia,1909-0455,true,,
 Tabula Rasa,1794-2489,true,,
 Cuadernos de Administración (Universidad del Valle),0120-4645;2256-5078,true,,
-Cuadernos de Historia de la Salud Pública,0045-9178,false,2009-12-00,deceased in SciELO collection cub
-ACIMED,1561-2880;1024-9435,false,2012-12-00,deceased in SciELO collection cub
+Cuadernos de Historia de la Salud Pública,0045-9178,false,2009-12-01,deceased in SciELO collection cub
+ACIMED,1561-2880;1024-9435,false,2012-12-01,deceased in SciELO collection cub
 Cofin Habana,2073-6061,true,,
 Revista Universidad y Sociedad,2218-3620,true,,
 Conrado,1990-8644;2519-7320,true,,
@@ -654,8 +654,8 @@ Biotecnología Vegetal,2074-8647,false,2022-03-08,suspended in SciELO collection
 Nucleus,0864-084X;2075-5635,false,2021-08-16,suspended in SciELO collection cub
 Revista de Protección Vegetal,1010-2752;2224-4697,false,2020-10-19,suspended in SciELO collection cub
 Revista Cubana de Farmacia,1561-2988;0034-7515,false,2017-10-30,suspended in SciELO collection cub
-Revista Cubana de Plantas Medicinales,1028-4796,false,2018-02-00,suspended in SciELO collection cub
-Fitosanidad,1818-1686;1562-3009,false,2012-02-00,suspended in SciELO collection cub
+Revista Cubana de Plantas Medicinales,1028-4796,false,2018-02-01,suspended in SciELO collection cub
+Fitosanidad,1818-1686;1562-3009,false,2012-02-01,suspended in SciELO collection cub
 Revista Cubana de Obstetricia y Ginecología,1561-3062;0138-600X,false,2020-10-19,suspended in SciELO collection cub
 Revista Cubana de Endocrinología,1561-2953,false,2024-01-23,suspended in SciELO collection cub
 Revista Cubana de Cirugía,1561-2945;0034-7493,true,,
@@ -1120,7 +1120,7 @@ Análise Psicológica,0870-8231;2182-2980,true,,
 Acta Obstétrica e Ginecológica Portuguesa,1646-5830;2183-007X,true,,
 Angiologia e Cirurgia Vascular,1646-706X;2183-0096,true,,
 Acta Portuguesa de Nutrição,2183-5985,true,,
-Portuguese Journal of Nephrology & Hypertension,0872-0169,false,2024-01-00,deceased in SciELO collection prt
+Portuguese Journal of Nephrology & Hypertension,0872-0169,false,2024-01-01,deceased in SciELO collection prt
 Ciência e Técnica Vitivinícola,2416-3953;0254-0223,false,2014-09-30,suspended in SciELO collection prt
 Finisterra - Revista Portuguesa de Geografia,2182-2905;0430-5027,true,,
 GE-Portuguese Journal of Gastroenterology,2387-1954;2341-4545,true,,
@@ -1135,7 +1135,7 @@ Comportamento Organizacional e Gestão,0872-9662;1646-6012,false,2010-04-09,susp
 Economia Global e Gestão,0873-7444;2183-0045,false,2013-09-30,suspended in SciELO collection prt
 Toxicodependências,2183-0053;0874-4890,false,2012-07-19,suspended in SciELO collection prt
 Ex aequo,2184-0385;0874-5560,true,,
-Revista Portuguesa de Ciências do Desporto,2182-0317;1645-0523,false,2011-05-00,suspended in SciELO collection prt
+Revista Portuguesa de Ciências do Desporto,2182-0317;1645-0523,false,2011-05-01,suspended in SciELO collection prt
 Revista de Gestão dos Países de Língua Portuguesa,1645-4464;2183-0061,false,2019-05-10,suspended in SciELO collection prt
 Revista Lusófona de Educação,1645-7250;1646-401X,false,2015-03-25,suspended in SciELO collection prt
 Tékhne - Revista de Estudos Politécnicos,2255-3886;1645-9911,false,2012-12-07,suspended in SciELO collection prt
@@ -1174,56 +1174,56 @@ Comunicação e Sociedade,1645-2089;2183-3575,true,,
 Revista Internacional CONSINTER de Direito,2183-9522;2183-6396,true,,
 Nascer e Crescer,0872-0754;2183-9417,false,2025-10-10,deceased in SciELO collection prt
 Birth and Growth Medical Journal,3051-7508,true,,
-RAE eletrônica,1676-5648,false,2010-12-00,deceased in SciELO collection scl
-Revista de Psiquiatria do Rio Grande do Sul,0101-8108,false,2012-01-00,deceased in SciELO collection scl
+RAE eletrônica,1676-5648,false,2010-12-01,deceased in SciELO collection scl
+Revista de Psiquiatria do Rio Grande do Sul,0101-8108,false,2012-01-01,deceased in SciELO collection scl
 Revista Brasileira de Ciências Farmacêuticas,1516-9332,false,2009-09-15,deceased in SciELO collection scl
-Revista Brasileira de Geofísica,0102-261X,false,2012-06-00,suspended in SciELO collection scl
-Pró-Fono Revista de Atualização Científica,0104-5687,false,2011-05-00,deceased in SciELO collection scl
-Sba: Controle & Automação Sociedade Brasileira de Automatica,0103-1759,false,2012-12-00,suspended in SciELO collection scl
+Revista Brasileira de Geofísica,0102-261X,false,2012-06-01,suspended in SciELO collection scl
+Pró-Fono Revista de Atualização Científica,0104-5687,false,2011-05-01,deceased in SciELO collection scl
+Sba: Controle & Automação Sociedade Brasileira de Automatica,0103-1759,false,2012-12-01,suspended in SciELO collection scl
 Revista Brasileira de Zoologia,0101-8175,false,2009-05-05,deceased in SciELO collection scl
-Jornal da Sociedade Brasileira de Fonoaudiologia,2179-6491,false,2013-04-00,deceased in SciELO collection scl
-Revista Odonto Ciência,1980-6523,false,2013-10-00,suspended in SciELO collection scl
-Boletim do Instituto Paulista de Oceanografia,0100-4239,false,2012-06-00,deceased in SciELO collection scl
-Boletim do Instituto Oceanográfico,0373-5524,false,2012-05-00,deceased in SciELO collection scl
-Journal of the Brazilian Society of Mechanical Sciences,0100-7386,false,2003-00-00,deceased in SciELO collection scl
-Revista Brasileira de Biologia,0034-7108,false,2001-00-00,deceased in SciELO collection scl
-Revista da Faculdade de Educação,0102-2555,false,1999-00-00,deceased in SciELO collection scl
-Pesquisa Odontológica Brasileira,1517-7491,false,2004-00-00,deceased in SciELO collection scl
-Revista Brasileira de Fisiologia Vegetal,0103-3131,false,2002-00-00,deceased in SciELO collection scl
-Revista de Odontologia da Universidade de São Paulo,0103-0663,false,2000-00-00,deceased in SciELO collection scl
-Revista da Sociedade Brasileira de Fonoaudiologia,1982-0232;1516-8034,false,2013-06-00,deceased in SciELO collection scl
-Revista de Microbiologia,0001-3714,false,2000-00-00,deceased in SciELO collection scl
-Neotropical Entomology,1678-8052;1519-566X,false,2012-06-00,suspended in SciELO collection scl
-Jornal de Pneumologia,0102-3586;1678-4642,false,2004-00-00,deceased in SciELO collection scl
-Journal of the Brazilian Society of Mechanical Sciences and Engineering,1678-5878;1806-3691,false,2012-12-00,suspended in SciELO collection scl
-Estudos Afro-Asiáticos,0101-546X;1678-4650,false,2004-01-00,suspended in SciELO collection scl
-Entomología y Vectores,0328-0381;1980-5349,false,2005-00-00,deceased in SciELO collection scl
-Journal of Epilepsy and Clinical Neurophysiology,1980-5365;1676-2649,false,2012-11-00,suspended in SciELO collection scl
-Brazilian Journal of Veterinary Research and Animal Science,1413-9596;1678-4456,false,2005-01-00,suspended in SciELO collection scl
-Journal of Venomous Animals and Toxins,0104-7930;1678-4936,false,2002-00-00,deceased in SciELO collection scl
-Caderno de Estudos,1413-9251;2316-8943,false,2011-08-00,deceased in SciELO collection scl
-Fitopatologia Brasileira,0100-4158;1678-4677,false,2007-12-00,deceased in SciELO collection scl
-Brazilian Journal of Genetics,1678-4502;0100-8455,false,1997-12-00,deceased in SciELO collection scl
-São Paulo em Perspectiva,1806-9452;0102-8839,false,2005-01-00,suspended in SciELO collection scl
-Economia Aplicada,1980-5330;1413-8050,false,2015-09-00,suspended in SciELO collection scl
-Psicologia Clínica,1980-5438;0103-5665,false,2015-09-00,suspended in SciELO collection scl
-Afro-Ásia,1981-1411;0002-0591,false,2015-09-00,suspended in SciELO collection scl
-Revista Brasileira de Cardiologia Invasiva,0104-1843;2179-8397,false,2015-09-00,suspended in SciELO collection scl
-Psychology & Neuroscience,1984-3054;1983-3288,false,2015-01-00,suspended in SciELO collection scl
+Jornal da Sociedade Brasileira de Fonoaudiologia,2179-6491,false,2013-04-01,deceased in SciELO collection scl
+Revista Odonto Ciência,1980-6523,false,2013-10-01,suspended in SciELO collection scl
+Boletim do Instituto Paulista de Oceanografia,0100-4239,false,2012-06-01,deceased in SciELO collection scl
+Boletim do Instituto Oceanográfico,0373-5524,false,2012-05-01,deceased in SciELO collection scl
+Journal of the Brazilian Society of Mechanical Sciences,0100-7386,false,2003-01-01,deceased in SciELO collection scl
+Revista Brasileira de Biologia,0034-7108,false,2001-01-01,deceased in SciELO collection scl
+Revista da Faculdade de Educação,0102-2555,false,1999-01-01,deceased in SciELO collection scl
+Pesquisa Odontológica Brasileira,1517-7491,false,2004-01-01,deceased in SciELO collection scl
+Revista Brasileira de Fisiologia Vegetal,0103-3131,false,2002-01-01,deceased in SciELO collection scl
+Revista de Odontologia da Universidade de São Paulo,0103-0663,false,2000-01-01,deceased in SciELO collection scl
+Revista da Sociedade Brasileira de Fonoaudiologia,1982-0232;1516-8034,false,2013-06-01,deceased in SciELO collection scl
+Revista de Microbiologia,0001-3714,false,2000-01-01,deceased in SciELO collection scl
+Neotropical Entomology,1678-8052;1519-566X,false,2012-06-01,suspended in SciELO collection scl
+Jornal de Pneumologia,0102-3586;1678-4642,false,2004-01-01,deceased in SciELO collection scl
+Journal of the Brazilian Society of Mechanical Sciences and Engineering,1678-5878;1806-3691,false,2012-12-01,suspended in SciELO collection scl
+Estudos Afro-Asiáticos,0101-546X;1678-4650,false,2004-01-01,suspended in SciELO collection scl
+Entomología y Vectores,0328-0381;1980-5349,false,2005-01-01,deceased in SciELO collection scl
+Journal of Epilepsy and Clinical Neurophysiology,1980-5365;1676-2649,false,2012-11-01,suspended in SciELO collection scl
+Brazilian Journal of Veterinary Research and Animal Science,1413-9596;1678-4456,false,2005-01-01,suspended in SciELO collection scl
+Journal of Venomous Animals and Toxins,0104-7930;1678-4936,false,2002-01-01,deceased in SciELO collection scl
+Caderno de Estudos,1413-9251;2316-8943,false,2011-08-01,deceased in SciELO collection scl
+Fitopatologia Brasileira,0100-4158;1678-4677,false,2007-12-01,deceased in SciELO collection scl
+Brazilian Journal of Genetics,1678-4502;0100-8455,false,1997-12-01,deceased in SciELO collection scl
+São Paulo em Perspectiva,1806-9452;0102-8839,false,2005-01-01,suspended in SciELO collection scl
+Economia Aplicada,1980-5330;1413-8050,false,2015-09-01,suspended in SciELO collection scl
+Psicologia Clínica,1980-5438;0103-5665,false,2015-09-01,suspended in SciELO collection scl
+Afro-Ásia,1981-1411;0002-0591,false,2015-09-01,suspended in SciELO collection scl
+Revista Brasileira de Cardiologia Invasiva,0104-1843;2179-8397,false,2015-09-01,suspended in SciELO collection scl
+Psychology & Neuroscience,1984-3054;1983-3288,false,2015-01-01,suspended in SciELO collection scl
 Journal of the Brazilian Computer Society,0104-6500;1678-4804,false,2010-11-29,suspended in SciELO collection scl
-Theoretical and Experimental Plant Physiology,2197-0025,false,2014-01-00,suspended in SciELO collection scl
-Brazilian Journal of Botany,1806-9959;0100-8404,false,2012-12-00,suspended in SciELO collection scl
-Computational & Applied Mathematics,2238-3603;1807-0302,false,2012-12-00,suspended in SciELO collection scl
+Theoretical and Experimental Plant Physiology,2197-0025,false,2014-01-01,suspended in SciELO collection scl
+Brazilian Journal of Botany,1806-9959;0100-8404,false,2012-12-01,suspended in SciELO collection scl
+Computational & Applied Mathematics,2238-3603;1807-0302,false,2012-12-01,suspended in SciELO collection scl
 Brazilian Journal of Physics,1678-4448;0103-9733,false,2011-07-08,suspended in SciELO collection scl
 Scientiae Studia,2316-8994;1678-3166,false,2016-01-18,suspended in SciELO collection scl
-Revista do Hospital das Clínicas,1678-9903;0041-8781,false,2005-00-00,deceased in SciELO collection scl
-Revista Brasileira de Engenharia Biomédica,1517-3151,false,2014-12-00,deceased in SciELO collection scl
-Arquivos Brasileiros de Endocrinologia & Metabologia,0004-2730;1677-9487,false,2014-12-00,deceased in SciELO collection scl
-Brazilian Journal of Plant Physiology,1677-0420;1677-9452,false,2013-08-00,deceased in SciELO collection scl
-Revista Dental Press de Ortodontia e Ortopedia Facial,1980-5500;1415-5419,false,2010-04-00,deceased in SciELO collection scl
-Arquivos Internacionais de Otorrinolaringologia,1809-4856;1809-4872,false,2012-05-00,deceased in SciELO collection scl
-Revista Brasileira de Otorrinolaringologia,0034-7299,false,2009-07-00,deceased in SciELO collection scl
-Rem: Revista Escola de Minas,0370-4467;1807-0353,false,2016-07-00,deceased in SciELO collection scl
+Revista do Hospital das Clínicas,1678-9903;0041-8781,false,2005-01-01,deceased in SciELO collection scl
+Revista Brasileira de Engenharia Biomédica,1517-3151,false,2014-12-01,deceased in SciELO collection scl
+Arquivos Brasileiros de Endocrinologia & Metabologia,0004-2730;1677-9487,false,2014-12-01,deceased in SciELO collection scl
+Brazilian Journal of Plant Physiology,1677-0420;1677-9452,false,2013-08-01,deceased in SciELO collection scl
+Revista Dental Press de Ortodontia e Ortopedia Facial,1980-5500;1415-5419,false,2010-04-01,deceased in SciELO collection scl
+Arquivos Internacionais de Otorrinolaringologia,1809-4856;1809-4872,false,2012-05-01,deceased in SciELO collection scl
+Revista Brasileira de Otorrinolaringologia,0034-7299,false,2009-07-01,deceased in SciELO collection scl
+Rem: Revista Escola de Minas,0370-4467;1807-0353,false,2016-07-01,deceased in SciELO collection scl
 Journal of Transport Literature,2238-1031,false,2016-10-16,suspended in SciELO collection scl
 Psicologia: Reflexão e Crítica,0102-7972;1678-7153,true,,
 CoDAS,2317-1782,true,,
@@ -1232,14 +1232,14 @@ Revista Brasileira de Educação Física e Esporte,1807-5509;1981-4690,false,201
 Estudos de Psicologia (Natal),1413-294X;1678-4669,false,2017-07-05,suspended in SciELO collection scl
 Revista de Saúde Pública,1518-8787;0034-8910,true,,
 RBRH,2318-0331;1414-381X,true,,
-Revista Brasileira de Hematologia e Hemoterapia,1806-0870;1516-8484,false,2017-12-00,deceased in SciELO collection scl
+Revista Brasileira de Hematologia e Hemoterapia,1806-0870;1516-8484,false,2017-12-01,deceased in SciELO collection scl
 Acta Scientiarum. Agronomy,1679-9275;1807-8621,true,,
 Acta Scientiarum. Animal Sciences,1806-2636;1807-8672,true,,
 Fisioterapia em Movimento,0103-5150;1980-5918,true,,
-Revista de Administração (São Paulo),1984-6142;0080-2107,false,2018-05-00,deceased in SciELO collection scl
+Revista de Administração (São Paulo),1984-6142;0080-2107,false,2018-05-01,deceased in SciELO collection scl
 Revista do Departamento de Psicologia. UFF,0104-8023,false,2008-10-17,deceased in SciELO collection scl
-Revista Dor,2317-6393;1806-0013,false,2018-05-00,deceased in SciELO collection scl
-Revista da Educação Física / UEM,1983-3083,false,2016-06-00,deceased in SciELO collection scl
+Revista Dor,2317-6393;1806-0013,false,2018-05-01,deceased in SciELO collection scl
+Revista da Educação Física / UEM,1983-3083,false,2016-06-01,deceased in SciELO collection scl
 Journal of Physical Education,2448-2455,true,,
 Jornal Vascular Brasileiro,1677-5449;1677-7301,true,,
 Vibrant: Virtual Brazilian Anthropology,1809-4341,true,,
@@ -1252,58 +1252,58 @@ Journal of Inborn Errors of Metabolism and Screening,2326-4594,true,,
 Pro-Posições,0103-7307;1980-6248,true,,
 Brazilian Journal of Microbiology,1517-8382;1678-4405,false,2019-05-07,suspended in SciELO collection scl
 Revista Brasileira de Geriatria e Gerontologia,1809-9823;1981-2256,true,,
-Research on Biomedical Engineering,2446-4732;2446-4740,false,2019-05-00,deceased in SciELO collection scl
+Research on Biomedical Engineering,2446-4732;2446-4740,false,2019-05-01,deceased in SciELO collection scl
 Brazilian Journal of Pharmaceutical Sciences,2175-9790;1984-8250,true,,
-Revista Brasileira de Reumatologia,0482-5004;1809-4570,false,2017-00-00,deceased in SciELO collection scl
+Revista Brasileira de Reumatologia,0482-5004;1809-4570,false,2017-01-01,deceased in SciELO collection scl
 Revista Brasileira de Zootecnia,1516-3598;1806-9290,true,,
 Revista Brasileira de Educação,1413-2478;1809-449X,true,,
 Advances in Rheumatology,2523-3106,true,,
 Texto & Contexto - Enfermagem,1980-265X;0104-0707,true,,
 Anais da Escola Superior de Agricultura Luiz de Queiroz,2316-8935;0071-1276,false,2009-05-19,deceased in SciELO collection scl
-Revista Brasileira de Coloproctologia,0101-9880,false,2012-05-00,deceased in SciELO collection scl
-Sur. Revista Internacional de Direitos Humanos,1806-6445;1983-3342,false,2011-02-00,suspended in SciELO collection scl
+Revista Brasileira de Coloproctologia,0101-9880,false,2012-05-01,deceased in SciELO collection scl
+Sur. Revista Internacional de Direitos Humanos,1806-6445;1983-3342,false,2011-02-01,suspended in SciELO collection scl
 Psicologia em Estudo,1413-7372;1807-0329,true,,
 Anais do Museu Paulista: História e Cultura Material,0101-4714;1982-0267,true,,
-Tropical Plant Pathology,1982-5676;1983-2052,false,2015-01-00,suspended in SciELO collection scl
+Tropical Plant Pathology,1982-5676;1983-2052,false,2015-01-01,suspended in SciELO collection scl
 Mercator (Fortaleza),1676-8329;1984-2201,true,,
-Ciência da Informação,1518-8353;0100-1965,false,2012-06-00,suspended in SciELO collection scl
+Ciência da Informação,1518-8353;0100-1965,false,2012-06-01,suspended in SciELO collection scl
 "Interface - Comunicação, Saúde, Educação",1414-3283;1807-5762,true,,
 Revista Paulista de Pediatria,1984-0462;0103-0582,true,,
 Revista da Escola de Enfermagem da USP,1980-220X;0080-6234,true,,
 Genetics and Molecular Biology,1415-4757;1678-4685,true,,
-Trends in Psychology,2358-1883,false,2020-01-00,suspended in SciELO collection scl
-Brazilian Journal of Chemical Engineering,0104-6632;1678-4383,false,2020-01-00,suspended in SciELO collection scl
+Trends in Psychology,2358-1883,false,2020-01-01,suspended in SciELO collection scl
+Brazilian Journal of Chemical Engineering,0104-6632;1678-4383,false,2020-01-01,suspended in SciELO collection scl
 Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas,1981-8122;2178-2547,true,,
 Pesquisa Brasileira em Odontopediatria e Clínica Integrada,1519-0501;1983-4632,true,,
 Revista Brasileira de Parasitologia Veterinária,0103-846X;1984-2961,true,,
 Saúde e Sociedade,1984-0470;0104-1290,true,,
 Revista Ciência Agronômica,1806-6690;0045-6888,true,,
-Revista Brasileira de Farmacognosia,1981-528X;0102-695X,false,2020-03-00,suspended in SciELO collection scl
+Revista Brasileira de Farmacognosia,1981-528X;0102-695X,false,2020-03-01,suspended in SciELO collection scl
 Brazilian Journal of Nephrology,2175-8239;0101-2800,true,,
 Revista Brasileira de Entomologia,1806-9665;0085-5626,true,,
 Brazilian Oral Research,1807-3107;1806-8324,true,,
 Nauplius,2358-2936;0104-6497,true,,
 Psicologia & Sociedade,0102-7182;1807-0310,true,,
-Revista Brasileira de Oceanografia,1413-7739,false,2012-05-00,deceased in SciELO collection scl
-Brazilian Journal of Oceanography,1679-8759;1982-436X,false,2020-01-00,deceased in SciELO collection scl
+Revista Brasileira de Oceanografia,1413-7739,false,2012-05-01,deceased in SciELO collection scl
+Brazilian Journal of Oceanography,1679-8759;1982-436X,false,2020-01-01,deceased in SciELO collection scl
 Revista IBRACON de Estruturas e Materiais,1983-4195,true,,
 Almanack,2236-4633,true,,
 Pesquisa Agropecuária Tropical,1517-6398;1983-4063,true,,
 Revista Brasileira de Cineantropometria & Desempenho Humano,1415-8426;1980-0037,true,,
 Revista Brasileira de Política Internacional,1983-3121;0034-7329,true,,
 Cadernos Brasileiros de Terapia Ocupacional,2526-8910,true,,
-MedicalExpress,2318-8111;2358-0429,false,2021-01-00,deceased in SciELO collection scl
-Revista Brasileira de Sementes,0101-3122,false,2012-12-00,deceased in SciELO collection scl
+MedicalExpress,2318-8111;2358-0429,false,2021-01-01,deceased in SciELO collection scl
+Revista Brasileira de Sementes,0101-3122,false,2012-12-01,deceased in SciELO collection scl
 Dental Press Journal of Orthodontics,2176-9451;2177-6709,true,,
 Brazilian Journal of Biology,1519-6984;1678-4375,true,,
-Planta Daninha,1806-9681;0100-8358,false,2020-12-00,deceased in SciELO collection scl
+Planta Daninha,1806-9681;0100-8358,false,2020-12-01,deceased in SciELO collection scl
 Sociedade & Natureza,0103-1570;1982-4513,true,,
-Revista Brasileira de Anestesiologia,0034-7094;1806-907X,false,2020-12-00,deceased in SciELO collection scl
-Letras de Hoje,0101-3335;1984-7726,false,2019-07-00,suspended in SciELO collection scl
+Revista Brasileira de Anestesiologia,0034-7094;1806-907X,false,2020-12-01,deceased in SciELO collection scl
+Letras de Hoje,0101-3335;1984-7726,false,2019-07-01,suspended in SciELO collection scl
 Revista Brasileira de Saúde Ocupacional,0303-7657;2317-6369,true,,
-TEMA (São Carlos),1677-1966;2179-8451,false,2020-12-00,deceased in SciELO collection scl
+TEMA (São Carlos),1677-1966;2179-8451,false,2020-12-01,deceased in SciELO collection scl
 Advances in Weed Science,2675-9462,true,,
-Eclética Química,0100-4670;1678-4618,false,2012-06-00,suspended in SciELO collection scl
+Eclética Química,0100-4670;1678-4618,false,2012-06-01,suspended in SciELO collection scl
 Ocean and Coastal Research,2675-2824,true,,
 Zoologia (Curitiba),1984-4689;1984-4670,true,,
 Journal of Venomous Animals and Toxins including Tropical Diseases,1678-9199,true,,
@@ -1316,7 +1316,7 @@ Ciência Rural,0103-8478;1678-4596,true,,
 História da Educação,1414-3518;2236-3459,true,,
 Filosofia Unisinos,1984-8234,true,,
 Revista Brasileira de Oftalmologia,0034-7280;1982-8551,true,,
-Anais da Sociedade Entomológica do Brasil,1981-5328;0301-8059,false,2001-12-00,deceased in SciELO collection scl
+Anais da Sociedade Entomológica do Brasil,1981-5328;0301-8059,false,2001-12-01,deceased in SciELO collection scl
 Coluna/Columna,1808-1851;2177-014X,true,,
 Clinics,1807-5932;1980-5322,true,,
 Gestão & Produção,1806-9649;0104-530X,true,,
@@ -1337,7 +1337,7 @@ Sociologia & Antropologia,2236-7527;2238-3875,true,,
 Transinformação,2318-0889;0103-3786,true,,
 Mana,1678-4944;0104-9313,true,,
 Revista Brasileira de Plantas Medicinais,1516-0572;1983-084X,false,2017-04-18,suspended in SciELO collection scl
-Archives of Clinical Psychiatry (São Paulo),0101-6083;1806-938X,false,2022-07-00,suspended in SciELO collection scl
+Archives of Clinical Psychiatry (São Paulo),0101-6083;1806-938X,false,2022-07-01,suspended in SciELO collection scl
 Revista Brasileira de Estudos Urbanos e Regionais,2317-1529;1517-4115,true,,
 DELTA: Documentação de Estudos em Lingüística Teórica e Aplicada,0102-4450;1678-460X,true,,
 Arquivos Brasileiros de Cardiologia,1678-4170;0066-782X,true,,
@@ -1351,14 +1351,14 @@ Revista Brasileira de Linguística Aplicada,1984-6398,true,,
 "História, Ciências, Saúde-Manguinhos",1678-4758;0104-5970,true,,
 Engenharia Sanitaria e Ambiental,1809-4457;1413-4152,true,,
 Journal of Seed Science,2317-1537;2317-1545,true,,
-Food Science and Technology,1678-457X;0101-2061,false,2023-03-00,suspended in SciELO collection scl
+Food Science and Technology,1678-457X;0101-2061,false,2023-03-01,suspended in SciELO collection scl
 Fisioterapia e Pesquisa,2316-9117;1809-2950,true,,
 Perspectivas em Ciência da Informação,1981-5344;1413-9936,true,,
 Sociologias,1807-0337;1517-4522,true,,
 Dilemas: Revista de Estudos de Conflito e Controle Social,1983-5922;2178-2792,true,,
 Revista Brasileira de Meteorologia,0102-7786;1982-4351,true,,
 Educar em Revista,1984-0411;0104-4060,true,,
-Revista Brasileira de Terapia Intensiva,1982-4335;0103-507X,false,2022-12-00,deceased in SciELO collection scl
+Revista Brasileira de Terapia Intensiva,1982-4335;0103-507X,false,2022-12-01,deceased in SciELO collection scl
 Revista de Investigações Constitucionais,2359-5639,true,,
 Latin American Journal of Solids and Structures,1679-7825;1679-7817,true,,
 Educação e Pesquisa,1517-9702;1678-4634,true,,
@@ -1375,7 +1375,7 @@ Revista de Filosofia Aurora,2965-1557;2965-1565,true,,
 Movimento,0104-754X;1982-8918,true,,
 Educação & Sociedade,0101-7330;1678-4626,true,,
 RAM. Revista de Administração Mackenzie,1678-6971,true,,
-Revista de Direito da Cidade,2317-7721;1809-6077,false,2023-08-00,suspended in SciELO collection scl
+Revista de Direito da Cidade,2317-7721;1809-6077,false,2023-08-01,suspended in SciELO collection scl
 Animal Reproduction,1806-9614;1984-3143,true,,
 Revista Ceres,0034-737X;2177-3491,true,,
 Manuscrito,0100-6045;2317-630X,true,,
@@ -1383,7 +1383,7 @@ Arquivos Brasileiros de Oftalmologia,0004-2749;1678-2925,true,,
 Revista do Instituto de Medicina Tropical de São Paulo,0036-4665;1678-9946,true,,
 Encontros Bibli,1518-2924,true,,
 Ciência e Agrotecnologia,1981-1829;1413-7054,true,,
-Jornal Brasileiro de Patologia e Medicina Laboratorial,1678-4774;1676-2444,false,2023-10-00,suspended in SciELO collection scl
+Jornal Brasileiro de Patologia e Medicina Laboratorial,1678-4774;1676-2444,false,2023-10-01,suspended in SciELO collection scl
 Pesquisa Agropecuária Brasileira,0100-204X;1678-3921,true,,
 Estudos Históricos (Rio de Janeiro),0103-2186;2178-1494,true,,
 Ágora: Estudos em Teoria Psicanalítica,1809-4414;1516-1498,true,,
@@ -1394,7 +1394,7 @@ Ornamental Horticulture,2447-536X,true,,
 Alea: Estudos Neolatinos,1517-106X;1807-0299,true,,
 BBR. Brazilian Business Review,1808-2386,true,,
 Ciência & Saúde Coletiva,1678-4561;1413-8123,true,,
-Motriz: Revista de Educação Física,1980-6574,false,2024-01-00,suspended in SciELO collection scl
+Motriz: Revista de Educação Física,1980-6574,false,2024-01-01,suspended in SciELO collection scl
 Revista da Associação Médica Brasileira,0104-4230;1806-9282,true,,
 Nova Economia,1980-5381;0103-6351,true,,
 Arquivos de Neuro-Psiquiatria,1678-4227;0004-282X,true,,
@@ -1457,7 +1457,7 @@ ARS (São Paulo),1678-5320;2178-0447,true,,
 Estudos de Psicologia (Campinas),0103-166X;1982-0275,true,,
 Revista Brasileira de Educação Médica,1981-5271;0100-5502,true,,
 Cadernos de Tradução,2175-7968;1414-526X,true,,
-Revista Brasileira de Geociências,2177-4382;0375-7536,false,2012-01-00,suspended in SciELO collection scl
+Revista Brasileira de Geociências,2177-4382;0375-7536,false,2012-01-01,suspended in SciELO collection scl
 Pandaemonium Germanicum,1414-1906;1982-8837,true,,
 Horticultura Brasileira,0102-0536;1806-9991,true,,
 Production,0103-6513;1980-5411,true,,
@@ -1466,7 +1466,7 @@ Brazilian Journal of Medical and Biological Research,0100-879X;1414-431X,true,,
 Engenharia Agrícola,1809-4430;0100-6916,true,,
 Revista de Economia Contemporânea,1415-9848;1980-5527,true,,
 Revista de Antropologia,0034-7701;1678-9857,true,,
-Revista Brasileira de Medicina do Esporte,1806-9940;1517-8692,false,2023-12-00,suspended in SciELO collection scl
+Revista Brasileira de Medicina do Esporte,1806-9940;1517-8692,false,2023-12-01,suspended in SciELO collection scl
 Brazilian Political Science Review,1981-3821,true,,
 Brazilian Archives of Biology and Technology,1678-4324;1516-8913,true,,
 Revista Brasileira de Literatura Comparada,2596-304X;0103-6963,true,,
@@ -1513,7 +1513,7 @@ Novos estudos CEBRAP,1980-5403;0101-3300,true,,
 Tempo Social,1809-4554;0103-2070,true,,
 Acta Botanica Brasilica,0102-3306;1677-941X,true,,
 Crop Breeding and Applied Biotechnology,1984-7033;1518-7853,true,,
-Revista Brasileira de Fruticultura,1806-9967;0100-2945,false,2024-12-00,suspended in SciELO collection scl
+Revista Brasileira de Fruticultura,1806-9967;0100-2945,false,2024-12-01,suspended in SciELO collection scl
 História (São Paulo),0101-9074;1980-4369,true,,
 Psicologia: Ciência e Profissão,1982-3703;1414-9893,true,,
 Psicologia Escolar e Educacional,2175-3539;1413-8557,true,,
@@ -1525,10 +1525,10 @@ Biota Neotropica,1676-0611;1676-0603,true,,
 Revista Brasileira de Cirurgia Plástica,1983-5175;2177-1235,true,,
 Journal of Coloproctology (Rio de Janeiro),2237-9363;2317-6423,true,,
 Dementia & Neuropsychologia,1980-5764,true,,
-Autopsy and Case Reports,2236-1960,false,2025-08-00,suspended in SciELO collection scl
+Autopsy and Case Reports,2236-1960,false,2025-08-01,suspended in SciELO collection scl
 Boletim do Instituto de Pesca,1678-2305;0046-9939,true,,
 Anuário Antropológico,2357-738X;0102-4302,true,,
-Machado de Assis em Linha,1983-6821,false,2025-08-00,suspended in SciELO collection scl
+Machado de Assis em Linha,1983-6821,false,2025-08-01,suspended in SciELO collection scl
 Revista Latino-Americana de Enfermagem,1518-8345;0104-1169,true,,
 Floresta e Ambiente,1415-0980;2179-8087,true,,
 Critical Care Science,2965-2774,true,,
@@ -1560,7 +1560,7 @@ História da Historiografia,1983-9928,true,,
 Economia e Sociedade,1982-3533;0104-0618,true,,
 Revista do Colégio Brasileiro de Cirurgiões,1809-4546;0100-6991,true,,
 Perspectiva Teológica,2176-8757;0102-4469,true,,
-Veredas do Direito,2179-8699;1806-3845,false,2026-03-00,suspended in SciELO collection scl
+Veredas do Direito,2179-8699;1806-3845,false,2026-03-01,suspended in SciELO collection scl
 Revista de Administração Pública,0034-7612;1982-3134,true,,
 Cadernos EBAPE.BR,1679-3951,true,,
 "Trabalho, Educação e Saúde",1678-1007;1981-7746,true,,
@@ -1569,7 +1569,7 @@ Revista NERA,1806-6755,true,,
 Revista de Nutrição,1415-5273;1678-9865,true,,
 Revista de Administração da UFSM,1983-4659,true,,
 Ciência & Educação (Bauru),1516-7313;1980-850X,true,,
-Topoi (Rio de Janeiro),1518-3319;2237-101X,false,2026-04-00,suspended in SciELO collection scl
+Topoi (Rio de Janeiro),1518-3319;2237-101X,false,2026-04-01,suspended in SciELO collection scl
 Educação em Revista,1982-6621;0102-4698,true,,
 Cadernos Pagu,1809-4449;0104-8333,true,,
 Revista de Administração de Empresas,0034-7590;2178-938X,true,,
@@ -1582,7 +1582,7 @@ Papéis Avulsos de Zoologia,0031-1049;1807-0205,true,,
 Brazilian Dental Science,2178-6011,true,,
 Revista Brasileira de Ensino de Física,1806-1117;1806-9126,true,,
 Revista Brasileira de Direito Processual Penal,2525-510X;2359-3881,true,,
-Jornal Brasileiro de Pneumologia,1806-3756;1806-3713,false,2026-06-00,deceased in SciELO collection scl
+Jornal Brasileiro de Pneumologia,1806-3756;1806-3713,false,2026-06-01,deceased in SciELO collection scl
 GEOUSP,2179-0892,true,,
 Sequência (Florianópolis),2177-7055;0101-9562,true,,
 ABC Imagem Cardiovascular,2675-312X;2318-8219,true,,
@@ -1736,8 +1736,8 @@ South African Journal of Enology and Viticulture,0253-939X;2224-7904,true,,
 Critical Studies in Teaching and Learning,2310-7103,true,,
 South African Journal of Oncology,2523-0646;2518-8704,true,,
 Revista Médica La Paz,1726-8958,true,,
-Revista de la Sociedad Boliviana de Pediatría,1024-0675,false,2017-00-00,suspended in SciELO collection bol
-Tinkazos,1990-7451,false,2017-00-00,suspended in SciELO collection bol
+Revista de la Sociedad Boliviana de Pediatría,1024-0675,false,2017-01-01,suspended in SciELO collection bol
+Tinkazos,1990-7451,false,2017-01-01,suspended in SciELO collection bol
 Revista Integra Educativa,1997-4043,false,2016-03-28,suspended in SciELO collection bol
 Iuris Tantum Revista Boliviana de Derecho,2070-8157,false,2016-03-28,suspended in SciELO collection bol
 Revista de Medio Ambiente y Mineria,2519-5352,true,,
@@ -1763,8 +1763,8 @@ Investigación & Desarrollo,2518-4431,true,,
 Revista Perspectivas,1994-3733,true,,
 Alfa Revista de Investigación en Ciencias Agronómicas y Veterinaria,2664-0902,true,,
 Punto Cero,2224-8838;1815-0276,true,,
-Economía Coyuntural,2415-0622;2415-0630,false,2024-02-00,suspended in SciELO collection bol
-Oikos Polis,2521-960X;2415-2250,false,2024-02-00,suspended in SciELO collection bol
+Economía Coyuntural,2415-0622;2415-0630,false,2024-02-01,suspended in SciELO collection bol
+Oikos Polis,2521-960X;2415-2250,false,2024-02-01,suspended in SciELO collection bol
 Journal of the Selva Andina Research Society,2072-9308;2072-9294,true,,
 Journal of the Selva Andina Animal Science,2311-3766;2311-2581,true,,
 Revista Latinoamericana de Desarrollo Económico,2074-4706;2309-9038,true,,
@@ -1923,12 +1923,12 @@ Memorias del Instituto de Investigaciones en Ciencias de la Salud,1812-9528,true
 Revista investigaciones y estudios-UNA,2070-0415;2709-0817,true,,
 Revista del Nacional (Itauguá),2072-8174,true,,
 Anales de la Facultad de Ciencias Médicas (Asunción),1816-8949,true,,
-CLEI Electronic Journal,0717-5000,false,2017-00-00,deceased in SciELO collection ury
-Actas Odontológicas,1510-8139;2393-6304,false,2017-00-00,deceased in SciELO collection ury
-Antropología Social y Cultural del Uruguay,1510-3846,false,2015-00-00,deceased in SciELO collection ury
-Archivos de Medicina Interna,1688-423X;0250-3816,false,2015-00-00,deceased in SciELO collection ury
-Anestesia Analgesia Reanimación,1688-1273;0255-8122,false,2019-00-00,deceased in SciELO collection ury
-Agrociencia (Uruguay),2301-1548;1510-0839,false,2021-00-00,deceased in SciELO collection ury
+CLEI Electronic Journal,0717-5000,false,2017-01-01,deceased in SciELO collection ury
+Actas Odontológicas,1510-8139;2393-6304,false,2017-01-01,deceased in SciELO collection ury
+Antropología Social y Cultural del Uruguay,1510-3846,false,2015-01-01,deceased in SciELO collection ury
+Archivos de Medicina Interna,1688-423X;0250-3816,false,2015-01-01,deceased in SciELO collection ury
+Anestesia Analgesia Reanimación,1688-1273;0255-8122,false,2019-01-01,deceased in SciELO collection ury
+Agrociencia (Uruguay),2301-1548;1510-0839,false,2021-01-01,deceased in SciELO collection ury
 Anales de Investigación en Arquitectura,2301-1505;2301-1513,true,,
 Revista Uruguaya de Medicina Interna,2393-6797,true,,
 Lingüística,2079-312X,true,,

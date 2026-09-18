@@ -174,6 +174,18 @@ def fetch_erih_plus():
 # SciELO network journals via ArticleMeta. Current status is the LAST entry of
 # the v51 history (v50 is 'C' on every row); D = deceased, S = suspended.
 # Certified network collections only (not the thematic/independent ones).
+def _partial_date(yyyymmdd):
+    """ArticleMeta history dates are YYYYMMDD with '00' (or nothing) for unknown
+    month/day, e.g. '20060000' / '201505'. Coerce unknown parts to 01 so the
+    loader's date.fromisoformat accepts them; '' if the year is unknown."""
+    y, m, d = yyyymmdd[:4], yyyymmdd[4:6], yyyymmdd[6:8]
+    if not y.isdigit():
+        return ""
+    m = m if m.isdigit() and m != "00" else "01"
+    d = d if d.isdigit() and d != "00" else "01"
+    return f"{y}-{m}-{d}"
+
+
 def fetch_scielo():
     base = "https://articlemeta.scielo.org/api/v1/"
     colls = json.loads(_get(base + "collection/identifiers/"))
@@ -201,7 +213,7 @@ def fetch_scielo():
             key = issns[0]
             prev = by_issn.get(key)
             row = _row(title, issns, cur == "C",
-                       f"{cur_date[:4]}-{cur_date[4:6] or '01'}-{cur_date[6:8] or '01'}" if (cur != "C" and cur_date[:4].isdigit()) else "",
+                       _partial_date(cur_date) if cur != "C" else "",
                        "" if cur == "C" else {"D": "deceased", "S": "suspended"}.get(cur, cur) + f" in SciELO collection {code}")
             # a journal in several collections: active if active anywhere
             if prev is None or (row["active"] == "true" and prev["active"] == "false"):
