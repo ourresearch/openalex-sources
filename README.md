@@ -77,7 +77,23 @@ python -m jobs.load_source_list --list doyens \
 Idempotent (re-running the same file changes nothing). Adding a brand-new list =
 one `INSERT INTO source_list` (id is the public value users filter on; kebab-case)
 plus a load. Walden mirrors the column verbatim (`CreateSources`) into the sources
-API and the dehydrated source on work locations.
+API and the dehydrated source on work locations, and builds the `source-lists`
+entity (`api.openalex.org/source-lists/<id>`) from `source_list` itself.
+
+**A list is not live until four things outside this repo are done** (oxjob #1205):
+
+1. **Works backfill in Elasticsearch.** `listed_in` is excluded from the works
+   content hash (so a list load does not re-stamp ~100M works' `updated_date`),
+   which also means the nightly ES sync never picks the affected works up. Run the
+   Databricks job *Sync All Works to Elasticsearch* with `is_full_sync=false`,
+   `listed_in=<id>` (or `*` for every list) after the next nightly end2end has
+   rebuilt `openalex_works`. Until then `works?filter=primary_location.source.listed_in:<id>`
+   is nearly empty while `sources?filter=listed_in:<id>` is complete.
+2. **elastic-api `config/source-lists.yaml`**: add the id under `values:`. It is a
+   closed vocabulary — OQL rejects `listed in is <id>` as `invalid_value` until it
+   is there. (`PROPERTIES_VERSION` does not change for a new value.)
+3. **openalex-gui `src/listedIn.js`**: a short label, or the site shows the bare id.
+4. **Help center** `content/data/source-lists.md` Values table (+ `updated:`).
 
 ## Scheduling (Advanced Scheduler)
 
