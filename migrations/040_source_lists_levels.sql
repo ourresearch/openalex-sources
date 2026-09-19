@@ -20,7 +20,7 @@ INSERT INTO source_list (id, display_name, maintainer, url, scope) VALUES
   ('norway-2', 'Norwegian Register, level 2',
    'Norwegian Directorate for Higher Education and Skills (HK-dir)',
    'https://kanalregister.hkdir.no/',
-   'Journals and series at level 2 (the most selective tier, about 20% of publications) in the Norwegian Register for Scientific Journals, Series and Publishers, all fields.'),
+   'Journals and series at level 2 (the most selective tier, about 20 percent of publications) in the Norwegian Register for Scientific Journals, Series and Publishers, all fields.'),
   ('jufo-1', 'Publication Forum (JUFO), level 1',
    'Federation of Finnish Learned Societies (TSV)',
    'https://julkaisufoorumi.fi/en',
