@@ -347,15 +347,28 @@ def fetch_jpps():
         if len(cells) >= 3 and href and cells[2].lower() in JPPS_LEVELS:
             entries.append((cells[1], JPPS_LEVELS[cells[2].lower()], href.group(1), iso2.group(1) if iso2 else ""))
     print(f"  jpps: {len(entries):,} starred journals in the directory; fetching platform pages for ISSNs", flush=True)
+    # page-level cache across runs: AJOL's soft block comes and goes mid-run, so a
+    # re-run only needs to fetch the pages that failed last time
+    cache_path = Path("/tmp/sl/jpps-issn-cache.json")
+    try:
+        cache = json.loads(cache_path.read_text())
+    except Exception:  # noqa: BLE001
+        cache = {}
     via_page = via_api = missing = 0
     for i, (title, list_id, url, iso2) in enumerate(entries, 1):
-        issns = []
-        try:
-            page = _get_browser(url, retries=1, timeout=45).decode("utf-8", "replace")
-            text = re.sub(r"<[^>]+>", " ", page)
-            issns = _issns(*re.findall(r"ISSN[^0-9]{0,12}(\d{4}-\d{3}[\dXx])", text))
-        except Exception:  # noqa: BLE001
-            pass
+        issns = cache.get(url) or []
+        if not issns:
+            try:
+                page = _get_browser(url, retries=1, timeout=45).decode("utf-8", "replace")
+                text = re.sub(r"<[^>]+>", " ", page)
+                issns = _issns(*re.findall(r"ISSN[^0-9]{0,12}(\d{4}-\d{3}[\dXx])", text))
+            except Exception:  # noqa: BLE001
+                pass
+            if issns:
+                cache[url] = issns
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(json.dumps(cache))
+            time.sleep(3)  # AJOL soft-blocks bursts with empty 200s (see _get_browser); 2 s tripped it on 2026-09-18
         if issns:
             via_page += 1
         else:
@@ -369,7 +382,6 @@ def fetch_jpps():
         rows[list_id].append(_row(title, issns))
         if i % 50 == 0:
             print(f"  jpps: {i:,}/{len(entries):,} (page {via_page}, openalex {via_api}, missing {missing})", flush=True)
-        time.sleep(2)  # AJOL soft-blocks bursts with empty 200s (see _get_browser)
     print("  jpps: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items())
           + f"; ISSNs via platform page {via_page:,}, via OpenAlex {via_api:,}, missing {missing:,}")
     return rows
