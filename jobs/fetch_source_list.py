@@ -10,9 +10,14 @@ database: the load itself stays a separate, by-hand step (see README).
   python -m jobs.fetch_source_list medline            # writes the CSV, prints stats
   python -m jobs.fetch_source_list norway --date 2026-09-18
 
-Allow lists only (never deny lists). Level/tier registers (norway, jufo) are
-loaded as ONE list of every approved channel (level >= 1); the level itself is
-not part of the API value because levels are re-set every year.
+Allow lists only (never deny lists). Level/tier registers (norway, jufo, jpps)
+become ONE LIST PER LEVEL (`norway-1`, `norway-2`, `jufo-1`..`jufo-3`,
+`jpps-1`..`jpps-3`): the maintainers built those levels precisely to get away
+from the in-or-out binary, so collapsing them would lose the point (Jason,
+2026-09-18). Non-level states (pending, new title, no stars, level 0) are not
+lists. A grouped adapter returns {list_id: rows} and writes one CSV per level:
+
+  python -m jobs.fetch_source_list jufo     # writes jufo-1, jufo-2, jufo-3
 """
 import argparse
 import calendar
@@ -99,7 +104,7 @@ def fetch_norway(today):
     raw = _get("https://kanalregister.hkdir.no/api/krtabeller/bulk-csv?rptNr=851")
     rd = csv.DictReader(io.StringIO(raw.decode("utf-8-sig")))
     year = today.year
-    rows, skipped = [], 0
+    rows, skipped = {"norway-1": [], "norway-2": []}, 0
     for r in rd:
         level = ""
         for y in (year, year - 1, year - 2):
@@ -115,10 +120,10 @@ def fetch_norway(today):
             continue
         active = (r.get("Aktiv") or "").strip() == "1"
         ended = (r.get("Nedlagt år") or "").strip()
-        rows.append(_row(r.get("Internasjonal tittel") or r.get("Original tittel"), issns,
+        rows[f"norway-{level}"].append(_row(r.get("Internasjonal tittel") or r.get("Original tittel"), issns,
                          active, f"{ended}-01-01" if (not active and ended.isdigit()) else "",
                          "" if active else f"inactive in the register (Nedlagt år {ended or '?'}; year only)"))
-    print(f"  norway: kept {len(rows):,}, skipped {skipped:,} rows with level 0 / blank")
+    print(f"  norway: level 1 {len(rows['norway-1']):,}, level 2 {len(rows['norway-2']):,}, skipped {skipped:,} rows with level 0 / blank")
     return rows
 
 
@@ -131,11 +136,12 @@ def fetch_jufo():
     with zipfile.ZipFile(io.BytesIO(raw)) as z:
         name = [n for n in z.namelist() if n.endswith("massa.json")][0]
         data = json.loads(z.read(name))
-    rows, skipped = [], 0
+    rows, skipped = {"jufo-1": [], "jufo-2": [], "jufo-3": []}, 0
     for d in data:
         if not (d.get("Type") or "").lower().startswith("lehti/"):
             continue
-        if (d.get("Level") or "").strip() not in ("1", "2", "3"):
+        level = (d.get("Level") or "").strip()
+        if level not in ("1", "2", "3"):
             skipped += 1
             continue
         issns = _issns(d.get("ISSN1"), d.get("ISSN2"), d.get("ISSNL"))
@@ -143,10 +149,11 @@ def fetch_jufo():
             continue
         active = (d.get("Active") or "").strip().lower() == "active"
         end = (d.get("Year_End") or "").strip()
-        rows.append(_row(d.get("Name"), issns, active,
+        rows[f"jufo-{level}"].append(_row(d.get("Name"), issns, active,
                          f"{end}-01-01" if (not active and end.isdigit()) else "",
                          "" if active else f"inactive in JUFO (Year_End {end or '?'}; year only)"))
-    print(f"  jufo: kept {len(rows):,}, skipped {skipped:,} journal rows with level 0 / not evaluated")
+    print(f"  jufo: " + ", ".join(f"level {k[-1]} {len(v):,}" for k, v in rows.items())
+          + f", skipped {skipped:,} journal rows with level 0 / not evaluated")
     return rows
 
 
@@ -224,12 +231,110 @@ def fetch_scielo():
     return list(by_issn.values())
 
 
+# --- latindex ---------------------------------------------------------------
+# Latindex Catálogo 2.0 (UNAM + 23 partner institutions; Ibero-America).
+# The site has a per-letter browse page (idMod=1 = Catálogo 2.0, current
+# journals) with a signed CSV export link; the link is only on the page, so it
+# is two requests per letter. 403s non-browser user agents; slow and flaky, so
+# generous timeouts + retries. CC BY-NC-SA with a cite-the-source clause.
+BROWSER_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+
+
+def _get_browser(url, retries=4, timeout=90):
+    """Browser-UA GET with backoff. An EMPTY 200 body counts as a failure: AJOL
+    answers a burst of requests with 0-byte 200s for a while (2026-09-18: 583 of
+    600 pages), and the block lifts after a pause, so back off hard."""
+    for attempt in range(retries):
+        try:
+            with urlopen(Request(url, headers={"User-Agent": BROWSER_UA}), timeout=timeout) as r:
+                body = r.read()
+            if body:
+                return body
+            raise RuntimeError("empty body (soft block?)")
+        except Exception as e:  # noqa: BLE001
+            if attempt == retries - 1:
+                raise
+            wait = 30 * (attempt + 1) if "empty body" in str(e) else 5 * (attempt + 1)
+            print(f"  retry {attempt + 1} in {wait}s: {url} ({e})", file=sys.stderr)
+            time.sleep(wait)
+
+
+def fetch_latindex():
+    rows, seen = [], set()
+    for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+        page = _get_browser(f"https://latindex.org/latindex/revistasTitulo?idLtr={letter}&idMod=1").decode("utf-8", "replace")
+        m = re.search(r'href="(https://latindex\.org/latindex/exportar/indiceTitulo/csv/' + letter + r'/1[^"]*)"', page)
+        if not m:
+            raise RuntimeError(f"latindex: no CSV export link on letter page {letter}")
+        raw = _get_browser(m.group(1).replace("&amp;", "&")).decode("utf-8-sig", "replace")
+        n = 0
+        for r in csv.DictReader(io.StringIO(raw), delimiter=";"):
+            issns = _issns(r.get("issn_l"), r.get("issn_e"), r.get("issn_imp"))
+            if not issns or issns[0] in seen:
+                continue
+            seen.add(issns[0])
+            # the idMod=1 browse is Catálogo 2.0 current journals only; catalogada is a belt-and-braces check
+            if (r.get("catalogada") or "1").strip() != "1":
+                continue
+            rows.append(_row(r.get("tit_propio"), issns))
+            n += 1
+        print(f"  latindex: {letter} {n:,}")
+        time.sleep(2)
+    return rows
+
+
+# --- jpps -------------------------------------------------------------------
+# Journal Publishing Practices and Standards (AJOL + INASP): every journal on
+# the AJOL / NepJOL / BanglaJOL / CamJOL / MongoliaJOL / SLJOL platforms is
+# assessed and given a level. One list per star level (jpps-1, jpps-2, jpps-3);
+# "no stars", "new title", "pending" and "inactive title" are not lists. The
+# directory has no ISSNs, so each starred journal's platform page is fetched
+# (OJS or Ubiquity; both print "ISSN: NNNN-NNNX"). No licence stated
+# (© INASP and AJOL); credited on the entity page like every other list.
+JPPS_LEVELS = {"1 star": "jpps-1", "2 stars": "jpps-2", "3 stars": "jpps-3"}
+
+
+def fetch_jpps():
+    html = _get_browser("https://www.journalquality.info/en/journals-all/").decode("utf-8", "replace")
+    rows = {v: [] for v in JPPS_LEVELS.values()}
+    entries = []
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
+        cells = [re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", c)).replace("&nbsp;", " ").strip()
+                 for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
+        href = re.search(r'href="(https?://[^"]+)"', tr)
+        if len(cells) >= 3 and href and cells[2].lower() in JPPS_LEVELS:
+            entries.append((cells[1], JPPS_LEVELS[cells[2].lower()], href.group(1)))
+    print(f"  jpps: {len(entries):,} starred journals in the directory; fetching platform pages for ISSNs")
+    missing = 0
+    for i, (title, list_id, url) in enumerate(entries, 1):
+        try:
+            page = _get_browser(url, retries=3, timeout=60).decode("utf-8", "replace")
+        except Exception as e:  # noqa: BLE001
+            print(f"  jpps: skip {url} ({e})", file=sys.stderr)
+            missing += 1
+            continue
+        text = re.sub(r"<[^>]+>", " ", page)
+        issns = _issns(*re.findall(r"ISSN[^0-9]{0,12}(\d{4}-\d{3}[\dXx])", text))
+        if not issns:
+            missing += 1
+            print(f"  jpps: no ISSN on {url} ({len(page):,} bytes)", file=sys.stderr)
+            continue
+        rows[list_id].append(_row(title, issns))
+        if i % 50 == 0:
+            print(f"  jpps: {i:,}/{len(entries):,}", flush=True)
+        time.sleep(2)  # AJOL soft-blocks bursts with empty 200s (see _get_browser)
+    print("  jpps: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items()) + f", {missing:,} without an ISSN / unreachable")
+    return rows
+
+
 ADAPTERS = {
     "medline": lambda today: fetch_medline(),
     "norway": fetch_norway,
     "jufo": lambda today: fetch_jufo(),
     "erih-plus": lambda today: fetch_erih_plus(),
     "scielo": lambda today: fetch_scielo(),
+    "latindex": lambda today: fetch_latindex(),
+    "jpps": lambda today: fetch_jpps(),        # grouped: jpps-1, jpps-2, jpps-3
 }
 
 
@@ -241,18 +346,20 @@ def main():
     today = date.fromisoformat(args.date) if args.date else date.today()
 
     print(f"fetching {args.list} ...")
-    rows = ADAPTERS[args.list](today)
+    result = ADAPTERS[args.list](today)
+    grouped = result if isinstance(result, dict) else {args.list: result}
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out = OUT_DIR / f"{args.list}-{today.isoformat()}.csv"
-    with open(out, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["name", "issns", "active", "withdrawn_date", "withdrawal_reason"])
-        w.writeheader()
-        w.writerows(rows)
-    n_active = sum(r["active"] == "true" for r in rows)
-    n_issn = sum(len(r["issns"].split(";")) for r in rows)
-    print(f"wrote {out} — {len(rows):,} rows ({n_active:,} active), {n_issn:,} ISSNs")
-    print(f"next: python -m jobs.load_source_list --list {args.list} --csv {out.relative_to(OUT_DIR.parent.parent)} "
-          f"--version {today.isoformat()} --dry-run")
+    for list_id, rows in grouped.items():
+        out = OUT_DIR / f"{list_id}-{today.isoformat()}.csv"
+        with open(out, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=["name", "issns", "active", "withdrawn_date", "withdrawal_reason"])
+            w.writeheader()
+            w.writerows(rows)
+        n_active = sum(r["active"] == "true" for r in rows)
+        n_issn = sum(len(r["issns"].split(";")) for r in rows)
+        print(f"wrote {out} — {len(rows):,} rows ({n_active:,} active), {n_issn:,} ISSNs")
+        print(f"next: python -m jobs.load_source_list --list {list_id} --csv {out.relative_to(OUT_DIR.parent.parent)} "
+              f"--version {today.isoformat()} --dry-run")
 
 
 if __name__ == "__main__":
