@@ -307,7 +307,7 @@ def _openalex_issns(title, platform_url, iso2):
     import os
     from urllib.parse import quote, urlparse
     hdrs = {"User-Agent": UA}
-    key = os.environ.get("OPENALEX_API_KEY")
+    key = os.environ.get("OPENALEX_ORG_API_KEY") or os.environ.get("OPENALEX_API_KEY")  # org key has the higher daily budget
     if key:
         hdrs["Authorization"] = f"Bearer {key}"
     url = ("https://api.openalex.org/sources?search=" + quote(title)
