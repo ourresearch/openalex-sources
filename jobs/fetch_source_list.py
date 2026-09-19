@@ -335,6 +335,27 @@ def _openalex_issns(title, platform_url, iso2):
     return []
 
 
+def _get_via_zyte(url):
+    """Fetch a page through Zyte (different egress IP) when the site soft-blocks
+    desk. Needs ZYTE_API_KEY; returns "" if unset or on failure."""
+    import base64
+    import os
+    key = os.environ.get("ZYTE_API_KEY")
+    if not key:
+        return ""
+    body = json.dumps({"url": url, "httpResponseBody": True}).encode()
+    req = Request("https://api.zyte.com/v1/extract", data=body, headers={
+        "Authorization": "Basic " + base64.b64encode(f"{key}:".encode()).decode(),
+        "Content-Type": "application/json"})
+    try:
+        with urlopen(req, timeout=90) as r:
+            data = json.loads(r.read())
+        return base64.b64decode(data.get("httpResponseBody") or b"").decode("utf-8", "replace")
+    except Exception as e:  # noqa: BLE001
+        print(f"  zyte failed for {url}: {e}", file=sys.stderr)
+        return ""
+
+
 def fetch_jpps():
     html = _get_browser("https://www.journalquality.info/en/journals-all/").decode("utf-8", "replace")
     rows = {v: [] for v in JPPS_LEVELS.values()}
@@ -358,12 +379,13 @@ def fetch_jpps():
     for i, (title, list_id, url, iso2) in enumerate(entries, 1):
         issns = cache.get(url) or []
         if not issns:
+            page = ""
             try:
                 page = _get_browser(url, retries=1, timeout=45).decode("utf-8", "replace")
-                text = re.sub(r"<[^>]+>", " ", page)
-                issns = _issns(*re.findall(r"ISSN[^0-9]{0,12}(\d{4}-\d{3}[\dXx])", text))
             except Exception:  # noqa: BLE001
-                pass
+                page = _get_via_zyte(url)  # AJOL soft-block: fetch from another IP
+            text = re.sub(r"<[^>]+>", " ", page)
+            issns = _issns(*re.findall(r"ISSN[^0-9]{0,12}(\d{4}-\d{3}[\dXx])", text))
             if issns:
                 cache[url] = issns
                 cache_path.parent.mkdir(parents=True, exist_ok=True)
