@@ -294,6 +294,47 @@ def fetch_latindex():
 JPPS_LEVELS = {"1 star": "jpps-1", "2 stars": "jpps-2", "3 stars": "jpps-3"}
 
 
+def _norm_title(t):
+    return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+
+
+def _openalex_issns(title, platform_url, iso2):
+    """Fallback when a platform page can't be read (AJOL soft-blocks bursts):
+    look the journal up in OpenAlex itself and accept a candidate only on a
+    strong signal: its homepage is the same platform path, or its title matches
+    exactly AND its country matches the JPPS flag. Generic titles ("Journal of
+    Management") therefore never match a big-publisher namesake."""
+    import os
+    from urllib.parse import quote, urlparse
+    hdrs = {"User-Agent": UA}
+    key = os.environ.get("OPENALEX_API_KEY")
+    if key:
+        hdrs["Authorization"] = f"Bearer {key}"
+    url = ("https://api.openalex.org/sources?search=" + quote(title)
+           + "&per_page=5&select=display_name,issn,homepage_url,country_code")
+    try:
+        with urlopen(Request(url, headers=hdrs), timeout=60) as r:
+            results = json.loads(r.read()).get("results") or []
+    except Exception as e:  # noqa: BLE001
+        print(f"  jpps: openalex lookup failed for {title!r} ({e})", file=sys.stderr)
+        return []
+    want_path = urlparse(platform_url).path.rstrip("/").lower()
+    want_host = urlparse(platform_url).netloc.lower().removeprefix("www.")
+    for c in results:
+        hp = urlparse(c.get("homepage_url") or "")
+        same_platform = (hp.netloc.lower().removeprefix("www.") == want_host
+                         and (hp.path.rstrip("/").lower() == want_path or want_path == ""))
+        # exact title, or the candidate title is the JPPS title plus an acronym suffix
+        # ("... Development (AJERD)"); country must match unless OpenAlex has none
+        cand, want = _norm_title(c.get("display_name")), _norm_title(title)
+        title_ok = cand == want or (want and cand.startswith(want + " ") and len(cand) - len(want) <= 12)
+        cc = (c.get("country_code") or "").upper()
+        country_ok = cc == (iso2 or "").upper() or not cc
+        if same_platform or (title_ok and country_ok):
+            return _issns(*(c.get("issn") or []))
+    return []
+
+
 def fetch_jpps():
     html = _get_browser("https://www.journalquality.info/en/journals-all/").decode("utf-8", "replace")
     rows = {v: [] for v in JPPS_LEVELS.values()}
@@ -301,29 +342,36 @@ def fetch_jpps():
     for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
         cells = [re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", c)).replace("&nbsp;", " ").strip()
                  for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
-        href = re.search(r'href="(https?://[^"]+)"', tr)
+        href = re.search(r'href="(https?://(?!www\.journalquality)[^"]+)"', tr)
+        iso2 = re.search(r"/img/iso2/([a-z]{2})\.png", tr)
         if len(cells) >= 3 and href and cells[2].lower() in JPPS_LEVELS:
-            entries.append((cells[1], JPPS_LEVELS[cells[2].lower()], href.group(1)))
-    print(f"  jpps: {len(entries):,} starred journals in the directory; fetching platform pages for ISSNs")
-    missing = 0
-    for i, (title, list_id, url) in enumerate(entries, 1):
+            entries.append((cells[1], JPPS_LEVELS[cells[2].lower()], href.group(1), iso2.group(1) if iso2 else ""))
+    print(f"  jpps: {len(entries):,} starred journals in the directory; fetching platform pages for ISSNs", flush=True)
+    via_page = via_api = missing = 0
+    for i, (title, list_id, url, iso2) in enumerate(entries, 1):
+        issns = []
         try:
-            page = _get_browser(url, retries=3, timeout=60).decode("utf-8", "replace")
-        except Exception as e:  # noqa: BLE001
-            print(f"  jpps: skip {url} ({e})", file=sys.stderr)
-            missing += 1
-            continue
-        text = re.sub(r"<[^>]+>", " ", page)
-        issns = _issns(*re.findall(r"ISSN[^0-9]{0,12}(\d{4}-\d{3}[\dXx])", text))
-        if not issns:
-            missing += 1
-            print(f"  jpps: no ISSN on {url} ({len(page):,} bytes)", file=sys.stderr)
-            continue
+            page = _get_browser(url, retries=1, timeout=45).decode("utf-8", "replace")
+            text = re.sub(r"<[^>]+>", " ", page)
+            issns = _issns(*re.findall(r"ISSN[^0-9]{0,12}(\d{4}-\d{3}[\dXx])", text))
+        except Exception:  # noqa: BLE001
+            pass
+        if issns:
+            via_page += 1
+        else:
+            issns = _openalex_issns(title, url, iso2)
+            if issns:
+                via_api += 1
+            else:
+                missing += 1
+                print(f"  jpps: no ISSN for {title!r} ({url})", file=sys.stderr)
+                continue
         rows[list_id].append(_row(title, issns))
         if i % 50 == 0:
-            print(f"  jpps: {i:,}/{len(entries):,}", flush=True)
+            print(f"  jpps: {i:,}/{len(entries):,} (page {via_page}, openalex {via_api}, missing {missing})", flush=True)
         time.sleep(2)  # AJOL soft-blocks bursts with empty 200s (see _get_browser)
-    print("  jpps: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items()) + f", {missing:,} without an ISSN / unreachable")
+    print("  jpps: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items())
+          + f"; ISSNs via platform page {via_page:,}, via OpenAlex {via_api:,}, missing {missing:,}")
     return rows
 
 
