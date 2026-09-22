@@ -22,6 +22,7 @@ lists. A grouped adapter returns {list_id: rows} and writes one CSV per level:
 import argparse
 import calendar
 import csv
+import gzip
 import io
 import json
 import re
@@ -409,7 +410,93 @@ def fetch_jpps():
     return rows
 
 
+# --- ki-jl ------------------------------------------------------------------
+# Karolinska Institutet Journal List (KI-JL), one xlsx on the KI staff portal
+# (staff.ki.se/research-support/karolinska-institutet-journal-list-kijl).
+# Level 1-3 (meets criteria / high standard / highest); level 0 = "not
+# recommended" is a non-list state and is NOT loaded (oxjob #1288). First
+# edition decided by the Faculty Board 2026-05-05; annual after that. No data
+# licence stated. The file id in the URL may change with the next edition.
+KI_JL_URL = "https://staff.ki.se/media/173283/download"
+
+
+def _xlsx_rows(raw, sheet=None):
+    import openpyxl  # not needed by the scheduled jobs; keep the import local
+    wb = openpyxl.load_workbook(io.BytesIO(raw), read_only=True, data_only=True)
+    ws = wb[sheet] if sheet else wb.worksheets[0]
+    return [tuple(c for c in r) for r in ws.iter_rows(values_only=True)]
+
+
+def _cell(v):
+    return str(v).strip() if v is not None else ""
+
+
+def fetch_ki_jl():
+    rows_in = _xlsx_rows(_get(KI_JL_URL), "journals")
+    hdr = next(i for i, r in enumerate(rows_in) if _cell(r[0]) == "Journal title")
+    rows, skipped = {"ki-jl-1": [], "ki-jl-2": [], "ki-jl-3": []}, 0
+    for r in rows_in[hdr + 1:]:
+        title, p_issn, e_issn, level = (_cell(x) for x in r[:4])
+        if not title:
+            continue
+        if level not in ("1", "2", "3"):
+            skipped += 1
+            continue
+        issns = _issns(p_issn, e_issn)
+        if not issns:
+            continue
+        rows[f"ki-jl-{level}"].append(_row(title, issns))
+    print("  ki-jl: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items())
+          + f"; skipped {skipped:,} rows at level 0 / blank")
+    return rows
+
+
+# --- abdc -------------------------------------------------------------------
+# Australian Business Deans Council Journal Quality List. The xlsx link on
+# abdc.edu.au/abdc-journal-quality-list/ carries a version stamp and moves with
+# each revision, so it is resolved from the landing page. Sheet "<year> JQL";
+# ratings A* (top), A, B, C. First list whose top tier is not the highest
+# number; ids keep ABDC's own labels (oxjob #1288). No data licence stated.
+ABDC_PAGE = "https://abdc.edu.au/abdc-journal-quality-list/"
+ABDC_RATINGS = {"A*": "abdc-a-star", "A": "abdc-a", "B": "abdc-b", "C": "abdc-c"}
+
+
+def fetch_abdc():
+    page = _get(ABDC_PAGE)
+    if page[:2] == b"\x1f\x8b":  # abdc.edu.au gzips the HTML whatever we accept
+        page = gzip.decompress(page)
+    page = page.decode("utf-8", "replace")
+    m = re.search(r'https://abdc\.edu\.au/wp-content/uploads/[^"\']+?\.xlsx?', page)
+    if not m:
+        raise SystemExit("abdc: no xlsx link on the landing page")
+    url = m.group(0)
+    print(f"  abdc: {url}")
+    rows_in = _xlsx_rows(_get(url))
+    hdr = next(i for i, r in enumerate(rows_in) if "Journal Title" in [_cell(x) for x in r])
+    cols = [_cell(x) for x in rows_in[hdr]]
+    i_title, i_p, i_e = cols.index("Journal Title"), cols.index("ISSN"), cols.index("ISSNOnline")
+    i_rating = next(i for i, c in enumerate(cols) if c.endswith("rating"))
+    rows, skipped = {v: [] for v in ABDC_RATINGS.values()}, 0
+    for r in rows_in[hdr + 1:]:
+        title = _cell(r[i_title])
+        if not title:
+            continue
+        list_id = ABDC_RATINGS.get(_cell(r[i_rating]).upper())
+        if not list_id:
+            skipped += 1
+            continue
+        issns = _issns(_cell(r[i_p]), _cell(r[i_e]))
+        if not issns:
+            continue
+        rows[list_id].append(_row(title, issns))
+    print("  abdc: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items())
+          + f"; skipped {skipped:,} rows with no A*/A/B/C rating")
+    return rows
+
+
 ADAPTERS = {
+    "ki-jl": lambda today: fetch_ki_jl(),      # grouped: ki-jl-1, ki-jl-2, ki-jl-3
+    "abdc": lambda today: fetch_abdc(),        # grouped: abdc-a-star, abdc-a, abdc-b, abdc-c
     "medline": lambda today: fetch_medline(),
     "norway": fetch_norway,
     "jufo": lambda today: fetch_jufo(),
