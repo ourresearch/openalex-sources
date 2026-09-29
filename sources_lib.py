@@ -390,6 +390,35 @@ def recompute_listed_in(conn):
     """)).rowcount
 
 
+def recompute_is_ojs(conn):
+    """THE single writer of sources.is_ojs (oxjob #1424): any of the source's
+    ISSNs is in ojs_beacon_issn, the PKP Beacon's list of journals seen running
+    Open Journal Systems (loaded by jobs/load_ojs_beacon). Called by that job and
+    the weekly apply_oa_flags (new mints, ISSN moves). Not an OA signal: the
+    legacy ojs_journal.is_oa input to is_oa_high_oa_rate is separate. Returns the
+    number of rows changed.
+
+    Refuses to run (returns 0) while ojs_beacon_issn is empty, so a deploy that
+    lands before the first load can't zero is_ojs everywhere."""
+    if not conn.execute(text("SELECT 1 FROM ojs_beacon_issn LIMIT 1")).first():
+        print("recompute_is_ojs: ojs_beacon_issn is empty; is_ojs left as is", flush=True)
+        return 0
+    return conn.execute(text("""
+        WITH computed AS (
+            SELECT s.id,
+                   EXISTS (SELECT 1 FROM source_issn si
+                           JOIN ojs_beacon_issn b ON b.issn = si.issn
+                           WHERE si.source_id = s.id) AS new_is_ojs
+            FROM sources s
+        )
+        UPDATE sources s
+           SET is_ojs = c.new_is_ojs, updated_date = now()
+          FROM computed c
+         WHERE c.id = s.id
+           AND s.is_ojs IS DISTINCT FROM c.new_is_ojs
+    """)).rowcount
+
+
 def recompute_is_oa(conn):
     """THE single writer of sources.is_oa (= any of the four OA signals).
     Feeds set only their own signal column and call this at the end of the run.

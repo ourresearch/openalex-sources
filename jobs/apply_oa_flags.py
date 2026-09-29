@@ -1,8 +1,10 @@
 """Recompute the OA flags from the imported mapping tables (CreateSources parity):
 
-  is_ojs                  -- any source ISSN in ojs_journal
+  is_ojs                  -- any source ISSN in ojs_beacon_issn (PKP Beacon), via
+                             sources_lib.recompute_is_ojs (oxjob #1424)
   is_oa_high_oa_rate      -- publisher prefix rule (mdpi/academic journals/edorium)
-                             OR is_in_scielo OR an OA OJS match
+                             OR is_in_scielo OR an OA match in the legacy ojs_journal
+                             table (its is_oa column; no longer drives is_ojs)
                              OR the effective high_oa_rate_issn list
   is_fully_open_in_jstage -- a J-STAGE OA window covers the source's whole
                              publication span (source_publication_years snapshot)
@@ -20,7 +22,7 @@ import argparse
 from sqlalchemy import text
 
 from db import engine
-from sources_lib import recompute_is_oa
+from sources_lib import recompute_is_oa, recompute_is_ojs
 
 PUBLISHER_OA_RULE = "^(mdpi|academic journals|edorium journals)"
 
@@ -31,7 +33,6 @@ def run(dry_run=False):
             CREATE TEMP TABLE _oa_flags ON COMMIT DROP AS
             WITH per_source AS (
                 SELECT s.id,
-                       BOOL_OR(oj.issn IS NOT NULL) AS matched_ojs,
                        BOOL_OR(oj.is_oa) AS ojs_is_oa,
                        BOOL_OR(h.issn_l IS NOT NULL) AS hoar_listed,
                        MIN(h.start_year) AS hoar_start,
@@ -49,7 +50,6 @@ def run(dry_run=False):
                 GROUP BY s.id
             )
             SELECT s.id,
-                   COALESCE(ps.matched_ojs, FALSE) AS new_is_ojs,
                    -- curation override (source_oa_override) is the FINAL word,
                    -- with the retired DLT's exact precedence: is_oa beats
                    -- flip_year beats the computed value
@@ -73,8 +73,7 @@ def run(dry_run=False):
 
         changes = conn.execute(text("""
             SELECT COUNT(*) FROM sources s JOIN _oa_flags f ON f.id = s.id
-            WHERE s.is_ojs IS DISTINCT FROM f.new_is_ojs
-               OR s.is_oa_high_oa_rate IS DISTINCT FROM f.new_hoar
+            WHERE s.is_oa_high_oa_rate IS DISTINCT FROM f.new_hoar
                OR (s.high_oa_rate_start_year IS DISTINCT FROM f.new_hoar_start AND f.new_hoar)
                OR s.is_fully_open_in_jstage IS DISTINCT FROM f.new_jstage_full
                OR s.is_oa IS DISTINCT FROM (COALESCE(s.is_in_doaj, FALSE) OR f.new_jstage_full
@@ -84,24 +83,31 @@ def run(dry_run=False):
         print(f"{total} active sources evaluated; {changes} need updates; dry_run={dry_run}",
               flush=True)
         if dry_run:
+            ojs_changes = conn.execute(text("""
+                SELECT COUNT(*) FROM sources s
+                WHERE s.is_ojs IS DISTINCT FROM EXISTS (
+                    SELECT 1 FROM source_issn si
+                    JOIN ojs_beacon_issn b ON b.issn = si.issn
+                    WHERE si.source_id = s.id)
+            """)).scalar()
+            print(f"is_ojs would change on {ojs_changes}", flush=True)
             return
 
         conn.execute(text("""
             UPDATE sources s SET
-                is_ojs = f.new_is_ojs,
                 is_oa_high_oa_rate = f.new_hoar,
                 high_oa_rate_start_year = CASE WHEN f.new_hoar THEN f.new_hoar_start END,
                 is_fully_open_in_jstage = f.new_jstage_full,
                 updated_date = now()
             FROM _oa_flags f
             WHERE f.id = s.id
-              AND (s.is_ojs IS DISTINCT FROM f.new_is_ojs
-                   OR s.is_oa_high_oa_rate IS DISTINCT FROM f.new_hoar
+              AND (s.is_oa_high_oa_rate IS DISTINCT FROM f.new_hoar
                    OR (s.high_oa_rate_start_year IS DISTINCT FROM f.new_hoar_start AND f.new_hoar)
                    OR s.is_fully_open_in_jstage IS DISTINCT FROM f.new_jstage_full)
         """))
         oa = recompute_is_oa(conn)
-    print(f"applied (DONE); is_oa recomputed on {oa}", flush=True)
+        ojs = recompute_is_ojs(conn)
+    print(f"applied (DONE); is_oa recomputed on {oa}; is_ojs on {ojs}", flush=True)
 
 
 def main():
