@@ -33,6 +33,9 @@ BEGIN
   );
   GET DIAGNOSTICS n = ROW_COUNT;
   IF n <> 7 THEN
-    RAISE EXCEPTION '042: expected to flag 7 endpoints, flagged %', n;
+    -- no percent sign anywhere in this file, comments included: migrate.py runs it
+    -- through exec_driver_sql, whose empty parameter dict makes psycopg2 read a
+    -- percent sign as a bind marker (the first 042 release failed on RAISE's placeholder)
+    RAISE EXCEPTION USING MESSAGE = '042: expected to flag 7 endpoints, flagged ' || n;
   END IF;
 END $$;
