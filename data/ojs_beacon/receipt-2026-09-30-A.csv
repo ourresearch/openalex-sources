@@ -1,0 +1,516 @@
+tier,tier_reason,context_name,issns,outcome,source_id,matched_ids,homepage_url,country_code,total_record_count
+A,list,ASIEN: The German Journal on Contemporary Asia,0721-5231;2701-8431,mint,7407065427,,https://hasp.ub.uni-heidelberg.de/journals/asien,DE,4908
+A,list,Germania : Anzeiger der Römisch-Germanischen Kommission des Deutschen Archäologischen Instituts,0016-8874;2364-6004,link_issnless_namesake,4306511399,4306511399,https://journals.ub.uni-heidelberg.de/index.php/germania,DE,4638
+A,list,LACCEI,2414-6390,mint,7407065428,,https://proceedings.laccei.org/index.php/laccei,,3973
+A,list,JURIDISK TIDSKRIFT,1100-7761;2002-3545,link_issnless_namesake,4306516519,4306516519,https://juridisktidskrift.se/index.php/jt,SE,3261
+A,list,Revista Cubana de Pediatría,1561-3119,enrich,2738043998,,https://revpediatria.sld.cu/index.php/ped,CU,2730
+A,list,Svenskt Gudstjänstliv,0280-9133;2001-5828,link_issnless_namesake,4306531408,4306531408,https://journals.lub.lu.se/sgl,SE,2722
+A,list,Statsvetenskaplig tidskrift,2004-0598,held_name_issnless,,4306530869,https://journals.lub.lu.se/st,SE,2464
+A,list,DPCE Online,2037-6677,link_issnless_namesake,4306508389,4306508389,https://www.dpceonline.it/index.php/dpceonline,IT,2327
+A,list,Utopía y Praxis Latinoamericana,1316-5216;2477-9555,mint,7407065429,,https://produccioncientificaluz.org/index.php/utopia,VE,2325
+A,list,VITIS - Journal of Grapevine Research,2367-4156,enrich,109093769,,https://ojs.openagrar.de/index.php/VITIS,DE,2243
+A,list,Kirkehistoriske Samlinger,0450-3171;2795-0050,mint,7407065430,,https://tidsskrift.dk/kirkehistoriskesamlinger,DK,2171
+A,list,EGAN,0422-7328;2794-0454,mint,7407065431,,https://www.rsbap.org/ojs/index.php/egan,ES,1989
+A,list,Agricultural Engineering International: CIGR Journal,1682-1130,mint,7407065432,,https://cigrjournal.org/index.php/Ejounral,CA,1956
+A,list,Mediciego,1029-3035,link_issnless_namesake,4306519537,4306519537,https://revmediciego.sld.cu/index.php/mediciego,CU,1952
+A,list,Trierer Zeitschrift - Archäologie und Kunst des Trierer Landes und seiner Nachbargebiete,0041-2953;2700-869X,link_issnless_namesake,4306533327,4306533327,https://journals.ub.uni-heidelberg.de/index.php/tz,DE,1912
+A,list,Revista CENIC Ciencias Biológicas,0253-5688;2221-2450,link_issnless_namesake,4306526263,4306526263,https://revista.cnic.edu.cu/index.php/RevBiol,CU,1747
+A,list,Cuicuilco Revista de Ciencias Antropológicas,2448-8488;2448-9018,mint,7407065433,,https://revistas.inah.gob.mx/index.php/cuicuilco,MX,1747
+A,list,Zeitschrift für Pastoraltheologie (ZPTh),0555-9308,link_issnless_namesake,4306535626,4306535626,https://www.uni-muenster.de/Ejournals/index.php/zpth,DE,1735
+A,doaj,Moneta e Credito,2037-3651,enrich,2736363726,,https://rosa.uniroma1.it/rosa04/moneta_e_credito,IT,1708
+A,list,Revista de la Asociación Geológica Argentina,0004-4822;1851-8249,link_issnless_namesake,4306526862,4306526862,https://revista.geologica.org.ar/raga,AR,1673
+A,doaj,MEDISAN..,1029-3019,link_issnless_namesake,4306519610,4306519610,https://medisan.sld.cu/index.php/san,CU,1553
+A,list,Estudios Filosóficos,0210-6086;2952-4288,link_issnless_namesake,4306509889,4306509889,https://estudiosfilosoficos.dominicos.org/ojs,ES,1549
+A,list,A Contracorriente: una revista de estudios latinoamericanos,1548-7083,link_issnless_namesake,4306500167,4306500167,https://acontracorriente.chass.ncsu.edu/index.php/acontracorriente,US,1505
+A,doaj,EDUMECENTRO,2077-2874,link_issnless_namesake,4306508897,4306508897,https://revedumecentro.sld.cu/index.php/edumc,CU,1403
+A,doaj,MULTIMED,1028-4818,link_issnless_namesake,4306520338,4306520338,https://revmultimed.sld.cu/index.php/mtm,CU,1396
+A,list,Revista de Filosofía,0798-1171;2477-9598,held_name_issnless,,2736958894;4210213699;4404664365;4220651285,https://produccioncientificaluz.org/index.php/filosofia,VE,1371
+A,list,BioLaw Journal - Rivista di BioDiritto,2284-4503,link_issnless_namesake,4306504386,4306504386,https://teseo.unitn.it/biolaw,IT,1284
+A,list,Theory and Practice of Physical Culture,2409-4234,mint,7407065434,,http://www.tpfk.ru/index.php/TPPC,RU,1260
+A,list,Zeitschrift für Japanisches Recht,1431-5726;2366-7117,link_issnless_namesake,4306535602,4306535602,http://www.zjapanr.de/index.php/zjapanr,DE,1231
+A,list,Estudios del Desarrollo Social: Cuba y América Latina,2308-0132,link_issnless_namesake,4306509871,4306509871,https://revistas.uh.cu/revflacso,CU,1218
+A,list,World History Connected,1931-8642,mint,7407065435,,https://journals.gmu.edu/index.php/whc,US,1198
+A,list,Revista del Archivo Nacional,1409-0279;2215-5600,link_issnless_namesake,4306526907,4306526907,https://www.dgan.go.cr/ran/index.php/RAN,CR,1187
+A,list,Jahrbuch für Christliche Sozialwissenschaften,0075-2584;2196-6265,link_issnless_namesake,4306514795,4306514795,https://www.uni-muenster.de/Ejournals/index.php/jcsw,DE,1140
+A,list,Educación Médica Superior,0864-2141;1561-2902,link_issnless_namesake,4306508794,4306508794,https://ems.sld.cu/index.php/ems,CU,1131
+A,list,Journal for Freedom of Conscience (Jurnalul Libertății de Conștiință),2495-1757,mint,7407065436,,https://jurnal.constiintasilibertate.ro/index.php/freedom,FR,1120
+A,list,Revista de Direito Civil Contemporâneo,2358-1433,mint,7407065437,,https://ojs.direitocivilcontemporaneo.com/index.php/rdcc,BR,1101
+A,list,Lakimies,0023-7353;2953-9919,link_issnless_namesake,4306518027,4306518027,https://journal.fi/lakimies,FI,1094
+A,list,Chiron. Mitteilungen der Kommission für Alte Geschichte und Epigraphik des Deutschen Archäologischen Instituts,0069-3715;2510-5396,mint,7407065438,,https://publications.dainst.org/journals/chiron,DE,1087
+A,list,Revista de Psicanálise da SPPA,1413-4438;2674-919X,link_issnless_namesake,4306527035,4306527035,https://revista.sppa.org.br/RPdaSPPA,BR,1086
+A,list,Journal of East-West Thought (JET) ISSN (O) : 2168-2259 UGC CARE I,2168-2259,mint,7407065439,,https://jetjournal.us/index.php/journals,US,990
+A,list,International journal of economic perspectives,1307-1637,mint,7407065440,,https://ijeponline.com/index.php/journal,TR,988
+A,list,La Clinica Terapeutica,1972-6007,mint_name_twin,7407065441,2485496092,http://www.clinicaterapeutica.it/ojs/index.php/1,IT,978
+A,list,"Revista de Derecho de la Seguridad Social, Laborum",2386-7191;2387-0370,link_issnless_namesake,4306526630,4306526630,https://revista.laborum.es/index.php/revsegsoc,ES,958
+A,list,"JAIIO, Jornadas Argentinas de Informática",2451-7496,mint,7407065442,,https://revistas.unlp.edu.ar/index.php/JAIIO,AR,925
+A,list,Sprog i Norden,0108-8270;2246-1701,held_name_issnless,,4306530797,http://www.soundeffects.dk/index.php/sin,DK,909
+A,list,Artifara,1594-378X,mint,7407065443,,https://www.ojs.unito.it/index.php/artifara,IT,900
+A,list,Relaciones Laborales y Derecho del Empleo,2282-2313,mint,7407065444,,https://ejcls.adapt.it/index.php/rlde_adapt,IT,896
+A,list,Journal of American Studies of Turkey,1300-6606,link_issnless_namesake,4306515313,4306515313,http://www.jast.org.tr/index.php/main,TR,896
+A,list,Universidad & ciencia,2227-2690,held_name_issnless,,4306533782;4306533783,https://revistas.unica.cu/index.php/uciencia,CU,881
+A,doaj,Contexto - Revista do Programa de Pós-Graduação em Letras da UFES,1519-0544;2358-9566,link_issnless_namesake,4306507002,4306507002,https://periodicos.ufes.br/contexto,BR,875
+A,list,Quartär – Internationales Jahrbuch zur Erforschung des Eiszeitalters und der Steinzeit,0375-7471;2749-9995,mint,7407065445,,https://journals.ub.uni-heidelberg.de/index.php/qu,DE,870
+A,list,Revista de Estudios Hispánicos,0378-7974;2638-471X,mint_name_twin,7407065446,165397776,https://revistas.upr.edu/index.php/reh,US,835
+A,list,Revista Interacções,1646-2335,link_issnless_namesake,4306527528,4306527528,https://revistas.rcaap.pt/interaccoes,PT,833
+A,list,Contextos: Estudios de Humanidades y Ciencias Sociales,0717-7828;0719-1014,link_issnless_namesake,4306507006,4306507006,https://revistas.umce.cl/index.php/contextos,CL,823
+A,list,Varona,0864-196X;1992-8238,link_issnless_namesake,4306534057,4306534057,http://revistas.ucpejv.edu.cu/index.php/rVar,CU,794
+A,list,Revista Cubana de Tecnología de la Salud,2218-6719,link_issnless_namesake,4306526479,4306526479,https://revtecnologia.sld.cu/index.php/tec,CU,782
+A,list,Agrotecnia de Cuba,0568-3114;2414-4673,link_issnless_namesake,4306501044,4306501044,https://agrotecnia.edicionescervantes.com/index.php/agrotecnia,CU,781
+A,list,Boletín del Centro de Estudios «Pedro Suárez»,1887-1747;2695-9194,mint,7407065447,,http://boletin.cepedrosuarez.es/index.php/CEPS,ES,779
+A,list,Qualitative and Quantitative Methods in Libraries,2241-1925,link_issnless_namesake,4306525171,4306525171,https://www.qqml-journal.net/index.php/qqml,GR,766
+A,list,Studia Pastoralne,1734-4433;2956-624X,link_issnless_namesake,4306531082,4306531082,https://journals.us.edu.pl/index.php/sp,PL,748
+A,list,Tecnologí­a Química,0041-8420;2224-6185,link_issnless_namesake,4306531719,4306531719,https://tecnologiaquimica.uo.edu.cu/index.php/tq,CU,746
+A,list,Journal of Power Technologies,2083-4187;2083-4195,mint,7407065448,,https://papers.itc.pw.edu.pl/index.php/JPT,PL,743
+A,list,Revista Temas de Coyuntura,2244-8632,link_issnless_namesake,4306527979,4306527979,https://revistasenlinea.saber.ucab.edu.ve/index.php/temasdecoyuntura,VE,743
+A,list,Anais do Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC),2177-9384,mint,7407065449,,https://sol.sbc.org.br/index.php/sbrc,BR,738
+A,list,MPG Journal,2171-9020,mint,7407065450,,https://mpgjournal.mpg.es/index.php/journal,ES,733
+A,list,il Nome nel testo,1591-7622;2282-5649,link_issnless_namesake,4306513017,4306513017,https://innt.it/innt,IT,730
+A,list,AIGIS,1901-6859,mint,7407065451,,http://www.dengamlebyaarbog.dk/index.php/aigis,DK,728
+A,list,RiMe. Rivista dell'Istituto di Storia dell'Europa Mediterranea (ISSN 2035-794X),2035-794X,link_issnless_namesake,4306528550,4306528550,https://rime.cnr.it/index.php/rime,IT,728
+A,list,Quaderni Lupiensi di Storia e Diritto,2240-2772,link_issnless_namesake,4363607543,4363607543,https://ese-journals.unisalento.it/index.php/quadernilupiensi,IT,711
+A,list,REVISTA UNIARAGUAIA,2676-0436,link_issnless_namesake,4306528018,4306528018,https://sipe.uniaraguaia.edu.br/index.php/revistauniaraguaia,BR,708
+A,doaj,INDIANA - Estudios Antropológicos sobre América Latina y el Caribe,0341-8642;2365-2225,mint,7407065452,,https://journals.iai.spk-berlin.de/index.php/indiana,DE,708
+A,list,Revista de Educação do Vale do São Francisco,2177-8183,mint,7407065453,,https://periodicos.univasf.edu.br/index.php/revasf,BR,700
+A,list,Çocuk Sağlığı ve Hastalıkları Dergisi,0010-0161,mint,7407065454,,https://cshd.org.tr/index.php/cshd,TR,693
+A,doaj,Civilistica.com,2316-8374,link_issnless_namesake,2739453174,2739453174;7407055459,https://civilistica.emnuvens.com.br/redc,BR,683
+A,list,OWL Journal,2965-2634,mint,7407065455,,https://revistaowl.com.br/index.php/owl,BR,676
+A,list,John Donne Journal: Studies in the Age of Donne,0738-9655;3071-3323,mint,7407065456,,https://jdj.journals.usask.ca/index.php/JDJ,CA,651
+A,list,Bericht der Römisch-Germanischen Kommission,0341-9312;2364-6012,held_name_issnless,,4306504159,https://journals.ub.uni-heidelberg.de/index.php/berrgk,DE,641
+A,list,Universidad de La Habana,0253-9276;2708-5511,link_issnless_namesake,4306533791,4306533791,https://revistas.uh.cu/revuh,CU,640
+A,doaj,Colloquium,2081-3813;2658-0365,held_same_host_other_issns,,4210234180,https://colloquium.amw.gdynia.pl/index.php/colloquium,PL,636
+A,list,"NJINGA e SEPÉ: Revista Internacional de Culturas, Línguas Africanas e Brasileiras (ISSN: 2764-1244)",2764-1244,mint,7407065457,,https://revistas.unilab.edu.br/index.php/njingaesape,BR,635
+A,list,BrewingScience,1613-2041,mint,7407065458,,https://brewingscience.de/index.php/brewingscience,DE,623
+A,list,The International tax journal,0097-7314;3066-2370,mint,7407065459,,https://internationaltaxjournal.online/index.php/itj,US,620
+A,list,Revista do Instituto Histórico e Geográfico do Rio Grande do Sul,1678-3484;2595-7031,link_issnless_namesake,4306527138,4306527138,https://seer.ufrgs.br/index.php/revistaihgrgs,BR,608
+A,list,Funde und Ausgrabungen im Bezirk Trier,0723-8630;2628-9032,mint,7407065460,,https://journals.ub.uni-heidelberg.de/index.php/fuabt,DE,604
+A,list,Revista Sexología y Sociedad,1682-0045,link_issnless_namesake,4306527944,4306527944,https://revsexologiaysociedad.sld.cu/index.php/sexologiaysociedad,CU,600
+A,list,Reseñas CeLeHis,2362-5031,mint,7407065461,,https://fh.mdp.edu.ar/revistas/index.php/rescelehis,AR,588
+A,doaj,Revista 16 de abril,1729-6935,enrich,21116477,,https://rev16deabril.sld.cu/index.php/16_04,CU,583
+A,list,Políticas Educativas – PolEd,1982-3207,link_issnless_namesake,4306522751,4306522751,https://seer.ufrgs.br/index.php/Poled,BR,575
+A,list,COFIN Habana,2073-6061,link_issnless_namesake,4306506517,4306506517,https://revistas.uh.cu/cofinhab,CU,561
+A,list,Przegląd Religioznawczy – The Religious Studies Review,1230-4379;2658-1531,mint,7407065462,,https://journal.ptr.edu.pl/index.php/ptr,PL,559
+A,list,INCIPIT,0326-0941;2683-9199,link_issnless_namesake,4306513085,4306513085,https://ojs.iibicrit-conicet.gob.ar/index.php/incipit,AR,543
+A,list,Jordan Journal of Mathematics and Statistics,2075-7905;2227-5487,mint,7407065463,,https://jjms.yu.edu.jo/index.php/jjms,JO,543
+A,doaj,diségno,2533-2899,mint_name_twin,7407065464,4210180804,https://disegno.unioneitalianadisegno.it/index.php/disegno,IT,540
+A,list,Desde la patagonia. Difundiendo saberes,1668-8848;2618-5385,mint,7407065465,,https://revele.uncoma.edu.ar/index.php/desdelapatagonia,AR,538
+A,list,Constelaciones. Revista de Teoría Crítica,2172-9506,link_issnless_namesake,4306506942,4306506942,https://revistas.proeditio.com/constelaciones-rtc,ES,536
+A,list,Proceedings in Food System Dynamics,2194-511X,link_issnless_namesake,4306523355,4306523355,http://centmapress.ilb.uni-bonn.de/ojs/index.php/proceedings,DE,534
+A,list,"Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",0899-8620,link_issnless_namesake,2764996642,2764996642,https://www.jcsdcb.com/index.php/JCSDCB,US,534
+A,list,Revista Peruana de Derecho Constitucional,2222-0615;2664-2719,mint,7407065466,,https://revista.tc.gob.pe/index.php/revista,PE,532
+A,list,Αναζητήσεις στη Φυσική Αγωγή και τον Αθλητισμό,1790-3041,mint,7407065467,,https://journals.lib.uth.gr/index.php/inquiries,GR,524
+A,list,Revista dos Estudantes de Direito da Universidade de Brasília,1981-9684;2177-6458,link_issnless_namesake,4306527147,4306527147,https://periodicos.unb.br/index.php/redunb,BR,521
+A,list,Vida y Pensamiento,1019-6366;2215-602X,mint,7407065468,,https://revistas.ubl.ac.cr/index.php/vyp,CR,519
+A,list,Journal of Economic Insight,2572-7362;2639-6858,mint,7407065469,,https://journalofeconomicinsight.com/index.php/joei,US,515
+A,list,Quadrante,2183-2838,link_issnless_namesake,4306525162,4306525162,https://quadrante.apm.pt/index.php/quadrante,PT,510
+A,list,Revista Científica CIENCIAEDUC,2610-816X,mint,7407065470,,https://saber.unerg.edu.ve/index.php/cienciaeduc,VE,510
+A,list,Acta Médica,0864-3210;1561-3186,mint_name_twin,7407065471,2739287285,https://revactamedica.sld.cu/index.php/act,CU,504
+A,list,Revista Cubana de Urología,2305-7939,link_issnless_namesake,4306526480,4306526480,https://revurologia.sld.cu/index.php/rcu,CU,504
+A,list,Myśl Ekonomiczna i Polityczna,2081-5913;2545-0964,link_issnless_namesake,4306520419,4306520419,https://ojs.lazarski.pl/mysl,PL,500
+A,list,Acta Mathematica Universitatis Comenianae,0862-9544,link_issnless_namesake,4306500375,4306500375,http://www.iam.fmph.uniba.sk/amuc/ojs/index.php/amuc,SK,500
+A,list,Cuadernos de Educación,1515-3959;2344-9152,mint,7407065472,,https://revistas.unc.edu.ar/index.php/Cuadernos,AR,497
+A,list,Românica,0872-5675,link_issnless_namesake,4306528802,4306528802;4210207395,http://romanica.letras.ulisboa.pt/revista/index.php/romanica,PT,485
+A,list,Aportes. Revista de Historia Contemporánea,0213-5868;2386-4850,link_issnless_namesake,4306502601,4306502601,https://www.revistaaportes.com/index.php/aportes,ES,479
+A,list,Proceedings of the Seminar for Arabian Studies,0308-8421,mint,7407065473,,https://archaeopresspublishing.com/ojs/index.php/PSAS,GB,478
+A,list,Status Quaestionis,2239-1983,link_issnless_namesake,4306530871,4306530871,https://rosa.uniroma1.it/rosa03/status_quaestionis,IT,477
+A,list,Paradigmes,2602-7933;2716-9022,link_issnless_namesake,4306522032,4306522032,https://journals.univ-ouargla.dz/index.php/Paradigmes,DZ,469
+A,list,Papers on Social Representations,1021-5573;1819-3978,link_issnless_namesake,4306522015,4306522015,http://psr.iscte-iul.pt/index.php/PSR,AT,465
+A,list,International Journal of Contemporary Economics and Administrative Sciences,1925-4423,link_issnless_namesake,4306513928,4306513928,https://www.ijceas.com/index.php/ijceas,CA,458
+A,list,"HISTORY, ARCHAEOLOGY, ETHNOLOGY",2449-285X,mint,7407065474,,http://sciencejournals.ge/index.php/HAE,US,455
+A,list,HannahArendt.net,1869-5787,link_issnless_namesake,4306511906,4306511906,https://www.hannaharendt.net/index.php/han,,454
+A,list,Kairós,1807-5096;2357-9420,held_name_issnless,,7407058667;4306517240;131049158;4210171783;4210218713;4306517244;4210201939,https://ojs.catolicadefortaleza.edu.br/index.php/kairos,BR,452
+A,list,E- Revista de Estudos Interculturais,2182-6439,link_issnless_namesake,4306509671,4306509671,https://parc.ipp.pt/index.php/e-rei,PT,451
+A,list,Temp - tidsskrift for historie,1904-5565;1904-9587,link_issnless_namesake,4306531812,4306531812,https://tidsskrift.dk/temp,DK,440
+A,doaj,Entretextos,0123-9333;2805-6159,mint_name_twin,7407065475,4210169478,https://revistas.uniguajira.edu.co/rev/index.php/entre,CO,437
+A,list,ChemSearch Journal,2276-707X;2384-6208,mint,7407065476,,https://www.ajol.info/index.php/csj,NG,436
+A,doaj,"Clío. Revista de Historia, Ciencias Humanas y Pensamiento Crítico.",2660-9037,mint,7407065477,,https://ojs.revistaclio.es/index.php/edicionesclio,ES,435
+A,list,Revista Referencia Pedagógica,2308-3042,link_issnless_namesake,4306527898,4306527898,https://rrp.cujae.edu.cu/index.php/rrp,CU,433
+A,list,Acta Radiológica Portuguesa,2183-1351;2976-0763,link_issnless_namesake,4306500492,4306500492,https://revistas.rcaap.pt/actaradiologica,PT,430
+A,list,Conexiones,2591-3344,link_issnless_namesake,4306506804,4306506804,https://ojs.ucp.edu.ar/index.php/conexiones,AR,429
+A,list,Nauki Ekonomiczne,2719-4175;2719-5368,mint,7407065478,,https://czasopismanaukowe.mazowiecka.edu.pl/t/index.php/ne,PL,425
+A,list,ENTOMOTROPICA,1317-5262;2443-437X,mint,7407065479,,https://saber.ucv.ve/ojs/index.php/rev_ento,VE,425
+A,list,Ciencia Agropecuaria,0258-6452;2414-3278,link_issnless_namesake,4306506224,4306506224,http://www.revistacienciaagropecuaria.ac.pa/index.php/ciencia-agropecuaria,PA,421
+A,list,Boletín Academia Nacional de Historia,1390-079X;2773-7381,link_issnless_namesake,4306504619,4306504619,https://academiahistoria.ec/index.php/boletinesANHE,EC,420
+A,list,Journal of North African Economies,1112-6132;2588-1930,mint,7407065480,,https://journals.univ-chlef.dz/index.php/renaf,DZ,416
+A,list,Arrancada,1729-3693;1810-5882,held_name_issnless,,4306503116,https://revistarrancada.cujae.edu.cu/index.php/arrancada,CU,416
+A,list,Quaderns Agraris,2013-9780,link_issnless_namesake,4306525133,4306525133,https://revistes.iec.cat/index.php/QA,ES,416
+A,list,Revista Cubana de Ortopedia y Traumatologí­a,0864-215X;1561-3100,held_name_issnless,,4306526471,https://revortopedia.sld.cu/index.php/revortopedia,CU,414
+A,list,Revista Pertinencia Académica. ISSN 2588-1019,2588-1019,link_issnless_namesake,4306527826,4306527826,https://revistas.utb.edu.ec/index.php/rpa,EC,414
+A,list,Boletim do Gerenciamento,2595-6531,link_issnless_namesake,4306504598,4306504598,https://nppg.org.br/revistas/boletimdogerenciamento,BR,412
+A,list,Diálogos,0012-2122;2693-9339,mint_name_twin,7407065481,4210236766;4210211337;4210212152,https://revistas.upr.edu/index.php/dialogos,US,412
+A,list,PolHis. Revista Bibliográfica del Programa Interuniversitario de Historia Política,1853-7723,link_issnless_namesake,4306522705,4306522705,https://polhis.com.ar/index.php/polhis,AR,404
+A,list,Esporte e Sociedade,1809-1296,link_issnless_namesake,4306509798,4306509798,https://periodicos.uff.br/index.php/esportesociedade,BR,403
+A,list,Cultural Logic: A Journal of Marxist Theory & Practice,1097-3087,link_issnless_namesake,4306507420,4306507420,https://ojs.library.ubc.ca/index.php/clogic,US,403
+A,list,Horizonte Pedagógico,2310-3647,mint,7407065482,,http://www.horizontepedagogico.cu/index.php/hop,CU,402
+A,list,Journal of Language and Culture,0125-6424;2697-4606,mint,7407065483,,https://so03.tci-thaijo.org/index.php/JLC,TH,402
+A,list,Romanian Private Law Magazine,1843-2646,mint,7407065484,,https://rrdp.universuljuridic.ro/index.php/journal,RO,398
+A,list,Alcance,2411-9970,link_issnless_namesake,4306501334,4306501334,https://revistas.uh.cu/alcance,CU,388
+A,list,Dionysius,0705-1085,link_issnless_namesake,4306508068,4306508068,https://ojs.library.dal.ca/dionysius,CA,385
+A,list,"Catalejos. Revista sobre lectura, formación de lectores y literatura para niños",2525-0493,link_issnless_namesake,4306505748,4306505748,https://fh.mdp.edu.ar/revistas/index.php/catalejos,AR,382
+A,list,Revista UGC,2448-8097,mint,7407065485,,https://universidadugc.edu.mx/ojs/index.php/rugc,MX,376
+A,list,Revista Mapa,2602-8441,mint,7407065486,,https://www.revistamapa.org/index.php/es,EC,371
+A,doaj,Rosmini Studies,2385-216X,link_issnless_namesake,4306528822,4306528822,https://teseo.unitn.it/rosministudies,IT,371
+A,list,Oikeustiede-Jurisprudentia,0355-8215;2954-3185,mint,7407065487,,https://journal.fi/oikeustiede-jurisprudentia,FI,369
+A,doaj,Revista Enfoques: Ciencia Política y Administración Pública,0718-9656,link_issnless_namesake,4306527253,4306527253,https://www.revistaenfoques.cl/index.php/revista-uno,CL,365
+A,list,Revista de Estudios Latinos,1578-7486;2255-5056,mint,7407065488,,https://recyt.fecyt.es/index.php/rel,ES,365
+A,list,Cub@: Medio Ambiente y Desarrollo,1683-8904,mint,7407065489,,https://cmad.ama.cu/index.php/cmad,CU,358
+A,list,Nigerian Journal of Pharmaceutical and Applied Science Research,2971-737X;2971-7388,mint,7407065490,,https://www.nijophasr.net/index.php/nijophasr,NG,357
+A,list,The Sankalpa: International Journal of Management Decisions,2454-7425,mint,7407065491,,https://thesankalpa.org/ijmd,IN,355
+A,list,Trópos. Rivista di ermeneutica e critica filosofica,2036-542X,mint,7407065492,,https://www.ojs.unito.it/index.php/tropos,IT,352
+A,list,Usuteaduslik Ajakiri,1406-6564,mint,7407065493,,https://ojs.utlib.ee/index.php/UA,EE,350
+A,doaj,Humanities,2240-7715,mint_name_twin,7407065494,4210196516,https://riviste.unime.it/index.php/hum,IT,343
+A,list,Ágora UNLaR,2545-6024,link_issnless_namesake,4306500936,4306500936,https://revistaelectronica.unlar.edu.ar/index.php/agoraunlar,AR,339
+A,list,Revista Científica de la Facultad de Filosofía,2414-8717,mint,7407065495,,https://revistascientificas.una.py/index.php/rcff,PY,339
+A,list,RevIISE - Revista de Ciencias Sociales y Humanas,2250-5555,enrich,2739087490,,https://ojs.unsj.edu.ar/index.php/reviise,AR,338
+A,list,NASCER E CRESCER - BIRTH AND GROWTH MEDICAL JOURNAL,3051-7508,mint,7407065496,,https://revistas.rcaap.pt/bgmj,PT,338
+A,list,Perspectivas,2343-6271;2739-0004,held_name_issnless,,4306522323;4210190409;4210196964;4387282870;4393915076;4387286669;4210203031,https://perspectivas.unermb.web.ve/index.php/Perspectivas,VE,338
+A,list,Aegaeum,0776-3808,mint,7407065497,,https://royaljms.com/index.php/aegaeum,BE,337
+A,list,Realidad Económica,0325-1926;2618-1711,mint,7407065498,,https://ojs.iade.org.ar/index.php/re,AR,336
+A,list,International Gramsci Journal,1836-6554,held_name_issnless,,4306513872,https://journals.uniurb.it/index.php/igj,AU,336
+A,list,Cardinalis,2346-8734,link_issnless_namesake,4306505676,4306505676,https://revistas.unc.edu.ar/index.php/cardi,AR,333
+A,list,PHILOLOGICAL RESEARCHES,2667-9612,mint,7407065499,,http://sciencejournals.ge/index.php/NJ,US,329
+A,list,Ecolinguística: Revista brasileira de ecologia e linguagem (ECO-REBEL),2447-7052,link_issnless_namesake,4306508611,4306508611,https://periodicos.unb.br/index.php/erbel,BR,326
+A,list,Herregårdshistorie,2597-064X;2597-0658,mint,7407065500,,https://tidsskrift.dk/herhist,DK,326
+A,list,Free Associations,2047-0622,link_issnless_namesake,4306510894,4306510894,https://freeassociations.org.uk/FA_New/OJS/index.php/fa,GB,324
+A,list,Revista Costarricense de Trabajo Social,1409-1763;2215-5120,link_issnless_namesake,4306526403,4306526403,https://revista.trabajosocial.or.cr/index.php/revista,CR,323
+A,doaj,Actualidad Económica,0327-585X;2250-754X,held_name_issnless,,2736461717,https://revistas.unc.edu.ar/index.php/acteconomica,AR,322
+A,list,Revista del Instituto Español de Estudios Estratégicos,2255-3479,link_issnless_namesake,4306526977,4306526977,https://revista.ieee.es/revistaieee,ES,322
+A,doaj,Revista Psicología,1316-0923;2957-7063,link_issnless_namesake,4306527883,4306527883,https://saber.ucv.ve/ojs/index.php/rev_ps,VE,313
+A,list,Skenè. Journal of Theatre and Drama Studies,2421-4353,link_issnless_namesake,4306530105,4306530105,https://skenejournal.skeneproject.it/index.php/JTDS,IT,311
+A,list,`Cadernos de Pós-Graduação em Direito Político e Econômico,1678-2127,mint,7407065501,,https://ceapress.org/index.php/cpgdpe,BR,306
+A,list,AIS/Design. Storia e Ricerche,2281-7603,mint,7407065502,,https://www.aisdesign.org/ser/index.php/SeR,IT,303
+A,list,Parcours et Initiatives : Revue interdisciplinaire du Graben (PIRIG),3008-1211;3008-122X,mint,7407065503,,https://www.crigpug-ucg.org/index.php/pirig,CD,299
+A,list,Civil Procedure Review,2191-1339,mint,7407065504,,https://www.civilprocedurereview.com/revista,DE,299
+A,list,"Journal of Behavior, Health & Social Issues",2007-0772,mint_name_twin,7407065505,4210231738,https://revistas.unam.mx/index.php/jbhsi,MX,297
+A,list,Revista Latinoamericana de Políticas y Administración de la Educación,2408-4573,mint,7407065506,,https://revistas.untref.edu.ar/index.php/relapae,AR,295
+A,list,"Revista Crítica de Relaciones de Trabajo, Laborum",2792-7962;2792-7970,mint,7407065507,,https://revista.laborum.es/index.php/revreltra,ES,295
+A,list,metaphorik.de,1618-2006;1865-0716,mint,7407065508,,https://journals.uni-due.de/metaphorik,DE,294
+A,list,Nuova Rivista di Letteratura Italiana,1590-7929,link_issnless_namesake,4306521212,4306521212,https://nrli.it/index.php/nrli,IT,294
+A,doaj,VacciMonitor,1025-0298,enrich,2736920902,,https://vaccimonitor.finlay.edu.cu/index.php/vaccimonitor,CU,293
+A,list,Ethnologia Slovaca et Slavica,1335-4116;2989-3399,mint,7407065509,,https://ojs.uniba.sk/eses,SK,293
+A,list,Ítaca: Quaderns Catalans de Cultura Clàssica,0213-6643;2013-9519,link_issnless_namesake,4306514587,4306514587,https://revistes.iec.cat/index.php/ITACA,ES,293
+A,list,Revista Espaço Livre,2316-3011,mint,7407065510,,https://redelp.net/index.php/rel,BR,291
+A,list,AIDAinformazioni,1121-0095;1594-2201,mint,7407065511,,https://www.aidainformazioni.it/index.php/aidainformazioni,IT,290
+A,list,Argonautas. Revista de Educación y Ciencias Sociales,1853-9092,mint,7407065512,,https://fchportaldigital.unsl.edu.ar/index.php/argonautas,AR,288
+A,list,AGER. Revista de Estudios sobre Despoblación y Desarrollo Rural,2340-4655,mint,7407065513,,https://recyt.fecyt.es/index.php/AGER,ES,287
+A,list,El jardín de los poetas,2469-2131,link_issnless_namesake,4306509181,4306509181,https://fh.mdp.edu.ar/revistas/index.php/eljardindelospoetas,AR,284
+A,list,e-JIREF,1374-1217;2593-7871,mint,7407065514,,https://journal.admee.org/index.php/ejiref,BE,281
+A,list,Nigerian Journal of Social Psychology,2682-6143;2682-6151,mint,7407065515,,https://nigerianjsp.com/index.php/NJSP,NG,280
+A,list,International Insurance Law Review,0968-2090,mint,7407065516,,https://lumarpub.com/iilr,GB,280
+A,list,Anabasis. Studia Classica et Orientalia,2082-8993;3072-452X,mint,7407065517,,https://journals.ur.edu.pl/index.php/anabasis,PL,265
+A,list,Journal of Tax Administration,2059-190X,mint,7407065518,,http://jota.website/index.php/JoTA,GB,264
+A,list,Revista de Lengua y Literatura,0327-1951;2408-4646,link_issnless_namesake,4306526963,4306526963,https://revele.uncoma.edu.ar/index.php/letras,AR,263
+A,list,Restitution Law Review,1351-170X,mint,7407065519,,https://restitutionlawreview.co.uk/index.php/rlr,GB,263
+A,list,The Journal of Accounting and Management,2284-9459;2392-8778,held_name_issnless,,2764523894;5407051016,https://dj.univ-danubius.ro/index.php/JAM,RO,261
+A,list,Humanities Bulletin,2517-4266,mint,7407065520,,https://journals.lapub.co.uk/index.php/HB,GB,260
+A,list,Literary Geographies,2397-1797,link_issnless_namesake,4306518786,4306518786,https://www.literarygeographies.net/index.php/LitGeogs,GB,259
+A,list,Sociedad y religión,1853-7081,link_issnless_namesake,4306530307,4306530307,https://ojs.ceil-conicet.gov.ar/index.php/sociedadyreligion,AR,257
+A,list,Población de Buenos Aires,1668-5458;2953-3538,link_issnless_namesake,4306522663,4306522663,https://revista.estadisticaciudad.gob.ar/ojs/index.php/poblacionba,AR,257
+A,list,Annali - Sezione Romanza,0547-2121,mint,7407065521,,http://www.serena.unina.it/index.php/aionromanza,IT,257
+A,list,Bannu University Research Journal in Islamic Studies,2411-4332;2790-6493,mint,7407065522,,https://burjis.com/index.php/burjis,PK,257
+A,list,Revista Ciências e Odontologia,2527-0214,mint,7407065523,,http://revistas.icesp.br/index.php/RCO,BR,255
+A,list,Visions for Sustainability,2384-8677,mint,7407065524,,https://www.ojs.unito.it/index.php/visions,IT,255
+A,list,SCIENTIA MORALITAS - International Journal of Multidisciplinary Research,2472-5331;2472-5358,mint,7407065525,,https://scientiamoralitas.com/index.php/sm,US,255
+A,list,"SigMa - Rivista di Letterature comparate, Teatro e Arti dello spettacolo",2611-3309,link_issnless_namesake,4306529969,4306529969,http://www.serena.unina.it/index.php/sigma,IT,254
+A,list,Torun Business Review,1643-8175;2451-0955,link_issnless_namesake,4306533073,4306533073,http://tbr.wsb.torun.pl/index.php/journal,PL,251
+A,list,Visión Doble: Revista de Crítica e Historia del Arte,2375-1118,mint,7407065526,,https://revistas.upr.edu/index.php/visiondoble,US,251
+A,list,EFEI (Educación Física Experiencias e Investigaciones),1852-9372,mint,7407065527,,https://revele.uncoma.edu.ar/index.php/revistaefei,AR,250
+A,list,Educación en la Química,0327-3504;2344-9683,mint,7407065528,,https://educacionenquimica.com.ar/index.php/edenlaq,AR,248
+A,doaj,Studies of Transition States and Societies,1736-8758,enrich,2737066023,,https://publications.tlulib.ee/index.php/stss,EE,242
+A,list,Energías Renovables y Medio Ambiente,0328-932X;2684-0073,link_issnless_namesake,4306509419,4306509419,https://portalderevistas.unsa.edu.ar/index.php/erma,AR,240
+A,list,Faculdade Sant'Ana em Revista,2526-8023,mint,7407065529,,https://www.iessa.edu.br/revista/index.php/fsr,BR,240
+A,list,INNOVA UNTREF. Revista Argentina de Ciencia y Tecnología,2618-1894,mint,7407065530,,https://revistas.untref.edu.ar/index.php/innova,AR,237
+A,list,In Itinere,1853-5585,link_issnless_namesake,4306513378,4306513378,https://revistas.ufasta.edu.ar/index.php/initinere,AR,237
+A,list,Teoria. Rivista di filosofia,1122-1259,mint,7407065531,,https://www.rivistateoria.eu/index.php/teoria,IT,237
+A,list,Ratio Iuris. Revista de Derecho ISSN: 2347-0151,2347-0151,mint,7407065532,,https://publicacionescientificas.uces.edu.ar/index.php/ratioiurisB,AR,236
+A,list,Revista de la Escuela de Perfeccionamiento en Investigación Operativa,0329-7322;1853-9777,mint,7407065533,,https://revistas.unc.edu.ar/index.php/epio,AR,236
+A,list,Matemática,1390-3802;2661-6890,link_issnless_namesake,4306519275,4306519275,https://www.revistas.espol.edu.ec/index.php/matematica,EC,229
+A,list,Argentinian Journal of Applied Linguistics - ISSN 2314-3576,2314-3576,mint,7407065534,,https://ajal.faapi.org.ar/ojs-3.3.0-5/index.php/AJAL,AR,225
+A,list,Pest Managment Journal of Ethiopia,1028-0308;2958-941X,mint,7407065535,,https://www.ppseonlinejournals.org.et/index.php/PMJE,ET,225
+A,list,PER LEGGERE,1593-4861;2279-7513,link_issnless_namesake,4306522308,4306522308,https://ojs.pensamultimedia.it/index.php/pl,IT,224
+A,list,Aesthetica Preprint,0393-8522,mint,7407065536,,https://mimesisjournals-com.archicoop.it/index.php/aesthetica-preprint,IT,223
+A,list,Revista de Comunicação e Linguagens,2183-7198,mint,7407065537,,https://revistas.fcsh.unl.pt/rcl,PT,223
+A,list,REVUE AFRICAINE DE MANAGEMENT,2509-0097,held_same_host_other_issns,,4306528110,https://revues.imist.ma/index.php/RAM,MA,222
+A,list,Revista Jurídica del Trabajo,2697-3170,mint,7407065538,,https://revistajuridicadeltrabajo.com/index.php/rjt,UY,218
+A,list,Rivista Europea,2499-6394,mint,7407065539,,https://rivistaeuropea.it/index.php/rivistaeuropea,IT,217
+A,list,The Asian Journal of Applied Linguistics,2308-6262,mint,7407065540,,https://caes.hku.hk/ajal/index.php/ajal,CN,214
+A,list,Revista Científica Interdisciplinaria Investigación y Saberes,1390-8146,mint,7407065541,,http://revistasdigitales.utelvt.edu.ec/revista/index.php/investigacion_y_saberes,EC,214
+A,list,Revista argentina de historiografía lingüística,1852-1495,mint,7407065542,,https://www.rahl.ar/index.php/rahl,AR,213
+A,list,gamevironments,2364-382X,mint,7407065543,,https://journals.suub.uni-bremen.de/index.php/gamevironments,DE,211
+A,list,TAMID. Revista Catalana Anual d’Estudis Hebraics,1138-5561;2013-4029,link_issnless_namesake,4306531552,4306531552,https://revistes.iec.cat/index.php/tamid,ES,211
+A,list,LANGUAGE ART,2476-6526;2538-2713,mint_name_twin_not_journal,7407065544,4306400054,https://languageart.ir/index.php/LA,IR,210
+A,list,Paideia,1904-9633;2794-7165,mint_name_twin,7407065545,4404664057;4210180256;4210230893,https://tidsskrift.dk/Paideia,DK,209
+A,list,Revista Galega de Dereito Social,1696-3083,mint,7407065546,,http://revistagalegadedereitosocial.gal/index.php/RGDS,ES,209
+A,list,Ankulegi. Revista de Antropología Social,1138-347X;2444-5703,mint,7407065547,,https://aldizkaria.ankulegi.org/index.php/ankulegi,ES,209
+A,list,Revista Diarios del Terruño,2448-6876,mint,7407065548,,https://diariosdelterruno.cua.uam.mx/index.php/revista,MX,206
+A,list,Revista Diálogos | Estudos da Linguagem,2319-0825,mint,7407065549,,https://periodicos.upe.br/index.php/revdia,BR,205
+A,list,Revista Argentina de Investigación Narrativa,2718-7519,mint,7407065550,,https://fh.mdp.edu.ar/revistas/index.php/rain,AR,203
+A,list,International Journal of Innovative Technology and Interdisciplinary Sciences,2613-7305,mint,7407065551,,http://journals.tultech.eu/index.php/ijitis,EE,201
+A,list,მაცნე - PROCEEDING,0132-6058;2720-8214,mint,7407065552,,http://macne.org.ge/index.php/macne,US,201
+A,list,Ökumenische Rundschau,0029-8654,link_issnless_namesake,4306521430,4306521430,https://luthk.de/ojs/index.php/oekr,DE,200
+A,doaj,Kritika: časopis za filozofiju i teoriju društva,2683-5959,mint,7407065553,,https://kritika.ifdt.bg.ac.rs/index.php/kc,RS,200
+A,doaj,Pädagogische Horizonte,2523-2916;2523-5656,link_issnless_namesake,4306521885,4306521885,https://paedagogische-horizonte.at/index.php/ph,AT,199
+A,list,Revista Themis,1584-9783,mint,7407065554,,https://inmthemis.universuljuridic.ro/index.php/themis,RO,199
+A,list,Acceso. Revista Puertorriqueña de Bibliotecología y Documentación,1536-1772;2690-0270,mint,7407065555,,https://revistas.upr.edu/index.php/acceso,US,199
+A,doaj,Journal of BioScience and Biotechnology,1314-6246,enrich,2737891808,,https://editorial.uni-plovdiv.bg/index.php/JBB,BG,198
+A,list,Kansantaloudellinen aikakauskirja,0022-8427;2343-063X,link_issnless_namesake,4363605868,4363605868,https://journal.fi/kak,FI,198
+A,list,Ciudadanías. Revista de Políticas Sociales Urbanas,2545-7977,mint,7407065556,,https://revistas.untref.edu.ar/index.php/ciudadanias,AR,197
+A,list,Educación y Futuro: Revista de Investigación Aplicada y Experiencias Educativas,1576-5199,link_issnless_namesake,4306508810,4306508810,https://educacionyfuturo.com/educacionyfuturo,,197
+A,list,Transformacje Prawa Prywatnego,1641-1609,link_issnless_namesake,4306533197,4306533197,https://journals.law.uj.edu.pl/index.php/TPP,PL,196
+A,list,Minimax Theory and its Applications,2199-1413;2199-1421,mint,7407065557,,https://journalmta.com/index.php/jmta,DE,195
+A,list,Rocznik Towarzystwa Naukowego Płockiego,0860-5637;2657-7704,link_issnless_namesake,4306528784,4306528784,https://czasopismanaukowe.mazowiecka.edu.pl/t/index.php/rtnp,PL,195
+A,list,Ajatus,0355-1725,held_name_issnless,,4306501230,https://journal.fi/ajatus,FI,194
+A,list,Journal of Educational Data Mining,2157-2100,mint,7407065558,,https://jedm.educationaldatamining.org/index.php/JEDM,US,192
+A,list,"ÉCHANGES, Revue de Philosophie, litterature et Sciences humaines",2310-3329,mint,7407065559,,https://www.ajol.info/index.php/echanges,,192
+A,list,INNOVACIÓN & SABER,2528-8032;2773-7470,mint,7407065560,,https://innovacionysaber.isupol.edu.ec/index.php/innovacion,EC,191
+A,list,"International Journal of Education, Technology and Science",2757-9514,mint,7407065561,,https://ijets.org/index.php/IJETS,TR,191
+A,list,Rudiae. Ricerche sul mondo classico,1124-5344;2532-697X,link_issnless_namesake,4306528882,4306528882,https://ese-journals.unisalento.it/index.php/rudiae,IT,189
+A,list,ENFERMERÍA DERMATOLÓGICA,1888-3109;2386-4818,link_issnless_namesake,4306509449,4306509449,https://enfermeriadermatologica.org/index.php/anedidic,ES,189
+A,list,Ideas,2469-0899;2469-1178,mint_name_twin,7407065562,4404677444;4210236008,https://p3.usal.edu.ar/index.php/ideas,AR,188
+A,list,Zeitschrift für Orient-Archäologie,1868-9078,mint,7407065563,,https://publications.dainst.org/journals/zora,DE,188
+A,list,Revista Investigar em Educação,1645-7587;2183-1793,mint,7407065564,,https://www.up.pt/revistas/index.php/spce,PT,188
+A,list,Anarchist Developments in Cultural Studies,1923-5615,mint,7407065565,,https://journals.uvic.ca/index.php/adcs,CA,183
+A,list,Journal of Applied Technical and Educational Sciences,2560-5429,link_issnless_namesake,4306515329,4306515329,https://jates.org/index.php/jatespath,RS,182
+A,list,Redes,1684-6737;2710-768X,mint_name_twin,7407065566,2736827263;4404670077,http://revistas.udelas.ac.pa/index.php/redes,PA,180
+A,list,Journal of European Baptist Studies,1213-1520;1804-6444,mint,7407065567,,https://jebs.eu/ojs/index.php/jebs,NL,179
+A,list,Revista Cubana de Transformación Digital,2708-3411,mint,7407065568,,https://rctd.uic.cu/rctd,CU,176
+A,list,Périplos: Revista de Estudos sobre Migrações,2594-7443,mint,7407065569,,https://periodicos.unb.br/index.php/obmigra_periplos,BR,173
+A,list,Brolly,2516-869X;2516-8703,mint,7407065570,,https://journals.lapub.co.uk/index.php/brolly,GB,172
+A,list,EscenaUNO,2362-4000,mint,7407065571,,https://www.ojs.arte.unicen.edu.ar/index.php/escenauno,AR,171
+A,list,Lavboratorio,1852-4435,mint,7407065572,,https://publicaciones.sociales.uba.ar/index.php/lavboratorio,AR,171
+A,list,Revista Aproximação,2675-228X,mint,7407065573,,https://revistas.unicentro.br/index.php/aproximacao,BR,171
+A,list,Revista Central de Sociología,0718-4379;2735-7058,mint,7407065574,,https://centraldesociologia.cl/index.php/rcs,CL,169
+A,list,Afriche e Orienti,1592-6753;3007-5777,mint,7407065575,,https://www.africheorienti.com/journal,IT,169
+A,list,Revista Umbral,2151-8386,mint,7407065576,,https://revistas.upr.edu/index.php/umbral,US,169
+A,list,Visual Culture & Gender,1936-1912,link_issnless_namesake,4306534400,4306534400,https://vcg.emitto.net/index.php/vcg,US,169
+A,list,En la otra isla,2796-9924,mint,7407065577,,https://enlaotraisla.com/index.php/Laotraisla,AR,168
+A,list,Revista de Derecho del Sistema Financiero,2695-9534;2695-9569,mint,7407065578,,https://turia.uv.es/index.php/RDSFin,ES,167
+A,list,Heterocronías. Feminismos y Epistemologías del Sur,2684-0502,mint,7407065579,,https://revistas.unc.edu.ar/index.php/heterocronias,AR,164
+A,list,Revista Ciencia & Sociedad,2789-8113,mint,7407065580,,https://cienciaysociedaduatf.com/index.php/ciesocieuatf,BO,164
+A,list,Educando para educar,2007-1469;2683-1953,mint,7407065581,,https://www.beceneslp.edu.mx/ojs2/index.php/epe,MX,164
+A,list,Revista-e Ibn Sina,2594-0430,mint,7407065582,,https://revistas.uaz.edu.mx/index.php/ibnsina,MX,162
+A,list,MUNDO RECURSIVO,2600-5700,mint,7407065583,,https://www.atlantic.edu.ec/ojs/index.php/mundor,EC,161
+A,list,Boletín SIED,2684-0189,mint,7407065584,,https://revista.mdp.edu.ar/boletin,AR,159
+A,list,Revista ESASP - Revista Científica Virtual da Escola Superior de Advocacia da OAB/SP,2175-4462,mint,7407065585,,https://revista.esaoabsp.com/index.php/esa,BR,159
+A,list,Abraka Humanities Review,0795-1639;2795-3726,mint,7407065586,,https://www.ajol.info/index.php/abraka,NG,159
+A,list,Revista Trabajo Social,2664-1208;2706-8072,link_issnless_namesake,4306527996,4306527996,https://revistasguatemala.usac.edu.gt/index.php/rets,GT,157
+A,list,Atek Na [En la tierra],1668-1479;2422-6726,mint,7407065587,,https://plarci.org/index.php/atekna,AR,156
+A,list,Blityri. Studies on history of ideas on signs and languages,2281-6682,mint,7407065588,,https://www.journal.edizioniets.eu/index.php/blityri,IT,154
+A,list,"The Kartvelologist - A Bilingual Peer-reviewed, Academic Journal of Georgian Studies",1512-1186;1512-441X,mint,7407065589,,https://womensvoice.tsu.ge/index.php/kartvelologist,US,154
+A,list,Landbohistorisk Tidsskrift,1604-4878;1904-8033,mint,7407065590,,http://www.soundeffects.dk/index.php/landbohist,DK,153
+A,list,ATENE E ROMA,0004-6493,mint,7407065591,,https://ojs.pensamultimedia.it/index.php/atene-roma,IT,153
+A,list,Alcumena. Pismo Interdyscyplinarne,2719-9851,mint,7407065592,,https://www.alcumena.fundacjapsc.pl/index.php/alcumena,PL,153
+A,list,Minerva,2545-6245;2591-3840,mint_name_twin,7407065593,205537954;4210179161,https://ojs.editorialiupfa.com/index.php/minerva,AR,152
+A,list,Journal of Mediterranean Earth Sciences,2037-2272;2280-6148,mint,7407065594,,https://rosa.uniroma1.it/rosa04/mediterranean_earth_sciences,IT,152
+A,list,ENERLAC. Revista de energía de Latinoamérica y el Caribe,2602-8042;2631-2522,mint,7407065595,,https://enerlac.olade.org/index.php/ENERLAC,EC,150
+A,list,Cicadina,1868-3592;2197-0335,link_issnless_namesake,4306506195,4306506195,https://public.bibliothek.uni-halle.de/index.php/cicadina,DE,150
+A,list,Revista Fonoaudiológica,1668-9402,mint,7407065596,,https://fonoaudiologica.asalfa.org.ar/index.php/revista,AR,147
+A,list,Subjetividad y Procesos Cognitivos,1852-7310,mint,7407065597,,https://publicacionescientificas.uces.edu.ar/index.php/subyprocog,AR,147
+A,list,Ricerche slavistiche. Nuova serie,0391-4127,mint,7407065598,,https://rosa.uniroma1.it/rosa01/ricerche_slavistiche,IT,146
+A,list,Scenari,2420-8914;2785-3020,mint,7407065599,,https://mimesisjournals.com/ojs/index.php/scenari,IT,144
+A,list,Heteroglossia – studia kulturoznawczo-filologiczne,2084-1302;2657-7461,mint,7407065600,,https://czasopisma.ukw.edu.pl/index.php/heteroglossia,PL,143
+A,list,Patristica Nordica Annuaria,2001-2365,mint,7407065601,,https://journals.lub.lu.se/pna,SE,141
+A,list,"Revista de Design, Tecnologia e Sociedade",2525-7471,mint,7407065602,,https://periodicos.unb.br/index.php/design-tecnologia-sociedade,BR,139
+A,list,Hologramática,1668-5024,link_issnless_namesake,4306512286,4306512286,https://riiym.unlz.edu.ar/index.php/rholo,AR,138
+A,list,Revista Doctrina Distrital,2745-2719;2805-5985,mint,7407065603,,https://doctrinadistrital.com/ojs2/index.php/RevistaDoctrinaDistrital,CO,138
+A,list,Acta Myologica,2532-1900,enrich,4306500421,,http://rivistepacini-ojs.archicoop.it/MYO,IT,137
+A,list,Prólogos,1852-0715;2953-4879,mint,7407065604,,https://plarci.org/index.php/prologos,AR,136
+A,list,C@LEA - Cadernos de Aulas do LEA,2317-3025,mint,7407065605,,https://periodicos.uesc.br/index.php/calea,BR,136
+A,list,Abyssinia Journal of Business and Social Sciences,2707-1332;2707-1340,mint,7407065606,,https://abjol.org.et/index.php/ajbs,ET,136
+A,list,Kuaapy Ayvu,2224-7408;3078-4913,mint,7407065607,,https://investigacioninaes.edu.py/KuaapyAyvu/index.php/ayvu,PY,135
+A,list,IARTEM e-journal,1837-2104,mint,7407065608,,https://iartemejournal.org/index.php/IARTEM,AU,134
+A,list,International Journal of Applied Technologies in Library and Information Management,2467-8112;2467-8120,mint,7407065609,,https://www.ajol.info/index.php/jatlimi,NG,133
+A,list,Constitutional Studies,2474-9419;2474-9427,mint,7407065610,,https://constitutionalstudies-ojs-utexas.tdl.org/cs,US,132
+A,list,REVISTA ADENAG,1853-7367,mint,7407065611,,https://revista.adenag.org.ar/index.php/ediciones,AR,131
+A,list,Algarrobo-MEL,2344-9179,mint,7407065612,,https://revistas.uncu.edu.ar/ojs3/index.php/mel,AR,131
+A,list,REVISTA CIENTÍFICA DE UCES,1514-9358;2591-5266,mint,7407065613,,https://publicacionescientificas.uces.edu.ar/index.php/cientifica,AR,130
+A,list,Nigerian Journal of Medical and Dental Education,2714-4127,mint,7407065614,,https://publications.nomiot.com.ng/index.php/njdme,NG,130
+A,list,Chronos,2667-9477,mint_name_twin,7407065615,4210174428;4210229889,https://chronos.ihe.tsu.ge/index.php/journal,US,129
+A,list,Revista de Investigación y Disciplinas,2683-9040,mint,7407065616,,https://revid.unsl.edu.ar/index.php/revid,AR,126
+A,list,Ucronías,2684-012X,mint,7407065617,,https://ucronias.unpaz.edu.ar/index.php/ucronias,AR,124
+A,list,Electronic Journal of Vedic Studies,1084-7561,mint,7407065618,,https://hasp.ub.uni-heidelberg.de/journals/ejvs,US,124
+A,list,Centro de Estudios Históricos de Granada y su Reino,2253-9263,enrich,2736389704,,https://cehgr.es/index.php/cehgr,ES,123
+A,list,Dostoevsky Studies,1013-2309;2788-5739,mint,7407065619,,,DE,122
+A,list,Cuadernos de Trabajo Hegoa,1130-9962;2340-3187,link_issnless_namesake,4306507345,4306507345,https://ojs.ehu.eus/index.php/hegoa,ES,122
+A,list,Journal of Virtual Reality and Broadcasting,1860-2037,mint_name_twin_not_journal,7407065620,7407053098,https://www.jvrb.org/jvrb,DE,119
+A,list,Disiplinlerarası Sosyal Bilimler Dergisi,2618-6179,mint,7407065621,,https://sosyalbilimler.com.tr/index.php/disosbilder,TR,119
+A,list,Περιοδικό του Τομέα Αρχαιολογίας και Ιστορίας της Τέχνης (AURA),2623-3428;2623-3436,mint,7407065622,,https://nepub.lib.uoa.gr/index.php/aura,GR,118
+A,list,RAES - Revista Argentina de Educación Superior,1852-8171,mint,7407065623,,https://revistas.untref.edu.ar/index.php/raes,AR,117
+A,list,Classica Vox,2724-0169,mint,7407065624,,https://riviste.unime.it/index.php/ClassicaVox,IT,117
+A,list,"Revista Despierta - Sociedade, Cultura e Contestação Social",2359-5868,mint,7407065625,,https://redelp.net/index.php/rd,BR,116
+A,list,Revista de Letras UTAD,0874-7962;2975-8955,mint,7407065626,,https://revistas.utad.pt/index.php/revistadeletras,PT,116
+A,list,Terminology Science & Research / Terminologie : Science et Recherche,2959-4766,mint,7407065627,,https://journals.publicknowledgeproject.org/default/index.php/tsr,,114
+A,list,Journal of the European Association for Chinese Studies,2709-9946,mint,7407065628,,https://journals.univie.ac.at/index.php/jeacs,AT,113
+A,doaj,Journal of Educational Studies,2668-2508;2668-6414,mint_name_twin,7407065629,5407045455;4210237181;4389158163;4404661941,https://publications.uadventus.ro/index.php/jes,RO,112
+A,list,Uniosun Journal Of Agriculture And Renewable Resources,2672-5967;2814-046X,mint,7407065630,,https://journals.uniosun.edu.ng/index.php/UJARR,NG,110
+A,list,Confluencia de Saberes. Revista de Educación y Psicología,2683-989X,mint,7407065631,,https://revele.uncoma.edu.ar/index.php/confluenciadesaberes,AR,108
+A,list,International Journal of Engineering Mathematics (Online),1687-6156,mint,7407065632,,https://iejemta.com/index.php/em,EG,107
+A,list,Revista Científica Diálogo Forense,2707-8477;2789-8458,mint,7407065633,,https://revistasguatemala.usac.edu.gt/index.php/df,GT,106
+A,list,Passepartout,0908-5351;2597-0704,mint,7407065634,,https://tidsskrift.dk/passepartout,DK,104
+A,list,BODIJA JOURNAL | A Philosophico-Theological Journal,0795-8188,mint,7407065635,,https://acjol.org/index.php/bodija,NG,104
+A,list,The study of Security,2543-7321,mint,7407065636,,https://zeszyty-bn.upsl.edu.pl/index.php/snb,PL,104
+A,list,Revista Científica Multidisciplinaria HEXACIENCIAS. ISSN: 3028-8657,3028-8657,mint,7407065637,,https://soeici.org/index.php/hexaciencias,EC,103
+A,list,International Journal of Arabic Linguistics,2421-9835,mint,7407065638,,https://revues.imist.ma/index.php/IJAL,MA,103
+A,list,Revista Interdisciplinaria de Estudios Sociales,1853-1679;2469-1860,mint,7407065639,,https://ceiso.com.ar/ries/index.php/ojs,AR,102
+A,list,"MEFISTO. Journal of Medicine, Philosophy, and History",2532-8255,mint,7407065640,,https://www.journal.edizioniets.eu/index.php/mefisto,IT,101
+A,doaj,"PRISM: Casting New Light on Learning, Theory and Practice",2514-5347,mint,7407065641,,https://openjournals.ljmu.ac.uk/index.php/prism,GB,101
+A,list,Journal of Family and Consumer Sciences Education,1938-5927,mint,7407065642,,https://natefacs-ojs-ttu.tdl.org/natefacs,US,101
+A,list,Avisos de Viena,2710-2629,mint,7407065643,,https://journals.univie.ac.at/index.php/adv,AT,100
+A,list,Scritture migranti,2035-7141,mint,7407065644,,,IT,100
+A,list,Enfoques Transdisciplinarios: Ciencia y Sociedad,3061-709X,mint,7407065645,,https://revistaenfoques.ciatej.mx/index.php/revistaenfoques,MX,100
+A,list,Justicia y Derecho,1810-0171,mint,7407065646,,https://revistajd.tsp.gob.cu/index.php/JD,CU,99
+A,list,亞洲戲劇教育學刊,2079-9608;2218-4155,mint,7407065647,,https://www.dateasia.tefo.hk/index.php/dateasia,HK,99
+A,list,Entelekya Logico-Metaphysical Review,2602-3466,mint,7407065648,,https://www.entelekya.org/index.php/review,TR,99
+A,list,Estranhar Pessoa,2183-4075,mint,7407065649,,https://revistas.fcsh.unl.pt/ep,PT,98
+A,list,Review of Futures Markets,1933-7116,mint,7407065650,,https://fra.st/rfm,ST,98
+A,list,Revista de Psicología y Psicopedagogía,2545-6253,mint,7407065651,,https://p3.usal.edu.ar/index.php/psicol,AR,96
+A,list,Historia y cultura,2953-4615,mint_name_twin,7407065652,4393912830,https://www.lillo.org.ar/journals/index.php/hyc,AR,96
+A,list,East-West Studies,1736-9541,mint_name_twin_not_journal,7407065653,7407051934,http://publications.tlu.ee/index.php/eastwest,EE,96
+A,list,Agricultural Economics and Extension Research Studies,2714-3147,mint,7407065654,,https://www.ajol.info/index.php/ageers,NG,96
+A,list,Archivo Papers,2184-9218,mint,7407065655,,https://archivopapersjournal.com/ojs/index.php/apj,PT,96
+A,list,Khōrein: Journal for Architecture and Philosophy,2956-1892;3009-3805,mint,7407065656,,https://khorein.ifdt.bg.ac.rs/index.php/ch,RS,96
+A,list,Revista Pensamiento Científico Latinoamericano,2953-6405;2953-6413,mint,7407065657,,https://rpensamientocl.com/index.php/rpcl,EC,93
+A,list,Kalpana- Revista de Investigación,1390-5775;2661-6696,mint,7407065658,,https://publicaciones.udet.online/index.php/kalpana,EC,93
+A,list,Campo Universitario,2718-6121,mint,7407065659,,http://campouniversitario.aduba.org.ar/ojs/index.php/cu,AR,92
+A,list,ETHIOPIAN JOURNAL OF SPORT SCIENCE,2958-793X;2960-1657,mint,7407065660,,https://ejss-esa.edu.et/index.php/ejss,ET,91
+A,list,INVESTIGA+,2618-4370,mint_name_twin,7407065661,4404676457,https://revistas.upc.edu.ar/investiga-mas,AR,90
+A,list,Revista Melibea,2422-8117,mint,7407065662,,https://revistas.uncu.edu.ar/ojs3/index.php/melibea,AR,89
+A,list,NEXOS CIENTÍFICOS - ISSN 2773-7489,2773-7489,mint,7407065663,,https://nexoscientificos.vidanueva.edu.ec/index.php/ojs,EC,89
+A,list,The Science For Population Protection,1803-635X,mint,7407065664,,https://www.tsfpp.cz/index.php/casopis,CZ,88
+A,list,Erhvervshistorisk Årbog,0071-1152;2245-1447,mint,7407065665,,http://www.dengamlebyaarbog.dk/index.php/eaa,DK,88
+A,list,History of Meteorology,1555-5763,mint,7407065666,,https://journal.meteohistory.org/index.php/hom,US,88
+A,list,Athenische Mitteilungen,0342-1295,mint,7407065667,,https://publications.dainst.org/journals/am,DE,86
+A,list,"Matemáticas, educación y sociedad",2603-9982,mint,7407065668,,http://www.uco.es/ucopress/ojs/index.php/mes,ES,86
+A,list,Revista Científica Sigma,1980-0207,mint,7407065669,,https://iesap.edu.br/ojs/index.php/sigma,BR,85
+A,list,Communication and Media in Asia Pacific (CMAP),2630-0621;2697-4428,mint,7407065670,,https://so01.tci-thaijo.org/index.php/CMAP,TH,85
+A,list,"DeSigno: diseño integral, donde convergen arte, ciencia y tecnología",2542-3096,mint,7407065671,,http://erevistas.saber.ula.ve/index.php/designo,VE,85
+A,list,"DAROM, Revista de Estudios Judíos. eISSN 2659-8272 / Depósito Legal: GR 1093 2019",2659-8272;2660-9967,mint,7407065672,,https://www.revistadarom.es/index.php/Darom,ES,84
+A,list,Vulgata in Dialogue. A Biblical On-Line Review,2504-5156,mint,7407065673,,https://vulgata-dialog.ch/ojs/index.php/vidbor,CH,84
+A,list,Revista de Historia Universal,0328-3704;2683-8869,mint,7407065674,,https://revistas.uncu.edu.ar/ojs3/index.php/revhistuniv,AR,83
+A,list,Romània orientale,1121-4015;3035-1405,mint,7407065675,,https://rosa.uniroma1.it/rosa05/romania_orientale,IT,83
+A,list,Studi lockiani. Ricerche sull’età moderna,2724-4016,mint,7407065676,,https://www.journal.edizioniets.eu/index.php/studilockiani,IT,83
+A,list,Jazz-hitz,2605-2490;2605-2555,mint,7407065677,,https://jazz-hitz.musikene.eus/index.php/jazz-hitz,ES,83
+A,doaj,Sendas,2618-2254,mint_name_twin,7407065678,4210221339,https://revistas.unc.edu.ar/index.php/sendas,AR,81
+A,list,SENDEROS,2684-0456,link_issnless_namesake,4306529645,4306529645,https://revistas.unf.edu.ar/index.php/senderos,AR,81
+A,list,Advances in Education Sciences,2668-5256,mint,7407065679,,https://aesj.ro/aesj,RO,80
+A,list,trk dergisi,2757-6388,mint,7407065680,,https://www.trkdergisi.com/index.php/trk,TR,80
+A,list,Hymnologi – Nordisk tidsskrift,2984-5033,mint,7407065681,,https://journal.fi/hymnologi,KR,79
+A,list,INTERNATIONAL JOURNAL OF KASHMIR STUDIES,2706-5855;2706-5863,mint,7407065682,,https://ijksojs.org/index.php/1,,78
+A,list,FMSERA Journal,2490-158X,mint,7407065683,,https://journal.fi/fmsera,FI,77
+A,list,Ijtihad Journal for Islamic and Arabic Studies,2983-9939;3041-4679,mint,7407065684,,https://journal-ijtihadcenter.com/index.php/ijias,BE,76
+A,list,Europa orientalis,0392-4580;3035-000X,mint,7407065685,,https://rosa.uniroma1.it/rosa01/europa_orientalis,IT,76
+A,list,Early Education Journal,1172-9112,mint,7407065686,,https://eej.ac.nz/index.php/EEJ,NZ,76
+A,list,Revista Internacional Interdisciplinar de Divulgación Científica,2952-1750,mint,7407065687,,https://riidici.com/index.php/home,ES,76
+A,list,Psicologías,1948-559X,mint,7407065688,,https://revistas.upr.edu/index.php/psicologias,US,76
+A,list,International and Comparative Corporate Law Journal,1388-7084;1875-8290,mint,7407065689,,https://icclj.com/index.php/j,NL,74
+A,list,Fabrik&Bolig,0106-3324;2596-8106,mint,7407065690,,https://tidsskrift.dk/fabrikogbolig,DK,73
+A,list,Cotopaxi Tech,2806-5573,mint,7407065691,,https://ojs.isuc.edu.ec/index.php/cotopaxitech,EC,73
+A,list,Journal of Underutilized Legumes,2705-3776,mint,7407065692,,https://julegumes.org/index.php/jul,NG,72
+A,list,DOKITA,0046-0508;1116-0020,mint,7407065693,,https://www.ajol.info/index.php/dokita,NG,72
+A,list,Revista Jurídica PGE,2955-8948;2961-2578,mint,7407065694,,,PE,72
+A,list,"Studi Finno-Ugrici, n.s.",1826-753X,mint,7407065695,,https://serena.sharepress.it/index.php/studifinno,IT,71
+A,list,NORDICA – Tidsskrift for nordisk teksthistorie og æstetik,0109-3967;2794-5022,mint,7407065696,,https://tidsskrift.dk/NORDICA,DK,70
+A,doaj,Revista de Ingeniería Industrial y Mecánica,2525-0396,mint,7407065697,,https://riiym.unlz.edu.ar/index.php/riiym,AR,69
+A,list,Ostraka. Journal in antiquity,1122-259X,mint,7407065698,,https://www.journal.edizioniets.eu/index.php/ostraka,IT,69
+A,list,Revista Tiempo de Gestión,1850-7255;1853-6646,mint,7407065699,,https://revista.uader.edu.ar/index.php/tg,AR,67
+A,list,Revista Horizonte Independiente - Horizontes de Pensamientos,2711-4848,mint,7407065700,,https://horizonteindependiente.com/ojs/index.php/horizontes-de-pensamientos,CO,67
+A,list,Cuadernos gestión turística del patrimonio,2952-2390,mint,7407065701,,https://cuadernosgestionturisticadelpatrimonio.es/index.php/journal,ES,67
+A,list,Oikeus-lehti,0356-4037;2984-4118,mint,7407065702,,https://journal.fi/oikeus,FI,66
+A,list,"Korea Europe Review: an interdisciplinary journal of politics, society, and economics",2750-4832,mint,7407065703,,https://www.korea-europe-review.org/index.php/ker,DE,66
+A,doaj,Central Europe Yearbook,2689-5978,mint,7407065704,,https://pubs.lib.umn.edu/index.php/cey,US,66
+A,list,Proceedings of the Lexical Functional Grammar Conference,1098-6782,mint,7407065705,,https://lfg-proceedings.org/lfg/index.php/main,DE,64
+A,list,Revista Académica Seguridad y Estrategia,2790-1475,mint,7407065706,,https://revistasguatemala.usac.edu.gt/index.php/rasei,GT,64
+A,list,International Review of Literary Studies,2709-7013;2709-7021,mint,7407065707,,https://irlsjournal.com/index.php/Irls,PK,64
+A,list,DIAETA,0328-1310;1852-7337,mint,7407065708,,https://diaeta.aadynd.org.ar/index.php/2022,AR,63
+A,list,Revista Ecuatoriana de Nutrición Clínica y Metabolismo,3073-1097,mint,7407065709,,https://senpeazuay.org.ec/ojs/index.php/renc,EC,63
+A,list,Effetti di lettura / Effects of reading,2785-7050,mint,7407065710,,https://ojs.pensamultimedia.it/index.php/edl,IT,63
+A,list,Eastern Africa Journal of Contemporary Research,2663-7359;2663-7367,mint,7407065711,,https://eajcr.org/index.php/eajcr,KE,63
+A,list,Annales Universitatis Paedagogicae Cracoviensis. Studia ad Didacticam Scientiarum Socialium Pertinentia,2083-7267,mint,7407065712,,https://studiadecultura.up.krakow.pl/index.php/bioannales,PL,63
+A,list,Ethiopian Journal of Social Sciences,2518-4563;3008-1041,mint,7407065713,,https://www.ajol.info/index.php/ejss,,63
+A,list,Casus Belli,2718-7608,mint,7407065714,,https://fe.undef.edu.ar/publicaciones/ojs3/index.php/casusbelli,AR,62
+A,list,Las Enfermeras de hoy,2805-1823,mint,7407065715,,https://revistas.anep.org.pa/index.php/edh,PA,62
+A,list,Arquipelago - Life and Marine Sciences,0873-4704,link_issnless_namesake,2739295176,2739295176,https://revistas.rcaap.pt/arquipelago,PT,62
+A,list,South American Research Journal,2806-5638,mint,7407065716,,https://www.sa-rj.net/index.php/sarj,EC,61
+A,list,Ethiopian Journal of Natural and Computational Sciences,2710-0200;2710-0219,mint,7407065717,,https://journal.uog.edu.et/index.php/EJNCS,ET,60
+A,list,Journal of Interactive Books,2785-6569,mint,7407065718,,https://jib.pop-app.org/index.php/jib,IT,60
+A,list,Türk Dünyası ve Türkçe Öğretimi,2822-4981,mint,7407065719,,https://www.tdtodergisi.com/index.php/tdto,TR,60
+A,list,ISTE SCIENTIST,2953-6618,mint,7407065720,,https://revistas.iste.edu.ec/index.php/reviste,EC,59
+A,list,Cuadernos de Investigación Serie Administración,2683-9652,mint,7407065721,,https://revele.uncoma.edu.ar/index.php/administracion,AR,58
+A,list,Revista del Instituto Internacional de Costos,2718-8507,mint,7407065722,,https://intercostos.org/ojs/index.php/riic,AR,58
+A,list,ANSU Journal of Arts And Social Sciences,2315-7178,mint,7407065723,,https://www.ajol.info/index.php/ajass,NG,58
+A,list,Danske Talesprog,1600-6038;2794-6746,mint,7407065724,,https://tidsskrift.dk/dansketalesprog,DK,56
+A,list,Studi e ricerche di storia dell'architettura,2532-2699,mint,7407065725,,https://serena.sharepress.it/index.php/srsa,IT,56
+A,list,Ektenos,2710-7477;2710-7485,mint,7407065726,,https://uhektenos.com/index.php/Uhektenos,PA,56
+A,list,Atena Journal of Sports Sciences,2695-4486,mint,7407065727,,https://atenajournals.com/index.php/ajss,ES,56
+A,list,Biopolymer Applications Journal,2800-1729,mint,7407065728,,https://univ-bejaia.dz/revue/index.php/baj,DZ,55
+A,list,Zeitschrift für Religionspädagogik. Theo-Web,1863-0502,mint,7407065729,,https://openjournals.fachportal-paedagogik.de/theo-web,AT,55
+A,list,KIXARÁ,3086-2582,mint,7407065730,,https://revistas.uece.br/index.php/kixara,BR,55
+A,doaj,Matrix: A Journal for Matricultural Studies,2563-3392,mint,7407065731,,https://journal.networkonculture.ca/index.php/matrix,CA,55
+A,list,European Journal for Nursing History and Ethics,2628-4375,mint,7407065732,,https://www.enhe.eu/enhe,DE,55
+A,list,European Journal of Philosophy in Arts Education,2002-4665,mint,7407065733,,https://www.ejpae.com/index.php/EJPAE,SE,54
+A,list,Journal of Economics and Business Issues,2791-8122,mint,7407065734,,https://jebi-academic.org/index.php/jebi,TR,52
+A,list,ETHIOINQUIRY Journal of Humanities and Social Sciences,2790-539X;2790-5403,mint,7407065735,,https://journals.hu.edu.et/hu-journals/index.php/erjssh,ET,51
+A,list,Apps - Academic Journal of Applied Linguistics and Languages,2729-9805,mint,7407065736,,https://ojs.tuzvo.sk/index.php/apps,SK,51
+A,list,Atena Journal of Public Health,2695-5911,mint,7407065737,,https://atenajournals.com/index.php/ajph,ES,51
+A,list,Journal of Boredom Studies,2990-2525,mint,7407065738,,https://www.boredomsociety.com/jbs/index.php/journal,EC,50
+A,list,Essence & Critique: Journal of Literature and Drama Studies,2791-6553,mint,7407065739,,https://journalofcritique.com/essence,,50
+A,list,Skandinavisk Tidsskrift for Teologi og Kirke,2794-8382,mint,7407065740,,http://www.dengamlebyaarbog.dk/index.php/sttk,DK,49
+A,list,Annales Pomorienses. Ius,2956-3941,mint,7407065741,,https://api.upsl.edu.pl/index.php/ius,PL,48
+A,list,Revista de Direito & Desenvolvimento da UniCatólica,2674-7286,mint,7407065742,,https://publicacoes.unicatolicaquixada.edu.br/index.php/rdd,BR,47
+A,list,Revista Boletín Científico Tecnológico,0718-1191;2452-607X,mint,7407065743,,https://boletincientifico.cl/index.php/bct,CL,47
+A,list,JOURNAL OF PUBLIC SECTOR MANAGEMENT,0856-8154;3088-5086,mint,7407065744,,https://jpsm.tpsc.go.tz/index.php/jpsm,TZ,47
+A,list,Revista Interdisciplinar Animus,2448-0665,mint,7407065745,,https://animus.plc.ifmt.edu.br/index.php/v1,BR,46
+A,list,Revista de Inclusión Educativa y Diversidad (RIED),2810-6563,mint,7407065746,,https://ried.website/nuevo/index.php/ried,CL,46
+A,list,L10N Journal,2730-0757,mint,7407065747,,https://l10njournal.net/index.php/home,SK,46
+A,list,International Journal of Collaborative-Dialogic Practices,1941-1987,mint,7407065748,,https://www.criticalimprov.com/index.php/ijcdp,US,46
+A,list,Abyssinia Journal of Engineering and Computing,2788-6239;2788-6247,mint,7407065749,,https://abjol.org.et/index.php/ajec,ET,45
+A,list,Römische Mitteilungen,0342-1287;2749-8891,mint,7407065750,,https://publications.dainst.org/journals/rm,DE,45
+A,list,L’Italia dialettale,0085-2295,mint,7407065751,,https://www.journal.edizioniets.eu/index.php/italiadialettale,IT,45
+A,list,Nigerian Journal of Communication,1596-356X;2756-3464,mint,7407065752,,https://www.ajol.info/index.php/njcomm,NG,45
+A,list,Journal of the Nigerian Languages Project,2705-411X,mint,7407065753,,https://www.jnlp.com.ng/index.php/home,NG,45
+A,list,Ausgrabungen und Funde in Westfalen-Lippe,0175-6133;2366-7710,mint,7407065754,,https://journals.ub.uni-heidelberg.de/index.php/afwl,DE,44
+A,doaj,Current Clinical and Medical Education,3023-3585;3023-3593,mint_name_twin,7407065755,5407036513,https://amcmpub.com/index.php/ccme,MU,44
+A,list,Nordic Review of International Studies,2954-2553,mint,7407065756,,https://journal.fi/nris,FI,43
+A,list,Journal of Organizational Behavior Studies,2792-0720,mint,7407065757,,https://obstudies.org/index.php/obs,TR,40
+A,list,Revista Sociedad Argentina de Endocrinología Ginecológica y Reproductiva,1515-8845;2469-0252,mint,7407065758,,https://revistasaegre.com.ar/index.php/revista,AR,39
+A,list,International Review of Entrepreneurship,2009-2822,mint,7407065759,,https://diamondirelandpress.ie/index.php/ire,IE,38
+A,list,Direito e Linguagem,3020-898X,mint,7407065760,,https://direitoelinguagem.com/index.php/dl,ES,38
+A,list,Revista Digital de Derecho y Debates,3008-7511,mint,7407065761,,https://fchportaldigital.unsl.edu.ar/index.php/RD,AR,37
+A,list,Investigación y Cultura Académica,3121-2646,mint,7407065762,,https://investigacionycultura.com/index.php/ica,EC,37
+A,list,Tidsskrift for æstetik og pædagogik,2794-4395,mint,7407065763,,https://tidsskrift.dk/taep,DK,36
+A,list,Revista Derecho & Proceso,2951-844X,mint,7407065764,,https://revistas.colex.es/index.php/derechoyproceso,ES,36
+A,list,Journal of Action Qualitative & Mixed Methods Research,2822-6577,mint,7407065765,,https://jaqmeronline.com/index.php/jaqmer,TR,36
+A,list,ÂNIMA - Revista eletrônica do curso de Direito da UniOpet,2175-7119,mint,7407065766,,https://periodicos.opet.com.br/index.php/anima,BR,35
+A,list,Equilibrio Económico,2007-3666,mint,7407065767,,https://revistas.uadec.mx/index.php/equilibrioeconomico,MX,35
+A,list,Journal of Exercise Science & Physical Activity Reviews,3023-4255,mint,7407065768,,https://e-jespar.com/index.php/jespar,TR,35
+A,list,Journal of Law and Epistemic Studies,3091-1575,mint,7407065769,,https://journal.publiseditorial.com/index.php/jles,EC,34
+A,list,Dilla Journal of Education,3080-2601;3080-261X,mint,7407065770,,https://journal.du.edu.et/index.php/dje,ET,34
+A,list,Ars Inveniendi Analytica,2769-8505,mint,7407065771,,https://ars-ojs-utexas.tdl.org/ars,US,34
+A,doaj,Journal of Research in Psychology (JRP),2959-944X;2959-961X,mint,7407065772,,https://jrplcwu.pk/index.php/JRP,PK,32
+A,list,BNR Economic Review,2410-678X;2706-8587,mint,7407065773,,https://www.ajol.info/index.php/BNRER,,32
+A,list,Scientia et Societas,1801-6057,mint,7407065774,,https://sets.cz/index.php/ojs,CZ,31
+A,list,"ETKİ: Journal of Literature, Theatre and Culture Studies",2822-3950,mint,7407065775,,https://etkijournal.com/etki,TR,31
+A,list,Revista Societas IURIS,3091-1702,mint,7407065776,,https://redgedi.org/opj/index.php/IURIS,EC,30
+A,list,Jahrbuch des Deutschen Archäologischen Instituts,0070-4415;2702-444X,link_issnless_namesake,4306514790,4306514790,https://publications.dainst.org/journals/index.php/jdi,DE,28
+A,list,Journal of Cross-disciplinary Research in Computational Law,2736-4321,mint,7407065777,,https://journalcrcl.org/index.php/crcl,BE,27
+A,list,Suomen Sukututkimusseuran Vuosikirja,2343-2845,mint,7407065778,,https://journal.fi/index.php/ssvk,FI,27
+A,list,Sociedad y Política,2663-0877,mint,7407065779,,https://revistascientificas.una.py/index.php/syp,PY,27
+A,list,Dentiscope,1119-8915;2488-8915,mint,7407065780,,https://www.ajol.info/index.php/dentiscope,NG,26
+A,list,Recercare. Rivista per lo studio e la pratica della musica antica,1120-5741,mint,7407065781,,https://limateneo.com/index.php/Recercare,,26
+A,list,Izvestiâ vysših učebnyh zavedenij. Aviacionnaâ tehnika,0579-2975,mint,7407065782,,https://journals.rcsi.science/0579-2975,,24
+A,list,International Journal of Design Sciences & Technology,1630-7267,mint,7407065783,,https://ijdst.eu/index.php/ijdst,,23
+A,list,Tidsskrift for danskdidaktisk forskning,2794-6894,mint,7407065784,,https://tidsskrift.dk/tdf,DK,22
+A,list,Millennium Journal of Health,2790-1378,mint,7407065785,,https://www.ajol.info/index.php/mjh,ET,22
+A,list,Akademik Eğitim ve Sosyal Bilimler Dergisi,3062-262X,mint,7407065786,,https://www.ajessjournal.com/index.php/ajess,TR,22
+A,list,Psicodiagnosticar,3072-810X,mint,7407065787,,https://revistas.adeip.org.ar/index.php/Psicodiagnosticar,AR,21
+A,list,The Journal of Artificial Intelligence and Human Sciences,3062-1003,mint,7407065788,,https://yzib.com.tr/index.php/yzib,TR,21
+A,list,Revista Iberoamericana de Educación Musical,3045-624X,mint,7407065789,,https://revistaiberoamericanadeeducacionmusical.org/index.php/riem,,20
+A,list,Tax Policy Journal,1833-1726;3083-3825,mint,7407065790,,https://taxpolicyjournal.org/index.php/tpj,AU,19
+A,list,Revista Científica PROciencias ISSN 3121-2972,3121-2972,mint,7407065791,,https://soeici.org/index.php/prociencias,,19
+A,list,Opúsculo filosófico,1852-0596;2422-8125,mint,7407065792,,https://revistas.uncu.edu.ar/ojs3/index.php/opusculo,AR,18
+A,list,FINANCE A ÚVĚR-CZECH JOURNAL OF ECONOMICS AND FINANCE,0015-1920;2464-7683,link_issnless_namesake,1041061247,1041061247,https://fucjef.net/index.php/cjef,CZ,18
+A,list,European Scientific Journal for Dual Higher Education,3052-7015,mint,7407065793,,https://ojs.eu4dualdevelopment.com/index.php/esjdhe,DE,14
+A,list,Turkish Journal of Sense of Place and Urban Studies,2980-3721,mint,7407065794,,https://journalsenseofplace.com/index.php/tjsop,TR,12
+A,list,ULK Scientific Journal,2308-5843,mint,7407065795,,https://www.ajol.info/index.php/ulksj,,12
+A,list,DiHA: Journal of Interdisciplinary Legal Studies,3062-0473,mint,7407065796,,https://journals.bilimalani.org/index.php/diha,,11
+A,list,State Archives of Assyria Bulletin,1120-4699,mint,7407065797,,https://vup.univr.it/index.php/SAAB,IT,6
+A,list,"International Journal of Information Security, Privacy and Digital Forensics (IJISPDF)",2636-6134,mint,7407065798,,https://ncsjournalng.org/index.php/ijispdf,NG,6
