@@ -23,12 +23,15 @@ import argparse
 import calendar
 import csv
 import gzip
+import html
 import io
 import json
 import re
 import sys
+import threading
 import time
 import zipfile
+from collections import Counter
 from datetime import date
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -38,10 +41,10 @@ OUT_DIR = Path(__file__).resolve().parent.parent / "data" / "source_lists"
 UA = "openalex-sources/fetch_source_list (support@openalex.org)"
 
 
-def _get(url, retries=3):
+def _get(url, retries=3, ua=UA, timeout=300):
     for attempt in range(retries):
         try:
-            with urlopen(Request(url, headers={"User-Agent": UA}), timeout=300) as r:
+            with urlopen(Request(url, headers={"User-Agent": ua}), timeout=timeout) as r:
                 return r.read()
         except Exception as e:  # noqa: BLE001
             if attempt == retries - 1:
@@ -494,7 +497,172 @@ def fetch_abdc():
     return rows
 
 
+# --- tci --------------------------------------------------------------------
+# Thai-Journal Citation Index Centre: journals certified in Tier 1 (top) or
+# Tier 2. Tier 3 means "not certified", so it is not a list. The site's own
+# backend returns every record in one call (undocumented endpoint behind the
+# React app). A renamed journal's current record is status 'name_changed' (the
+# old-name record goes 'inactive'), so both 'active' and 'name_changed' count.
+# No licence stated. NOT registered in source_list (Casey, 2026-09-30: internal
+# for now, used only to tier OJS journals in jobs/ojs_beacon --lists; walden's
+# sync_source_lists publishes every registered list). oxjob #1426.
+TCI_URL = "https://tci-thailand.org/backend/journal/list_all_journal"
+TCI_TIERS = {"1": "tci-1", "2": "tci-2"}
+
+
+def fetch_tci():
+    body = json.dumps({"start_item": 0, "offset": 5000, "tiers": [], "status": [], "area": [],
+                       "main_area": [], "option": "", "search": ""}).encode()
+    req = Request(TCI_URL, data=body, headers={"User-Agent": UA, "Content-Type": "application/json"})
+    with urlopen(req, timeout=300) as r:
+        data = json.loads(r.read())
+    journals = data.get("journals") or []
+    if len(journals) < int(data.get("journal_num") or 0) or len(journals) < 1000:
+        raise SystemExit(f"tci: got {len(journals)} of {data.get('journal_num')} records; refusing a partial list")
+    rows, skipped = {v: [] for v in TCI_TIERS.values()}, Counter()
+    for j in journals:
+        list_id = TCI_TIERS.get(str(j.get("tci_tier")))
+        if not list_id or j.get("status") not in ("active", "name_changed"):
+            skipped[(j.get("status"), j.get("tci_tier"))] += 1
+            continue
+        issns = _issns(j.get("issn"), j.get("eissn"))
+        if issns:
+            rows[list_id].append(_row(j.get("name_eng") or j.get("name_local"), issns))
+    print("  tci: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items())
+          + f"; skipped {sum(skipped.values()):,} (status, tier): {dict(skipped)}")
+    return rows
+
+
+# --- sinta ------------------------------------------------------------------
+# SINTA (Science and Technology Index), Indonesia's national journal
+# accreditation, ranks S1 (top) to S6. One list per rank, ids keep SINTA's own
+# labels (sinta-s1 .. sinta-s6; the 041 note on direction). No bulk file or API:
+# the public listing (10 journals a page) carries id, title, ISSNs and the LAST
+# rank, but it also lists journals whose accreditation has expired. Validity is
+# only on each profile's "History Accreditation" table (one rank per year), so
+# every profile is fetched: a journal is active when that table reaches the
+# current year, and listed under its current rank; an expired one is kept
+# inactive under its last rank (withdrawn_date = 31 Dec of its last year).
+# ~16.8K profiles: hours (the server drops connection attempts under load, hence
+# the short timeout and retries); progress is cached in the temp dir, so a rerun
+# resumes. No licence stated. NOT registered in
+# source_list, like tci (internal, oxjob #1426).
+SINTA = "https://sinta.kemdiktisaintek.go.id"
+SINTA_WORKERS = 3
+# SINTA answers 403 to any User-Agent not starting "Mozilla/5.0"; the identified
+# crawler form (as Googlebot's) passes and still says who we are.
+SINTA_UA = "Mozilla/5.0 (compatible; openalex-sources/fetch_source_list; +mailto:support@openalex.org)"
+
+
+def _sinta_page(n):
+    h = _get(f"{SINTA}/journals/index/?page={n}", retries=4, ua=SINTA_UA, timeout=30).decode("utf-8", "replace")
+    out = []
+    for card in h.split('<div class="list-item row')[1:]:
+        m = re.search(r'/journals/profile/(\d+)">\s*(.*?)\s*<i ', card, re.S)
+        if not m:
+            continue
+        p = re.search(r"P-ISSN\s*:\s*([\dXx]{8})?", card)
+        e = re.search(r"E-ISSN\s*:\s*([\dXx]{8})?", card)
+        rank = re.search(r'num-stat accredited">.*?</i>\s*(S[1-6])\s', card, re.S)
+        web = re.search(r'href="([^"]+)"><i class="el el-globe mr-1', card)
+        fmt = lambda v: f"{v[:4]}-{v[4:]}".upper() if v else ""  # noqa: E731
+        out.append({"id": int(m.group(1)), "name": html.unescape(re.sub(r"\s+", " ", m.group(2))),
+                    "issns": _issns(fmt(p and p.group(1)), fmt(e and e.group(1))),
+                    "last_rank": rank.group(1) if rank else "", "website": web.group(1) if web else ""})
+    total = re.search(r"Total Records ([\d.]+)", h)
+    return out, int(total.group(1).replace(".", "")) if total else None
+
+
+def _sinta_history(sinta_id):
+    """{year: rank} from the profile's History Accreditation table."""
+    h = _get(f"{SINTA}/journals/profile/{sinta_id}", retries=4, ua=SINTA_UA, timeout=30).decode("utf-8", "replace")
+    i = h.find("History Accreditation")
+    if i < 0:
+        return {}
+    rows = h[i:h.find("</table>", i)].split("</tr>")
+    years = [int(y) for y in re.findall(r"<small>\s*(\d{4})\s*</small>", rows[0])]
+    ranks = re.findall(r'title="Sinta (\d)"', rows[1]) if len(rows) > 1 else []
+    return {y: f"S{r}" for y, r in zip(years, ranks)}
+
+
+def fetch_sinta(today):
+    import tempfile
+    from concurrent.futures import ThreadPoolExecutor
+    cache = Path(tempfile.gettempdir()) / "sinta-cache.jsonl"
+    done = {}
+    if cache.exists():
+        for line in cache.read_text(encoding="utf-8").splitlines():
+            rec = json.loads(line)
+            done[(rec["kind"], rec["key"])] = rec["value"]
+    lock = threading.Lock()
+
+    def remember(kind, key, value):
+        with lock:
+            done[(kind, key)] = value
+            with open(cache, "a", encoding="utf-8") as f:
+                f.write(json.dumps({"kind": kind, "key": key, "value": value}, ensure_ascii=False) + "\n")
+
+    first, total = _sinta_page(1)
+    pages = -(-total // 10)
+    remember("page", 1, first)
+    print(f"  sinta: {total:,} journals on {pages:,} pages; cache {cache}", flush=True)
+
+    def page(n):
+        if ("page", n) not in done:
+            try:
+                remember("page", n, _sinta_page(n)[0])
+            except Exception as e:  # noqa: BLE001 -- a rerun resumes from the cache
+                print(f"  sinta: page {n} failed ({e})", file=sys.stderr)
+
+    def profile(sid):
+        if ("history", sid) not in done:
+            try:
+                remember("history", sid, {str(y): r for y, r in _sinta_history(sid).items()})
+            except Exception as e:  # noqa: BLE001
+                print(f"  sinta: profile {sid} failed ({e})", file=sys.stderr)
+
+    with ThreadPoolExecutor(SINTA_WORKERS) as pool:
+        list(pool.map(page, range(1, pages + 1)))
+        missing = [n for n in range(1, pages + 1) if ("page", n) not in done]
+        if missing:
+            raise SystemExit(f"sinta: {len(missing)} listing pages failed; rerun to resume")
+        cards = {c["id"]: c for n in range(1, pages + 1) for c in done[("page", n)]}
+        print(f"  sinta: {len(cards):,} journals listed; fetching profiles", flush=True)
+        for i, _ in enumerate(pool.map(profile, sorted(cards)), 1):
+            if i % 500 == 0:
+                print(f"  sinta: {i:,}/{len(cards):,} profiles", flush=True)
+
+    missing = [sid for sid in cards if ("history", sid) not in done]
+    if missing:
+        raise SystemExit(f"sinta: {len(missing)} profiles failed; rerun to resume")
+    if sum(1 for sid in cards if not done[("history", sid)]) > len(cards) / 2:
+        raise SystemExit("sinta: most profiles have no History Accreditation table; layout changed?")
+    rows = {f"sinta-s{k}": [] for k in range(1, 7)}
+    counts = Counter()
+    for sid, c in sorted(cards.items()):
+        hist = {int(y): r for y, r in done[("history", sid)].items()}
+        if not c["issns"]:
+            counts["no_issn"] += 1
+            continue
+        if today.year in hist:
+            rows[f"sinta-{hist[today.year].lower()}"].append(_row(c["name"], c["issns"]))
+            counts["active"] += 1
+        elif hist or c["last_rank"]:
+            last = max(hist) if hist else None
+            rank = hist[last] if hist else c["last_rank"]
+            rows[f"sinta-{rank.lower()}"].append(_row(
+                c["name"], c["issns"], active=False,
+                withdrawn_date=f"{last}-12-31" if last else "", reason="accreditation expired"))
+            counts["expired"] += 1
+        else:
+            counts["no_rank"] += 1
+    print("  sinta: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items()) + f"; {dict(counts)}")
+    return rows
+
+
 ADAPTERS = {
+    "sinta": fetch_sinta,                      # grouped: sinta-s1 .. sinta-s6
+    "tci": lambda today: fetch_tci(),          # grouped: tci-1, tci-2
     "ki-jl": lambda today: fetch_ki_jl(),      # grouped: ki-jl-1, ki-jl-2, ki-jl-3
     "abdc": lambda today: fetch_abdc(),        # grouped: abdc-a-star, abdc-a, abdc-b, abdc-c
     "medline": lambda today: fetch_medline(),

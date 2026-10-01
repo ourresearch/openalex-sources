@@ -267,7 +267,7 @@ def park_multi_match(conn, source_feed, issns, matched_ids, detail):
 
 def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
                 publisher=None, crossref_id=None, homepage_url=None,
-                register_name=True):
+                register_name=True, country_code=None, country=None):
     """Mint a new source (id assigned by the identity column) and register it in
     the context. is_oa starts FALSE: it is derived, see recompute_is_oa.
 
@@ -297,9 +297,11 @@ def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
             issns.append(issn_l)
     sid = conn.execute(text(
         "INSERT INTO sources (display_name, type, issn_l, publisher, crossref_id, "
-        "homepage_url, is_oa) VALUES (:dn, :t, :l, :pub, :cid, :url, FALSE) RETURNING id"
+        "homepage_url, country_code, country, is_oa) "
+        "VALUES (:dn, :t, :l, :pub, :cid, :url, :cc, :country, FALSE) RETURNING id"
     ), {"dn": display_name, "t": source_type, "l": issn_l, "pub": publisher,
-        "cid": crossref_id, "url": homepage_url}).scalar()
+        "cid": crossref_id, "url": homepage_url, "cc": country_code,
+        "country": country}).scalar()
     if issns:
         insert_issns(conn, sid, issns, issn_l)
     ctx.register(sid, issns, name=display_name if register_name else None,
@@ -308,17 +310,19 @@ def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
 
 
 def enrich_journal(conn, ctx, sid, issns=(), display_name=None, publisher=None,
-                   crossref_id=None):
+                   crossref_id=None, homepage_url=None, country_code=None, country=None):
     """Feed-refresh of an ISSN-matched journal: attach missing ISSNs, refresh
     display_name unless curator-overridden (guts parity), fill publisher when we
-    have no resolved publisher, fill crossref_id. Returns 'updated'/'unchanged'."""
+    have no resolved publisher, fill crossref_id. homepage_url and country_code
+    (with country) are fill-only: set when the source has none, never overwritten.
+    Returns 'updated'/'unchanged'."""
     existing = {r[0] for r in conn.execute(
         text("SELECT issn FROM source_issn WHERE source_id = :id"), {"id": sid})}
     missing = [i for i in issns if i not in existing]
 
     row = conn.execute(text(
-        "SELECT display_name, publisher, publisher_id, crossref_id, override_timestamp "
-        "FROM sources WHERE id = :id"), {"id": sid}).fetchone()
+        "SELECT display_name, publisher, publisher_id, crossref_id, override_timestamp, "
+        "homepage_url, country_code FROM sources WHERE id = :id"), {"id": sid}).fetchone()
 
     updates = {}
     if display_name and row.override_timestamp is None and display_name != row.display_name:
@@ -327,6 +331,11 @@ def enrich_journal(conn, ctx, sid, issns=(), display_name=None, publisher=None,
         updates["publisher"] = publisher
     if crossref_id and not row.crossref_id:
         updates["crossref_id"] = crossref_id
+    if homepage_url and not row.homepage_url:
+        updates["homepage_url"] = homepage_url
+    if country_code and not row.country_code:
+        updates["country_code"] = country_code
+        updates["country"] = country
 
     if not missing and not updates:
         return "unchanged"
