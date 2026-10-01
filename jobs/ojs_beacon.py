@@ -640,7 +640,7 @@ def host(url):
     return h[4:] if h.startswith("www.") else h
 
 
-def name_outcome(twins, meta, src):
+def name_outcome(twins, meta, src, linked=()):
     """(outcome, source_id) for a journal whose ISSNs match nothing but whose
     title exactly matches existing sources (see the module docstring).
 
@@ -654,7 +654,8 @@ def name_outcome(twins, meta, src):
     journals = [s for s in twins if s in src and src[s].type == "journal"]
     our_host = host(meta["homepage_url"])
     same_host = [s for s in journals if our_host and host(src[s].homepage_url) == our_host]
-    issnless = [s for s in journals if not src[s].issns]
+    # linked: namesakes that already took another journal's ISSNs earlier in this run
+    issnless = [s for s in journals if not src[s].issns and s not in linked]
     consistent = [s for s in issnless
                   if (not src[s].homepage_url or s in same_host)
                   and (not src[s].country_code or not meta["country_code"]
@@ -683,6 +684,7 @@ def mint(csv_path, tiers=("A", "B"), dry_run=False, limit=None, receipt=None, ba
 
     counts = Counter()
     out_rows = []
+    linked = set()
     conn = engine.connect()
     trans = conn.begin()
     written = 0
@@ -701,7 +703,9 @@ def mint(csv_path, tiers=("A", "B"), dry_run=False, limit=None, receipt=None, ba
                 outcome, twins = "held_issn_multi", val
             elif kind in ("name", "name_multi", "name_parked"):
                 twins = [s for s, _ in ctx.name_index.get(normalize_name(title), [])]
-                outcome, sid = name_outcome(twins, meta, src)
+                outcome, sid = name_outcome(twins, meta, src, linked)
+                if sid:
+                    linked.add(sid)
             else:
                 outcome = "mint"
             counts[outcome] += 1
