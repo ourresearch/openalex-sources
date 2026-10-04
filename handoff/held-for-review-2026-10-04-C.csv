@@ -1,0 +1,29 @@
+tier,tier_reason,context_name,issns,outcome,source_id,matched_ids,homepage_url,country_code,total_record_count
+C,issn_not_registered,Historias,1405-7794,held_name_issnless,,4306512200;4393913700,https://revistas.inah.gob.mx/index.php/historias,MX,1621
+C,under_3_years+title_unchecked,Jurnal Teknik Mesin,2302-6987,held_name_issnless,,4306517160;4390297091;4210184241;4210188939;4210202528;4210235415;4220650929;4210178679,https://ejournal.unesa.ac.id/index.php/jtm-unesa,ID,961
+C,under_3_years+title_unchecked,Jurnal Pendidikan Teknik Mesin,2302-5301,held_name_issnless,,4306517024;4210203050;5407003191,https://ejournal.unesa.ac.id/index.php/jurnal-pendidikan-teknik-mesin,ID,834
+C,under_3_years+title_unchecked,Seminar Nasional Pengabdian kepada Masyarakat,2986-4615,held_name_issnless,,4306529604;4404676840,https://eproceeding.undiksha.ac.id/index.php/SENADIMAS,ID,559
+C,under_3_years+title_unchecked,LATERNE,2302-2833,held_name_issnless,,4306518242;4306518243,https://ejournal.unesa.ac.id/index.php/laterne,ID,496
+C,under_3_years+title_unchecked,International Journal of Social Science and Education Research,2637-6067;3080-2814,held_name_issnless,,4306514065;4387290143,https://ijosser.org/index.php/ojs,US,451
+C,under_3_years+title_unchecked,prosiding,3047-3160,held_name_issnless,,4306524570;4306524571;4387291007,https://prosiding.senakota.nusaputra.ac.id/index.php/prosiding,ID,270
+C,under_3_years+title_unchecked,SCHOLAR,2181-4147,held_name_issnless,,2764548821;7407057288,https://scholar-journal.org/index.php/scholar,UZ,255
+C,under_3_years+title_unchecked,Mental Health and Lifestyle Journal,3115-8021,held_same_host_other_issns,,5407051152,https://mhljournal.com/index.php/mhlj,IR,232
+C,title_mismatch,Revista de Estudos Jurídicos,2447-0384,held_name_issnless,,4363607260,http://www.actiorevista.com.br/index.php/actiorevista,BR,194
+C,under_3_years+title_unchecked,World Scientific Research Journal,2472-3703;3080-2822,held_name_issnless,,4306534957;5407053674,https://wsr-j.org/index.php/ojs,US,122
+C,under_3_years+title_unchecked,Jurnal Manajemen dan Akuntansi,1411-464X,held_name_issnless,,4306516912;4404677196,https://journal-stieibjm.com/index.php/juma,ID,100
+C,under_100_records+title_unchecked,Paradigma,2567-1162,held_name_issnless,,4306522027;4306522028;4210168080;4210224630;4404677341,https://www.uni-muenster.de/Ejournals/index.php/paradigma,DE,95
+C,under_100_records+title_unchecked,Letras,2524-938X,held_name_issnless,,2739246010;4387285096;4210170307;4210203151;4210232374,https://perio.unlp.edu.ar/ojs/index.php/letras,AR,87
+C,under_100_records+title_unchecked,Jurnal Manajemen,1410-9247;3046-4617,held_name_issnless,,4306516910;4210233034;4387289539;4394736562;4210193747;4210206599;4210218268;4210224989;4220651764;4210195661;4210195910,https://journals.upi-yai.ac.id/index.php/Jurnalmanajemen,ID,83
+C,under_3_years+under_100_records+title_unchecked,Journal of Radiation Medicine in the Tropics,3115-4883,held_same_host_other_issns,,4387282824,https://jrmt.ng/index.php/jrmt,NG,79
+C,under_100_records+title_unchecked,Revista de Privacidad y Derecho Digital,2444-5762,held_name_issnless,,4306527029,https://revista.proeditio.com/rpdd,ES,73
+C,under_3_years+under_100_records+title_unchecked,Paradigma,1985-1731;3083-9998,held_name_issnless,,4306522027;4306522028;4210168080;4210224630;4404677341,https://paradigmaipgktb.com/index.php/journal,MY,68
+C,under_100_records+title_unchecked,Jurnal Manajemen,2303-3495;2746-685X,held_name_issnless,,4306516910;4210233034;4387289539;4394736562;4210193747;4210206599;4210218268;4210224989;4220651764;4210195661;4210195910,https://e-journal.unmuhkupang.ac.id/index.php/jm,ID,62
+C,under_100_records+title_unchecked,Journal Of Social Sciences,1812-0687,held_name_issnless,,54870544;4210197619;4210199648;4210202442;4387278850;4387997690;5407056316;4210202234,http://jss.gcuf.edu.pk/index.php/jss,PK,49
+C,under_100_records+title_unchecked,Jurnal Ilmu Hukum,2964-1209,held_name_issnless,,4306516790;5407048473;4387285308,https://jurnal.iaih.ac.id/index.php/JURIH,ID,41
+C,under_100_records+title_unchecked,Journal of Accounting,3047-1478,held_name_issnless,,2765000040;4210213793,https://jurnal.asrypersadaquality.com/index.php/accounting,,26
+C,under_100_records+title_unchecked,PAKISTAN JOURNAL OF HEALTH SCIENCES,2522-3445;2522-3453,held_name_issnless,,4363604913;4387279893,https://pjhs.com.pk/index.php/V1I1,PK,23
+C,under_3_years+under_100_records+title_unchecked,Jurnal Ilmu Sosial dan Ilmu Politik,3124-1891,held_name_issnless,,4306516805;4387282110;4387280539;4210182743;4210229399,https://ojs.pustakabangsaindonesia.com/index.php/jisip,,20
+C,under_3_years+under_100_records+title_unchecked,Journal of Accounting and Management,3110-3308,held_name_issnless,,2764523894;5407051016,https://jurnalsjam.com/sjam,ID,15
+C,under_3_years+under_100_records+title_unchecked,Journal of Community Service,3123-3406,held_name_issnless,,4363606440;4387282765,https://jurnal.pillarkhaftaindonesia.id/index.php/abdimas,ID,10
+C,under_3_years+under_100_records+title_unchecked,International Journal of Law,3109-7243,held_name_issnless,,2765073733;4210180846,https://journal.berkahopungpungan.com/index.php/IJL,ID,9
+C,under_3_years+under_100_records+title_unchecked,Journal of Elementary Education,2252-9047,held_name_issnless,,4306532322;4404677682;4210203374;5407048266,https://journal.unnes.ac.id/journals/index.php/jee,ID,8
