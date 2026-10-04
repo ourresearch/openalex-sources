@@ -65,6 +65,7 @@ import requests
 from sqlalchemy import text
 
 from db import engine
+from jobs.clean_source_names import clean_source_name
 from sources_lib import (
     MatchContext,
     enrich_journal,
@@ -315,6 +316,7 @@ def homepage_from_oai(oai_url, set_spec):
 def clean_title(t):
     t = html.unescape(t or "")
     t = re.sub(r"\s+", " ", t).strip().strip('"').strip()
+    t = clean_source_name(t)  # no ISSN strings / marketing text in a source name (audit 2026-10-04)
     return t or None
 
 
