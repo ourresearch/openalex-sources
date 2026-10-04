@@ -6,6 +6,8 @@
                              OR is_in_scielo OR an OA match in the legacy ojs_journal
                              table (its is_oa column; no longer drives is_ojs)
                              OR the effective high_oa_rate_issn list
+                             OR minted from the PKP Beacon (ojs_beacon_mint: OJS journals
+                             are OA by default -- Casey, oxjob #1539)
   is_fully_open_in_jstage -- a J-STAGE OA window covers the source's whole
                              publication span (source_publication_years snapshot)
 
@@ -35,6 +37,7 @@ def run(dry_run=False):
                 SELECT s.id,
                        BOOL_OR(oj.is_oa) AS ojs_is_oa,
                        BOOL_OR(h.issn_l IS NOT NULL) AS hoar_listed,
+                       BOOL_OR(bm.source_id IS NOT NULL) AS beacon_minted,
                        MIN(h.start_year) AS hoar_start,
                        BOOL_OR(j.issn IS NOT NULL
                                AND p.first_publication_year IS NOT NULL
@@ -45,6 +48,7 @@ def run(dry_run=False):
                 LEFT JOIN source_issn si ON si.source_id = s.id
                 LEFT JOIN ojs_journal oj ON oj.issn = si.issn
                 LEFT JOIN high_oa_rate_issn h ON h.issn_l = si.issn
+                LEFT JOIN ojs_beacon_mint bm ON bm.source_id = s.id
                 LEFT JOIN jstage_journal j ON j.issn = si.issn
                 LEFT JOIN source_publication_years p ON p.source_id = s.id
                 GROUP BY s.id
@@ -58,12 +62,14 @@ def run(dry_run=False):
                         ELSE (COALESCE(s.publisher ~* :pub_rule, FALSE)
                               OR COALESCE(s.is_in_scielo, FALSE)
                               OR COALESCE(ps.ojs_is_oa, FALSE)
-                              OR COALESCE(ps.hoar_listed, FALSE)) END AS new_hoar,
+                              OR COALESCE(ps.hoar_listed, FALSE)
+                              OR COALESCE(ps.beacon_minted, FALSE)) END AS new_hoar,
                    CASE WHEN o.curated_is_oa = FALSE THEN NULL
                         WHEN o.curated_flip_year IS NOT NULL THEN o.curated_flip_year + 1
                         WHEN COALESCE(s.publisher ~* :pub_rule, FALSE)
                           OR COALESCE(s.is_in_scielo, FALSE)
-                          OR COALESCE(ps.ojs_is_oa, FALSE) THEN NULL
+                          OR COALESCE(ps.ojs_is_oa, FALSE)
+                          OR COALESCE(ps.beacon_minted, FALSE) THEN NULL
                         ELSE ps.hoar_start END AS new_hoar_start,
                    COALESCE(ps.jstage_full, FALSE) AS new_jstage_full
             FROM sources s

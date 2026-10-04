@@ -73,6 +73,7 @@ from sources_lib import (
     mint_source,
     normalize_name,
     park_multi_match,
+    recompute_is_oa,
     recompute_is_ojs,
     recompute_listed_in,
 )
@@ -673,6 +674,27 @@ def name_outcome(twins, meta, src, linked=()):
     return "mint_name_twin", None
 
 
+def beacon_edition(csv_path):
+    """Beacon edition a candidates CSV was cut from: the date in its file name
+    (candidates-2026-07-18.csv -> 2026-07-18), else the file name."""
+    m = re.search(r"(\d{4}-\d{2}-\d{2})", Path(csv_path).name)
+    return m.group(1) if m else Path(csv_path).name
+
+
+def register_beacon_mint(conn, sid, edition, receipt_name):
+    """Record a Beacon mint in ojs_beacon_mint and flag it OA now. Beacon-minted OJS
+    journals are OA by default (Casey, oxjob #1539): membership is an input to
+    is_oa_high_oa_rate in apply_oa_flags; setting the flag here as well means the
+    journal does not wait for Monday's recompute."""
+    conn.execute(text(
+        "INSERT INTO ojs_beacon_mint (source_id, edition, receipt) VALUES (:s, :e, :r) "
+        "ON CONFLICT (source_id) DO NOTHING"), {"s": sid, "e": edition, "r": receipt_name})
+    conn.execute(text(
+        "UPDATE sources SET is_oa_high_oa_rate = TRUE, high_oa_rate_start_year = NULL, "
+        "updated_date = now() WHERE id = :s AND NOT COALESCE(is_oa_high_oa_rate, FALSE)"),
+        {"s": sid})
+
+
 def mint(csv_path, tiers=("A", "B"), dry_run=False, limit=None, receipt=None, batch=200):
     with open(csv_path, newline="", encoding="utf-8") as f:
         todo = [r for r in csv.DictReader(f) if r["tier"] in tiers]
@@ -683,6 +705,10 @@ def mint(csv_path, tiers=("A", "B"), dry_run=False, limit=None, receipt=None, ba
         src = {r.id: r for r in conn.execute(text(
             "SELECT id, type, homepage_url, issns, country_code FROM sources"))}
     print(f"{len(todo):,} candidates in tiers {','.join(tiers)}; dry_run={dry_run}", flush=True)
+
+    receipt = Path(receipt) if receipt else OUT_DIR / (
+        f"receipt-{date.today().isoformat()}-{''.join(tiers)}{'-dry' if dry_run else ''}.csv")
+    edition = beacon_edition(csv_path)
 
     counts = Counter()
     out_rows = []
@@ -720,6 +746,7 @@ def mint(csv_path, tiers=("A", "B"), dry_run=False, limit=None, receipt=None, ba
                     park_multi_match(conn, SOURCE_FEED, issns, twins, title)
                 elif outcome.startswith("mint"):
                     sid = mint_source(conn, ctx, title, source_type="journal", issns=issns, **meta)
+                    register_beacon_mint(conn, sid, edition, receipt.name)
                 written += 1
                 if written % batch == 0:
                     trans.commit()
@@ -737,7 +764,8 @@ def mint(csv_path, tiers=("A", "B"), dry_run=False, limit=None, receipt=None, ba
         else:
             ojs = recompute_is_ojs(conn)
             listed = recompute_listed_in(conn)
-            print(f"is_ojs rows changed: {ojs}; listed_in rows changed: {listed}")
+            oa = recompute_is_oa(conn)
+            print(f"is_ojs rows changed: {ojs}; listed_in rows changed: {listed}; is_oa: {oa}")
             trans.commit()
     except Exception:
         trans.rollback()
@@ -745,8 +773,6 @@ def mint(csv_path, tiers=("A", "B"), dry_run=False, limit=None, receipt=None, ba
     finally:
         conn.close()
 
-    receipt = Path(receipt) if receipt else OUT_DIR / (
-        f"receipt-{date.today().isoformat()}-{''.join(tiers)}{'-dry' if dry_run else ''}.csv")
     receipt.parent.mkdir(parents=True, exist_ok=True)
     with open(receipt, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(out_rows[0]) if out_rows else ["outcome"])
