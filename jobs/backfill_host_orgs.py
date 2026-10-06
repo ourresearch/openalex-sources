@@ -53,6 +53,7 @@ def main():
     ap.add_argument("--manifest", required=True, help="reviewed manifest CSV")
     ap.add_argument("--execute", action="store_true", help="write (default: dry run)")
     ap.add_argument("--limit", type=int, default=None, help="only process first N rows (canary)")
+    ap.add_argument("--receipt", default=None, help="on --execute, write the rows sent to the UPDATE as CSV")
     args = ap.parse_args()
 
     manifest = load_manifest(args.manifest, args.limit)
@@ -124,6 +125,13 @@ def main():
                       f"remainder skipped by server-side guards (re-run to see which)",
                       flush=True)
             print(f"committed {done} rows ({column})", flush=True)
+
+    if args.execute and args.receipt and to_write:
+        with open(args.receipt, "w", newline="", encoding="utf-8") as f:
+            wr = csv.writer(f)
+            wr.writerow(["source_id", "column", "target_id", "expected_publisher_str"])
+            wr.writerows((sid, column, tid, expected) for column, tid, sid, expected in to_write)
+        print(f"receipt: {args.receipt} ({len(to_write)} rows sent; server-side guards may skip some, see chunk notes)")
 
     mode = "EXECUTE" if args.execute else "DRY RUN"
     print(f"\n{mode} — {len(manifest)} manifest rows: {counts}")
