@@ -1,0 +1,11 @@
+source_id,column,target_id,expected_publisher_str
+4210190024,publisher_id,4324004152,AI Publications
+4210198074,publisher_id,4324004152,AI Publications
+4210207533,publisher_id,4324004152,AI Publications
+4210227501,publisher_id,4324004152,AI Publications
+4210236440,publisher_id,4324004152,AI Publications
+4210236772,publisher_id,4324004152,AI Publications
+7407057392,institution_id,4405263358,AIIDE Publishing & Digital
+7407057767,institution_id,4405263358,AIIDE Publishing & Digital
+4387289382,institution_id,4405276653,AMIK Mahaputra Riau
+4210240063,institution_id,4405266339,APESC - Associacao Pro-Ensino em Santa Cruz do Sul
