@@ -1056,104 +1056,35 @@ def fetch_anvur():
 
 
 # --- kci ----------------------------------------------------------------------
-# Korea Citation Index (KCI), National Research Foundation of Korea: journals
-# with KCI accreditation. Three lists: kci-excellent (우수등재, the top tier),
-# kci-registered (등재) and kci-candidate (등재후보). The NRF's open API needs a
-# data.go.kr service key and the site's Excel export needs a login, so the
-# public journal search is read instead: filter2 = the accreditation code
-# (09 / 02 / 03), 100 journals a page, then each journal's page for its ISSN
-# and eISSN. ~4.3K pages; cached in the temp dir so a rerun resumes.
-KCI = "https://www.kci.go.kr/kciportal"
-KCI_STATUS = {"09": "kci-excellent", "02": "kci-registered", "03": "kci-candidate"}
-KCI_WORKERS = 6  # each journal page redirects to a citation page the server takes ~10 s to build
-
-
-def _kci_post(url, data):
-    from urllib.parse import urlencode
-    for attempt in range(4):
-        try:
-            req = Request(url, data=urlencode(data).encode(), headers={"User-Agent": BROWSER_UA})
-            with urlopen(req, timeout=90) as r:
-                return r.read().decode("utf-8", "replace")
-        except Exception as e:  # noqa: BLE001
-            if attempt == 3:
-                raise
-            print(f"  kci: retry {attempt + 1} ({e})", file=sys.stderr)
-            time.sleep(5 * (attempt + 1))
+# Korea Citation Index (KCI), National Research Foundation of Korea (NRF):
+# journals with KCI accreditation. Three lists: kci-excellent (우수등재, the top
+# tier), kci-registered (등재) and kci-candidate (등재후보). Source: NRF's
+# "KCI학술지정보" file on data.go.kr (dataset 3049043; CSV in CP949, updated
+# yearly; "이용허락범위 제한 없음" = no restriction on use; no login for file
+# data). The file id changes with each update, so it is read off the dataset
+# page. ISSNs are printed without the hyphen.
+KCI_PAGE = "https://www.data.go.kr/data/3049043/fileData.do"
+KCI_STATUS = {"우수등재": "kci-excellent", "등재": "kci-registered", "등재후보": "kci-candidate"}
 
 
 def fetch_kci():
-    import tempfile
-    from concurrent.futures import ThreadPoolExecutor
-    cache = Path(tempfile.gettempdir()) / "kci-cache.jsonl"
-    done = {}
-    if cache.exists():
-        for line in cache.read_text(encoding="utf-8").splitlines():
-            rec = json.loads(line)
-            done[rec["key"]] = rec["value"]
-    lock = threading.Lock()
-
-    def remember(key, value):
-        with lock:
-            done[key] = value
-            with open(cache, "a", encoding="utf-8") as f:
-                f.write(json.dumps({"key": key, "value": value}, ensure_ascii=False) + "\n")
-
-    journals = {}  # sereId -> (insiId, list_id); a journal under two codes keeps the higher one (09 first)
-    for code, list_id in KCI_STATUS.items():
-        # One sorted page per code: paging the default (relevance) order returns a different mix on
-        # each request, and the result rows repeat journals (one row per co-publisher), e.g. 4,035
-        # rows = 2,691 journals for code 02 on 2026-10-09.
-        h = _kci_post(f"{KCI}/po/search/poSereSearList.kci", {
-            "poSearchBean.searType": "journal", "poSearchBean.filter2": code, "poSearchBean.docsCount": "10000",
-            "poSearchBean.startPg": "1", "poSearchBean.resultForm": "Y",
-            "poSearchBean.sortName": "INDE_TITL", "poSearchBean.sortDir": "asc"})
-        stated = re.search(rf'id="resiDivCd{code}".*?\(<span>([\d,]+)</span>\)', h, re.S)
-        found = re.findall(r"sereSearBean\.insiId=(\w+)&(?:amp;)?sereSearBean\.sereId=(\w+)", h)
-        n_rows = len(re.findall(r'name="SERE_ID"', h))
-        if stated and n_rows < int(stated.group(1).replace(",", "")):
-            raise SystemExit(f"kci: {list_id}: {n_rows} rows of {stated.group(1)}; refusing a partial list")
-        for insi, sere in dict.fromkeys(found):
-            journals.setdefault(sere, (insi, list_id))
-        print(f"  kci: {list_id}: {n_rows:,} rows, {len({s for _, s in found}):,} journals", flush=True)
-        time.sleep(2)
-
-    def detail(sere):
-        if sere in done:
-            return
-        insi = journals[sere][0]
-        try:
-            h = _get(f"{KCI}/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId={insi}"
-                     f"&sereSearBean.sereId={sere}", retries=4, ua=BROWSER_UA, timeout=60).decode("utf-8", "replace")
-        except Exception as e:  # noqa: BLE001 -- a rerun resumes from the cache
-            print(f"  kci: {sere} failed ({e})", file=sys.stderr)
-            return
-        text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<script.*?</script>", "", h, flags=re.S))))
-        p = re.search(r"\bISSN\s+(\d{4}-\d{3}[\dXx])", text)
-        e = re.search(r"\beISSN\s+(\d{4}-\d{3}[\dXx])", text)
-        t = re.search(r"<title>\s*([^<|]+)", h)
-        latest = re.search(r"최근 발행정보\s+(\d{4})년", text)
-        remember(sere, {"issns": _issns(p and p.group(1), e and e.group(1)),
-                        "title": html.unescape(t.group(1)).strip() if t else "",
-                        "latest_year": int(latest.group(1)) if latest else None})
-        time.sleep(0.3)
-
-    with ThreadPoolExecutor(KCI_WORKERS) as pool:
-        for i, _ in enumerate(pool.map(detail, sorted(journals)), 1):
-            if i % 500 == 0:
-                print(f"  kci: {i:,}/{len(journals):,} journal pages", flush=True)
-    missing = [s for s in journals if s not in done]
-    if missing:
-        raise SystemExit(f"kci: {len(missing)} journal pages failed; rerun to resume")
-    rows, counts = {v: [] for v in KCI_STATUS.values()}, Counter()
-    for sere, (insi, list_id) in sorted(journals.items()):
-        d = done[sere]
-        if not d["issns"]:
-            counts["no_issn"] += 1
+    page = _get(KCI_PAGE, ua=BROWSER_UA).decode("utf-8", "replace")
+    m = re.search(r"atchFileId=(FILE_\d+)", page)
+    if not m:
+        raise SystemExit("kci: no file id on the data.go.kr dataset page")
+    raw = _get(f"https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId={m.group(1)}&fileDetailSn=1", ua=BROWSER_UA)
+    text = raw.decode("cp949") if not raw.startswith(b"\xef\xbb\xbf") else raw.decode("utf-8-sig")
+    rows, skipped = {v: [] for v in KCI_STATUS.values()}, Counter()
+    for r in csv.DictReader(io.StringIO(text)):
+        list_id = KCI_STATUS.get((r.get("등재 구분") or "").strip())
+        issns = _issns(_issn8(r.get("국제표준연속 간행물번호(종이식)")), _issn8(r.get("국제표준연속 간행물번호(전자식)")))
+        if not list_id or not issns:
+            skipped[(r.get("등재 구분") or "blank") if issns else "no_issn"] += 1
             continue
-        rows[list_id].append(_row(d["title"], d["issns"]))
-        counts[f"latest_issue_{'none' if not d['latest_year'] else ('<2024' if d['latest_year'] < 2024 else '2024+')}"] += 1
-    print("  kci: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items()) + f"; {dict(counts)}")
+        rows[list_id].append(_row(r.get("학술지명(외국어)") or r.get("학술지명(국문)"), issns))
+    if sum(len(v) for v in rows.values()) < 2000:
+        raise SystemExit("kci: under 2,000 journals; file layout changed?")
+    print(f"  kci: file {m.group(1)}: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items()) + f"; skipped {dict(skipped)}")
     return rows
 
 
@@ -1296,7 +1227,9 @@ def fetch_nbra():
     rows, skipped = [], []
     for i, url in enumerate(links, 1):
         h = _get_browser(url).decode("utf-8", "replace")
-        issns = _issns(*re.findall(r"ISSN\s*(\d{4}-\d{3}[\dXx])", h))
+        # the site footer carries CAICYT's own ISSN (1668-0081) on every page: read the post body only
+        body = h.split("Horario de atención")[0]
+        issns = _issns(*re.findall(r"ISSN\s*(\d{4}-\d{3}[\dXx])", body))
         title = re.search(r"<h1[^>]*>(.*?)</h1>", h, re.S)
         title = html.unescape(re.sub(r"<[^>]+>", "", title.group(1))).strip() if title else url.rstrip("/").rsplit("/", 1)[-1]
         if issns:
