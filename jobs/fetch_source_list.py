@@ -1277,6 +1277,74 @@ def fetch_publindex():
     return rows
 
 
+# --- dongbi -------------------------------------------------------------------
+# Dongbi Index (东壁指数) global high-quality journal list, by Dongbi Technology
+# Data (Shenzhen), issued with the Institute of Medical Information of the
+# Chinese Academy of Medical Sciences; 2025 edition, launched 24 Mar 2026
+# (Xinhua: "free to search and download"). Grades A (top), B, C, D, assigned per
+# subject, so a journal can carry several grades; it is listed once, under its
+# best grade (one list per grade: dongbi-a .. dongbi-d). Read from the public
+# list endpoint behind dbdata.com/dongbiindex/ (no login; 100 rows a page; one
+# row per journal x subject). Suggested by Ross Mounce (oxjob #1615).
+DONGBI_API = "https://www.dbdata.com/api/literature/journalEvaluation/list"
+DONGBI_YEAR = 2025
+DONGBI_GRADES = {"A": "dongbi-a", "B": "dongbi-b", "C": "dongbi-c", "D": "dongbi-d"}
+
+
+def _dongbi_page(page, order):
+    body = json.dumps({"page": page, "size": 100, "year": DONGBI_YEAR,
+                       "sortField": "journalName", "sortOrder": order}).encode()
+    for attempt in range(4):
+        try:
+            req = Request(DONGBI_API, data=body, headers={"User-Agent": BROWSER_UA, "Content-Type": "application/json"})
+            with urlopen(req, timeout=60) as r:
+                d = json.loads(r.read())
+            if not d.get("success"):
+                raise RuntimeError(d.get("msg"))
+            return d["data"]
+        except Exception as e:  # noqa: BLE001
+            if attempt == 3:
+                raise
+            print(f"  dongbi: retry {attempt + 1} page {page} ({e})", file=sys.stderr)
+            time.sleep(5 * (attempt + 1))
+
+
+def fetch_dongbi():
+    seen, total = {}, None
+    for order in ("asc", "desc"):  # 15.6K rows, 10K per sort order: ascending then descending covers them all
+        page = 1
+        while page <= 100:  # the endpoint serves the first 10,000 rows of a sort order only (page 101 -> HTTP 500)
+            d = _dongbi_page(page, order)
+            total = d.get("total") or total
+            if not d.get("list"):
+                break
+            for r in d["list"]:
+                seen[r["id"]] = r
+            page += 1
+            time.sleep(0.5)
+        print(f"  dongbi: {len(seen):,} of {total:,} rows after the {order} pass", flush=True)
+        if total and len(seen) >= total:
+            break
+    if not total or len(seen) < total:
+        raise SystemExit(f"dongbi: got {len(seen)} of {total} rows; refusing a partial list")
+    best, counts = {}, Counter()
+    for r in seen.values():
+        issns = _issns(r.get("issn"), r.get("eissn"))
+        grade = (r.get("dbGrade") or "").strip().upper()
+        if not issns or grade not in DONGBI_GRADES:
+            counts["no_issn_or_grade"] += 1
+            continue
+        key = issns[0]
+        if key not in best or grade < best[key][1]:
+            best[key] = (r.get("journalName"), grade, issns)
+    rows = {v: [] for v in DONGBI_GRADES.values()}
+    for name, grade, issns in best.values():
+        rows[DONGBI_GRADES[grade]].append(_row(name, issns))
+    print("  dongbi: " + ", ".join(f"{k} {len(v):,}" for k, v in rows.items())
+          + f" journals (best grade across subjects); {dict(counts)}")
+    return rows
+
+
 ADAPTERS = {
     "sinta": fetch_sinta,                      # grouped: sinta-s1 .. sinta-s6
     "tci": lambda today: fetch_tci(),          # grouped: tci-1, tci-2
@@ -1304,6 +1372,7 @@ ADAPTERS = {
     "fecyt-seal": lambda today: fetch_fecyt(),
     "nbra": lambda today: fetch_nbra(),
     "publindex": lambda today: fetch_publindex(),  # grouped: publindex-a1 .. -c, publindex-recognized
+    "dongbi": lambda today: fetch_dongbi(),    # grouped: dongbi-a .. dongbi-d
 }
 
 
