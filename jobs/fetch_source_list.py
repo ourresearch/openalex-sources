@@ -1345,6 +1345,100 @@ def fetch_dongbi():
     return rows
 
 
+# --- ddh ----------------------------------------------------------------------
+# Diamond Discovery Hub (European Diamond Capacity Hub, EDCH): ~4,000 Diamond OA
+# journals whose community ownership and no-fee status are vetted against six
+# operational criteria (zenodo.org/records/12721408). Requested by Johan Rooryck
+# and Pierre Mounier (OPERAS), 2026-10-21. Harvested over the DDH OAI-PMH
+# endpoint in JMEF, which carries ISSNs and the per-journal Diamond criteria
+# (ddh.edch.eu/docs/oai-api-documentation/). Deleted records are skipped; a
+# journal any of whose Diamond criteria is false is kept inactive (for the
+# record) rather than listed. Parsed by local name, so a namespace change on
+# their side does not silently empty the list.
+DDH_OAI = "https://ddh.edch.eu/oai/journals"
+DDH_CRITERIA = ("scholarly-journal", "community-owned", "open-access-with-open-licenses",
+                "no-fees", "open-to-all-authors")
+
+
+def _local(tag):
+    return tag.rsplit("}", 1)[-1]
+
+
+def _kids(el, name):
+    return [c for c in el if _local(c.tag) == name]
+
+
+def _find(el, name):
+    for c in el.iter():
+        if _local(c.tag) == name:
+            return c
+    return None
+
+
+def _ddh_record(rec):
+    """One OAI <record> -> loader row, or None for a deleted/ISSN-less record."""
+    header = _find(rec, "header")
+    if header is None or header.get("status") == "deleted":
+        return None
+    journal = _find(rec, "journal")
+    if journal is None:
+        return None
+    issns = _issns(*[(e.text or "") for e in journal.iter() if _local(e.tag) == "issn"])
+    if not issns:
+        return None
+    title_el = next((e for e in journal.iter() if _local(e.tag) == "title"), None)
+    name = " ".join((title_el.text or "").split()) if title_el is not None else ""
+    crit = _find(journal, "diamond-criteria")
+    failed = []
+    if crit is not None:
+        for c in crit:
+            if _local(c.tag) in DDH_CRITERIA and (c.get("value") or "").strip().lower() == "false":
+                failed.append(_local(c.tag))
+    if failed:
+        return _row(name, issns, active=False, reason="DDH Diamond criteria not met: " + ", ".join(failed))
+    return _row(name, issns)
+
+
+def fetch_ddh():
+    import xml.etree.ElementTree as ET
+    url = f"{DDH_OAI}?verb=ListRecords&metadataPrefix=oai_jmef"
+    rows, seen_issn, n_records, n_deleted, n_no_issn, pages = [], set(), 0, 0, 0, 0
+    while url:
+        root = ET.fromstring(_get(url))
+        err = _find(root, "error")
+        if err is not None:
+            if err.get("code") == "noRecordsMatch":
+                break
+            raise SystemExit(f"ddh OAI error {err.get('code')}: {err.text}")
+        pages += 1
+        lr = _find(root, "ListRecords")
+        for rec in (_kids(lr, "record") if lr is not None else []):
+            n_records += 1
+            header = _find(rec, "header")
+            if header is not None and header.get("status") == "deleted":
+                n_deleted += 1
+                continue
+            row = _ddh_record(rec)
+            if row is None:
+                n_no_issn += 1
+                continue
+            key = row["issns"]
+            if key in seen_issn:  # OAI pages can overlap if the list moves mid-harvest
+                continue
+            seen_issn.add(key)
+            rows.append(row)
+        tok = _find(lr, "resumptionToken") if lr is not None else None
+        token = (tok.text or "").strip() if tok is not None else ""
+        url = f"{DDH_OAI}?verb=ListRecords&resumptionToken={token}" if token else None
+        if pages % 10 == 0:
+            print(f"  ddh: {pages} pages, {n_records:,} records", flush=True)
+        time.sleep(0.5)
+    n_inactive = sum(r["active"] == "false" for r in rows)
+    print(f"  ddh: {n_records:,} records over {pages} pages; {n_deleted:,} deleted, {n_no_issn:,} without ISSN; "
+          f"{len(rows):,} journals ({n_inactive:,} failing a Diamond criterion, kept inactive)")
+    return rows
+
+
 ADAPTERS = {
     "sinta": fetch_sinta,                      # grouped: sinta-s1 .. sinta-s6
     "tci": lambda today: fetch_tci(),          # grouped: tci-1, tci-2
@@ -1373,6 +1467,7 @@ ADAPTERS = {
     "nbra": lambda today: fetch_nbra(),
     "publindex": lambda today: fetch_publindex(),  # grouped: publindex-a1 .. -c, publindex-recognized
     "dongbi": lambda today: fetch_dongbi(),    # grouped: dongbi-a .. dongbi-d
+    "ddh": lambda today: fetch_ddh(),
 }
 
 
