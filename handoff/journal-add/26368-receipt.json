@@ -1,0 +1,29 @@
+{
+ "run_at": "2026-10-22T12:03:08.142853+00:00",
+ "execute": true,
+ "manifest": "--json",
+ "minted": [],
+ "updated": [
+  {
+   "source_id": 7407089820,
+   "name": "International Journal of Poultry - Ornamental Birds Science and Technology",
+   "issns_added": []
+  }
+ ],
+ "endpoints": [
+  {
+   "endpoint_id": "p2ih4rde8tft92r4zjtp",
+   "source_id": 7407089820,
+   "pmh_url": "https://www.ijapob.com/index.php/index/oai",
+   "pmh_set": "IJAPOB"
+  }
+ ],
+ "held": [],
+ "refused": [],
+ "actions": [
+  "EXISTING 7407089820 'International Journal of Poultry - Ornamental Birds Science and Technology': ISSNs added []",
+  "  REGISTERED endpoint p2ih4rde8tft92r4zjtp https://www.ijapob.com/index.php/index/oai [IJAPOB] -> 7407089820 journal_host (0 other rows on the host, none overlapping)",
+  "minted 0, existing 1, endpoints 1, held 0, refused 0; listed_in rows changed 0",
+  "COMMITTED"
+ ]
+}
