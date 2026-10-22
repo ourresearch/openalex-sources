@@ -1,0 +1,32 @@
+{
+ "run_at": "2026-10-22T12:51:28.467704+00:00",
+ "execute": true,
+ "manifest": "--json",
+ "minted": [
+  {
+   "source_id": 7407089986,
+   "name": "International Journal of Advanced Medical and Scientific Research (IJAMSR)",
+   "issns": [
+    "3139-9835"
+   ],
+   "ticket": "26370"
+  }
+ ],
+ "updated": [],
+ "endpoints": [
+  {
+   "endpoint_id": "fh73trz2pew0z0t4syma",
+   "source_id": 7407089986,
+   "pmh_url": "https://ijamsr.org/index.php/index/oai",
+   "pmh_set": "IJAMSR"
+  }
+ ],
+ "held": [],
+ "refused": [],
+ "actions": [
+  "MINTED 7407089986 'International Journal of Advanced Medical and Scientific Research (IJAMSR)' ['3139-9835']",
+  "  REGISTERED endpoint fh73trz2pew0z0t4syma https://ijamsr.org/index.php/index/oai [IJAMSR] -> 7407089986 journal_host (0 other rows on the host, none overlapping)",
+  "minted 1, existing 0, endpoints 1, held 0, refused 0; listed_in rows changed 0",
+  "COMMITTED"
+ ]
+}
