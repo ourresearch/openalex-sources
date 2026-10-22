@@ -148,6 +148,7 @@ class MatchContext:
     """
 
     def __init__(self, conn, name_link=False, exclude_from_names=()):
+        self.exclude_from_names = set(exclude_from_names)
         self.issn_to_sid = {}
         self.sid_to_issns = defaultdict(set)
         for sid, issn in conn.execute(text("SELECT source_id, issn FROM source_issn")):
@@ -165,10 +166,9 @@ class MatchContext:
         self.name_index = defaultdict(list)  # normalized name -> [(sid, publisher)]
         self.parked = set()
         if name_link:
-            skip = set(exclude_from_names)
             for sid, name, publisher in conn.execute(text(
                     "SELECT id, display_name, publisher FROM sources")):
-                if sid not in skip:
+                if sid not in self.exclude_from_names:
                     self.name_index[normalize_name(name)].append((sid, publisher))
             # sources with an unresolved name-link refusal stay parked even if
             # the guard would now pass (covers audited unlinks awaiting review)
@@ -232,7 +232,8 @@ def match_source(conn, ctx, issns, display_name, source_feed,
     use_name = ctx.name_link if use_name is None else (use_name and ctx.name_link)
     if not use_name or not display_name:
         return "none", None
-    candidates = ctx.name_index.get(normalize_name(display_name), [])
+    candidates = [(sid, pub) for sid, pub in ctx.name_index.get(normalize_name(display_name), [])
+                  if sid not in ctx.exclude_from_names]
     if len(candidates) == 1:
         sid, src_publisher = candidates[0]
         refused = name_link_guard(display_name, src_publisher, publisher)

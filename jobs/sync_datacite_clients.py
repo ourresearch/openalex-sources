@@ -134,6 +134,10 @@ def run(dry_run=False, limit=None, batch=200):
                 counts["added"] += 1
                 if not dry_run:
                     linked[c.id] = _mint(conn, ctx, c, issns)
+            if kind in ("issn", "name"):
+                # A source claimed this run is no longer a name-only candidate,
+                # just as if the link had existed when the context was built.
+                ctx.exclude_from_names.add(val)
             done += 1
             if done % batch == 0:
                 if not dry_run:
