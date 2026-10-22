@@ -77,3 +77,11 @@ def test_list_memberships_and_bar(tmp_path):
     assert aj.quality_bar("", ["ddh"], (2026, 2026)) == "pass: on ddh"
     assert aj.quality_bar("", [], (2022, 2025), this_year=2026) == "pass: records since 2022"
     assert aj.quality_bar("", [], (2026, 2026), this_year=2026).startswith("below")
+
+
+def test_beacon_counts_as_a_list(tmp_path):
+    lists = tmp_path / "source_lists"; lists.mkdir()
+    beacon = tmp_path / "ojs_beacon"; beacon.mkdir()
+    (lists / "ddh-2026-10-21.csv").write_text("name,issns,active\nX,1111-1111,true\n")
+    (beacon / "ojs-beacon-2026-07-18.csv").write_text("name,issns,active\nY,2757-6132,true\n")
+    assert aj.list_memberships(["2757-6132"], str(lists)) == ["pkp-beacon"]

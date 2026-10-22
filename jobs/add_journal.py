@@ -71,14 +71,19 @@ def valid_issn(i):
 def list_memberships(issns, lists_dir=LISTS_DIR):
     """Every list we load (data/source_lists/<list>-<date>.csv, newest edition per list) on which
     one of these ISSNs is an ACTIVE member: the 60-odd public source lists (DDH, Latindex, ERIH PLUS,
-    national lists...) plus the internal SINTA / TCI tiering lists. Works for journals with no
-    source yet, which the API's listed_in can't see."""
+    national lists...), the internal SINTA / TCI tiering lists, and the PKP Beacon of OJS journals
+    (data/ojs_beacon). Works for journals with no source yet, which the API's listed_in can't see."""
     want = {i.upper() for i in issns}
     newest = {}
     for f in sorted(os.listdir(lists_dir)) if os.path.isdir(lists_dir) else []:
         m = re.match(r"(.+)-(\d{4}-\d{2}-\d{2})\.csv$", f)
         if m and m.group(2) >= newest.get(m.group(1), ("", ""))[0]:
             newest[m.group(1)] = (m.group(2), f)
+    beacon_dir = os.path.join(os.path.dirname(lists_dir), "ojs_beacon")
+    if os.path.isdir(beacon_dir):  # the PKP Beacon (OJS journals), loaded as ojs_beacon_issn (#1424)
+        eds = sorted(f for f in os.listdir(beacon_dir) if re.match(r"ojs-beacon-\d{4}-\d{2}-\d{2}\.csv$", f))
+        if eds:
+            newest["pkp-beacon"] = ("", os.path.join("..", "ojs_beacon", eds[-1]))
     hits = []
     for list_id, (_, f) in sorted(newest.items()):
         with open(os.path.join(lists_dir, f), newline="", encoding="utf-8") as fh:
@@ -243,9 +248,10 @@ def _openalex_sources(issns, name):
         if os.environ.get("OPENALEX_API_KEY"):  # keyless calls share a small daily budget per IP
             params["api_key"] = os.environ["OPENALEX_API_KEY"]
         st, _, b = _get("https://api.openalex.org/sources?" + urllib.parse.urlencode(params))
-        if st == 200:
-            for s in json.loads(b)["results"]:
-                hits[s["id"]] = s
+        if st != 200:
+            return None  # lookup failed (e.g. 429 without a key): say so rather than report "no source"
+        for s in json.loads(b)["results"]:
+            hits[s["id"]] = s
     return list(hits.values())
 
 
@@ -258,10 +264,12 @@ def probe(url, issns=(), ticket="", name_hint=""):
     if gen:
         notes.append(gen.group(1).decode())
     base = repo_id = None
+    is_ojs_feed = False
     for cand in oai_candidates(final or url, html if st == 200 else b""):
         s, _, b = _get(cand + "?verb=Identify")
         if s == 200 and b"<Identify" in b:
             base = cand
+            is_ojs_feed = b"Open Journal Systems" in b or b"pkp.sfu.ca/ojs" in b
             m = re.search(rb"<repositoryIdentifier>([^<]+)", b)
             repo_id = m.group(1).decode().strip() if m else ""
             break
@@ -299,6 +307,9 @@ def probe(url, issns=(), ticket="", name_hint=""):
     if repo_id in PLACEHOLDER_IDS:
         notes.append(f"placeholder repository id {repo_id} (fine since #1407 Phase A unless walden excludes it)")
     existing = _openalex_sources(all_issns, set_name or rec["title"])
+    if existing is None:
+        notes.append("OpenAlex API lookup failed (set OPENALEX_API_KEY); apply still matches by registry ISSN")
+        existing = []
     if len(existing) > 1:
         verdict = "HOLD"
         notes.append("ISSNs on several OpenAlex sources: " + ", ".join(f"{s['id'][-11:]} {s['display_name']!r}" for s in existing))
@@ -312,6 +323,10 @@ def probe(url, issns=(), ticket="", name_hint=""):
         notes.append("no ISSN in the ticket or the feed: a mint needs a name check by hand")
         verdict = "HOLD"
     on_lists = list_memberships(all_issns)
+    # Kyle 2026-10-22: an OJS journal is on the OJS list; our Beacon snapshot lags new journals, so a
+    # live OJS install (page generator or OAI Identify) counts as pkp-beacon membership too
+    if "pkp-beacon" not in on_lists and (any("Open Journal Systems" in n for n in notes) or is_ojs_feed):
+        on_lists.append("pkp-beacon (live OJS)")
     row.update(on_lists=";".join(on_lists),
                bar=quality_bar(row["source_id"], on_lists, rec.get("years")))
     row.update(display_name=" ".join((set_name or rec["title"] or name_hint).split()), issns=";".join(all_issns),
