@@ -64,3 +64,16 @@ def test_parse_records():
     assert r["id_host"] == "ojs2.example.org" and r["years"] == (2021, 2024)
     err = aj.parse_records(f'<?xml version="1.0"?><OAI-PMH {OAI}><error code="noRecordsMatch"/></OAI-PMH>'.encode())
     assert err == {"error": "noRecordsMatch"}
+
+
+def test_list_memberships_and_bar(tmp_path):
+    (tmp_path / "latindex-2026-09-18.csv").write_text("name,issns,active\nOld,1111-1111,true\n")
+    (tmp_path / "ddh-2026-10-01.csv").write_text("name,issns,active\nX,3139-9835,true\n")
+    (tmp_path / "ddh-2026-10-21.csv").write_text("name,issns,active\nX,3139-9835;2757-6132,true\n")   # newest edition wins
+    (tmp_path / "jufo-1-2026-09-18.csv").write_text("name,issns,active\nGone,2757-6132,false\n")      # inactive rows don't count
+    assert aj.list_memberships(["2757-6132"], str(tmp_path)) == ["ddh"]
+    assert aj.list_memberships(["0000-0000"], str(tmp_path)) == []
+    assert aj.quality_bar("7407089820", [], (2026, 2026)).startswith("pass: existing")
+    assert aj.quality_bar("", ["ddh"], (2026, 2026)) == "pass: on ddh"
+    assert aj.quality_bar("", [], (2022, 2025), this_year=2026) == "pass: records since 2022"
+    assert aj.quality_bar("", [], (2026, 2026), this_year=2026).startswith("below")

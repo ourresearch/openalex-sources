@@ -8,8 +8,10 @@ Two steps, so a human (or the support desk) reviews what will be written:
       [--out handoff/journal-add-<ticket>.csv]
       Read-only, runs anywhere (no DATABASE_URL): finds the OAI feed (Identify), the journal's
       set (ListSets), checks a set-scoped ListRecords (record count, tombstones, ISSNs and title
-      in dc:source), and looks the ISSNs up in the OpenAlex API. Writes a one-row manifest and
-      prints a verdict: READY_NEW_SOURCE, READY_EXISTING_SOURCE or HOLD (with the reason).
+      in dc:source), looks the ISSNs up in the OpenAlex API and in every list we load
+      (data/source_lists). Writes a one-row manifest and prints a verdict: READY_NEW_SOURCE,
+      READY_EXISTING_SOURCE or HOLD (with the reason), and the quality bar: pass if the journal
+      has a source, is on any of our lists, or has 3+ years of records (Kyle 2026-10-22).
 
   python -m jobs.add_journal apply <manifest.csv | --json '[{row}, ...]'> [--execute]
       (--json lets the support desk pass a probed row without deploying a file.) On the dyno, dry run by default, ONE transaction, receipt printed after RECEIPT. Per row:
@@ -51,7 +53,9 @@ PLACEHOLDER_IDS = {"ojs.pkp.sfu.ca", "localhost", "ojs.localhost", "generic.epri
 MAX_NEW_ROWS_PER_HOST = 20  # RUNBOOK step 4 (2026-10-01)
 FIELDS = ["ticket", "display_name", "issns", "publisher", "homepage_url", "country_code", "country",
           "source_id", "pmh_url", "pmh_set", "id_host", "feed_records", "curated_is_oa", "oa_note",
-          "verdict", "note"]
+          "on_lists", "bar", "verdict", "note"]
+LISTS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "source_lists")
+MIN_YEARS = 3
 
 
 # --- pure helpers (unit-tested) ------------------------------------------------
@@ -62,6 +66,41 @@ def valid_issn(i):
         return False
     chk = (11 - sum(int(c) * w for c, w in zip(d[:7], range(8, 1, -1))) % 11) % 11
     return d[7] == ("X" if chk == 10 else str(chk))
+
+
+def list_memberships(issns, lists_dir=LISTS_DIR):
+    """Every list we load (data/source_lists/<list>-<date>.csv, newest edition per list) on which
+    one of these ISSNs is an ACTIVE member: the 60-odd public source lists (DDH, Latindex, ERIH PLUS,
+    national lists...) plus the internal SINTA / TCI tiering lists. Works for journals with no
+    source yet, which the API's listed_in can't see."""
+    want = {i.upper() for i in issns}
+    newest = {}
+    for f in sorted(os.listdir(lists_dir)) if os.path.isdir(lists_dir) else []:
+        m = re.match(r"(.+)-(\d{4}-\d{2}-\d{2})\.csv$", f)
+        if m and m.group(2) >= newest.get(m.group(1), ("", ""))[0]:
+            newest[m.group(1)] = (m.group(2), f)
+    hits = []
+    for list_id, (_, f) in sorted(newest.items()):
+        with open(os.path.join(lists_dir, f), newline="", encoding="utf-8") as fh:
+            for r in csv.DictReader(fh):
+                if (r.get("active") or "true").strip().lower() in ("true", "1", "yes", "y") and \
+                        want & {x.upper() for x in re.split(r"[;,\s]+", r.get("issns") or "") if x}:
+                    hits.append(list_id)
+                    break
+    return hits
+
+
+def quality_bar(source_id, on_lists, years, this_year=None):
+    """Kyle 2026-10-22: add automatically when the journal already has a source, is on any of our
+    lists, or has MIN_YEARS+ years of records; anything newer goes to a human."""
+    this_year = this_year or datetime.now(timezone.utc).year
+    if source_id:
+        return "pass: existing source"
+    if on_lists:
+        return "pass: on " + ", ".join(on_lists[:6]) + (f" +{len(on_lists) - 6}" if len(on_lists) > 6 else "")
+    if years and this_year - years[0] + 1 >= MIN_YEARS:
+        return f"pass: records since {years[0]}"
+    return "below: new journal, on none of our lists" + (f", records since {years[0]}" if years else "")
 
 
 def host(url):
@@ -200,8 +239,10 @@ def _openalex_sources(issns, name):
     hits = {}
     q = "|".join(issns)
     if q:
-        st, _, b = _get("https://api.openalex.org/sources?" + urllib.parse.urlencode(
-            {"filter": "issn:" + q, "select": "id,display_name,issn,type,works_count"}))
+        params = {"filter": "issn:" + q, "select": "id,display_name,issn,type,works_count"}
+        if os.environ.get("OPENALEX_API_KEY"):  # keyless calls share a small daily budget per IP
+            params["api_key"] = os.environ["OPENALEX_API_KEY"]
+        st, _, b = _get("https://api.openalex.org/sources?" + urllib.parse.urlencode(params))
         if st == 200:
             for s in json.loads(b)["results"]:
                 hits[s["id"]] = s
@@ -270,6 +311,9 @@ def probe(url, issns=(), ticket="", name_hint=""):
     if not all_issns:
         notes.append("no ISSN in the ticket or the feed: a mint needs a name check by hand")
         verdict = "HOLD"
+    on_lists = list_memberships(all_issns)
+    row.update(on_lists=";".join(on_lists),
+               bar=quality_bar(row["source_id"], on_lists, rec.get("years")))
     row.update(display_name=" ".join((set_name or rec["title"] or name_hint).split()), issns=";".join(all_issns),
                publisher=" ".join(rec["publisher"].split()), pmh_url=base, pmh_set=pmh_set or "",
                id_host=(repo_id or rec["id_host"] or "").lower() if (repo_id or "") not in PLACEHOLDER_IDS else rec["id_host"],
@@ -424,7 +468,7 @@ def main():
     if args.cmd == "probe":
         row = probe(args.url, args.issn, args.ticket, args.name)
         print(json.dumps(row, ensure_ascii=False, indent=1))
-        print(f"VERDICT {row['verdict']}")
+        print(f"VERDICT {row['verdict']}  BAR {row['bar']}")
         if args.out:
             new = not os.path.exists(args.out)
             with open(args.out, "a", newline="", encoding="utf-8") as f:
