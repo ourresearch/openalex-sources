@@ -98,6 +98,22 @@ entity (`api.openalex.org/source-lists/<id>`) from `source_list` itself.
 3. **openalex-gui `src/listedIn.js`**: a short label, or the site shows the bare id.
 4. **Help center** `content/data/source-lists.md` Values table (+ `updated:`).
 
+## Adding a journal from a support ticket (`jobs/add_journal`)
+
+A journal (usually OJS) that asks to be indexed is added by harvesting its own OAI-PMH feed: the
+#1417 RUNBOOK as one job, generalised from the 2026-10-05 Zendesk OJS fixes and the 2026-10-22 DDH
+mints. `probe` is read-only and runs anywhere; `apply` writes, on the dyno, dry run first:
+
+```bash
+python -m jobs.add_journal probe https://journal.example/index.php/abc --issn 1234-5679 --ticket 26368 --out /tmp/j.csv
+heroku run -a openalex-sources --no-tty "python -m jobs.add_journal apply --json '[<row>]'"            # dry run
+heroku run -a openalex-sources --no-tty "python -m jobs.add_journal apply --json '[<row>]' --execute"
+```
+
+`apply` matches by ISSN (or mints a journal source), and registers one `oai_pmh_endpoint` row with
+`is_journal_host` unless a row on the same install could harvest the same records (a #1418 split:
+the feed is held). The daily openalex-ingest harvest picks the row up; verify the next day.
+
 ## Scheduling (Advanced Scheduler)
 
 Triggers are managed via the Service API (`https://api.advancedscheduler.io/triggers`,
