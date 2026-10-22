@@ -244,7 +244,8 @@ def probe(url, issns=(), ticket="", name_hint=""):
         row.update(pmh_url=base, pmh_set=pmh_set or "", verdict="HOLD", note=f"ListRecords: {rec['error']}")
         return row
     feed_issns = [i for i in rec["issns"] if valid_issn(i)]
-    given = [i.upper() for i in issns if valid_issn(i)]
+    given = [re.sub(r"[\u2010-\u2014 ]", "-", i.strip()).upper() for i in issns]  # tickets carry non-breaking hyphens
+    given = [i for i in given if valid_issn(i)]
     all_issns = list(dict.fromkeys(given + feed_issns))
     if given and feed_issns and not set(given) & set(feed_issns):
         notes.append(f"feed ISSNs {feed_issns} differ from the ticket's {given}")
