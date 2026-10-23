@@ -1,0 +1,1412 @@
+{
+ "run_at": "2026-10-23T11:07:20.012976+00:00",
+ "execute": true,
+ "inserted": [
+  {
+   "source_id": 4306506349,
+   "name": "Ciudad y territorio: Estudios territoriales",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210230337,
+   "name": "Revue de l’Institut français d’histoire en Allemagne",
+   "class": "always_open"
+  },
+  {
+   "source_id": 128764592,
+   "name": "The New Educational Review",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210215729,
+   "name": "Acta Botanica Malacitana",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210178273,
+   "name": "Revue des droits de l’homme",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210214659,
+   "name": "Histoire Politique",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210240086,
+   "name": "Textyles",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210231723,
+   "name": "Kernos",
+   "class": "always_open"
+  },
+  {
+   "source_id": 196010514,
+   "name": "Terrain",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387288938,
+   "name": "revue Alyoda",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210234612,
+   "name": "Le Portique",
+   "class": "always_open"
+  },
+  {
+   "source_id": 57195646,
+   "name": "Informatica",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387280111,
+   "name": "Cahiers du Centre de Linguistique et des Sciences du Langage",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210203973,
+   "name": "ASp",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210229609,
+   "name": "Revista Española de Sociología",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210188937,
+   "name": "Études de lettres",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387281088,
+   "name": "Travaux neuchâtelois de linguistique",
+   "class": "always_open"
+  },
+  {
+   "source_id": 77106123,
+   "name": "Zeitschrift für Sprachwissenschaft",
+   "class": "always_open"
+  },
+  {
+   "source_id": 2898437472,
+   "name": "Alter",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210186413,
+   "name": "Cinémas d’Amérique latine",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406951392,
+   "name": "Tijdschrift voor Mensenrechten",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210197302,
+   "name": "Tsafon",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210228809,
+   "name": "Commonwealth Essays and Studies",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407021855,
+   "name": "Ancient TL",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210184197,
+   "name": "Canal Psy",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210231196,
+   "name": "Champ pénal",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210214988,
+   "name": "Tréma",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210214750,
+   "name": "HispanismeS",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210228260,
+   "name": "Actes des congrès de la Société française Shakespeare",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4393917914,
+   "name": "Zeszyty Naukowe Wyższej Skoły Ekonomiczno-Społecznej w Ostrołęce/Zeszyty Naukowe",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210189225,
+   "name": "La Revue de la BNU",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210172190,
+   "name": "Artefact",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210241165,
+   "name": "Environnement Ingénierie & Développement",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210177182,
+   "name": "Palethnologie",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210194777,
+   "name": "Questes",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406935057,
+   "name": "Psykologia",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210239049,
+   "name": "Artelogie",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387278728,
+   "name": "Ayer Revista de Historia Contemporánea",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210205226,
+   "name": "Balkanologie",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210173211,
+   "name": "Décadrages",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406951371,
+   "name": "Ethiek en Maatschappij",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210226444,
+   "name": "Transalpina",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210214144,
+   "name": "RevCEDOUA",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210224692,
+   "name": "Lapurdum",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4393917141,
+   "name": "Les Cahiers scientifiques du transport",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210174978,
+   "name": "Cahiers de littérature orale",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210196381,
+   "name": "Essais",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406986426,
+   "name": "Filigrane",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404676604,
+   "name": "Revista iberoamericana de ingeniería mecánica.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387279065,
+   "name": "Bulletin critique des Annales islamologiques",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210184236,
+   "name": "e-Phaïstos",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210196763,
+   "name": "La Révolution française",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387279503,
+   "name": "Atlante",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407034185,
+   "name": "Formation et pratiques d’enseignement en question",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210209462,
+   "name": "Cahiers de la recherche sur les droits fondamentaux",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210188647,
+   "name": "Cultura",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210177819,
+   "name": "Éducation et sociétés plurilingues",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210216258,
+   "name": "e-Migrinter",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210170274,
+   "name": "Bulletin de l’AFAS",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406946899,
+   "name": "Revista Anuario Parlamento y Constitución",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210235338,
+   "name": "Polysèmes",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4306509671,
+   "name": "E- Revista de Estudos Interculturais",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407055753,
+   "name": "Bulletin suisse de linguistique appliquée",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210236479,
+   "name": "Impressions d’Extrême-Orient",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210180039,
+   "name": "Patrimoines du Sud",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210169793,
+   "name": "Les cahiers du CEDREF",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210227971,
+   "name": "Variations",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210207727,
+   "name": "Double jeu",
+   "class": "always_open"
+  },
+  {
+   "source_id": 2739459972,
+   "name": "Communications in Mathematics",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210172159,
+   "name": "RDST",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210205334,
+   "name": "Revue de géographie historique",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406978727,
+   "name": "Archipélies",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407012502,
+   "name": "K",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210214904,
+   "name": "ICOFOM Study Series",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210172281,
+   "name": "Dynamiques environnementales",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404661594,
+   "name": "Revista Derecho social y empresa",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210197460,
+   "name": "Cipango",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210172160,
+   "name": "Études finno-ougriennes",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407049100,
+   "name": "Mondes & Migrations",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210194705,
+   "name": "Cahiers du GRM",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210183184,
+   "name": "Sciences & Actions Sociales",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4306533073,
+   "name": "Torun Business Review",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210198884,
+   "name": "Sextant",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210193737,
+   "name": "Esclavages & Post-esclavages",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210222539,
+   "name": "Etudes de stylistique anglaise",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210230855,
+   "name": "Cahiers de la mémoire contemporaine",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4306523099,
+   "name": "Préhistoires méditerranéennes/Préhistoires méditerranéennes/Préhistoire anthropologie méditerranéennes",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387284402,
+   "name": "Contesti Città territori progetti",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210233434,
+   "name": "Genre en séries",
+   "class": "always_open"
+  },
+  {
+   "source_id": 2736687727,
+   "name": "Chroniques yéménites",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387288851,
+   "name": "Göttinger Rechtszeitschrift",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210221610,
+   "name": "ELFe XX-XXI",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387279642,
+   "name": "Rangahau Aranga AUT Graduate Review",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210239703,
+   "name": "Chantiers de la Création",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210202046,
+   "name": "OLYMPIADS IN INFORMATICS",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210173688,
+   "name": "InMedia",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387286902,
+   "name": "Copernicus Political and Legal Studies",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4386621772,
+   "name": "Hardy-Ramanujan Journal",
+   "class": "always_open"
+  },
+  {
+   "source_id": 7407056150,
+   "name": "movements Journal für kritische Migrations- und Grenzregimeforschung",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404673965,
+   "name": "BACAGe.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387279541,
+   "name": "RadioMorphoses",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210200490,
+   "name": "Économie et Institutions",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210170320,
+   "name": "Philonsorbonne",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210203486,
+   "name": "Studia nad Rodziną",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210170962,
+   "name": "Przegląd Archiwalno-Historyczny",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387279805,
+   "name": "New American Studies Journal",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387286972,
+   "name": "BibNum",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4210222001,
+   "name": "RESET",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406998917,
+   "name": "Sociétés politiques comparées Revue européenne d’analyse des sociétés politiques",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210222875,
+   "name": "Studia Archiwalne",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387292619,
+   "name": "Sciences humaines combinées",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4393917735,
+   "name": "Visible",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387280341,
+   "name": "Annales Scientifiques du Limousin",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406938131,
+   "name": "Études sur le XVIIIe siècle",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210234616,
+   "name": "Rocznik Biblioteki Naukowej PAU i PAN w Krakowie",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406951220,
+   "name": "Ethnographic Studies",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406967601,
+   "name": "Camino Real Estudios de las Hispanidades Norteamericanas",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407030206,
+   "name": "Création collective au cinéma",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210169269,
+   "name": "EDeR Educational Design Research",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387287729,
+   "name": "Viae Educationis Studies of Education and Didactics",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387287788,
+   "name": "L Education physique en mouvement",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406998924,
+   "name": "Projet Épopée",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387285535,
+   "name": "Opus Incertum",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4389158102,
+   "name": "Film journal",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387284616,
+   "name": "Revue de Mathématiques pour l’école",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387292805,
+   "name": "Prawo i Bezpieczeństwo",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4390297074,
+   "name": "Représentations dans le monde anglophone",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387291157,
+   "name": "Treatises and Documents Journal of Ethnic Studies / Razprave in Gradivo Revija za narodnostna vprašanja",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387285221,
+   "name": "Arrêt sur scène",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387289844,
+   "name": "Revue Ouverte d Intelligence Artificielle",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404675494,
+   "name": "Iberic@l.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 2737508526,
+   "name": "Scrineum",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210202692,
+   "name": "Bulletin de correspondance hellénique moderne et contemporain",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210205865,
+   "name": "Revue Sciences/Lettres",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210237394,
+   "name": "Hrvatski časopis zdravstvenih znanosti",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387287706,
+   "name": "Anthropos",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4389157587,
+   "name": "Boletín Hispánico Helvético Digital",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407054029,
+   "name": "Amarsada",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210178980,
+   "name": "Sociétés plurielles",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210186817,
+   "name": "In Situ Au regard des sciences sociales",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210190078,
+   "name": "FATHOM",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210222141,
+   "name": "Journal of Civil Engineering and Transport",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210178821,
+   "name": "Bethlehem University Journal",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387287474,
+   "name": "Electronic Notes in Theoretical Informatics and Computer Science",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387281930,
+   "name": "infermieristica journal",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407049094,
+   "name": "Postcolonial Literatures and Arts",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210172381,
+   "name": "Anthropology & Materialism",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404674360,
+   "name": "Archiwista Polski.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407049102,
+   "name": "Recherche et Avancées en Sciences Infirmières",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387285324,
+   "name": "Cahiers de LIRICO",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404663946,
+   "name": "Littérales.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404673873,
+   "name": "Cahiers Marguerite Duras.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387291153,
+   "name": "Revue Test RFMV",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404668989,
+   "name": "Et2er.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4393918440,
+   "name": "International journal for research in learning disabilities",
+   "class": "always_open"
+  },
+  {
+   "source_id": 7407062094,
+   "name": "Cadernos de Arte Pública",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4389157905,
+   "name": "African Journal of Economics Politics and Social Studies",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387292745,
+   "name": "Bulletin de l Association des historiens modernistes des universités françaises",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210232337,
+   "name": "Research in social change",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210188345,
+   "name": "Journal International de Technologie de l Innovation de la Physique de l Energie et de l Environnement",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210206353,
+   "name": "Croatian Regional Development Journal",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210240084,
+   "name": "Cipango - French Journal of Japanese Studies",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4393917247,
+   "name": "Napredak",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404677369,
+   "name": "Central European Journal of Security Studies.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210199439,
+   "name": "RursuSpicae",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387286348,
+   "name": "Les Cahiers de l ILTP Perspectives protestantes francophones en théologie pratique",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407034149,
+   "name": "Tenzone",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406986392,
+   "name": "Chroniques du travail",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4393915597,
+   "name": "ČASOPIS ZA ZGODOVINO IN NARODOPISJE",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407046159,
+   "name": "ModACT",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387289918,
+   "name": "Copernicus Czasy Nowożytne i Współczesne",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210183074,
+   "name": "Tragovi",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407055811,
+   "name": "Academic Journal of Health Sciences",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407054126,
+   "name": "Garnata 91",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404663324,
+   "name": "Conflictualité.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210176522,
+   "name": "Meldar Revista internacional de estudios sefardíes",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407046307,
+   "name": "Estudios Complutenses de Asia Oriental",
+   "class": "always_open"
+  },
+  {
+   "source_id": 7407053633,
+   "name": "Théia",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407047957,
+   "name": "Égypte Soudan Mondes Arabes",
+   "class": "always_open"
+  },
+  {
+   "source_id": 7407057711,
+   "name": "Abaton Revista de figuración representación e imágenes de la arquitectura",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404660740,
+   "name": "Revista de Investigación sobre Bibliotecas, Educación y Sociedad",
+   "class": "always_open"
+  },
+  {
+   "source_id": 7407053794,
+   "name": "Physiotherapia Croatica",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404676333,
+   "name": "Medical Forum.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210167631,
+   "name": "Cross-cultural studies review",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387286693,
+   "name": "Linguo Didáctica",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404662088,
+   "name": "Standpunkt: sozial",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404677640,
+   "name": "Hydrogen safety",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407053524,
+   "name": "Émergences",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210192841,
+   "name": "Journal d Interaction Personne-Système",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4390296729,
+   "name": "Zeszyty Glottodydaktyczne Jagiellońskiego Centrum Językowego",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387287377,
+   "name": "Criminologie Forensique et Sécurité",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387292313,
+   "name": "Ruimte & Maatschappij",
+   "class": "always_open"
+  },
+  {
+   "source_id": 7407053809,
+   "name": "Revue d étude et de culture parlementaires",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4390297129,
+   "name": "Studia z Dziejów Historiografii Wojskowej",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407036547,
+   "name": "International Journal of Music Mediation",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407053344,
+   "name": "Partages",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404662807,
+   "name": "Revue scientifiques des travaux de fin d'étude en rééducation et réadaptation.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407053274,
+   "name": "Muse",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5406958886,
+   "name": "Journal de recherche en éducation musicale",
+   "class": "always_open"
+  },
+  {
+   "source_id": 7407056940,
+   "name": "Ajamont",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4386621931,
+   "name": "Recursos para el Aula de Español investigación y enseñanza",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387287160,
+   "name": "Journal de recherche en éducations artistiques (JREA)",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404678008,
+   "name": "Copernicus.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407040099,
+   "name": "DIAITA Food - Heritage",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407049019,
+   "name": "Acta Mediaevalia Series Nova",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404676682,
+   "name": "Le Partenariat de soin avec le patient.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 7407059172,
+   "name": "Środkowoeuropejskie Studia Polityczne i Medioznawcze",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4393915142,
+   "name": "Archivio Storico Lombardo",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407046301,
+   "name": "Anuario IELAT (Instituto Universitario de Investigación en Estudios Latinoamericanos)",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387280455,
+   "name": "Mathematics Research Reports",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407049105,
+   "name": "Fabrique pongienne",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407056036,
+   "name": "Sport and Policy Journal",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4390296565,
+   "name": "Contemporary Mediterranean",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404677124,
+   "name": "Archéologies, Sociétés réseaux matériaux.",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407056531,
+   "name": "Mélété",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407050637,
+   "name": "[RASPA] Revue africaine de santé et de productions animales",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4387282828,
+   "name": "epiDEMES",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4404661711,
+   "name": "Paviljon",
+   "class": "always_open"
+  },
+  {
+   "source_id": 4210220066,
+   "name": "Journal of Interdisciplinary Methodologies and Issues in Sciences",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407046041,
+   "name": "Oral Archives Journal",
+   "class": "always_open"
+  },
+  {
+   "source_id": 99957990,
+   "name": "Sort-statistics and Operations Research Transactions",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4220651078,
+   "name": "Analyse de réseaux pour les sciences sociales",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407053514,
+   "name": "Pacific Media Monographs",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407053695,
+   "name": "Tellus",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407063034,
+   "name": "French Academic Journal of Primary Care",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407047509,
+   "name": "Information Retrieval Research",
+   "class": "always_open"
+  },
+  {
+   "source_id": 5407049104,
+   "name": "RPN",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4387278431,
+   "name": "Management et Organisations du Sport",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4387286289,
+   "name": "Krčki zbornik",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4404678024,
+   "name": "Journal for the Philosophy of Mathematics.",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407056165,
+   "name": "International Journal of Community Currency Research",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407056352,
+   "name": "FESTUNG",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407055594,
+   "name": "Croatian journal of anaesthesiology and intensive medicine",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407056481,
+   "name": "Agastya",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407062952,
+   "name": "Data & Corpus La revue des données en SHS",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4210209194,
+   "name": "Mathematical Neuroscience and Applications",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4390297010,
+   "name": "Les Cahiers de l’IRAFPA",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407056229,
+   "name": "Pomorskie Studia Naukowe",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407056608,
+   "name": "Polemos - Međunarodne studije",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4210218877,
+   "name": "Research in Urbanism Series",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407049103,
+   "name": "Open Plasma Science",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407058164,
+   "name": "Musica Ecclesiastica",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407036550,
+   "name": "Environmental Psychology Open",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407055860,
+   "name": "Journal of Sustainable Technologies",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407051685,
+   "name": "Collective and Individual Decisions",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407055795,
+   "name": "journal of Studies of the Earth’s Deep Interior",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4404662614,
+   "name": "Bilten Hrvatskog društva za medicinsku informatiku.",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407050304,
+   "name": "Vulnérabilités Institutions Espaces francophones Éducation-Formation",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407062648,
+   "name": "European journal of health studies",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407064914,
+   "name": "Ban Dvor",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407053972,
+   "name": "Religija i obrazovanje",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407053987,
+   "name": "GLOSSAE European Journal of Legal History",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407056712,
+   "name": "Scientific Letters of the University of Bielsko-Biala - Engineering Studies",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407057191,
+   "name": "Another Now A Journal of the History of Ideas",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407053848,
+   "name": "Enki & Ptah Journal of Technology and Trade in Ancient Egypt and Western Asia",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407055943,
+   "name": "Annals of Formalized Mathematics",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4404663077,
+   "name": "Sustainability letters.",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407036953,
+   "name": "Into the Magic Circle Rethinking Homo Ludens",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407058603,
+   "name": "Futures Reframed",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407046252,
+   "name": "Open Palaeontology",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407051536,
+   "name": "Travaux pratiques de recherche",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407059626,
+   "name": "Arqueología y Prehistoria del Interior Peninsular (ARPI)",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407036569,
+   "name": "JoDaKISS - Journal of Data- and Knowledge-integrated Simulation Science",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407057338,
+   "name": "Revista de Direito Lusófono",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407064057,
+   "name": "Silesius Review",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407089459,
+   "name": "Metis Journal of Strategic Autonomy and International Studies",
+   "class": "too_small"
+  },
+  {
+   "source_id": 2738379526,
+   "name": "Journal of Mediterranean knowledge",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4220651036,
+   "name": "Maritime Technical Journal",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407054611,
+   "name": "Filologiskt smörgåsbord",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407059222,
+   "name": "Sustainability & Beyond Journal of the International Sustainable Development Research Society",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4306528804,
+   "name": "Romanische Studien",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4306535834,
+   "name": "Zeszyty Naukowe Warszawskiej Wyższej Szkoły Informatyki",
+   "class": "too_small"
+  },
+  {
+   "source_id": 5407046242,
+   "name": "Kontrapunkte",
+   "class": "too_small"
+  },
+  {
+   "source_id": 2736741801,
+   "name": "Barents Studies",
+   "class": "too_small"
+  },
+  {
+   "source_id": 2737399833,
+   "name": "Psicoart",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407056023,
+   "name": "Ad acta",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4393917613,
+   "name": "Varstvoslovje/Varstvoslovje (Print)",
+   "class": "too_small"
+  },
+  {
+   "source_id": 4393917913,
+   "name": "Zeszyt Naukowy/Zeszyt Naukowyl",
+   "class": "too_small"
+  },
+  {
+   "source_id": 51318427,
+   "name": "Journal of Formalized Reasoning",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407061775,
+   "name": "Journal of the LUCAS Graduate Conference",
+   "class": "too_small"
+  },
+  {
+   "source_id": 7407061791,
+   "name": "Acta Futura",
+   "class": "too_small"
+  }
+ ],
+ "skipped": []
+}
