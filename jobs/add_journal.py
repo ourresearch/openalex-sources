@@ -255,7 +255,7 @@ def _openalex_sources(issns, name):
     return list(hits.values())
 
 
-def probe(url, issns=(), ticket="", name_hint=""):
+def probe(url, issns=(), ticket="", name_hint="", full=False):
     row = dict.fromkeys(FIELDS, "")
     row.update(ticket=ticket, homepage_url=url, curated_is_oa="", note="")
     notes, verdict = [], "READY_NEW_SOURCE"
@@ -329,12 +329,86 @@ def probe(url, issns=(), ticket="", name_hint=""):
         on_lists.append("pkp-beacon (live OJS)")
     row.update(on_lists=";".join(on_lists),
                bar=quality_bar(row["source_id"], on_lists, rec.get("years")))
+    if full:
+        summary, problems, live = walk_feed(base, pmh_set)
+        notes.append(summary)
+        if problems:
+            notes.append("PROBLEMS: " + "; ".join(problems))
+            verdict = "HOLD"
+        if live == 0:
+            notes.append("no live records")
+            verdict = "HOLD"
     row.update(display_name=" ".join((set_name or rec["title"] or name_hint).split()), issns=";".join(all_issns),
                publisher=" ".join(rec["publisher"].split()), pmh_url=base, pmh_set=pmh_set or "",
                id_host=(repo_id or rec["id_host"] or "").lower() if (repo_id or "") not in PLACEHOLDER_IDS else rec["id_host"],
                feed_records=rec["size"] if rec["size"] is not None else f">{rec['records_on_page']}",
                verdict=verdict, note=f"{how}; " + "; ".join(notes))
     return row
+
+
+def walk_feed(base, pmh_set=None, max_pages=300, delay=1.0):
+    """--full preflight: walk every ListRecords page the way the harvester will and report what
+    the records will give us (RUNBOOK step 2, extended). Read-only; polite (1 request/s)."""
+    import time
+    q = {"verb": "ListRecords", "metadataPrefix": "oai_dc"}
+    if pmh_set:
+        q["set"] = pmh_set
+    url = base + "?" + urllib.parse.urlencode(q)
+    st = Counter()
+    dois, problems = [], []
+    while url and st["pages"] < max_pages:
+        t0 = time.time()
+        s, _, b = _get(url, timeout=120)
+        st["seconds"] += time.time() - t0
+        if s != 200:
+            problems.append(f"page {st['pages'] + 1}: HTTP {s}")
+            break
+        if not b.lstrip().startswith(b"<?xml") and b"<OAI-PMH" in b:
+            problems.append(f"page {st['pages'] + 1}: text before <?xml (PHP notice?): the harvester rejects these")
+        try:
+            root = ET.fromstring(BAD_CTRL.sub(b"", b[b.find(b"<"):]))
+        except ET.ParseError as e:
+            problems.append(f"page {st['pages'] + 1}: malformed XML ({e})")
+            break
+        st["pages"] += 1
+        for r in root.findall(f".//{O}record"):
+            st["records"] += 1
+            if r.find(O + "header").get("status") == "deleted":
+                st["deleted"] += 1
+                continue
+            vals = lambda tag: [(e.text or "").strip() for e in r.iter(DC + tag) if (e.text or "").strip()]
+            ids, rights = vals("identifier") + vals("relation"), vals("rights")
+            st["no_title"] += not vals("title")
+            st["no_date"] += not vals("date")
+            st["no_url"] += not any(i.startswith("http") for i in ids)
+            st["licence"] += any("creativecommons.org" in x or x.upper().startswith("CC") for x in rights)
+            st["pdf_link"] += any(re.search(r"\.pdf$|/download/|/article/download", i) for i in ids)
+            d = next((m.group(0).lower() for i in ids for m in [re.search(r"10\.\d{4,9}/[^\s\"<>]+", i)] if m), None)
+            if d:
+                dois.append(d)
+        tok = root.find(f".//{O}resumptionToken")
+        t = (tok.text or "").strip() if tok is not None else ""
+        url = f"{base}?verb=ListRecords&resumptionToken={urllib.parse.quote(t)}" if t else None
+        if url:
+            time.sleep(delay)
+    if url:
+        problems.append(f"stopped after {max_pages} pages; feed continues")
+    live = st["records"] - st["deleted"]
+    in_oa = 0
+    for k in range(0, min(len(dois), 500), 50):  # how many feed DOIs we already have (Crossref copies)
+        params = {"filter": "doi:" + "|".join(dois[k:k + 50]), "per-page": 1}
+        if os.environ.get("OPENALEX_API_KEY"):
+            params["api_key"] = os.environ["OPENALEX_API_KEY"]
+        s, _, b = _get("https://api.openalex.org/works?" + urllib.parse.urlencode(params))
+        if s == 200:
+            in_oa += json.loads(b)["meta"]["count"]
+    pct = lambda n: f"{100 * n / live:.0f}%" if live else "-"
+    checked = min(len(dois), 500)
+    summary = (f"full walk: {live} live records ({st['deleted']} deleted) over {st['pages']} pages in {st['seconds']:.0f}s; "
+               f"no title {pct(st['no_title'])}, no date {pct(st['no_date'])}, no URL {pct(st['no_url'])}; "
+               f"licence {pct(st['licence'])}, PDF link {pct(st['pdf_link'])}; DOI {pct(len(dois))}"
+               + (f" ({in_oa} of {checked} checked already in OpenAlex: those become extra locations, not new works)" if dois else ""))
+    return summary, problems, live
 
 
 # --- apply (dyno) ----------------------------------------------------------------
@@ -452,7 +526,8 @@ def apply(manifest, execute=False, rows=None):
                     per_host[h] += 1
                     receipt["endpoints"].append({"endpoint_id": eid, "source_id": sid, "pmh_url": r["pmh_url"], "pmh_set": pmh_set})
                     log(f"  REGISTERED endpoint {eid} {r['pmh_url']} [{pmh_set or '-'}] -> {sid} journal_host "
-                        f"({len(rows_on_host)} other rows on the host, none overlapping)")
+                        f"({len(rows_on_host)} other rows on the host, none overlapping); harvest it now with: "
+                        f"heroku run:detached -a openalex-ingest -- python repositories.py --endpoint-id {eid}")
             changed = recompute_listed_in(conn)
             log(f"minted {len(receipt['minted'])}, existing {len(receipt['updated'])}, endpoints {len(receipt['endpoints'])}, "
                 f"held {len(receipt['held'])}, refused {len(receipt['refused'])}; listed_in rows changed {changed}")
@@ -475,13 +550,14 @@ def main():
     p.add_argument("--ticket", default="")
     p.add_argument("--name", default="", help="journal title hint, for multi-journal installs")
     p.add_argument("--out", help="write/append the manifest row here")
+    p.add_argument("--full", action="store_true", help="walk the whole feed (preflight) before saying READY")
     a = sub.add_parser("apply")
     a.add_argument("manifest", nargs="?")
     a.add_argument("--json", help="manifest rows as a JSON list (instead of a CSV path)")
     a.add_argument("--execute", action="store_true")
     args = ap.parse_args()
     if args.cmd == "probe":
-        row = probe(args.url, args.issn, args.ticket, args.name)
+        row = probe(args.url, args.issn, args.ticket, args.name, full=args.full)
         print(json.dumps(row, ensure_ascii=False, indent=1))
         print(f"VERDICT {row['verdict']}  BAR {row['bar']}")
         if args.out:
