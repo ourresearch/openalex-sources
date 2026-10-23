@@ -1,0 +1,888 @@
+{
+ "run_at": "2026-10-23T13:06:14.498572+00:00",
+ "execute": true,
+ "inserted": [
+  {
+   "source_id": 4210222700,
+   "name": "Lectures",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4210238334,
+   "name": "Revue des sciences religieuses",
+   "oa_since": "2005"
+  },
+  {
+   "source_id": 4306502280,
+   "name": "Annals de Medicina",
+   "oa_since": "1907"
+  },
+  {
+   "source_id": 4306510746,
+   "name": "Formation emploi",
+   "oa_since": "2006"
+  },
+  {
+   "source_id": 5438150,
+   "name": "Pamiętnik Literacki",
+   "oa_since": "2012"
+  },
+  {
+   "source_id": 4306522178,
+   "name": "Pediatria catalana: butlletí de la Societat Catalana de Pediatria",
+   "oa_since": "1928"
+  },
+  {
+   "source_id": 5407054847,
+   "name": "Fatik",
+   "oa_since": "1983"
+  },
+  {
+   "source_id": 148591575,
+   "name": "TURKISH JOURNAL OF AGRICULTURE AND FORESTRY",
+   "oa_since": "1996"
+  },
+  {
+   "source_id": 34058358,
+   "name": "Publicacions Matemàtiques",
+   "oa_since": "1976"
+  },
+  {
+   "source_id": 4306530322,
+   "name": "Sociétés & Représentations",
+   "oa_since": "2025"
+  },
+  {
+   "source_id": 4306504881,
+   "name": "Bordón. Revista de pedagogía",
+   "oa_since": "2005"
+  },
+  {
+   "source_id": 4306502889,
+   "name": "Archivo hispalense: Revista histórica, literaria y artística",
+   "oa_since": "1943"
+  },
+  {
+   "source_id": 141864345,
+   "name": "Revue des sciences sociales",
+   "oa_since": "2014"
+  },
+  {
+   "source_id": 4210214656,
+   "name": "Mélanges de l'École française de Rome. Moyen Age",
+   "oa_since": "2010"
+  },
+  {
+   "source_id": 149031001,
+   "name": "Nouvelles de l estampe",
+   "oa_since": "2010"
+  },
+  {
+   "source_id": 4210219349,
+   "name": "Contrastes Revista Internacional de Filosofía",
+   "oa_since": "1996"
+  },
+  {
+   "source_id": 173817438,
+   "name": "Cryptogamie Mycologie",
+   "oa_since": "2002"
+  },
+  {
+   "source_id": 179548887,
+   "name": "Gradhiva",
+   "oa_since": "2005"
+  },
+  {
+   "source_id": 7407057709,
+   "name": "Sukupuolentutkimus-Genusforskning",
+   "oa_since": "2022"
+  },
+  {
+   "source_id": 179032277,
+   "name": "Cryptogamie Algologie",
+   "oa_since": "2002"
+  },
+  {
+   "source_id": 4210182241,
+   "name": "Traduire",
+   "oa_since": "2007"
+  },
+  {
+   "source_id": 4210233946,
+   "name": "Cahiers de praxématique",
+   "oa_since": "1983"
+  },
+  {
+   "source_id": 4210189331,
+   "name": "Éduquer",
+   "oa_since": "2002"
+  },
+  {
+   "source_id": 4210188445,
+   "name": "Agôn Revue des arts de la scène",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4210219953,
+   "name": "Travail et emploi",
+   "oa_since": "2006"
+  },
+  {
+   "source_id": 4210187059,
+   "name": "Éthique Publique",
+   "oa_since": "1999"
+  },
+  {
+   "source_id": 4210198579,
+   "name": "Annales islamologiques",
+   "oa_since": "1954"
+  },
+  {
+   "source_id": 141665667,
+   "name": "Zoosystema",
+   "oa_since": "1997"
+  },
+  {
+   "source_id": 4210233383,
+   "name": "Anthropozoologica",
+   "oa_since": "1989"
+  },
+  {
+   "source_id": 1029743862,
+   "name": "Sud-Ouest européen",
+   "oa_since": "2009"
+  },
+  {
+   "source_id": 4210206205,
+   "name": "Emulations - Revue de sciences sociales",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4210207350,
+   "name": "Pollution atmosphérique",
+   "oa_since": "1993"
+  },
+  {
+   "source_id": 4210223848,
+   "name": "TRANS-",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4306531837,
+   "name": "Teorema: Revista internacional de filosofía",
+   "oa_since": "2024"
+  },
+  {
+   "source_id": 5407055751,
+   "name": "Akkadica",
+   "oa_since": "1977"
+  },
+  {
+   "source_id": 25010850,
+   "name": "Publications mathématiques de l IHÉS",
+   "oa_since": "1959"
+  },
+  {
+   "source_id": 4210198119,
+   "name": "Slovo",
+   "oa_since": "2017"
+  },
+  {
+   "source_id": 4210187661,
+   "name": "Revus",
+   "oa_since": "2003"
+  },
+  {
+   "source_id": 4210200955,
+   "name": "Rives méditerranéennes/Rives méditerranéennes",
+   "oa_since": "1998"
+  },
+  {
+   "source_id": 4387280887,
+   "name": "Siècles",
+   "oa_since": "1995"
+  },
+  {
+   "source_id": 4210174078,
+   "name": "Les dossiers des sciences de l éducation",
+   "oa_since": "2010"
+  },
+  {
+   "source_id": 4210210750,
+   "name": "Écrire l histoire",
+   "oa_since": "2009"
+  },
+  {
+   "source_id": 200472310,
+   "name": "Cryptogamie Bryologie",
+   "oa_since": "2002"
+  },
+  {
+   "source_id": 4210231692,
+   "name": "Palimpsestes",
+   "oa_since": "1987"
+  },
+  {
+   "source_id": 4210224256,
+   "name": "Bulletin d histoire contemporaine de l Espagne",
+   "oa_since": "2016"
+  },
+  {
+   "source_id": 4210220069,
+   "name": "Italica Wratislaviensia",
+   "oa_since": "2010"
+  },
+  {
+   "source_id": 90622156,
+   "name": "Bulletin de l Institut français d archéologie orientale",
+   "oa_since": "1901"
+  },
+  {
+   "source_id": 4210187421,
+   "name": "Observatoire de la société britannique",
+   "oa_since": "2006"
+  },
+  {
+   "source_id": 4210198890,
+   "name": "Études mongoles sibériennes centrasiatiques et tibétaines",
+   "oa_since": "2009"
+  },
+  {
+   "source_id": 98565469,
+   "name": "Revista Espanola De Nutricion Comunitaria-spanish Journal of Community Nutrition",
+   "oa_since": "2005"
+  },
+  {
+   "source_id": 4210172051,
+   "name": "Histoire de la recherche contemporaine",
+   "oa_since": "2012"
+  },
+  {
+   "source_id": 4306509458,
+   "name": "Enfuro",
+   "oa_since": "1980"
+  },
+  {
+   "source_id": 4210175728,
+   "name": "Nordiques",
+   "oa_since": "2012"
+  },
+  {
+   "source_id": 122087438,
+   "name": "Filozofski vestnik",
+   "oa_since": "1980"
+  },
+  {
+   "source_id": 4210167611,
+   "name": "Journal of the Alamire Foundation",
+   "oa_since": "2009"
+  },
+  {
+   "source_id": 4306531427,
+   "name": "Światowit : rocznik poświęcony archeologii przeddziejowej i badaniom pierwotnej kultury polskiej i słowiańskiej",
+   "oa_since": "1975"
+  },
+  {
+   "source_id": 4387287458,
+   "name": "Elseneur",
+   "oa_since": "2007"
+  },
+  {
+   "source_id": 4210168578,
+   "name": "Journal of the European Society of Women in Theological Research",
+   "oa_since": "1995"
+  },
+  {
+   "source_id": 2764360693,
+   "name": "Glossae",
+   "oa_since": "1988"
+  },
+  {
+   "source_id": 4210167826,
+   "name": "Philosophique",
+   "oa_since": "1998"
+  },
+  {
+   "source_id": 4210176238,
+   "name": "Arzanà",
+   "oa_since": "2010"
+  },
+  {
+   "source_id": 4306500445,
+   "name": "Acta onomastica",
+   "oa_since": "2006"
+  },
+  {
+   "source_id": 4210167925,
+   "name": "Cahiers de philosophie de l’Université de Caen",
+   "oa_since": "2002"
+  },
+  {
+   "source_id": 7397502,
+   "name": "Transformations In Business & Economics",
+   "oa_since": "2024"
+  },
+  {
+   "source_id": 4306505601,
+   "name": "Campus Virtuales",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4387288366,
+   "name": "Naše řeč",
+   "oa_since": "1917"
+  },
+  {
+   "source_id": 4210226915,
+   "name": "Africana Linguistica",
+   "oa_since": "2022"
+  },
+  {
+   "source_id": 4387997833,
+   "name": "Zeszyty Naukowe Wyższej Szkoły Ekonomii i Informatyki w Krakowie",
+   "oa_since": "2017"
+  },
+  {
+   "source_id": 947400888,
+   "name": "Sztuka i Dokumentacja",
+   "oa_since": "2009"
+  },
+  {
+   "source_id": 4210169974,
+   "name": "In Monte Artium",
+   "oa_since": "2023"
+  },
+  {
+   "source_id": 4306511211,
+   "name": "Gender forum",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4210212061,
+   "name": "Politics of the Low Countries",
+   "oa_since": "2020"
+  },
+  {
+   "source_id": 5407025676,
+   "name": "Stendhal",
+   "oa_since": "2020"
+  },
+  {
+   "source_id": 4210206223,
+   "name": "Variants",
+   "oa_since": "2016"
+  },
+  {
+   "source_id": 76378895,
+   "name": "The world of music/The world of music",
+   "oa_since": "2023"
+  },
+  {
+   "source_id": 4387284335,
+   "name": "Nuorisotutkimus",
+   "oa_since": "2022"
+  },
+  {
+   "source_id": 5407053140,
+   "name": "Noordbrabants Historisch Jaarboek",
+   "oa_since": "2013"
+  },
+  {
+   "source_id": 4306525462,
+   "name": "Recherches en didactique des mathématiques",
+   "oa_since": "2024"
+  },
+  {
+   "source_id": 4210216813,
+   "name": "Socialno delo",
+   "oa_since": "2019"
+  },
+  {
+   "source_id": 4210201105,
+   "name": "Multidisciplinary Pain Journal",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4210206981,
+   "name": "MIDEO",
+   "oa_since": "2015"
+  },
+  {
+   "source_id": 5406958976,
+   "name": "Modus Prace z Historii Sztuki",
+   "oa_since": "2017"
+  },
+  {
+   "source_id": 4210213504,
+   "name": "Polski Rocznik Muzykologiczny",
+   "oa_since": "2021"
+  },
+  {
+   "source_id": 7407057787,
+   "name": "Näyttämö ja tutkimus",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4404670094,
+   "name": "Matenadaran Medieval and Early Modern Armenian Studies (MEMAS)",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4210220702,
+   "name": "ECHO a journal of music thought and technology",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 5407053681,
+   "name": "Emergencias Pediátricas",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4306515437,
+   "name": "Journal of comparative politics",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 5407017820,
+   "name": "Revista Canarias Pediátrica",
+   "oa_since": "2025"
+  },
+  {
+   "source_id": 4387290230,
+   "name": "Korpus - gramatika - axiologie",
+   "oa_since": "2010"
+  },
+  {
+   "source_id": 5406972671,
+   "name": "Prevención del Tabaquismo",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4393918276,
+   "name": "Pygmalion",
+   "oa_since": "2014"
+  },
+  {
+   "source_id": 5407049017,
+   "name": "Journal of Engineering 360",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4404676493,
+   "name": "Revista de asma.",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 168235515,
+   "name": "Archives de sciences sociales des religions",
+   "oa_since": "1956"
+  },
+  {
+   "source_id": 208089930,
+   "name": "Sociologie du Travail",
+   "oa_since": "1959"
+  },
+  {
+   "source_id": 39012697,
+   "name": "Fundamenta Informaticae",
+   "oa_since": "2021"
+  },
+  {
+   "source_id": 4210172832,
+   "name": "Économie rurale",
+   "oa_since": "1949"
+  },
+  {
+   "source_id": 4210233319,
+   "name": "Méditerranée",
+   "oa_since": "1960"
+  },
+  {
+   "source_id": 4387283752,
+   "name": "Diversité",
+   "oa_since": "1973"
+  },
+  {
+   "source_id": 1014724869,
+   "name": "Economic Research-Ekonomska Istraživanja",
+   "oa_since": "2006"
+  },
+  {
+   "source_id": 113942516,
+   "name": "Bulletin de correspondance hellénique",
+   "oa_since": "1877"
+  },
+  {
+   "source_id": 131235000,
+   "name": "Syria",
+   "oa_since": "1920"
+  },
+  {
+   "source_id": 4306515200,
+   "name": "Journal de la Société des océanistes",
+   "oa_since": "1945"
+  },
+  {
+   "source_id": 4210171455,
+   "name": "Revue Géographique de l Est",
+   "oa_since": "1961"
+  },
+  {
+   "source_id": 4306510053,
+   "name": "Études irlandaises",
+   "oa_since": "1976"
+  },
+  {
+   "source_id": 77515537,
+   "name": "Archipel",
+   "oa_since": "1971"
+  },
+  {
+   "source_id": 4210183095,
+   "name": "Mélanges de l École française de Rome Antiquité",
+   "oa_since": "1881"
+  },
+  {
+   "source_id": 4210193527,
+   "name": "Géocarrefour",
+   "oa_since": "1926"
+  },
+  {
+   "source_id": 31485498,
+   "name": "Journal of Lie Theory",
+   "oa_since": "1991"
+  },
+  {
+   "source_id": 4210171857,
+   "name": "Athenaeum Polskie Studia Politologiczne",
+   "oa_since": "2006"
+  },
+  {
+   "source_id": 4210210833,
+   "name": "Linx",
+   "oa_since": "1979"
+  },
+  {
+   "source_id": 4210179295,
+   "name": "Mélanges de l École française de Rome Italie et Méditerranée",
+   "oa_since": "1881"
+  },
+  {
+   "source_id": 4210219403,
+   "name": "Paléorient",
+   "oa_since": "1973"
+  },
+  {
+   "source_id": 192550489,
+   "name": "Quaternaire",
+   "oa_since": "1964"
+  },
+  {
+   "source_id": 4389157815,
+   "name": "Annales de la Société Géologique du Nord",
+   "oa_since": "1875"
+  },
+  {
+   "source_id": 4210203114,
+   "name": "Bulletin de la Société Royale des Sciences de Liège",
+   "oa_since": "1998"
+  },
+  {
+   "source_id": 78365799,
+   "name": "Histoire & Mesure",
+   "oa_since": "1986"
+  },
+  {
+   "source_id": 75838318,
+   "name": "Lusotopie",
+   "oa_since": "1994"
+  },
+  {
+   "source_id": 168777911,
+   "name": "Géomorphologie relief processus environnement",
+   "oa_since": "1995"
+  },
+  {
+   "source_id": 4210196961,
+   "name": "Documents pour l histoire du français langue étrangère ou seconde",
+   "oa_since": "1988"
+  },
+  {
+   "source_id": 5407054134,
+   "name": "Fizikalna i rehabilitacijska medicina",
+   "oa_since": "1984"
+  },
+  {
+   "source_id": 4386621721,
+   "name": "Revue archéologique de l Ouest",
+   "oa_since": "1984"
+  },
+  {
+   "source_id": 4210178800,
+   "name": "Paléo",
+   "oa_since": "1989"
+  },
+  {
+   "source_id": 4387292137,
+   "name": "Recherches anglaises et nord-américaines",
+   "oa_since": "1967"
+  },
+  {
+   "source_id": 2898512452,
+   "name": "Polski Przegląd Otorynolaryngologiczny",
+   "oa_since": "2014"
+  },
+  {
+   "source_id": 4210191777,
+   "name": "Études canadiennes / Canadian Studies",
+   "oa_since": "2012"
+  },
+  {
+   "source_id": 4210231703,
+   "name": "Les Cahiers philosophiques de Strasbourg",
+   "oa_since": "2010"
+  },
+  {
+   "source_id": 105025131,
+   "name": "Vita Latina",
+   "oa_since": "1989"
+  },
+  {
+   "source_id": 4210183664,
+   "name": "Edukacja Międzykulturowa",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 2764993106,
+   "name": "Anatolia Antiqua",
+   "oa_since": "1991"
+  },
+  {
+   "source_id": 70802718,
+   "name": "Livraisons d histoire de l architecture",
+   "oa_since": "2001"
+  },
+  {
+   "source_id": 76039225,
+   "name": "Croatian Journal of Philosophy",
+   "oa_since": "2015"
+  },
+  {
+   "source_id": 4210230406,
+   "name": "Świat i Słowo",
+   "oa_since": "2019"
+  },
+  {
+   "source_id": 4210207281,
+   "name": "PRZEGLĄD POLICYJNY",
+   "oa_since": "2016"
+  },
+  {
+   "source_id": 2755651844,
+   "name": "Reumatizam",
+   "oa_since": "2004"
+  },
+  {
+   "source_id": 4210227803,
+   "name": "Cahiers Edmond et Jules de Goncourt",
+   "oa_since": "1992"
+  },
+  {
+   "source_id": 4306530115,
+   "name": "Školski vjesnik : časopis za pedagogijsku teoriju i praksu",
+   "oa_since": "2007"
+  },
+  {
+   "source_id": 4210201440,
+   "name": "Recherche et pratiques pédagogiques en langues de spécialité",
+   "oa_since": "1980"
+  },
+  {
+   "source_id": 4404662303,
+   "name": "Rocznik Lubuski.",
+   "oa_since": "2012"
+  },
+  {
+   "source_id": 4210206049,
+   "name": "Socijalna psihijatrija",
+   "oa_since": "2013"
+  },
+  {
+   "source_id": 4306535468,
+   "name": "Zagadnienia Doradztwa Rolniczego",
+   "oa_since": "2006"
+  },
+  {
+   "source_id": 4210192867,
+   "name": "Teorija in praksa",
+   "oa_since": "1964"
+  },
+  {
+   "source_id": 4210207361,
+   "name": "Sympozjum/Sympozjum - Wyższe Seminarium Misyjne Zgromadzenia Księży Najświętszego Serca Jezusowego",
+   "oa_since": "1997"
+  },
+  {
+   "source_id": 4210185926,
+   "name": "Scolia",
+   "oa_since": "1994"
+  },
+  {
+   "source_id": 4306502213,
+   "name": "Annales Instituti archaeologici",
+   "oa_since": "2005"
+  },
+  {
+   "source_id": 74774492,
+   "name": "The Journal of Juristic Papyrology",
+   "oa_since": "1946"
+  },
+  {
+   "source_id": 4210197277,
+   "name": "Archaeonautica",
+   "oa_since": "1977"
+  },
+  {
+   "source_id": 4390296844,
+   "name": "Statistique et société",
+   "oa_since": "2013"
+  },
+  {
+   "source_id": 4210197383,
+   "name": "Forum+",
+   "oa_since": "2015"
+  },
+  {
+   "source_id": 4210170815,
+   "name": "Ubezpieczenia Społeczne Teoria i praktyka",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4387284569,
+   "name": "Zeszyty Naukowe Wyższej Szkoły Humanitas w Sosnowcu Pedagogika",
+   "oa_since": "2022"
+  },
+  {
+   "source_id": 4210207329,
+   "name": "Zbliżenia Cywilizacyjne",
+   "oa_since": "2007"
+  },
+  {
+   "source_id": 4210187328,
+   "name": "Prilozi za istraživanje hrvatske filozofske baštine",
+   "oa_since": "1975"
+  },
+  {
+   "source_id": 4306511644,
+   "name": "Gozdarski vestnik",
+   "oa_since": "1938"
+  },
+  {
+   "source_id": 4210175989,
+   "name": "ZESZYTY NAUKOWE WYŻSZEJ SZKOŁY TECHNICZNEJ W KATOWICACH",
+   "oa_since": "2013"
+  },
+  {
+   "source_id": 4210224809,
+   "name": "Śląski Przegląd Statystyczny",
+   "oa_since": "2007"
+  },
+  {
+   "source_id": 4210211818,
+   "name": "Wschodnioznawstwo",
+   "oa_since": "2007"
+  },
+  {
+   "source_id": 4306514973,
+   "name": "Język i metoda",
+   "oa_since": "2012"
+  },
+  {
+   "source_id": 4306500959,
+   "name": "ACS. Agriculturae conspectus scientificus",
+   "oa_since": "1997"
+  },
+  {
+   "source_id": 4306506690,
+   "name": "Comprendre: Revista catalana de filosofia",
+   "oa_since": "1999"
+  },
+  {
+   "source_id": 4387290802,
+   "name": "Acta Ludologica",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 5406950270,
+   "name": "Agroeconomia Croatica",
+   "oa_since": "2001"
+  },
+  {
+   "source_id": 4210215215,
+   "name": "Dialogues d histoire ancienne Supplément",
+   "oa_since": "2005"
+  },
+  {
+   "source_id": 4306521717,
+   "name": "Osječki matematički list",
+   "oa_since": "2004"
+  },
+  {
+   "source_id": 1027301186,
+   "name": "Prolegomena",
+   "oa_since": "2002"
+  },
+  {
+   "source_id": 4393914670,
+   "name": "Radiološki vjesnik",
+   "oa_since": "2020"
+  },
+  {
+   "source_id": 5407054519,
+   "name": "Croatian veterinary journal",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4306522897,
+   "name": "Povijest u nastavi",
+   "oa_since": "2003"
+  },
+  {
+   "source_id": 4306505735,
+   "name": "Časopis za povijest Zapadne Hrvatske",
+   "oa_since": "2006"
+  },
+  {
+   "source_id": 4210216079,
+   "name": "Larus godišnjak Zavoda za ornitologiju Hrvatske akademije znanosti i umjetnosti",
+   "oa_since": "2005"
+  },
+  {
+   "source_id": 4210209933,
+   "name": "Hrvatski meteorološki časopis",
+   "oa_since": "1957"
+  },
+  {
+   "source_id": 4387289811,
+   "name": "Studia Neofilologiczne Rozprawy Językoznawcze",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4387287056,
+   "name": "wunderBlock Psychoanaliza i Filozofia",
+   "oa_since": "born_open"
+  },
+  {
+   "source_id": 4210171258,
+   "name": "Rad Hrvatske akademije znanosti i umjetnosti Tehničke znanosti",
+   "oa_since": "2012"
+  }
+ ],
+ "skipped": [
+  {
+   "source_id": 7407089969,
+   "name": "Experimental Philosophy",
+   "why": "override exists (True, None, 'DDH 2026-10-21: Diamond OA (all five DDH criteria true, incl. open licences and no fees)')"
+  }
+ ]
+}
