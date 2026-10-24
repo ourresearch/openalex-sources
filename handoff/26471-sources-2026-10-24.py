@@ -11,8 +11,8 @@ Every value was checked against the live API and ROR on 2026-10-23.
                              merged in: S4406922276 (harvests hal.science at large, 211K works), S4406922470 HAL - CNAM,
                              S4306400468 HAL (Universite Cote d'Azur)
   Numdam        S4306402264  host Universite Savoie Mont Blanc -> I4405278365 MathDoc (ROR 05vcv0p21); country FR
-  eBooks        country_code = the host publisher's single country, on the 1,183 null-country "<X> eBooks"
-                sources in handoff/26471-ebooks-country.csv (90 FR). Works don't embed a source's country.
+  eBooks        country_code = the host publisher's single country, on the 1,174 null-country "<X> eBooks"
+                sources in handoff/26471-ebooks-country.csv (90 FR; obsolete codes CS/DD left out). Works don't embed a source's country.
 
 Run on the dyno (dry run by default; everything in ONE transaction):
     heroku run -a openalex-sources --no-tty "python handoff/26471-sources-2026-10-24.py"

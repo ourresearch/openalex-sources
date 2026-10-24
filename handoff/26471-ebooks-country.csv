@@ -36,7 +36,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306463717,Palgrave Macmillan US eBooks,P4310319703,Palgrave Macmillan,GB
 4306464232,Vandenhoeck & Ruprecht eBooks,P4310320014,Vandenhoeck & Ruprecht,DE
 4306464165,University of Hawaii Press eBooks,P4310315682,University of Hawaii Press,US
-4306462951,Böhlau Verlag eBooks,P4310321073,Böhlau Verlag,DD
 4306462833,Amsterdam University Press eBooks,P4310318533,Amsterdam University Press,NL
 4306463024,C.H.Beck eBooks,P4310320552,C.H. Beck,DE
 4306463973,Taylor & Francis eBooks,P4310320547,Taylor & Francis,GB
@@ -88,7 +87,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306482875,Wilfrid Laurier University Press eBooks,P4310312983,Wilfrid Laurier University Press,CA
 4306462793,American Academy of Pediatrics eBooks,P4310315734,American Academy of Pediatrics,US
 4306463226,El Colegio de México eBooks,P4310319605,El Colegio de México,MX
-4306462787,Akademie Verlag eBooks,P4310321036,Akademie-Verlag,DD
 4306464169,University of Illinois Press eBooks,P4310315680,University of Illinois Press,US
 4306464195,University of South Carolina Press eBooks,P4310315743,University of North Carolina Press,US
 4306463160,Éditions de la Sorbonne eBooks,P4310311460,Éditions de la Sorbonne,FR
@@ -248,7 +246,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306463210,Editorial Universidad de Sevilla eBooks,P4310321134,Editorial Universidad de Sevilla,ES
 4306464655,ABC-CLIO eBooks,P4310320437,ABC-CLIO,US
 4306462875,Athabasca University Press eBooks,P4310312978,Athabasca University Press,CA
-4306466578,Böhlau eBooks,P4310321073,Böhlau Verlag,DD
 4306463515,K. G. Saur eBooks,P4310320138,K. G. Saur Verlag,DE
 4306463356,Harper & Row eBooks,P4310320116,Harper,US
 4306463516,Klincksieck eBooks,P4310320128,Klincksieck,FR
@@ -612,7 +609,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306463638,Muséum national d'Histoire naturelle eBooks,P4310311095,Muséum national d'histoire naturelle,FR
 4306464123,Universidad Nacional de La Plata eBooks,P4310318184,Uiversidad Nacional de La Plata,AR
 4306468191,Corporación Universitaria Lasallista eBooks,P4310318835,Corporación Universitaria Lasallista,CO
-4306472235,Hermann Böhlaus Nachfolger eBooks,P4310321073,Böhlau Verlag,DD
 4306474817,Leiden : Brill eBooks,P4310320561,Brill,NL
 4306480607,Texas Tech University Press eBooks,P4310316028,Texas Tech University Press,US
 4306472823,Indian Council of Agricultural Research eBooks,P4310318737,Indian Council of Agricultural Research,IN
@@ -707,7 +703,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306463367,Helmut Buske Verlag eBooks,P4310319877,Helmut Buske Verlag,DE
 4306468131,Consiglio Nazionale delle Ricerche eBooks,P4310317581,Consiglio Nazionale delle Ricerche,IT
 4306476076,Missouri Botanical Garden eBooks,P4310315712,Missouri Botanical Garden,US
-4306482246,VEB Verlag Volk und Gesundheit eBooks,P4310322037,Verlag Volk und Gesundheit,DD
 4306463531,Latvijas Universitāte eBooks,P4310320299,University of Latvia,LV
 4306465834,Association for Computational Linguistics eBooks,P4310320244,Association for Computational Linguistics,US
 4306466744,Brigham Young University Press eBooks,P4310316325,Brigham Young University Press,US
@@ -768,7 +763,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306475642,Mathematical Society of Japan eBooks,P4310313473,Mathematical Society of Japan,JP
 4306481758,"University of Chicago Press , Ricordi eBooks",P4310315672,University of Chicago Press,US
 4306481773,University of Florida eBooks,P4310316134,University of Florida,US
-4306482236,VEB Deutscher Verlag für Grundstoffindustrie eBooks,P4310320843,Deutscher Verlag für Grundstoffindustrie,DD
 4306488493,Kemerovo State University eBooks,P4310312648,Kemerovo State University,RU
 4306466758,British Computer Society eBooks,P4310311871,British Computer Society,GB
 4306467123,Carleton University eBooks,P4310313061,Carleton University,CA
@@ -857,7 +851,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306464648,Abadia de Montserrat eBooks,P4310321218,Publicacions de l'Abadia de Montserrat,ES
 4306465231,American Association of Neurological Surgeons eBooks,P4310316861,American Association of Neurological Surgeons,US
 4306465234,American Bankers Association eBooks,P4310316117,American Bankers Association,US
-4306465935,Aufbau Taschenbuch Verlag eBooks,P4310322153,Aufbau-Verlag,DD
 4306473313,International Center for Numerical Methods in Engineering (CIMNE) eBooks,P4310321932,International Centre for Numerical Methods in Engineering,ES
 4306476537,National Museum of Nature and Science eBooks,P4310313394,National Museum of Nature and Science,JP
 4306478401,Published for the American Association of Physicists in Medicine by the American Institute of Physics eBooks,P4310320257,American Institute of Physics,US
@@ -921,7 +914,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306465316,American Society of Plant Taxonomists eBooks,P4310319931,American Society of Plant Taxonomists,US
 4306465570,Arctic Institute of North America eBooks,P4310312960,Arctic Institute of North America,CA
 4306465973,Australian Academy of Science eBooks,P4310317906,Austrian Academy of Sciences,AT
-4306468396,Czechoslovak Academy of Sciences eBooks,P4362726048,Czechoslovak Academy of Sciences,CS
 4306468530,De La Salle University eBooks,P4310319567,De La Salle University,PH
 4306470801,Folio eBooks,P4310320054,Éditions Gallimard,FR
 4306471343,Geological Survey of India eBooks,P4310318739,Zoological Survey of India,IN
@@ -1063,7 +1055,6 @@ source_id,display_name,publisher_id,publisher_name,country_code
 4306470979,Freie Universität Berlin eBooks,P4310313933,Freie Universität Berlin,DE
 4306472165,Heldermann Verlag eBooks,P4310313881,Heldermann Verlag,DE
 4306472546,Hungarian Academy of Sciences eBooks,P4310315437,Hungarian Academy of Sciences,HU
-4306474820,Leipzig eBooks,P4310320843,Deutscher Verlag für Grundstoffindustrie,DD
 4306476915,Northern Illinois University. eBooks,P4310315949,Northern Illinois University,US
 4306477430,Palaeontological Association eBooks,P4310311560,Palaeontological Association,GB
 4306481500,Universidade Federal do Maranhão eBooks,P4310312512,Universidade Federal do Maranhão,BR
