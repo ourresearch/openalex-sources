@@ -1,0 +1,29 @@
+{
+  "run_at": "2026-10-25T00:36:16.237895+00:00",
+  "execute": true,
+  "manifest": "--json",
+  "minted": [],
+  "updated": [
+    {
+      "source_id": 7407065485,
+      "name": "Revista UGC",
+      "issns_added": []
+    }
+  ],
+  "endpoints": [
+    {
+      "endpoint_id": "257wubb445ytxq24q1ho",
+      "source_id": 7407065485,
+      "pmh_url": "https://revistacientifica.ugc.mx/index.php/rugc/es/oai",
+      "pmh_set": "rugc"
+    }
+  ],
+  "held": [],
+  "refused": [],
+  "actions": [
+    "EXISTING 7407065485 'Revista UGC': ISSNs added []",
+    "  REGISTERED endpoint 257wubb445ytxq24q1ho https://revistacientifica.ugc.mx/index.php/rugc/es/oai [rugc] -> 7407065485 journal_host (0 other rows on the host, none overlapping); harvest it now with: heroku run:detached -a openalex-ingest -- python repositories.py --endpoint-id 257wubb445ytxq24q1ho",
+    "minted 0, existing 1, endpoints 1, held 0, refused 0; listed_in rows changed 0",
+    "COMMITTED"
+  ]
+}

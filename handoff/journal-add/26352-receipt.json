@@ -1,0 +1,32 @@
+{
+  "run_at": "2026-10-25T00:36:33.002650+00:00",
+  "execute": true,
+  "manifest": "--json",
+  "minted": [
+    {
+      "source_id": 7407090057,
+      "name": "Perma",
+      "issns": [
+        "3085-6760"
+      ],
+      "ticket": "26352"
+    }
+  ],
+  "updated": [],
+  "endpoints": [
+    {
+      "endpoint_id": "d5veuj2cbm7xi0eh7xnu",
+      "source_id": 7407090057,
+      "pmh_url": "https://redepermacultura.ufsc.br/perma/index.php/revista/oai",
+      "pmh_set": "revista"
+    }
+  ],
+  "held": [],
+  "refused": [],
+  "actions": [
+    "MINTED 7407090057 'Perma' ['3085-6760']",
+    "  REGISTERED endpoint d5veuj2cbm7xi0eh7xnu https://redepermacultura.ufsc.br/perma/index.php/revista/oai [revista] -> 7407090057 journal_host (0 other rows on the host, none overlapping); harvest it now with: heroku run:detached -a openalex-ingest -- python repositories.py --endpoint-id d5veuj2cbm7xi0eh7xnu",
+    "minted 1, existing 0, endpoints 1, held 0, refused 0; listed_in rows changed 0",
+    "COMMITTED"
+  ]
+}
