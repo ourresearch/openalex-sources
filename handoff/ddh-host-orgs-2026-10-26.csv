@@ -1,0 +1,710 @@
+source_id,target_kind,target_id,target_name,ddh_publisher,evidence
+24117370,publisher,4310314790,University of Osijek,"Josip Juraj Strossmayer University of Osijek, Faculty of Humanities and Social Sciences",pass1 name match + judge
+25861425,institution,2801223450,Institute of Natural Sciences,Royal Belgian Institute of Natural Sciences (RBINS); Royal Belgian Zoological Society (RBZS),pass1 name match + judge
+31709072,institution,4210140745,State Archives of Belgium,"Study- and Documentation Centre for War and Contemporary Society (CegeSoma), State Archives",pass2 parent/alias (reviewed)
+53028522,publisher,4404673964,UGA Éditions,"UGA Éditions/Université Grenoble Alpes, Avignon Université",pass1 name match + judge
+76039225,institution,4210094658,Institut za filozofiju,Institute of Philosophy,pass1 name match + judge
+76378895,institution,4405263319,Universitätsverlag Göttingen,Universitätsverlag Göttingen | Göttingen University Press,pass1 name match + judge
+78365799,publisher,4310311439,School for Advanced Studies in the Social Sciences,Éditions de l’EHESS,pass2 parent/alias (reviewed)
+95537937,publisher,4404675151,Založba ZRC,"ZRC SAZU, Založba ZRC",pass1 name match + judge
+99957990,institution,1312409250,Institut d'Estadística de Catalunya,Intituto de Estadística de Cataluña,pass2 parent/alias (reviewed)
+104841470,publisher,4310317615,Italian Society of Silviculture and Forest Ecology,Italian Society of Silviculture and Forest Ecology (SISEF),pass1 name match + judge
+114820257,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Forestry and Wood Technology,pass1 name match + judge
+116163757,publisher,4404675151,Založba ZRC,"ZRC SAZU, Založba ZRC",pass1 name match + judge
+129123307,publisher,4310314832,University of Zagreb,"University of Zagreb, Faculty of Forestry",pass1 name match + judge
+131634575,institution,4210155267,Institute for Tourism,Croatian National Tourist Board; Institute for Tourism,pass1 name match + judge
+134428491,institution,4405266151,Vereniging voor Onderwijs Research,Vereniging voor Onderwijs Research (VOR),pass1 name match + judge
+161725137,publisher,4310311460,Éditions de la Sorbonne,Éditions de la Sorbonne,pass1 name match + judge
+173817438,publisher,4310311095,Muséum national d'histoire naturelle,Muséum national d'Histoire naturelle,pass1 name match + judge
+179032277,publisher,4310311095,Muséum national d'histoire naturelle,Muséum national d'Histoire naturelle,pass1 name match + judge
+180459934,institution,4210128546,Federal Institute of Hydrology,Bundesanstalt für Gewässerkunde,pass1 name match + judge
+189689514,publisher,4310314519,Slovenian Academy of Sciences and Arts,Slovenian Academy of Sciences and Arts,pass1 name match + judge
+200472310,publisher,4310311095,Muséum national d'histoire naturelle,Muséum national d'Histoire naturelle,pass1 name match + judge
+944037368,publisher,4310314790,University of Osijek,"Josip Juraj Strossmayer University of Osijek, Faculty of Humanities and Social Sciences",pass1 name match + judge
+1010243106,institution,3178478377,LEIZA - Leibniz-Zentrum für Archäologie,LEIZA Verlag,pass2 parent/alias (reviewed)
+1019538363,publisher,4404675151,Založba ZRC,"ZRC SAZU, Založba ZRC",pass1 name match + judge
+1029743862,publisher,4310311171,Presses Universitaires du Midi,Presses universitaires du Midi,pass1 name match + judge
+2477033120,institution,4405261332,Łukasiewicz Research Network - Poznań Institute of Technology,Łukasiewicz Research Network - Poznan Institute of Technology,pass1 name match + judge
+2736542709,publisher,4310314835,Croatian Academy of Sciences and Arts,Croatian Academy of Sciences and Arts,pass1 name match + judge
+2737337914,publisher,4310321506,Serbian Mathematical Society,Mathematical Society of Serbia,pass1 name match + judge
+2737603951,publisher,4310317724,University of Bologna,University of Bologna,pass1 name match + judge
+2738269901,publisher,4310322061,Colegio Oficial de Psicólogos de Madrid,Colegio Oficial de Psicólogos de Madrid,pass1 name match + judge
+2738619853,publisher,4310320377,University of Jyväskylä,Jyväskylän yliopisto,pass1 name match + judge
+2755530126,publisher,4353108602,Wroclaw Medical University,Wroclaw Medical University,pass1 name match + judge
+2764348713,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+2764472783,institution,4210087320,Mining and Metallurgy Institute Bor,"Mining and Metallurgy Institute, Bor",pass1 name match + judge
+2764524227,publisher,4310313957,Bielefeld University,Bielefeld University,pass1 name match + judge
+2764534297,institution,4210104836,Institute of Hydroengineering,Polska Akademia Nauk. Instytut Budownictwa Wodnego PAN,pass1 name match + judge
+2764535626,institution,133731052,University of Helsinki,Helsinki University Press,pass2 parent/alias (reviewed)
+2764582180,publisher,4310317724,University of Bologna,University of Bologna,pass1 name match + judge
+2764643833,institution,4210133779,"University Hospital for Infectious Diseases ""Dr Fran Mihaljevic""",University Hospital for Infectious Diseases 'Dr. Fran Mihaljević' Zagreb; the Croatian Society for Infectious Diseases of the Croatian Medical Association,pass1 name match + judge
+2764678885,institution,4405258466,The Finnish Society of Built Environment Research,Finnish Society of Built Environment Research,pass1 name match + judge
+2764792803,publisher,4310320196,Firenze University Press,Firenze University Press,pass1 name match + judge
+2764800138,institution,4210119410,Institute of Fundamental Technological Research,Institute of Fundamental Technological Research,pass1 name match + judge
+2764830028,publisher,4320800659,Mattioli 1885,Mattioli1885,pass2 parent/alias (reviewed)
+2764831130,institution,3020398883,Central Mining Institute,Central Mining Institute (Główny Instytut Górnictwa),pass1 name match + judge
+2764856153,publisher,4310322603,"University of Kragujevac, Faculty of Science","University of Kragujevac, Faculty of Science",pass1 name match + judge
+2764917397,publisher,4404669173,Uppsala University,"Department of Linguistics and Philology, Uppsala University",pass1 name match + judge
+2764938596,publisher,4310317344,University of Warsaw,University of Warsaw Press,pass1 name match + judge
+2764993106,institution,4210123076,Institut Français d'Études Anatoliennes,IFEA - Institut français d'études anatoliennes,pass1 name match + judge
+2765045655,publisher,4310321022,University of Barcelona,Universitat de Barcelona,pass1 name match + judge
+2913259631,institution,190861549,Arts et Métiers,Arts et Métiers Institute of Technology,pass1 name match + judge
+4210167631,institution,92251255,University of Split,"University of Split, Faculty of Social sciences and Humanities Split",pass1 name match + judge
+4210167826,institution,4405255930,Presses Universitaires de Franche-Comté,Presses universitaires de Franche-Comté (PUFC),pass1 name match + judge
+4210167925,publisher,4310311334,Presses universitaires de Caen,Presses universitaires de Caen,pass1 name match + judge
+4210168245,publisher,4310317431,Pedagogical University of Cracow,Uniwersytet Komisji Edukacji Narodowej w Krakowie,pass1 name match + judge
+4210168247,publisher,4310311163,Aix-Marseille University,Presses universitaires d'Aix-Marseille - PUAM,pass2 parent/alias (reviewed)
+4210168384,publisher,4310311171,Presses Universitaires du Midi,Presses universitaires du Midi,pass1 name match + judge
+4210169083,institution,4404532881,Toplica Academy of Applied Studies,"Toplica Academy of Applied Studies, Department of Business Studies Blace",pass1 name match + judge
+4210169269,institution,206945453,Paderborn University,"University of Paderborn, Department of Management and Human Resources Education",pass2 parent/alias (reviewed)
+4210169329,publisher,4310317287,Nicolaus Copernicus University in Toruń,Uniwersytet Mikołaja Kopernika,pass2 parent/alias (reviewed)
+4210169879,publisher,4310317431,Pedagogical University of Cracow,Uniwersytet Komisji Edukacji Narodowej w Krakowie,pass1 name match + judge
+4210169999,publisher,4310317344,University of Warsaw,Uniwersytet Warszawski. Ośrodek Studiów Amerykańskich,pass1 name match + judge
+4210170158,publisher,4310317322,Wydawnictwo Naukowe Uniwersytetu Pedagogicznego,Wydawnictwo Naukowe Uniwersytetu Pedagogicznego,pass1 name match + judge
+4210170162,publisher,4310321273,University of Belgrade,"University of Belgrade, Teacher Education Faculty",pass1 name match + judge
+4210170256,publisher,4404673964,UGA Éditions,UGA Éditions/Université Grenoble Alpes,pass1 name match + judge
+4210170485,publisher,4310317399,University of Gdańsk,University of Gdańsk,pass1 name match + judge
+4210170773,publisher,4310313709,Verlag Barbara Budrich,Verlag Barbara Budrich,pass1 name match + judge
+4210170962,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4210171000,institution,15196421,University of Applied Sciences and Arts of Southern Switzerland,"Dipartimento formazione e apprendimento - Scuola universitaria professionale della Svizzera italiana; Repubblica e Canton Ticino - Dipartimento dell'educazione, della cultura e dello sport (DECS)",pass1 name match + judge
+4210171627,publisher,4310311113,Institut National d'Histoire de l'Art,Institut national d'histoire de l'art,pass1 name match + judge
+4210171642,publisher,4310314519,Slovenian Academy of Sciences and Arts,Slovenian Academy of Sciences and Arts,pass1 name match + judge
+4210172051,publisher,4310320087,CNRS Éditions,CNRS Éditions,pass1 name match + judge
+4210172159,publisher,4310320059,École normale supérieure Editions,ENS Éditions,pass1 name match + judge
+4210172190,publisher,4310320150,Presses universitaires de Strasbourg,"Presses universitaires de Strasbourg, Association Artefact. Techniques histoire et sciences humaines",pass1 name match + judge
+4210172245,publisher,4404675151,Založba ZRC,"ZRC SAZU, Založba ZRC",pass1 name match + judge
+4210172281,institution,12449238,Université d'Orléans,Université d'Orléans,pass1 name match + judge
+4210172642,publisher,4310321084,University of Zaragoza,Universidad de Zaragoza,pass1 name match + judge
+4210172857,publisher,4310314755,University of Rijeka,"University of Rijeka, Faculty of Teacher Education",pass1 name match + judge
+4210173009,publisher,4310321029,University of the Basque Country,Universidad del País Vasco (UPV/EHU),pass1 name match + judge
+4210173012,publisher,4310314207,Charles University,Charles University,pass1 name match + judge
+4210173027,institution,4210126573,Institute of International Politics and Economics,"Institute of International Politics and Economics, Belgrade",pass1 name match + judge
+4210173161,publisher,4310311252,University of Limoges,Presses Universitaires de Limoges,pass2 parent/alias (reviewed)
+4210173356,publisher,4310314755,University of Rijeka,"University of Rijeka, Faculty of Medicine",pass1 name match + judge
+4210173402,publisher,4310317431,Pedagogical University of Cracow,Pedagogical University of Krakow,pass1 name match + judge
+4210173688,institution,4405257269,Center for Research on the English-speaking World,Center for Research on the English-Speaking World (CREW),pass1 name match + judge
+4210173732,institution,4405260080,Society for Art History in Finland,Taidehistorian seura – Föreningen för konsthistoria,pass1 name match + judge
+4210173765,publisher,4310314790,University of Osijek,"Josip Juraj Strossmayer University of Osijek, Faculty of tourism and rural development Pozega",pass1 name match + judge
+4210174078,publisher,4310311171,Presses Universitaires du Midi,Presses universitaires du Midi,pass1 name match + judge
+4210174764,publisher,4310311488,Presses Universitaires de la Méditerranée,Presses universitaires de la Méditerranée,pass1 name match + judge
+4210174851,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Forestry and Wood Technology,pass1 name match + judge
+4210174978,publisher,4310311216,Institut national des langues et civilisations orientales,INALCO,pass2 parent/alias (reviewed)
+4210175465,publisher,4404675151,Založba ZRC,"ZRC SAZU, Založba ZRC",pass1 name match + judge
+4210175524,publisher,4310321040,National University of Distance Education,UNED,pass2 parent/alias (reviewed)
+4210175816,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Economics and Business,pass1 name match + judge
+4210175989,institution,4210132446,Akademia Śląska,Akademia Śląska,pass1 name match + judge
+4210176238,publisher,4310311206,Sorbonne Nouvelle University,Presses Sorbonne Nouvelle,pass2 parent/alias (reviewed)
+4210176553,institution,4405254223,Centro Interdisciplinar de Ciências Sociais,CICS.NOVA - Centro Interdisciplinar de Ciências Sociais - Polo da Universidade do Minho,pass1 name match + judge
+4210176636,institution,4210113556,Institut za savremenu istoriju,Institut za Savremenu Istoriju,pass1 name match + judge
+4210177182,publisher,4310311171,Presses Universitaires du Midi,Presses universitaires du Midi,pass1 name match + judge
+4210178417,publisher,4310317431,Pedagogical University of Cracow,Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie,pass1 name match + judge
+4210178455,publisher,4310320290,University of Lodz Press,Lodz University Press,pass1 name match + judge
+4210178980,publisher,4310311216,Institut national des langues et civilisations orientales,Presses de l’Inalco,pass2 parent/alias (reviewed)
+4210179044,publisher,4376884134,University of Zurich,"University of Zurich, IKMZ – Department of Communication and Media Research",pass1 name match + judge
+4210179283,institution,2800249161,Military University of Technology in Warsaw,Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego,pass1 name match + judge
+4210179295,publisher,4362726119,French School of Rome,École française de Rome,pass1 name match + judge
+4210179664,publisher,4404662892,University of Bamberg Press,University of Bamberg Press,pass1 name match + judge
+4210179723,institution,4405259761,Finnish Society for the History of Education,Suomen kasvatuksen ja koulutuksen historian seura,pass1 name match + judge
+4210179815,institution,183111857,Malmö University,Malmö University Press,pass2 parent/alias (reviewed)
+4210180104,publisher,4404673964,UGA Éditions,UGA Éditions/Université Grenoble Alpes,pass1 name match + judge
+4210181407,publisher,4310317158,Örebro University,Örebro University,pass1 name match + judge
+4210181733,institution,4387153532,Espaces et Sociétés,Espaces et SOciétés (UMR 6590),pass1 name match + judge
+4210181819,publisher,4310314074,Cappelen Damm Akademisk NOASP,Cappelen Damm Akademisk NOASP,pass1 name match + judge
+4210182266,institution,197323543,Johannes Gutenberg University Mainz,Johannes Gutenberg-Universität Mainz,pass1 name match + judge
+4210182277,institution,175051016,Universidad Pública de Navarra (UPNA),Universidad Pública de Navarra,pass1 name match + judge
+4210182569,institution,198244214,Université Clermont Auvergne,Université Clermont Auvergne,pass1 name match + judge
+4210183337,institution,133731052,University of Helsinki,Helsinki University Press,pass2 parent/alias (reviewed)
+4210183386,institution,4399598356,University of Belgrade - Faculty of Geography,"University of Belgrade, Faculty of Geography",pass1 name match + judge
+4210183413,institution,4402554196,Srpsko arheološko društvo,Srpsko arheološko društvo,pass1 name match + judge
+4210183853,publisher,4310321084,University of Zaragoza,Universidad de Zaragoza,pass1 name match + judge
+4210184075,institution,4405252604,Sociedade Portuguesa de Psiquiatria e Saúde Mental,Sociedade Portuguesa de Psiquiatria e Saúde Mental,pass1 name match + judge
+4210184197,institution,188626449,Université Lumière Lyon 2,Université Lumière Lyon 2,pass1 name match + judge
+4210184216,publisher,4310317508,Vilnius University Press,Vilnius University Press,pass1 name match + judge
+4210184236,institution,4210143323,Institut d'Histoire Moderne et Contemporaine,IHMC - Institut d'histoire moderne et contemporaine (UMR 8066),pass1 name match + judge
+4210184437,publisher,4361134950,Presses Universitaires de Provence,Presses Universitaires de Provence,pass1 name match + judge
+4210184438,institution,190249584,Universität Innsbruck,University of Innsbruck,pass1 name match + judge
+4210184682,publisher,4310320087,CNRS Éditions,CNRS Éditions,pass1 name match + judge
+4210184875,publisher,4310317034,Åbo Akademi University,Åbo Akademi,pass1 name match + judge
+4210185084,institution,23736277,Polytechnic of Rijeka,Polytechnic of Rijeka,pass1 name match + judge
+4210185539,publisher,4310317344,University of Warsaw,Uniwersytet Warszawski. Wydawnictwa Uniwersytetu Warszawskiego,pass1 name match + judge
+4210185645,publisher,4404673964,UGA Éditions,UGA Éditions/Université Grenoble Alpes,pass1 name match + judge
+4210185926,publisher,4310320150,Presses universitaires de Strasbourg,Presses universitaires de Strasbourg,pass1 name match + judge
+4210186017,publisher,4310317344,University of Warsaw,University of Warsaw,pass1 name match + judge
+4210186215,publisher,4310317381,Jagiellonian University,Uniwersytet Jagielloński. Instytut Archeologii,pass1 name match + judge
+4210186307,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Humanities and Social Sciences,pass1 name match + judge
+4210186407,publisher,4404662892,University of Bamberg Press,University of Bamberg Press,pass1 name match + judge
+4210186560,publisher,4310321401,University of Girona,Universitat de Girona,pass1 name match + judge
+4210186710,publisher,4310321040,National University of Distance Education,UNED,pass2 parent/alias (reviewed)
+4210186982,publisher,4310321922,Universidad Francisco de Vitoria,Universidad Francisco de Vitoria,pass1 name match + judge
+4210187002,institution,166182418,Medical University of Silesia,Śląski Uniwersytet Medyczny w Katowicach,pass1 name match + judge
+4210187328,institution,4210094658,Institut za filozofiju,Institute of Philosophy,pass1 name match + judge
+4210187421,institution,143002897,Université de Toulon,Université de Toulon,pass1 name match + judge
+4210187504,institution,198244214,Université Clermont Auvergne,Université Clermont Auvergne,pass1 name match + judge
+4210187533,institution,4210131334,Institute of Archaeology,Institute of Arhaeology,pass2 parent/alias (reviewed)
+4210187779,publisher,4404673964,UGA Éditions,UGA Éditions/Université Grenoble Alpes,pass1 name match + judge
+4210188196,publisher,4310313896,Research Centre Jülich,Forschungszentrum Jülich,pass1 name match + judge
+4210188345,institution,198244214,Université Clermont Auvergne,Université Clermont Auvergne,pass1 name match + judge
+4210188566,publisher,4310317399,University of Gdańsk,Gdańsk University Press,pass2 parent/alias (reviewed)
+4210188647,institution,4405253154,CHAM - Centro de Humanidades,CHAM — Centro de Humanidades,pass1 name match + judge
+4210188937,institution,97565354,University of Lausanne,Université de Lausanne,pass1 name match + judge
+4210189210,institution,4405257349,Fondation Maison franco-japonaise,Institut français de recherche sur le Japon à la Maison franco-japonaise (UMIFRE 19  MEAE-CNRS),pass1 name match + judge
+4210189225,institution,4405259388,Bibliothèque nationale et universitaire de Strasbourg,Bibliothèque nationale et universitaire de Strasbourg,pass1 name match + judge
+4210189653,institution,4405266326,Asociacion Espanola de Investigacion de la Comunicacion (AE-IC),Asociación Española de Investigación de la Comunicación (AE-IC),pass1 name match + judge
+4210189790,publisher,4310317344,University of Warsaw,University of Warsaw,pass1 name match + judge
+4210189903,publisher,4310317287,Nicolaus Copernicus University in Toruń,Uniwersytet Mikołaja Kopernika w Toruniu,pass1 name match + judge
+4210190086,publisher,4310321357,University of Cordoba,Universidad de Córdoba,pass1 name match + judge
+4210190117,publisher,4404675151,Založba ZRC,"ZRC SAZU, Založba ZRC",pass1 name match + judge
+4210190220,institution,4405255959,"Institute for Political Studies, Belgrade","Institute for Political Studies, Belgrade, Serbia",pass1 name match + judge
+4210190245,institution,302099661,University of the Arts Helsinki,The Sibelius Academy of the University of the Arts Helsinki,pass1 name match + judge
+4210190331,institution,2800249161,Military University of Technology in Warsaw,"Military University of Technology, Warsaw",pass1 name match + judge
+4210191299,institution,4405258093,Finnish Literary Research Society,Kirjallisuudentutkijain seura,pass1 name match + judge
+4210191883,institution,4210147895,Institut za higijenu i tehnologiju mesa,Institute of meat hygiene and technology,pass1 name match + judge
+4210191952,institution,4405252531,Sociedade Portuguesa de Dermatologia e Venereologia,Sociedade Portuguesa de Dermatologia e Venereologia,pass1 name match + judge
+4210192507,publisher,4365922604,Utrecht University,Humanimalia - Utrecht University,pass1 name match + judge
+4210192616,publisher,4310317297,The Learned Society of the John Paul II Catholic University of Lublin,Towarzystwo Naukowe Katolickiego Uniwersytetu Lubelskiego Jana Pawła II,pass1 name match + judge
+4210192867,publisher,4310314477,University of Ljubljana,University of Ljubljana; Faculty of Social Sciences,pass1 name match + judge
+4210192976,institution,198244214,Université Clermont Auvergne,Université Clermont Auvergne,pass1 name match + judge
+4210193377,publisher,4404663127,University of Pristina,"University of Priština - Faculty of Natural Sciences and Mathematics, Kosovska Mitrovica",pass1 name match + judge
+4210194208,publisher,4310321273,University of Belgrade,"University of Belgrade, Faculty of Philology; National Council of the Slovenian National Minority",pass1 name match + judge
+4210194419,publisher,4323972338,Institute of Literary Research of the Polish Academy of Sciences,The Institute of Literary Research of the Polish Academy of Sciences,pass1 name match + judge
+4210194474,institution,4405257295,Centro de Investigação em Psicologia,CIP – Centro de Investigação em Psicologia da Universidade Autónoma de Lisboa (CIP),pass1 name match + judge
+4210194857,publisher,4310321273,University of Belgrade,University of Belgrade - Faculty of Philosophy - Institute for Philosophy,pass1 name match + judge
+4210195526,institution,4210126573,Institute of International Politics and Economics,"Institute of International Politics and Economics, Belgrade",pass1 name match + judge
+4210195646,institution,4405261199,Finnish Political Science Association (FPSA),Valtiotieteellinen yhdistys,pass1 name match + judge
+4210195816,publisher,4310320290,University of Lodz Press,Lodz University Press,pass1 name match + judge
+4210196175,publisher,4310317344,University of Warsaw,Uniwersytet Warszawski. Wydział Neofilologii,pass1 name match + judge
+4210196192,institution,4210126573,Institute of International Politics and Economics,"Institute of International Politics and Economics, Belgrade",pass1 name match + judge
+4210196306,institution,154338468,University of Fribourg,University of Fribourg,pass1 name match + judge
+4210196459,institution,4210142160,Akademia Katolicka w Warszawie,Catholic Academy in Warsaw,pass1 name match + judge
+4210197081,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Humanities and Social Sciences,pass1 name match + judge
+4210197277,publisher,4310320087,CNRS Éditions,CNRS Éditions,pass1 name match + judge
+4210197302,publisher,4310311184,University of Lille,Université de Lille,pass1 name match + judge
+4210197460,publisher,4310311216,Institut national des langues et civilisations orientales,INALCO,pass2 parent/alias (reviewed)
+4210197525,publisher,4310321029,University of the Basque Country,Universidad del País Vasco (UPV/EHU),pass1 name match + judge
+4210198019,publisher,4310321273,University of Belgrade,University of Belgrade - Faculty of Political Science,pass1 name match + judge
+4210198119,publisher,4310311216,Institut national des langues et civilisations orientales,Presses de l’Inalco,pass2 parent/alias (reviewed)
+4210198884,publisher,4310322081,Université libre de Bruxelles,Éditions de l'Université de Bruxelles,pass2 parent/alias (reviewed)
+4210198931,institution,4405257197,Statistics Poland,Statistics Poland,pass1 name match + judge
+4210199439,institution,4210156313,Institut de Recherche et d'Histoire des Textes,"Université Nice-Sophia Antipolis, IRHT - Institut de recherche et d'histoire des textes",pass1 name match + judge
+4210199495,publisher,4310317431,Pedagogical University of Cracow,Uniwersytet Komisji Edukacji Narodowej w Krakowie,pass1 name match + judge
+4210199852,publisher,4310314074,Cappelen Damm Akademisk NOASP,Cappelen Damm Akademisk NOASP,pass1 name match + judge
+4210200050,publisher,4310317015,Geographical Society of Finland,Geographical Society of Finland,pass1 name match + judge
+4210200955,publisher,4310311148,TELEMME - UMR 6570,TELEMME - UMR 6570,pass1 name match + judge
+4210201998,institution,4210136269,State University of Applied Sciences in Jaroslaw,The Bronislaw Markiewicz State Higher School of Technology and Economics in Jaroslaw,pass2 parent/alias (reviewed)
+4210202270,publisher,4310322225,University of Vic,Universitat de Vic,pass1 name match + judge
+4210202271,publisher,4310311416,Jean Moulin University - Lyon 3,Université Jean Moulin Lyon 3,pass1 name match + judge
+4210202326,institution,92251255,University of Split,University of Split,pass1 name match + judge
+4210202692,publisher,4310318079,French School at Athens,École française d’Athènes,pass1 name match + judge
+4210203244,institution,75124487,Gdańsk Medical University,Medical University of Gdańsk,pass1 name match + judge
+4210203711,institution,12379730,Poznań University of Economics and Business,Uniwersytet Ekonomiczny w Poznaniu. Wydawnictwo Uniwersytetu Ekonomicznego w Poznaniu,pass1 name match + judge
+4210203801,publisher,4310317331,Institute of History,Tadeusz Manteuffel Institute of History of the Polish Academy of Sciences,pass1 name match + judge
+4210204282,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Law,pass1 name match + judge
+4210204307,institution,4210154111,Université Gustave Eiffel,Université Gustave Eiffel,pass1 name match + judge
+4210204332,publisher,4310321113,Open University of Catalonia,Universitat Oberta de Catalunya,pass1 name match + judge
+4210205222,institution,4210124853,Institute of Criminological & Sociological Research,Serbian Association for Criminal Law Theory and Practice and Institute of Criminological and Sociological Research,pass1 name match + judge
+4210205444,institution,4210155116,Institut National de Recherches Archéologiques Préventives,INRAP - Institut national de recherches archéologiques préventives,pass1 name match + judge
+4210205835,publisher,4310317508,Vilnius University Press,Vilnius University Press,pass1 name match + judge
+4210205905,publisher,4310318436,University of Coimbra,Imprensa da Universidade de Coimbra,pass1 name match + judge
+4210205949,publisher,4310314812,Department of Psychiatry University Hospital Center Sestre milosrdnice,Department of Psychiatry University Hospital Center Sestre milosrdnice,pass1 name match + judge
+4210206049,publisher,4310314772,"Medicinska naklada, Zagreb",Medicinska naklada,pass1 name match + judge
+4210206868,publisher,4404673964,UGA Éditions,"UGA Éditions/Université Grenoble Alpes, Université Bordeaux Montaigne",pass1 name match + judge
+4210206885,publisher,4310321690,Miguel Hernández University of Elche,Universidad Miguel Hernández de Elche,pass1 name match + judge
+4210207123,publisher,4310317854,National Academy of Sciences of Armenia,National Academy of Sciences of Armenia,pass1 name match + judge
+4210207242,publisher,4404673964,UGA Éditions,UGA Éditions/Université Grenoble Alpes,pass1 name match + judge
+4210207335,institution,4405257772,Centro Interdisciplinar de História Culturas e Sociedades,CIDEHUS - Centro Interdisciplinar de História  Culturas e Sociedades da Universidade de Évora,pass1 name match + judge
+4210207360,publisher,4310317300,Jesuit University of Philosophy and Education Ignatianum,Ignatianum University Press,pass2 parent/alias (reviewed)
+4210207649,publisher,4310311171,Presses Universitaires du Midi,Presses universitaires du Midi,pass1 name match + judge
+4210207727,publisher,4310311334,Presses universitaires de Caen,Presses universitaires de Caen,pass1 name match + judge
+4210208363,publisher,4310314510,University of Primorska,University of Primorska,pass1 name match + judge
+4210208493,publisher,4404675151,Založba ZRC,"ZRC SAZU, Založba ZRC",pass1 name match + judge
+4210208965,institution,4405278489,IFRA Nairobi / Institut français de recherche en Afrique,IFRA - Institut Français de Recherche en Afrique,pass1 name match + judge
+4210209079,publisher,4310321132,University of Cádiz,Universidad de Cádiz,pass1 name match + judge
+4210209194,institution,1326498283,Institut national de recherche en sciences et technologies du numérique,Inria,pass2 parent/alias (reviewed)
+4210209202,institution,4405259615,Society for Regional and Environmental Studies,Alue- ja ympäristötutkimuksen seura; Yhteiskuntatieteellisen ympäristötutkimuksen seura,pass1 name match + judge
+4210209462,publisher,4310311334,Presses universitaires de Caen,Presses universitaires de Caen,pass1 name match + judge
+4210209762,institution,4405266077,Associacao Portuguesa de Sociologia,Associação Portuguesa de Sociologia,pass1 name match + judge
+4210209816,publisher,4310314074,Cappelen Damm Akademisk NOASP,Cappelen Damm Akademisk NOASP,pass1 name match + judge
+4210210023,institution,188626449,Université Lumière Lyon 2,Université Lumière Lyon 2,pass1 name match + judge
+4210210094,institution,4405260324,Centro de Estudos Globais,Centro de Estudos Globais da Universidade Aberta,pass1 name match + judge
+4210210105,publisher,4310314510,University of Primorska,University of Primorska,pass1 name match + judge
+4210210544,institution,4210111476,Institute for Recent History of Serbia,Institut za noviju istoriju Srbije,pass2 parent/alias (reviewed)
+4210210750,publisher,4310320087,CNRS Éditions,CNRS Éditions,pass1 name match + judge
+4210211250,institution,4402553982,IPMA Srbija,Serbian Project Management Association - IPMA Serbia,pass1 name match + judge
+4210211660,publisher,4310318431,ISCTE – Lisbon University Institute,DINÂMIA’CET-IUL,pass2 parent/alias (reviewed)
+4210211818,publisher,4310317446,University of Wrocław,Uniwersytet Wrocławski. Wydział Nauk Społecznych. Instytut Studiów Międzynarodowych,pass1 name match + judge
+4210212088,publisher,4310311154,University of Rouen,Presses universitaires de Rouen et du Havre,pass2 parent/alias (reviewed)
+4210212168,publisher,4310317399,University of Gdańsk,University of Gdansk,pass1 name match + judge
+4210213760,publisher,4310317331,Institute of History,Polska Akademia Nauk. Instytut Historii im. Tadeusza Manteuffla PAN w Warszawie,pass1 name match + judge
+4210213780,publisher,4310311248,"National Research Institute for Agriculture, Food and the Environment","Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)",pass1 name match + judge
+4210213868,institution,198244214,Université Clermont Auvergne,Université Clermont Auvergne,pass1 name match + judge
+4210214656,publisher,4362726119,French School of Rome,École française de Rome,pass1 name match + judge
+4210214659,institution,4210100301,Centre d’histoire de Sciences Po,Centre d’histoire de Sciences Po,pass1 name match + judge
+4210214904,institution,4210094452,International Council of Museums,ICOM - International Council of Museums,pass1 name match + judge
+4210214988,publisher,4310311164,University of Montpellier,Faculté d'Éducation de l'université de Montpellier,pass1 name match + judge
+4210215215,institution,4405255930,Presses Universitaires de Franche-Comté,Presses universitaires de Franche-Comté (PUFC),pass1 name match + judge
+4210215398,publisher,4310320173,Éditions Kimé,Éditions Kimé,pass1 name match + judge
+4210216220,publisher,4404675151,Založba ZRC,"ZRC SAZU, Založba ZRC",pass1 name match + judge
+4210216258,institution,4210138949,"Migrations Internationales, Espaces et Sociétés",UMR 7301 - Migrinter,pass1 name match + judge
+4210216612,institution,4405255930,Presses Universitaires de Franche-Comté,Presses universitaires de Franche-Comté (PUFC),pass1 name match + judge
+4210216813,publisher,4310314477,University of Ljubljana,"University of Ljubljana, Faculty of social work",pass1 name match + judge
+4210217059,publisher,4310311469,Presses Universitaires de Paris Nanterre,Presses universitaires de Paris Nanterre,pass1 name match + judge
+4210217219,publisher,4310321164,University of Novi Sad,"University of Novi Sad, Faculty of Sport and Physical Education",pass1 name match + judge
+4210217930,institution,4210096155,Institute of Agricultural and Food Economics,Instytut Ekonomiki Rolnictwa i Gospodarki Żywnościowej - Państwowy Instytut Badawczy,pass1 name match + judge
+4210218952,publisher,4310317431,Pedagogical University of Cracow,Uniwersytet Komisji Edukacji Narodowej w Krakowie,pass1 name match + judge
+4210219178,institution,161929037,Université de Bretagne Occidentale,Université de Bretagne Occidentale – UBO,pass1 name match + judge
+4210219403,publisher,4310320087,CNRS Éditions,CNRS Éditions,pass1 name match + judge
+4210220066,institution,198415970,Université d'Avignon et des Pays de Vaucluse,Éditions universitaires d’Avignon,pass2 parent/alias (reviewed)
+4210220601,publisher,4310317500,Wydawnictwo Uniwersytetu Warmińsko-Mazurskiego w Olsztynie,Wydawnictwo Uniwersytetu Warmińsko-Mazurskiego w Olsztynie,pass1 name match + judge
+4210220702,institution,4210106195,Orpheus Institute,"Music; Thought and Technology (MTT) research group, Orpheus Instituut",pass1 name match + judge
+4210220742,publisher,4310311093,Presses universitaires de Vincennes,Presses universitaires de Vincennes,pass1 name match + judge
+4210221514,publisher,4404673964,UGA Éditions,UGA Éditions / Université Grenoble Alpes,pass1 name match + judge
+4210221610,institution,4405268149,Société d'étude de la littérature de langue française du XXe et du XXIe siècles,Société d'étude de la littérature de langue française du XXe et du XXIe siècles,pass1 name match + judge
+4210221825,institution,1326498283,Institut national de recherche en sciences et technologies du numérique,Inria,pass2 parent/alias (reviewed)
+4210222141,institution,283429734,Kazimierz Pułaski University of Technology and Humanities in Radom,Uniwersytet Radomski im. Kazimierza Pułaskiego,pass2 parent/alias (reviewed)
+4210222875,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4210223293,publisher,4310321452,University of Kragujevac,University of Kragujevac,pass1 name match + judge
+4210223669,publisher,4310314832,University of Zagreb,"University of Zagreb, Faculty of Health Studies",pass1 name match + judge
+4210223890,publisher,4310317322,Wydawnictwo Naukowe Uniwersytetu Pedagogicznego,Wydawnictwo Naukowe Uniwersytetu Pedagogicznego,pass1 name match + judge
+4210224256,publisher,4361134950,Presses Universitaires de Provence,Presses Universitaires de Provence,pass1 name match + judge
+4210224269,institution,92251255,University of Split,"University of Split, Faculty of Humanities and Social Sciences in Split",pass1 name match + judge
+4210224514,publisher,4310314772,"Medicinska naklada, Zagreb",Medicinska naklada,pass1 name match + judge
+4210224801,publisher,4404673964,UGA Éditions,UGA Éditions/Université Grenoble Alpes,pass1 name match + judge
+4210225597,publisher,4310317344,University of Warsaw,Wydawnictwo Naukowe Wydziału Zarządzania Uniwersytetu Warszawskiego,pass2 parent/alias (reviewed)
+4210225647,institution,149461666,Ca' Foscari University of Venice,Fondazione Università Ca’ Foscari,pass1 name match + judge
+4210226125,publisher,4404663127,University of Pristina,"University of Pristina in Kosovska Mitrovica, Faculty of Economics",pass1 name match + judge
+4210226152,institution,98559091,University of Rzeszów,Uniwersytet Rzeszowski. Wydawnictwo Uniwersytetu Rzeszowskiego,pass1 name match + judge
+4210226444,publisher,4310311334,Presses universitaires de Caen,Presses universitaires de Caen,pass1 name match + judge
+4210228092,publisher,4310317431,Pedagogical University of Cracow,Uniwersytet Komisji Edukacji Narodowej w Krakowie. Instytut Filozofii i Socjologii,pass1 name match + judge
+4210228522,publisher,4310314477,University of Ljubljana,"University of Ljubljana, Faculty of Civil and Geodetic Engineering",pass1 name match + judge
+4210228620,publisher,4310321029,University of the Basque Country,Universidad del País Vasco (UPV/EHU),pass1 name match + judge
+4210229200,institution,4405266643,Associacao Internacional de Lusitanistas,Associação Internacional de Lusitanistas,pass1 name match + judge
+4210229329,institution,154338468,University of Fribourg,Universität Freiburg (Schweiz),pass1 name match + judge
+4210229668,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Philosophy and Religious Studies,pass1 name match + judge
+4210231040,institution,4210158069,The Wojciech Kętrzyński Northern Institute,"Instytut Północny im. Wojciecha Kętrzyńskiego (The Wojciech Kętrzyński Northern Institute, formerly The Wojciech Kętrzyński Research Center)",pass1 name match + judge
+4210231134,institution,98559091,University of Rzeszów,Uniwersytet Rzeszowski,pass1 name match + judge
+4210231393,institution,4210145160,Scientific and Research Centre for Fire Protection,Centrum Naukowo-Badawcze Ochrony Przeciwpożarowej im. Józefa Tuliszkowskiego,pass1 name match + judge
+4210231692,publisher,4310311206,Sorbonne Nouvelle University,Presses Sorbonne Nouvelle,pass2 parent/alias (reviewed)
+4210231703,publisher,4310320150,Presses universitaires de Strasbourg,Presses universitaires de Strasbourg,pass1 name match + judge
+4210231930,institution,92251255,University of Split,"University of Split, Catholic Faculty of Theology",pass1 name match + judge
+4210232123,institution,4405261445,Society of Queer Studies in Finland,Suomen queer-tutkimuksen seura,pass1 name match + judge
+4210233067,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Geotechnical Engineering,pass1 name match + judge
+4210233383,publisher,4310311095,Muséum national d'histoire naturelle,Muséum national d'Histoire naturelle,pass1 name match + judge
+4210233712,publisher,4310320579,Uniwersytet Gdański. Wydawnictwo,Wydawnictwo Uniwersytetu Gdańskiego,pass1 name match + judge
+4210233946,publisher,4310311488,Presses Universitaires de la Méditerranée,Presses universitaires de la Méditerranée,pass1 name match + judge
+4210234094,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4210234222,publisher,4324277498,Institute of Information Science,Institute of Information Science,pass1 name match + judge
+4210234262,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4210234434,institution,4392021111,Znanstveno-raziskovalno središče Koper,"ANNALES ZRS, Scientific Publishing House",pass2 parent/alias (reviewed)
+4210234480,publisher,4310317351,Władysław Szafer Institute of Botany,"W. Szafer Institute of Botany, Polish Academy of Sciences",pass1 name match + judge
+4210235007,publisher,4310321361,University of Málaga,Universidad de Málaga,pass1 name match + judge
+4210235131,publisher,4310310987,Multidisciplinary Digital Publishing Institute,MDPI AG,pass1 name match + judge
+4210235611,institution,4210159056,Institute of Political Studies,Instytut Studiów Politycznych PAN,pass1 name match + judge
+4210235942,publisher,4310314785,"University of Zagreb, Faculty of Education and Rehabilitation Sciences",University of Zagreb Faculty of Education and Rehabilitation Sciences; University of Rijeka,pass1 name match + judge
+4210236093,institution,4210090844,Institute of Mediterranean and Oriental Cultures,Institute of Mediterranean and Oriental Cultures of the Polish Academy of Sciences,pass1 name match + judge
+4210236173,institution,904495901,Ruhr University Bochum,Ruhr-Universität Bochum,pass1 name match + judge
+4210236479,publisher,4310311163,Aix-Marseille University,Université Aix-Marseille (AMU),pass1 name match + judge
+4210236629,publisher,4310314832,University of Zagreb,"University of Zagreb, Faculty of Health Studies",pass1 name match + judge
+4210237394,institution,92251255,University of Split,"University of Split, Faculty of Health Sciences",pass1 name match + judge
+4210237605,publisher,4310311416,Jean Moulin University - Lyon 3,Université Jean-Moulin Lyon 3,pass1 name match + judge
+4210237909,publisher,4310317344,University of Warsaw,University of Warsaw,pass1 name match + judge
+4210237949,publisher,4310311531,University of Poitiers,Université de Poitiers,pass1 name match + judge
+4210238121,publisher,4310321357,University of Cordoba,Universidad de Córdoba,pass1 name match + judge
+4210238122,institution,88596544,Universidade Lusófona,Lusófona University,pass1 name match + judge
+4210238527,publisher,4310314826,Croatian Institute of History,Croatian Institute of History,pass1 name match + judge
+4210238744,institution,133731052,University of Helsinki,Helsingin yliopisto,pass1 name match + judge
+4210240188,publisher,4310321040,National University of Distance Education,UNED,pass2 parent/alias (reviewed)
+4210241165,publisher,4310311081,Institut National des Sciences Appliquées de Lyon,INSA de Lyon,pass1 name match + judge
+4220651437,publisher,4376884134,University of Zurich,UZH,pass1 name match + judge
+4220651444,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+4220651497,publisher,4310311416,Jean Moulin University - Lyon 3,Université Jean Moulin - Lyon 3,pass1 name match + judge
+4306500003,publisher,4310322539,Serbian Medical Society,"Serbian Medical Society, Department of Emergency Medicine, Belgrade",pass1 name match + judge
+4306500095,institution,4402554081,Real Academia de Bellas Artes de San Fernando,Real Academia de Bellas Artes de San Fernando,pass1 name match + judge
+4306500158,institution,4387153939,Milano University Press,Milano University Press,pass1 name match + judge
+4306500568,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Economics and Business,pass1 name match + judge
+4306500901,publisher,4310313667,Hamburg University Press,Hamburg University Press,pass1 name match + judge
+4306502213,institution,4210131334,Institute of Archaeology,Institute of Arhaeology,pass2 parent/alias (reviewed)
+4306502496,publisher,4310321474,University of Extremadura,Universidad de Extremadura,pass1 name match + judge
+4306502952,publisher,4324263146,Universidad Loyola Andalucia,Universidad Loyola Andalucía,pass1 name match + judge
+4306502960,publisher,4310321244,University of Oviedo,Universidad de Oviedo,pass1 name match + judge
+4306503553,publisher,4310322257,King Juan Carlos University,Universidad Rey Juan Carlos,pass1 name match + judge
+4306503914,publisher,4310317601,Dipartimento di Studi Linguistici e Letterari,Dipartimento di Studi Linguistici e Letterari - Università di Padova,pass1 name match + judge
+4306503946,publisher,4310321089,Vigo University,Universidade de Vigo,pass1 name match + judge
+4306504072,publisher,4310320209,Mimesis,Mimesis Edizioni,pass1 name match + judge
+4306504834,publisher,4310317589,University of Naples Federico II,Università degli Studi di Napoli Federico II,pass1 name match + judge
+4306504881,publisher,4310322416,Sociedad Española de Pedagogía,Sociedad Española de Pedagogía,pass1 name match + judge
+4306505197,institution,126311117,Royal Institute for Cultural Heritage,Institut royal du Patrimoine artistique - Koninklijk Instituut voor het Kunstpatrimonium,pass1 name match + judge
+4306505424,publisher,4310318492,Catholic University of Portugal,"Universidade Católica Portuguesa, Instituto de Ciências da Saúde",pass1 name match + judge
+4306505735,publisher,4310314755,University of Rijeka,"University of Rijeka, Faculty of Humanities and Social Sciences, Department of History",pass1 name match + judge
+4306506169,publisher,4310321044,University of Granada,Universidad de Granada,pass1 name match + judge
+4306506443,publisher,4310321084,University of Zaragoza,Universidad de Zaragoza,pass1 name match + judge
+4306506690,institution,4210163089,Fundacio Privada Universitat I Tecnologia,Fundació Privada Universitat i Tecnologia,pass1 name match + judge
+4306506936,institution,4210153110,Institut d'Histoire du Temps Présent,"IHTP - Institut d'Histoire du Temps Présent, CELAT",pass1 name match + judge
+4306507157,publisher,4310317531,University of Cagliari,UNICApress,pass2 parent/alias (reviewed)
+4306507365,publisher,4310321662,Fundación Universitaria Española,Fundación Universitaria Española,pass1 name match + judge
+4306507670,publisher,4310321038,Complutense University of Madrid,Universidad Complutense de Madrid,pass1 name match + judge
+4306507747,publisher,4310320821,Carlos III University of Madrid,Universidad Carlos III de Madrid,pass1 name match + judge
+4306508241,publisher,4310321133,Instituto Nacional de Administración Pública (Spain),Instituto Nacional de Administración Pública (INAP),pass2 parent/alias (reviewed)
+4306508552,publisher,4310320209,Mimesis,Mimesis Edizioni,pass1 name match + judge
+4306508922,publisher,4310321228,Technical University of Valencia,Universitat Politècnica de València,pass1 name match + judge
+4306509131,publisher,4310313963,FernUniversität Hagen,FernUniversität Hagen,pass1 name match + judge
+4306510019,publisher,4310320183,CLUEB,CLUEB,pass1 name match + judge
+4306510597,publisher,4310321044,University of Granada,Universidad de Granada,pass1 name match + judge
+4306510741,publisher,4310318498,University of Aveiro,UA Editora,pass2 parent/alias (reviewed)
+4306510787,publisher,4310321416,University of La Laguna,Universidad de La Laguna,pass1 name match + judge
+4306511024,institution,4210092378,Norwegian Physiotherapist Association,Norwegian Physiotherapist Association,pass1 name match + judge
+4306511277,publisher,4310317485,Polish Academy of Sciences,Polish Academy of Sciences,pass1 name match + judge
+4306511573,publisher,4310313755,German Medical Science GMS Publishing House,German Medical Science GMS Publishing House,pass1 name match + judge
+4306512189,publisher,4310321104,University of Salamanca,Universidad de Salamanca,pass1 name match + judge
+4306512417,institution,175051016,Universidad Pública de Navarra (UPNA),Universidad Pública de Navarra,pass1 name match + judge
+4306513093,publisher,4310318498,University of Aveiro,Universidade de Aveiro,pass1 name match + judge
+4306513396,publisher,4310311248,"National Research Institute for Agriculture, Food and the Environment","Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)",pass1 name match + judge
+4306513590,publisher,4310318454,Instituto Superior Miguel Torga,Instituto Superior Miguel Torga,pass1 name match + judge
+4306514211,publisher,4310317344,University of Warsaw,University of Warsaw,pass1 name match + judge
+4306514356,institution,119439378,University of Verona,Department of Foreign Languages and Literatures at the University of Verona,pass1 name match + judge
+4306514597,publisher,4310317724,University of Bologna,University of Bologna,pass1 name match + judge
+4306514938,publisher,4310317399,University of Gdańsk,Wydział Filologiczny Uniwersytetu Gdańskiego,pass2 parent/alias (reviewed)
+4306514973,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4306515242,publisher,4310317904,University of Graz,Karl Franzens Universität Graz,pass1 name match + judge
+4306515251,publisher,4310313835,Julius Kühn-Institut,Julius Kühn-Institut,pass1 name match + judge
+4306515437,publisher,4310314477,University of Ljubljana,University of Ljubljana,pass1 name match + judge
+4306516107,institution,100066346,University of Stuttgart,Universität Stuttgart,pass1 name match + judge
+4306517832,publisher,4310314785,"University of Zagreb, Faculty of Education and Rehabilitation Sciences",University of Zagreb Faculty of Education and Rehabilitation Sciences,pass1 name match + judge
+4306517841,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Croatian Studies,pass1 name match + judge
+4306517918,institution,108403487,Warsaw University of Technology,"Politechnika Warszawska, Wydział Architektury",pass1 name match + judge
+4306517930,publisher,4310317344,University of Warsaw,"University of Warsaw, Centre for European Regional and Local Studies (EUROREG)",pass1 name match + judge
+4306518083,publisher,4310313835,Julius Kühn-Institut,Julius Kühn-Institut,pass1 name match + judge
+4306519260,institution,4405266413,Asociacion Latinoamericana de Investigadores en Campanas Electorales,"ALICE, Asociación Latinoamericana de Investigadores en Campañas Electorales",pass1 name match + judge
+4306519703,institution,4210157525,Societas pro Fauna et Flora Fennica,Societas pro fauna et flora Fennica,pass1 name match + judge
+4306519833,publisher,4310321408,University of Valencia,Universidad de Valencia,pass1 name match + judge
+4306519972,publisher,4310321262,University of Valladolid,Universidad de Valladolid,pass1 name match + judge
+4306520009,publisher,4310321044,University of Granada,Universidad de Granada,pass1 name match + judge
+4306520481,publisher,4310314809,Institute of Ethnology and Folklore Research,Institute of Ethonology and Folklore Research,pass2 parent/alias (reviewed)
+4306520958,institution,4405258159,Geographical Society of Northern Finland,Geographical Society of Northern Finland,pass1 name match + judge
+4306520975,institution,77901215,"MF Norwegian School of Theology, Religion and Society","MF Norwegian School of Theology, Religion and Society",pass1 name match + judge
+4306521279,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Philosophy and Religious Studies,pass1 name match + judge
+4306521493,institution,3019592416,Institute of Oncology Ljubljana,Institute of Oncology Ljubljana,pass1 name match + judge
+4306521667,publisher,4310317600,Padova University Press,Padova University Press,pass1 name match + judge
+4306521730,publisher,4310319988,Studienverlag,StudienVerlag,pass1 name match + judge
+4306522090,institution,878454856,Hasselt University,"Faculty of Architecture and Arts, Hasselt University",pass1 name match + judge
+4306523055,publisher,4310318451,NOVA University Lisbon,Universidade Nova de Lisboa,pass1 name match + judge
+4306523082,publisher,4310313957,Bielefeld University,Wissenschaftliche Einrichtung Oberstufen-Kolleg der Universität Bielefeld,pass2 parent/alias (reviewed)
+4306524903,publisher,4310314421,University of Ostrava,University of Ostrava,pass1 name match + judge
+4306525140,publisher,4310321408,University of Valencia,Universitat de València,pass1 name match + judge
+4306525237,publisher,4310321044,University of Granada,Universidad de Granada,pass1 name match + judge
+4306525389,publisher,4310321035,Comillas Pontifical University,Editorial Universidad Pontificia Comillas,pass1 name match + judge
+4306526668,publisher,4310321180,Pablo de Olavide University,Universidad Pablo de Olavide,pass1 name match + judge
+4306526989,institution,4405260940,Escola d'Administració Pública de Catalunya,Escola d‘Administració Pública de Catalunya,pass2 parent/alias (reviewed)
+4306527088,publisher,4310321228,Technical University of Valencia,Universitat Politècnica de València,pass1 name match + judge
+4306527293,publisher,4310321262,University of Valladolid,Universidad de Valladolid,pass1 name match + judge
+4306527306,institution,4405266100,Sociedad Española de Medicina Preventiva Salud Pública y Gestión Sanitaria,"Sociedad Española de Medicina Preventiva, Salud Pública y Gestión Sanitaria (SEMPSPGS)",pass1 name match + judge
+4306527659,publisher,4310321044,University of Granada,Universidad de Granada,pass1 name match + judge
+4306527862,publisher,4310318492,Catholic University of Portugal,Universidade Católica Portuguesa,pass1 name match + judge
+4306528256,publisher,4310311426,Presses Universitaires du Septentrion,Presses universitaires du Septentrion,pass1 name match + judge
+4306528532,publisher,4310317602,University of Turin,Università degli Studi di Torino,pass1 name match + judge
+4306528534,publisher,4310321244,University of Oviedo,Universidad de Oviedo,pass1 name match + judge
+4306528603,publisher,4310317527,LED Edizioni Universitarie,LED Edizioni Universitarie,pass1 name match + judge
+4306528606,publisher,4310320196,Firenze University Press,Firenze University Press,pass1 name match + judge
+4306529350,publisher,4310317724,University of Bologna,University of Bologna,pass1 name match + judge
+4306529961,publisher,4310321104,University of Salamanca,Universidad de Salamanca,pass1 name match + judge
+4306530115,institution,92251255,University of Split,"University of Split, Faculty of Social sciences and Humanities Split",pass1 name match + judge
+4306530344,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Humanities and Social Sciences,pass1 name match + judge
+4306531032,publisher,4310317344,University of Warsaw,"Center for  Europe, Warsaw University",pass1 name match + judge
+4306531081,institution,4405260084,Finnish Oriental Society,Finnish Oriental Society,pass1 name match + judge
+4306531104,publisher,4310314832,University of Zagreb,University of Zagreb Faculty of Humanities and Social Sciences,pass1 name match + judge
+4306531108,publisher,4310319777,Nakladatelství Karolinum,Karolinum Press,pass1 name match + judge
+4306531181,publisher,4310317431,Pedagogical University of Cracow,Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie,pass1 name match + judge
+4306531427,publisher,4310317344,University of Warsaw,Uniwersytet Warszawski. Wydawnictwa Uniwersytetu Warszawskiego,pass1 name match + judge
+4306531599,institution,169333911,Gdańsk University of Technology,Gdańsk University of Technology,pass1 name match + judge
+4306531640,publisher,4310317724,University of Bologna,University of Bologna,pass1 name match + judge
+4306531900,publisher,4310317756,Tor Vergata University of Rome,Università di Roma Tor Vergata,pass1 name match + judge
+4306532555,publisher,4310321045,University of Seville,Universidad de Sevilla,pass1 name match + judge
+4306532673,institution,4387153939,Milano University Press,Milano University Press,pass1 name match + judge
+4306532860,institution,77901215,"MF Norwegian School of Theology, Religion and Society","MF Norwegian School of Theology, Religion and Society",pass1 name match + judge
+4306533073,institution,4210135644,WSB Merito University in Torun,WSB University in Torun,pass1 name match + judge
+4306534104,publisher,4310321655,University of Santiago de Compostela,Universidade de Santiago de Compostela,pass1 name match + judge
+4306535513,publisher,4310321273,University of Belgrade,"University of Belgrade - Faculty of Geography, Belgrade",pass1 name match + judge
+4306535577,publisher,4310313957,Bielefeld University,Bielefeld University,pass1 name match + judge
+4306535708,publisher,4310317306,University of Szczecin,Szczecin University Press,pass2 parent/alias (reviewed)
+4306535834,institution,4210112454,Warsaw School of Computer Science,Warsaw School of Computer Science,pass1 name match + judge
+4306536250,publisher,4310314803,"Josip Juraj Strossmayer University of Osijek, Faculty of Education","Josip Juraj Strossmayer University of Osijek, Faculty of Education",pass1 name match + judge
+4363605624,institution,24359323,Robert Koch Institute,Robert Koch Institute,pass1 name match + judge
+4386872493,publisher,4310314832,University of Zagreb,"Faculty of Humanities and Social Sciences, University of Zagreb",pass1 name match + judge
+4387278303,institution,302099661,University of the Arts Helsinki,The University of the Arts Helsinki,pass1 name match + judge
+4387278563,publisher,4404675295,Peer Community in,Peer Community In,pass1 name match + judge
+4387279005,institution,4405259976,Université Jean Monnet,Université Jean Monnet Saint-Étienne,pass1 name match + judge
+4387279170,institution,154338468,University of Fribourg,Université de Fribourg,pass1 name match + judge
+4387279663,publisher,4310319777,Nakladatelství Karolinum,Karolinum Press,pass1 name match + judge
+4387279794,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+4387279795,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+4387280007,publisher,4310317204,Royal Danish Library,Royal Danish Library,pass1 name match + judge
+4387280291,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4387280525,publisher,4310320290,University of Lodz Press,Lodz University Press,pass1 name match + judge
+4387280662,institution,9927081,Aalto University,Aalto-yliopisto,pass1 name match + judge
+4387281088,institution,57825437,University of Neuchâtel,"Maison des sciences du langage et de la communication, Université de Neuchâtel",pass1 name match + judge
+4387281277,publisher,4310321040,National University of Distance Education,UNED,pass2 parent/alias (reviewed)
+4387282586,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4387283116,publisher,4310314790,University of Osijek,"Josip Juraj Strossmayer University of Osijek, Faculty Of Medicine",pass1 name match + judge
+4387283752,publisher,4310320059,École normale supérieure Editions,ENS Éditions,pass1 name match + judge
+4387284300,publisher,4310321468,Centro de Estudios Financieros,Centro de Estudios Financieros S.L (CEF),pass1 name match + judge
+4387284557,institution,2802142324,Università degli Studi Suor Orsola Benincasa,Suor Orsola Benincasa Università Editrice,pass2 parent/alias (reviewed)
+4387284859,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4387285391,publisher,4310317202,University of Copenhagen,"University of Copenhagen, Department of Cross-Cultural and Regional Studies",pass1 name match + judge
+4387285678,institution,4210087320,Mining and Metallurgy Institute Bor,"Mining and Metallurgy Institute, Bor",pass1 name match + judge
+4387285716,institution,154338468,University of Fribourg,University of Fribourg,pass1 name match + judge
+4387285733,institution,4210136276,NASK National Research Institute,NASK National Research Institute,pass1 name match + judge
+4387285774,institution,4405258272,Finnish Economic Association,Finnish Economic Association,pass1 name match + judge
+4387285948,publisher,4310318434,Edições Universitárias Lusófonas,Edições Universitárias Lusófonas,pass1 name match + judge
+4387286039,institution,4210149306,Ferenc Rakoczi II Transcarpathian Hungarian University,Ferenc Rakoczi II Transcarpathian Hungarian University,pass1 name match + judge
+4387286095,publisher,4310314790,University of Osijek,"Josip Juraj Strossmayer University of Osijek, Faculty of Civil Engineering and Architecture Osijek, Croatia",pass1 name match + judge
+4387286579,institution,4210107336,Społeczna Akademia Nauk,University of Social Science,pass2 parent/alias (reviewed)
+4387286713,institution,4405253526,ALT School of Theology,Akademi för Ledarskap och Teologi,pass1 name match + judge
+4387286877,institution,4210149306,Ferenc Rakoczi II Transcarpathian Hungarian University,Ferenc Rákóczi II Transcarpathian Hungarian University,pass1 name match + judge
+4387286895,institution,4210161860,National Film Archive,"Národní filmový archiv, Prague",pass1 name match + judge
+4387287056,publisher,4310317267,Institute of Philosophy and Sociology of the Polish Academy of Sciences,Polska Akademia Nauk. Instytut Filozofii i Socjologii PAN,pass1 name match + judge
+4387287092,institution,4405261738,Finnish Death Studies Association,Finnish Death Studies Association,pass1 name match + judge
+4387287474,institution,1326498283,Institut national de recherche en sciences et technologies du numérique,Inria,pass2 parent/alias (reviewed)
+4387287706,publisher,4310314510,University of Primorska,University of Primorska Press,pass1 name match + judge
+4387287832,publisher,4310321009,University of Geneva,Bibliothèque de l'Université de Genève,pass1 name match + judge
+4387287969,institution,198244214,Université Clermont Auvergne,Université Clermont Auvergne,pass1 name match + judge
+4387288366,publisher,4310314297,Institute of the Czech Language,"Czech Academy of Sciences, Czech Language Institute",pass1 name match + judge
+4387288851,institution,4405263319,Universitätsverlag Göttingen,Universitätsverlag Göttingen | Göttingen University Press,pass1 name match + judge
+4387289713,institution,4210155575,Study Center for National Reconciliation,Študijski center za narodno spravo,pass1 name match + judge
+4387289898,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+4387289946,publisher,4310311606,Pluto Journals,Pluto Journals,pass1 name match + judge
+4387290221,publisher,4404663901,wbv Media GmbH & Co. KG,wbv Publikation,pass2 parent/alias (reviewed)
+4387290225,publisher,4404663901,wbv Media GmbH & Co. KG,wbv Publikation,pass2 parent/alias (reviewed)
+4387290230,publisher,4310314297,Institute of the Czech Language,"Czech Academy of Sciences, Czech Language Institute",pass1 name match + judge
+4387290322,publisher,4310313667,Hamburg University Press,Hamburg University Press,pass1 name match + judge
+4387290338,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+4387290487,institution,193700539,Tilburg University,Open Press TiU,pass2 parent/alias (reviewed)
+4387290661,publisher,4310313756,Copernicus Publications,Copernicus Publications,pass1 name match + judge
+4387290802,institution,4210157357,University of Ss. Cyril and Methodius in Trnava,Univerzita sv. Cyrila a Metoda. Fakulta masmediálnej komunikácie,pass2 parent/alias (reviewed)
+4387290827,publisher,4310321022,University of Barcelona,Universitat de Barcelona,pass1 name match + judge
+4387291157,institution,4210141946,Institute for Ethnic Studies,Institute for Ethnic Studies,pass1 name match + judge
+4387291204,institution,4405259321,Éditions universitaires de Dijon,Éditions universitaires de Dijon (EUD),pass1 name match + judge
+4387291225,institution,4405253280,Université Bourgogne Europe,Université Bourgogne Europe (UBE),pass1 name match + judge
+4387291357,publisher,4310321104,University of Salamanca,Universidad de Salamanca,pass1 name match + judge
+4387292201,publisher,4310317485,Polish Academy of Sciences,Institute of Law Studies of the Polish Academy of Sciences,pass1 name match + judge
+4387292208,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+4387292423,institution,4405255930,Presses Universitaires de Franche-Comté,Presses universitaires de Franche-Comté (PUFC),pass1 name match + judge
+4387292601,institution,4405253280,Université Bourgogne Europe,Université Bourgogne Europe (UBE),pass1 name match + judge
+4387292619,institution,177064439,Université de Bourgogne,Université de Bourgogne,pass1 name match + judge
+4387292805,institution,4405261071,University College of Professional Education,Wyższa Szkoła Kształcenia Zawodowego we Wrocławiu,pass1 name match + judge
+4387292913,institution,4405253280,Université Bourgogne Europe,Université Bourgogne Europe (UBE),pass1 name match + judge
+4387292914,institution,4405253280,Université Bourgogne Europe,Université Bourgogne Europe,pass1 name match + judge
+4387292962,institution,188626449,Université Lumière Lyon 2,Université Lumière Lyon 2,pass1 name match + judge
+4390296729,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4390296835,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+4390297074,publisher,4404673964,UGA Éditions,UGA Éditions / Université Grenoble Alpes,pass1 name match + judge
+4390648496,institution,4405261550,Suomen sosiaalipedagoginen seura,Suomen sosiaalipedagoginen seura,pass1 name match + judge
+4393914063,publisher,4310317811,Bern Open Publishing,Bern Open Publishing,pass1 name match + judge
+4393914670,institution,4405266136,Hrvatsko drustvo radioloske tehnologije,Hrvatsko društvo radiološke tehnologije,pass1 name match + judge
+4393914675,institution,4405260860,Historical Association of Northern Finland,Pohjois-Suomen historiallinen yhdistys,pass1 name match + judge
+4393915597,publisher,4310314474,University of Maribor,University of Maribor,pass1 name match + judge
+4393917211,institution,4210153787,Łukasiewicz Research Network – Warsaw Institute of Technology,Sieć Badawcza Łukasiewicz - Warszawski Instytut Technologiczny,pass1 name match + judge
+4393917216,institution,188626449,Université Lumière Lyon 2,Université Lumière Lyon 2,pass1 name match + judge
+4393917613,publisher,4310314474,University of Maribor,"University of Maribor, Faculty of Criminal Justice and Security",pass1 name match + judge
+4393917735,publisher,4310311252,University of Limoges,Presses Universitaires de Limoges,pass2 parent/alias (reviewed)
+4393917912,institution,4210124245,Uczelnia Łazarskiego,Akademia Łazarskiego. Oficyna Wydawnicza,pass2 parent/alias (reviewed)
+4393917913,publisher,4310317475,Wyższa Szkoła Zarządzania i Bankowości w Krakowie,Wyższa Szkoła Zarządzania i Bankowości w Krakowie,pass1 name match + judge
+4393918022,publisher,4310321022,University of Barcelona,Universitat de Barcelona,pass1 name match + judge
+4393918066,institution,4387153939,Milano University Press,Milano University Press,pass1 name match + judge
+4393918159,publisher,4404673964,UGA Éditions,UGA Éditions/Université Grenoble Alpes,pass1 name match + judge
+4393918312,publisher,4310313755,German Medical Science GMS Publishing House,German Medical Science GMS Publishing House,pass1 name match + judge
+4393918605,publisher,4310317533,Accademia University Press,Accademia University Press,pass1 name match + judge
+4393918882,publisher,4404673964,UGA Éditions,UGA Éditions/Université Grenoble Alpes,pass1 name match + judge
+4393919117,publisher,4310313985,University of Münster,University of Münster / Open Journals System,pass1 name match + judge
+4393919366,publisher,4310315540,Atlantis Press,Atlantis Press,pass1 name match + judge
+4393919570,publisher,4320800566,Société de Pathologie Exotique,Société francophone de médecine tropicale et santé internationale (ancienne SPE),pass1 name match + judge
+4393919716,publisher,4310320059,École normale supérieure Editions,ENS Éditions,pass1 name match + judge
+4394735676,institution,149461666,Ca' Foscari University of Venice,Fondazione Università Ca' Foscari,pass1 name match + judge
+4394736119,publisher,4310321235,Autonomous University of Barcelona,Universitat Autònoma de Barcelona,pass1 name match + judge
+4394736193,institution,4387153939,Milano University Press,Milano University Press,pass1 name match + judge
+4394736278,institution,4210161504,International Union for Conservation of Nature,International Union for Conservation of Nature (IUCN),pass1 name match + judge
+4404661711,institution,4405252702,Veleučilište u Bjelovaru,Bjelovar University of Applied Sciences,pass1 name match + judge
+4404663324,publisher,4310311252,University of Limoges,Presses Universitaires de Limoges,pass2 parent/alias (reviewed)
+4404663820,institution,4405259976,Université Jean Monnet,Université Jean Monnet Saint-Étienne,pass1 name match + judge
+4404664208,institution,4210161504,International Union for Conservation of Nature,International Union for Conservation of Nature (IUCN),pass1 name match + judge
+4404668989,institution,4405262354,Veleučilište u Virovitici,Virovitica University of Applied Sciences,pass1 name match + judge
+4404669132,publisher,4310311606,Pluto Journals,Pluto Journals,pass1 name match + judge
+4404669899,publisher,4310320611,Ghent University,"Faculty of Law and Criminology, Ghent University",pass1 name match + judge
+4404674360,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+4404674414,publisher,4310314477,University of Ljubljana,University of Ljubljana Press (Založba Univerze v Ljubljani); Slovene Association of LSP Teachers,pass1 name match + judge
+4404674929,publisher,4310320333,Wydawnictwa AGH,Wydawnictwa AGH,pass1 name match + judge
+4404675494,institution,4389425383,Centre de Recherches Interdisciplinaires sur les Mondes Ibéro-américains Contemporains,Sorbonne Université - Laboratoire CRIMIC (EA 2561),pass1 name match + judge
+4404675533,institution,4405278489,IFRA Nairobi / Institut français de recherche en Afrique,IFRA-Nairobi,pass1 name match + judge
+4404675864,publisher,4310314790,University of Osijek,"Josip Juraj Strossmayer University of Osijek, Faculty of Law Osijek",pass1 name match + judge
+4404676333,publisher,4310317257,Wydawnictwo Adam Marszałek,Wydawnictwo Adam Marszałek,pass1 name match + judge
+4404676493,institution,4210125213,Sociedad Española de Neumología y Cirugía Torácica,Sociedad Española de Neumología y Cirugía Torácica (SEPAR),pass1 name match + judge
+4404676682,institution,201841394,Université Côte d'Azur,Université Côte d’Azur,pass2 parent/alias (reviewed)
+4404676913,publisher,4404660799,University of Zielona Góra,"Instytut Filologii Polskiej, Uniwersytet Zielonogórski",pass1 name match + judge
+4404677124,institution,188626449,Université Lumière Lyon 2,Université Lumière Lyon 2,pass1 name match + judge
+4404677640,institution,102335020,Karlsruhe Institute of Technology,KIT Scientific Publishing,pass2 parent/alias (reviewed)
+5406936259,institution,4387153939,Milano University Press,Milano University Press,pass1 name match + judge
+5406938131,publisher,4310322081,Université libre de Bruxelles,Éditions de l'Université de Bruxelles,pass2 parent/alias (reviewed)
+5406938316,publisher,4310314114,Universitetsforlaget,Scandinavian University Press,pass1 name match + judge
+5406946899,publisher,4310321137,University of Castile-La Mancha,Universidad de Castilla-La Mancha,pass1 name match + judge
+5406951220,publisher,4310317838,University of Lucerne,University of Lucerne,pass1 name match + judge
+5406951371,publisher,4310320611,Ghent University,"Department of Philosophy and Moral Sciences, Ghent University",pass1 name match + judge
+5406957700,publisher,4310321040,National University of Distance Education,UNED,pass2 parent/alias (reviewed)
+5406958886,institution,4387152749,Institut de Recherche en Musicologie,IReMus - Institut de recherche en Musicologie (UMR 8223),pass1 name match + judge
+5406958976,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+5406961971,institution,858936495,ZHAW Zurich University of Applied Sciences,ZHAW,pass2 parent/alias (reviewed)
+5406966465,publisher,4310313998,University of Hamburg,Centre for the Study of Manuscript Cultures,pass2 parent/alias (reviewed)
+5406972671,institution,4210125213,Sociedad Española de Neumología y Cirugía Torácica,Sociedad Española de Neumología y Cirugía Torácica (SEPAR),pass1 name match + judge
+5406975552,publisher,4310311606,Pluto Journals,Pluto Journals,pass1 name match + judge
+5406976432,publisher,4310317431,Pedagogical University of Cracow,Uniwersytet Komisji Edukacji Narodowej w Krakowie,pass1 name match + judge
+5406978727,publisher,4310311462,University of the French Antilles,Université des Antilles,pass1 name match + judge
+5406982751,publisher,4310313998,University of Hamburg,Institute of Social and Cultural Anthropology  at the University of Hamburg,pass1 name match + judge
+5406986392,publisher,4361134950,Presses Universitaires de Provence,Presses Universitaires de Provence,pass1 name match + judge
+5406990939,publisher,4310317178,Lund University,Lund University,pass1 name match + judge
+5406998924,publisher,4310311256,Grenoble Alpes University,Université Grenoble Alpes,pass1 name match + judge
+5407013477,institution,926574661,Leipzig University,University of Leipzig,pass1 name match + judge
+5407021855,institution,97565354,University of Lausanne,University of Lausanne,pass1 name match + judge
+5407022252,publisher,4310320076,Cappelen Damm Akademisk,Cappelen Damm Akademisk,pass1 name match + judge
+5407024406,institution,4405261200,Akademija za umjetnost i kulturu u Osijeku,"University of Josip Juraj Strossmayer in Osijek, The Academy of Arts and Culture in Osijek",pass1 name match + judge
+5407025676,publisher,4310311206,Sorbonne Nouvelle University,Presses Sorbonne Nouvelle,pass2 parent/alias (reviewed)
+5407030206,publisher,4310311310,Paris 8 University,Université Paris VIII,pass1 name match + judge
+5407034149,institution,154338468,University of Fribourg,Université de Fribourg - Universität Freiburg,pass1 name match + judge
+5407036569,institution,1326498283,Institut national de recherche en sciences et technologies du numérique,Inria,pass2 parent/alias (reviewed)
+5407040238,publisher,4310319895,Open Library of Humanities,Open Library of Humanities,pass1 name match + judge
+5407045934,publisher,4310319895,Open Library of Humanities,Open Library of Humanities,pass1 name match + judge
+5407046159,publisher,4310321068,University of Liège,"Lab for User Cognition & Innovative Design, University of Liège",pass1 name match + judge
+5407046252,institution,97565354,University of Lausanne,"Institute of Earth Sciences, Faculty of Geosciences and Environment, University of Lausanne, Switzerland",pass1 name match + judge
+5407047472,institution,4405254711,Stichting Innovations in Graph Theory,Stichting Innovations in Graph Theory,pass1 name match + judge
+5407047509,institution,145872427,Radboud University Nijmegen,Radboud University Press,pass2 parent/alias (reviewed)
+5407047957,institution,4387152123,"Centre d'Études et de Documentation Économiques, Juridiques et sociales",CEDEJ - Centre d’études et de documentation économiques  juridiques et sociales,pass2 parent/alias (reviewed)
+5407049017,institution,4210125343,The Jacob of Paradies University,Akademia im. Jakuba z Paradyża w Gorzowie Wielkopolskim,pass1 name match + judge
+5407049025,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+5407049026,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+5407049092,publisher,4310311206,Sorbonne Nouvelle University,Université Sorbonne Nouvelle,pass1 name match + judge
+5407049100,publisher,4310311244,Cité nationale de l'histoire de l'immigration,Établissement public du Palais de la Porte Dorée – Musée national de l’histoire de l’immigration,pass2 parent/alias (reviewed)
+5407049103,publisher,4366067040,University of Lorraine,Université de Lorraine,pass1 name match + judge
+5407050302,institution,4387153398,Digital Research Infrastructure for the Arts and Humanities,DARIAH ERIC,pass2 parent/alias (reviewed)
+5407050637,institution,4210120110,École Inter-États des Sciences et Médecine Vétérinaires de Dakar,École Inter-États des Sciences et Médecine Vétérinaires de Dakar (EISMV),pass1 name match + judge
+5407051536,institution,154338468,University of Fribourg,"Université de Fribourg, Département des Sciences de l’éducation",pass1 name match + judge
+5407051685,publisher,4310317468,Kozminski University,Akademia Leona Koźmińskiego w Warszawie,pass1 name match + judge
+5407051895,institution,4405255930,Presses Universitaires de Franche-Comté,Presses universitaires de Franche-Comté (PUFC),pass1 name match + judge
+5407053344,publisher,4404673964,UGA Éditions,UGA Éditions / Université Grenoble Alpes,pass1 name match + judge
+5407053972,publisher,4310314832,University of Zagreb,University of Zagreb Catholic Faculty of Theology,pass1 name match + judge
+5407054611,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+5407056229,publisher,4310317469,Wydawnictwo Uniwersytetu Jagiellońskiego,Uniwersytet Jagielloński. Wydawnictwo Uniwersytetu Jagiellońskiego,pass1 name match + judge
+5407056264,publisher,4310311206,Sorbonne Nouvelle University,Presses Sorbonne Nouvelle,pass2 parent/alias (reviewed)
+5407056352,institution,4210148273,University of Slavonski Brod,University of Slavonski Brod,pass1 name match + judge
+5407056481,publisher,4404673964,UGA Éditions,UGA Éditions / Université Grenoble Alpes,pass1 name match + judge
+7407050672,publisher,4310313686,University of Tübingen,Tübingen University,pass1 name match + judge
+7407051279,institution,4210097568,FORS – Swiss Centre of Expertise in the Social Sciences,FORS,pass2 parent/alias (reviewed)
+7407053633,institution,188626449,Université Lumière Lyon 2,Université Lumière Lyon 2,pass1 name match + judge
+7407053861,publisher,4310320151,Presses Universitaires de Rennes,Presses universitaires de Rennes,pass1 name match + judge
+7407055795,publisher,4310320059,École normale supérieure Editions,ENS Éditions,pass1 name match + judge
+7407055860,institution,4210141616,Łukasiewicz - Institute for Sustainable Technologies,Sieć Badawcza Łukasiewicz - Instytut Technologii Eksploatacji,pass1 name match + judge
+7407055943,institution,4405253424,Mathematics in Open Access,MathOA,pass1 name match + judge
+7407055968,institution,4405258239,Society for Cultural Studies in Finland,Kulttuurintutkimuksen seura,pass1 name match + judge
+7407056150,institution,74656192,University of Göttingen,"University of Göttingen, Center for Global Migration Studies (CeMig)",pass1 name match + judge
+7407056214,institution,2802569250,Vienna Wiesenthal Institute for Holocaust Studies,Vienna Wiesenthal Institute for Holocaust Studies (VWI),pass1 name match + judge
+7407057135,institution,4210158376,DSW Ideis University,University of Lower Silesia,pass1 name match + judge
+7407057338,publisher,4310318491,University of Minho,Universidade do Minho,pass1 name match + judge
+7407057799,publisher,4310311840,University of Lancaster,Lancaster University Open Journals,pass2 parent/alias (reviewed)
+7407059316,institution,4210157062,Stockholm University of the Arts,Stockholm University of the Arts,pass1 name match + judge
+7407060149,publisher,4310317911,University of Salzburg,"University of Salzburg, Institute for Medieval and Early Modern Material Culture (IMAREAL)",pass1 name match + judge
+7407060803,publisher,4310317676,Istituto Superiore di Sanità,Istituto Superiore di Sanità,pass1 name match + judge
+7407060842,institution,4210142926,KOMAG Institute of Mining Technology,KOMAG Institute of Mining Technology,pass1 name match + judge
+7407060846,institution,2800024560,ZBW – Leibniz-Informationszentrum Wirtschaft,ZBW,pass2 parent/alias (reviewed)
+7407060847,publisher,4310320545,Verduci Editore,Verduci Editore,pass1 name match + judge
+7407060873,institution,3129271201,Instituto Superior de Ciências Educativas,Instituto Superior de Ciências Educativas (ISCE),pass1 name match + judge
+7407060915,institution,119003972,Roma Tre University,RomaTrE_Press,pass2 parent/alias (reviewed)
+7407060926,institution,119439378,University of Verona,Dipartimento di Lingue e Letterature Straniere - Università di Verona,pass2 parent/alias (reviewed)
+7407060939,publisher,4310317707,University of Bergamo,Università degli studi di Bergamo,pass1 name match + judge
+7407060945,publisher,4310318451,NOVA University Lisbon,Institute of Art History NOVA FCSH,pass2 parent/alias (reviewed)
+7407060955,publisher,4310317589,University of Naples Federico II,FeDOA - Federico II University Press,pass2 parent/alias (reviewed)
+7407060974,publisher,4310320183,CLUEB,CLUEB,pass1 name match + judge
+7407061012,publisher,4310320293,Via Medica,Via Medica,pass1 name match + judge
+7407061014,institution,119439378,University of Verona,Università degli Studi di Verona,pass1 name match + judge
+7407061029,institution,4210101319,Foundation Jewish Contemporary Documentation Center,Fondazione Centro di Documentazione Ebraica Contemporanea  CDEC,pass1 name match + judge
+7407061069,institution,4210119410,Institute of Fundamental Technological Research,Institute of Fundamental Technological Research Polish Academy of Sciences,pass1 name match + judge
+7407061075,publisher,4310317589,University of Naples Federico II,FedOA - Federico II University Press,pass2 parent/alias (reviewed)
+7407061086,institution,159650629,University of Sassari,University of Sassari,pass1 name match + judge
+7407061104,institution,26415053,University of L'Aquila,University of L'Aquila,pass1 name match + judge
+7407061105,publisher,4310314477,University of Ljubljana,"University of Ljubljana, Faculty of architecture",pass1 name match + judge
+7407061113,publisher,4310320545,Verduci Editore,Verduci Editore,pass1 name match + judge
+7407061120,publisher,4310317381,Jagiellonian University,Jagiellonian University History of Ideas Research Centre,pass2 parent/alias (reviewed)
+7407061126,publisher,4310317118,University of Gothenburg,University of Gothenburg,pass1 name match + judge
+7407061168,institution,2801039369,Marconi University,Università Degli Studi Guglielmo Marconi,pass1 name match + judge
+7407061230,institution,223822909,Heidelberg University,Heidelberg Asian Studies Publishing,pass2 parent/alias (reviewed)
+7407061247,publisher,4310320209,Mimesis,MIM Edizioni Srl,pass2 parent/alias (reviewed)
+7407061254,publisher,4310317904,University of Graz,University of Graz,pass1 name match + judge
+7407061262,publisher,4310317446,University of Wrocław,Uniwersytet Wrocławski. Wydział Nauk Historycznych i Pedagogicznych. Instytut Historyczny,pass1 name match + judge
+7407061281,publisher,4310317911,University of Salzburg,"Paris-Lodron-Universität Salzburg, Universität Mozarteum",pass1 name match + judge
+7407061316,publisher,4310313929,University of Giessen,International Graduate Centre for the Study of Culture,pass2 parent/alias (reviewed)
+7407061332,institution,4405263218,Universitäts- und Landesbibliothek Darmstadt,Universitäts- und Landesbibliothek Darmstadt,pass1 name match + judge
+7407061343,institution,186995768,Università degli studi di Cassino e del Lazio Meridionale,Edizioni Università di Cassino,pass2 parent/alias (reviewed)
+7407061348,publisher,4310317531,University of Cagliari,UNICApress,pass2 parent/alias (reviewed)
+7407061408,publisher,4310317746,Naples Eastern University,UniorPress,pass2 parent/alias (reviewed)
+7407061483,publisher,4310317904,University of Graz,University of Graz,pass1 name match + judge
+7407061488,publisher,4310317746,Naples Eastern University,UniorPress,pass2 parent/alias (reviewed)
+7407061510,publisher,4310320183,CLUEB,CLUEB,pass1 name match + judge
+7407061550,publisher,4310317446,University of Wrocław,University of Wrocław,pass1 name match + judge
+7407061627,publisher,4310314835,Croatian Academy of Sciences and Arts,Hrvatska akademija znanosti i umjetnosti,pass1 name match + judge
+7407061630,publisher,4310318451,NOVA University Lisbon,"CICS.NOVA - Interdisciplinary Centre of Social Sciences, Universidade Nova de Lisboa",pass1 name match + judge
+7407061658,publisher,4310317566,Università Cattolica del Sacro Cuore,EDUCatt,pass2 parent/alias (reviewed)
+7407061659,institution,145847075,TU Wien,"TU Wien, Institute of Management Science, IFM - Real Estate and Facility Management",pass1 name match + judge
+7407061660,publisher,4310313686,University of Tübingen,Tübingen University,pass1 name match + judge
+7407061696,publisher,4310317633,University of Florence,Department of Humanities - University of Florence,pass1 name match + judge
+7407061752,institution,102064193,University of Siena,Università degli Studi di Siena,pass1 name match + judge
+7407061755,publisher,4310314232,"Faculty of Arts, Charles University in Prague","Univerzita Karlova, Filozofická fakulta",pass1 name match + judge
+7407061779,publisher,4310317531,University of Cagliari,UNICApress,pass2 parent/alias (reviewed)
+7407061780,institution,121883995,Johannes Kepler University of Linz,"Johannes Kepler University Linz, Library",pass2 parent/alias (reviewed)
+7407061804,publisher,4310317566,Università Cattolica del Sacro Cuore,EDUCatt,pass2 parent/alias (reviewed)
+7407061808,publisher,4310314353,Jan Evangelista Purkyně University in Ústí nad Labem,Jan Evangelista Purkyně University,pass2 parent/alias (reviewed)
+7407061837,institution,39343248,Humboldt-Universität zu Berlin,Humboldt-Universität zu Berlin,pass1 name match + judge
+7407061886,publisher,4310317552,University of Pisa,Università di Pisa,pass1 name match + judge
+7407061887,publisher,4310314232,"Faculty of Arts, Charles University in Prague","Univerzita Karlova, Filozofická Fakulta",pass1 name match + judge
+7407061893,publisher,4310317911,University of Salzburg,"University of Salzburg, Department of Communication Studies",pass1 name match + judge
+7407061953,publisher,4310317531,University of Cagliari,UNICAPRESS,pass2 parent/alias (reviewed)
+7407061965,publisher,4310311218,University of Reims,Editions et presses universitaires de Reims,pass2 parent/alias (reviewed)
+7407061968,institution,180437899,University of Bremen,University of Bremen,pass1 name match + judge
+7407061984,institution,4210164369,National Institute of Oceanography and Applied Geophysics,"OGS (Istituto Nazionale di Oceanografia e di Geofisica Sperimentale), Trieste, Italy",pass1 name match + judge
+7407062002,institution,223822909,Heidelberg University,Heidelberg University Publishing,pass2 parent/alias (reviewed)
+7407062010,institution,4405271531,Institut für Dokumentologie und Editorik e. V.,Institut für Dokumentologie und Editorik e. V.,pass1 name match + judge
+7407062024,institution,268303160,Medical University of Warsaw,Medical University of Warsaw,pass1 name match + judge
+7407062035,institution,4210134436,German Informatics Society,Gesellschaft für Informatik e. V.,pass1 name match + judge
+7407062112,institution,4210120110,École Inter-États des Sciences et Médecine Vétérinaires de Dakar,École Inter-États des Sciences et Médecine Vétérinaires de Dakar (EISMV),pass1 name match + judge
+7407062137,institution,1850255,University of Basel,Universität Basel,pass1 name match + judge
+7407062161,publisher,4310313933,Freie Universität Berlin,Freie Universität Berlin,pass1 name match + judge
+7407062162,publisher,4310317485,Polish Academy of Sciences,"Committee for Philology of the Polish Academy of Sciences, Wrocław Branch",pass1 name match + judge
+7407062236,institution,4405263218,Universitäts- und Landesbibliothek Darmstadt,Universitäts- und Landesbibliothek Darmstadt,pass1 name match + judge
+7407062277,publisher,4310321009,University of Geneva,University of Geneva,pass1 name match + judge
+7407062312,institution,4210090803,National Library of Catalonia,Biblioteca de Catalunya,pass1 name match + judge
+7407062531,institution,4210109190,Slovene Ethnographic Museum,Slovene Ethnographic Museum,pass1 name match + judge
+7407062952,publisher,4366067040,University of Lorraine,Université de Lorraine,pass1 name match + judge
+7407065553,institution,4400008918,Institute for Philosophy and Social Theory,Institute for Philosophy and Social Theory,pass1 name match + judge
+7407065681,institution,4405260512,The Finnish Society for Hymnology and Liturgy,The Finnish Society for Hymnology and Liturgy,pass1 name match + judge
+7407065756,institution,4405259323,Finnish International Studies Association (FISA),Finnish International Studies Association,pass1 name match + judge
+7407065777,institution,13469542,Vrije Universiteit Brussel,"Faculty of Law & Criminology, Vrije Universiteit Brussel",pass1 name match + judge
+7407065778,institution,4405259183,Genealogical Society of Finland,Suomen sukututkimusseura,pass1 name match + judge
+7407066726,publisher,4310317399,University of Gdańsk,Uniwersytet Gdański. Wydział Ekonomiczny,pass1 name match + judge
+7407076626,publisher,4310321044,University of Granada,Universidad de Granada,pass1 name match + judge
+7407077060,publisher,4310314790,University of Osijek,"Josip Juraj Strossmayer University of Osijek, Faculty of Law Osijek",pass1 name match + judge
+7407077853,institution,83041830,Deggendorf Institute of Technology,Deggendorf Institute of Technology,pass1 name match + judge
+7407089459,publisher,4310321035,Comillas Pontifical University,Editorial Universidad Pontificia Comillas,pass1 name match + judge
+7407089937,publisher,4310313755,German Medical Science GMS Publishing House,German Medical Science GMS Publishing House,pass1 name match + judge
+7407089938,publisher,4310317724,University of Bologna,University of Bologna,pass1 name match + judge
+7407089942,institution,19002584,JAMK University of Applied Sciences,JAMK University of Applied Sciences,pass1 name match + judge
+7407089943,publisher,4310314232,"Faculty of Arts, Charles University in Prague","Univerzita Karlova, Filozofická fakulta",pass1 name match + judge
+7407089944,institution,79619799,University of Birmingham,University of Birmingham,pass1 name match + judge
+7407089945,publisher,4310317752,Sapienza University of Rome,Sapienza Università Editrice,pass2 parent/alias (reviewed)
+7407089948,publisher,4404678057,TIB Open Publishing,TIB Open Publishing (Technische Informationsbibliothek (TIB)),pass1 name match + judge
+7407089949,publisher,4310314832,University of Zagreb,"University of Zagreb Faculty of Political Science, Center for International and Security Studies",pass1 name match + judge
+7407089950,institution,4210148273,University of Slavonski Brod,"University of Slavonski Brod, Department of Social Sciences and Humanities",pass1 name match + judge
+7407089957,publisher,4310311248,"National Research Institute for Agriculture, Food and the Environment","Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE)",pass1 name match + judge
+7407089959,institution,119217307,Opole University of Technology,Politechnika Opolska. Wydział Wychowania Fizycznego i Fizjoterapii,pass1 name match + judge
+7407089961,institution,4210160275,The Grotowski Institute,Instytut im. Jerzego Grotowskiego we Wrocławiu,pass1 name match + judge
+7407089964,institution,83041830,Deggendorf Institute of Technology,Deggendorf Institute of Technology,pass1 name match + judge
+7407089966,publisher,4310321020,Peeters,Peeters,pass1 name match + judge
+7407089967,institution,13469542,Vrije Universiteit Brussel,"Centre for Intermedial and Literary Crossings (CLIC), Vrije Universiteit Brussel",pass1 name match + judge
+7407089968,institution,4210134028,Sociedad Española de Cuidados Intensivos Pediátricos,Sociedad Española de Cuidados Intensivos Pediátricos,pass1 name match + judge
+7407089972,institution,4387153198,TU Delft OPEN Publishing,TU Delft OPEN Publishing,pass1 name match + judge
+7407089973,institution,193700539,Tilburg University,Open Press TiU,pass2 parent/alias (reviewed)
+7407089974,publisher,4310318630,Lincoln University,"Journals@Lincoln, Lincoln University",pass1 name match + judge
+7407089982,publisher,4310314750,Juraj Dobrila University of Pula,University of Istria,pass2 parent/alias (reviewed)
+7407089984,institution,169333911,Gdańsk University of Technology,Politechnika Gdańska,pass1 name match + judge
