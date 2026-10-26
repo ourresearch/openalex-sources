@@ -1,0 +1,49 @@
+{
+ "run_at": "2026-10-26T18:02:29.382512+00:00",
+ "execute": true,
+ "manifest": "--json",
+ "minted": [],
+ "updated": [
+  {
+   "source_id": 7407089938,
+   "name": "Governare la paura. Journal of interdisciplinary studies",
+   "issns_added": []
+  },
+  {
+   "source_id": 7407089972,
+   "name": "Writingplace",
+   "issns_added": []
+  },
+  {
+   "source_id": 7407089986,
+   "name": "International Journal of Advanced Medical and Scientific Research (IJAMSR)",
+   "issns_added": []
+  }
+ ],
+ "endpoints": [
+  {
+   "endpoint_id": "x1oqcl8f660daiw40dhb",
+   "source_id": 7407089938,
+   "pmh_url": "https://governarelapaura.unibo.it/oai",
+   "pmh_set": "governarelapaura"
+  },
+  {
+   "endpoint_id": "yct9cv7s9ldqdn042301",
+   "source_id": 7407089972,
+   "pmh_url": "https://journals.open.tudelft.nl/index/oai",
+   "pmh_set": "writingplace"
+  }
+ ],
+ "held": [],
+ "refused": [],
+ "actions": [
+  "EXISTING 7407089938 'Governare la paura. Journal of interdisciplinary studies': ISSNs added []",
+  "  REGISTERED endpoint x1oqcl8f660daiw40dhb https://governarelapaura.unibo.it/oai [governarelapaura] -> 7407089938 journal_host (10 other rows on the host, none overlapping); harvest it now with: heroku run:detached -a openalex-ingest -- python repositories.py --endpoint-id x1oqcl8f660daiw40dhb",
+  "EXISTING 7407089972 'Writingplace': ISSNs added []",
+  "  REGISTERED endpoint yct9cv7s9ldqdn042301 https://journals.open.tudelft.nl/index/oai [writingplace] -> 7407089972 journal_host (0 other rows on the host, none overlapping); harvest it now with: heroku run:detached -a openalex-ingest -- python repositories.py --endpoint-id yct9cv7s9ldqdn042301",
+  "EXISTING 7407089986 'International Journal of Advanced Medical and Scientific Research (IJAMSR)': ISSNs added []",
+  "  OA override on 7407089986: OJS journal: OA by default, as for Beacon mints (#1539); set by hand 2026-10-26 (minted 10-22 before the add_journal default)",
+  "minted 0, existing 3, endpoints 2, held 0, refused 0; listed_in rows changed 0",
+  "COMMITTED"
+ ]
+}
