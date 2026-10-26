@@ -19,7 +19,8 @@ Two steps, so a human (or the support desk) reviews what will be written:
           other source owns are added (RUNBOOK step 3)
         - no source_id: refuse if any ISSN is on a source or an ISSN-less source has the same
           normalized name; else mint_source(type journal)
-        - curated_is_oa=true -> source_oa_override (only with evidence in oa_note)
+        - curated_is_oa=true -> source_oa_override (only with evidence in oa_note); a newly minted OJS
+          or DDH journal defaults to OA (Kyle 2026-10-26, #1539 parity)
         - feed: RUNBOOK step 4 registry check (a row on the same host, or on the host in the
           record ids, that harvests the whole install or the same journal blocks: that is a #1418
           split; the source is still minted/updated, the feed is held); else one oai_pmh_endpoint
@@ -486,6 +487,13 @@ def apply(manifest, execute=False, rows=None):
                         receipt["refused"].append({"name": name, "why": "issnless_namesake", "detail": twins})
                         log(f"REFUSED {name!r}: ISSN-less source(s) with the same name {twins} (add the ISSNs there instead)")
                         continue
+                    # Kyle 2026-10-26: a new OJS journal is OA by default, like Beacon mints (#1539); so is a
+                    # journal on the Diamond Discovery Hub list (vetted Diamond OA). An explicit manifest value wins.
+                    if not r.get("curated_is_oa") and re.search(r"pkp-beacon|\bddh\b", r.get("on_lists") or ""):
+                        r["curated_is_oa"] = "true"
+                        r["oa_note"] = r.get("oa_note") or (
+                            "OJS journal: OA by default, as for Beacon mints (#1539); added via jobs.add_journal"
+                            if "pkp-beacon" in r["on_lists"] else "Diamond Discovery Hub journal: OA by default")
                     sid = mint_source(conn, ctx, name, source_type="journal", issns=issns,
                                       publisher=r.get("publisher") or None, homepage_url=r.get("homepage_url") or None,
                                       country_code=r.get("country_code") or None, country=r.get("country") or None)
