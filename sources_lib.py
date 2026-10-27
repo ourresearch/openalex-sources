@@ -21,10 +21,60 @@ Merges (merge_source) are first-class: loser's ISSNs move to the winner, the
 loser keeps a merge_into_id redirect, and every merge is audited in source_merge.
 """
 import json
+import re
 import unicodedata
 from collections import defaultdict
 
 from sqlalchemy import text
+
+_CTRL = re.compile(r"[\x00-\x1f\x7f-\x9f]")
+_C1 = re.compile(r"[\x80-\x9f]")
+# MARC "non-sort" marks around a leading article ('\x98The \x9ccryosphere'): Unicode C1 forms U+0098/U+009C and
+# the MARC-8 bytes 0x88/0x89 (oxjob #1891: 1,641 sources, from library-catalogue imports)
+_MARC_NONSORT = re.compile(r"[\x88\x89\x98\x9c]")
+_CP1252 = {i: bytes([i]).decode("cp1252") for i in range(0x80, 0xA0) if i not in (0x81, 0x8D, 0x8F, 0x90, 0x9D)}
+_CP1252_REV = {v: k for k, v in _CP1252.items()}
+# a lone Windows-1252 quote, dash, ellipsis or bullet that a Latin-1 decode left as a C1 control
+_CP1252_PUNCT = {k: v for k, v in _CP1252.items()
+                 if k in (0x82, 0x84, 0x85, 0x8B, 0x91, 0x92, 0x93, 0x94, 0x95, 0x96, 0x97, 0x9B)}
+
+
+def _unmojibake(s):
+    """UTF-8 text that was decoded as Windows-1252 / Latin-1 ('14â\\x80\\x9319 May' -> '14–19 May'); None if not."""
+    b = bytearray()
+    for ch in s:
+        if ord(ch) < 0x100:
+            b.append(ord(ch))
+        elif ch in _CP1252_REV:
+            b.append(_CP1252_REV[ch])
+        else:
+            return None
+    try:
+        t = b.decode("utf-8")
+    except UnicodeDecodeError:
+        return None
+    return t if t != s and not _CTRL.search(t) else None
+
+
+def clean_control_chars(s, decode_mojibake=True):
+    """A name without C0/C1 control characters (oxjob #1891); unchanged when it has none.
+
+    Mojibake (UTF-8 read as Windows-1252) is decoded back; otherwise MARC non-sort marks are dropped, a lone
+    Windows-1252 quote/dash becomes that character, tabs/newlines become spaces and any other control goes.
+    Every source name the registry writes passes through here (mint_source, enrich_journal, merge_source,
+    clean_source_name), so none can come back.
+
+    decode_mojibake=False changes no letter or digit: walden's name-matching keys (lowercase, letters and digits
+    only) stay the same, so locations linked by an existing source's name keep their link. Use it when
+    repairing names already in the registry."""
+    if s is None or not _CTRL.search(s):
+        return s
+    t = _unmojibake(s) if decode_mojibake and _C1.search(s) else None
+    if t is None:
+        t = _MARC_NONSORT.sub("", s)
+        t = "".join(_CP1252_PUNCT.get(ord(c), c) for c in t)
+        t = _CTRL.sub(lambda m: " " if m.group() in "\t\n\r\x0b\x0c" else "", t)
+    return " ".join(t.split())
 
 
 def normalize_name(name):
@@ -278,6 +328,7 @@ def mint_source(conn, ctx, display_name, source_type="journal", issns=(),
     """
     # preprint servers are typed repository regardless of feed (parity with the
     # retired CreateSources DLT rule)
+    display_name, publisher = clean_control_chars(display_name), clean_control_chars(publisher)
     lowered = (display_name or "").lower()
     if source_type == "journal" and ("rxiv" in lowered or "research square" in lowered):
         source_type = "repository"
@@ -316,6 +367,7 @@ def enrich_journal(conn, ctx, sid, issns=(), display_name=None, publisher=None,
     have no resolved publisher, fill crossref_id. homepage_url and country_code
     (with country) are fill-only: set when the source has none, never overwritten.
     Returns 'updated'/'unchanged'."""
+    display_name, publisher = clean_control_chars(display_name), clean_control_chars(publisher)
     existing = {r[0] for r in conn.execute(
         text("SELECT issn FROM source_issn WHERE source_id = :id"), {"id": sid})}
     missing = [i for i in issns if i not in existing]
@@ -497,7 +549,7 @@ def merge_source(conn, loser_id, winner_id, rule, source_feed=None, detail=None)
     w_norm = normalize_name(w_name or "")
     gained = []
     for t in [l_name or ""] + l_alt:
-        t = (t or "").strip()
+        t = clean_control_chars((t or "").strip())
         if t and t.lower() not in have and normalize_name(t) != w_norm:
             gained.append(t)
             have.add(t.lower())

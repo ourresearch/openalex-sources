@@ -33,6 +33,7 @@ from datetime import date
 from sqlalchemy import text
 
 from db import engine
+from sources_lib import clean_control_chars
 
 ISSN=r'(?:\d{4}\s?[-–]?\s?\d{3}[\dXx]|X{4}-X{4})'
 QUAL=r'(?:\s*\(\s*(?:print|on-?line|onilne|impres[sa]o?|impresa|virtual|eletr[oô]nic[oa]|electr[oó]nic[oa]|en\s+l[ií]nea|p|e|o)\s*\)|\s+on-?line\b)?'
@@ -77,6 +78,7 @@ def clean_source_name(name):
     """The display name without ISSN strings / marketing text; unchanged when nothing matches."""
     if not name:
         return name
+    name = clean_control_chars(name)  # MARC non-sort marks, mojibake, stray controls (oxjob #1891)
     n = name
     for pat, rep in RULES:
         n = re.sub(pat, rep, n, flags=re.I)
