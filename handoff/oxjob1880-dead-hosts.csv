@@ -1,0 +1,82 @@
+source_id,old_publisher_id,new_publisher_id,old_institution_id,new_institution_id,rule,evidence,display_name
+17452528,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Mutation Research/environmental Mutagenesis and Related Subjects
+25102011,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Surgery
+26693150,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Acta Metallurgica Sinica
+75584183,4320800552,4404571754,,,sibling,"Doboku Gakkai Ronbunshuu B (Doboku Gakkai = JSCE, 土木学会, an alternate title of P4404571754); shares ghost id 4320800552 with six JSCE journals",Doboku Gakkai Ronbunshuu B
+101383222,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Environmental Sciences
+105406693,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Archives Des Maladies Du Coeur Et Des Vaisseaux
+114770941,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Health Policy
+149373597,4310320986,4320800784,,,named_host,"CORROSION, publisher string 'NACE International' = P4320800784",CORROSION
+162571691,4310320253,4310320595,,,merge_map,P4310320253 merge_into_id P4310320595,Collection of Czechoslovak Chemical Communications
+165760722,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Encephale-revue De Psychiatrie Clinique Biologique Et Therapeutique
+180227014,4320800552,4404571754,,,named_host,publisher string 'Japan Society of Civil Engineers' = P4404571754 (ROR 05c8wa765),Doboku Gakkai Ronbunshu
+2753193880,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Archives francaises de pédiatrie
+2764681279,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",International journal of nursing
+2764688642,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Systems engineering and electronics
+2764815268,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Zhonghua chuangshang zazhi
+2764829558,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Dongbei Nongye Daxue xuebao
+2764863013,4310320253,4310320595,,,merge_map,P4310320253 merge_into_id P4310320595,Chemistry - European Journal
+2764920693,4310320986,,,,none,"ghost publisher id 4310320986 (no record in any publisher table; 14 unrelated journals), no publisher string: cleared",Ecological Economy
+4210168456,4320800552,4404571754,,,named_host,publisher string 'Japan Society of Civil Engineers' = P4404571754,Proceedings of the Japan Society of Civil Engineers
+4210169907,4320800552,4404571754,,,named_host,publisher string 'Japan Society of Civil Engineers' = P4404571754,PROCEEDINGS OF CIVIL ENGINEERING IN THE OCEAN
+4210172147,4310320016,,,,none,"MD Conference Express: ghost publisher id 4310320016; publisher string 'CLOCKSS Archive' is an archive, not its publisher: cleared",MD Conference Express
+4210175340,4310319842,4310319965,,,merge_map,P4310319842 merge_into_id P4310319965,"Innovative Verwaltung/VOP. Verwaltung, Organisation, Personal"
+4210225517,4320800552,4404571754,,,named_host,publisher string 'Japan Society of Civil Engineers' = P4404571754,Journal of Japan Society of Civil Engineers Ser A1 (Structural Engineering & Earthquake Engineering (SE/EE))
+4306400033,,,115570527,4210144925,named_host,Arrow@dit (Dublin Institute of Technology); landing pages arrow.dit.ie; DIT became Technological University Dublin on 1 Jan 2019 = I4210144925 (ROR 04t0qbt32),Arrow@dit (Dublin Institute of Technology)
+4306400736,,,4210137043,,none,Journal of Student Science and Technology (Foundation for Student Science and Technology): no OpenAlex entity for the foundation; deleted id cleared,Journal of Student Science and Technology (Foundation for Student Science and Technology)
+4306400954,,,6569274,59411706,named_host,"PRESSto (UaM); landing pages pressto.amu.edu.pl = I59411706 Adam Mickiewicz University (the deleted id was UAM Azcapotzalco, Mexico)",PRESSto. (UaM)
+4306401006,,,177453986,4210155205,named_host,Marine Institute Open Access Repository (Marine Institute) = I4210155205 Marine Institute IE (ROR 05581wm82); the deleted id was Marine Science Institute,Marine Institute Open Access Repository (Marine Institute)
+4306401293,,,3032752892,168974976,named_host,"Dialnet (Universidad de la Rioja); homepage + landing pages dialnet.unirioja.es = I168974976 unirioja.es (the deleted id was Universidad Internacional de La Rioja, another university)",Dialnet (Universidad de la Rioja)
+4306401334,,,45279040,4210133585,named_host,"University of Medellin Journals (University of Medellin) = I4210133585 Universidad de Medellin CO (the deleted id was Universidad Nacional, Medellin campus)",University of Medellín Journals (University of Medellín)
+4306401453,,,92130990,4210147056,named_host,ELARTU (Ternopil National Technical University); landing pages elartu.tntu.edu.ua = I4210147056 Ternopil Ivan Pului NTU (ROR 045hmbf04),ELARTU (Ternopil National Technical University)
+4306401602,,,102379361,21250087,merge_map,I102379361 merge_into_id I21250087,European Journal of Environmental Sciences (Charles University in Prague)
+4306401683,,,36245702,45129253,named_host,Journal of Conservation and Museum Studies (UCL Institute of Archaeology): the deleted id was that UCL department; its university = I45129253 University College London,Journal of Conservation and Museum Studies (UCL Institute of Archaeology)
+4306401811,,,200744771,858936495,merge_map,I200744771 merge_into_id I858936495,Zürcher Hochschule für Angewandte Wissenschaften digital collection (Zurich University of Applied Sciences)
+4306401942,,,209863525,4387153203,named_host,Scientific Journals (Public Knowledge Project) = I4387153203 Public Knowledge Project (ROR 05ek4tb53),Scientific Journals (Public Knowledge Project)
+4306402118,,,1305493378,4210124779,named_host,NASA Technical Reports Server; homepage ntrs.nasa.gov = I4210124779 NASA (ROR 027ka1x80),NASA Technical Reports Server (NASA)
+4306402140,,,13224812,254029264,named_host,Natallia Sender (Europa-Universitaet Viadrina Frankfurt); landing pages opus4.kobv.de (Viadrina OPUS) = I254029264 European University Viadrina (the deleted id was Polimeri Europa),Natallia Sender (Europa-Universität Viadrina Frankfurt)
+4306402155,,,1317876136,4387156101,named_host,Directory of Open Access Journals; homepage doaj.org = I4387156101 DOAJ (ROR 05amyt365); the deleted id was EBSCO,Directory of Open Access Journals (EBSCO)
+4306402380,,,98513023,4387155487,named_host,Mary Immaculate Research Repository (Mary Immaculate College) = I4387155487 Mary Immaculate College IE (ROR 009q3yg92),Mary Immaculate Research Repository (Mary Immaculate College)
+4306402517,,,4210092770,24881138,merge_map,I4210092770 merge_into_id I24881138,RPK (Politechniki Krakowskiej)
+4306402551,,,3032752892,168974976,named_host,RIUR (Universidad de La Rioja); landing pages investigacion.unirioja.es = I168974976,RIUR (Universidad de La Rioja)
+4377196317,,,126827851,126307644,merge_map,I126827851 merge_into_id I126307644,Iowa Research Online (University of Iowa)
+4377196381,,,16655442,17974374,merge_map,I16655442 merge_into_id I17974374,Digital Library of Theses and Dissertations  (Universidade de São Paulo)
+4377196581,,,86773799,95457486,merge_map,I86773799 merge_into_id I95457486,"Berkley Law Scholarship Repository (University of California, Berkeley)"
+4387278295,4320800552,4404571754,,,named_host,publisher string 'Japan Society of Civil Engineers' = P4404571754,JOURNAL OF APPLIED COMPUTING IN CIVIL ENGINEERING
+4387286638,4320800552,4404571754,,,named_host,publisher string 'Japan Society of Civil Engineers' = P4404571754,Japanese Journal of JSCE
+4404533593,4404533592,,,8961855,named_host,publisher string 'Universidad Nacional Autonoma de Mexico' = I8961855,Amicus curiae.
+4404661870,4310319842,4310319965,,,merge_map,P4310319842 merge_into_id P4310319965,Personalmanagement und Arbeitsorganisation
+4404662754,4404532489,,,,none,ghost publisher id 4404532489; publisher string 'Special Pathogens Research Network' / 'Special Journals Publisher' names no OpenAlex entity: cleared,Special fungal pathogens journal.
+4404662821,4310321184,4310319965,,,merge_map,P4310321184 merge_into_id P4310319965,"Studien zur Geschichte der Naturwissenschaften, Medizin und Technik - Studies on the History of Sciences, Medicine and Technology."
+4404663112,4310321184,4310319965,,,merge_map,P4310321184 merge_into_id P4310319965,Positive Psychologie kompakt.
+4404663185,4310319842,4310319965,,,merge_map,P4310319842 merge_into_id P4310319965,Marktorientiertes Management
+4404664007,4310321184,4310319965,,,merge_map,P4310321184 merge_into_id P4310319965,Masterclass.
+4404669157,4310319842,4310319965,,,merge_map,P4310319842 merge_into_id P4310319965,Megatrends und Transformations-Management
+4404669638,4404532489,,,,none,ghost publisher id 4404532489; publisher string 'Special Pathogens Research Network' / 'Special Journals Publisher' names no OpenAlex entity: cleared,Special pathogens review journal.
+4404669995,4404532489,,,,none,ghost publisher id 4404532489; publisher string 'Special Pathogens Research Network' / 'Special Journals Publisher' names no OpenAlex entity: cleared,Special journal of politics and economic sustainability.
+4404673489,4404660560,,,4210096913,named_host,publisher string 'Universitas Singaperbangsa Karawang' = I4210096913 University of Singaperbangsa Karawang (ROR 00vc1fz20),Jurnal Dedikasi Olahraga dan Kesehatan
+4404673741,4404664134,,,3133131564,named_host,publisher string 'Universitas Pattimura' = I3133131564,Indonesian Journal of Sustainable Aquaculture
+4404673972,4404660529,4310319972,,,named_host,"publisher string 'Springer Nature Switzerland (AG)' = Springer International Publishing AG, Cham (renamed 2018) = P4310319972 (alt 'Springer, Cham', 'Springer International Publishing AG')",Ethnic and Indigenous Business Studies.
+4404674218,4404660529,4310319972,,,named_host,"publisher string 'Springer Nature Switzerland (AG)' = Springer International Publishing AG, Cham (renamed 2018) = P4310319972 (alt 'Springer, Cham', 'Springer International Publishing AG')",Conference on systems engineering research series
+4404674430,4404660529,4310319972,,,named_host,"publisher string 'Springer Nature Switzerland (AG)' = Springer International Publishing AG, Cham (renamed 2018) = P4310319972 (alt 'Springer, Cham', 'Springer International Publishing AG')",Research series on responsible enterprise ecosystems
+4404674520,4404660529,4310319972,,,named_host,"publisher string 'Springer Nature Switzerland (AG)' = Springer International Publishing AG, Cham (renamed 2018) = P4310319972 (alt 'Springer, Cham', 'Springer International Publishing AG')",The Springer series in sustainable energy policy
+4404674706,4404660629,,,245308123,named_host,publisher string 'Universitas Negeri Padang' = I245308123,Persona.
+4404674744,4404660529,4310319972,,,named_host,"publisher string 'Springer Nature Switzerland (AG)' = Springer International Publishing AG, Cham (renamed 2018) = P4310319972 (alt 'Springer, Cham', 'Springer International Publishing AG')",Chapman mathematical notes
+4404674798,4404532489,,,,none,ghost publisher id 4404532489; publisher string 'Special Pathogens Research Network' / 'Special Journals Publisher' names no OpenAlex entity: cleared,Special parasite pathogens journal.
+4404674876,4404664134,,,3133131564,named_host,publisher string 'Universitas Pattimura' = I3133131564,Koli Journal.
+4404674893,4404660709,,,177055848,named_host,publisher string 'Universitas Brawijaya' = I177055848 University of Brawijaya (ROR 01wk3d929),"Contemporary Studies in Economic, Finance and Banking."
+4404675381,4404660529,4310319972,,,named_host,"publisher string 'Springer Nature Switzerland (AG)' = Springer International Publishing AG, Cham (renamed 2018) = P4310319972 (alt 'Springer, Cham', 'Springer International Publishing AG')",SpringerBriefs in Advancing Social Work and Social Work Education.
+4404675589,4404660709,,,177055848,named_host,publisher string 'Universitas Brawijaya' = I177055848,Mechanics Exploration and Material Innovation
+4404675670,4404532489,,,,none,ghost publisher id 4404532489; publisher string 'Special Pathogens Research Network' / 'Special Journals Publisher' names no OpenAlex entity: cleared,Special viral pathogens journal.
+4404675674,4404660560,,,4210096913,named_host,publisher string 'Universitas Singaperbangsa Karawang' = I4210096913,Kolase.
+4404675730,4404660806,,,231086526,named_host,publisher string 'Uniwersytet w Siedlcach' = I231086526 University of Siedlce (ROR 01wkb9987),Tempus.
+4404676107,4310321184,4310319965,,,merge_map,P4310321184 merge_into_id P4310319965,Süßwasserfauna von Mitteleuropa.
+4404676291,4310319842,4310319965,,,merge_map,P4310319842 merge_into_id P4310319965,IT-Director
+4404676463,4404532489,,,,none,ghost publisher id 4404532489; publisher string 'Special Pathogens Research Network' / 'Special Journals Publisher' names no OpenAlex entity: cleared,Special bacterial pathogens journal.
+4404676474,4404660529,4310319972,,,named_host,"publisher string 'Springer Nature Switzerland (AG)' = Springer International Publishing AG, Cham (renamed 2018) = P4310319972 (alt 'Springer, Cham', 'Springer International Publishing AG')",Advances in plant breeding strategies
+4404676676,4404664134,,,3133131564,named_host,publisher string 'Universitas Pattimura' = I3133131564,Equilibrium.
+4404677198,4310321285,4310319965,,,merge_map,P4310321285 merge_into_id P4310319965,Cureus Journal of Business and Economics.
+4404677248,4404664003,,,187079419,named_host,publisher string 'Instituto Nacional de Pesquisas da Amazonia' = I187079419,Boletín de Monitoreo Climático de las Principales Cuencas Hidrográficas.
+4404677278,4310319842,4310319965,,,merge_map,P4310319842 merge_into_id P4310319965,Forschungsreihe PHW
+4404677974,4404532489,,,,none,ghost publisher id 4404532489; publisher string 'Special Pathogens Research Network' / 'Special Journals Publisher' names no OpenAlex entity: cleared,"Special journal of obstetrics, gynecology and pediatrics."
+4404678038,4404664134,,,3133131564,named_host,publisher string 'Universitas Pattimura' = I3133131564,"Jurnal Geografi, Lingkungan dan Kesehatan"
