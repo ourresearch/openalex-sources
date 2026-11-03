@@ -45,7 +45,7 @@ from sources_lib import (
 
 DOAJ_CSV_URL = "https://doaj.org/csv"
 DOAJ_API_SEARCH = "https://doaj.org/api/search/journals/"
-SUPPLEMENT_WINDOW_DAYS = 365  # observed CSV lag is ~1 month; a year is cheap (~24 pages)
+SUPPLEMENT_WINDOW_DAYS = 365  # observed CSV lag is ~1 month; a year is cheap (~50 pages)
 MIN_CSV_ROWS = 20000  # truncated CSV would mass-delist; abort instead
 
 LICENSE_MAP = {
@@ -103,7 +103,8 @@ def supplement_from_api(staged_issns):
                     "oa_start_year": bj.get("oa_start") if isinstance(bj.get("oa_start"), int) else None,
                     "country": (publisher.get("country") or "").strip() or None,
                 })
-            if page * 100 >= total:
+            # DOAJ silently caps pageSize (50 since 2026-10-30), so page by what it returns
+            if page * data["pageSize"] >= total:
                 break
             page += 1
     # adjacent spans share a boundary day; drop any duplicate journals
