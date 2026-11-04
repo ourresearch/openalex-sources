@@ -1,0 +1,280 @@
+{
+ "about": "Source-record fixes for 8 oxjobs, one change per entry (handoff/source-record-fixes-2026-11-03.py). Each entry: the fields it sets, `expect` = the registry's live value of each of those fields on 2026-11-03 plus identity guards, an optional source_oa_override row, the works it re-stamps (any location, incl. xpac, API 2026-11-03) and its after-check on the live API. The undo of an entry is the same entry with set and expect swapped (--undo).",
+ "checked": "2026-11-03: registry rows read through the openalex_sources foreign catalog; works counts from api.openalex.org",
+ "entries": [
+  {
+   "entry": "1590-name",
+   "oxjob": 1590,
+   "tickets": [25804],
+   "source_id": 183989336,
+   "why": "Rheumatology (OUP, ISSN-L 1462-0324) is served under a person's name. Crossref journals/1462-0324 and NLM Catalog 100883501 both say 'Rheumatology'. The old name is not kept as an alternate title (the job's acceptance).",
+   "set": {"display_name": "Rheumatology", "display_name_before_override": "Lara D. Veeken"},
+   "expect": {"display_name": "Lara D. Veeken", "display_name_before_override": null, "alternate_titles": [],
+              "override_timestamp": null, "type": "journal", "publisher_id": 4310311648},
+   "oa": null,
+   "works": 27703,
+   "check": [
+    {"get": "sources/S183989336", "path": "display_name", "equals": "Rheumatology"},
+    {"get": "sources/S183989336", "path": "alternate_titles", "lacks": "Lara D. Veeken"},
+    {"get": "sources/S183989336", "path": "issn_l", "equals": "1462-0324"},
+    {"get": "sources/S183989336", "path": "host_organization", "equals": "https://openalex.org/P4310311648"},
+    {"get": "sources?filter=display_name.search:Lara%20Veeken", "path": "meta.count", "equals": 0},
+    {"get": "works?filter=primary_location.source.id:S183989336&per_page=1", "path": "results[].primary_location.source.display_name",
+     "contains": "Rheumatology"}
+   ]
+  },
+  {
+   "entry": "1440-molecular-life-name",
+   "oxjob": 1440,
+   "tickets": [24817],
+   "source_id": 4210172443,
+   "why": "Journal named with one of its own article titles. Its 2018 site (Wayback 2018-03-08: 'Molecular Life | A New Peer Reviewed Journal', ISSN 2559-611X) and its 2018 Crossref DOIs say 'Molecular Life'.",
+   "set": {"display_name": "Molecular Life",
+           "display_name_before_override": "Endogenous locus-driven H-Ras G12V expression induces senescence-like phenotype in primary fibroblasts of the Costello syndrome mouse model"},
+   "expect": {"display_name": "Endogenous locus-driven H-Ras G12V expression induces senescence-like phenotype in primary fibroblasts of the Costello syndrome mouse model",
+              "display_name_before_override": null, "alternate_titles": [], "override_timestamp": null, "type": "journal"},
+   "oa": null,
+   "works": 13,
+   "check": [
+    {"get": "sources/S4210172443", "path": "display_name", "equals": "Molecular Life"}
+   ]
+  },
+  {
+   "entry": "1440-jomeino-name",
+   "oxjob": 1440,
+   "tickets": [3720],
+   "source_id": 4387278314,
+   "why": "Journal named with one of its own article titles. jomeino.com (OJS) is titled 'Journal of Management, Economics, and Industrial Organization (JOMEINO)', ISSN 2521-7054; Crossref container-title agrees. Its 159 Crossref works with no ISSN may then attach by name in walden's nightly name match.",
+   "set": {"display_name": "Journal of Management, Economics, and Industrial Organization",
+           "display_name_before_override": "An Empirical Analysis of Cambodia’s Import Demand Function",
+           "alternate_titles": ["JOMEINO"]},
+   "expect": {"display_name": "An Empirical Analysis of Cambodia’s Import Demand Function", "display_name_before_override": null,
+              "alternate_titles": null, "override_timestamp": null, "type": "journal"},
+   "oa": null,
+   "works": 137,
+   "check": [
+    {"get": "sources/S4387278314", "path": "display_name", "equals": "Journal of Management, Economics, and Industrial Organization"},
+    {"get": "sources/S4387278314", "path": "alternate_titles", "contains": "JOMEINO"},
+    {"get": "works?filter=doi_starts_with:10.31039/jomeino,primary_location.source.id:null&per_page=1", "path": "meta.count",
+     "at_most": 158, "soft": "expected, not certain: walden's name match should attach the 159 sourceless works"}
+   ]
+  },
+  {
+   "entry": "1747-homepage",
+   "oxjob": 1747,
+   "tickets": [26293],
+   "source_id": 2764661345,
+   "why": "Homepage is the former host's. The publisher asked for https://esmed.org/MRA/mra (200 on 2026-11-03, the ESMED journal page).",
+   "set": {"homepage_url": "https://esmed.org/MRA/mra"},
+   "expect": {"homepage_url": "https://journals.ke-i.org/index.php/mra", "type": "journal", "publisher_id": 4376882788},
+   "oa": null,
+   "works": 0,
+   "check": [
+    {"get": "sources/S2764661345", "path": "homepage_url", "equals": "https://esmed.org/MRA/mra"},
+    {"get": "sources/S2764661345", "path": "host_organization", "equals": "https://openalex.org/P4376882788"}
+   ]
+  },
+  {
+   "entry": "1895-name",
+   "oxjob": 1895,
+   "tickets": [26650],
+   "source_id": 7407055297,
+   "why": "The library asked for its repository's current name (Epubl LTU is the platform retired for DiVA). Same pattern as 'DiVA (Linnaeus University)'. The old name stays as an alternate title.",
+   "set": {"display_name": "DiVA (Luleå University of Technology)", "display_name_before_override": "Epubl LTU",
+           "alternate_titles": ["Epubl LTU"]},
+   "expect": {"display_name": "Epubl LTU", "display_name_before_override": null, "alternate_titles": null,
+              "override_timestamp": null, "type": "repository"},
+   "oa": null,
+   "works": 16076,
+   "check": [
+    {"get": "sources/S7407055297", "path": "display_name", "equals": "DiVA (Luleå University of Technology)"},
+    {"get": "sources/S7407055297", "path": "alternate_titles", "contains": "Epubl LTU"}
+   ]
+  },
+  {
+   "entry": "1895-host",
+   "oxjob": 1895,
+   "tickets": [26650],
+   "source_id": 7407055297,
+   "why": "Repository minted in Feb 2026 with no host. Host = its university (repository rule): Luleå University of Technology, ROR 016st3p78 = I190632392.",
+   "set": {"institution_id": 190632392, "publisher": "Luleå University of Technology"},
+   "expect": {"institution_id": null, "publisher": null, "publisher_id": null, "type": "repository"},
+   "oa": null,
+   "works": 16076,
+   "check": [
+    {"get": "sources/S7407055297", "path": "host_organization", "equals": "https://openalex.org/I190632392"},
+    {"get": "institutions/I190632392", "path": "repositories[].id", "contains": "https://openalex.org/S7407055297"}
+   ]
+  },
+  {
+   "entry": "1797-ekmair-host",
+   "oxjob": 1797,
+   "tickets": [26477],
+   "source_id": 4306400396,
+   "why": "eKMAIR (Kyiv-Mohyla's repository: its works are oai:ekmair.ukma.edu.ua) is hosted by Taras Shevchenko University; the 2022 import matched the text 'National University of Kyiv'. Host = National University of Kyiv-Mohyla Academy, ROR 03wfca816 = I112412981.",
+   "set": {"institution_id": 112412981, "publisher": "National University of Kyiv-Mohyla Academy"},
+   "expect": {"institution_id": 189238007, "publisher": "National University of Kyiv", "publisher_id": null, "type": "repository"},
+   "oa": null,
+   "works": 34604,
+   "check": [
+    {"get": "sources/S4306400396", "path": "host_organization", "equals": "https://openalex.org/I112412981"},
+    {"get": "institutions/I112412981", "path": "repositories[].id", "contains": "https://openalex.org/S4306400396"},
+    {"get": "institutions/I189238007", "path": "repositories[].id", "lacks": "https://openalex.org/S4306400396"}
+   ]
+  },
+  {
+   "entry": "1797-ekmair-homepage",
+   "oxjob": 1797,
+   "tickets": [26477],
+   "source_id": 4306400396,
+   "why": "Blank homepage. https://ekmair.ukma.edu.ua is the repository's DSpace (200 on 2026-11-03, titled 'Electronic Kyiv-Mohyla Academy Institutional Repository').",
+   "set": {"homepage_url": "https://ekmair.ukma.edu.ua"},
+   "expect": {"homepage_url": null, "type": "repository"},
+   "oa": null,
+   "works": 0,
+   "check": [
+    {"get": "sources/S4306400396", "path": "homepage_url", "equals": "https://ekmair.ukma.edu.ua"}
+   ]
+  },
+  {
+   "entry": "1797-ekmair-country",
+   "oxjob": 1797,
+   "tickets": [26477],
+   "source_id": 4306400396,
+   "why": "Blank country. The repository and its host are in Ukraine.",
+   "set": {"country_code": "UA"},
+   "expect": {"country_code": null, "type": "repository"},
+   "oa": null,
+   "works": 0,
+   "check": [
+    {"get": "sources/S4306400396", "path": "country_code", "equals": "UA"}
+   ]
+  },
+  {
+   "entry": "1797-eknutshir-host",
+   "oxjob": 1797,
+   "tickets": [26477],
+   "source_id": 7407055264,
+   "why": "eKNUTSHIR (Shevchenko's repository: its works are oai:ir.library.knu.ua) was minted in Feb 2026 with no host. Host = Taras Shevchenko National University of Kyiv, ROR 02aaqv166 = I189238007.",
+   "set": {"institution_id": 189238007, "publisher": "Taras Shevchenko National University of Kyiv"},
+   "expect": {"institution_id": null, "publisher": null, "publisher_id": null, "type": "repository"},
+   "oa": null,
+   "works": 33537,
+   "check": [
+    {"get": "sources/S7407055264", "path": "host_organization", "equals": "https://openalex.org/I189238007"},
+    {"get": "institutions/I189238007", "path": "repositories[].id", "contains": "https://openalex.org/S7407055264"}
+   ]
+  },
+  {
+   "entry": "871-rock-host",
+   "oxjob": 871,
+   "tickets": [23521],
+   "source_id": 7407055439,
+   "why": "ROCK (rock.pollub.pl, Lublin University of Technology's repository) was minted in Feb 2026 with no host. Host = Lublin University of Technology, ROR 024zjzd49 = I8264552.",
+   "set": {"institution_id": 8264552, "publisher": "Lublin University of Technology"},
+   "expect": {"institution_id": null, "publisher": null, "publisher_id": null, "type": "repository"},
+   "oa": null,
+   "works": 13600,
+   "check": [
+    {"get": "sources/S7407055439", "path": "host_organization", "equals": "https://openalex.org/I8264552"},
+    {"get": "institutions/I8264552", "path": "repositories[].id", "contains": "https://openalex.org/S7407055439"}
+   ]
+  },
+  {
+   "entry": "871-rock-country",
+   "oxjob": 871,
+   "tickets": [23521],
+   "source_id": 7407055439,
+   "why": "Blank country. The repository and its host are in Poland.",
+   "set": {"country_code": "PL"},
+   "expect": {"country_code": null, "type": "repository"},
+   "oa": null,
+   "works": 0,
+   "check": [
+    {"get": "sources/S7407055439", "path": "country_code", "equals": "PL"}
+   ]
+  },
+  {
+   "entry": "1723-oa",
+   "oxjob": 1723,
+   "tickets": [26092],
+   "source_id": 4210194814,
+   "why": "Forman Journal of Economic Studies is a no-fee Creative Commons journal but reads is_oa false. OA from 2022 (flip year 2021): CC BY on every Crossref DOI from 2022; before that the college sold print subscriptions and named no licence. The flags are what apply_oa_flags computes for this override (start year = flip + 1).",
+   "set": {"is_oa_high_oa_rate": true, "high_oa_rate_start_year": 2022},
+   "expect": {"is_oa_high_oa_rate": false, "high_oa_rate_start_year": null, "is_oa": false, "type": "journal"},
+   "oa": {"curated_is_oa": true, "curated_flip_year": 2021,
+          "note": "oxjob #1723, ZD 26092: OJS about page (Wayback 2024-08-18): 'FJES is an open-access journal, following an open license (Creative Commons)', no submission/APC/APF fee; Crossref CC BY on every DOI from 2022 (6/13 in 2021, 1/14 in 2019, 0 before); college page 2021-10 sold print subscriptions (Rs 300/500, US$40) and named no licence -> OA from 2022. Checked 2026-11-03."},
+   "works": 141,
+   "check": [
+    {"get": "sources/S4210194814", "path": "is_oa", "equals": true},
+    {"get": "sources/S4210194814", "path": "oa_flip_year", "equals": 2021},
+    {"get": "sources/S4210194814", "path": "is_high_oa_rate_since_year", "equals": 2022},
+    {"get": "works?filter=primary_location.source.id:S4210194814,publication_year:2022-2026&group_by=oa_status", "group": "hybrid", "equals": 0},
+    {"get": "works?filter=primary_location.source.id:S4210194814,publication_year:2013-2021&group_by=oa_status", "group": "closed", "equals": 50}
+   ]
+  },
+  {
+   "entry": "1723-host",
+   "oxjob": 1723,
+   "tickets": [26092],
+   "source_id": 4210194814,
+   "why": "No host. The ticket names the publisher, Forman Christian College (Crossref publisher 'Forman Christian College - A Chartered University'), which is I264385032 (ROR 04v893f23). No publisher entity exists, so the journal is hosted on the institution (08-14 decision; meets Kyle's 10-29 ROR rule).",
+   "set": {"institution_id": 264385032},
+   "expect": {"institution_id": null, "publisher_id": null, "type": "journal"},
+   "oa": null,
+   "works": 141,
+   "check": [
+    {"get": "sources/S4210194814", "path": "host_organization", "equals": "https://openalex.org/I264385032"}
+   ]
+  },
+  {
+   "entry": "1723-homepage",
+   "oxjob": 1723,
+   "tickets": [26092],
+   "source_id": 4210194814,
+   "why": "Blank homepage. The journal's OJS (Cloudflare challenge to scripts on 2026-11-03; its newest Crossref DOI 10.32368/fjes.20262206 resolves there).",
+   "set": {"homepage_url": "https://ojs.fccollege.edu.pk/index.php/FJES"},
+   "expect": {"homepage_url": null, "type": "journal"},
+   "oa": null,
+   "works": 0,
+   "check": [
+    {"get": "sources/S4210194814", "path": "homepage_url", "equals": "https://ojs.fccollege.edu.pk/index.php/FJES"}
+   ]
+  },
+  {
+   "entry": "1580-jas-oa",
+   "oxjob": 1580,
+   "tickets": [22564],
+   "source_id": 7407089434,
+   "why": "Journal of Administrative Sciences (21 September University) is born OA: about page 'immediate open access ... CC BY-NC 4.0', first volume 2026. No ISSN, so no high_oa_rate listing: apply_oa_flags gives start year NULL for this override.",
+   "set": {"is_oa_high_oa_rate": true},
+   "expect": {"is_oa_high_oa_rate": false, "high_oa_rate_start_year": null, "is_oa": false, "type": "journal", "publisher_id": 4404678058},
+   "oa": {"curated_is_oa": true, "curated_flip_year": null,
+          "note": "oxjob #1580, ZD 22564: ojs.21umas.edu.ye/jas/en/about: 'The journal provides immediate open access to its content ... All articles are published under the CC BY-NC 4.0 license'; first issue Vol 1 (2026); PDF 10.65693/jas.2026.v1i2.81 downloads (200 application/pdf); Crossref licence cc-by. Checked 2026-11-03."},
+   "works": 20,
+   "check": [
+    {"get": "sources/S7407089434", "path": "is_oa", "equals": true},
+    {"get": "sources/S7407089434", "path": "host_organization", "equals": "https://openalex.org/P4404678058"},
+    {"get": "works?filter=primary_location.source.id:S7407089434&group_by=oa_status", "group": "hybrid", "equals": 0},
+    {"get": "works?filter=primary_location.source.id:S7407089434&group_by=oa_status", "group": "closed", "equals": 0}
+   ]
+  },
+  {
+   "entry": "1580-irss-oa",
+   "oxjob": 1580,
+   "tickets": [22564],
+   "source_id": 7407089435,
+   "why": "IRSS, 21 September University's repository, gets the 'whole repository is open' status the team kept on 2026-10-22: the site says it is 'dedicated to archiving and providing open access'; 54/54 works are already green. No ISSN: start year NULL.",
+   "set": {"is_oa_high_oa_rate": true},
+   "expect": {"is_oa_high_oa_rate": false, "high_oa_rate_start_year": null, "is_oa": false, "type": "repository", "institution_id": 4387156351},
+   "oa": {"curated_is_oa": true, "curated_flip_year": null,
+          "note": "oxjob #1580, ZD 22564, repository-level open status (team decision 2026-10-22): site 'dedicated to archiving and providing open access to the university's scientific scholarship'; 54/54 works already green with a pdf_url and cc-by; spot-checked PDFs 47/22 and 39/16 download (200 application/pdf). Checked 2026-11-03."},
+   "works": 94,
+   "check": [
+    {"get": "sources/S7407089435", "path": "is_oa", "equals": true},
+    {"get": "sources/S7407089435", "path": "host_organization", "equals": "https://openalex.org/I4387156351"},
+    {"get": "works?filter=primary_location.source.id:S7407089435&group_by=oa_status", "group": "green", "equals": 54}
+   ]
+  }
+ ]
+}
