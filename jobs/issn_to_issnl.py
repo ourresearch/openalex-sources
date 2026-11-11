@@ -6,7 +6,8 @@ The ISSN IC publishes the complete table daily as a zip (~27MB, ~2.5M rows) at a
 stable public URL. Each reload TRUNCATEs and bulk-COPYs `issn_to_issnl` in one
 transaction, so readers never see a partial table. `sources_lib.resolve_issn_l`
 consults this table when minting, falling back to first-ISSN when the map has
-no entry.
+no entry. After each reload, `jobs.reconcile_issn_l` re-points sources.issn_l at
+the table's ISSN-L wherever the source already owns it (oxjob #2154).
 """
 import argparse
 import io
@@ -68,9 +69,16 @@ def load(buf, rows):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--url", default=ISSNL_TABLES_URL)
+    ap.add_argument("--no-reconcile", action="store_true",
+                    help="skip re-pointing sources.issn_l at the reloaded table (oxjob #2154)")
     args = ap.parse_args()
     buf, rows = to_copy_buffer(download(args.url))
     load(buf, rows)
+    if not args.no_reconcile:
+        # keep sources.issn_l equal to the table's ISSN-L wherever the source owns it (repoint only;
+        # adopting a missing ISSN is never automatic). Aborts, writing nothing, past its change guard.
+        from jobs.reconcile_issn_l import run
+        run(engine, apply=True)
 
 
 if __name__ == "__main__":

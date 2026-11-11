@@ -49,7 +49,8 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | `datacite_clients` | Fetch api.datacite.org/clients + providers → `datacite_client` (~4.4K). |
 | `sync_datacite_clients` | Shared cascade, ISSN-first: already linked → fill-NULLs; ISSN match → link; no ISSN → guarded name link; else mint (`periodical`→journal, else repository). |
 | `doaj` | Fetch the public DOAJ CSV (~23K) and apply `is_in_doaj` / `doaj_license` / `is_in_doaj_start_year`, including delistings. `--mint` also adds journals the registry lacks (shared cascade: ISSN → guarded name link → mint). |
-| `issn_to_issnl` | Reload the ISSN→ISSN-L table from issn.org (atomic TRUNCATE + COPY). |
+| `issn_to_issnl` | Reload the ISSN→ISSN-L table from issn.org (atomic TRUNCATE + COPY), then run `reconcile_issn_l --apply` (repoint only, 500-change guard). |
+| `reconcile_issn_l` | Set `sources.issn_l` to the ISSN IC's ISSN-L wherever the source owns it (oxjob #2154: 5,402 sources disagreed on 2026-11-11). Adds a missing ISSN-L only for ids in `--adopt-ids`; leaves two-family sources and ISSN-Ls another source owns alone. Receipt + `--revert`. |
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
 | `apply_oa_flags` | Recompute `is_oa_high_oa_rate` (mapping tables + `ojs_beacon_mint`), `is_fully_open_in_jstage`, and `is_ojs` from `ojs_beacon_issn`. |
 | `load_ojs_beacon` | **By hand**, yearly when PKP publishes a new Beacon edition (Harvard Dataverse doi:10.7910/DVN/OCZNVY). Full-replace `ojs_beacon_issn` from `data/ojs_beacon/`, then recompute `is_ojs`. |
