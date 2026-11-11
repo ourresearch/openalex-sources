@@ -18,8 +18,7 @@ not that ISSN-L. Two actions:
            tiers), so only ids listed in --adopt-ids, vetted against those tiers, are adopted.
 
 Never written: a source whose ISSNs map to two or more ISSN-Ls (one record holding two journals,
-#1726), an ISSN-L another source owns (a merge question), an ISSN-L two sources would both adopt,
-and ids in KEEP (an issn_l chosen on purpose; none today).
+#1726), an ISSN-L another source owns (a merge question), and an ISSN-L two sources would both adopt.
 
   python -m jobs.reconcile_issn_l                                 # dry run: counts by class
   python -m jobs.reconcile_issn_l --report FILE.tsv               # every candidate with its class
@@ -28,18 +27,17 @@ and ids in KEEP (an issn_l chosen on purpose; none today).
 """
 import argparse
 import csv
-import sys
 from collections import Counter
 
 from sqlalchemy import text
 
-from sources_lib import refresh_issns_column
+from sources_lib import sync_issn_l_flags
 
-KEEP = frozenset()  # source ids whose issn_l is deliberately not the table's (none as of 2026-11-11)
 DEFAULT_MAX_CHANGES = 500  # guard for the scheduled run after a table reload
 
+# MATERIALIZED: tl is read four times below; without it Postgres may re-run the subquery each time
 CANDIDATES_SQL = """
-WITH s AS (
+WITH s AS MATERIALIZED (
   SELECT s.id, s.issn_l,
          (SELECT array_agg(si.issn ORDER BY si.issn) FROM source_issn si WHERE si.source_id = s.id) AS own,
          (SELECT array_agg(DISTINCT m.issn_l ORDER BY m.issn_l) FROM source_issn si
@@ -57,85 +55,72 @@ ORDER BY s.id
 WRITE_ACTIONS = ("repoint", "adopt")
 
 
-def classify(source_id, issn_l, own, tl, true_l_owner, adopt_ids=frozenset(), shared=frozenset()):
-    """(class, new issn_l or None) for one source. Pure: no database."""
-    if source_id in KEEP:
-        return "keep", None
+def classify(source_id, issn_l, own, tl, true_l_owner, adopt_ids=frozenset()):
+    """(class, new issn_l or None) for one disagreeing source. Pure: no database."""
     if len(tl) != 1:
         return "multi_family", None
     new = tl[0]
-    if new == issn_l:
-        return "agrees", None
     if new in own:
         return "repoint", new
     if true_l_owner is not None:
         return "owned_elsewhere", new
-    if new in shared:
-        return "shared_missing", new
-    if source_id in adopt_ids:
-        return "adopt", new
-    return "missing", new
+    return ("adopt" if source_id in adopt_ids else "missing"), new
 
 
 def plan(conn, adopt_ids=frozenset()):
-    rows = conn.execute(text(CANDIDATES_SQL)).fetchall()
-    missing = Counter(r.tl[0] for r in rows
-                      if len(r.tl) == 1 and r.tl[0] not in r.own and r.true_l_owner is None)
-    shared = {l for l, n in missing.items() if n > 1}
     out = []
-    for r in rows:
-        cls, new = classify(r.id, r.issn_l, r.own, r.tl, r.true_l_owner, adopt_ids, shared)
+    for r in conn.execute(text(CANDIDATES_SQL)):
+        cls, new = classify(r.id, r.issn_l, r.own, r.tl, r.true_l_owner, adopt_ids)
         out.append({"source_id": r.id, "class": cls, "old_issn_l": r.issn_l, "new_issn_l": new,
                     "own": ",".join(r.own), "table_issn_l": ",".join(r.tl),
                     "true_l_owner": r.true_l_owner})
+    # an unowned ISSN-L two sources would both adopt is a merge question, not an adoption
+    unowned = Counter(r["new_issn_l"] for r in out if r["class"] in ("adopt", "missing"))
+    for r in out:
+        if r["class"] in ("adopt", "missing") and unowned[r["new_issn_l"]] > 1:
+            r["class"] = "shared_missing"
     return out
 
 
+def _set_issn_l(conn, sid, frm, to):
+    """issn_l frm -> to, only if it is still frm and the source owns to. True if written."""
+    return conn.execute(text(
+        "UPDATE sources SET issn_l = :to, updated_date = now() WHERE id = :sid AND issn_l = :frm "
+        "AND EXISTS (SELECT 1 FROM source_issn WHERE source_id = :sid AND issn = :to)"),
+        {"sid": sid, "frm": frm, "to": to}).rowcount == 1
+
+
+def _drop_issn(conn, sid, issn):
+    conn.execute(text("DELETE FROM source_issn WHERE source_id = :sid AND issn = :l"), {"sid": sid, "l": issn})
+
+
 def write_one(conn, sid, old, new, action):
-    """Repoint (after adopting, if asked). Guarded on the old value: False if the row moved meanwhile."""
-    if action == "adopt":
-        added = conn.execute(text(
+    """Repoint (after adopting, if asked). False, with nothing left behind, if the row moved meanwhile."""
+    if action == "adopt" and conn.execute(text(
             "INSERT INTO source_issn (source_id, issn, is_issn_l) VALUES (:sid, :l, FALSE) "
-            "ON CONFLICT (issn) DO NOTHING"), {"sid": sid, "l": new}).rowcount
-        if added != 1:
-            return False
-    n = conn.execute(text(
-        "UPDATE sources SET issn_l = :new, updated_date = now() WHERE id = :sid AND issn_l = :old "
-        "AND EXISTS (SELECT 1 FROM source_issn WHERE source_id = :sid AND issn = :new)"),
-        {"sid": sid, "old": old, "new": new}).rowcount
-    if n != 1:
-        if action == "adopt":
-            conn.execute(text("DELETE FROM source_issn WHERE source_id = :sid AND issn = :l"),
-                         {"sid": sid, "l": new})
+            "ON CONFLICT (issn) DO NOTHING"), {"sid": sid, "l": new}).rowcount != 1:
         return False
-    conn.execute(text(
-        "UPDATE source_issn SET is_issn_l = (issn = :new) WHERE source_id = :sid "
-        "AND is_issn_l IS DISTINCT FROM (issn = :new)"), {"sid": sid, "new": new})
-    refresh_issns_column(conn, sid)
+    if not _set_issn_l(conn, sid, old, new):
+        if action == "adopt":
+            _drop_issn(conn, sid, new)
+        return False
+    sync_issn_l_flags(conn, sid)
     return True
 
 
 def revert_one(conn, sid, old, new, action):
     """Undo one receipt row: issn_l back to old; an adopted ISSN is removed again."""
-    n = conn.execute(text(
-        "UPDATE sources SET issn_l = :old, updated_date = now() WHERE id = :sid AND issn_l = :new "
-        "AND EXISTS (SELECT 1 FROM source_issn WHERE source_id = :sid AND issn = :old)"),
-        {"sid": sid, "old": old, "new": new}).rowcount
-    if n != 1:
+    if not _set_issn_l(conn, sid, new, old):
         return False
-    conn.execute(text(
-        "UPDATE source_issn SET is_issn_l = (issn = :old) WHERE source_id = :sid "
-        "AND is_issn_l IS DISTINCT FROM (issn = :old)"), {"sid": sid, "old": old})
     if action == "adopt":
-        conn.execute(text("DELETE FROM source_issn WHERE source_id = :sid AND issn = :new"),
-                     {"sid": sid, "new": new})
-    refresh_issns_column(conn, sid)
+        _drop_issn(conn, sid, new)
+    sync_issn_l_flags(conn, sid)
     return True
 
 
 def run(engine, apply=False, adopt_ids=frozenset(), max_changes=DEFAULT_MAX_CHANGES,
         receipt=None, report=None, log=print):
-    """Plan, and with apply=True write every repoint/adopt in ONE transaction. Returns the counts."""
+    """Plan, and with apply=True write every repoint/adopt in ONE transaction. Returns the number written."""
     with engine.begin() as conn:
         rows = plan(conn, adopt_ids)
         counts = Counter(r["class"] for r in rows)
@@ -149,14 +134,12 @@ def run(engine, apply=False, adopt_ids=frozenset(), max_changes=DEFAULT_MAX_CHAN
                 w.writerows(rows)
         if not apply:
             log(f"dry run: would write {len(todo):,}")
-            return counts
+            return 0
         if len(todo) > max_changes:
             raise SystemExit(f"reconcile_issn_l: {len(todo):,} changes > --max-changes {max_changes:,}; "
                              "nothing written (a table reload this large needs a look first)")
-        written = 0
         for r in todo:
             r["written"] = write_one(conn, r["source_id"], r["old_issn_l"], r["new_issn_l"], r["class"])
-            written += r["written"]
             if r["written"]:
                 log(f"  {r['class']} S{r['source_id']} {r['old_issn_l']} -> {r['new_issn_l']}")
         if receipt:
@@ -165,9 +148,20 @@ def run(engine, apply=False, adopt_ids=frozenset(), max_changes=DEFAULT_MAX_CHAN
                 w.writerow(["source_id", "old_issn_l", "new_issn_l", "action", "written"])
                 for r in todo:
                     w.writerow([r["source_id"], r["old_issn_l"], r["new_issn_l"], r["class"], r["written"]])
+        written = sum(r["written"] for r in todo)
         log(f"reconcile_issn_l: wrote {written:,} of {len(todo):,} (DONE)")
-        counts["written"] = written
-        return counts
+        return written
+
+
+def revert(engine, receipt, apply=False, log=print):
+    rows = [r for r in csv.DictReader(open(receipt)) if r["written"] == "True"]
+    if not apply:
+        log(f"dry run: would revert {len(rows):,}")
+        return
+    with engine.begin() as conn:
+        done = sum(revert_one(conn, int(r["source_id"]), r["old_issn_l"], r["new_issn_l"], r["action"])
+                   for r in rows)
+    log(f"reverted {done:,} of {len(rows):,} (DONE)")
 
 
 def main():
@@ -183,22 +177,12 @@ def main():
     from db import engine  # here, so tests can import this module without a database
 
     if args.revert:
-        rows = [r for r in csv.DictReader(open(args.revert)) if r["written"] == "True"]
-        with engine.begin() as conn:
-            if not args.apply:
-                print(f"dry run: would revert {len(rows):,}")
-                return
-            done = sum(revert_one(conn, int(r["source_id"]), r["old_issn_l"], r["new_issn_l"], r["action"])
-                       for r in rows)
-            print(f"reverted {done:,} of {len(rows):,} (DONE)")
+        revert(engine, args.revert, apply=args.apply)
         return
-
-    adopt_ids = frozenset()
-    if args.adopt_ids:
-        adopt_ids = frozenset(int(x) for x in open(args.adopt_ids).read().split() if x.strip())
+    adopt_ids = frozenset(int(x) for x in open(args.adopt_ids).read().split()) if args.adopt_ids else frozenset()
     run(engine, apply=args.apply, adopt_ids=adopt_ids, max_changes=args.max_changes,
         receipt=args.receipt, report=args.report)
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

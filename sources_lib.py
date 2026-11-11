@@ -156,10 +156,11 @@ def refresh_issns_column(conn, source_id):
 def insert_issns(conn, source_id, issns, issn_l):
     """Attach ISSNs and maintain the ISSN-L invariant: sources.issn_l is one of
     the source's OWN ISSNs (FK-enforced, mig. 014) and is_issn_l flags exactly
-    the matching row. Never overwrites an existing issn_l (API-visible, may be
-    curated) -- flags are re-synced to whatever issn_l ends up being, so a
-    freshly resolved candidate that loses to the stored value can't leave a
-    second is_issn_l row behind."""
+    the matching row. Never overwrites an existing issn_l here; jobs/reconcile_issn_l
+    re-points it at the ISSN IC's ISSN-L after each table reload (oxjob #2154) --
+    flags are re-synced to whatever issn_l ends up being, so a freshly resolved
+    candidate that loses to the stored value can't leave a second is_issn_l row
+    behind."""
     for issn in issns:
         conn.execute(
             text(
@@ -177,6 +178,11 @@ def insert_issns(conn, source_id, issns, issn_l):
             ),
             {"l": issn_l, "id": source_id},
         )
+    sync_issn_l_flags(conn, source_id)
+
+
+def sync_issn_l_flags(conn, source_id):
+    """Flag exactly the source_issn row equal to sources.issn_l, then re-derive sources.issns."""
     conn.execute(
         text(
             "UPDATE source_issn si SET is_issn_l = (si.issn IS NOT DISTINCT FROM s.issn_l) "
