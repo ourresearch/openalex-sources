@@ -21,11 +21,31 @@ Merges (merge_source) are first-class: loser's ISSNs move to the winner, the
 loser keeps a merge_into_id redirect, and every merge is audited in source_merge.
 """
 import json
+import os
 import re
 import unicodedata
 from collections import defaultdict
 
 from sqlalchemy import text
+
+# ISO 3166-1 English short names -> alpha-2 (pycountry 2026-11; 249 countries). The one country table for feeds:
+# DOAJ's CSV writes the country by this name and its search API by the alpha-2 code (oxjob #2185).
+# jobs/ojs_beacon.BEACON_COUNTRY predates it; only its non-ISO spellings still need their own entries.
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "data", "iso3166_country_names.json"), encoding="utf-8") as _f:
+    ISO_NAME_TO_CODE = json.load(_f)
+ISO_CODE_TO_NAME = {code: name for name, code in ISO_NAME_TO_CODE.items()}
+
+
+def country_iso(value):
+    """(alpha-2 code, ISO name) for a feed's country value, or None when it is not an ISO country."""
+    v = (value or "").strip()
+    if v in ISO_NAME_TO_CODE:
+        return ISO_NAME_TO_CODE[v], v
+    if v.upper() in ISO_CODE_TO_NAME:
+        return v.upper(), ISO_CODE_TO_NAME[v.upper()]
+    return None
+
 
 _CTRL = re.compile(r"[\x00-\x1f\x7f-\x9f]")
 _C1 = re.compile(r"[\x80-\x9f]")

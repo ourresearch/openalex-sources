@@ -4,6 +4,10 @@ journals, no credentials), stage it, and apply DOAJ status to sources:
   is_in_doaj / is_in_doaj_start_year / doaj_license, plus delistings (flag off
   when a journal leaves DOAJ); is_oa is re-derived by sources_lib.recompute_is_oa.
 
+It also fills a NULL sources.country_code from DOAJ's 'Country of publisher'
+(oxjob #2185; fill_country). A country the registry already holds is never
+overwritten, whatever DOAJ says.
+
 The CSV lags DOAJ's live index by a month or more for newly created records
 (oxjob #548 C5: 8 confirmed journals admitted 2026-06-08..07-03 absent from the
 2026-07-07 CSV; API total 23,155 vs CSV 23,041), so treating it as the full
@@ -23,7 +27,7 @@ to that source; ambiguous or guard-refused -> conflict row; no match -> mint.
 import argparse
 import csv
 import io
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
 
@@ -33,6 +37,7 @@ from sqlalchemy import text
 from db import engine
 from sources_lib import (
     MatchContext,
+    country_iso,
     insert_issns,
     match_source,
     mint_source,
@@ -243,6 +248,7 @@ def apply(dry_run=False):
         """)).scalar()
         print(f"{n_match} sources matched in DOAJ; {turned_on} to set/update, "
               f"{turned_off} delistings; dry_run={dry_run}", flush=True)
+        fill_country(conn, dry_run=dry_run)
         if dry_run:
             return
 
@@ -272,6 +278,75 @@ def apply(dry_run=False):
         listed = recompute_listed_in(conn)
         print(f"listed_in rows changed: {listed}")
     print(f"applied (DONE); is_oa recomputed on {oa}", flush=True)
+
+
+def multinational_publishers(conn):
+    """DOAJ publisher names (lower-cased) whose journals DOAJ lists under two or more countries.
+
+    For Elsevier, Wiley, Oxford University Press and the like, 'Country of publisher' is the office
+    that handles the journal, which is often not the journal's home (oxjob #2185: all 3 misses in
+    a 50-journal check against the journals' own sites were journals of such publishers).
+    """
+    countries = defaultdict(set)
+    for publisher, country in conn.execute(text(
+            "SELECT DISTINCT publisher, country FROM doaj_journal "
+            "WHERE publisher IS NOT NULL AND country IS NOT NULL")):
+        iso = country_iso(country)
+        if iso:
+            countries[publisher.strip().lower()].add(iso[0])
+    return {p for p, codes in countries.items() if len(codes) > 1}
+
+
+def fill_country(conn, dry_run=False):
+    """Fill sources.country_code where it is NULL from DOAJ's 'Country of publisher' (oxjob #2185).
+
+    DOAJ's journal record is supplied by the journal, and OpenAlex defines a source's country as
+    its home country, typically its publisher's. Only NULLs are filled: a code the registry
+    already holds is never touched. A source whose DOAJ records name two different countries, a
+    value that is not an ISO 3166-1 country, or a publisher DOAJ lists under several countries
+    (multinational_publishers) is left alone. `country` (the name) is filled only
+    where it is NULL too. Returns [(source_id, code, name, name_filled)] for the rows filled (or
+    that a dry run would fill), so a caller can keep a receipt; revert = set those country_codes
+    (and the names this filled) back to NULL.
+    """
+    rows = conn.execute(text("""
+        SELECT s.id, array_agg(DISTINCT d.country) AS countries, s.country IS NULL AS name_null,
+               array_agg(DISTINCT lower(btrim(d.publisher))) AS publishers
+        FROM doaj_journal d
+        CROSS JOIN LATERAL unnest(d.issns) AS di(issn)
+        JOIN source_issn si ON si.issn = di.issn
+        JOIN sources s ON s.id = si.source_id
+        WHERE s.country_code IS NULL AND d.country IS NOT NULL
+        GROUP BY s.id ORDER BY s.id
+    """)).fetchall()
+    multinational = multinational_publishers(conn)
+    filled, skipped = [], Counter()
+    for sid, countries, name_null, publishers in rows:
+        resolved = {country_iso(c) for c in countries}
+        if multinational.intersection(publishers):
+            skipped["publisher under several countries"] += 1
+        elif None in resolved:
+            skipped["not an ISO country: " + "; ".join(sorted(countries))] += 1
+        elif len(resolved) != 1:
+            skipped["two DOAJ countries"] += 1
+        else:
+            filled.append((sid, *next(iter(resolved)), name_null))
+    if filled and not dry_run:
+        written = {r.id for r in conn.execute(text("""
+            UPDATE sources s SET country_code = v.code, country = COALESCE(s.country, v.name),
+                                 updated_date = now()
+            FROM unnest(CAST(:ids AS bigint[]), CAST(:codes AS text[]), CAST(:names AS text[]))
+                 AS v(id, code, name)
+            WHERE s.id = v.id AND s.country_code IS NULL
+            RETURNING s.id
+        """), {"ids": [f[0] for f in filled], "codes": [f[1] for f in filled],
+               "names": [f[2] for f in filled]})}
+        if len(written) < len(filled):
+            skipped["changed under us"] = len(filled) - len(written)
+        filled = [f for f in filled if f[0] in written]
+    print(f"country_code filled from DOAJ on {len(filled)} sources (NULL only); "
+          f"skipped {dict(skipped)}; dry_run={dry_run}", flush=True)
+    return filled
 
 
 def main():
