@@ -1,0 +1,14 @@
+{
+ "oxjob": 1936,
+ "endpoint_id": "c9b39f920453a26ec1c",
+ "mode": "apply",
+ "changed": [
+  {
+   "id": "c9b39f920453a26ec1c",
+   "pmh_url": "https://dergipark.org.tr/api/public/oai",
+   "source_id": 4306401840,
+   "is_journal_host": true
+  }
+ ],
+ "executed_at": "2026-11-12T20:35:48.650814+00:00"
+}
