@@ -1,0 +1,245 @@
+{
+ "about": "Support-desk source fixes Kyle decided 2026-11-07..13, one change per entry (handoff/desk-sources-2026-11-13.py). Each entry: set, expect (registry value now plus identity guards), optional source_oa_override (with the row expected before), is_oa_after for OA entries, works it re-stamps (primary location, API 2026-11-13) and its after-check on the live API.",
+ "checked": "2026-11-13: registry rows read with --probe through the #1899 runner; works counts from api.openalex.org",
+ "entries": [
+  {
+   "entry": "27271-aicrj-host",
+   "oxjob": 1899,
+   "tickets": [
+    27271
+   ],
+   "source_id": 32628711,
+   "why": "American Indian Culture and Research Journal is published on eScholarship (UCLA American Indian Studies Center): current DOIs 10.17953/a3.* deposited by Crossref member 29705 California Digital Library; journal at escholarship.org/uc/aicrj. Host was University of Minnesota Press (earlier publisher). publisher text already reads UCLA American Indian Studies Center; only publisher_id changes (was P4310320514).",
+   "set": {
+    "publisher_id": 4310320339
+   },
+   "expect": {
+    "publisher_id": 4310320514,
+    "publisher": "UCLA American Indian Studies Center",
+    "type": "journal"
+   },
+   "oa": null,
+   "works": 1783,
+   "check": "api: S32628711 host_organization P4310320339"
+  },
+  {
+   "entry": "27077-geodynamica-host",
+   "oxjob": 1899,
+   "tickets": [
+    27077
+   ],
+   "source_id": 5407055641,
+   "why": "Geodynamica is published on eScholarship (UC), community-led diamond OA; host was empty.",
+   "set": {
+    "publisher_id": 4310320339
+   },
+   "expect": {
+    "publisher_id": null,
+    "publisher": "eScholarship Publishing",
+    "type": "journal"
+   },
+   "oa": null,
+   "works": 6,
+   "check": "api: S5407055641 host_organization P4310320339"
+  },
+  {
+   "entry": "27077-geodynamica-oa",
+   "oxjob": 1899,
+   "tickets": [
+    27077
+   ],
+   "source_id": 5407055641,
+   "why": "Geodynamica: first issue 2026, every work CC BY, eScholarship 'community-led Diamond Open Access', no APC; not in DOAJ. Born OA: no flip year (no back catalogue). Kyle yes 2026-11-07.",
+   "set": {
+    "is_oa_high_oa_rate": true
+   },
+   "expect": {
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null,
+    "is_oa": false,
+    "type": "journal",
+    "is_in_doaj": false,
+    "is_in_scielo": false,
+    "is_fully_open_in_jstage": false
+   },
+   "is_oa_after": true,
+   "oa": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "before": null,
+    "note": "desk 2026-11-13, ZD 27077 (oxjob #1899): eScholarship 'community-led Diamond Open Access', no APC; 6/6 works 2026 CC BY; first issue 2026. Kyle 2026-11-07."
+   },
+   "works": 6,
+   "check": "api: S5407055641 is_oa true, oa_flip_year null"
+  },
+  {
+   "entry": "27066-ethnologia-flip",
+   "oxjob": 1224,
+   "tickets": [
+    27066
+   ],
+   "source_id": 2764641216,
+   "why": "Ethnologia Europaea: OA (OLH, DOAJ) from 2019; 1967-2018 content was not OA (publisher's statement in ZD 27066). Flip year 2018 -> works 2019+ OA. Kyle 2026-11-07.",
+   "set": {
+    "high_oa_rate_start_year": 2019
+   },
+   "expect": {
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2017,
+    "is_oa": true,
+    "is_in_doaj": true,
+    "type": "journal"
+   },
+   "is_oa_after": true,
+   "oa": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2018,
+    "before": null,
+    "note": "desk 2026-11-13, ZD 27066 (oxjob #1224): journal says only 2019 onward is OA (Open Library of Humanities); DOAJ oa_start 2019. Kyle 2026-11-07: flip year 2018."
+   },
+   "works": 926,
+   "check": "api: S2764641216 oa_flip_year 2018"
+  },
+  {
+   "entry": "27072-ijopcd-oa",
+   "oxjob": 1224,
+   "tickets": [
+    27072
+   ],
+   "source_id": 4210193066,
+   "why": "IJOPCD (IGI Global) went OA in Nov 2022: every article from Nov 2022 carries CC BY (2023-26: all 41 articles); 2011-Oct 2022 closed, no licence. Kyle 2026-11-07: use flip year 2022 (OA from 2023). APC not set: IGI price unconfirmed.",
+   "set": {
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   },
+   "expect": {
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null,
+    "is_oa": false,
+    "type": "journal",
+    "is_in_doaj": false,
+    "is_in_scielo": false,
+    "is_fully_open_in_jstage": false
+   },
+   "is_oa_after": true,
+   "oa": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "before": null,
+    "note": "desk 2026-11-13, ZD 27072 (oxjob #1224): CC BY on every article from Nov 2022 (Crossref); before that closed. Kyle 2026-11-07: flip year 2022. apc_usd not set (unconfirmed)."
+   },
+   "works": 393,
+   "check": "api: S4210193066 is_oa true, oa_flip_year 2022"
+  },
+  {
+   "entry": "27302-simods-not-oa",
+   "oxjob": 960,
+   "tickets": [
+    27302
+   ],
+   "source_id": 4210229561,
+   "why": "SIAM Journal on Mathematics of Data Science is a subscription (hybrid) journal (Elsevier NL Info, premium, ZD 27302); is_oa came only from the high-OA-rate inference. Curated not OA. Kyle 2026-11-10.",
+   "set": {
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "expect": {
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2019,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_in_scielo": false,
+    "is_fully_open_in_jstage": false,
+    "type": "journal"
+   },
+   "is_oa_after": false,
+   "oa": {
+    "curated_is_oa": false,
+    "curated_flip_year": null,
+    "before": null,
+    "note": "desk 2026-11-13, ZD 27302 (oxjob #960): SIAM subscription journal with hybrid OA; high-OA-rate inference was wrong. Kyle decided."
+   },
+   "works": 404,
+   "check": "api: S4210229561 is_oa false"
+  },
+  {
+   "entry": "27434-conexoes-host",
+   "oxjob": 1899,
+   "tickets": [
+    27434
+   ],
+   "source_id": 4210236529,
+   "why": "Revista PET Interdisciplinar e Programa Conexoes de Saberes On-Line (2447-097X) is published by Universidade Federal do Para (Crossref publisher, DOIs 10.18542/rcs.*), not Universidade Federal do Piaui. Kyle yes 2026-11-13.",
+   "set": {
+    "publisher_id": 4310312131
+   },
+   "expect": {
+    "publisher_id": 4310312472,
+    "publisher": "Universidade Federal do Para",
+    "type": "journal"
+   },
+   "oa": null,
+   "works": 163,
+   "check": "api: S4210236529 host_organization P4310312131"
+  },
+  {
+   "entry": "27434-conexoes-homepage",
+   "oxjob": 1899,
+   "tickets": [
+    27434
+   ],
+   "source_id": 4210236529,
+   "why": "The journal moved to UFPA's OJS portal; old revistaconexoes.ufpa.br homepage replaced.",
+   "set": {
+    "homepage_url": "https://periodicos.ufpa.br/index.php/conexoesdesaberes"
+   },
+   "expect": {
+    "homepage_url": "http://www.revistaconexoes.ufpa.br/",
+    "type": "journal"
+   },
+   "oa": null,
+   "works": 163,
+   "check": "api: S4210236529 homepage_url periodicos.ufpa.br/index.php/conexoesdesaberes"
+  },
+  {
+   "entry": "27295-kingston-host",
+   "oxjob": 1604,
+   "tickets": [
+    27295
+   ],
+   "source_id": 4306400991,
+   "why": "Research Repository (Kingston University London) is hosted by Kingston University London (I205051169, ROR 05bbqza97), not Kingston Hospital NHS Trust.",
+   "set": {
+    "institution_id": 205051169
+   },
+   "expect": {
+    "institution_id": 2801636071,
+    "publisher": "Kingston University London",
+    "publisher_id": null,
+    "type": "repository"
+   },
+   "oa": null,
+   "works": 10827,
+   "check": "api: S4306400991 host_organization I205051169"
+  },
+  {
+   "entry": "27295-kingston-homepage",
+   "oxjob": 1604,
+   "tickets": [
+    27295
+   ],
+   "source_id": 4306400991,
+   "why": "Kingston's repository moved to Pure (researchke.kingston.ac.uk); homepage was wrongly www.recercat.cat (a Catalan repository).",
+   "set": {
+    "homepage_url": "https://researchinnovation.kingston.ac.uk/"
+   },
+   "expect": {
+    "homepage_url": "https://www.recercat.cat",
+    "type": "repository"
+   },
+   "oa": null,
+   "works": 10827,
+   "check": "api: S4306400991 homepage_url researchinnovation.kingston.ac.uk"
+  }
+ ]
+}
