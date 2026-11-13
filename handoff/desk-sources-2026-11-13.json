@@ -240,6 +240,39 @@
    "oa": null,
    "works": 10827,
    "check": "api: S4306400991 homepage_url researchinnovation.kingston.ac.uk"
+  },
+  {
+   "entry": "27069-ijse-oa",
+   "oxjob": 1899,
+   "tickets": [
+    27069
+   ],
+   "source_id": 2764719052,
+   "why": "International Journal of Special Education (0827-3383 / 1917-7844): every article since the current publisher's issues began in 2021 is free on the journal site; APC 800 USD. Kyle 2026-11-13: flag OA from 2021 (flip year 2020) with that APC; the site's DOAJ claim is false (neither ISSN in DOAJ).",
+   "set": {
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2021,
+    "apc_usd": 800
+   },
+   "expect": {
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null,
+    "apc_usd": null,
+    "is_oa": false,
+    "type": "journal",
+    "is_in_doaj": false,
+    "is_in_scielo": false,
+    "is_fully_open_in_jstage": false
+   },
+   "is_oa_after": true,
+   "oa": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2020,
+    "before": null,
+    "note": "desk 2026-11-13, ZD 27069 (oxjob #1899): free on the journal site from 2021 (current publisher); APC 800 USD. Kyle 2026-11-13: OA from 2021."
+   },
+   "works": 630,
+   "check": "api: S2764719052 is_oa true, oa_flip_year 2020, apc_usd 800"
   }
  ]
 }
