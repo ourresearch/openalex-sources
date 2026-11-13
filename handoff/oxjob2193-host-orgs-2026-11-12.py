@@ -24,6 +24,11 @@ the registry's publisher text still equals the text the manifest was built from.
     python handoff/oxjob2193-host-orgs-2026-11-12.py --execute    # write + print the receipt
     python handoff/oxjob2193-host-orgs-2026-11-12.py --revert handoff/oxjob2193-host-orgs-2026-11-12-receipt.json [--execute]
 
+Wave 2 (same night, 1,408 sources, ~378K works; rider 2193-sources-publisher-w2): the DOI-prefix owner and the
+hosted sources with the same Crossref publisher string agree on one publisher, and that string shares a distinctive
+word or acronym with the publisher's name. Bar 98 of 100 (seed 219302). Add
+`--manifest handoff/oxjob2193-host-orgs-w2-2026-11-12.csv`; its receipt is ...-w2-2026-11-12-receipt.json.
+
 Revert sets publisher_id back to NULL on each receipt row only if it still carries the id this run wrote.
 """
 import csv
@@ -39,7 +44,8 @@ from sqlalchemy import text
 from db import engine
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-CSV = os.path.join(HERE, "oxjob2193-host-orgs-2026-11-12.csv")
+# --manifest <csv> picks another wave's list (wave 2: oxjob2193-host-orgs-w2-2026-11-12.csv); default is wave 1
+CSV = sys.argv[sys.argv.index("--manifest") + 1] if "--manifest" in sys.argv else os.path.join(HERE, "oxjob2193-host-orgs-2026-11-12.csv")
 EXECUTE = "--execute" in sys.argv
 REVERT = sys.argv[sys.argv.index("--revert") + 1] if "--revert" in sys.argv else None
 COUNTS = ("SELECT COUNT(*) FILTER (WHERE publisher_id IS NULL AND institution_id IS NULL), "
