@@ -20,7 +20,7 @@ re-stamp in the next End 2End.
 Schedule it daily before the End 2 End (05:00 UTC). USERS_API_KEY must belong to a
 site curator or admin: GET /curations lists everyone's rows only for them.
 
-  python -m jobs.apply_source_curations [--dry-run] [--receipt PATH]
+  python -m jobs.apply_source_curations [--dry-run] [--receipt PATH] [--source-ids 123,456]
 """
 import argparse
 import json
@@ -107,11 +107,15 @@ class _DryRun(Exception):
     pass
 
 
-def run(dry_run=False, curations=None, receipt_path=None):
+def run(dry_run=False, curations=None, receipt_path=None, source_ids=None):
+    """``source_ids``: copy only these sources' curations (a lane applying its own while
+    another lane's are still being posted); None = every curated source."""
     if curations is None:
         key = os.environ.get("USERS_API_KEY") or os.environ["OPENALEX_API_KEY"]
         curations = fetch_curations(key)
     desired = latest_by_source(curations)
+    if source_ids is not None:
+        desired = {sid: f for sid, f in desired.items() if sid in set(source_ids)}
     receipt = {"run_at": datetime.now(timezone.utc).isoformat(), "dry_run": dry_run,
                "curations": len(curations), "sources": len(desired), "changes": [], "skipped": []}
     try:
@@ -170,8 +174,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--receipt")
+    ap.add_argument("--source-ids", help="comma-separated registry ids (no S); default every curated source")
     args = ap.parse_args()
-    run(dry_run=args.dry_run, receipt_path=args.receipt)
+    ids = [int(s.lstrip("S")) for s in args.source_ids.split(",")] if args.source_ids else None
+    run(dry_run=args.dry_run, receipt_path=args.receipt, source_ids=ids)
 
 
 if __name__ == "__main__":

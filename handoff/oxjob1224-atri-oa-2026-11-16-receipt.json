@@ -1,0 +1,49 @@
+{
+ "run_at": "2026-11-16T21:59:02.944951+00:00",
+ "dry_run": false,
+ "curations": 198,
+ "sources": 2,
+ "changes": [
+  {
+   "source_id": 5407049177,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2023,
+    "note": "users-api curations: cur-X2UNC5fLE7jV, cur-Ar9BwsX38Z2F"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2024
+   }
+  },
+  {
+   "source_id": 5407049196,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2023,
+    "note": "users-api curations: cur-jh8gAX42fMnZ, cur-Zg8Uq4pT9WW9"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2024
+   }
+  }
+ ],
+ "skipped": [],
+ "flag_rows": 2,
+ "is_oa_recomputed": 2
+}
