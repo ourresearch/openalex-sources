@@ -1,0 +1,1957 @@
+{
+ "run_at": "2026-11-16T17:42:35.457330+00:00",
+ "execute": true,
+ "mode": "apply",
+ "scirp_fill": true,
+ "before": {
+  "2764708357": {
+   "id": 2764708357,
+   "display_name": "Theoretical Economics Letters",
+   "apc_usd": 599,
+   "apc_prices": [
+    {
+     "price": 599,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": 4310320480,
+   "institution_id": null,
+   "publisher": "Scientific Research Publishing, Inc.",
+   "homepage_url": "http://scirp.org/journal/tel",
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2011
+  },
+  "2739093061": {
+   "id": 2739093061,
+   "display_name": "Mycosphere",
+   "apc_usd": 2763,
+   "apc_prices": [
+    {
+     "price": 2500,
+     "currency": "EUR"
+    }
+   ],
+   "publisher_id": 4310319379,
+   "institution_id": null,
+   "publisher": null,
+   "homepage_url": "http://www.mycosphere.org/",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2011
+  },
+  "4210203566": {
+   "id": 4210203566,
+   "display_name": "Studies in Fungi",
+   "apc_usd": 1500,
+   "apc_prices": [
+    {
+     "price": 1500,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Mushroom Research Foundation",
+   "homepage_url": "http://www.studiesinfungi.org/",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2016
+  },
+  "4210238882": {
+   "id": 4210238882,
+   "display_name": "Forestry Research",
+   "apc_usd": 1950,
+   "apc_prices": [
+    {
+     "price": 1950,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Maximum Academic Press",
+   "homepage_url": null,
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "4210194694": {
+   "id": 4210194694,
+   "display_name": "DOCA - Database of Variables for Content Analysis",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Universitaet Zuerich, Institut fuer Kommunikationswissenschaft und Medienforschung",
+   "homepage_url": "https://www.hope.uzh.ch/doca",
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "4210236331": {
+   "id": 4210236331,
+   "display_name": "Annales Henri Lebesgue",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": 4210146044,
+   "publisher": "École Normale Supérieure de Rennes",
+   "homepage_url": "https://annales.lebesgue.fr",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2020
+  }
+ },
+ "override_before": {
+  "2764708357": null,
+  "2739093061": null,
+  "4210203566": null,
+  "4210238882": null,
+  "4210194694": {
+   "curated_is_oa": true,
+   "curated_flip_year": null,
+   "note": "ZD 23139 DOCA (Univ. Zurich HOPE): fully OA since its first issue (2021), CC BY-NC-ND, no fees; verified 2026-11-15 (oxjob #188)"
+  },
+  "4210236331": null
+ },
+ "actions": [
+  "S2764708357: already done (ZD 8512 Theoretical Economics Letters: SCIRP fee page lists APC $599)",
+  "S2739093061: already done (ZD 6025 Mycosphere: EUR 2500 (journal page + DOAJ))",
+  "S4210203566: already done (ZD 6027 Studies in Fungi: USD 1500 (DOAJ))",
+  "S4210238882: already done (ZD 6028 Forestry Research: USD 1950 (DOAJ))",
+  "S4210194694: already done (ZD 23139 DOCA: fully OA since 2021, CC BY-NC-ND, no publishing fees)",
+  "S4210236331: already done (ZD 1537 Annales Henri Lebesgue: owned by ENS Rennes, free of author charges)",
+  "source_oa_override 4210194694: already there",
+  "SCIRP fill: 240 of 241 written (skipped, no longer blank or not SCIRP: 1); revert: per scirp_filled row, apc_usd = NULL and apc_prices = its apc_prices_before",
+  "recompute_is_oa changed 0 source(s)"
+ ],
+ "after": {
+  "2764708357": {
+   "id": 2764708357,
+   "display_name": "Theoretical Economics Letters",
+   "apc_usd": 599,
+   "apc_prices": [
+    {
+     "price": 599,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": 4310320480,
+   "institution_id": null,
+   "publisher": "Scientific Research Publishing, Inc.",
+   "homepage_url": "http://scirp.org/journal/tel",
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2011
+  },
+  "2739093061": {
+   "id": 2739093061,
+   "display_name": "Mycosphere",
+   "apc_usd": 2763,
+   "apc_prices": [
+    {
+     "price": 2500,
+     "currency": "EUR"
+    }
+   ],
+   "publisher_id": 4310319379,
+   "institution_id": null,
+   "publisher": null,
+   "homepage_url": "http://www.mycosphere.org/",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2011
+  },
+  "4210203566": {
+   "id": 4210203566,
+   "display_name": "Studies in Fungi",
+   "apc_usd": 1500,
+   "apc_prices": [
+    {
+     "price": 1500,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Mushroom Research Foundation",
+   "homepage_url": "http://www.studiesinfungi.org/",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2016
+  },
+  "4210238882": {
+   "id": 4210238882,
+   "display_name": "Forestry Research",
+   "apc_usd": 1950,
+   "apc_prices": [
+    {
+     "price": 1950,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Maximum Academic Press",
+   "homepage_url": null,
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "4210194694": {
+   "id": 4210194694,
+   "display_name": "DOCA - Database of Variables for Content Analysis",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Universitaet Zuerich, Institut fuer Kommunikationswissenschaft und Medienforschung",
+   "homepage_url": "https://www.hope.uzh.ch/doca",
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "4210236331": {
+   "id": 4210236331,
+   "display_name": "Annales Henri Lebesgue",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": 4210146044,
+   "publisher": "École Normale Supérieure de Rennes",
+   "homepage_url": "https://annales.lebesgue.fr",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2020
+  }
+ },
+ "scirp_filled": [
+  {
+   "id": 2784850370,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2430",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 155988987,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=136",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764741929,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=207",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764580047,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2436",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210222741,
+   "fee": 1199,
+   "page": "https://www.scirp.org/journal/apc?journalid=65",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764372278,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2435",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 187260366,
+   "fee": 1199,
+   "page": "https://www.scirp.org/journal/apc?journalid=172",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 10553207,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=148",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210211746,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=160",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765072907,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=604",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764762413,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2432",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764451103,
+   "fee": 1199,
+   "page": "https://www.scirp.org/journal/apc?journalid=208",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 115225164,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=144",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764596442,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=1003",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764382203,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2447",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 72925349,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=163",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764731291,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=191",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210198603,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2431",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 175274235,
+   "fee": 1099,
+   "page": "https://www.scirp.org/journal/apc?journalid=46",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210193929,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=64",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 15087342,
+   "fee": 1199,
+   "page": "https://www.scirp.org/journal/apc?journalid=125",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764860561,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=884",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 50933641,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=174",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210220005,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=202",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 185889707,
+   "fee": 1199,
+   "page": "https://www.scirp.org/journal/apc?journalid=30",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764558556,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=605",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764408958,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=204",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 183861833,
+   "fee": 1199,
+   "page": "https://www.scirp.org/journal/apc?journalid=164",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764655704,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=203",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764976403,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=2033",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765016557,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=609",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210205325,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=1000",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765068038,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=818",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764901351,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=587",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764560593,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=513",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764416086,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1753",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765033438,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2451",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764642385,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=260",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764520582,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2433",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764974331,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2434",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764794781,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=590",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 186483588,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=28",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210237898,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2461",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764426523,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=209",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765070342,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=741",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 7818144,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=114",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764572565,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=804",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764523502,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=509",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210223912,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=492",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764758310,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=607",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764420695,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1002",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764965309,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=817",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764910743,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=742",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764361713,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=601",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764366187,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=192",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764662244,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=648",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764947943,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=475",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765019955,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1477",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764780188,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=547",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764781905,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=803",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 74208233,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=29",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764370194,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=610",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764987031,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=603",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764880020,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=535",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 50558362,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=93",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764951932,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=473",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765068098,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=788",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764987928,
+   "fee": 1199,
+   "page": "https://www.scirp.org/journal/apc?journalid=530",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764602986,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=816",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 182352310,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=92",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764408700,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=357",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764773183,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=736",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210203322,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=821",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 12664043,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=173",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764775445,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=805",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764483573,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1304",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764641375,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2438",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764800790,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=743",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210187136,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2421",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 35203020,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=103",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764800949,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=529",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764864167,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=615",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764726287,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=822",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210193871,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=175",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 144743238,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=111",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764500809,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1004",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764905240,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=789",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 173893385,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=135",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764362666,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=205",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764651022,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=1001",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764660675,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=230",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764578440,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=614",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764425887,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=474",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764431896,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=511",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764444537,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1395",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764468471,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=611",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210184300,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=506",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764506795,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=735",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764492346,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1980",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764653874,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=527",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764563600,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=339",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764956235,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1578",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 127956729,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=104",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764579559,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=999",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764562593,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=532",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764838995,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=807",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764733312,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=809",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764362067,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=820",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210186467,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2439",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764882549,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=534",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765077133,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=813",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764864757,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=502",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210201511,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1493",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 159901799,
+   "fee": 999,
+   "page": "https://www.scirp.org/journal/apc?journalid=4",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210216624,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2442",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210178812,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2444",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210188920,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2317",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210180661,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2316",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210178264,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=737",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210196491,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2425",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764394513,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=593",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764816003,
+   "fee": 799,
+   "page": "https://www.scirp.org/journal/apc?journalid=206",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764883773,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=543",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764974627,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=811",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764611464,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=586",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210229801,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=591",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764509008,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=998",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210181423,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2448",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210176813,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=1186",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764716871,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=739",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210190353,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1575",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210211030,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2422",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210228911,
+   "fee": 100,
+   "page": "https://www.scirp.org/journal/apc?journalid=2458",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210176968,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2465",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764748269,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=785",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764494284,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=606",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764480060,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1406",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210232741,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=792",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210187951,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2456",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764860325,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=512",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765012372,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=600",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210203127,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=806",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210189629,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2445",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210191877,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2453",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765039529,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1573",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210234112,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=102",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764779874,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=990",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764559428,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=589",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765028038,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1261",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765021627,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=613",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764434733,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=210",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764394908,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=786",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210207300,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2424",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764392898,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=602",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210202076,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=1979",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210187073,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=815",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764899421,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=490",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 176855378,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=146",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210210209,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2437",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210188373,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=824",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 61902129,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=41",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764405391,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=478",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210227773,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1478",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764536834,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=510",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210199818,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1590",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210229860,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=541",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764627458,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=493",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210218754,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1407",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210175675,
+   "fee": 1199,
+   "page": "https://www.scirp.org/journal/apc?journalid=479",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764613136,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=176",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210200123,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2460",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764552366,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=525",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210197174,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=747",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2765015731,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=596",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210224208,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1589",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210174565,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=1577",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210193660,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2464",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210201521,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1986",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 3913094,
+   "fee": 699,
+   "page": "https://www.scirp.org/journal/apc?journalid=162",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210191875,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1978",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210196866,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=996",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210210093,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=917",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210224638,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=476",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210233869,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1977",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210172042,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=592",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210211186,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=531",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210196520,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=812",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210180701,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=528",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764948630,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=526",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210188784,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=791",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210211702,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2315",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210171498,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=71",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210238533,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1487",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764954577,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=808",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210171744,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2455",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210182466,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=491",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210199621,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1574",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2531538373,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=2426",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210198314,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=588",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210174755,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1492",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210181159,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2423",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210211749,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=794",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210200766,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=784",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210210165,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=790",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210196522,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1311",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210211032,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2446",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210221213,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=691",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210187509,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2440",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210169754,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1394",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210171781,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=612",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210216320,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1690",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210187318,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2443",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210230741,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=989",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210183227,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1576",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210191950,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=477",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210186282,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2449",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210221496,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1579",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210189342,
+   "fee": 899,
+   "page": "https://www.scirp.org/journal/apc?journalid=533",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210195900,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1519",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210191017,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1517",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210173649,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1518",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210171246,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=1391",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210210895,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=823",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210208628,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=793",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210169739,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1486",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210202085,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2441",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210191731,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=2454",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210230150,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1479",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210180123,
+   "fee": 400,
+   "page": "https://www.scirp.org/journal/apc?journalid=1480",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210193292,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1411",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210228847,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2450",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764802505,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=738",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210170327,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=2074",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210196219,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2034",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210220567,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=787",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210179626,
+   "fee": 399,
+   "page": "https://www.scirp.org/journal/apc?journalid=2428",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210217537,
+   "fee": 499,
+   "page": "https://www.scirp.org/journal/apc?journalid=1485",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 4210195572,
+   "fee": 299,
+   "page": "https://www.scirp.org/journal/apc?journalid=1298",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 60820437,
+   "fee": 1299,
+   "page": "https://www.scirp.org/journal/apc?journalid=69",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  },
+  {
+   "id": 2764622858,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=675",
+   "apc_prices_before": [],
+   "publisher_id": 4310320480
+  }
+ ],
+ "scirp_skipped": [
+  {
+   "id": 2764708357,
+   "fee": 599,
+   "page": "https://www.scirp.org/journal/apc?journalid=666",
+   "apc_prices_before": [
+    {
+     "price": 599,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": 4310320480
+  }
+ ]
+}
