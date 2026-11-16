@@ -1,0 +1,129 @@
+{
+ "run_at": "2026-11-16T15:21:40.078148+00:00",
+ "execute": true,
+ "job": 1580,
+ "before": {
+  "7407058046": {
+   "id": "7407058046",
+   "display_name": "Journal of 21 September university for medical and applied sciences",
+   "type": "journal",
+   "issn_l": "2958-5929",
+   "issns": "['2958-5929', '2958-5937']",
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "21 September University for Medical and Applied Sciences",
+   "publisher_id": "4404678058",
+   "institution_id": null,
+   "homepage_url": "https://ojs.21umas.edu.ye/masj/en",
+   "country": null,
+   "country_code": null,
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": "[]",
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": "True",
+   "is_in_doaj": "False",
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": "False",
+   "is_ojs": "True",
+   "is_oa_high_oa_rate": "True",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": null,
+   "is_preprint_repository": "False",
+   "created_date": null,
+   "updated_date": "2026-10-05 19:32:23.609755+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": null,
+   "_issns": [
+    "2958-5929",
+    "2958-5937"
+   ],
+   "_endpoints": [
+    "ljm5irjz8r6v1ww6e8cq"
+   ],
+   "_oa_override": [
+    {
+     "source_id": 7407058046,
+     "curated_is_oa": true,
+     "curated_flip_year": null,
+     "note": "ZD 22564 Journal of 21 September University (diamond, 30/35 cc-by)"
+    }
+   ]
+  },
+  "7407089440": {
+   "id": "7407089440",
+   "display_name": "Journal of 21 September university for medical and applied sciences",
+   "type": "journal",
+   "issn_l": "5937-2958",
+   "issns": "['5937-2958']",
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "21 September University for Medical and Applied Sciences",
+   "publisher_id": "4404678058",
+   "institution_id": null,
+   "homepage_url": null,
+   "country": null,
+   "country_code": null,
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": null,
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": "False",
+   "is_in_doaj": null,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": null,
+   "is_ojs": "False",
+   "is_oa_high_oa_rate": "False",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": null,
+   "is_preprint_repository": null,
+   "created_date": "2026-10-06 06:05:00.608868+00:00",
+   "updated_date": "2026-11-13 02:48:37.956220+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": null,
+   "_issns": [
+    "5937-2958"
+   ],
+   "_endpoints": [],
+   "_oa_override": []
+  }
+ },
+ "actions": [
+  "MERGED 7407089440 -> 7407058046 (zendesk_1580_swapped_issn_twin): issns moved 1, endpoints 0, datacite 0, beacon 0",
+  "COMMITTED"
+ ],
+ "after": {
+  "7407058046": {
+   "id": "7407058046",
+   "display_name": "Journal of 21 September university for medical and applied sciences",
+   "type": "journal",
+   "is_oa": "True",
+   "issn_l": "2958-5929",
+   "issns": "['2958-5929', '2958-5937', '5937-2958']",
+   "publisher_id": "4404678058",
+   "institution_id": null,
+   "homepage_url": "https://ojs.21umas.edu.ye/masj/en",
+   "alternate_titles": null
+  }
+ }
+}
