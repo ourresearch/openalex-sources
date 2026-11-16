@@ -1,0 +1,722 @@
+{
+ "run_at": "2026-11-16T21:53:07.101257+00:00",
+ "dry_run": false,
+ "curations": 74,
+ "sources": 37,
+ "changes": [
+  {
+   "source_id": 5171481,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2008,
+    "note": "users-api curations: cur-XKRPwyNU4jvP, cur-JpFMRewHXJnu"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2009
+   }
+  },
+  {
+   "source_id": 2765004361,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2007,
+    "note": "users-api curations: cur-Tp5b52zA2XLa, cur-BNENBs4xQHPC"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2008
+   }
+  },
+  {
+   "source_id": 4210180573,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2006,
+    "note": "users-api curations: cur-YLRJDh8E4QGG, cur-aDK9kxd4ohrc"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2007
+   }
+  },
+  {
+   "source_id": 4210203588,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2019,
+    "note": "users-api curations: cur-kdJ5rKwtBvFB, cur-VpUmCDKw7BuC"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2020
+   }
+  },
+  {
+   "source_id": 4210231820,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2004,
+    "note": "users-api curations: cur-gtkS2d7pDkdL, cur-GQ8ERfTMTAx5"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2005
+   }
+  },
+  {
+   "source_id": 4210236322,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2020,
+    "note": "users-api curations: cur-BNsmVj5vvHFj, cur-XUvZWeZiKxap"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2021
+   }
+  },
+  {
+   "source_id": 4210240003,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2018,
+    "note": "users-api curations: cur-EQEFyroVVdqr, cur-Nx2RAegu3PiM"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2019
+   }
+  },
+  {
+   "source_id": 4306463448,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2004,
+    "note": "users-api curations: cur-beCmkvpq4oZb, cur-gct54RrV9TSu"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2005
+   }
+  },
+  {
+   "source_id": 4306490465,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2020,
+    "note": "users-api curations: cur-7NZbvxYZHz5E, cur-Jt5aWdFqotcx"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2021
+   }
+  },
+  {
+   "source_id": 4306512216,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2014,
+    "note": "users-api curations: cur-NhCxrVK2HGRM, cur-j2nvHk3YmAjE"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2015
+   }
+  },
+  {
+   "source_id": 4387288221,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2021,
+    "note": "users-api curations: cur-H3vtv3xoDvZN, cur-Lb6Kyx73rbbK"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2022
+   }
+  },
+  {
+   "source_id": 4387288432,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-fL5pgkThpabb, cur-6s7HCkGoemxP"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 4387288443,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2021,
+    "note": "users-api curations: cur-KeFGbrsdDaRg, cur-AJ8AZrmajyxP"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2022
+   }
+  },
+  {
+   "source_id": 4387292317,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-J7xqTriNEPb3, cur-MG59L5BUNSat"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 4390297083,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-QZxdoLsqKrBk, cur-E7qGxnPbiYLF"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 4392020751,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2019,
+    "note": "users-api curations: cur-c3LX5SXuNgr6, cur-gd5XnbuReLn3"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2020
+   }
+  },
+  {
+   "source_id": 4393912236,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 1963,
+    "note": "users-api curations: cur-GmPNaGQosbnA, cur-a3F8TTwoaTK6"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 1964
+   }
+  },
+  {
+   "source_id": 4393912889,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-c4VWXWf4vXa9, cur-SvHrrRRTdh8o"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 4404662802,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2019,
+    "note": "users-api curations: cur-mARuvRAeFMzD, cur-nxYhKSVxbnCA"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2020
+   }
+  },
+  {
+   "source_id": 4404669927,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2023,
+    "note": "users-api curations: cur-hywJECCYYuVF, cur-7tbHpfmaFGQY"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2024
+   }
+  },
+  {
+   "source_id": 4404674549,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2023,
+    "note": "users-api curations: cur-YGRvsQDVXEVA, cur-C9NrRc58Zzrw"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2024
+   }
+  },
+  {
+   "source_id": 4404677277,
+   "override_before": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "note": "ZD 22191: 2026 article https://doi.org/10.66092/a08gzd27 PDF .../integracion/article/download/50/65 and 2024 article https://doi.org/10.5377/ri.v1i9.18456 PDF on camjol.info both free (200 application/pdf); Crossref licences CC BY 4.0 / CC BY-NC-SA 4.0; site \"Pol\u00edtica de Publicaci\u00f3n y Acceso Abierto\" (#1223/#1899)"
+   },
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2020,
+    "note": "users-api curations: cur-KQUCphh4jtKR, cur-7ZduB3PC4f2n | was: ZD 22191: 2026 article https://doi.org/10.66092/a08gzd27 PDF .../integracion/article/download/50/65 and 2024 article https://doi.org/10.5377/ri.v1i9.18456 PDF on camjol.info both free (200 application/pdf); Crossref licences CC BY 4.0 / CC BY-NC-SA 4.0; site \"Pol\u00edtica de Publicaci\u00f3n y Acceso Abierto\" (#1223/#1899)"
+   },
+   "flags_before": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2021
+   }
+  },
+  {
+   "source_id": 5407034367,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-PGdKqED3fWuK, cur-KVBJmCc9Cfof"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 5407040213,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-Gdkw2qhxoegn, cur-RPaYdL7NhFFh"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  },
+  {
+   "source_id": 5407040222,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-TP4DmPxULWDK, cur-TCwRT7r6juNo"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  },
+  {
+   "source_id": 5407042657,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-36WJfXuFFTFj, cur-VmxAT89Xp7QW"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 5407043372,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-Dom4uS4qBJSz, cur-49vSvzEEoz3R"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 5407049739,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-oVbPrEsDVX5n, cur-FWshdMpBGqXa"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  },
+  {
+   "source_id": 5407050320,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-V2qzkgDNNQ9p, cur-m4tgDCA2nLgG"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 5407051091,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2022,
+    "note": "users-api curations: cur-MYoXfwEp6TdX, cur-NwagnYNoGPmD"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2023
+   }
+  },
+  {
+   "source_id": 5407051860,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-dL6Uxo84zqe3, cur-F7cXvhnFc9e9"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  },
+  {
+   "source_id": 5407052844,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-9XmpUxq48KFc, cur-UHovYetViiFp"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  },
+  {
+   "source_id": 5407056107,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-dUGrb8CB2kbM, cur-VE7i86iqn9Pq"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  },
+  {
+   "source_id": 5407056241,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-kzmkZRNaLn4w, cur-nbQrSRaZLkDL"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  },
+  {
+   "source_id": 5407056348,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-eVoy4CiQQPYX, cur-2hJGQvCCwwsx"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  },
+  {
+   "source_id": 7407054075,
+   "override_before": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "note": "ZD 24530: Masthead: \"acceso abierto diamante (sin APC ni cargos)\", CC BY 4.0; first article https://doi.org/10.66201/ss.v1.1 (2026-01-12) and latest 10.66201/ss.v1.64 (2026-10-26) both open with PDF/HTML/EPUB and CC BY 4.0 (#1223/#1899)"
+   },
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2025,
+    "note": "users-api curations: cur-EXa8K6RCutk5, cur-5YKf4jdLbv8N | was: ZD 24530: Masthead: \"acceso abierto diamante (sin APC ni cargos)\", CC BY 4.0; first article https://doi.org/10.66201/ss.v1.1 (2026-01-12) and latest 10.66201/ss.v1.64 (2026-10-26) both open with PDF/HTML/EPUB and CC BY 4.0 (#1223/#1899)"
+   },
+   "flags_before": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2026
+   }
+  },
+  {
+   "source_id": 7407056620,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2024,
+    "note": "users-api curations: cur-asNVGPqb8XFn, cur-RSX57Kf7xcvv"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2025
+   }
+  }
+ ],
+ "skipped": [],
+ "flag_rows": 37,
+ "is_oa_recomputed": 35
+}
