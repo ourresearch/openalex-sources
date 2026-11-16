@@ -1,0 +1,32 @@
+{
+ "run_at": "2026-11-16T21:14:27.965523+00:00",
+ "execute": true,
+ "job": 693,
+ "ticket": 23006,
+ "approved": "support factory #2254 (Jason 2026-11-15 yes); standing authority",
+ "before": {
+  "2764590048": {
+   "id": "2764590048",
+   "display_name": "Journal of nanostructure in chemistry",
+   "publisher_id": "4310319965",
+   "institution_id": null,
+   "homepage_url": "http://link.springer.com/journal/40097",
+   "country_code": "DE",
+   "country": null
+  },
+  "2738418679": {
+   "id": "2738418679",
+   "display_name": "International Journal Of Recycling of Organic Waste in Agriculture",
+   "publisher_id": "4310319965",
+   "institution_id": null,
+   "homepage_url": "https://link.springer.com/journal/40093/volumes-and-issues",
+   "country_code": "IR",
+   "country": "Iran, Islamic Republic of"
+  }
+ },
+ "actions": [
+  "S2764590048: publisher_id 4310319965 -> NULL, institution_id NULL -> 4394709092, homepage 'http://link.springer.com/journal/40097' -> 'https://oiccpress.com/jnsc/', country 'DE'/None -> 'GB'/'United Kingdom' (ZD 23006)",
+  "S2738418679: publisher_id 4310319965 -> NULL, institution_id NULL -> 4394709092, homepage 'https://link.springer.com/journal/40093/volumes-and-issues' -> 'https://oiccpress.com/ijrowa', country 'IR'/'Iran, Islamic Republic of' -> 'GB'/'United Kingdom' (ZD 23006)",
+  "COMMITTED"
+ ]
+}
