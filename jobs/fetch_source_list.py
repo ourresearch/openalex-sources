@@ -508,9 +508,10 @@ def fetch_abdc():
 # backend returns every record in one call (undocumented endpoint behind the
 # React app). A renamed journal's current record is status 'name_changed' (the
 # old-name record goes 'inactive'), so both 'active' and 'name_changed' count.
-# No licence stated. NOT registered in source_list (Casey, 2026-09-30: internal
-# for now, used only to tier OJS journals in jobs/ojs_beacon --lists; walden's
-# sync_source_lists publishes every registered list). oxjob #1426.
+# No licence stated. Registered in source_list as public lists tci-1 / tci-2
+# on 2026-11-16 (Kyle's yes 2026-10-26; oxjob #1205, ZD 26568; loaded by
+# handoff/oxjob1205-sinta-tci-lists-2026-11-16.py). Also tiers OJS journals in
+# jobs/ojs_beacon --lists (oxjob #1426).
 TCI_URL = "https://tci-thailand.org/backend/journal/list_all_journal"
 TCI_TIERS = {"1": "tci-1", "2": "tci-2"}
 
@@ -550,8 +551,8 @@ def fetch_tci():
 # inactive under its last rank (withdrawn_date = 31 Dec of its last year).
 # ~16.8K profiles: hours (the server drops connection attempts under load, hence
 # the short timeout and retries); progress is cached in the temp dir, so a rerun
-# resumes. No licence stated. NOT registered in
-# source_list, like tci (internal, oxjob #1426).
+# resumes. No licence stated. Registered in source_list as public lists
+# sinta-s1..sinta-s6 on 2026-11-16, like tci (oxjob #1205, ZD 26568).
 SINTA = "https://sinta.kemdiktisaintek.go.id"
 SINTA_WORKERS = 3
 # SINTA answers 403 to any User-Agent not starting "Mozilla/5.0"; the identified
