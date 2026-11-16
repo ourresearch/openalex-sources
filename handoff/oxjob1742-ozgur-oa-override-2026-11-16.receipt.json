@@ -1,0 +1,51 @@
+{
+ "run_at": "2026-11-16T15:31:44.313658+00:00",
+ "execute": true,
+ "ticket": 26253,
+ "oxjob": 1742,
+ "before": {
+  "source": {
+   "display_name": "Özgür Yayınları eBooks",
+   "type": "ebook platform",
+   "publisher": "Özgür Yayınları",
+   "publisher_id": null,
+   "is_oa": "False",
+   "is_oa_high_oa_rate": "False",
+   "high_oa_rate_start_year": null,
+   "is_in_doaj": "False",
+   "is_in_scielo": "False",
+   "is_fully_open_in_jstage": "False",
+   "apc_usd": null,
+   "apc_prices": []
+  },
+  "override": []
+ },
+ "actions": [
+  "INSERT source_oa_override S4306477381: curated_is_oa TRUE, curated_flip_year 2021 (OA from 2022)",
+  "S4306477381: is_oa_high_oa_rate TRUE from 2022, apc_prices TRY 2400, apc_usd 48, is_oa recomputed"
+ ],
+ "after": {
+  "source": {
+   "display_name": "Özgür Yayınları eBooks",
+   "type": "ebook platform",
+   "publisher": "Özgür Yayınları",
+   "publisher_id": null,
+   "is_oa": "True",
+   "is_oa_high_oa_rate": "True",
+   "high_oa_rate_start_year": "2022",
+   "is_in_doaj": "False",
+   "is_in_scielo": "False",
+   "is_fully_open_in_jstage": "False",
+   "apc_usd": "48",
+   "apc_prices": [
+    {
+     "price": 2400,
+     "currency": "TRY"
+    }
+   ]
+  }
+ },
+ "revert": "DELETE FROM source_oa_override WHERE source_id = 4306477381 AND note LIKE 'ZD 26253 #1742%'; UPDATE sources SET apc_prices = '[]'::jsonb, apc_usd = NULL, is_oa_high_oa_rate = FALSE, high_oa_rate_start_year = NULL, is_oa = FALSE, updated_date = now() WHERE id = 4306477381;  (apc_prices was [] before, not NULL)",
+ "script_sha256": "de54cd730aa220a782cfb7a50d534d0c2fb25d5bdf72a5f9bd8ef1861b40d693",
+ "run_by": "1742 wake-up session on desk, lanes_registry via run_registry.py (route approved by #1831, 16 Nov 09:45 CT)"
+}
