@@ -1,0 +1,234 @@
+{
+ "run_at": "2026-11-16T15:36:45.877193+00:00",
+ "execute": true,
+ "mode": "apply",
+ "scirp_fill": false,
+ "before": {
+  "2764708357": {
+   "id": 2764708357,
+   "display_name": "Theoretical Economics Letters",
+   "apc_usd": null,
+   "apc_prices": [],
+   "publisher_id": 4310320480,
+   "institution_id": null,
+   "publisher": "Scientific Research Publishing, Inc.",
+   "homepage_url": "http://scirp.org/journal/tel",
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2011
+  },
+  "2739093061": {
+   "id": 2739093061,
+   "display_name": "Mycosphere",
+   "apc_usd": null,
+   "apc_prices": [],
+   "publisher_id": 4310319379,
+   "institution_id": null,
+   "publisher": null,
+   "homepage_url": "http://www.mycosphere.org/",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2011
+  },
+  "4210203566": {
+   "id": 4210203566,
+   "display_name": "Studies in Fungi",
+   "apc_usd": null,
+   "apc_prices": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Mushroom Research Foundation",
+   "homepage_url": "http://www.studiesinfungi.org/",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2016
+  },
+  "4210238882": {
+   "id": 4210238882,
+   "display_name": "Forestry Research",
+   "apc_usd": null,
+   "apc_prices": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Maximum Academic Press",
+   "homepage_url": null,
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "4210194694": {
+   "id": 4210194694,
+   "display_name": "DOCA - Database of Variables for Content Analysis",
+   "apc_usd": null,
+   "apc_prices": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Universitaet Zuerich, Institut fuer Kommunikationswissenschaft und Medienforschung",
+   "homepage_url": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "4210236331": {
+   "id": 4210236331,
+   "display_name": "Annales Henri Lebesgue",
+   "apc_usd": null,
+   "apc_prices": [],
+   "publisher_id": 4361727469,
+   "institution_id": null,
+   "publisher": "Cellule MathDoc/CEDRAM",
+   "homepage_url": "https://annales.lebesgue.fr",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2020
+  }
+ },
+ "override_before": {
+  "2764708357": null,
+  "2739093061": null,
+  "4210203566": null,
+  "4210238882": null,
+  "4210194694": null,
+  "4210236331": null
+ },
+ "actions": [
+  "UPDATE sources 2764708357: {'apc_usd': 599, 'apc_prices': [{'price': 599, 'currency': 'USD'}]}",
+  "  why: ZD 8512 Theoretical Economics Letters: SCIRP fee page lists APC $599",
+  "UPDATE sources 2739093061: {'apc_usd': 2763, 'apc_prices': [{'price': 2500, 'currency': 'EUR'}]}",
+  "  why: ZD 6025 Mycosphere: EUR 2500 (journal page + DOAJ)",
+  "UPDATE sources 4210203566: {'apc_usd': 1500, 'apc_prices': [{'price': 1500, 'currency': 'USD'}]}",
+  "  why: ZD 6027 Studies in Fungi: USD 1500 (DOAJ)",
+  "UPDATE sources 4210238882: {'apc_usd': 1950, 'apc_prices': [{'price': 1950, 'currency': 'USD'}]}",
+  "  why: ZD 6028 Forestry Research: USD 1950 (DOAJ)",
+  "UPDATE sources 4210194694: {'apc_usd': 0, 'apc_prices': [{'price': 0, 'currency': 'USD'}], 'homepage_url': 'https://www.hope.uzh.ch/doca', 'is_oa_high_oa_rate': True, 'high_oa_rate_start_year': None}",
+  "  why: ZD 23139 DOCA: fully OA since 2021, CC BY-NC-ND, no publishing fees",
+  "UPDATE sources 4210236331: {'apc_usd': 0, 'apc_prices': [{'price': 0, 'currency': 'USD'}], 'publisher_id': None, 'institution_id': 4210146044, 'publisher': 'École Normale Supérieure de Rennes'}",
+  "  why: ZD 1537 Annales Henri Lebesgue: owned by ENS Rennes, free of author charges",
+  "INSERT source_oa_override 4210194694 curated_is_oa=true",
+  "recompute_is_oa changed 1 source(s)"
+ ],
+ "after": {
+  "2764708357": {
+   "id": 2764708357,
+   "display_name": "Theoretical Economics Letters",
+   "apc_usd": 599,
+   "apc_prices": [
+    {
+     "price": 599,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": 4310320480,
+   "institution_id": null,
+   "publisher": "Scientific Research Publishing, Inc.",
+   "homepage_url": "http://scirp.org/journal/tel",
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2011
+  },
+  "2739093061": {
+   "id": 2739093061,
+   "display_name": "Mycosphere",
+   "apc_usd": 2763,
+   "apc_prices": [
+    {
+     "price": 2500,
+     "currency": "EUR"
+    }
+   ],
+   "publisher_id": 4310319379,
+   "institution_id": null,
+   "publisher": null,
+   "homepage_url": "http://www.mycosphere.org/",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2011
+  },
+  "4210203566": {
+   "id": 4210203566,
+   "display_name": "Studies in Fungi",
+   "apc_usd": 1500,
+   "apc_prices": [
+    {
+     "price": 1500,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Mushroom Research Foundation",
+   "homepage_url": "http://www.studiesinfungi.org/",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2016
+  },
+  "4210238882": {
+   "id": 4210238882,
+   "display_name": "Forestry Research",
+   "apc_usd": 1950,
+   "apc_prices": [
+    {
+     "price": 1950,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Maximum Academic Press",
+   "homepage_url": null,
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "4210194694": {
+   "id": 4210194694,
+   "display_name": "DOCA - Database of Variables for Content Analysis",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "publisher": "Universitaet Zuerich, Institut fuer Kommunikationswissenschaft und Medienforschung",
+   "homepage_url": "https://www.hope.uzh.ch/doca",
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "4210236331": {
+   "id": 4210236331,
+   "display_name": "Annales Henri Lebesgue",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "publisher_id": null,
+   "institution_id": 4210146044,
+   "publisher": "École Normale Supérieure de Rennes",
+   "homepage_url": "https://annales.lebesgue.fr",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2020
+  }
+ },
+ "scirp_filled": [],
+ "scirp_skipped": []
+}
