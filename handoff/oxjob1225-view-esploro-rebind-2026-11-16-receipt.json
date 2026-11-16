@@ -1,0 +1,287 @@
+{
+ "run_at": "2026-11-16T19:21:06.971353+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 1225,
+ "tickets": [
+  8769
+ ],
+ "approved_by": "support factory #2254 (Jason 2026-11-15 yes; standing authority, reversible registry edit)",
+ "before": {
+  "journal": {
+   "id": 4210197018,
+   "display_name": "Open Research (University of Surrey)",
+   "type": "journal",
+   "issn_l": "2688-268X",
+   "issns": [
+    "2688-268X",
+    "2688-3988"
+   ],
+   "alternate_titles": [
+    "Open access view"
+   ],
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "Wiley",
+   "publisher_id": 4310320595,
+   "institution_id": null,
+   "homepage_url": "https://openresearch.surrey.ac.uk",
+   "country": "China",
+   "country_code": "CN",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": [],
+   "sample_pmh_record": "oai:alma.44SUR_INST:11139774370002346",
+   "apc_usd": 3000,
+   "apc_prices": [
+    {
+     "price": 3000,
+     "currency": "USD"
+    },
+    {
+     "price": 2600,
+     "currency": "EUR"
+    },
+    {
+     "price": 2200,
+     "currency": "GBP"
+    }
+   ],
+   "societies": [],
+   "is_society_journal": null,
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_in_doaj_start_year": 2020,
+   "doaj_license": "cc-by",
+   "is_in_scielo": false,
+   "is_ojs": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "is_core": true,
+   "is_preprint_repository": false,
+   "created_date": "2022-02-03 22:06:57.786323+00:00",
+   "updated_date": "2026-08-27 05:22:48.983639+00:00",
+   "apc_usd_by_year": {
+    "2020": 4000,
+    "2021": 4000,
+    "2022": 4000,
+    "2023": 4000,
+    "2024": 3000,
+    "2025": 3000
+   },
+   "apc_prices_by_year": {
+    "2020": [
+     {
+      "price": 4000,
+      "currency": "USD"
+     },
+     {
+      "price": 3470,
+      "currency": "EUR"
+     },
+     {
+      "price": 3090,
+      "currency": "GBP"
+     }
+    ],
+    "2021": [
+     {
+      "price": 4000,
+      "currency": "USD"
+     },
+     {
+      "price": 3470,
+      "currency": "EUR"
+     },
+     {
+      "price": 3090,
+      "currency": "GBP"
+     }
+    ],
+    "2022": [
+     {
+      "price": 4000,
+      "currency": "USD"
+     },
+     {
+      "price": 3450,
+      "currency": "EUR"
+     },
+     {
+      "price": 3100,
+      "currency": "GBP"
+     }
+    ],
+    "2023": [
+     {
+      "price": 4000,
+      "currency": "USD"
+     },
+     {
+      "price": 3450,
+      "currency": "EUR"
+     },
+     {
+      "price": 3100,
+      "currency": "GBP"
+     }
+    ],
+    "2024": [
+     {
+      "price": 3000,
+      "currency": "USD"
+     },
+     {
+      "price": 2600,
+      "currency": "EUR"
+     },
+     {
+      "price": 2200,
+      "currency": "GBP"
+     }
+    ],
+    "2025": [
+     {
+      "price": 3000,
+      "currency": "USD"
+     },
+     {
+      "price": 2600,
+      "currency": "EUR"
+     },
+     {
+      "price": 2200,
+      "currency": "GBP"
+     }
+    ]
+   },
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "dongbi-c",
+    "poland-20",
+    "russia-white-list-1",
+    "vabb-shw"
+   ]
+  },
+  "target_7407059866": {
+   "id": 7407059866,
+   "display_name": "University of Surrey Open Research repository",
+   "type": "repository",
+   "homepage_url": "https://openresearch.surrey.ac.uk/esploro/"
+  },
+  "target_7407050986": {
+   "id": 7407050986,
+   "display_name": "Libera Università di Bolzano",
+   "type": "repository",
+   "homepage_url": null
+  },
+  "endpoints_on_journal": [
+   {
+    "id": "27r4ivz7htjtuezwc76o",
+    "pmh_url": "https://openresearch.surrey.ac.uk/view/oai/44SUR_INST/request",
+    "last_harvest_started": "2025-03-17 05:41:08.230396",
+    "most_recent_date_harvested": "2026-11-13 00:00:00",
+    "email": "M.Rodriguez-Marquez@surrey.ac.uk",
+    "last_harvest_finished": "2024-11-06 12:17:12.646692",
+    "pmh_set": "Unpaywall",
+    "error": null,
+    "earliest_timestamp": null,
+    "ready_to_run": true,
+    "harvest_identify_response": "SUCCESS!",
+    "harvest_test_initial_dates": null,
+    "harvest_test_recent_dates": "SUCCESS!",
+    "sample_pmh_record": "{\"identifier\": [\"10.1016/j.atmosenv.2019.117100\", \"1352-2310\", \"https://doi.org/10.1016/j.atmosenv.2019.117100\", \"https://www.journals.elsevier.com/atmospheric-environment\", \"https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12139016450002346\", \"99513109002346\", \"https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Dispersion-in-an-array-of-buildings/99513109002346\", \"https://surrey-researchmanagement.esploro.exlibrisgroup.com/view/delivery/44SUR_INST/12139016450002346/13140242490002346\", \"alma:44SUR_INST/bibs/99513109002346\"], \"title\": [\"Dispersion in an array of buildings in stable and convective atmospheric conditions\"], \"publisher\": [\"Elsevier Ltd\"], \"date\": [\"2020-02-01\", \"2019-11-11\", \"2019-11-11\", \"2020-02-06\", \"embargoEnd/2020-11-13\"], \"type\": [\"text\", \"Article\"], \"subject\": [\"Stable boundary layer; Convective boundary layer; Wind tunnel; Array of cuboids; Dispersion\"], \"relation\": [\"ispartof:\\u00a0Atmospheric Environment\\u00a0vol\\u00a0222\"], \"rights\": [\"\\u00a9 2019 Elsevier Ltd. All rights reserved.\", \"Fixed Embargo Date\"], \"description\": [\"Wind tunnel experiments were conducted to study the impact of atmospheric stratification on flow and dispersion within and over a regular array of rectangular buildings. Three stable and two convective incoming boundary layers were tested with a Richardson number ranging from -1.5 to 0.29. Dispersion measurements were carried using a fast response  flame ionisation detector. The results show that the stratification effect on the plume width is significantly lower than the effect on the vertical profiles. Stable stratification did not affect the plume central axis inside the canopy, but in the unstable case the axis appeared to deviate from the neutral case direction. Above the canopy both stratification types caused an increase in the plume deflection angle compared to the neutral case. Measured mean concentrations in stable stratification were up to two times larger in the canopy compared to the neutral case, while in convective conditions they were to three times smaller. The proportionality between the vertical turbulent  fluxes and the vertical mean concentration gradient was also confirmed in the stratified cases. The high-quality experimental data produced during this work may help developing new mathematical models and parametrisation for non-neutral stratified conditions, as well as validating existing and future numerical simulations.\"], \"format\": [\", pdf\", \"32\"], \"creator\": [\"Marucci,\\u00a0Davide\", \"Carpentieri,\\u00a0Matteo\"]}",
+    "policy_promises_no_submitted": null,
+    "policy_promises_no_submitted_evidence": null,
+    "metadata_prefix": "oai_dc",
+    "green_scrape": true,
+    "retry_interval": "7 days, 2:40:00",
+    "retry_at": "2025-03-20 19:01:49.708115",
+    "rand": "0.3318631",
+    "is_core": null,
+    "in_walden": true,
+    "last_health_status": "success",
+    "last_health_check": "2026-11-16 10:31:26.717226",
+    "last_response_time": "35.14554309844971",
+    "last_error_message": null,
+    "source_id": 4210197018,
+    "last_record_count": 1712,
+    "status": "active",
+    "retirement_reason": null,
+    "retired_at": null,
+    "is_journal_host": false,
+    "fetch_via_zyte": null
+   },
+   {
+    "id": "e6f8qzbppmfyaf5ewlug",
+    "pmh_url": "https://unibz.alma.exlibrisgroup.com/view/oai/39UBZ_INST/request",
+    "last_harvest_started": "2025-03-29 04:42:10.139251",
+    "most_recent_date_harvested": "2026-04-01 00:00:00",
+    "email": "library@unibz.it",
+    "last_harvest_finished": "2025-03-29 04:42:11.897022",
+    "pmh_set": "ALL-APPROVED-RESEARCH-ASSETS",
+    "error": "Error harvesting records: RetryError[<Future at 0x7f3be15b1420 state=finished raised ConnectionError>]",
+    "earliest_timestamp": null,
+    "ready_to_run": true,
+    "harvest_identify_response": "SUCCESS!",
+    "harvest_test_initial_dates": null,
+    "harvest_test_recent_dates": "error, no pmh_input_records returned",
+    "sample_pmh_record": null,
+    "policy_promises_no_submitted": null,
+    "policy_promises_no_submitted_evidence": null,
+    "metadata_prefix": "oai_dc",
+    "green_scrape": true,
+    "retry_interval": "0:05:00",
+    "retry_at": null,
+    "rand": "0.8485573",
+    "is_core": null,
+    "in_walden": true,
+    "last_health_status": "success",
+    "last_health_check": "2026-11-16 11:53:34.454304",
+    "last_response_time": "6.8850767612457275",
+    "last_error_message": null,
+    "source_id": 4210197018,
+    "last_record_count": 473,
+    "status": "active",
+    "retirement_reason": null,
+    "retired_at": null,
+    "is_journal_host": false,
+    "fetch_via_zyte": null
+   }
+  ]
+ },
+ "actions": [
+  "endpoint 27r4ivz7htjtuezwc76o (https://openresearch.surrey.ac.uk/view/oai/44SUR_INST/request set=Unpaywall): source 4210197018 -> 7407059866 (surrey)",
+  "endpoint e6f8qzbppmfyaf5ewlug (https://unibz.alma.exlibrisgroup.com/view/oai/39UBZ_INST/request set=ALL-APPROVED-RESEARCH-ASSETS): source 4210197018 -> 7407050986 (bolzano)",
+  "S4210197018: display_name 'Open Research (University of Surrey)' -> 'View', homepage 'https://openresearch.surrey.ac.uk' -> 'https://onlinelibrary.wiley.com/journal/2688268x'",
+  "COMMITTED"
+ ],
+ "after": {
+  "journal": [
+   {
+    "id": 4210197018,
+    "display_name": "View",
+    "homepage_url": "https://onlinelibrary.wiley.com/journal/2688268x",
+    "display_name_before_override": "Open Research (University of Surrey)"
+   }
+  ],
+  "endpoints_on_journal": []
+ },
+ "revert": [
+  "UPDATE oai_pmh_endpoint SET source_id = 4210197018 WHERE id IN ('27r4ivz7htjtuezwc76o') AND source_id = 7407059866;",
+  "UPDATE oai_pmh_endpoint SET source_id = 4210197018 WHERE id IN ('e6f8qzbppmfyaf5ewlug') AND source_id = 7407050986;",
+  "UPDATE sources SET display_name = <before.journal.display_name>, homepage_url = <before.journal.homepage_url>, display_name_before_override = <before value>, override_timestamp = <before value> WHERE id = 4210197018;"
+ ],
+ "plan": {
+  "7407059866": [
+   "27r4ivz7htjtuezwc76o"
+  ],
+  "7407050986": [
+   "e6f8qzbppmfyaf5ewlug"
+  ]
+ }
+}
