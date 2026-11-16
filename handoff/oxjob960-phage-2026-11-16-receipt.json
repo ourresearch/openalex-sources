@@ -1,0 +1,100 @@
+{
+    "run_at": "2026-11-16T16:21:16.667320+00:00",
+    "execute": true,
+    "mode": "apply",
+    "manifest_sha256": "ee4d49cc9d6d742a000fbbb7caa5b0bb1601af47037520bc61ee877c9163ee03",
+    "entries": [
+        "22182-phage-not-oa"
+    ],
+    "before": {
+        "4210206945": {
+            "id": 4210206945,
+            "display_name": "PHAGE",
+            "type": "journal",
+            "issn_l": "2641-6530",
+            "issns": [
+                "2641-6530",
+                "2641-6549"
+            ],
+            "alternate_titles": [
+                "Phage (New Rochelle, N.Y.)"
+            ],
+            "display_name_before_override": null,
+            "override_timestamp": null,
+            "publisher": "Mary Ann Liebert",
+            "publisher_id": 4310320443,
+            "institution_id": null,
+            "homepage_url": null,
+            "country": "United States",
+            "country_code": "US",
+            "wikidata_id": null,
+            "fatcat_id": null,
+            "crossref_id": null,
+            "datacite_id": null,
+            "datacite_ids": [],
+            "sample_pmh_record": null,
+            "apc_usd": null,
+            "apc_prices": [],
+            "societies": [],
+            "is_society_journal": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_in_doaj_start_year": null,
+            "doaj_license": null,
+            "is_in_scielo": false,
+            "is_ojs": false,
+            "is_oa_high_oa_rate": true,
+            "high_oa_rate_start_year": 2020,
+            "is_fully_open_in_jstage": false,
+            "is_core": true,
+            "is_preprint_repository": false,
+            "created_date": "2022-02-03 22:06:57.786323+00:00",
+            "updated_date": "2024-07-22 22:42:33.683593+00:00",
+            "apc_usd_by_year": null,
+            "apc_prices_by_year": null,
+            "listed_in": [
+                "cwts-core",
+                "dongbi-c",
+                "jufo-1",
+                "norway-1",
+                "poland-20",
+                "russia-white-list-4"
+            ]
+        }
+    },
+    "overrides_before": {
+        "4210206945": null
+    },
+    "decisions": {
+        "22182-phage-not-oa": "apply"
+    },
+    "actions": [
+        "22182-phage-not-oa (oxjob #960, S4210206945): UPDATE sources {'is_oa_high_oa_rate': False, 'high_oa_rate_start_year': None}",
+        "22182-phage-not-oa (oxjob #960, S4210206945): INSERT source_oa_override (False, None)",
+        "is_oa re-derived by recompute_is_oa on 1 sources (expected 1)"
+    ],
+    "is_oa_recomputed": {
+        "before_batch": 0,
+        "after_batch": 1
+    },
+    "after": {
+        "4210206945": {
+            "display_name": "PHAGE",
+            "publisher": "Mary Ann Liebert",
+            "publisher_id": 4310320443,
+            "institution_id": null,
+            "homepage_url": null,
+            "type": "journal",
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_oa_high_oa_rate": false,
+            "high_oa_rate_start_year": null,
+            "apc_usd": null,
+            "source_oa_override": {
+                "curated_is_oa": false,
+                "curated_flip_year": null,
+                "note": "desk 2026-11-16, ZD 22182 (oxjob #960): hybrid journal, not fully OA. PMC 12-month release delay; 230/252 Crossref DOIs TDM-only, 22 CC; not in DOAJ. Only the high_oa_rate_issn listing made it OA."
+            }
+        }
+    }
+}

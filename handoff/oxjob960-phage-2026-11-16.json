@@ -1,0 +1,25 @@
+{
+ "about": "Oxjob #960 (support factory, off-desk lane #2263, 2026-11-16): one source_oa_override entry for ZD 22182, in the entry format of openalex-sources handoff/desk-sources-2026-11-13.json, for that script's guarded runner (copy the script, point MANIFEST at this file). Desk: --probe first and correct `expect` to the registry if it differs (the values here are read from the live API, not the registry).",
+ "checked": "2026-11-16 00:05-00:45 CT: api.openalex.org S4210206945; PMC journal list jlist.csv; Crossref journals/2641-6530/works (252); Europe PMC ISSN query (210). Publisher pages answer Cloudflare from the container: desk opens them before --execute.",
+ "entries": [
+  {
+   "entry": "22182-phage-not-oa",
+   "oxjob": 960,
+   "tickets": [22182],
+   "source_id": 4210206945,
+   "why": "PHAGE: Therapy, Applications, and Research (Sage / Mary Ann Liebert, 2641-6530/2641-6549) is OA only from the high-OA-rate list (since 2020); not in DOAJ. PMC journal list: deposits all articles with a 12-month release delay (the subscription model). Crossref: 230 of 252 DOIs carry only the publisher's TDM licence, 22 a CC licence (paid OA). Europe PMC: 170 of 186 PMC copies carry no open licence. The publisher's A&I team (ZD 22182) says hybrid. Lane decision under RULINGS 'Kyle decides each user OA report' as delegated by support-factory charter § 0 rule 9.",
+   "set": {"is_oa_high_oa_rate": false, "high_oa_rate_start_year": null},
+   "expect": {"is_oa_high_oa_rate": true, "high_oa_rate_start_year": 2020, "is_oa": true, "is_in_doaj": false, "is_in_scielo": false, "type": "journal"},
+   "is_oa_after": false,
+   "oa": {
+     "curated_is_oa": false,
+     "curated_flip_year": null,
+     "before": null,
+     "note": "desk 2026-11-16, ZD 22182 (oxjob #960): hybrid journal, not fully OA. PMC 12-month release delay; 230/252 Crossref DOIs TDM-only, 22 CC; not in DOAJ. Only the high_oa_rate_issn listing made it OA."
+   },
+   "works": 247,
+   "predicted": "240 diamond -> 28 hybrid (CC licence on the publisher location), 182 green (PMC / repository copy), 30 closed; 7 green stay green (work/phage_works_2026-11-16.tsv)",
+   "check": "api: S4210206945 is_oa false, is_high_oa_rate false; works?filter=primary_location.source.id:S4210206945&group_by=oa_status has no diamond"
+  }
+ ]
+}
