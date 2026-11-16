@@ -1,0 +1,221 @@
+MINTED S7407122591 journal 'SANUM: Revista Científico-Sanitaria' ['2530-5468'] (ZD 5994); OA override: ZD 5994 (#875): Diamond OA per the journal homepage ('Acceso Abierto Diamante'); 198/200 Zenodo DataCite deposits naming ISSN 2530-5468 are CC BY-NC-ND 4.0, 2 CC BY 4.0
+MINTED S7407122592 journal 'Legal Bulletin' ['2658-5448'] (ZD 24213); OA override: ZD 24213 (#875): in DOAJ (CC BY); 200/200 sampled Zenodo DataCite deposits naming ISSN 2658-5448 are CC BY 4.0
+MINTED S7407122593 journal 'Dan-ag: Journal of Educational Studies' ['2244-0518'] (ZD 23934); OA override: ZD 23934 (#875): open access per the journal; 23/23 Zenodo DataCite deposits naming ISSN 2244-0518 are CC BY 4.0
+MINTED S7407122594 journal 'Journal on Tourism & Sustainability' ['2732-7566'] (ZD 4880); OA override: ZD 4880 (#875): every article published on Zenodo; 25/25 sampled records of Zenodo community 'jots' are CC BY 4.0
+alternate_titles 7407122595 += ['ICOPEC Abstracts & Proceedings']
+MINTED S7407122595 conference 'Abstracts & Proceedings (International Conference on Political Economy)' ['3049-4834'] (ZD 26794); OA override: ZD 26794 (#875): papers deposited on Zenodo under CC BY 4.0 (2/2 DataCite records checked; requester states all 170)
+ISSNS S2737730586 'Neutrosophic sets and systems' += ['2331-608X'] (ZD 27127)
+alternate_titles 7407062341 += ['International Journal of Agriculture Innovations and Cutting-Edge Research (HEC Recognised)']
+RENAME S7407062341 'International Journal of Agriculture Innovations and Cutting-Edge Research (HEC Recognised)' -> 'International Journal of Agriculture Innovations and Cutting-Edge Research' (ZD 25908)
+alternate_titles 7407059680 += ['International Journal of Academic Research for Humanities']
+RENAME S7407059680 'International "Journal of Academic Research for Humanities"' -> 'Journal of Academic Research for Humanities' (ZD 25909)
+listed_in rows changed 2
+COMMITTED
+RECEIPT
+{
+ "run_at": "2026-11-16T04:43:51.018817+00:00",
+ "execute": true,
+ "job": 875,
+ "approved": "support factory #2254 (Jason 2026-11-15 yes); Kyle's add bar (SOP 4b, 2026-10-22)",
+ "before": {
+  "2737730586": {
+   "id": "2737730586",
+   "display_name": "Neutrosophic sets and systems",
+   "type": "journal",
+   "issn_l": "2331-6055",
+   "issns": "['2331-6055']",
+   "alternate_titles": "['NSS']",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": null,
+   "publisher_id": "4310316152",
+   "institution_id": null,
+   "homepage_url": "http://fs.unm.edu/NSS",
+   "country": "United States",
+   "country_code": "US",
+   "wikidata_id": "https://www.wikidata.org/entity/Q50811631",
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": "[]",
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": "[]",
+   "societies": "[]",
+   "is_society_journal": null,
+   "is_oa": "True",
+   "is_in_doaj": "True",
+   "is_in_doaj_start_year": "2013",
+   "doaj_license": "cc-by-nc",
+   "is_in_scielo": "False",
+   "is_ojs": "True",
+   "is_oa_high_oa_rate": "False",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": "True",
+   "is_preprint_repository": "False",
+   "created_date": "2017-07-31 00:00:00+00:00",
+   "updated_date": "2024-04-06 03:01:38.625227+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": "['cwts-core', 'doaj', 'poland-20', 'russia-white-list-1']",
+   "_issns": [
+    "2331-6055"
+   ]
+  },
+  "7407059680": {
+   "id": "7407059680",
+   "display_name": "International \"Journal of Academic Research for Humanities\"",
+   "type": "journal",
+   "issn_l": "2663-192X",
+   "issns": "['2663-192X', '2788-4139']",
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "BWO Researches (Private) Limited",
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://jar.bwo-researches.com/index.php/jarh",
+   "country": "Pakistan",
+   "country_code": "PK",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": "[]",
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": "True",
+   "is_in_doaj": "False",
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": "False",
+   "is_ojs": "True",
+   "is_oa_high_oa_rate": "True",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": null,
+   "is_preprint_repository": "False",
+   "created_date": null,
+   "updated_date": "2026-09-29 15:51:40.291126+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": null,
+   "_issns": [
+    "2663-192X",
+    "2788-4139"
+   ]
+  },
+  "7407062341": {
+   "id": "7407062341",
+   "display_name": "International Journal of Agriculture Innovations and Cutting-Edge Research (HEC Recognised)",
+   "type": "journal",
+   "issn_l": "3007-0910",
+   "issns": "['3007-0910', '3007-0929']",
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "BWO Researches (Private) Limited",
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://jai.bwo-researches.com/index.php/jwr",
+   "country": "Pakistan",
+   "country_code": "PK",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": null,
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": "True",
+   "is_in_doaj": null,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": null,
+   "is_ojs": "True",
+   "is_oa_high_oa_rate": "True",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": null,
+   "is_preprint_repository": null,
+   "created_date": "2026-07-07 06:06:45.949794+00:00",
+   "updated_date": "2026-09-29 15:54:26.934607+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": null,
+   "_issns": [
+    "3007-0910",
+    "3007-0929"
+   ]
+  }
+ },
+ "actions": [
+  "MINTED S7407122591 journal 'SANUM: Revista Científico-Sanitaria' ['2530-5468'] (ZD 5994); OA override: ZD 5994 (#875): Diamond OA per the journal homepage ('Acceso Abierto Diamante'); 198/200 Zenodo DataCite deposits naming ISSN 2530-5468 are CC BY-NC-ND 4.0, 2 CC BY 4.0",
+  "MINTED S7407122592 journal 'Legal Bulletin' ['2658-5448'] (ZD 24213); OA override: ZD 24213 (#875): in DOAJ (CC BY); 200/200 sampled Zenodo DataCite deposits naming ISSN 2658-5448 are CC BY 4.0",
+  "MINTED S7407122593 journal 'Dan-ag: Journal of Educational Studies' ['2244-0518'] (ZD 23934); OA override: ZD 23934 (#875): open access per the journal; 23/23 Zenodo DataCite deposits naming ISSN 2244-0518 are CC BY 4.0",
+  "MINTED S7407122594 journal 'Journal on Tourism & Sustainability' ['2732-7566'] (ZD 4880); OA override: ZD 4880 (#875): every article published on Zenodo; 25/25 sampled records of Zenodo community 'jots' are CC BY 4.0",
+  "alternate_titles 7407122595 += ['ICOPEC Abstracts & Proceedings']",
+  "MINTED S7407122595 conference 'Abstracts & Proceedings (International Conference on Political Economy)' ['3049-4834'] (ZD 26794); OA override: ZD 26794 (#875): papers deposited on Zenodo under CC BY 4.0 (2/2 DataCite records checked; requester states all 170)",
+  "ISSNS S2737730586 'Neutrosophic sets and systems' += ['2331-608X'] (ZD 27127)",
+  "alternate_titles 7407062341 += ['International Journal of Agriculture Innovations and Cutting-Edge Research (HEC Recognised)']",
+  "RENAME S7407062341 'International Journal of Agriculture Innovations and Cutting-Edge Research (HEC Recognised)' -> 'International Journal of Agriculture Innovations and Cutting-Edge Research' (ZD 25908)",
+  "alternate_titles 7407059680 += ['International Journal of Academic Research for Humanities']",
+  "RENAME S7407059680 'International \"Journal of Academic Research for Humanities\"' -> 'Journal of Academic Research for Humanities' (ZD 25909)",
+  "listed_in rows changed 2",
+  "COMMITTED"
+ ],
+ "minted": [
+  {
+   "source_id": 7407122591,
+   "name": "SANUM: Revista Científico-Sanitaria",
+   "issns": [
+    "2530-5468"
+   ],
+   "type": "journal",
+   "ticket": 5994
+  },
+  {
+   "source_id": 7407122592,
+   "name": "Legal Bulletin",
+   "issns": [
+    "2658-5448"
+   ],
+   "type": "journal",
+   "ticket": 24213
+  },
+  {
+   "source_id": 7407122593,
+   "name": "Dan-ag: Journal of Educational Studies",
+   "issns": [
+    "2244-0518"
+   ],
+   "type": "journal",
+   "ticket": 23934
+  },
+  {
+   "source_id": 7407122594,
+   "name": "Journal on Tourism & Sustainability",
+   "issns": [
+    "2732-7566"
+   ],
+   "type": "journal",
+   "ticket": 4880
+  },
+  {
+   "source_id": 7407122595,
+   "name": "Abstracts & Proceedings (International Conference on Political Economy)",
+   "issns": [
+    "3049-4834"
+   ],
+   "type": "conference",
+   "ticket": 26794
+  }
+ ]
+}
