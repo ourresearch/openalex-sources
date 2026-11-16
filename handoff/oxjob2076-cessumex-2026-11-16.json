@@ -1,0 +1,66 @@
+{
+ "about": "oxjob #2076 (support factory #2254), ZD 27046 + 27130: CESSUMEX. Revista de Investigación Educativa (S7407122310, eISSN 3061-7421). Same guards and runner as handoff/desk-sources-2026-11-13.py. RUN --probe FIRST: the 'expect' values below are what the API shows (registry columns the API does not serve, publisher text and country, are guesses); correct any that differ, then dry run, then --execute.",
+ "checked": "2026-11-16 00:00-00:10 CT off-desk lane: api.openalex.org + cessumex.org (receipts: oxjob 2076 work/RECEIPTS.md)",
+ "entries": [
+  {
+   "entry": "27046-cessumex-record",
+   "oxjob": 2076,
+   "tickets": [
+    27046,
+    27130
+   ],
+   "source_id": 7407122310,
+   "why": "Journal record minted 2026-11-07 with no homepage, publisher or country. Publisher Centro de Estudios Superiores del Mayo, A.C., Navojoa, Sonora, Mexico (journal site, article pages, ZD 27046). No OpenAlex publisher/institution and no ROR exists for it (searched 2026-11-16), so publisher_id / institution_id stay NULL. Probe 2026-11-16 10:10 CT: registry publisher text already 'Centro de Estudios Superiores del Mayo, A.C.', so it is a guard, not a write.",
+   "set": {
+    "homepage_url": "https://cessumex.org/",
+    "country_code": "MX",
+    "country": "Mexico"
+   },
+   "expect": {
+    "homepage_url": null,
+    "publisher": "Centro de Estudios Superiores del Mayo, A.C.",
+    "country_code": null,
+    "publisher_id": null,
+    "institution_id": null,
+    "type": "journal",
+    "issn_l": "3061-7421",
+    "country": null
+   },
+   "oa": null,
+   "works": 27,
+   "check": "api: S7407122310 homepage_url https://cessumex.org/, country_code MX (registry country 'Mexico', as sources_lib.country_iso writes it)"
+  },
+  {
+   "entry": "27130-cessumex-oa",
+   "oxjob": 2076,
+   "tickets": [
+    27046,
+    27130
+   ],
+   "source_id": 7407122310,
+   "why": "Born OA (first issue 2024): journal policy page 'acceso abierto, inmediato y gratuito ... no requieren registro, suscripción ni pago, ... sin embargo'; CC BY-NC-SA 4.0 declared in every issue and on every article page; Crossref licence cc-by-nc-sa on 26/26 articles; two PDFs fetched without login 2026-11-16. Not in DOAJ. Policy choice: follows RULINGS #1239 (editor's full-OA claim accepted after we verify) and support-factory charter § 0 rule 9 (lane checked the pages itself). APC left NULL: no fee since 2026-11-06, earlier fee amount unknown; works colour diamond under today's ZEROIFNULL rule (#188 card / #1855 per-year rule own that question).",
+   "set": {
+    "is_oa_high_oa_rate": true
+   },
+   "expect": {
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null,
+    "is_oa": false,
+    "type": "journal",
+    "is_in_doaj": null,
+    "is_in_scielo": null,
+    "is_fully_open_in_jstage": false
+   },
+   "is_oa_after": true,
+   "oa": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "before": null,
+    "note": "support factory 2026-11-16, ZD 27046/27130 (oxjob #2076): CC BY-NC-SA 4.0 on all 26 articles (Crossref + article pages), free PDFs, journal OA policy; first issue 2024, born OA. Follows #1239 + charter rule 9."
+   },
+   "works": 27,
+   "check": "api: S7407122310 is_oa true, oa_flip_year null; works?filter=primary_location.source.id:S7407122310&group_by=open_access.oa_status -> 26 diamond (were hybrid), title-DOI paratext may stay bronze/diamond"
+  }
+ ],
+ "probed": "2026-11-16 10:10 CT desk wake-up session: publisher already set (moved to expect), is_in_doaj/is_in_scielo NULL not false; everything else as guessed."
+}
