@@ -40,7 +40,7 @@ MINT = dict(ticket=26922, name="Cuadernos del MPD", issns=["2524-972X", "2524-97
                  "Cuadernos de Jurisprudencia del Ministerio Público de la Defensa"])
 receipt = {"reviewed": "desk apply lane 17 Nov 2026 (copied from off-desk run 2074-1116-1555-130f, 2 edits)",
            "run_at": datetime.now(timezone.utc).isoformat(), "execute": EXECUTE, "job": 2074,
-           "approved": "card D5 ruling (Jason, 16 Nov 2026), support factory #2254", "actions": [], "minted": []}
+           "approved": "card D5 ruling (oxjob #2254 RULINGS, 16 Nov 2026)", "actions": [], "minted": []}
 
 
 class DryRun(Exception):
