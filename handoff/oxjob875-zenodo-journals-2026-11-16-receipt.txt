@@ -1,0 +1,304 @@
+alternate_titles 7407122715 += ['முத்தரசி ஆய்விதழ்', 'MUTHTHARASI – Art Literary Culture Tamil Journal']
+MINTED S7407122715 journal 'Muththarasi Journal – Art, Literary & Culture Tamil Journal' ['2584-1238'] (ZD 24106); witness: muththarasi.org: schema.org Periodical 'முத்தரசி ஆய்விதழ்' / 'Muththarasi Journal – Art, Literary & Culture Tamil Journal', ISSN 2584-1238, Editorial Board page, OJS portal tamiljournal.muththarasi.org; OA override: ZD 24106 (#875): open access per the journal site; 340/340 Zenodo DataCite deposits naming ISSN 2584-1238 are CC BY 4.0
+alternate_titles 7407122716 += ['JSC']
+MINTED S7407122716 journal 'Journal of Smart Computing' ['2979-8752'] (ZD 26662); witness: ciotr.com/jsc: OJS journal site, ISSN 2979-8752, Editorial Team, Editor-in-Chief Prof. Gerhard-Wilhelm Weber, publisher CIOTR (United Kingdom), biannual, founded 2025; OA override: ZD 26662 (#875): 'peer-reviewed, open-access journal' per its site; 2/2 Zenodo DataCite deposits naming ISSN 2979-8752 are CC BY 4.0
+alternate_titles 7407122717 += ['مجلة آفاق بحثية متعددة التخصصات في العلوم الاجتماعية والإنسانية', 'آفاق بحثية متعددة التخصصات']
+MINTED S7407122717 journal 'Afaq Research Horizons' ['3156-9617'] (ZD 26975); witness: afaqresearch.com: OJS journal site, e-ISSN 3156-9617, editorial board and scientific committee pages, publisher جمعية النهضة لدعم التنمية المحلية (Morocco), quarterly; OA override: ZD 26975 (#875): Diamond Open Access, no APCs, per its site; 11/11 Zenodo DataCite deposits naming ISSN 3156-9617 are CC BY 4.0
+alternate_titles 7407122718 += ['MP J Med Res']
+MINTED S7407122718 journal 'MP Journal of Medical Research' ['3144-8402'] (ZD 27366); witness: journal.meetingspremium.com/a-propos: ISSN (online) 3144-8402 (U.S. ISSN Center), publisher MeetingsPremium LLC, Editor-in-Chief, Editorial Board, peer-review process; OA override: ZD 27366 (#875): open access per its site; its OAI records carry CC BY 4.0 and info:eu-repo/semantics/openAccess
+  REGISTERED endpoint zutgufj3qc43xdlatyql https://journal.meetingspremium.com/oai [-] -> S7407122718 journal_host (ZD 27366); 0 other rows on the host, none overlapping; the next daily openalex-ingest harvest picks it up
+alternate_titles 7407122719 += ['SWARNRUDRA']
+MINTED S7407122719 journal 'SWARNRUDRA: An International Multidisciplinary Journal of Academic Research' ['3140-0108'] (ZD 27614); witness: swarnrudrajournal.com: OJS journal site, e-ISSN 3140-0108, Editor Abhishek Dixit, Editorial Board and Advisory Board pages, publisher Swarnrudra Publication (Shahjahanpur, India); OA override: ZD 27614 (#875): 'Open Access, CC BY 4.0' per its site; 22/22 Zenodo DataCite deposits naming ISSN 3140-0108 are CC BY 4.0
+alternate_titles 7407122720 += ['Revista Acta & Verba']
+MINTED S7407122720 journal 'Acta & Verba' ['3087-3150'] (ZD 24283); witness: uss.cl/formacion-integral/revista-acta-verba/ ('Revista Acta&Verba', the journal of USS's Dirección de Formación Integral, issues since Jan 2025); USS researcher portal lists its articles; OA override: ZD 24283 (#875): 15/15 Zenodo DataCite deposits naming ISSN 3087-3150 are CC BY 4.0, open on Zenodo and the USS site
+ISSNS S7407122593 'Dan-ag: Journal of Educational Studies' += ['3155-6833'] (ZD 23934)
+MERGED 7407122594 -> 7407062212 (oxjob875_same_journal_two_issns): issns moved 1, endpoints 0, datacite 0, beacon 0
+HOMEPAGE S7407062212 set to https://otsjournal.org/ (ZD 4880)
+RETYPE S7407122595 'Abstracts & Proceedings (International Conference on Political Economy)' conference -> journal (ZD 26794)
+  REGISTERED endpoint yiy6yx8kwlbooywosiyf https://otsjournal.org/index.php/jots/oai [driver] -> S7407062212 journal_host (ZD 4880); 0 other rows on the host, none overlapping; the next daily openalex-ingest harvest picks it up
+listed_in rows changed 0
+COMMITTED
+RECEIPT
+{
+ "run_at": "2026-11-17T15:02:27.572080+00:00",
+ "execute": true,
+ "job": 875,
+ "approved": "support factory #2254 (Jason 2026-11-15 yes); D5 ruling 2026-11-16 (RULINGS.md § 3)",
+ "before": {
+  "7407062212": {
+   "id": "7407062212",
+   "display_name": "Journal on Tourism & Sustainability",
+   "type": "journal",
+   "issn_l": "2515-6780",
+   "issns": "['2515-6780']",
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "OTS Academy",
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": null,
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": "True",
+   "is_in_doaj": "True",
+   "is_in_doaj_start_year": "2018",
+   "doaj_license": "cc-by",
+   "is_in_scielo": null,
+   "is_ojs": "True",
+   "is_oa_high_oa_rate": "False",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": null,
+   "is_preprint_repository": null,
+   "created_date": "2026-07-05 20:15:11.457303+00:00",
+   "updated_date": "2026-09-29 16:12:26.656949+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": "['doaj']",
+   "_issns": [
+    "2515-6780"
+   ]
+  },
+  "7407122593": {
+   "id": "7407122593",
+   "display_name": "Dan-ag: Journal of Educational Studies",
+   "type": "journal",
+   "issn_l": "2244-0518",
+   "issns": "['2244-0518']",
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "Xavier University - Ateneo de Cagayan, School of Education",
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://dan-ag.xu.edu.ph",
+   "country": "Philippines",
+   "country_code": "PH",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": null,
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": "True",
+   "is_in_doaj": null,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": null,
+   "is_ojs": "False",
+   "is_oa_high_oa_rate": "True",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": null,
+   "is_preprint_repository": null,
+   "created_date": "2026-11-16 04:43:51.705018+00:00",
+   "updated_date": "2026-11-16 05:55:08.532489+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": null,
+   "_issns": [
+    "2244-0518"
+   ]
+  },
+  "7407122594": {
+   "id": "7407122594",
+   "display_name": "Journal on Tourism & Sustainability",
+   "type": "journal",
+   "issn_l": "2732-7566",
+   "issns": "['2732-7566']",
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://journal.ontourism.academy",
+   "country": null,
+   "country_code": null,
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": null,
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": "True",
+   "is_in_doaj": null,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": null,
+   "is_ojs": "False",
+   "is_oa_high_oa_rate": "True",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": null,
+   "is_preprint_repository": null,
+   "created_date": "2026-11-16 04:43:51.705018+00:00",
+   "updated_date": "2026-11-16 05:55:08.532489+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": null,
+   "_issns": [
+    "2732-7566"
+   ]
+  },
+  "7407122595": {
+   "id": "7407122595",
+   "display_name": "Abstracts & Proceedings (International Conference on Political Economy)",
+   "type": "conference",
+   "issn_l": "3049-4834",
+   "issns": "['3049-4834']",
+   "alternate_titles": "['ICOPEC Abstracts & Proceedings']",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "IJOPEC Publication",
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://icopec.org",
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": null,
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": "True",
+   "is_in_doaj": null,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": null,
+   "is_ojs": "False",
+   "is_oa_high_oa_rate": "True",
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": "False",
+   "is_core": null,
+   "is_preprint_repository": null,
+   "created_date": "2026-11-16 04:43:51.705018+00:00",
+   "updated_date": "2026-11-16 05:55:08.532489+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": null,
+   "_issns": [
+    "3049-4834"
+   ]
+  }
+ },
+ "actions": [
+  "alternate_titles 7407122715 += ['முத்தரசி ஆய்விதழ்', 'MUTHTHARASI – Art Literary Culture Tamil Journal']",
+  "MINTED S7407122715 journal 'Muththarasi Journal – Art, Literary & Culture Tamil Journal' ['2584-1238'] (ZD 24106); witness: muththarasi.org: schema.org Periodical 'முத்தரசி ஆய்விதழ்' / 'Muththarasi Journal – Art, Literary & Culture Tamil Journal', ISSN 2584-1238, Editorial Board page, OJS portal tamiljournal.muththarasi.org; OA override: ZD 24106 (#875): open access per the journal site; 340/340 Zenodo DataCite deposits naming ISSN 2584-1238 are CC BY 4.0",
+  "alternate_titles 7407122716 += ['JSC']",
+  "MINTED S7407122716 journal 'Journal of Smart Computing' ['2979-8752'] (ZD 26662); witness: ciotr.com/jsc: OJS journal site, ISSN 2979-8752, Editorial Team, Editor-in-Chief Prof. Gerhard-Wilhelm Weber, publisher CIOTR (United Kingdom), biannual, founded 2025; OA override: ZD 26662 (#875): 'peer-reviewed, open-access journal' per its site; 2/2 Zenodo DataCite deposits naming ISSN 2979-8752 are CC BY 4.0",
+  "alternate_titles 7407122717 += ['مجلة آفاق بحثية متعددة التخصصات في العلوم الاجتماعية والإنسانية', 'آفاق بحثية متعددة التخصصات']",
+  "MINTED S7407122717 journal 'Afaq Research Horizons' ['3156-9617'] (ZD 26975); witness: afaqresearch.com: OJS journal site, e-ISSN 3156-9617, editorial board and scientific committee pages, publisher جمعية النهضة لدعم التنمية المحلية (Morocco), quarterly; OA override: ZD 26975 (#875): Diamond Open Access, no APCs, per its site; 11/11 Zenodo DataCite deposits naming ISSN 3156-9617 are CC BY 4.0",
+  "alternate_titles 7407122718 += ['MP J Med Res']",
+  "MINTED S7407122718 journal 'MP Journal of Medical Research' ['3144-8402'] (ZD 27366); witness: journal.meetingspremium.com/a-propos: ISSN (online) 3144-8402 (U.S. ISSN Center), publisher MeetingsPremium LLC, Editor-in-Chief, Editorial Board, peer-review process; OA override: ZD 27366 (#875): open access per its site; its OAI records carry CC BY 4.0 and info:eu-repo/semantics/openAccess",
+  "  REGISTERED endpoint zutgufj3qc43xdlatyql https://journal.meetingspremium.com/oai [-] -> S7407122718 journal_host (ZD 27366); 0 other rows on the host, none overlapping; the next daily openalex-ingest harvest picks it up",
+  "alternate_titles 7407122719 += ['SWARNRUDRA']",
+  "MINTED S7407122719 journal 'SWARNRUDRA: An International Multidisciplinary Journal of Academic Research' ['3140-0108'] (ZD 27614); witness: swarnrudrajournal.com: OJS journal site, e-ISSN 3140-0108, Editor Abhishek Dixit, Editorial Board and Advisory Board pages, publisher Swarnrudra Publication (Shahjahanpur, India); OA override: ZD 27614 (#875): 'Open Access, CC BY 4.0' per its site; 22/22 Zenodo DataCite deposits naming ISSN 3140-0108 are CC BY 4.0",
+  "alternate_titles 7407122720 += ['Revista Acta & Verba']",
+  "MINTED S7407122720 journal 'Acta & Verba' ['3087-3150'] (ZD 24283); witness: uss.cl/formacion-integral/revista-acta-verba/ ('Revista Acta&Verba', the journal of USS's Dirección de Formación Integral, issues since Jan 2025); USS researcher portal lists its articles; OA override: ZD 24283 (#875): 15/15 Zenodo DataCite deposits naming ISSN 3087-3150 are CC BY 4.0, open on Zenodo and the USS site",
+  "ISSNS S7407122593 'Dan-ag: Journal of Educational Studies' += ['3155-6833'] (ZD 23934)",
+  "MERGED 7407122594 -> 7407062212 (oxjob875_same_journal_two_issns): issns moved 1, endpoints 0, datacite 0, beacon 0",
+  "HOMEPAGE S7407062212 set to https://otsjournal.org/ (ZD 4880)",
+  "RETYPE S7407122595 'Abstracts & Proceedings (International Conference on Political Economy)' conference -> journal (ZD 26794)",
+  "  REGISTERED endpoint yiy6yx8kwlbooywosiyf https://otsjournal.org/index.php/jots/oai [driver] -> S7407062212 journal_host (ZD 4880); 0 other rows on the host, none overlapping; the next daily openalex-ingest harvest picks it up",
+  "listed_in rows changed 0",
+  "COMMITTED"
+ ],
+ "minted": [
+  {
+   "source_id": 7407122715,
+   "name": "Muththarasi Journal – Art, Literary & Culture Tamil Journal",
+   "issns": [
+    "2584-1238"
+   ],
+   "ticket": 24106,
+   "witness": "muththarasi.org: schema.org Periodical 'முத்தரசி ஆய்விதழ்' / 'Muththarasi Journal – Art, Literary & Culture Tamil Journal', ISSN 2584-1238, Editorial Board page, OJS portal tamiljournal.muththarasi.org"
+  },
+  {
+   "source_id": 7407122716,
+   "name": "Journal of Smart Computing",
+   "issns": [
+    "2979-8752"
+   ],
+   "ticket": 26662,
+   "witness": "ciotr.com/jsc: OJS journal site, ISSN 2979-8752, Editorial Team, Editor-in-Chief Prof. Gerhard-Wilhelm Weber, publisher CIOTR (United Kingdom), biannual, founded 2025"
+  },
+  {
+   "source_id": 7407122717,
+   "name": "Afaq Research Horizons",
+   "issns": [
+    "3156-9617"
+   ],
+   "ticket": 26975,
+   "witness": "afaqresearch.com: OJS journal site, e-ISSN 3156-9617, editorial board and scientific committee pages, publisher جمعية النهضة لدعم التنمية المحلية (Morocco), quarterly"
+  },
+  {
+   "source_id": 7407122718,
+   "name": "MP Journal of Medical Research",
+   "issns": [
+    "3144-8402"
+   ],
+   "ticket": 27366,
+   "witness": "journal.meetingspremium.com/a-propos: ISSN (online) 3144-8402 (U.S. ISSN Center), publisher MeetingsPremium LLC, Editor-in-Chief, Editorial Board, peer-review process"
+  },
+  {
+   "source_id": 7407122719,
+   "name": "SWARNRUDRA: An International Multidisciplinary Journal of Academic Research",
+   "issns": [
+    "3140-0108"
+   ],
+   "ticket": 27614,
+   "witness": "swarnrudrajournal.com: OJS journal site, e-ISSN 3140-0108, Editor Abhishek Dixit, Editorial Board and Advisory Board pages, publisher Swarnrudra Publication (Shahjahanpur, India)"
+  },
+  {
+   "source_id": 7407122720,
+   "name": "Acta & Verba",
+   "issns": [
+    "3087-3150"
+   ],
+   "ticket": 24283,
+   "witness": "uss.cl/formacion-integral/revista-acta-verba/ ('Revista Acta&Verba', the journal of USS's Dirección de Formación Integral, issues since Jan 2025); USS researcher portal lists its articles"
+  }
+ ],
+ "endpoints": [
+  {
+   "endpoint_id": "zutgufj3qc43xdlatyql",
+   "source_id": 7407122718,
+   "pmh_url": "https://journal.meetingspremium.com/oai",
+   "pmh_set": null,
+   "ticket": 27366
+  },
+  {
+   "endpoint_id": "yiy6yx8kwlbooywosiyf",
+   "source_id": 7407062212,
+   "pmh_url": "https://otsjournal.org/index.php/jots/oai",
+   "pmh_set": "driver",
+   "ticket": 4880
+  }
+ ],
+ "held": []
+}
