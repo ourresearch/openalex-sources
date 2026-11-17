@@ -1,0 +1,25 @@
+{
+    "job": 1705,
+    "ticket": 25822,
+    "executed_at": "2026-11-17T18:33:36.256117+00:00",
+    "before": {
+        "id": "7407122610",
+        "display_name": "Eleusis",
+        "type": "journal",
+        "issn_l": "2953-5360",
+        "publisher_id": null,
+        "publisher": "Universidad Nacional de Quilmes",
+        "institution_id": null,
+        "homepage_url": null
+    },
+    "after": {
+        "id": "7407122610",
+        "display_name": "Eleusis",
+        "type": "journal",
+        "issn_l": "2953-5360",
+        "publisher_id": "4310318141",
+        "publisher": "Universidad Nacional de Quilmes",
+        "institution_id": null,
+        "homepage_url": "https://revistaeleusis.web.unq.edu.ar/"
+    }
+}
