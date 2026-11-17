@@ -1,0 +1,1704 @@
+{
+ "run_at": "2026-11-17T15:16:59.722861+00:00",
+ "execute": true,
+ "job": 654,
+ "ticket": 2147,
+ "approved": "support factory lane (#2254) under Jason's standing authority, 2026-11-15; reversible from the receipt",
+ "mode": "delete",
+ "before": {
+  "4306533916": {
+   "id": 4306533916,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "unknown",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533918": {
+   "id": 4306533918,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Unknown host publication",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306489518": {
+   "id": 4306489518,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "Sample Publisher",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Sample Publisher eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306463679": {
+   "id": 4306463679,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "NULL",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "NULL eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306482006": {
+   "id": 4306482006,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "Unknown",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Unknown eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306482007": {
+   "id": 4306482007,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "Unknown Penerbit",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Unknown Penerbit eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533917": {
+   "id": 4306533917,
+   "type": "conference",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Unknown conference",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2023-07-26T20:55:55.078045+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306476955": {
+   "id": 4306476955,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "Not Available",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Not Available eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306520425": {
+   "id": 4306520425,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "N/A",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306520424": {
+   "id": 4306520424,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "n/a",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306514527": {
+   "id": 4306514527,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "ISSN: N/A",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306521037": {
+   "id": 4306521037,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "(No Title)",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306520933": {
+   "id": 4306520933,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "None",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "2764385371": {
+   "id": 2764385371,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2017-10-27T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "No source information available",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-04-12T01:27:30.371556+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306482013": {
+   "id": 4306482013,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "Unspecified",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Unspecified eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533935": {
+   "id": 4306533935,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "UNSPECIFIED (2000)",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533936": {
+   "id": 4306533936,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "UNSPECIFIED (2002)",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533937": {
+   "id": 4306533937,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "UNSPECIFIED (2003)",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533938": {
+   "id": 4306533938,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "UNSPECIFIED (2004)",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533939": {
+   "id": 4306533939,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "UNSPECIFIED (2005)",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533940": {
+   "id": 4306533940,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": true,
+   "fatcat_id": null,
+   "listed_in": [
+    "cwts-core"
+   ],
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "UNSPECIFIED (2006)",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533941": {
+   "id": 4306533941,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "UNSPECIFIED (2008)",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306463818": {
+   "id": 4306463818,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "[Publisher not identified]",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "[Publisher not identified] eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306479788": {
+   "id": 4306479788,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "[S.l. : s.n.]",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "[S.l. : s.n.] eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306478438": {
+   "id": 4306478438,
+   "type": "ebook platform",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": "Publisher information missing",
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Publisher information missing eBooks",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306521746": {
+   "id": 4306521746,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": false,
+   "fatcat_id": null,
+   "listed_in": null,
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Other Information: No journal information given for this preprint",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306533943": {
+   "id": 4306533943,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": true,
+   "fatcat_id": null,
+   "listed_in": [
+    "cwts-core"
+   ],
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": "http://www.wikidata.org/entity/Q3552031",
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Untitled Event",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2024-10-07T16:16:26.618228+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  },
+  "4306507633": {
+   "id": 4306507633,
+   "type": "journal",
+   "is_oa": false,
+   "issns": null,
+   "is_ojs": false,
+   "issn_l": null,
+   "apc_usd": null,
+   "country": null,
+   "is_core": true,
+   "fatcat_id": null,
+   "listed_in": [
+    "cwts-core"
+   ],
+   "publisher": null,
+   "societies": [],
+   "apc_prices": [],
+   "is_in_doaj": false,
+   "crossref_id": null,
+   "datacite_id": null,
+   "wikidata_id": null,
+   "country_code": null,
+   "created_date": "2022-10-17T00:00:00+00:00",
+   "datacite_ids": [],
+   "display_name": "Default journal",
+   "doaj_license": null,
+   "homepage_url": null,
+   "is_in_scielo": false,
+   "publisher_id": null,
+   "updated_date": "2022-10-17T00:00:00+00:00",
+   "institution_id": null,
+   "apc_usd_by_year": null,
+   "alternate_titles": [],
+   "sample_pmh_record": null,
+   "apc_prices_by_year": null,
+   "is_oa_high_oa_rate": false,
+   "is_society_journal": null,
+   "override_timestamp": null,
+   "is_in_doaj_start_year": null,
+   "is_preprint_repository": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "display_name_before_override": null
+  }
+ },
+ "dropped_with": {
+  "4306533916": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533916,
+     "works_count": 214
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533916,
+     "last_publication_year": 2025,
+     "first_publication_year": 1859
+    }
+   ]
+  },
+  "4306533918": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533918,
+     "works_count": 224
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533918,
+     "last_publication_year": 2024,
+     "first_publication_year": 1984
+    }
+   ]
+  },
+  "4306489518": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306489518,
+     "works_count": 5
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306489518,
+     "last_publication_year": 2021,
+     "first_publication_year": 2007
+    }
+   ]
+  },
+  "4306463679": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306463679,
+     "works_count": 287
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306463679,
+     "last_publication_year": 2020,
+     "first_publication_year": 2013
+    }
+   ]
+  },
+  "4306482006": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306482006,
+     "works_count": 4111
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306482006,
+     "last_publication_year": 2026,
+     "first_publication_year": 1866
+    }
+   ]
+  },
+  "4306482007": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306482007,
+     "works_count": 22
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306482007,
+     "last_publication_year": 2006,
+     "first_publication_year": 1961
+    }
+   ]
+  },
+  "4306533917": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533917,
+     "works_count": 108
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533917,
+     "last_publication_year": 2017,
+     "first_publication_year": 1800
+    }
+   ]
+  },
+  "4306476955": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306476955,
+     "works_count": 150
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306476955,
+     "last_publication_year": 2021,
+     "first_publication_year": 1962
+    }
+   ]
+  },
+  "4306520425": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306520425,
+     "works_count": 113
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306520425,
+     "last_publication_year": 2025,
+     "first_publication_year": 1888
+    }
+   ]
+  },
+  "4306520424": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306520424,
+     "works_count": 67
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306520424,
+     "last_publication_year": 2022,
+     "first_publication_year": 1980
+    }
+   ]
+  },
+  "4306514527": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306514527,
+     "works_count": 119
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306514527,
+     "last_publication_year": 2010,
+     "first_publication_year": 1991
+    }
+   ]
+  },
+  "4306521037": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306521037,
+     "works_count": 50
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306521037,
+     "last_publication_year": 2021,
+     "first_publication_year": 1933
+    }
+   ]
+  },
+  "4306520933": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306520933,
+     "works_count": 122
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306520933,
+     "last_publication_year": 2022,
+     "first_publication_year": 1923
+    }
+   ]
+  },
+  "2764385371": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 2764385371,
+     "works_count": 296
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 2764385371,
+     "last_publication_year": 2021,
+     "first_publication_year": 1800
+    }
+   ]
+  },
+  "4306482013": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306482013,
+     "works_count": 2
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306482013,
+     "last_publication_year": 2015,
+     "first_publication_year": 2000
+    }
+   ]
+  },
+  "4306533935": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533935,
+     "works_count": 30
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533935,
+     "last_publication_year": 2000,
+     "first_publication_year": 1999
+    }
+   ]
+  },
+  "4306533936": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533936,
+     "works_count": 45
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533936,
+     "last_publication_year": 2011,
+     "first_publication_year": 2002
+    }
+   ]
+  },
+  "4306533937": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533937,
+     "works_count": 41
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533937,
+     "last_publication_year": 2011,
+     "first_publication_year": 2003
+    }
+   ]
+  },
+  "4306533938": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533938,
+     "works_count": 52
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533938,
+     "last_publication_year": 2004,
+     "first_publication_year": 2004
+    }
+   ]
+  },
+  "4306533939": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533939,
+     "works_count": 44
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533939,
+     "last_publication_year": 2005,
+     "first_publication_year": 2005
+    }
+   ]
+  },
+  "4306533940": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533940,
+     "works_count": 42
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533940,
+     "last_publication_year": 2007,
+     "first_publication_year": 1996
+    }
+   ]
+  },
+  "4306533941": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533941,
+     "works_count": 31
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533941,
+     "last_publication_year": 2011,
+     "first_publication_year": 2005
+    }
+   ]
+  },
+  "4306463818": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306463818,
+     "works_count": 301
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306463818,
+     "last_publication_year": 2024,
+     "first_publication_year": 1535
+    }
+   ]
+  },
+  "4306479788": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306479788,
+     "works_count": 125
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306479788,
+     "last_publication_year": 2025,
+     "first_publication_year": 1800
+    }
+   ]
+  },
+  "4306478438": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306478438,
+     "works_count": 0
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306478438,
+     "last_publication_year": 2013,
+     "first_publication_year": 1921
+    }
+   ]
+  },
+  "4306521746": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306521746,
+     "works_count": 2
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306521746,
+     "last_publication_year": 2004,
+     "first_publication_year": 1993
+    }
+   ]
+  },
+  "4306533943": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533943,
+     "works_count": 10
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306533943,
+     "last_publication_year": 2013,
+     "first_publication_year": 1973
+    }
+   ]
+  },
+  "4306507633": {
+   "source_works_count": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306507633,
+     "works_count": 1293
+    }
+   ],
+   "source_publication_years": [
+    {
+     "as_of": "2026-11-16",
+     "source_id": 4306507633,
+     "last_publication_year": 2025,
+     "first_publication_year": 1800
+    }
+   ]
+  }
+ },
+ "skipped": {},
+ "actions": [
+  "tables that can point at a source: [('oai_pmh_endpoint', 'source_id'), ('ojs_beacon_mint', 'source_id'), ('source_datacite_id', 'source_id'), ('source_issn', 'source_id'), ('source_merge', 'loser_id'), ('source_merge', 'winner_id'), ('source_oa_override', 'source_id'), ('source_publication_years', 'source_id'), ('source_works_count', 'source_id')]",
+  "DELETED 4306533916 'unknown' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533918 'Unknown host publication' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306489518 'Sample Publisher eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306463679 'NULL eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306482006 'Unknown eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306482007 'Unknown Penerbit eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533917 'Unknown conference' (type conference; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306476955 'Not Available eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306520425 'N/A' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306520424 'n/a' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306514527 'ISSN: N/A' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306521037 '(No Title)' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306520933 'None' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 2764385371 'No source information available' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306482013 'Unspecified eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533935 'UNSPECIFIED (2000)' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533936 'UNSPECIFIED (2002)' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533937 'UNSPECIFIED (2003)' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533938 'UNSPECIFIED (2004)' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533939 'UNSPECIFIED (2005)' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533940 'UNSPECIFIED (2006)' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533941 'UNSPECIFIED (2008)' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306463818 '[Publisher not identified] eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306479788 '[S.l. : s.n.] eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306478438 'Publisher information missing eBooks' (type ebook platform; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306521746 'Other Information: No journal information given for this preprint' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306533943 'Untitled Event' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "DELETED 4306507633 'Default journal' (type journal; stats rows {'source_works_count': 1, 'source_publication_years': 1})",
+  "deleted 28 of 28; skipped 0; still in the registry: []",
+  "COMMITTED"
+ ]
+}
