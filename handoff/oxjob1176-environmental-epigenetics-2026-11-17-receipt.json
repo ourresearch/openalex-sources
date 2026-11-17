@@ -1,0 +1,110 @@
+{
+ "job": 1176,
+ "ticket": 5993,
+ "run_at": "2026-11-17T20:27:38.117354+00:00",
+ "execute": true,
+ "revert_of": null,
+ "reviewed": "off-desk support-factory lane 1176 (17 Nov 2026), tested on a throwaway Postgres built from migrations/",
+ "before": {
+  "S58136343": {
+   "id": 58136343,
+   "display_name": "Current Zoology",
+   "type": "journal",
+   "issn_l": "1674-5507",
+   "issns": [
+    "1674-5507",
+    "2058-5888",
+    "2396-9814"
+   ],
+   "publisher": "Oxford University Press",
+   "publisher_id": 4310311647,
+   "homepage_url": "https://academic.oup.com/cz",
+   "country_code": "GB",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_in_doaj_start_year": 2009,
+   "doaj_license": null,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "dongbi-c",
+    "dongbi-d",
+    "jufo-1",
+    "norway-1",
+    "oarl",
+    "poland-100",
+    "poland-20",
+    "russia-white-list-1",
+    "russia-white-list-2",
+    "vabb-shw"
+   ]
+  }
+ },
+ "after": {
+  "S58136343": {
+   "id": 58136343,
+   "display_name": "Current Zoology",
+   "type": "journal",
+   "issn_l": "1674-5507",
+   "issns": [
+    "1674-5507",
+    "2396-9814"
+   ],
+   "publisher": "Oxford University Press",
+   "publisher_id": 4310311647,
+   "homepage_url": "https://academic.oup.com/cz",
+   "country_code": "GB",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_in_doaj_start_year": 2009,
+   "doaj_license": null,
+   "listed_in": [
+    "cwts-core",
+    "doaj",
+    "dongbi-d",
+    "jufo-1",
+    "norway-1",
+    "oarl",
+    "poland-100",
+    "russia-white-list-1",
+    "vabb-shw"
+   ]
+  },
+  "S7407122759": {
+   "id": 7407122759,
+   "display_name": "Environmental Epigenetics",
+   "type": "journal",
+   "issn_l": "2058-5888",
+   "issns": [
+    "2058-5888"
+   ],
+   "publisher": "Oxford University Press",
+   "publisher_id": 4310311648,
+   "homepage_url": "https://academic.oup.com/eep",
+   "country_code": "GB",
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_in_doaj_start_year": 2015,
+   "doaj_license": null,
+   "listed_in": [
+    "doaj",
+    "dongbi-c",
+    "jufo-1",
+    "norway-1",
+    "oarl",
+    "poland-20",
+    "russia-white-list-2"
+   ]
+  }
+ },
+ "minted": 7407122759,
+ "actions": [
+  "S58136343: removed 2058-5888",
+  "MINTED S7407122759 journal 'Environmental Epigenetics' ['2058-5888'] host P4310311648 homepage https://academic.oup.com/eep (ZD 5993)",
+  "DOAJ S7407122759: listed (start 2015), rows changed 1",
+  "DOAJ S58136343: listed (start 2009), rows changed 0",
+  "recompute_is_oa changed 1; listed_in rows changed 2",
+  "after: S7407122759 {'id': 7407122759, 'display_name': 'Environmental Epigenetics', 'type': 'journal', 'issn_l': '2058-5888', 'issns': ['2058-5888'], 'publisher': 'Oxford University Press', 'publisher_id': 4310311648, 'homepage_url': 'https://academic.oup.com/eep', 'country_code': 'GB', 'is_oa': True, 'is_in_doaj': True, 'is_in_doaj_start_year': 2015, 'doaj_license': None, 'listed_in': ['doaj', 'dongbi-c', 'jufo-1', 'norway-1', 'oarl', 'poland-20', 'russia-white-list-2']}; S58136343 issns ['1674-5507', '2396-9814']",
+  "COMMITTED"
+ ]
+}
