@@ -1,4 +1,4 @@
-"""Delete 28 placeholder "sources" from the registry: oxjob #654, Zendesk ticket 2147 (premium).
+"""Delete 28 placeholder "sources" from the registry: oxjob #654, Zendesk ticket 2147.
 
 A placeholder source is a registry record whose whole name is a missing-value marker that some upstream record printed
 where a venue name should be: 'unknown', 'N/A', 'None', 'NULL eBooks', 'Unknown host publication' (Pure's default),

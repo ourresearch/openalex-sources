@@ -8,7 +8,7 @@ when they share an old "history" family (ISSN-H), and the registry treats one IS
          ISSNs 0263-8762 / 1744-3563 next to PSEP's 0957-5820 / 1744-3598 / 1876-4800 (the IC's ISSN-L for all five:
          0957-5820; ISSN-H 9028-4658, the old Trans IChemE Parts A and B). Crossref: two journals, CHERD 9,335 DOIs on
          0263-8762, PSEP 9,045 DOIs on 0957-5820; both publish ~500-1,500 papers a year, every year since 2019.
-         ZD 26196, 26978 (premium), 6388; INRAE email; ZD 5645 on another job.
+         ZD 26196, 26978, 6388; ZD 5645 on another job.
   iic    S1002663397 'GRURRR. Gewerblicher Rechtsschutz ... /IIC/ ...' holds IIC (Springer, 0018-9855 / 2195-0237,
          Crossref 1,722 DOIs) with GRUR (C.H. Beck, 0016-9420) and GRUR Int. (0435-8600); the IC's ISSN-L for all four:
          0016-9420 (ISSN-H 9115-2933). 1,846 of its 1,851 primary works are IIC's. ZD 26811.

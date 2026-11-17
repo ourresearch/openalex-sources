@@ -4,7 +4,7 @@ Support factory #2254, desk apply lane, 2026-11-16. Run on desk from the openale
 Why: endpoint 5f258b6453bc4859c54 (http://anet.be/oai/abua/server.phtml, source S4377196495 "Anet (University of
 Antwerp)") harvests the same c:irua:N records as IRUA's own endpoint mmv3envg3kaaztya9tmo
 (https://repository.uantwerpen.be/oai/abua/, S4306401849). anet.be is being retired, and the IRUA repository manager
-(Rudi Baccarne, ZD 27248, 2026-11-09) asked us to drop the duplicate source. It must happen before #227's parser fix
+(ZD 27248, 2026-11-09) asked us to drop the duplicate source. It must happen before #227's parser fix
 ships: once the parser reads IRUA's bare <dc> wrapper, both endpoints deliver the same native_ids and repo_parsed keeps
 whichever copy it reads first. S4377196495 holds 0 works (live API 2026-11-16: works?filter=locations.source.id ->
 0); S4306401849 holds 5.

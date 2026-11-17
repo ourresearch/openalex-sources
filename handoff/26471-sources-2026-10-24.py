@@ -1,4 +1,4 @@
-"""Registry edits for Zendesk ticket 26471 (Eric Jeangirard, MESR / scanR, 2026-10-23):
+"""Registry edits for Zendesk ticket 26471 (MESR / scanR, 2026-10-23):
 French platform sources plus country codes on "<Publisher> eBooks" sources (Kyle: "yes", 2026-10-24).
 Every value was checked against the live API and ROR on 2026-10-23.
 
@@ -196,7 +196,7 @@ def main():
             # 4 OpenEdition eBooks folded into OpenEdition
             merge(conn, OE_EBOOKS, OPENEDITION, "zendesk_26471_openedition_ebooks",
                   {"ticket": TICKET, "approved_by": APPROVED,
-                   "note": "3-work ebook-platform stub; Eric Jeangirard asked to merge it into OpenEdition"})
+                   "note": "3-work ebook-platform stub; the requester asked to merge it into OpenEdition"})
             # 6 Persee
             rename(conn, PERSEE, "Persée")
             set_host_institution(conn, PERSEE, I_PERSEE)
@@ -206,7 +206,7 @@ def main():
             for loser in HAL_LOSERS:
                 merge(conn, loser, HAL, "zendesk_26471_hal_portal",
                       {"ticket": TICKET, "approved_by": APPROVED,
-                       "note": "HAL portal / harvest of hal.science under its own source; Eric Jeangirard asked to fold it into HAL"})
+                       "note": "HAL portal / harvest of hal.science under its own source; the requester asked to fold it into HAL"})
             # 9 Numdam
             set_host_institution(conn, NUMDAM, I_MATHDOC)
             upd(conn, NUMDAM, country_code="FR", country=france)

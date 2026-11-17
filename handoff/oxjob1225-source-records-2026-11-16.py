@@ -28,14 +28,14 @@ EDITS
             'Drassana: revista del Museu Marítim' into it.
   ZD 6596   S2764580224 Chinese Journal of Ship Research: homepage english.ship-research.com; MERGE S4306542228
             '中国舰船研究' (its locations are www.ship-research.com/cn/article/doi/10.19693/j.issn.1673-3185.*) into it.
-  ZD 2243   University of Minnesota publisher fixes (Kate Sheridan, UMN Libraries): Constitutional Commentary
+  ZD 2243   University of Minnesota publisher fixes (UMN Libraries): Constitutional Commentary
             S2764695005 publisher_id 4310316492 (Princeton University Press) -> 4310315924 (University of Minnesota Law
             School); Minnesota Journal of Law, Science & Technology S4393917561 NULL -> 4310315924; four UMN Libraries
             titles (S4210169552 J. College Orientation, S4210198397 Panorama, S4210206938 J. Regional Medical Campuses,
             S4210209514 Minnesota J. Law & Inequality) 4310316571 (University of Minnesota) -> 4310316065 (University
             of Minnesota Libraries Publishing), as their sibling titles already read. Each only if the current value
             is the expected one.
-  ZD 289    (premium) four arXiv-named venue ids retired in the 2023-03-28 consolidation (S2596994788, S2594936402,
+  ZD 289    four arXiv-named venue ids retired in the 2023-03-28 consolidation (S2596994788, S2594936402,
             S2595115542, S4306503241) 404 today. They have no sources row (post-D1 a merge deletes the loser), so the
             fix is the ledger alone: one source_merge row each -> 4306400194 arXiv (Cornell University), rule
             zendesk_289_retired_arxiv_2023. notebooks/elastic/sync_merged_ids reads source_merge daily and the API

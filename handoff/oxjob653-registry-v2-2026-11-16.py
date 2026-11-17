@@ -12,7 +12,7 @@ by the off-desk lane; SUPERSEDES oxjob653-latarxiv-2026-11-16.py (same steps 1 a
    API: sources/issn:2764-9822 404, source search 0 hits; 41 works on 10.37497/opsbrazil.N, all with no source.
    repository, publisher Editora ALUMNI IN, homepage https://cienciaabertabrasil.org/revista, ISSN 2764-9822, BR.
    (#1225's lane found the same on 16 Nov: "Not a journal: OPS preprint server; mint as repository", mints/summary.json.)
-3. HOST of EcoEvoRxiv S4306402488 (ZD 1335, premium): Center for Open Science I2799848540 -> California Digital Library
+3. HOST of EcoEvoRxiv S4306402488 (ZD 1335): Center for Open Science I2799848540 -> California Digital Library
    I2801248553. CDL has hosted it since Oct 2022 (requester is CDL's publishing programme; its own sibling EarthArXiv
    S4306402614 already has host I2801248553; 988 of 1,000 sampled Crossref deposits on 10.32942 are registered on
    ecoevorxiv.org). Guarded: only if institution_id is still 2799848540. Re-stamps the ~4K works with an EcoEvoRxiv

@@ -1,4 +1,4 @@
-"""Registry edit for Zendesk ticket 26668 (Rolf Kwakkelaar, Elsevier, 2026-10-28):
+"""Registry edit for Zendesk ticket 26668 (Elsevier, 2026-10-28):
 American Journal of Pharmaceutical Education is a hybrid journal, but every work since 2017 reads gold.
 
   AJPE  S32993367  source_oa_override curated_is_oa = FALSE (no flip year).

@@ -1,4 +1,4 @@
-"""Registry edit for Zendesk ticket 26668 (Rolf Kwakkelaar, Elsevier, Partner), desk 2026-11-04, Kyle's yes in the desk session:
+"""Registry edit for Zendesk ticket 26668 (Elsevier), desk 2026-11-04, Kyle's yes in the desk session:
 six journals Rolf confirmed 30 Oct are NOT fully OA (IJMM, Revista de Psicodidactica, F&S Science, Energy and Climate Change = regular
 hybrid; Allergologia et Immunopathologia = transferred; Heterocycles = not an Elsevier title, not fully OA). All six read is_oa=true at
 source level (not in DOAJ), so every work since the flip year reads gold/diamond from the source flag alone.
@@ -27,7 +27,7 @@ APPROVED = "kyle 2026-11-04 desk"
 SOURCES = {131141226: "Indian Journal of Medical Microbiology", 4210205432: "Allergologia et Immunopathologia",
            965846755: "Revista de Psicodidáctica", 4210200594: "F&S Science", 4210178894: "Energy and Climate Change",
            27298842: "Heterocycles"}
-OA_NOTE = (f"ZD {TICKET}: publisher (Elsevier, Rolf Kwakkelaar 2026-10-30) confirms not fully OA (hybrid/transferred; Heterocycles "
+OA_NOTE = (f"ZD {TICKET}: publisher (Elsevier, 2026-10-30) confirms not fully OA (hybrid/transferred; Heterocycles "
            f"not Elsevier, not fully OA). Not in DOAJ. ({APPROVED})")
 
 receipt = {"run_at": datetime.now(timezone.utc).isoformat(), "execute": EXECUTE, "ticket": TICKET,

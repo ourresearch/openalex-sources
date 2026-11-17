@@ -1,4 +1,4 @@
-"""Split Karger's 'Pulse' off the BanglaJOL 'Pulse' source (oxjob #1225, ZD 24762, premium).
+"""Split Karger's 'Pulse' off the BanglaJOL 'Pulse' source (oxjob #1225, ZD 24762).
 Support factory #2254, written off desk 2026-11-16 (lane #2263); run on desk from the openalex-sources checkout.
 
 Why: S4210174413 'Pulse' (BanglaJOL, ISSN-L 2074-1855, homepage banglajol.info, in DOAJ) also owns the two ISSNs of

@@ -1,4 +1,4 @@
-"""Registry edit for Zendesk ticket 9061 (Inba Kehoe, UVic Libraries ePublishing, 2026-06-10):
+"""Registry edit for Zendesk ticket 9061 (UVic Libraries ePublishing, 2026-06-10):
 Canadian Journal of Program Evaluation moved from University of Toronto Press to UVic's OJS (Kyle: "approve", 2026-10-28).
 
   CJPE  S2764689634  host P4310320517 University of Toronto Press -> P4310313033 University of Victoria

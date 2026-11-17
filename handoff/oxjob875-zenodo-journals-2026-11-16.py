@@ -21,8 +21,8 @@ exists; name and details from that site; ISSN optional). Witness = the journal's
   ZD 24283  Acta & Verba  3087-3150  Universidad San Sebastian's page uss.cl/formacion-integral/revista-acta-verba/
             ('Revista Acta&Verba', issues since Jan 2025); the page answered 403 to the cloud lane, so DESK: open it
             first; if it doesn't show the journal, set SKIP_ACTA = True. 15 deposits
-Not minted: ZD 6389 The Epochal Transition (its four Zenodo records were deleted by Zenodo on 10 Aug 2026, 'User was
-blocked'; one author is also editor and publisher, no editorial board: fails D5's 'signs of a real venue').
+Not minted: ZD 6389 The Epochal Transition (its four Zenodo records were removed by Zenodo on 10 Aug 2026;
+one author is also editor and publisher, no editorial board: fails D5's 'signs of a real venue').
 Other edits:
   ZD 23934  S7407122593 Dan-ag + e-ISSN 3155-6833: the 8 deposits of 2026 name only it (the editor's e-ISSN,
             provisionally assigned by the National Library of the Philippines; valid check digit; no source owns it)
