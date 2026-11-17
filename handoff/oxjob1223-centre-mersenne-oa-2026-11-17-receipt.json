@@ -1,0 +1,88 @@
+{
+ "run_at": "2026-11-17T19:19:11.937073+00:00",
+ "dry_run": false,
+ "curations": 940,
+ "sources": 4,
+ "changes": [
+  {
+   "source_id": 140186129,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2007,
+    "note": "users-api curations: cur-hB5QVXRzWgAD, cur-7jaBEdRcYXud"
+   },
+   "flags_before": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2018
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2008
+   }
+  },
+  {
+   "source_id": 4210171431,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2012,
+    "note": "users-api curations: cur-bTiJfzsRRNV3, cur-bbGi5TBL6XbY"
+   },
+   "flags_before": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2016
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2013
+   }
+  },
+  {
+   "source_id": 4210194595,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2016,
+    "note": "users-api curations: cur-TrEF6v6eu4oz, cur-7heVfw6CXUjB"
+   },
+   "flags_before": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2017
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2017
+   }
+  },
+  {
+   "source_id": 4210224905,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": 2014,
+    "note": "users-api curations: cur-HfyTugwCNUGq, cur-Ao8jZHg5qRDV"
+   },
+   "flags_before": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2019
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": 2015
+   }
+  }
+ ],
+ "skipped": [],
+ "flag_rows": 3,
+ "is_oa_recomputed": 0,
+ "rebuilt": "executed receipt rebuilt 2026-11-17 13:21 CT from the live rows: a confirming rehearsal re-run overwrote the file; flags_before from the executed run's printout (identical to the rehearsal)"
+}
