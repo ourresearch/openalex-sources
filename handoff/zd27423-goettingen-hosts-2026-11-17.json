@@ -1,0 +1,62 @@
+{
+ "about": "ZD 27423 (Göttingen, 17 Nov 2026): re-host two Göttingen repositories from Asklepios Klinik St. Georg to SUB Göttingen. Same rules as handoff/source-record-fixes-2026-11-03.py (expect = live values; drift stops the whole run; dry run by default; undo with --undo). `expect.publisher` text is a best reading of the live API's host_organization_name: the dry run confirms it or stops.",
+ "checked": "2026-11-17: live API (both sources host_organization = I4210122495 Asklepios Klinik St. Georg; I4387154063 exists). Dry run 1 read the registry: publisher text is 'Georg' (the likely source of the Asklepios 'St. Georg' match).",
+ "entries": [
+  {
+   "entry": "27423-host-goescholar",
+   "oxjob": 1899,
+   "tickets": [
+    27423
+   ],
+   "source_id": 4306401634,
+   "why": "GoeScholar is a Göttingen repository run by SUB Göttingen, wrongly hosted by Asklepios Klinik St. Georg (I4210122495). Najko Jahn (SUB Göttingen, ZD 27423, 12 Nov 2026) asks for SUB Göttingen: Niedersächsische Staats- und Universitätsbibliothek Göttingen, ROR 05745n787 = I4387154063 (lineage under Georg-August-Universität Göttingen I74656192).",
+   "set": {
+    "institution_id": 4387154063,
+    "publisher": "Niedersächsische Staats- und Universitätsbibliothek Göttingen"
+   },
+   "expect": {
+    "institution_id": 4210122495,
+    "publisher": "Georg",
+    "publisher_id": null,
+    "type": "repository"
+   },
+   "oa": null,
+   "works": 73779,
+   "check": [
+    {
+     "get": "sources/S4306401634",
+     "path": "host_organization",
+     "equals": "https://openalex.org/I4387154063"
+    }
+   ]
+  },
+  {
+   "entry": "27423-host-ediss",
+   "oxjob": 1899,
+   "tickets": [
+    27423
+   ],
+   "source_id": 4306400625,
+   "why": "eDiss is a Göttingen repository run by SUB Göttingen, wrongly hosted by Asklepios Klinik St. Georg (I4210122495). Najko Jahn (SUB Göttingen, ZD 27423, 12 Nov 2026) asks for SUB Göttingen: Niedersächsische Staats- und Universitätsbibliothek Göttingen, ROR 05745n787 = I4387154063 (lineage under Georg-August-Universität Göttingen I74656192).",
+   "set": {
+    "institution_id": 4387154063,
+    "publisher": "Niedersächsische Staats- und Universitätsbibliothek Göttingen"
+   },
+   "expect": {
+    "institution_id": 4210122495,
+    "publisher": "Georg",
+    "publisher_id": null,
+    "type": "repository"
+   },
+   "oa": null,
+   "works": 12359,
+   "check": [
+    {
+     "get": "sources/S4306400625",
+     "path": "host_organization",
+     "equals": "https://openalex.org/I4387154063"
+    }
+   ]
+  }
+ ]
+}
