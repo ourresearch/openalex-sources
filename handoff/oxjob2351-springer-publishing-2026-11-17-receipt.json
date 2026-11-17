@@ -1,0 +1,1488 @@
+{
+ "run_at": "2026-11-17T18:13:29.892937+00:00",
+ "execute": true,
+ "revert_of": null,
+ "manifest": "handoff/registry_manifest_2351_2026-11-17.json",
+ "before": {
+  "S2764567196": {
+   "display_name": "Journal of Applied Rehabilitation Counseling",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "J.A.R.C.",
+    "JARC"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "https://connect.springerpub.com/content/sgrjarc",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0047-2220",
+   "issns": [
+    "0047-2220",
+    "2639-7641"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S91771295": {
+   "display_name": "Violence and Victims",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/product/08866708",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0886-6708",
+   "issns": [
+    "0886-6708",
+    "1945-7073"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S61648352": {
+   "display_name": "Neonatal Network The Journal of Neonatal Nursing",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Journal of neonatal nursing",
+    "NN",
+    "Neonatal Netw",
+    "Neonatalnetwork.com",
+    "Neonatal network : NN"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/product/07300832",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0730-0832",
+   "issns": [
+    "0730-0832",
+    "1539-2880"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S18971317": {
+   "display_name": "Journal of Cognitive Psychotherapy",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/jcp",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0889-8391",
+   "issns": [
+    "0889-8391",
+    "1938-887X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S9164496": {
+   "display_name": "The Journal of Perinatal Education",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.lamaze.org",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "1058-1243",
+   "issns": [
+    "1058-1243",
+    "1548-8519"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210219983": {
+   "display_name": "Journal of Doctoral Nursing Practice",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JDNP",
+    "J Dr Nurs Pract",
+    "Clinical Scholars Review",
+    "CSR"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "https://www.springerpub.com/journal-of-doctoral-nursing-practice.html",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1939-2095",
+   "issns": [
+    "1939-2095",
+    "1939-2109",
+    "2380-9418",
+    "2380-9426"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764976401": {
+   "display_name": "Clinical Lactation",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2158-0537",
+   "issns": [
+    "2158-0537",
+    "2158-0782"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764801409": {
+   "display_name": "Journal of Cognitive Education and Psychology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JCEP"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.iace.coged.org/journal",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "1810-7621",
+   "issns": [
+    "1810-7621",
+    "1945-8959"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2765058439": {
+   "display_name": "Annual Review of Nursing Research",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Annu Rev Nurs Res",
+    "Review of nursing research"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0739-6686",
+   "issns": [
+    "0739-6686",
+    "1944-4028"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764787325": {
+   "display_name": "Partner Abuse",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1946-6560",
+   "issns": [
+    "1946-6560",
+    "1946-6579"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764573049": {
+   "display_name": "Rehabilitation Research Policy and Education",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2168-6661",
+   "issns": [
+    "2168-6661",
+    "2168-6653"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4580776": {
+   "display_name": "Ethical Human Psychology and Psychiatry",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "EHPP",
+    "EHSS"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/journal.aspx?jid=1523-150X",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1523-150X",
+   "issns": [
+    "1523-150X",
+    "1559-4343",
+    "1938-9000",
+    "2376-9475"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2912066455": {
+   "display_name": "Journal of Financial Counseling and Planning",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Journal of financial counseling and planning",
+    "Journal of the Association for Financial Counseling and Planning Education"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "https://afcpe.org/news-and-publications/journal-of-financial-counseling-and-planning",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1052-3073",
+   "issns": [
+    "1052-3073",
+    "1947-7910"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210231540": {
+   "display_name": "Annals of LGBTQ Public and Population Health",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Annals of LGBTQ public & population health",
+    "Annals of lesbian, gay, bisexual, transgender, queer or questioning public and population health"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2688-4518",
+   "issns": [
+    "2688-4518"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764798477": {
+   "display_name": "Annual Review of Gerontology and Geriatrics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Annual review of gerontology and geriatrics"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/prod.aspx?prod_id=17368",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0198-8794",
+   "issns": [
+    "0198-8794",
+    "1944-4036"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764706181": {
+   "display_name": "Rehabilitation Education",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0889-7018",
+   "issns": [
+    "0889-7018"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210227437": {
+   "display_name": "Urban Social Work",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "USW"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/urban-social-work-journal.html",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2474-8684",
+   "issns": [
+    "2474-8684",
+    "2474-8692"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S73276529": {
+   "display_name": "Journal of Nursing Law",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "American journal of nursing law"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.pesihealthcare.com/JNL.HTM",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1073-7472",
+   "issns": [
+    "1073-7472",
+    "1938-2995"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210210852": {
+   "display_name": "Journal of Psychology of Science and Technology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://libcongressdc.library.ingentaconnect.com/content/springer/jpst",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1939-7054",
+   "issns": [
+    "1939-7054",
+    "1939-7062"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S45955858": {
+   "display_name": "Journal of Nursing Measurement",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319900,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/journal.aspx?jid=1061-3749",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1061-3749",
+   "issns": [
+    "1061-3749",
+    "1945-7049"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S56373572": {
+   "display_name": "Research and theory for nursing practice",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Sch Ing Nurs Pract"
+   ],
+   "publisher_id": 4310319900,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0889-7182",
+   "issns": [
+    "0889-7182",
+    "1541-6577",
+    "1945-7286",
+    "2377-6501"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S171171166": {
+   "display_name": "Care management journals",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Care Manage J",
+    "Journal of long term home health care",
+    "Journal of case management"
+   ],
+   "publisher_id": 4310319900,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1938-9019",
+   "issns": [
+    "1938-9019",
+    "1521-0987"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407089363": {
+   "display_name": "Springer Publishing Company eBooks",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "ebook platform",
+   "issn_l": null,
+   "issns": null,
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210202617": {
+   "display_name": "International Journal for Human Caring",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "IJHC"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "http://internationaljournalforhumancaring.org/loi/ijhc",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1091-5710",
+   "issns": [
+    "1091-5710",
+    "2578-2304"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210217034": {
+   "display_name": "Journal of Baccalaureate Social Work",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JBSW"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1084-7219",
+   "issns": [
+    "1084-7219"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764465820": {
+   "display_name": "International Journal of Childbirth",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "IJCB",
+    "Int J Childbirth"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/ijc",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2156-5287",
+   "issns": [
+    "2156-5287",
+    "2156-5295"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S5407042656": {
+   "display_name": "Clinical Journal for Nurse Practitioners in Women s Health",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "2997-3058",
+   "issns": [
+    "2997-3058",
+    "2997-3066"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210229577": {
+   "display_name": "Beliefs and values",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "http://www.ingentaconnect.com/content/springer/bav",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1942-0625",
+   "issns": [
+    "1942-0625",
+    "1942-0617"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  }
+ },
+ "overrides_before": {
+  "S2764567196": null,
+  "S91771295": null,
+  "S61648352": null,
+  "S18971317": null,
+  "S9164496": null,
+  "S4210219983": null,
+  "S2764976401": null,
+  "S2764801409": null,
+  "S2765058439": null,
+  "S2764787325": null,
+  "S2764573049": null,
+  "S4580776": null,
+  "S2912066455": null,
+  "S4210231540": null,
+  "S2764798477": null,
+  "S2764706181": null,
+  "S4210227437": null,
+  "S73276529": null,
+  "S4210210852": null,
+  "S45955858": null,
+  "S56373572": null,
+  "S171171166": null,
+  "S7407089363": null,
+  "S4210202617": null,
+  "S4210217034": null,
+  "S2764465820": null,
+  "S5407042656": null,
+  "S4210229577": null
+ },
+ "decisions": {
+  "S2764567196": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S91771295": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S61648352": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S18971317": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S9164496": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S4210219983": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S2764976401": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S2764801409": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S2765058439": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S2764787325": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S2764573049": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S4580776": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S2912066455": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S4210231540": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S2764798477": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S2764706181": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S4210227437": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S73276529": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S4210210852": {
+   "host": [
+    "P4310319965",
+    "P4310320499"
+   ]
+  },
+  "S45955858": {
+   "host": [
+    "P4310319900",
+    "P4310320499"
+   ]
+  },
+  "S56373572": {
+   "host": [
+    "P4310319900",
+    "P4310320499"
+   ]
+  },
+  "S171171166": {
+   "host": [
+    "P4310319900",
+    "P4310320499"
+   ]
+  },
+  "S7407089363": {
+   "host": [
+    null,
+    "P4310320499"
+   ]
+  },
+  "S4210202617": {
+   "host": [
+    null,
+    "P4310320499"
+   ]
+  },
+  "S4210217034": {
+   "host": [
+    null,
+    "P4310320499"
+   ]
+  },
+  "S2764465820": {
+   "host": [
+    null,
+    "P4310320499"
+   ]
+  },
+  "S5407042656": {
+   "host": [
+    null,
+    "P4310320499"
+   ]
+  },
+  "S4210229577": {
+   "host": [
+    null,
+    "P4310320499"
+   ]
+  }
+ },
+ "skipped": {},
+ "after": {
+  "S2764567196": {
+   "display_name": "Journal of Applied Rehabilitation Counseling",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "J.A.R.C.",
+    "JARC"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "https://connect.springerpub.com/content/sgrjarc",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0047-2220",
+   "issns": [
+    "0047-2220",
+    "2639-7641"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S91771295": {
+   "display_name": "Violence and Victims",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/product/08866708",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0886-6708",
+   "issns": [
+    "0886-6708",
+    "1945-7073"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S61648352": {
+   "display_name": "Neonatal Network The Journal of Neonatal Nursing",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Journal of neonatal nursing",
+    "NN",
+    "Neonatal Netw",
+    "Neonatalnetwork.com",
+    "Neonatal network : NN"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/product/07300832",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0730-0832",
+   "issns": [
+    "0730-0832",
+    "1539-2880"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S18971317": {
+   "display_name": "Journal of Cognitive Psychotherapy",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/jcp",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0889-8391",
+   "issns": [
+    "0889-8391",
+    "1938-887X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S9164496": {
+   "display_name": "The Journal of Perinatal Education",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.lamaze.org",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "1058-1243",
+   "issns": [
+    "1058-1243",
+    "1548-8519"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210219983": {
+   "display_name": "Journal of Doctoral Nursing Practice",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JDNP",
+    "J Dr Nurs Pract",
+    "Clinical Scholars Review",
+    "CSR"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "https://www.springerpub.com/journal-of-doctoral-nursing-practice.html",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1939-2095",
+   "issns": [
+    "1939-2095",
+    "1939-2109",
+    "2380-9418",
+    "2380-9426"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764976401": {
+   "display_name": "Clinical Lactation",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2158-0537",
+   "issns": [
+    "2158-0537",
+    "2158-0782"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764801409": {
+   "display_name": "Journal of Cognitive Education and Psychology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JCEP"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.iace.coged.org/journal",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "1810-7621",
+   "issns": [
+    "1810-7621",
+    "1945-8959"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2765058439": {
+   "display_name": "Annual Review of Nursing Research",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Annu Rev Nurs Res",
+    "Review of nursing research"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0739-6686",
+   "issns": [
+    "0739-6686",
+    "1944-4028"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764787325": {
+   "display_name": "Partner Abuse",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1946-6560",
+   "issns": [
+    "1946-6560",
+    "1946-6579"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764573049": {
+   "display_name": "Rehabilitation Research Policy and Education",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2168-6661",
+   "issns": [
+    "2168-6661",
+    "2168-6653"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4580776": {
+   "display_name": "Ethical Human Psychology and Psychiatry",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "EHPP",
+    "EHSS"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/journal.aspx?jid=1523-150X",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1523-150X",
+   "issns": [
+    "1523-150X",
+    "1559-4343",
+    "1938-9000",
+    "2376-9475"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2912066455": {
+   "display_name": "Journal of Financial Counseling and Planning",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Journal of financial counseling and planning",
+    "Journal of the Association for Financial Counseling and Planning Education"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "https://afcpe.org/news-and-publications/journal-of-financial-counseling-and-planning",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1052-3073",
+   "issns": [
+    "1052-3073",
+    "1947-7910"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210231540": {
+   "display_name": "Annals of LGBTQ Public and Population Health",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Annals of LGBTQ public & population health",
+    "Annals of lesbian, gay, bisexual, transgender, queer or questioning public and population health"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2688-4518",
+   "issns": [
+    "2688-4518"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764798477": {
+   "display_name": "Annual Review of Gerontology and Geriatrics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Annual review of gerontology and geriatrics"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/prod.aspx?prod_id=17368",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0198-8794",
+   "issns": [
+    "0198-8794",
+    "1944-4036"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764706181": {
+   "display_name": "Rehabilitation Education",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0889-7018",
+   "issns": [
+    "0889-7018"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210227437": {
+   "display_name": "Urban Social Work",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "USW"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/urban-social-work-journal.html",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2474-8684",
+   "issns": [
+    "2474-8684",
+    "2474-8692"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S73276529": {
+   "display_name": "Journal of Nursing Law",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "American journal of nursing law"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.pesihealthcare.com/JNL.HTM",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1073-7472",
+   "issns": [
+    "1073-7472",
+    "1938-2995"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210210852": {
+   "display_name": "Journal of Psychology of Science and Technology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://libcongressdc.library.ingentaconnect.com/content/springer/jpst",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1939-7054",
+   "issns": [
+    "1939-7054",
+    "1939-7062"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S45955858": {
+   "display_name": "Journal of Nursing Measurement",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/journal.aspx?jid=1061-3749",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1061-3749",
+   "issns": [
+    "1061-3749",
+    "1945-7049"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S56373572": {
+   "display_name": "Research and theory for nursing practice",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Sch Ing Nurs Pract"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0889-7182",
+   "issns": [
+    "0889-7182",
+    "1541-6577",
+    "1945-7286",
+    "2377-6501"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S171171166": {
+   "display_name": "Care management journals",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Care Manage J",
+    "Journal of long term home health care",
+    "Journal of case management"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1938-9019",
+   "issns": [
+    "1938-9019",
+    "1521-0987"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407089363": {
+   "display_name": "Springer Publishing Company eBooks",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "ebook platform",
+   "issn_l": null,
+   "issns": null,
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210202617": {
+   "display_name": "International Journal for Human Caring",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "IJHC"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://internationaljournalforhumancaring.org/loi/ijhc",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1091-5710",
+   "issns": [
+    "1091-5710",
+    "2578-2304"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210217034": {
+   "display_name": "Journal of Baccalaureate Social Work",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JBSW"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1084-7219",
+   "issns": [
+    "1084-7219"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764465820": {
+   "display_name": "International Journal of Childbirth",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "IJCB",
+    "Int J Childbirth"
+   ],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.springerpub.com/ijc",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2156-5287",
+   "issns": [
+    "2156-5287",
+    "2156-5295"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S5407042656": {
+   "display_name": "Clinical Journal for Nurse Practitioners in Women s Health",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "2997-3058",
+   "issns": [
+    "2997-3058",
+    "2997-3066"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210229577": {
+   "display_name": "Beliefs and values",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320499,
+   "institution_id": null,
+   "homepage_url": "http://www.ingentaconnect.com/content/springer/bav",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1942-0625",
+   "issns": [
+    "1942-0625",
+    "1942-0617"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  }
+ },
+ "is_oa_recomputed_before": 0,
+ "is_oa_recomputed_after": {
+  "changed": 0,
+  "expected": 0
+ },
+ "changed": [
+  "S2764567196",
+  "S91771295",
+  "S61648352",
+  "S18971317",
+  "S9164496",
+  "S4210219983",
+  "S2764976401",
+  "S2764801409",
+  "S2765058439",
+  "S2764787325",
+  "S2764573049",
+  "S4580776",
+  "S2912066455",
+  "S4210231540",
+  "S2764798477",
+  "S2764706181",
+  "S4210227437",
+  "S73276529",
+  "S4210210852",
+  "S45955858",
+  "S56373572",
+  "S171171166",
+  "S7407089363",
+  "S4210202617",
+  "S4210217034",
+  "S2764465820",
+  "S5407042656",
+  "S4210229577"
+ ]
+}

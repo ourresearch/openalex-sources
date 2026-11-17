@@ -1,0 +1,567 @@
+{
+ "built": "2026-11-17 CT",
+ "job": 2351,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-16.py",
+ "entries": [
+  {
+   "entry": "S2764567196",
+   "source_id": 2764567196,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Applied Rehabilitation Counseling",
+    "host": "P4310319965",
+    "homepage_url": "https://connect.springerpub.com/content/sgrjarc",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2764567196",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S91771295",
+   "source_id": 91771295,
+   "tickets": [],
+   "now": {
+    "display_name": "Violence and Victims",
+    "host": "P4310319965",
+    "homepage_url": "http://www.springerpub.com/product/08866708",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S91771295",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S61648352",
+   "source_id": 61648352,
+   "tickets": [],
+   "now": {
+    "display_name": "Neonatal Network The Journal of Neonatal Nursing",
+    "host": "P4310319965",
+    "homepage_url": "http://www.springerpub.com/product/07300832",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S61648352",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S18971317",
+   "source_id": 18971317,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Cognitive Psychotherapy",
+    "host": "P4310319965",
+    "homepage_url": "http://www.springerpub.com/jcp",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S18971317",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S9164496",
+   "source_id": 9164496,
+   "tickets": [],
+   "now": {
+    "display_name": "The Journal of Perinatal Education",
+    "host": "P4310319965",
+    "homepage_url": "http://www.lamaze.org",
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S9164496",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S4210219983",
+   "source_id": 4210219983,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Doctoral Nursing Practice",
+    "host": "P4310319965",
+    "homepage_url": "https://www.springerpub.com/journal-of-doctoral-nursing-practice.html",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S4210219983",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2764976401",
+   "source_id": 2764976401,
+   "tickets": [],
+   "now": {
+    "display_name": "Clinical Lactation",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2764976401",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2764801409",
+   "source_id": 2764801409,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Cognitive Education and Psychology",
+    "host": "P4310319965",
+    "homepage_url": "http://www.iace.coged.org/journal",
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2764801409",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2765058439",
+   "source_id": 2765058439,
+   "tickets": [],
+   "now": {
+    "display_name": "Annual Review of Nursing Research",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2765058439",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2764787325",
+   "source_id": 2764787325,
+   "tickets": [],
+   "now": {
+    "display_name": "Partner Abuse",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2764787325",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2764573049",
+   "source_id": 2764573049,
+   "tickets": [],
+   "now": {
+    "display_name": "Rehabilitation Research Policy and Education",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2764573049",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S4580776",
+   "source_id": 4580776,
+   "tickets": [],
+   "now": {
+    "display_name": "Ethical Human Psychology and Psychiatry",
+    "host": "P4310319965",
+    "homepage_url": "http://www.springerpub.com/journal.aspx?jid=1523-150X",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S4580776",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2912066455",
+   "source_id": 2912066455,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Financial Counseling and Planning",
+    "host": "P4310319965",
+    "homepage_url": "https://afcpe.org/news-and-publications/journal-of-financial-counseling-and-planning",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2912066455",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S4210231540",
+   "source_id": 4210231540,
+   "tickets": [],
+   "now": {
+    "display_name": "Annals of LGBTQ Public and Population Health",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S4210231540",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2764798477",
+   "source_id": 2764798477,
+   "tickets": [],
+   "now": {
+    "display_name": "Annual Review of Gerontology and Geriatrics",
+    "host": "P4310319965",
+    "homepage_url": "http://www.springerpub.com/prod.aspx?prod_id=17368",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2764798477",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2764706181",
+   "source_id": 2764706181,
+   "tickets": [],
+   "now": {
+    "display_name": "Rehabilitation Education",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2764706181",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S4210227437",
+   "source_id": 4210227437,
+   "tickets": [],
+   "now": {
+    "display_name": "Urban Social Work",
+    "host": "P4310319965",
+    "homepage_url": "http://www.springerpub.com/urban-social-work-journal.html",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S4210227437",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S73276529",
+   "source_id": 73276529,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Nursing Law",
+    "host": "P4310319965",
+    "homepage_url": "http://www.pesihealthcare.com/JNL.HTM",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S73276529",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S4210210852",
+   "source_id": 4210210852,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Psychology of Science and Technology",
+    "host": "P4310319965",
+    "homepage_url": "http://libcongressdc.library.ingentaconnect.com/content/springer/jpst",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Nature, from the 2023-04-24 bulk merge of P4310320499 into it; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S4210210852",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S45955858",
+   "source_id": 45955858,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Nursing Measurement",
+    "host": "P4310319900",
+    "homepage_url": "http://www.springerpub.com/journal.aspx?jid=1061-3749",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Science+Business Media, not its publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S45955858",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S56373572",
+   "source_id": 56373572,
+   "tickets": [],
+   "now": {
+    "display_name": "Research and theory for nursing practice",
+    "host": "P4310319900",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Science+Business Media, not its publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S56373572",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S171171166",
+   "source_id": 171171166,
+   "tickets": [],
+   "now": {
+    "display_name": "Care management journals",
+    "host": "P4310319900",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "publisher was Springer Science+Business Media, not its publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S171171166",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S7407089363",
+   "source_id": 7407089363,
+   "tickets": [],
+   "now": {
+    "display_name": "Springer Publishing Company eBooks",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "ebook platform",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "no publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S7407089363",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S4210202617",
+   "source_id": 4210202617,
+   "tickets": [],
+   "now": {
+    "display_name": "International Journal for Human Caring",
+    "host": null,
+    "homepage_url": "http://internationaljournalforhumancaring.org/loi/ijhc",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "no publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S4210202617",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S4210217034",
+   "source_id": 4210217034,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Baccalaureate Social Work",
+    "host": null,
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "no publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S4210217034",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S2764465820",
+   "source_id": 2764465820,
+   "tickets": [],
+   "now": {
+    "display_name": "International Journal of Childbirth",
+    "host": null,
+    "homepage_url": "http://www.springerpub.com/ijc",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "no publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S2764465820",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S5407042656",
+   "source_id": 5407042656,
+   "tickets": [],
+   "now": {
+    "display_name": "Clinical Journal for Nurse Practitioners in Women s Health",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "no publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S5407042656",
+   "host_after": "P4310320499"
+  },
+  {
+   "entry": "S4210229577",
+   "source_id": 4210229577,
+   "tickets": [],
+   "now": {
+    "display_name": "Beliefs and values",
+    "host": null,
+    "homepage_url": "http://www.ingentaconnect.com/content/springer/bav",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320499
+   },
+   "why": "no publisher; its works' latest Crossref publisher is Springer Publishing Company (Crossref member for 10.1891), New York, not Springer Nature (ROR 03629ds51; springerpub.com history page)",
+   "evidence": "Databricks openalex_works 17 Nov: latest Crossref publisher of the source's works = Springer Publishing Company (oxjob #2351 EXPLORE § 1)",
+   "check": "https://api.openalex.org/sources/S4210229577",
+   "host_after": "P4310320499"
+  }
+ ]
+}
