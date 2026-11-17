@@ -1,0 +1,3213 @@
+{
+ "run_at": "2026-11-17T19:40:15.788575+00:00",
+ "execute": true,
+ "revert_of": null,
+ "manifest": "handoff/registry_manifest_2351_stale_hosts_2026-11-17.json",
+ "before": {
+  "S2764634622": {
+   "display_name": "Journal of Applied Research in Memory and Cognition",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JARMAC"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/journal-of-applied-research-in-memory-and-cognition",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2211-3681",
+   "issns": [
+    "2211-3681",
+    "2211-369X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210205432": {
+   "display_name": "Allergologia et Immunopathologia",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Allergologia et immunopathologia: International journal for clinical and investigate allergology and clinical immunology"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.elsevier.es/revistas/ctl_servlet?_f=7032&revistaid=105",
+   "country_code": "ES",
+   "type": "journal",
+   "issn_l": "0301-0546",
+   "issns": [
+    "0301-0546",
+    "1578-1267"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S88847514": {
+   "display_name": "annales de biologie animale biochimie biophysique",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Annales de biologie animale, biochimie, biophysique (En ligne)",
+    "Reproduction nutrition développement (En ligne)"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "FR",
+   "type": "journal",
+   "issn_l": "0003-388X",
+   "issns": [
+    "0003-388X",
+    "0181-1916",
+    "0926-5287",
+    "1297-9708"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210207230": {
+   "display_name": "Journal de la Société de Biologie",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "FR",
+   "type": "journal",
+   "issn_l": "1295-0661",
+   "issns": [
+    "1295-0661",
+    "1760-6128"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S27827792": {
+   "display_name": "Journal of Forest Economics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Journal of forest economics (Jena. Print)"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/journal-of-forest-economics",
+   "country_code": "DE",
+   "type": "journal",
+   "issn_l": "1104-6899",
+   "issns": [
+    "1104-6899",
+    "1618-1530"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2898124213": {
+   "display_name": "Journal of Accounting Literature",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JAL"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/journal-of-accounting-literature",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0737-4607",
+   "issns": [
+    "0737-4607",
+    "2452-1469"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210225608": {
+   "display_name": "British Homeopathic journal",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "British homœopathic journal",
+    "British homoeopathic journal"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0007-0785",
+   "issns": [
+    "0007-0785",
+    "1476-539X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210176183": {
+   "display_name": "Advances in knowledge acquisition, transfer, and management book series/Advances in knowledge acquisition, transfer and management book series",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "AKATM",
+    "Advances in knowlege acquisition, transfer, and management (AKATM) book series"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "book series",
+   "issn_l": "2326-7607",
+   "issns": [
+    "2326-7607",
+    "2326-7615"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S52939411": {
+   "display_name": "Medical Engineering & Physics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Medical engineering and physics"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/medical-engineering-and-physics",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1350-4533",
+   "issns": [
+    "1350-4533",
+    "1873-4030"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S85953240": {
+   "display_name": "Journal of Biomedical Engineering",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/medical-engineering-and-physics",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0141-5425",
+   "issns": [
+    "0141-5425",
+    "2213-9478"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210238099": {
+   "display_name": "NJAS - Wageningen Journal of Life Sciences",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Netherlands Journal of Agricultural Sciences Wageningen journal of life sciences"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/njas-wageningen-journal-of-life-sciences",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1573-5214",
+   "issns": [
+    "1573-5214",
+    "2212-1307"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S13630819": {
+   "display_name": "Orthodontic Waves",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Orthodontic waves : journal of the Japanese Orthodontic Society : 日本矯正歯科学会雑誌",
+    "日本矯正歯科学会雑誌",
+    "Nihon Kyōsei Shika Gakkai zasshi",
+    "Journal of Japan Orthodontic Society",
+    "J. Jpn. Orthod. Soc.",
+    "Nikkyōshishi. Nihon Kyōsei Shika Gakkai zasshi"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.tandfonline.com/toc/todw20/current",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0021-454X",
+   "issns": [
+    "0021-454X",
+    "1344-0241",
+    "1878-1837"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764899362": {
+   "display_name": "AKCE International Journal of Graphs and Combinatorics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "International Journal of Graphs and Combinatorics",
+    "International journal of graphs and combinatorics",
+    "Arulmigu Kalasalingam College of Engineering International Journal of Graphs and Combinatorics"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.tandfonline.com/toc/uakc20/current",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0972-8600",
+   "issns": [
+    "0972-8600",
+    "2543-3474"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764586105": {
+   "display_name": "Alexandria Journal of Medicine",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/alexandria-journal-of-medicine",
+   "country_code": "IN",
+   "type": "journal",
+   "issn_l": "2090-5068",
+   "issns": [
+    "2090-5068",
+    "2090-5076"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764730583": {
+   "display_name": "European Review of Private Law/Revue européenne de droit privé/Europäische Zeitschrift für Privatrecht",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Europäische Zeitschrift für Privatrecht",
+    "Revue européenne de droit privé"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0928-9801",
+   "issns": [
+    "0928-9801",
+    "1875-8371"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2042836": {
+   "display_name": "Intertax",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0165-2826",
+   "issns": [
+    "0165-2826",
+    "1875-8347"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S100269456": {
+   "display_name": "ASA Bulletin",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Bulletin / Swiss Arbitration Association",
+    "Bulletin / Schweizerische Vereinigung für Schiedsgerichtsbarkeit",
+    "Bulletin ASA",
+    "Bulletin / Associazione svizzera per l'arbitrato"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "CH",
+   "type": "journal",
+   "issn_l": "1010-9153",
+   "issns": [
+    "1010-9153"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S105430050": {
+   "display_name": "Journal of World Trade",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1011-6702",
+   "issns": [
+    "1011-6702",
+    "2210-2795"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S143550000": {
+   "display_name": "European Foreign Affairs Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1384-6299",
+   "issns": [
+    "1384-6299",
+    "1875-8223"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S196655567": {
+   "display_name": "International Journal of Comparative Labour Law and Industrial Relations",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~International+Journal+of+Comparative+Labour+Law+and+Industrial+Relations",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0952-617X",
+   "issns": [
+    "0952-617X",
+    "1875-838X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S159320808": {
+   "display_name": "Journal of International Arbitration",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0255-8106",
+   "issns": [
+    "0255-8106",
+    "2212-182X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S126564611": {
+   "display_name": "European Business Law Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "EBLR"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/productinfo.php?pubcode=EULR",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0959-6941",
+   "issns": [
+    "0959-6941",
+    "1875-841X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S17964695": {
+   "display_name": "Air and Space Law",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Air and space law"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/toc.php?pubcode=AILA",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0927-3379",
+   "issns": [
+    "0927-3379",
+    "1875-8339"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S113264738": {
+   "display_name": "European Energy and Environmental Law Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "EEELR"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0966-1646",
+   "issns": [
+    "0966-1646",
+    "1875-8428",
+    "1879-3886"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S39250479": {
+   "display_name": "European Public Law",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "EPL"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1354-3725",
+   "issns": [
+    "1354-3725"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S19746927": {
+   "display_name": "Business Law Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "BLR"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~Business+Law+Review",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0143-6295",
+   "issns": [
+    "0143-6295"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S73109968": {
+   "display_name": "EC Tax Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "European Communities tax review"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~EC+Tax+Review",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0928-2750",
+   "issns": [
+    "0928-2750",
+    "1875-8363"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S944088188": {
+   "display_name": "World Trade and Arbitration Materials",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "World trade & arbitration materials"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1022-6583",
+   "issns": [
+    "1022-6583",
+    "1875-8177"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S204463770": {
+   "display_name": "Pump Industry Analyst",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/pump-industry-analyst",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1359-6128",
+   "issns": [
+    "1359-6128",
+    "1873-1651"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S74082208": {
+   "display_name": "Filtration Industry Analyst",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/filtration-industry-analyst",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1365-6937",
+   "issns": [
+    "1365-6937",
+    "1873-6440"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S146707118": {
+   "display_name": "World Pumps",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/world-pumps",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0262-1762",
+   "issns": [
+    "0262-1762",
+    "1873-2593"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S177510550": {
+   "display_name": "Filtration & Separation",
+   "display_name_before_override": "Filtration + Separation",
+   "override_timestamp": "2025-04-11 05:35:43.433588+00:00",
+   "alternate_titles": [
+    "Filtration and separation",
+    "Filtration + separation"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/filtration-separation",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0015-1882",
+   "issns": [
+    "0015-1882",
+    "1873-7218"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S47396397": {
+   "display_name": "Computer Fraud & Security Bulletin",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Computer fraud and security bulletin"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.sciencedirect.com/science/journal/01420496",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0142-0496",
+   "issns": [
+    "0142-0496",
+    "1878-3856"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S159512450": {
+   "display_name": "The Journal of Sexual Medicine",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/the-journal-of-sexual-medicine",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1743-6095",
+   "issns": [
+    "1743-6095",
+    "1743-6109"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S87609158": {
+   "display_name": "European Journal of Heart Failure",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://onlinelibrary.wiley.com/journal/18790844",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1388-9842",
+   "issns": [
+    "1388-9842",
+    "1879-0844"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S149218730": {
+   "display_name": "The ISME Journal",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "International Society for Microbial Ecology journal"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "https://www.nature.com/ismej/",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1751-7362",
+   "issns": [
+    "1751-7362",
+    "1751-7370"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764906504": {
+   "display_name": "Sexual Medicine Reviews",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "SMR"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/sexual-medicine-reviews",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2050-0521",
+   "issns": [
+    "2050-0521",
+    "2050-0513"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S129664799": {
+   "display_name": "Policy and Society",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Policy and society"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.tandfonline.com/toc/rpas20/current",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1449-4035",
+   "issns": [
+    "1449-4035",
+    "1839-3373"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210197884": {
+   "display_name": "European Journal of Cardio-Thoracic Surgery Supplements",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://ejcts.oxfordjournals.org",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1567-4258",
+   "issns": [
+    "1567-4258",
+    "1878-3309"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S131078631": {
+   "display_name": "Wilderness and Environmental Medicine",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Wilderness and environmental medicine"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/wilderness-and-environmental-medicine",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1080-6032",
+   "issns": [
+    "1080-6032",
+    "1545-1534"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S107253652": {
+   "display_name": "American Journal of Contact Dermatitis",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.harcourthealth.com/amjcontactderm",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1046-199X",
+   "issns": [
+    "1046-199X",
+    "1532-8163"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S73472941": {
+   "display_name": "The Journal of Social Studies Research",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/the-journal-of-social-studies-research",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0885-985X",
+   "issns": [
+    "0885-985X",
+    "2352-2798"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S114078578": {
+   "display_name": "British Journal of Medical and Surgical Urology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "British journal of medical and surgical urology",
+    "Medical & surgical urology",
+    "BJMSU"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.sciencedirect.com/science/journal/18759742",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1875-9742",
+   "issns": [
+    "1875-9742",
+    "1875-9750"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764778852": {
+   "display_name": "Journal of Wilderness Medicine",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/wilderness-and-environmental-medicine",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0953-9859",
+   "issns": [
+    "0953-9859"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S58293947": {
+   "display_name": "The Journal of Men s Health and Gender",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JMHG",
+    "The journal of men's health and gender",
+    "The Journal of men's health and gender"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1571-8913",
+   "issns": [
+    "1571-8913",
+    "1873-4804"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2898240301": {
+   "display_name": "Asia-Australia Marketing Journal",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "AMJ"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/asia-australia-marketing-journal",
+   "country_code": "AU",
+   "type": "journal",
+   "issn_l": "1320-1646",
+   "issns": [
+    "1320-1646",
+    "1839-3462"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S95433592": {
+   "display_name": "Pediatric Annals",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.umi.com/pqdauto",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0090-4481",
+   "issns": [
+    "0090-4481",
+    "1938-2359"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S124357017": {
+   "display_name": "Oncology Reports",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.spandidos-publications.com/or/",
+   "country_code": "GR",
+   "type": "journal",
+   "issn_l": "1021-335X",
+   "issns": [
+    "1021-335X",
+    "1791-2431"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2764804524": {
+   "display_name": "Global Heart",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/global-heart",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "2211-8160",
+   "issns": [
+    "2211-8160",
+    "2211-8179"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S80222136": {
+   "display_name": "CVD prevention and control",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.sciencedirect.com/science/journal/18754570",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "1875-4562",
+   "issns": [
+    "1875-4562",
+    "1875-4570"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S156498377": {
+   "display_name": "The Chemical Educator",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Chemical educator annual"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "http://chemeducator.org/tocs.htm",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1430-4171",
+   "issns": [
+    "1430-4171"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S200446109": {
+   "display_name": "Communist and Post-Communist Studies",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0967-067X",
+   "issns": [
+    "0967-067X",
+    "1873-6920"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S69617268": {
+   "display_name": "Scandinavian Journal of Pain",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Official journal of the Scandinavian Association for the Study of Pain"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/scandinavian-journal-of-pain",
+   "country_code": "DE",
+   "type": "journal",
+   "issn_l": "1877-8860",
+   "issns": [
+    "1877-8860",
+    "1877-8879"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S182554291": {
+   "display_name": "Medizinische Genetik",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Medizinische Genetik (Print)"
+   ],
+   "publisher_id": 4310319965,
+   "institution_id": null,
+   "homepage_url": "https://link.springer.com/journal/11825",
+   "country_code": "DE",
+   "type": "journal",
+   "issn_l": "0936-5931",
+   "issns": [
+    "0936-5931",
+    "1863-5490"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210172715": {
+   "display_name": "Cochrane Database of Systematic Reviews",
+   "display_name_before_override": "Cochrane library",
+   "override_timestamp": "2025-04-11 05:35:43.433588+00:00",
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.nelh.nhs.uk/cochrane.asp",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1361-6137",
+   "issns": [
+    "1361-6137",
+    "1464-780X",
+    "1465-184X",
+    "1465-1858",
+    "1469-493X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S107905979": {
+   "display_name": "Arthroscopy The Journal of Arthroscopic and Related Surgery",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Arthroscopy, the journal of arthroscopic & related surgery"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/arthroscopy-the-journal-of-arthroscopic-and-related-surgery",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0749-8063",
+   "issns": [
+    "0749-8063",
+    "1526-3231"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210216427": {
+   "display_name": "International Journal of Gynecology & Obstetrics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Gynecology & obstetrics",
+    "International journal of gynecology & obstetrics",
+    "International journal of gynaecology & obstetrics",
+    "Journal of the International Federation of Gynaecology and Obstetrics"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://obgyn.onlinelibrary.wiley.com/journal/18793479",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0020-6695",
+   "issns": [
+    "0020-6695",
+    "0020-7292",
+    "1879-3479"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S163545350": {
+   "display_name": "Journal of Consumer Psychology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://onlinelibrary.wiley.com/journal/15327663",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1057-7408",
+   "issns": [
+    "1057-7408",
+    "1532-7663"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S80282989": {
+   "display_name": "Molecular Oncology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://febs.onlinelibrary.wiley.com/journal/18780261",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1574-7891",
+   "issns": [
+    "1574-7891",
+    "1878-0261"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S105710273": {
+   "display_name": "Review of Financial Economics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "RFE"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://onlinelibrary.wiley.com/journal/18735924",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1058-3300",
+   "issns": [
+    "1058-3300",
+    "1873-5924"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S97640881": {
+   "display_name": "European Journal of Pain Supplements",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "European journal of pain supplements"
+   ],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "http://www.clinicalkey.com.au/dura/browse/journalIssue/17543207",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1878-0075",
+   "issns": [
+    "1878-0075",
+    "1754-3207"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  }
+ },
+ "overrides_before": {
+  "S2764634622": null,
+  "S4210205432": {
+   "curated_is_oa": false,
+   "curated_flip_year": null,
+   "note": "users-api curations: cur-PaYFXRyn35iX | was: ZD 26668: publisher (Elsevier, Rolf Kwakkelaar 2026-10-30) confirms not fully OA (hybrid/transferred; Heterocycles not Elsevier, not fully OA). Not in DOAJ. (kyle 2026-11-04 desk)"
+  },
+  "S88847514": null,
+  "S4210207230": null,
+  "S27827792": null,
+  "S2898124213": null,
+  "S4210225608": null,
+  "S4210176183": null,
+  "S52939411": null,
+  "S85953240": null,
+  "S4210238099": null,
+  "S13630819": null,
+  "S2764899362": null,
+  "S2764586105": null,
+  "S2764730583": null,
+  "S2042836": null,
+  "S100269456": null,
+  "S105430050": null,
+  "S143550000": null,
+  "S196655567": null,
+  "S159320808": null,
+  "S126564611": null,
+  "S17964695": null,
+  "S113264738": null,
+  "S39250479": null,
+  "S19746927": null,
+  "S73109968": null,
+  "S944088188": null,
+  "S204463770": null,
+  "S74082208": null,
+  "S146707118": null,
+  "S177510550": null,
+  "S47396397": null,
+  "S159512450": null,
+  "S87609158": null,
+  "S149218730": null,
+  "S2764906504": null,
+  "S129664799": null,
+  "S4210197884": null,
+  "S131078631": null,
+  "S107253652": null,
+  "S73472941": null,
+  "S114078578": null,
+  "S2764778852": null,
+  "S58293947": null,
+  "S2898240301": null,
+  "S95433592": null,
+  "S124357017": null,
+  "S2764804524": null,
+  "S80222136": null,
+  "S156498377": null,
+  "S200446109": null,
+  "S69617268": null,
+  "S182554291": null,
+  "S4210172715": null,
+  "S107905979": null,
+  "S4210216427": null,
+  "S163545350": null,
+  "S80282989": null,
+  "S105710273": null,
+  "S97640881": null
+ },
+ "decisions": {
+  "S2764634622": {
+   "host": [
+    "P4310320990",
+    "P4310320262"
+   ]
+  },
+  "S4210205432": {
+   "host": [
+    "P4310320990",
+    "P4310318016"
+   ]
+  },
+  "S88847514": {
+   "host": [
+    "P4310320990",
+    "P4310319748"
+   ]
+  },
+  "S4210207230": {
+   "host": [
+    "P4310320990",
+    "P4310319748"
+   ]
+  },
+  "S27827792": {
+   "host": [
+    "P4310320990",
+    "P4310319811"
+   ]
+  },
+  "S2898124213": {
+   "host": [
+    "P4310320990",
+    "P4310319811"
+   ]
+  },
+  "S4210225608": {
+   "host": [
+    "P4310320990",
+    "P4310320000"
+   ]
+  },
+  "S4210176183": {
+   "host": [
+    "P4310319965",
+    "P4310320424"
+   ]
+  },
+  "S52939411": {
+   "host": [
+    "P4310320990",
+    "P4310320083"
+   ]
+  },
+  "S85953240": {
+   "host": [
+    "P4310320990",
+    "P4310320083"
+   ]
+  },
+  "S4210238099": {
+   "host": [
+    "P4310320990",
+    "P4310320547"
+   ]
+  },
+  "S13630819": {
+   "host": [
+    "P4310320990",
+    "P4310320547"
+   ]
+  },
+  "S2764899362": {
+   "host": [
+    "P4310320990",
+    "P4310320547"
+   ]
+  },
+  "S2764586105": {
+   "host": [
+    "P4310320990",
+    "P4310320547"
+   ]
+  },
+  "S2764730583": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S2042836": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S100269456": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S105430050": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S143550000": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S196655567": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S159320808": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S126564611": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S17964695": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S113264738": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S39250479": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S19746927": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S73109968": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S944088188": {
+   "host": [
+    "P4310319965",
+    "P4310318547"
+   ]
+  },
+  "S204463770": {
+   "host": [
+    "P4310320990",
+    "P4322632787"
+   ]
+  },
+  "S74082208": {
+   "host": [
+    "P4310320990",
+    "P4322632787"
+   ]
+  },
+  "S146707118": {
+   "host": [
+    "P4310320990",
+    "P4322632787"
+   ]
+  },
+  "S177510550": {
+   "host": [
+    "P4310320990",
+    "P4322632787"
+   ]
+  },
+  "S47396397": {
+   "host": [
+    "P4310320990",
+    "P4322632787"
+   ]
+  },
+  "S159512450": {
+   "host": [
+    "P4310320990",
+    "P4310311648"
+   ]
+  },
+  "S87609158": {
+   "host": [
+    "P4310320990",
+    "P4310311648"
+   ]
+  },
+  "S149218730": {
+   "host": [
+    "P4310319965",
+    "P4310311648"
+   ]
+  },
+  "S2764906504": {
+   "host": [
+    "P4310320990",
+    "P4310311648"
+   ]
+  },
+  "S129664799": {
+   "host": [
+    "P4310320990",
+    "P4310311648"
+   ]
+  },
+  "S4210197884": {
+   "host": [
+    "P4310320990",
+    "P4310311648"
+   ]
+  },
+  "S131078631": {
+   "host": [
+    "P4310320990",
+    "P4310320017"
+   ]
+  },
+  "S107253652": {
+   "host": [
+    "P4310320990",
+    "P4310320017"
+   ]
+  },
+  "S73472941": {
+   "host": [
+    "P4310320990",
+    "P4310320017"
+   ]
+  },
+  "S114078578": {
+   "host": [
+    "P4310320990",
+    "P4310320017"
+   ]
+  },
+  "S2764778852": {
+   "host": [
+    "P4310320990",
+    "P4310320017"
+   ]
+  },
+  "S58293947": {
+   "host": [
+    "P4310320990",
+    "P4310320017"
+   ]
+  },
+  "S2898240301": {
+   "host": [
+    "P4310320990",
+    "P4310320017"
+   ]
+  },
+  "S95433592": {
+   "host": [
+    "P4310320990",
+    "P4320800624"
+   ]
+  },
+  "S124357017": {
+   "host": [
+    "P4310320990",
+    "P4310320412"
+   ]
+  },
+  "S2764804524": {
+   "host": [
+    "P4310320990",
+    "P4310320511"
+   ]
+  },
+  "S80222136": {
+   "host": [
+    "P4310320990",
+    "P4310320511"
+   ]
+  },
+  "S156498377": {
+   "host": [
+    "P4310319965",
+    "P4310315693"
+   ]
+  },
+  "S200446109": {
+   "host": [
+    "P4310320990",
+    "P4310315693"
+   ]
+  },
+  "S69617268": {
+   "host": [
+    "P4310320990",
+    "P4310313990"
+   ]
+  },
+  "S182554291": {
+   "host": [
+    "P4310319965",
+    "P4310313990"
+   ]
+  },
+  "S4210172715": {
+   "host": [
+    "P4310320990",
+    "P4310320595"
+   ]
+  },
+  "S107905979": {
+   "host": [
+    "P4310320990",
+    "P4310320595"
+   ]
+  },
+  "S4210216427": {
+   "host": [
+    "P4310320990",
+    "P4310320595"
+   ]
+  },
+  "S163545350": {
+   "host": [
+    "P4310320990",
+    "P4310320595"
+   ]
+  },
+  "S80282989": {
+   "host": [
+    "P4310320990",
+    "P4310320595"
+   ]
+  },
+  "S105710273": {
+   "host": [
+    "P4310320990",
+    "P4310320595"
+   ]
+  },
+  "S97640881": {
+   "host": [
+    "P4310320990",
+    "P4310320595"
+   ]
+  }
+ },
+ "skipped": {},
+ "after": {
+  "S2764634622": {
+   "display_name": "Journal of Applied Research in Memory and Cognition",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JARMAC"
+   ],
+   "publisher_id": 4310320262,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/journal-of-applied-research-in-memory-and-cognition",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2211-3681",
+   "issns": [
+    "2211-3681",
+    "2211-369X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210205432": {
+   "display_name": "Allergologia et Immunopathologia",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Allergologia et immunopathologia: International journal for clinical and investigate allergology and clinical immunology"
+   ],
+   "publisher_id": 4310318016,
+   "institution_id": null,
+   "homepage_url": "http://www.elsevier.es/revistas/ctl_servlet?_f=7032&revistaid=105",
+   "country_code": "ES",
+   "type": "journal",
+   "issn_l": "0301-0546",
+   "issns": [
+    "0301-0546",
+    "1578-1267"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": {
+    "curated_is_oa": false,
+    "curated_flip_year": null,
+    "note": "users-api curations: cur-PaYFXRyn35iX | was: ZD 26668: publisher (Elsevier, Rolf Kwakkelaar 2026-10-30) confirms not fully OA (hybrid/transferred; Heterocycles not Elsevier, not fully OA). Not in DOAJ. (kyle 2026-11-04 desk)"
+   }
+  },
+  "S88847514": {
+   "display_name": "annales de biologie animale biochimie biophysique",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Annales de biologie animale, biochimie, biophysique (En ligne)",
+    "Reproduction nutrition développement (En ligne)"
+   ],
+   "publisher_id": 4310319748,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "FR",
+   "type": "journal",
+   "issn_l": "0003-388X",
+   "issns": [
+    "0003-388X",
+    "0181-1916",
+    "0926-5287",
+    "1297-9708"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210207230": {
+   "display_name": "Journal de la Société de Biologie",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310319748,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "FR",
+   "type": "journal",
+   "issn_l": "1295-0661",
+   "issns": [
+    "1295-0661",
+    "1760-6128"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S27827792": {
+   "display_name": "Journal of Forest Economics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Journal of forest economics (Jena. Print)"
+   ],
+   "publisher_id": 4310319811,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/journal-of-forest-economics",
+   "country_code": "DE",
+   "type": "journal",
+   "issn_l": "1104-6899",
+   "issns": [
+    "1104-6899",
+    "1618-1530"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2898124213": {
+   "display_name": "Journal of Accounting Literature",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JAL"
+   ],
+   "publisher_id": 4310319811,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/journal-of-accounting-literature",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0737-4607",
+   "issns": [
+    "0737-4607",
+    "2452-1469"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210225608": {
+   "display_name": "British Homeopathic journal",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "British homœopathic journal",
+    "British homoeopathic journal"
+   ],
+   "publisher_id": 4310320000,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0007-0785",
+   "issns": [
+    "0007-0785",
+    "1476-539X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210176183": {
+   "display_name": "Advances in knowledge acquisition, transfer, and management book series/Advances in knowledge acquisition, transfer and management book series",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "AKATM",
+    "Advances in knowlege acquisition, transfer, and management (AKATM) book series"
+   ],
+   "publisher_id": 4310320424,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "book series",
+   "issn_l": "2326-7607",
+   "issns": [
+    "2326-7607",
+    "2326-7615"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S52939411": {
+   "display_name": "Medical Engineering & Physics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Medical engineering and physics"
+   ],
+   "publisher_id": 4310320083,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/medical-engineering-and-physics",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1350-4533",
+   "issns": [
+    "1350-4533",
+    "1873-4030"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S85953240": {
+   "display_name": "Journal of Biomedical Engineering",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320083,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/medical-engineering-and-physics",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0141-5425",
+   "issns": [
+    "0141-5425",
+    "2213-9478"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210238099": {
+   "display_name": "NJAS - Wageningen Journal of Life Sciences",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Netherlands Journal of Agricultural Sciences Wageningen journal of life sciences"
+   ],
+   "publisher_id": 4310320547,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/njas-wageningen-journal-of-life-sciences",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1573-5214",
+   "issns": [
+    "1573-5214",
+    "2212-1307"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S13630819": {
+   "display_name": "Orthodontic Waves",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Orthodontic waves : journal of the Japanese Orthodontic Society : 日本矯正歯科学会雑誌",
+    "日本矯正歯科学会雑誌",
+    "Nihon Kyōsei Shika Gakkai zasshi",
+    "Journal of Japan Orthodontic Society",
+    "J. Jpn. Orthod. Soc.",
+    "Nikkyōshishi. Nihon Kyōsei Shika Gakkai zasshi"
+   ],
+   "publisher_id": 4310320547,
+   "institution_id": null,
+   "homepage_url": "https://www.tandfonline.com/toc/todw20/current",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0021-454X",
+   "issns": [
+    "0021-454X",
+    "1344-0241",
+    "1878-1837"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764899362": {
+   "display_name": "AKCE International Journal of Graphs and Combinatorics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "International Journal of Graphs and Combinatorics",
+    "International journal of graphs and combinatorics",
+    "Arulmigu Kalasalingam College of Engineering International Journal of Graphs and Combinatorics"
+   ],
+   "publisher_id": 4310320547,
+   "institution_id": null,
+   "homepage_url": "https://www.tandfonline.com/toc/uakc20/current",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0972-8600",
+   "issns": [
+    "0972-8600",
+    "2543-3474"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764586105": {
+   "display_name": "Alexandria Journal of Medicine",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320547,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/alexandria-journal-of-medicine",
+   "country_code": "IN",
+   "type": "journal",
+   "issn_l": "2090-5068",
+   "issns": [
+    "2090-5068",
+    "2090-5076"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764730583": {
+   "display_name": "European Review of Private Law/Revue européenne de droit privé/Europäische Zeitschrift für Privatrecht",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Europäische Zeitschrift für Privatrecht",
+    "Revue européenne de droit privé"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0928-9801",
+   "issns": [
+    "0928-9801",
+    "1875-8371"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2042836": {
+   "display_name": "Intertax",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0165-2826",
+   "issns": [
+    "0165-2826",
+    "1875-8347"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S100269456": {
+   "display_name": "ASA Bulletin",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Bulletin / Swiss Arbitration Association",
+    "Bulletin / Schweizerische Vereinigung für Schiedsgerichtsbarkeit",
+    "Bulletin ASA",
+    "Bulletin / Associazione svizzera per l'arbitrato"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "CH",
+   "type": "journal",
+   "issn_l": "1010-9153",
+   "issns": [
+    "1010-9153"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S105430050": {
+   "display_name": "Journal of World Trade",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1011-6702",
+   "issns": [
+    "1011-6702",
+    "2210-2795"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S143550000": {
+   "display_name": "European Foreign Affairs Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1384-6299",
+   "issns": [
+    "1384-6299",
+    "1875-8223"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S196655567": {
+   "display_name": "International Journal of Comparative Labour Law and Industrial Relations",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~International+Journal+of+Comparative+Labour+Law+and+Industrial+Relations",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0952-617X",
+   "issns": [
+    "0952-617X",
+    "1875-838X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S159320808": {
+   "display_name": "Journal of International Arbitration",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0255-8106",
+   "issns": [
+    "0255-8106",
+    "2212-182X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S126564611": {
+   "display_name": "European Business Law Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "EBLR"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/productinfo.php?pubcode=EULR",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0959-6941",
+   "issns": [
+    "0959-6941",
+    "1875-841X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S17964695": {
+   "display_name": "Air and Space Law",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Air and space law"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/toc.php?pubcode=AILA",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0927-3379",
+   "issns": [
+    "0927-3379",
+    "1875-8339"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S113264738": {
+   "display_name": "European Energy and Environmental Law Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "EEELR"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0966-1646",
+   "issns": [
+    "0966-1646",
+    "1875-8428",
+    "1879-3886"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S39250479": {
+   "display_name": "European Public Law",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "EPL"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1354-3725",
+   "issns": [
+    "1354-3725"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S19746927": {
+   "display_name": "Business Law Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "BLR"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~Business+Law+Review",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "0143-6295",
+   "issns": [
+    "0143-6295"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S73109968": {
+   "display_name": "EC Tax Review",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "European Communities tax review"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~EC+Tax+Review",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0928-2750",
+   "issns": [
+    "0928-2750",
+    "1875-8363"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S944088188": {
+   "display_name": "World Trade and Arbitration Materials",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "World trade & arbitration materials"
+   ],
+   "publisher_id": 4310318547,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1022-6583",
+   "issns": [
+    "1022-6583",
+    "1875-8177"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S204463770": {
+   "display_name": "Pump Industry Analyst",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4322632787,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/pump-industry-analyst",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1359-6128",
+   "issns": [
+    "1359-6128",
+    "1873-1651"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S74082208": {
+   "display_name": "Filtration Industry Analyst",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4322632787,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/filtration-industry-analyst",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1365-6937",
+   "issns": [
+    "1365-6937",
+    "1873-6440"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S146707118": {
+   "display_name": "World Pumps",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4322632787,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/world-pumps",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0262-1762",
+   "issns": [
+    "0262-1762",
+    "1873-2593"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S177510550": {
+   "display_name": "Filtration & Separation",
+   "display_name_before_override": "Filtration + Separation",
+   "override_timestamp": "2025-04-11 05:35:43.433588+00:00",
+   "alternate_titles": [
+    "Filtration and separation",
+    "Filtration + separation"
+   ],
+   "publisher_id": 4322632787,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/filtration-separation",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0015-1882",
+   "issns": [
+    "0015-1882",
+    "1873-7218"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S47396397": {
+   "display_name": "Computer Fraud & Security Bulletin",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Computer fraud and security bulletin"
+   ],
+   "publisher_id": 4322632787,
+   "institution_id": null,
+   "homepage_url": "http://www.sciencedirect.com/science/journal/01420496",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0142-0496",
+   "issns": [
+    "0142-0496",
+    "1878-3856"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S159512450": {
+   "display_name": "The Journal of Sexual Medicine",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310311648,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/the-journal-of-sexual-medicine",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1743-6095",
+   "issns": [
+    "1743-6095",
+    "1743-6109"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S87609158": {
+   "display_name": "European Journal of Heart Failure",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310311648,
+   "institution_id": null,
+   "homepage_url": "https://onlinelibrary.wiley.com/journal/18790844",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1388-9842",
+   "issns": [
+    "1388-9842",
+    "1879-0844"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S149218730": {
+   "display_name": "The ISME Journal",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "International Society for Microbial Ecology journal"
+   ],
+   "publisher_id": 4310311648,
+   "institution_id": null,
+   "homepage_url": "https://www.nature.com/ismej/",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1751-7362",
+   "issns": [
+    "1751-7362",
+    "1751-7370"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764906504": {
+   "display_name": "Sexual Medicine Reviews",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "SMR"
+   ],
+   "publisher_id": 4310311648,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/sexual-medicine-reviews",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2050-0521",
+   "issns": [
+    "2050-0521",
+    "2050-0513"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S129664799": {
+   "display_name": "Policy and Society",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Policy and society"
+   ],
+   "publisher_id": 4310311648,
+   "institution_id": null,
+   "homepage_url": "https://www.tandfonline.com/toc/rpas20/current",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1449-4035",
+   "issns": [
+    "1449-4035",
+    "1839-3373"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210197884": {
+   "display_name": "European Journal of Cardio-Thoracic Surgery Supplements",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310311648,
+   "institution_id": null,
+   "homepage_url": "http://ejcts.oxfordjournals.org",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1567-4258",
+   "issns": [
+    "1567-4258",
+    "1878-3309"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S131078631": {
+   "display_name": "Wilderness and Environmental Medicine",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Wilderness and environmental medicine"
+   ],
+   "publisher_id": 4310320017,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/wilderness-and-environmental-medicine",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1080-6032",
+   "issns": [
+    "1080-6032",
+    "1545-1534"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S107253652": {
+   "display_name": "American Journal of Contact Dermatitis",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320017,
+   "institution_id": null,
+   "homepage_url": "http://www.harcourthealth.com/amjcontactderm",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1046-199X",
+   "issns": [
+    "1046-199X",
+    "1532-8163"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S73472941": {
+   "display_name": "The Journal of Social Studies Research",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320017,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/the-journal-of-social-studies-research",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0885-985X",
+   "issns": [
+    "0885-985X",
+    "2352-2798"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S114078578": {
+   "display_name": "British Journal of Medical and Surgical Urology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "British journal of medical and surgical urology",
+    "Medical & surgical urology",
+    "BJMSU"
+   ],
+   "publisher_id": 4310320017,
+   "institution_id": null,
+   "homepage_url": "http://www.sciencedirect.com/science/journal/18759742",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1875-9742",
+   "issns": [
+    "1875-9742",
+    "1875-9750"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764778852": {
+   "display_name": "Journal of Wilderness Medicine",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320017,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/wilderness-and-environmental-medicine",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0953-9859",
+   "issns": [
+    "0953-9859"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S58293947": {
+   "display_name": "The Journal of Men s Health and Gender",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JMHG",
+    "The journal of men's health and gender",
+    "The Journal of men's health and gender"
+   ],
+   "publisher_id": 4310320017,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1571-8913",
+   "issns": [
+    "1571-8913",
+    "1873-4804"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2898240301": {
+   "display_name": "Asia-Australia Marketing Journal",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "AMJ"
+   ],
+   "publisher_id": 4310320017,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/asia-australia-marketing-journal",
+   "country_code": "AU",
+   "type": "journal",
+   "issn_l": "1320-1646",
+   "issns": [
+    "1320-1646",
+    "1839-3462"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S95433592": {
+   "display_name": "Pediatric Annals",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4320800624,
+   "institution_id": null,
+   "homepage_url": "http://www.umi.com/pqdauto",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0090-4481",
+   "issns": [
+    "0090-4481",
+    "1938-2359"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S124357017": {
+   "display_name": "Oncology Reports",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320412,
+   "institution_id": null,
+   "homepage_url": "http://www.spandidos-publications.com/or/",
+   "country_code": "GR",
+   "type": "journal",
+   "issn_l": "1021-335X",
+   "issns": [
+    "1021-335X",
+    "1791-2431"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2764804524": {
+   "display_name": "Global Heart",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320511,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/global-heart",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "2211-8160",
+   "issns": [
+    "2211-8160",
+    "2211-8179"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S80222136": {
+   "display_name": "CVD prevention and control",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320511,
+   "institution_id": null,
+   "homepage_url": "http://www.sciencedirect.com/science/journal/18754570",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "1875-4562",
+   "issns": [
+    "1875-4562",
+    "1875-4570"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S156498377": {
+   "display_name": "The Chemical Educator",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Chemical educator annual"
+   ],
+   "publisher_id": 4310315693,
+   "institution_id": null,
+   "homepage_url": "http://chemeducator.org/tocs.htm",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1430-4171",
+   "issns": [
+    "1430-4171"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S200446109": {
+   "display_name": "Communist and Post-Communist Studies",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310315693,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0967-067X",
+   "issns": [
+    "0967-067X",
+    "1873-6920"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S69617268": {
+   "display_name": "Scandinavian Journal of Pain",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Official journal of the Scandinavian Association for the Study of Pain"
+   ],
+   "publisher_id": 4310313990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/scandinavian-journal-of-pain",
+   "country_code": "DE",
+   "type": "journal",
+   "issn_l": "1877-8860",
+   "issns": [
+    "1877-8860",
+    "1877-8879"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S182554291": {
+   "display_name": "Medizinische Genetik",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Medizinische Genetik (Print)"
+   ],
+   "publisher_id": 4310313990,
+   "institution_id": null,
+   "homepage_url": "https://link.springer.com/journal/11825",
+   "country_code": "DE",
+   "type": "journal",
+   "issn_l": "0936-5931",
+   "issns": [
+    "0936-5931",
+    "1863-5490"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210172715": {
+   "display_name": "Cochrane Database of Systematic Reviews",
+   "display_name_before_override": "Cochrane library",
+   "override_timestamp": "2025-04-11 05:35:43.433588+00:00",
+   "alternate_titles": [],
+   "publisher_id": 4310320595,
+   "institution_id": null,
+   "homepage_url": "http://www.nelh.nhs.uk/cochrane.asp",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1361-6137",
+   "issns": [
+    "1361-6137",
+    "1464-780X",
+    "1465-184X",
+    "1465-1858",
+    "1469-493X"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S107905979": {
+   "display_name": "Arthroscopy The Journal of Arthroscopic and Related Surgery",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Arthroscopy, the journal of arthroscopic & related surgery"
+   ],
+   "publisher_id": 4310320595,
+   "institution_id": null,
+   "homepage_url": "https://www.sciencedirect.com/journal/arthroscopy-the-journal-of-arthroscopic-and-related-surgery",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0749-8063",
+   "issns": [
+    "0749-8063",
+    "1526-3231"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210216427": {
+   "display_name": "International Journal of Gynecology & Obstetrics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Gynecology & obstetrics",
+    "International journal of gynecology & obstetrics",
+    "International journal of gynaecology & obstetrics",
+    "Journal of the International Federation of Gynaecology and Obstetrics"
+   ],
+   "publisher_id": 4310320595,
+   "institution_id": null,
+   "homepage_url": "https://obgyn.onlinelibrary.wiley.com/journal/18793479",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0020-6695",
+   "issns": [
+    "0020-6695",
+    "0020-7292",
+    "1879-3479"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S163545350": {
+   "display_name": "Journal of Consumer Psychology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320595,
+   "institution_id": null,
+   "homepage_url": "https://onlinelibrary.wiley.com/journal/15327663",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1057-7408",
+   "issns": [
+    "1057-7408",
+    "1532-7663"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S80282989": {
+   "display_name": "Molecular Oncology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320595,
+   "institution_id": null,
+   "homepage_url": "https://febs.onlinelibrary.wiley.com/journal/18780261",
+   "country_code": "NL",
+   "type": "journal",
+   "issn_l": "1574-7891",
+   "issns": [
+    "1574-7891",
+    "1878-0261"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S105710273": {
+   "display_name": "Review of Financial Economics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "RFE"
+   ],
+   "publisher_id": 4310320595,
+   "institution_id": null,
+   "homepage_url": "https://onlinelibrary.wiley.com/journal/18735924",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1058-3300",
+   "issns": [
+    "1058-3300",
+    "1873-5924"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S97640881": {
+   "display_name": "European Journal of Pain Supplements",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "European journal of pain supplements"
+   ],
+   "publisher_id": 4310320595,
+   "institution_id": null,
+   "homepage_url": "http://www.clinicalkey.com.au/dura/browse/journalIssue/17543207",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "1878-0075",
+   "issns": [
+    "1878-0075",
+    "1754-3207"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  }
+ },
+ "is_oa_recomputed_before": 0,
+ "is_oa_recomputed_after": {
+  "changed": 0,
+  "expected": 0
+ },
+ "changed": [
+  "S2764634622",
+  "S4210205432",
+  "S88847514",
+  "S4210207230",
+  "S27827792",
+  "S2898124213",
+  "S4210225608",
+  "S4210176183",
+  "S52939411",
+  "S85953240",
+  "S4210238099",
+  "S13630819",
+  "S2764899362",
+  "S2764586105",
+  "S2764730583",
+  "S2042836",
+  "S100269456",
+  "S105430050",
+  "S143550000",
+  "S196655567",
+  "S159320808",
+  "S126564611",
+  "S17964695",
+  "S113264738",
+  "S39250479",
+  "S19746927",
+  "S73109968",
+  "S944088188",
+  "S204463770",
+  "S74082208",
+  "S146707118",
+  "S177510550",
+  "S47396397",
+  "S159512450",
+  "S87609158",
+  "S149218730",
+  "S2764906504",
+  "S129664799",
+  "S4210197884",
+  "S131078631",
+  "S107253652",
+  "S73472941",
+  "S114078578",
+  "S2764778852",
+  "S58293947",
+  "S2898240301",
+  "S95433592",
+  "S124357017",
+  "S2764804524",
+  "S80222136",
+  "S156498377",
+  "S200446109",
+  "S69617268",
+  "S182554291",
+  "S4210172715",
+  "S107905979",
+  "S4210216427",
+  "S163545350",
+  "S80282989",
+  "S105710273",
+  "S97640881"
+ ]
+}

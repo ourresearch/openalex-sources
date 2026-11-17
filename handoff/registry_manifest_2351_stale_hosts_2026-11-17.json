@@ -1,0 +1,1227 @@
+{
+ "built": "2026-11-17 CT",
+ "job": 2351,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-16.py",
+ "entries": [
+  {
+   "entry": "S2764634622",
+   "source_id": 2764634622,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Applied Research in Memory and Cognition",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/journal-of-applied-research-in-memory-and-cognition",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320262
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'American Psychological Association (APA)' on 100.0% of its 1,160 works with a DOI and on the newest (295 of 295 since 2023). Host = the DOI registrant (#1899's rule) = P4310320262 American Psychological Association. With the takedown's host arm fixed (#2351) the stale host would hide 487 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2764634622",
+   "host_after": "P4310320262"
+  },
+  {
+   "entry": "S4210205432",
+   "source_id": 4210205432,
+   "tickets": [],
+   "now": {
+    "display_name": "Allergologia et Immunopathologia",
+    "host": "P4310320990",
+    "homepage_url": "http://www.elsevier.es/revistas/ctl_servlet?_f=7032&revistaid=105",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318016
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Codon Publications' on 100.0% of its 2,476 works with a DOI and on the newest (510 of 510 since 2023). Host = the DOI registrant (#1899's rule) = P4310318016 Codon Publications. With the takedown's host arm fixed (#2351) the stale host would hide 1,680 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S4210205432",
+   "host_after": "P4310318016"
+  },
+  {
+   "entry": "S88847514",
+   "source_id": 88847514,
+   "tickets": [],
+   "now": {
+    "display_name": "annales de biologie animale biochimie biophysique",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "FR",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319748
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'EDP Sciences' on 100.0% of its 4,567 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310319748 EDP Sciences. With the takedown's host arm fixed (#2351) the stale host would hide 3,757 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S88847514",
+   "host_after": "P4310319748"
+  },
+  {
+   "entry": "S4210207230",
+   "source_id": 4210207230,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal de la Société de Biologie",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "FR",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319748
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'EDP Sciences' on 100.0% of its 528 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310319748 EDP Sciences. With the takedown's host arm fixed (#2351) the stale host would hide 499 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S4210207230",
+   "host_after": "P4310319748"
+  },
+  {
+   "entry": "S27827792",
+   "source_id": 27827792,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Forest Economics",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/journal-of-forest-economics",
+    "country_code": "DE",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319811
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Emerald' on 99.6% of its 726 works with a DOI and on the newest (56 of 56 since 2023). Host = the DOI registrant (#1899's rule) = P4310319811 Emerald Publishing Limited. With the takedown's host arm fixed (#2351) the stale host would hide 572 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S27827792",
+   "host_after": "P4310319811"
+  },
+  {
+   "entry": "S2898124213",
+   "source_id": 2898124213,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Accounting Literature",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/journal-of-accounting-literature",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319811
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Emerald' on 98.5% of its 456 works with a DOI and on the newest (368 of 368 since 2023). Host = the DOI registrant (#1899's rule) = P4310319811 Emerald Publishing Limited. With the takedown's host arm fixed (#2351) the stale host would hide 375 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2898124213",
+   "host_after": "P4310319811"
+  },
+  {
+   "entry": "S4210225608",
+   "source_id": 4210225608,
+   "tickets": [],
+   "now": {
+    "display_name": "British Homeopathic journal",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320000
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Georg Thieme Verlag KG' on 100.0% of its 4,973 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320000 Thieme Medical Publishers. With the takedown's host arm fixed (#2351) the stale host would hide 1,020 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S4210225608",
+   "host_after": "P4310320000"
+  },
+  {
+   "entry": "S4210176183",
+   "source_id": 4210176183,
+   "tickets": [],
+   "now": {
+    "display_name": "Advances in knowledge acquisition, transfer, and management book series/Advances in knowledge acquisition, transfer and management book series",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "book series",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320424
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'IGI Global' on 96.9% of its 1,342 works with a DOI and on the newest (86 of 126 since 2023). Host = the DOI registrant (#1899's rule) = P4310320424 IGI Global. With the takedown's host arm fixed (#2351) the stale host would hide 1,251 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S4210176183",
+   "host_after": "P4310320424"
+  },
+  {
+   "entry": "S52939411",
+   "source_id": 52939411,
+   "tickets": [],
+   "now": {
+    "display_name": "Medical Engineering & Physics",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/medical-engineering-and-physics",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320083
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'IOP Publishing' on 99.7% of its 4,973 works with a DOI and on the newest (658 of 659 since 2023). Host = the DOI registrant (#1899's rule) = P4310320083 IOP Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 4,262 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S52939411",
+   "host_after": "P4310320083"
+  },
+  {
+   "entry": "S85953240",
+   "source_id": 85953240,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Biomedical Engineering",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/medical-engineering-and-physics",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320083
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'IOP Publishing' on 100.0% of its 1,515 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320083 IOP Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 1,011 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S85953240",
+   "host_after": "P4310320083"
+  },
+  {
+   "entry": "S4210238099",
+   "source_id": 4210238099,
+   "tickets": [],
+   "now": {
+    "display_name": "NJAS - Wageningen Journal of Life Sciences",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/njas-wageningen-journal-of-life-sciences",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320547
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Informa UK Limited' on 100.0% of its 545 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320547 Taylor & Francis. With the takedown's host arm fixed (#2351) the stale host would hide 474 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S4210238099",
+   "host_after": "P4310320547"
+  },
+  {
+   "entry": "S13630819",
+   "source_id": 13630819,
+   "tickets": [],
+   "now": {
+    "display_name": "Orthodontic Waves",
+    "host": "P4310320990",
+    "homepage_url": "https://www.tandfonline.com/toc/todw20/current",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320547
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Informa UK Limited' on 100.0% of its 598 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320547 Taylor & Francis. With the takedown's host arm fixed (#2351) the stale host would hide 411 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S13630819",
+   "host_after": "P4310320547"
+  },
+  {
+   "entry": "S2764899362",
+   "source_id": 2764899362,
+   "tickets": [],
+   "now": {
+    "display_name": "AKCE International Journal of Graphs and Combinatorics",
+    "host": "P4310320990",
+    "homepage_url": "https://www.tandfonline.com/toc/uakc20/current",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320547
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Informa UK Limited' on 98.8% of its 585 works with a DOI and on the newest (150 of 152 since 2023). Host = the DOI registrant (#1899's rule) = P4310320547 Taylor & Francis. With the takedown's host arm fixed (#2351) the stale host would hide 46 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2764899362",
+   "host_after": "P4310320547"
+  },
+  {
+   "entry": "S2764586105",
+   "source_id": 2764586105,
+   "tickets": [],
+   "now": {
+    "display_name": "Alexandria Journal of Medicine",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/alexandria-journal-of-medicine",
+    "country_code": "IN",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320547
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Informa UK Limited' on 100.0% of its 692 works with a DOI and on the newest (89 of 89 since 2023). Host = the DOI registrant (#1899's rule) = P4310320547 Taylor & Francis. With the takedown's host arm fixed (#2351) the stale host would hide 36 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2764586105",
+   "host_after": "P4310320547"
+  },
+  {
+   "entry": "S2764730583",
+   "source_id": 2764730583,
+   "tickets": [],
+   "now": {
+    "display_name": "European Review of Private Law/Revue européenne de droit privé/Europäische Zeitschrift für Privatrecht",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.3% of its 2,144 works with a DOI and on the newest (210 of 210 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 1,487 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2764730583",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S2042836",
+   "source_id": 2042836,
+   "tickets": [],
+   "now": {
+    "display_name": "Intertax",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.8% of its 4,860 works with a DOI and on the newest (279 of 279 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 1,307 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2042836",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S100269456",
+   "source_id": 100269456,
+   "tickets": [],
+   "now": {
+    "display_name": "ASA Bulletin",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "CH",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.9% of its 2,660 works with a DOI and on the newest (334 of 334 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 991 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S100269456",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S105430050",
+   "source_id": 105430050,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of World Trade",
+    "host": "P4310319965",
+    "homepage_url": "http://www.kluwerlawonline.com",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.3% of its 3,156 works with a DOI and on the newest (162 of 164 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 991 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S105430050",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S143550000",
+   "source_id": 143550000,
+   "tickets": [],
+   "now": {
+    "display_name": "European Foreign Affairs Review",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.9% of its 1,476 works with a DOI and on the newest (126 of 126 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 926 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S143550000",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S196655567",
+   "source_id": 196655567,
+   "tickets": [],
+   "now": {
+    "display_name": "International Journal of Comparative Labour Law and Industrial Relations",
+    "host": "P4310319965",
+    "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~International+Journal+of+Comparative+Labour+Law+and+Industrial+Relations",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.3% of its 1,346 works with a DOI and on the newest (78 of 78 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 881 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S196655567",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S159320808",
+   "source_id": 159320808,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of International Arbitration",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.8% of its 1,891 works with a DOI and on the newest (133 of 133 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 817 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S159320808",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S126564611",
+   "source_id": 126564611,
+   "tickets": [],
+   "now": {
+    "display_name": "European Business Law Review",
+    "host": "P4310319965",
+    "homepage_url": "http://www.kluwerlawonline.com/productinfo.php?pubcode=EULR",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.0% of its 2,203 works with a DOI and on the newest (195 of 198 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 774 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S126564611",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S17964695",
+   "source_id": 17964695,
+   "tickets": [],
+   "now": {
+    "display_name": "Air and Space Law",
+    "host": "P4310319965",
+    "homepage_url": "http://www.kluwerlawonline.com/toc.php?pubcode=AILA",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.9% of its 2,292 works with a DOI and on the newest (194 of 194 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 695 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S17964695",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S113264738",
+   "source_id": 113264738,
+   "tickets": [],
+   "now": {
+    "display_name": "European Energy and Environmental Law Review",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.4% of its 1,407 works with a DOI and on the newest (68 of 68 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 649 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S113264738",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S39250479",
+   "source_id": 39250479,
+   "tickets": [],
+   "now": {
+    "display_name": "European Public Law",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.3% of its 1,547 works with a DOI and on the newest (85 of 85 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 646 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S39250479",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S19746927",
+   "source_id": 19746927,
+   "tickets": [],
+   "now": {
+    "display_name": "Business Law Review",
+    "host": "P4310319965",
+    "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~Business+Law+Review",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.8% of its 3,877 works with a DOI and on the newest (93 of 93 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 566 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S19746927",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S73109968",
+   "source_id": 73109968,
+   "tickets": [],
+   "now": {
+    "display_name": "EC Tax Review",
+    "host": "P4310319965",
+    "homepage_url": "http://www.kluwerlawonline.com/toc.php?area=Journals&mode=bypub&level=4&values=Journals~~EC+Tax+Review",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 99.6% of its 1,399 works with a DOI and on the newest (116 of 116 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 522 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S73109968",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S944088188",
+   "source_id": 944088188,
+   "tickets": [],
+   "now": {
+    "display_name": "World Trade and Arbitration Materials",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310318547
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Kluwer Law International BV' on 100.0% of its 1,225 works with a DOI and on the newest (40 of 40 since 2023). Host = the DOI registrant (#1899's rule) = P4310318547 Wolters Kluwer. With the takedown's host arm fixed (#2351) the stale host would hide 149 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S944088188",
+   "host_after": "P4310318547"
+  },
+  {
+   "entry": "S204463770",
+   "source_id": 204463770,
+   "tickets": [],
+   "now": {
+    "display_name": "Pump Industry Analyst",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/pump-industry-analyst",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4322632787
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Mark Allen Group' on 100.0% of its 11,249 works with a DOI. Host = the DOI registrant (#1899's rule) = P4322632787 Mark Allen Group. With the takedown's host arm fixed (#2351) the stale host would hide 6,353 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S204463770",
+   "host_after": "P4322632787"
+  },
+  {
+   "entry": "S74082208",
+   "source_id": 74082208,
+   "tickets": [],
+   "now": {
+    "display_name": "Filtration Industry Analyst",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/filtration-industry-analyst",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4322632787
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Mark Allen Group' on 100.0% of its 9,487 works with a DOI. Host = the DOI registrant (#1899's rule) = P4322632787 Mark Allen Group. With the takedown's host arm fixed (#2351) the stale host would hide 4,846 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S74082208",
+   "host_after": "P4322632787"
+  },
+  {
+   "entry": "S146707118",
+   "source_id": 146707118,
+   "tickets": [],
+   "now": {
+    "display_name": "World Pumps",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/world-pumps",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4322632787
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Mark Allen Group' on 100.0% of its 11,792 works with a DOI and on the newest (337 of 337 since 2023). Host = the DOI registrant (#1899's rule) = P4322632787 Mark Allen Group. With the takedown's host arm fixed (#2351) the stale host would hide 3,015 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S146707118",
+   "host_after": "P4322632787"
+  },
+  {
+   "entry": "S177510550",
+   "source_id": 177510550,
+   "tickets": [],
+   "now": {
+    "display_name": "Filtration & Separation",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/filtration-separation",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4322632787
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Mark Allen Group' on 100.0% of its 11,449 works with a DOI and on the newest (206 of 206 since 2023). Host = the DOI registrant (#1899's rule) = P4322632787 Mark Allen Group. With the takedown's host arm fixed (#2351) the stale host would hide 2,173 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S177510550",
+   "host_after": "P4322632787"
+  },
+  {
+   "entry": "S47396397",
+   "source_id": 47396397,
+   "tickets": [],
+   "now": {
+    "display_name": "Computer Fraud & Security Bulletin",
+    "host": "P4310320990",
+    "homepage_url": "http://www.sciencedirect.com/science/journal/01420496",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4322632787
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Mark Allen Group' on 100.0% of its 2,464 works with a DOI. Host = the DOI registrant (#1899's rule) = P4322632787 Mark Allen Group. With the takedown's host arm fixed (#2351) the stale host would hide 24 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S47396397",
+   "host_after": "P4322632787"
+  },
+  {
+   "entry": "S159512450",
+   "source_id": 159512450,
+   "tickets": [],
+   "now": {
+    "display_name": "The Journal of Sexual Medicine",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/the-journal-of-sexual-medicine",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310311648
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Oxford University Press (OUP)' on 99.9% of its 17,199 works with a DOI and on the newest (5,560 of 5,571 since 2023). Host = the DOI registrant (#1899's rule) = P4310311648 Oxford University Press. With the takedown's host arm fixed (#2351) the stale host would hide 15,523 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S159512450",
+   "host_after": "P4310311648"
+  },
+  {
+   "entry": "S87609158",
+   "source_id": 87609158,
+   "tickets": [],
+   "now": {
+    "display_name": "European Journal of Heart Failure",
+    "host": "P4310320990",
+    "homepage_url": "https://onlinelibrary.wiley.com/journal/18790844",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310311648
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Oxford University Press (OUP)' on 99.8% of its 8,980 works with a DOI and on the newest (3,080 of 3,083 since 2023). Host = the DOI registrant (#1899's rule) = P4310311648 Oxford University Press. With the takedown's host arm fixed (#2351) the stale host would hide 6,571 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S87609158",
+   "host_after": "P4310311648"
+  },
+  {
+   "entry": "S149218730",
+   "source_id": 149218730,
+   "tickets": [],
+   "now": {
+    "display_name": "The ISME Journal",
+    "host": "P4310319965",
+    "homepage_url": "https://www.nature.com/ismej/",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310311648
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Oxford University Press (OUP)' on 99.8% of its 4,571 works with a DOI and on the newest (1,072 of 1,076 since 2023). Host = the DOI registrant (#1899's rule) = P4310311648 Oxford University Press. With the takedown's host arm fixed (#2351) the stale host would hide 2,346 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S149218730",
+   "host_after": "P4310311648"
+  },
+  {
+   "entry": "S2764906504",
+   "source_id": 2764906504,
+   "tickets": [],
+   "now": {
+    "display_name": "Sexual Medicine Reviews",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/sexual-medicine-reviews",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310311648
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Oxford University Press (OUP)' on 100.0% of its 907 works with a DOI and on the newest (306 of 306 since 2023). Host = the DOI registrant (#1899's rule) = P4310311648 Oxford University Press. With the takedown's host arm fixed (#2351) the stale host would hide 650 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2764906504",
+   "host_after": "P4310311648"
+  },
+  {
+   "entry": "S129664799",
+   "source_id": 129664799,
+   "tickets": [],
+   "now": {
+    "display_name": "Policy and Society",
+    "host": "P4310320990",
+    "homepage_url": "https://www.tandfonline.com/toc/rpas20/current",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310311648
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Oxford University Press (OUP)' on 99.0% of its 917 works with a DOI and on the newest (148 of 148 since 2023). Host = the DOI registrant (#1899's rule) = P4310311648 Oxford University Press. With the takedown's host arm fixed (#2351) the stale host would hide 486 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S129664799",
+   "host_after": "P4310311648"
+  },
+  {
+   "entry": "S4210197884",
+   "source_id": 4210197884,
+   "tickets": [],
+   "now": {
+    "display_name": "European Journal of Cardio-Thoracic Surgery Supplements",
+    "host": "P4310320990",
+    "homepage_url": "http://ejcts.oxfordjournals.org",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310311648
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Oxford University Press (OUP)' on 100.0% of its 29 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310311648 Oxford University Press. With the takedown's host arm fixed (#2351) the stale host would hide 24 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S4210197884",
+   "host_after": "P4310311648"
+  },
+  {
+   "entry": "S131078631",
+   "source_id": 131078631,
+   "tickets": [],
+   "now": {
+    "display_name": "Wilderness and Environmental Medicine",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/wilderness-and-environmental-medicine",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320017
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'SAGE Publications' on 100.0% of its 3,330 works with a DOI and on the newest (540 of 541 since 2023). Host = the DOI registrant (#1899's rule) = P4310320017 SAGE Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 2,859 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S131078631",
+   "host_after": "P4310320017"
+  },
+  {
+   "entry": "S107253652",
+   "source_id": 107253652,
+   "tickets": [],
+   "now": {
+    "display_name": "American Journal of Contact Dermatitis",
+    "host": "P4310320990",
+    "homepage_url": "http://www.harcourthealth.com/amjcontactderm",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320017
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'SAGE Publications' on 98.5% of its 2,133 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320017 SAGE Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 994 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S107253652",
+   "host_after": "P4310320017"
+  },
+  {
+   "entry": "S73472941",
+   "source_id": 73472941,
+   "tickets": [],
+   "now": {
+    "display_name": "The Journal of Social Studies Research",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/the-journal-of-social-studies-research",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320017
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'SAGE Publications' on 100.0% of its 824 works with a DOI and on the newest (78 of 78 since 2023). Host = the DOI registrant (#1899's rule) = P4310320017 SAGE Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 610 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S73472941",
+   "host_after": "P4310320017"
+  },
+  {
+   "entry": "S114078578",
+   "source_id": 114078578,
+   "tickets": [],
+   "now": {
+    "display_name": "British Journal of Medical and Surgical Urology",
+    "host": "P4310320990",
+    "homepage_url": "http://www.sciencedirect.com/science/journal/18759742",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320017
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'SAGE Publications' on 100.0% of its 403 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320017 SAGE Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 215 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S114078578",
+   "host_after": "P4310320017"
+  },
+  {
+   "entry": "S2764778852",
+   "source_id": 2764778852,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Wilderness Medicine",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/wilderness-and-environmental-medicine",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320017
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'SAGE Publications' on 100.0% of its 279 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320017 SAGE Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 164 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2764778852",
+   "host_after": "P4310320017"
+  },
+  {
+   "entry": "S58293947",
+   "source_id": 58293947,
+   "tickets": [],
+   "now": {
+    "display_name": "The Journal of Men s Health and Gender",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320017
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'SAGE Publications' on 92.7% of its 494 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320017 SAGE Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 151 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S58293947",
+   "host_after": "P4310320017"
+  },
+  {
+   "entry": "S2898240301",
+   "source_id": 2898240301,
+   "tickets": [],
+   "now": {
+    "display_name": "Asia-Australia Marketing Journal",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/asia-australia-marketing-journal",
+    "country_code": "AU",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320017
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'SAGE Publications' on 100.0% of its 49 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320017 SAGE Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 31 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2898240301",
+   "host_after": "P4310320017"
+  },
+  {
+   "entry": "S95433592",
+   "source_id": 95433592,
+   "tickets": [],
+   "now": {
+    "display_name": "Pediatric Annals",
+    "host": "P4310320990",
+    "homepage_url": "http://www.umi.com/pqdauto",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4320800624
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'SLACK, Inc.' on 100.0% of its 6,394 works with a DOI and on the newest (390 of 390 since 2023). Host = the DOI registrant (#1899's rule) = P4320800624 Slack Incorporated. With the takedown's host arm fixed (#2351) the stale host would hide 2,096 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S95433592",
+   "host_after": "P4320800624"
+  },
+  {
+   "entry": "S124357017",
+   "source_id": 124357017,
+   "tickets": [],
+   "now": {
+    "display_name": "Oncology Reports",
+    "host": "P4310320990",
+    "homepage_url": "http://www.spandidos-publications.com/or/",
+    "country_code": "GR",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320412
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Spandidos Publications' on 100.0% of its 13,604 works with a DOI and on the newest (745 of 745 since 2023). Host = the DOI registrant (#1899's rule) = P4310320412 Spandidos Publishing. With the takedown's host arm fixed (#2351) the stale host would hide 10,766 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S124357017",
+   "host_after": "P4310320412"
+  },
+  {
+   "entry": "S2764804524",
+   "source_id": 2764804524,
+   "tickets": [],
+   "now": {
+    "display_name": "Global Heart",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/global-heart",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320511
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Ubiquity Press, Ltd.' on 99.9% of its 3,789 works with a DOI and on the newest (364 of 364 since 2023). Host = the DOI registrant (#1899's rule) = P4310320511 Ubiquity Press. With the takedown's host arm fixed (#2351) the stale host would hide 1,263 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S2764804524",
+   "host_after": "P4310320511"
+  },
+  {
+   "entry": "S80222136",
+   "source_id": 80222136,
+   "tickets": [],
+   "now": {
+    "display_name": "CVD prevention and control",
+    "host": "P4310320990",
+    "homepage_url": "http://www.sciencedirect.com/science/journal/18754570",
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320511
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Ubiquity Press, Ltd.' on 100.0% of its 636 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320511 Ubiquity Press. With the takedown's host arm fixed (#2351) the stale host would hide 49 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S80222136",
+   "host_after": "P4310320511"
+  },
+  {
+   "entry": "S156498377",
+   "source_id": 156498377,
+   "tickets": [],
+   "now": {
+    "display_name": "The Chemical Educator",
+    "host": "P4310319965",
+    "homepage_url": "http://chemeducator.org/tocs.htm",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310315693
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'University of California Press' on 100.0% of its 2,130 works with a DOI and on the newest (82 of 82 since 2023). Host = the DOI registrant (#1899's rule) = P4310315693 University of California Press. With the takedown's host arm fixed (#2351) the stale host would hide 1,789 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S156498377",
+   "host_after": "P4310315693"
+  },
+  {
+   "entry": "S200446109",
+   "source_id": 200446109,
+   "tickets": [],
+   "now": {
+    "display_name": "Communist and Post-Communist Studies",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310315693
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'University of California Press' on 99.9% of its 1,160 works with a DOI and on the newest (149 of 150 since 2023). Host = the DOI registrant (#1899's rule) = P4310315693 University of California Press. With the takedown's host arm fixed (#2351) the stale host would hide 999 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S200446109",
+   "host_after": "P4310315693"
+  },
+  {
+   "entry": "S69617268",
+   "source_id": 69617268,
+   "tickets": [],
+   "now": {
+    "display_name": "Scandinavian Journal of Pain",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/scandinavian-journal-of-pain",
+    "country_code": "DE",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310313990
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Walter de Gruyter GmbH' on 100.0% of its 1,642 works with a DOI and on the newest (220 of 220 since 2023). Host = the DOI registrant (#1899's rule) = P4310313990 De Gruyter. With the takedown's host arm fixed (#2351) the stale host would hide 1,048 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S69617268",
+   "host_after": "P4310313990"
+  },
+  {
+   "entry": "S182554291",
+   "source_id": 182554291,
+   "tickets": [],
+   "now": {
+    "display_name": "Medizinische Genetik",
+    "host": "P4310319965",
+    "homepage_url": "https://link.springer.com/journal/11825",
+    "country_code": "DE",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310313990
+   },
+   "why": "stale host: Springer Nature no longer registers this title's DOIs; Crossref names 'Walter de Gruyter GmbH' on 99.6% of its 1,096 works with a DOI and on the newest (244 of 244 since 2023). Host = the DOI registrant (#1899's rule) = P4310313990 De Gruyter. With the takedown's host arm fixed (#2351) the stale host would hide 294 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S182554291",
+   "host_after": "P4310313990"
+  },
+  {
+   "entry": "S4210172715",
+   "source_id": 4210172715,
+   "tickets": [],
+   "now": {
+    "display_name": "Cochrane Database of Systematic Reviews",
+    "host": "P4310320990",
+    "homepage_url": "http://www.nelh.nhs.uk/cochrane.asp",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320595
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Wiley' on 100.0% of its 29,055 works with a DOI and on the newest (1,631 of 1,631 since 2023). Host = the DOI registrant (#1899's rule) = P4310320595 Wiley. With the takedown's host arm fixed (#2351) the stale host would hide 26,488 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S4210172715",
+   "host_after": "P4310320595"
+  },
+  {
+   "entry": "S107905979",
+   "source_id": 107905979,
+   "tickets": [],
+   "now": {
+    "display_name": "Arthroscopy The Journal of Arthroscopic and Related Surgery",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/arthroscopy-the-journal-of-arthroscopic-and-related-surgery",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320595
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Wiley' on 99.5% of its 19,067 works with a DOI and on the newest (2,644 of 2,644 since 2023). Host = the DOI registrant (#1899's rule) = P4310320595 Wiley. With the takedown's host arm fixed (#2351) the stale host would hide 15,275 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S107905979",
+   "host_after": "P4310320595"
+  },
+  {
+   "entry": "S4210216427",
+   "source_id": 4210216427,
+   "tickets": [],
+   "now": {
+    "display_name": "International Journal of Gynecology & Obstetrics",
+    "host": "P4310320990",
+    "homepage_url": "https://obgyn.onlinelibrary.wiley.com/journal/18793479",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320595
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Wiley' on 100.0% of its 29,500 works with a DOI and on the newest (3,051 of 3,053 since 2023). Host = the DOI registrant (#1899's rule) = P4310320595 Wiley. With the takedown's host arm fixed (#2351) the stale host would hide 11,614 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S4210216427",
+   "host_after": "P4310320595"
+  },
+  {
+   "entry": "S163545350",
+   "source_id": 163545350,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Consumer Psychology",
+    "host": "P4310320990",
+    "homepage_url": "https://onlinelibrary.wiley.com/journal/15327663",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320595
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Wiley' on 94.9% of its 1,750 works with a DOI and on the newest (188 of 188 since 2023). Host = the DOI registrant (#1899's rule) = P4310320595 Wiley. With the takedown's host arm fixed (#2351) the stale host would hide 1,326 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S163545350",
+   "host_after": "P4310320595"
+  },
+  {
+   "entry": "S80282989",
+   "source_id": 80282989,
+   "tickets": [],
+   "now": {
+    "display_name": "Molecular Oncology",
+    "host": "P4310320990",
+    "homepage_url": "https://febs.onlinelibrary.wiley.com/journal/18780261",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320595
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Wiley' on 99.7% of its 3,200 works with a DOI and on the newest (873 of 877 since 2023). Host = the DOI registrant (#1899's rule) = P4310320595 Wiley. With the takedown's host arm fixed (#2351) the stale host would hide 802 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S80282989",
+   "host_after": "P4310320595"
+  },
+  {
+   "entry": "S105710273",
+   "source_id": 105710273,
+   "tickets": [],
+   "now": {
+    "display_name": "Review of Financial Economics",
+    "host": "P4310320990",
+    "homepage_url": "https://onlinelibrary.wiley.com/journal/18735924",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320595
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Wiley' on 96.9% of its 1,006 works with a DOI and on the newest (141 of 142 since 2023). Host = the DOI registrant (#1899's rule) = P4310320595 Wiley. With the takedown's host arm fixed (#2351) the stale host would hide 642 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S105710273",
+   "host_after": "P4310320595"
+  },
+  {
+   "entry": "S97640881",
+   "source_id": 97640881,
+   "tickets": [],
+   "now": {
+    "display_name": "European Journal of Pain Supplements",
+    "host": "P4310320990",
+    "homepage_url": "http://www.clinicalkey.com.au/dura/browse/journalIssue/17543207",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320595
+   },
+   "why": "stale host: Elsevier no longer registers this title's DOIs; Crossref names 'Wiley' on 100.0% of its 1,709 works with a DOI. Host = the DOI registrant (#1899's rule) = P4310320595 Wiley. With the takedown's host arm fixed (#2351) the stale host would hide 161 of its works' abstracts.",
+   "evidence": "Databricks openalex.transient.oxjob2351_stale_host_candidates (oxjob #2351 work/stale_host_candidates.sql), 17 Nov",
+   "check": "https://api.openalex.org/sources/S97640881",
+   "host_after": "P4310320595"
+  }
+ ]
+}
