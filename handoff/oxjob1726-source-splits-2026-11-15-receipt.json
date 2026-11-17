@@ -1,0 +1,754 @@
+{
+ "run_at": "2026-11-17T18:14:56.882018+00:00",
+ "job": 1726,
+ "approved": "support factory #2254 (Jason 2026-11-15 yes); RULES-DRAFT R1/R3/R6 (2026-07-17); Kyle ZD 26978 desk 2026-11-07",
+ "before": {
+  "166351637": {
+   "id": 166351637,
+   "display_name": "Process Safety and Environmental Protection",
+   "type": "journal",
+   "issn_l": "0957-5820",
+   "issns": [
+    "0957-5820",
+    "0263-8762",
+    "1744-3563",
+    "1744-3598",
+    "1876-4800"
+   ],
+   "alternate_titles": [
+    "Transactions of the Institution of Chemical Engineers. Part B, Process safety and environmental protection",
+    "Transactions of the Institution of Chemical Engineers. Part A, Chemical engineering research and design"
+   ],
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "Elsevier",
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://www.journals.elsevier.com/process-safety-and-environmental-protection",
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": [],
+   "sample_pmh_record": null,
+   "apc_usd": 3500,
+   "apc_prices": [
+    {
+     "price": 3500,
+     "currency": "USD"
+    },
+    {
+     "price": 3270,
+     "currency": "EUR"
+    },
+    {
+     "price": 2800,
+     "currency": "GBP"
+    },
+    {
+     "price": 434110,
+     "currency": "JPY"
+    }
+   ],
+   "societies": [
+    {
+     "url": "http://www.icheme.org/",
+     "organization": "Institution of Chemical Engineers"
+    }
+   ],
+   "is_society_journal": true,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": false,
+   "is_ojs": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "is_core": true,
+   "is_preprint_repository": false,
+   "created_date": "2016-06-24 00:00:00+00:00",
+   "updated_date": "2026-11-11 13:06:10.679764+00:00",
+   "apc_usd_by_year": {
+    "2019": 3300,
+    "2020": 3300,
+    "2021": 3500,
+    "2022": 3500,
+    "2023": 3500,
+    "2024": 3500,
+    "2025": 3500
+   },
+   "apc_prices_by_year": {
+    "2019": [
+     {
+      "price": 3300,
+      "currency": "USD"
+     }
+    ],
+    "2020": [
+     {
+      "price": 3300,
+      "currency": "USD"
+     }
+    ],
+    "2021": [
+     {
+      "price": 3500,
+      "currency": "USD"
+     },
+     {
+      "price": 3060,
+      "currency": "EUR"
+     },
+     {
+      "price": 2750,
+      "currency": "GBP"
+     },
+     {
+      "price": 376130,
+      "currency": "JPY"
+     }
+    ],
+    "2022": [
+     {
+      "price": 3500,
+      "currency": "USD"
+     },
+     {
+      "price": 3060,
+      "currency": "EUR"
+     },
+     {
+      "price": 2750,
+      "currency": "GBP"
+     },
+     {
+      "price": 376130,
+      "currency": "JPY"
+     }
+    ],
+    "2023": [
+     {
+      "price": 3500,
+      "currency": "USD"
+     },
+     {
+      "price": 3190,
+      "currency": "EUR"
+     },
+     {
+      "price": 2800,
+      "currency": "GBP"
+     },
+     {
+      "price": 393260,
+      "currency": "JPY"
+     }
+    ],
+    "2024": [
+     {
+      "price": 3500,
+      "currency": "USD"
+     },
+     {
+      "price": 3190,
+      "currency": "EUR"
+     },
+     {
+      "price": 2800,
+      "currency": "GBP"
+     },
+     {
+      "price": 412930,
+      "currency": "JPY"
+     }
+    ],
+    "2025": [
+     {
+      "price": 3500,
+      "currency": "USD"
+     },
+     {
+      "price": 3270,
+      "currency": "EUR"
+     },
+     {
+      "price": 2800,
+      "currency": "GBP"
+     },
+     {
+      "price": 434110,
+      "currency": "JPY"
+     }
+    ]
+   },
+   "listed_in": [
+    "cwts-core",
+    "dongbi-b",
+    "dongbi-c",
+    "jufo-1",
+    "norway-1",
+    "poland-100",
+    "poland-140",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "_source_issn": [
+    {
+     "issn": "0263-8762",
+     "is_issn_l": false
+    },
+    {
+     "issn": "0957-5820",
+     "is_issn_l": true
+    },
+    {
+     "issn": "1744-3563",
+     "is_issn_l": false
+    },
+    {
+     "issn": "1744-3598",
+     "is_issn_l": false
+    },
+    {
+     "issn": "1876-4800",
+     "is_issn_l": false
+    }
+   ]
+  },
+  "merges_into_166351637": [],
+  "1002663397": {
+   "id": 1002663397,
+   "display_name": "GRURRR. Gewerblicher Rechtsschutz und Urheberrecht, Rechtsprechungs-Report/GRUR-DVD/GRUR-CD/IIC/Gewerblicher Rechtsschutz und Urheberrecht/Gewerblicher Rechtsschutz und Urheberrecht. Internationaler Teil",
+   "type": "journal",
+   "issn_l": "0016-9420",
+   "issns": [
+    "0016-9420",
+    "0018-9855",
+    "0435-8600",
+    "2195-0237"
+   ],
+   "alternate_titles": [
+    "GRUR",
+    "IIC - international review of intellectual property and competition law"
+   ],
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "http://rsw.beck.de/rsw/shop/default.asp?sessionid=ADE2E498E1EB44B2BDCFA1FE17702425&toc=Grur.root",
+   "country": "Germany",
+   "country_code": "DE",
+   "wikidata_id": "https://www.wikidata.org/entity/Q1520489",
+   "fatcat_id": "https://fatcat.wiki/container/aqxdsez6u5dlzb7pnez3tilvle",
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": [],
+   "sample_pmh_record": null,
+   "apc_usd": 2390,
+   "apc_prices": [
+    {
+     "price": 2390,
+     "currency": "USD"
+    },
+    {
+     "price": 3290,
+     "currency": "EUR"
+    }
+   ],
+   "societies": [],
+   "is_society_journal": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": false,
+   "is_ojs": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "is_core": false,
+   "is_preprint_repository": false,
+   "created_date": "2016-06-24 00:00:00+00:00",
+   "updated_date": "2026-08-27 05:22:48.983639+00:00",
+   "apc_usd_by_year": {
+    "2019": 2690,
+    "2020": 2750,
+    "2021": 2780,
+    "2022": 2890,
+    "2023": 2890,
+    "2024": 3090,
+    "2025": 2390
+   },
+   "apc_prices_by_year": {
+    "2019": [
+     {
+      "price": 2690,
+      "currency": "USD"
+     },
+     {
+      "price": 2040,
+      "currency": "EUR"
+     },
+     {
+      "price": 1760,
+      "currency": "GBP"
+     }
+    ],
+    "2020": [
+     {
+      "price": 2750,
+      "currency": "USD"
+     },
+     {
+      "price": 2170,
+      "currency": "EUR"
+     },
+     {
+      "price": 1870,
+      "currency": "GBP"
+     }
+    ],
+    "2021": [
+     {
+      "price": 2780,
+      "currency": "USD"
+     },
+     {
+      "price": 2190,
+      "currency": "EUR"
+     },
+     {
+      "price": 1890,
+      "currency": "GBP"
+     }
+    ],
+    "2022": [
+     {
+      "price": 2890,
+      "currency": "USD"
+     },
+     {
+      "price": 2290,
+      "currency": "EUR"
+     },
+     {
+      "price": 1990,
+      "currency": "GBP"
+     }
+    ],
+    "2023": [
+     {
+      "price": 2890,
+      "currency": "USD"
+     },
+     {
+      "price": 2290,
+      "currency": "EUR"
+     },
+     {
+      "price": 1990,
+      "currency": "GBP"
+     }
+    ],
+    "2024": [
+     {
+      "price": 3090,
+      "currency": "USD"
+     },
+     {
+      "price": 2490,
+      "currency": "EUR"
+     },
+     {
+      "price": 2190,
+      "currency": "GBP"
+     }
+    ],
+    "2025": [
+     {
+      "price": 2390,
+      "currency": "USD"
+     },
+     {
+      "price": 3290,
+      "currency": "EUR"
+     }
+    ]
+   },
+   "listed_in": [
+    "abdc-a",
+    "anvur-class-a",
+    "anvur-scientific",
+    "jufo-1",
+    "jufo-3",
+    "norway-1",
+    "norway-2",
+    "poland-100",
+    "russia-white-list-2",
+    "vabb-shw"
+   ],
+   "_source_issn": [
+    {
+     "issn": "0016-9420",
+     "is_issn_l": true
+    },
+    {
+     "issn": "0018-9855",
+     "is_issn_l": false
+    },
+    {
+     "issn": "0435-8600",
+     "is_issn_l": false
+    },
+    {
+     "issn": "2195-0237",
+     "is_issn_l": false
+    }
+   ]
+  },
+  "merges_into_1002663397": [
+   {
+    "id": "18988",
+    "loser_id": "4306512903",
+    "winner_id": "1002663397",
+    "rule": "batch_dedup:arb2_gpt_flag",
+    "source_feed": "oxjob629",
+    "detail": "{'batch': 'nd_wave1_20260726', 'subclass': 'arb2_gpt_flag'}",
+    "merged_at": "2026-07-27 07:16:50.847654+00:00"
+   }
+  ],
+  "4210174795": {
+   "id": 4210174795,
+   "display_name": "GRUR International",
+   "type": "journal",
+   "issn_l": "2632-8550",
+   "issns": [
+    "2632-8550",
+    "2632-8623"
+   ],
+   "alternate_titles": [
+    "Journal of European and international IP law",
+    "Journal of European and International IP Law"
+   ],
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "Oxford University Press",
+   "publisher_id": 4310311648,
+   "institution_id": null,
+   "homepage_url": "https://academic.oup.com/grurint",
+   "country": "Germany",
+   "country_code": "DE",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": [],
+   "sample_pmh_record": null,
+   "apc_usd": 4380,
+   "apc_prices": [
+    {
+     "price": 3876,
+     "currency": "EUR"
+    }
+   ],
+   "societies": [],
+   "is_society_journal": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": false,
+   "is_ojs": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "is_core": true,
+   "is_preprint_repository": false,
+   "created_date": "2022-02-03 22:06:57.786323+00:00",
+   "updated_date": "2026-08-27 05:22:48.983639+00:00",
+   "apc_usd_by_year": {
+    "2021": 3673,
+    "2022": 3739,
+    "2023": 3839,
+    "2024": 4405,
+    "2025": 4380
+   },
+   "apc_prices_by_year": {
+    "2021": [
+     {
+      "price": 3673,
+      "currency": "USD"
+     },
+     {
+      "price": 3329,
+      "currency": "EUR"
+     },
+     {
+      "price": 2886,
+      "currency": "GBP"
+     }
+    ],
+    "2022": [
+     {
+      "price": 3549.02,
+      "currency": "EUR"
+     }
+    ],
+    "2023": [
+     {
+      "price": 3549,
+      "currency": "EUR"
+     }
+    ],
+    "2024": [
+     {
+      "price": 4069.8,
+      "currency": "EUR"
+     }
+    ],
+    "2025": [
+     {
+      "price": 3876,
+      "currency": "EUR"
+     }
+    ]
+   },
+   "listed_in": [
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "jufo-2",
+    "vabb-shw"
+   ],
+   "_source_issn": [
+    {
+     "issn": "2632-8550",
+     "is_issn_l": true
+    },
+    {
+     "issn": "2632-8623",
+     "is_issn_l": false
+    }
+   ]
+  }
+ },
+ "checks": [],
+ "actions": [
+  "S166351637: removed ['0263-8762', '1744-3563'] and the Part A alternate title; override_timestamp set",
+  "MINTED S7407122749 journal 'Chemical Engineering Research and Design' ['0263-8762', '1744-3563'] issn_l 0263-8762 publisher_id 4310320990 (ZD 26196, 26978, 6388)",
+  "S1002663397: issn_l -> 0018-9855; removed 0016-9420, 0435-8600; renamed 'IIC - International Review of Intellectual Property and Competition Law'; publisher Springer 4310319900; homepage; alternate titles ['IIC', 'International Review of Intellectual Property and Competition Law']",
+  "MINTED S7407122750 journal 'Gewerblicher Rechtsschutz und Urheberrecht' ['0016-9420'] issn_l 0016-9420 publisher_id 4310320552 (ZD 26811)",
+  "S4210174795 GRUR International += 0435-8600 (R3: predecessor GRUR Int.) and alternate title 'Gewerblicher Rechtsschutz und Urheberrecht. Internationaler Teil'",
+  "listed_in rows changed 5",
+  "COMMITTED"
+ ],
+ "minted": [
+  {
+   "source_id": 7407122749,
+   "name": "Chemical Engineering Research and Design",
+   "issns": [
+    "0263-8762",
+    "1744-3563"
+   ],
+   "ticket": "ZD 26196, 26978, 6388"
+  },
+  {
+   "source_id": 7407122750,
+   "name": "Gewerblicher Rechtsschutz und Urheberrecht",
+   "issns": [
+    "0016-9420"
+   ],
+   "ticket": "ZD 26811"
+  }
+ ],
+ "after": {
+  "166351637": {
+   "display_name": "Process Safety and Environmental Protection",
+   "issn_l": "0957-5820",
+   "issns": [
+    "0957-5820",
+    "1744-3598",
+    "1876-4800"
+   ],
+   "publisher": "Elsevier",
+   "publisher_id": 4310320990,
+   "alternate_titles": [
+    "Transactions of the Institution of Chemical Engineers. Part B, Process safety and environmental protection"
+   ],
+   "listed_in": [
+    "cwts-core",
+    "dongbi-b",
+    "jufo-1",
+    "norway-1",
+    "poland-100",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "is_core": true,
+   "country_code": "GB",
+   "override_timestamp": "2026-11-17 18:14:57.615444+00:00",
+   "_source_issn": [
+    {
+     "issn": "0957-5820",
+     "is_issn_l": true
+    },
+    {
+     "issn": "1744-3598",
+     "is_issn_l": false
+    },
+    {
+     "issn": "1876-4800",
+     "is_issn_l": false
+    }
+   ]
+  },
+  "7407122749": {
+   "display_name": "Chemical Engineering Research and Design",
+   "issn_l": "0263-8762",
+   "issns": [
+    "0263-8762",
+    "1744-3563"
+   ],
+   "publisher": "Elsevier",
+   "publisher_id": 4310320990,
+   "alternate_titles": [
+    "Transactions of the Institution of Chemical Engineers. Part A, Chemical engineering research and design"
+   ],
+   "listed_in": [
+    "cwts-core",
+    "dongbi-c",
+    "jufo-1",
+    "norway-1",
+    "poland-140",
+    "russia-white-list-1",
+    "vabb-shw"
+   ],
+   "is_core": true,
+   "country_code": "GB",
+   "override_timestamp": "2026-11-17 18:14:57.615444+00:00",
+   "_source_issn": [
+    {
+     "issn": "0263-8762",
+     "is_issn_l": true
+    },
+    {
+     "issn": "1744-3563",
+     "is_issn_l": false
+    }
+   ]
+  },
+  "1002663397": {
+   "display_name": "IIC - International Review of Intellectual Property and Competition Law",
+   "issn_l": "0018-9855",
+   "issns": [
+    "0018-9855",
+    "2195-0237"
+   ],
+   "publisher": "Springer Science+Business Media",
+   "publisher_id": 4310319900,
+   "alternate_titles": [
+    "IIC",
+    "International Review of Intellectual Property and Competition Law"
+   ],
+   "listed_in": [
+    "abdc-a",
+    "anvur-class-a",
+    "anvur-scientific",
+    "jufo-3",
+    "norway-2",
+    "poland-100",
+    "russia-white-list-2",
+    "vabb-shw"
+   ],
+   "is_core": false,
+   "country_code": "DE",
+   "override_timestamp": "2026-11-17 18:14:57.615444+00:00",
+   "_source_issn": [
+    {
+     "issn": "0018-9855",
+     "is_issn_l": true
+    },
+    {
+     "issn": "2195-0237",
+     "is_issn_l": false
+    }
+   ]
+  },
+  "7407122750": {
+   "display_name": "Gewerblicher Rechtsschutz und Urheberrecht",
+   "issn_l": "0016-9420",
+   "issns": [
+    "0016-9420"
+   ],
+   "publisher": "C.H. Beck",
+   "publisher_id": 4310320552,
+   "alternate_titles": [
+    "GRUR"
+   ],
+   "listed_in": [
+    "anvur-class-a",
+    "anvur-scientific",
+    "jufo-1",
+    "norway-1",
+    "russia-white-list-2"
+   ],
+   "is_core": null,
+   "country_code": "DE",
+   "override_timestamp": "2026-11-17 18:14:57.615444+00:00",
+   "_source_issn": [
+    {
+     "issn": "0016-9420",
+     "is_issn_l": true
+    }
+   ]
+  },
+  "4210174795": {
+   "display_name": "GRUR International",
+   "issn_l": "2632-8550",
+   "issns": [
+    "2632-8550",
+    "0435-8600",
+    "2632-8623"
+   ],
+   "publisher": "Oxford University Press",
+   "publisher_id": 4310311648,
+   "alternate_titles": [
+    "Journal of European and international IP law",
+    "Journal of European and International IP Law",
+    "Gewerblicher Rechtsschutz und Urheberrecht. Internationaler Teil"
+   ],
+   "listed_in": [
+    "anvur-class-a",
+    "anvur-scientific",
+    "cwts-core",
+    "jufo-2",
+    "norway-1",
+    "vabb-shw"
+   ],
+   "is_core": true,
+   "country_code": "DE",
+   "override_timestamp": null,
+   "_source_issn": [
+    {
+     "issn": "0435-8600",
+     "is_issn_l": false
+    },
+    {
+     "issn": "2632-8550",
+     "is_issn_l": true
+    },
+    {
+     "issn": "2632-8623",
+     "is_issn_l": false
+    }
+   ]
+  }
+ },
+ "execute": true,
+ "only": null
+}
