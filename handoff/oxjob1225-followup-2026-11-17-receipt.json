@@ -1,0 +1,137 @@
+{
+ "run_at": "2026-11-18T16:24:07.710625+00:00",
+ "execute": true,
+ "job": 1225,
+ "approved": "support factory #2254 (Jason 2026-11-15 yes); RULINGS § 3 D5 (Jason 2026-11-16); standing authority",
+ "before": {
+  "4387291174": {
+   "id": 4387291174,
+   "display_name": "Climate Literacy in Education",
+   "type": "journal",
+   "issn_l": "2836-4546",
+   "issns": [
+    "2836-4546"
+   ],
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "University of Minnesota",
+   "publisher_id": 4310320514,
+   "institution_id": null,
+   "homepage_url": "https://pubs.lib.umn.edu/index.php/cle",
+   "country": "United States",
+   "country_code": "US",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": [],
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": false,
+   "is_ojs": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "is_core": true,
+   "is_preprint_repository": false,
+   "created_date": "2023-10-03 13:43:31.688131+00:00",
+   "updated_date": "2026-09-29 16:03:13.639516+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": [
+    "cwts-core",
+    "norway-1"
+   ]
+  },
+  "4387286171": {
+   "id": 4387286171,
+   "display_name": "Journal of Social Equity and Public Administration",
+   "type": "journal",
+   "issn_l": "2832-9287",
+   "issns": [
+    "2832-9287"
+   ],
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "University of Minnesota",
+   "publisher_id": 4310320514,
+   "institution_id": null,
+   "homepage_url": "https://jsepajournal.org/index.php/jsepa",
+   "country": "United States",
+   "country_code": "US",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": [],
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_in_doaj_start_year": 2023,
+   "doaj_license": "cc-by",
+   "is_in_scielo": false,
+   "is_ojs": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "is_core": false,
+   "is_preprint_repository": false,
+   "created_date": "2023-10-03 13:32:06.474925+00:00",
+   "updated_date": "2026-09-29 16:00:55.343017+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": [
+    "doaj"
+   ]
+  }
+ },
+ "actions": [
+  "alternate_titles S7407145167 += ['Современная электродинамика']",
+  "MINTED S7407145167 journal 'Modern Electrodynamics' ['2949-0553'] (ZD 8948)",
+  "alternate_titles S7407145175 += ['Editorial Teseo eBooks']",
+  "S7407145175 institution_id: NULL -> 4392738277 (host; ZD 1278)",
+  "MINTED S7407145175 ebook platform 'Teseo eBooks' [] (ZD 1278)",
+  "S7407145182 institution_id: NULL -> 4396570550 (host; ZD 5353)",
+  "MINTED S7407145182 ebook platform 'RTI Press eBooks' [] (ZD 5353)",
+  "S4387291174 publisher_id 4310320514 -> 4310316065 (ZD 2243)",
+  "S4387286171 publisher_id 4310320514 -> 4310316065 (ZD 2243)",
+  "recompute_is_oa: 0 source(s) changed",
+  "recompute_listed_in: 3",
+  "COMMITTED"
+ ],
+ "minted": [
+  {
+   "source_id": 7407145167,
+   "name": "Modern Electrodynamics",
+   "issns": [
+    "2949-0553"
+   ],
+   "ticket": 8948
+  },
+  {
+   "source_id": 7407145175,
+   "name": "Teseo eBooks",
+   "issns": [],
+   "ticket": 1278
+  },
+  {
+   "source_id": 7407145182,
+   "name": "RTI Press eBooks",
+   "issns": [],
+   "ticket": 5353
+  }
+ ]
+}
