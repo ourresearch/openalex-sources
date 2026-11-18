@@ -1,0 +1,52 @@
+{
+ "run_at": "2026-11-18T20:01:38.664463+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 2100,
+ "before": {
+  "source": {
+   "id": 4306419637,
+   "display_name": "International Conference on Learning Representations",
+   "type": "conference",
+   "issn_l": null,
+   "issns": null,
+   "homepage_url": null,
+   "is_oa": true
+  },
+  "endpoints_on_source": [],
+  "endpoints_on_hosts": []
+ },
+ "actions": [
+  "REGISTERED endpoint j804cxp8hy6htjgkk8hy https://proceedings.iclr.cc/ -> S4306419637 is_journal_host, ready_to_run false (files, not harvest)",
+  "S4306419637 homepage_url NULL -> https://iclr.cc/",
+  "COMMITTED"
+ ],
+ "after": {
+  "endpoint": [
+   {
+    "id": "j804cxp8hy6htjgkk8hy",
+    "pmh_url": "https://proceedings.iclr.cc/",
+    "pmh_set": null,
+    "source_id": 4306419637,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false,
+    "harvest_identify_response": "No OAI-PMH server: this is ICLR's proceedings site. Records are written to S3 by oxjob #2100's build_iclr_feed.py; ready_to_run stays false so the harvester never calls it."
+   }
+  ],
+  "source": [
+   {
+    "id": 4306419637,
+    "display_name": "International Conference on Learning Representations",
+    "homepage_url": "https://iclr.cc/"
+   }
+  ]
+ },
+ "revert": [
+  "DELETE FROM oai_pmh_endpoint WHERE id = 'j804cxp8hy6htjgkk8hy' AND source_id = 4306419637;",
+  "UPDATE sources SET homepage_url = NULL WHERE id = 4306419637 AND homepage_url = 'https://iclr.cc/';"
+ ],
+ "homepage_set": true
+}
