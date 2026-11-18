@@ -1,0 +1,1 @@
+{"run_at": "2026-11-18T21:08:11.361718+00:00", "execute": true, "revert_of": "handoff/oxjob2385-d12-hosts-2026-11-18-partial-revert.json", "before": [168490, 102652, 18129], "skipped": {}, "reverted": 3, "after": [168493, 102652, 18126]}
