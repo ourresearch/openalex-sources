@@ -53,7 +53,7 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | `reconcile_issn_l` | Set `sources.issn_l` to the ISSN IC's ISSN-L wherever the source owns it (oxjob #2154: 5,402 sources disagreed on 2026-11-11). Adds a missing ISSN-L only for ids in `--adopt-ids`; leaves two-family sources and ISSN-Ls another source owns alone. Receipt + `--revert`. |
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
 | `apply_oa_flags` | Recompute `is_oa_high_oa_rate` (mapping tables + `ojs_beacon_mint`), `is_fully_open_in_jstage`, and `is_ojs` from `ojs_beacon_issn`. |
-| `apply_source_curations` | Copy journals' OA corrections from users-api's central curations table (entity `sources`: `is_oa`, `oa_flip_year`; oxjob #1224) into `source_oa_override`, latest per source and field, then re-derive those sources' flags. Correct a journal's OA flag by POSTing a curation, never by editing `source_oa_override` (Jason, 14 Nov 2026: one corrections table). Needs `USERS_API_KEY` (a site curator's or admin's key). |
+| `apply_source_curations` | Copy journals' OA corrections from users-api's central curations table (entity `sources`: `is_oa`, `oa_flip_year`; oxjob #1224) into `source_oa_override`, latest per source and field, then re-derive those sources' flags. Correct a journal's OA flag by POSTing a curation, never by editing `source_oa_override` (Jason, 14 Nov 2026: one corrections table). Needs `USERS_API_KEY`: a site curator's key (curation-bot), never an admin one. |
 | `load_ojs_beacon` | **By hand**, yearly when PKP publishes a new Beacon edition (Harvard Dataverse doi:10.7910/DVN/OCZNVY). Full-replace `ojs_beacon_issn` from `data/ojs_beacon/`, then recompute `is_ojs`. |
 | `refresh_source_stats` | Reload `source_works_count` + `source_publication_years` from api.openalex.org/sources (~282K sources, ~1,400 cursor pages, one-transaction TRUNCATE+COPY). Uses `OPENALEX_UI_ADMIN_API_KEY` to run unthrottled. |
 | `load_source_list` | **By hand, on request** (no schedule, by decision — oxjob #1205). Full-replace one external source list from a CSV in `data/source_lists/` into `source_list_member`, then `recompute_listed_in`. Run when a maintainer sends a new edition (email / support ticket). |
@@ -128,7 +128,7 @@ Bearer `ADVANCED_SCHEDULER_API_TOKEN`) — no dashboard clicking. Current schedu
 | Mon 05:30 | `datacite_clients && sync_datacite_clients` |
 | Mon 05:45 | `doaj --mint` |
 | Mon 05:55 | `apply_oa_flags` |
-| daily 04:30 | `apply_source_curations` (to add: oxjob #1224 NEEDS HEROKU) |
+| daily 02:00 | `apply_source_curations` (20:00 CT, so a curation posted by then rides that night's End 2 End) |
 | daily 06:00 | `crossref_journals && sync_crossref_journals` |
 | daily 06:30 | `resolve_conflicts` |
 
