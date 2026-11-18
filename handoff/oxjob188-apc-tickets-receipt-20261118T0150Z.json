@@ -1,0 +1,133 @@
+{
+ "run_at": "2026-11-18T01:50:29.184723+00:00",
+ "execute": true,
+ "before": {
+  "2898597390": {
+   "id": 2898597390,
+   "display_name": "Revista Colombiana de Ortopedia y Traumatología",
+   "apc_usd": 3000,
+   "apc_prices": [
+    {
+     "price": 3000,
+     "currency": "USD"
+    }
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "publisher_id": 4404678060,
+   "institution_id": null
+  },
+  "25010850": {
+   "id": 25010850,
+   "display_name": "Publications mathématiques de l IHÉS",
+   "apc_usd": 3590,
+   "apc_prices": [
+    {
+     "price": 3590,
+     "currency": "USD"
+    },
+    {
+     "price": 2890,
+     "currency": "EUR"
+    },
+    {
+     "price": 2490,
+     "currency": "GBP"
+    }
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "publisher_id": 4310311539,
+   "institution_id": null
+  },
+  "7407064897": {
+   "id": 7407064897,
+   "display_name": "Energy Demand",
+   "apc_usd": null,
+   "apc_prices": null,
+   "is_oa": true,
+   "is_in_doaj": null,
+   "publisher_id": null,
+   "institution_id": 4210154524
+  },
+  "5407050313": {
+   "id": 5407050313,
+   "display_name": "Invasive Physiotherapy and Musculoskeletal Medicine",
+   "apc_usd": null,
+   "apc_prices": null,
+   "is_oa": true,
+   "is_in_doaj": false,
+   "publisher_id": null,
+   "institution_id": 4405266281
+  }
+ },
+ "after": {
+  "2898597390": {
+   "id": 2898597390,
+   "display_name": "Revista Colombiana de Ortopedia y Traumatología",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "publisher_id": 4404678060,
+   "institution_id": null
+  },
+  "25010850": {
+   "id": 25010850,
+   "display_name": "Publications mathématiques de l IHÉS",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "publisher_id": 4310311539,
+   "institution_id": null
+  },
+  "7407064897": {
+   "id": 7407064897,
+   "display_name": "Energy Demand",
+   "apc_usd": 1324,
+   "apc_prices": [
+    {
+     "price": 1200,
+     "currency": "EUR"
+    }
+   ],
+   "is_oa": true,
+   "is_in_doaj": null,
+   "publisher_id": null,
+   "institution_id": 4210154524
+  },
+  "5407050313": {
+   "id": 5407050313,
+   "display_name": "Invasive Physiotherapy and Musculoskeletal Medicine",
+   "apc_usd": 0,
+   "apc_prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "publisher_id": null,
+   "institution_id": 4405266281
+  }
+ },
+ "actions": [
+  "UPDATE sources 2898597390: apc_usd 3000 -> 0, apc_prices [{'price': 3000, 'currency': 'USD'}] -> [{'price': 0, 'currency': 'USD'}]  (ZD 8610 RCOT: 'does not charge any fees' (revistasccot.org/index.php/rccot/about))",
+  "UPDATE sources 25010850: apc_usd 3590 -> 0, apc_prices [{'price': 3590, 'currency': 'USD'}, {'price': 2890, 'currency': 'EUR'}, {'price': 2490, 'currency': 'GBP'}] -> [{'price': 0, 'currency': 'USD'}]  (ZD 22451 IHES: diamond, 'no publication fees' (pmihes.centre-mersenne.org))",
+  "UPDATE sources 7407064897: apc_usd None -> 1324, apc_prices None -> [{'price': 1200, 'currency': 'EUR'}]  (ZD 26103 Energy Demand: regular article fee EUR 1,200 (energydemand.org/about/submissions))",
+  "UPDATE sources 5407050313: apc_usd None -> 0, apc_prices None -> [{'price': 0, 'currency': 'USD'}]  (ZD 24703 JIPMM: editor states diamond, APC 0)",
+  "written 4 of 4; is_oa unchanged"
+ ]
+}
