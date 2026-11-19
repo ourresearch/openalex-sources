@@ -1,0 +1,297 @@
+{
+    "run_at": "2026-11-19T01:48:16.821022+00:00",
+    "execute": true,
+    "job": 2170,
+    "before": {
+        "2764416828": {
+            "id": 2764416828,
+            "display_name": "SAE International Journal of Aerospace",
+            "homepage_url": "http://saeaero.saejournals.org",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764470252": {
+            "id": 2764470252,
+            "display_name": "SAE international journal of fuels and lubricants",
+            "homepage_url": "http://www.jstor.org/journal/saeintejfuellubr",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764622389": {
+            "id": 2764622389,
+            "display_name": "SAE International Journal of Transportation Safety",
+            "homepage_url": "http://saetransaf.saejournals.org",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764653268": {
+            "id": 2764653268,
+            "display_name": "SAE International journal of passenger cars. Electronic and electrical systems",
+            "homepage_url": "http://saepcelec.saejournals.org",
+            "publisher_id": 4322614468,
+            "publisher": null
+        },
+        "2764694759": {
+            "id": 2764694759,
+            "display_name": "SAE International journal of alternative powertrains",
+            "homepage_url": "https://saemobilus.sae.org/content/v125-8ej",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764835558": {
+            "id": 2764835558,
+            "display_name": "SAE International Journal of Engines",
+            "homepage_url": null,
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764978717": {
+            "id": 2764978717,
+            "display_name": "SAE International Journal of Materials and Manufacturing",
+            "homepage_url": "http://saematman.saejournals.org",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2765010150": {
+            "id": 2765010150,
+            "display_name": "SAE International journal of commercial vehicles",
+            "homepage_url": "http://saecomveh.saejournals.org",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210171679": {
+            "id": 4210171679,
+            "display_name": "SAE International journal of transportation cybersecurity and privacy",
+            "homepage_url": "https://saemobilus.sae.org/content/V127-11EJ/publishedvolumes",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210171723": {
+            "id": 4210171723,
+            "display_name": "SAE International Journal of Passenger Cars - Mechanical Systems",
+            "homepage_url": null,
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210178771": {
+            "id": 4210178771,
+            "display_name": "SAE International journal of vehicle dynamics, stability, and NVH",
+            "homepage_url": "https://www.sae.org/publications/collections/content/E-JOURNAL-10",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210180931": {
+            "id": 4210180931,
+            "display_name": "SAE International Journal of Passenger Vehicle Systems",
+            "homepage_url": null,
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210193364": {
+            "id": 4210193364,
+            "display_name": "SAE International journal of sustainable transportation, energy, environment & policy",
+            "homepage_url": null,
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210193755": {
+            "id": 4210193755,
+            "display_name": "SAE International Journal of Connected and Automated Vehicles",
+            "homepage_url": "https://saemobilus.sae.org/content/V127-12EJ",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210202285": {
+            "id": 4210202285,
+            "display_name": "SAE technical papers on CD-ROM/SAE technical paper series",
+            "homepage_url": null,
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210208336": {
+            "id": 4210208336,
+            "display_name": "SAE International Journal of Electrified Vehicles",
+            "homepage_url": "https://saemobilus.sae.org/content/V129-14EJ",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4306463866": {
+            "id": 4306463866,
+            "display_name": "SAE International eBooks",
+            "homepage_url": null,
+            "publisher_id": null,
+            "publisher": "SAE International"
+        },
+        "4306529006": {
+            "id": 4306529006,
+            "display_name": "SAE International Journal of Advances and Current Practices in Mobility",
+            "homepage_url": "https://saemobilus.sae.org/content/V128-99EJ/publishedvolumes",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "7407122200": {
+            "id": 7407122200,
+            "display_name": "SAE Standards",
+            "homepage_url": "https://saemobilus.sae.org",
+            "publisher_id": null,
+            "publisher": "SAE International"
+        }
+    },
+    "actions": [
+        "UPDATE sources 4306529006: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-advances-current-practices-mobility-sae-jrnl-00016'}",
+        "UPDATE sources 2764416828: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-aerospace-sae-jrnl-00001'}",
+        "UPDATE sources 2764694759: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-alternative-powertrains-sae-jrnl-00008'}",
+        "UPDATE sources 2765010150: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-commercial-vehicles-sae-jrnl-00002'}",
+        "UPDATE sources 4210193755: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-connected-automated-vehicles-sae-jrnl-00012'}",
+        "UPDATE sources 4210208336: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-electrified-vehicles-sae-jrnl-00014'}",
+        "UPDATE sources 2764835558: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-engines-sae-jrnl-00003'}",
+        "UPDATE sources 2764470252: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-fuels-lubricants-sae-jrnl-00004'}",
+        "UPDATE sources 2764978717: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-materials-manufacturing-sae-jrnl-00005'}",
+        "UPDATE sources 2764653268: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-passenger-cars-electronic-electrical-systems-sae-jrnl-00007'}",
+        "UPDATE sources 4210171723: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-passenger-cars-mechanical-systems-sae-jrnl-00006'}",
+        "UPDATE sources 4210180931: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-passenger-vehicle-systems-sae-jrnl-00015'}",
+        "UPDATE sources 4210193364: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-sustainable-transportation-energy-environment-policy-sae-jrnl-00013'}",
+        "UPDATE sources 4210171679: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-transportation-cybersecurity-privacy-sae-jrnl-00011'}",
+        "UPDATE sources 2764622389: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-transportation-safety-sae-jrnl-00009'}",
+        "UPDATE sources 4210178771: {'homepage_url': 'https://saemobilus.sae.org/periodicals/sae-international-journal-vehicle-dynamics-stability-nvh-sae-jrnl-00010'}",
+        "UPDATE sources 4210202285: {'homepage_url': 'https://saemobilus.sae.org/technical-papers'}",
+        "UPDATE sources 7407122200: {'publisher_id': 4322614468, 'publisher': 'SAE International'}",
+        "UPDATE sources 4306463866: {'publisher_id': 4322614468, 'publisher': 'SAE International'}",
+        "COMMITTED"
+    ],
+    "after": {
+        "2764416828": {
+            "id": 2764416828,
+            "display_name": "SAE International Journal of Aerospace",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-aerospace-sae-jrnl-00001",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764470252": {
+            "id": 2764470252,
+            "display_name": "SAE international journal of fuels and lubricants",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-fuels-lubricants-sae-jrnl-00004",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764622389": {
+            "id": 2764622389,
+            "display_name": "SAE International Journal of Transportation Safety",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-transportation-safety-sae-jrnl-00009",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764653268": {
+            "id": 2764653268,
+            "display_name": "SAE International journal of passenger cars. Electronic and electrical systems",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-passenger-cars-electronic-electrical-systems-sae-jrnl-00007",
+            "publisher_id": 4322614468,
+            "publisher": null
+        },
+        "2764694759": {
+            "id": 2764694759,
+            "display_name": "SAE International journal of alternative powertrains",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-alternative-powertrains-sae-jrnl-00008",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764835558": {
+            "id": 2764835558,
+            "display_name": "SAE International Journal of Engines",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-engines-sae-jrnl-00003",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2764978717": {
+            "id": 2764978717,
+            "display_name": "SAE International Journal of Materials and Manufacturing",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-materials-manufacturing-sae-jrnl-00005",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "2765010150": {
+            "id": 2765010150,
+            "display_name": "SAE International journal of commercial vehicles",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-commercial-vehicles-sae-jrnl-00002",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210171679": {
+            "id": 4210171679,
+            "display_name": "SAE International journal of transportation cybersecurity and privacy",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-transportation-cybersecurity-privacy-sae-jrnl-00011",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210171723": {
+            "id": 4210171723,
+            "display_name": "SAE International Journal of Passenger Cars - Mechanical Systems",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-passenger-cars-mechanical-systems-sae-jrnl-00006",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210178771": {
+            "id": 4210178771,
+            "display_name": "SAE International journal of vehicle dynamics, stability, and NVH",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-vehicle-dynamics-stability-nvh-sae-jrnl-00010",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210180931": {
+            "id": 4210180931,
+            "display_name": "SAE International Journal of Passenger Vehicle Systems",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-passenger-vehicle-systems-sae-jrnl-00015",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210193364": {
+            "id": 4210193364,
+            "display_name": "SAE International journal of sustainable transportation, energy, environment & policy",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-sustainable-transportation-energy-environment-policy-sae-jrnl-00013",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210193755": {
+            "id": 4210193755,
+            "display_name": "SAE International Journal of Connected and Automated Vehicles",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-connected-automated-vehicles-sae-jrnl-00012",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210202285": {
+            "id": 4210202285,
+            "display_name": "SAE technical papers on CD-ROM/SAE technical paper series",
+            "homepage_url": "https://saemobilus.sae.org/technical-papers",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4210208336": {
+            "id": 4210208336,
+            "display_name": "SAE International Journal of Electrified Vehicles",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-electrified-vehicles-sae-jrnl-00014",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4306463866": {
+            "id": 4306463866,
+            "display_name": "SAE International eBooks",
+            "homepage_url": null,
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "4306529006": {
+            "id": 4306529006,
+            "display_name": "SAE International Journal of Advances and Current Practices in Mobility",
+            "homepage_url": "https://saemobilus.sae.org/periodicals/sae-international-journal-advances-current-practices-mobility-sae-jrnl-00016",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        },
+        "7407122200": {
+            "id": 7407122200,
+            "display_name": "SAE Standards",
+            "homepage_url": "https://saemobilus.sae.org",
+            "publisher_id": 4322614468,
+            "publisher": "SAE International"
+        }
+    }
+}
