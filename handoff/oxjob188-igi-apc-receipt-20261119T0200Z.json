@@ -1,0 +1,267 @@
+{
+ "run_at": "2026-11-19T02:00:20.239289+00:00",
+ "execute": true,
+ "igi_filled": [
+  {
+   "id": 83591844,
+   "fee": 4000,
+   "prices": [
+    {
+     "price": 4000,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118203005/https://www.igi-global.com/journal/journal-global-information-management/1070",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 80285584,
+   "fee": 4000,
+   "prices": [
+    {
+     "price": 4000,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118202243/https://www.igi-global.com/journal/journal-organizational-end-user-computing/1071",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 76665588,
+   "fee": 2500,
+   "prices": [
+    {
+     "price": 2500,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118202907/https://www.igi-global.com/journal/international-journal-web-based-learning/1081",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 181240966,
+   "fee": 2200,
+   "prices": [
+    {
+     "price": 2200,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118195126/https://www.igi-global.com/journal/international-journal-semantic-web-information/1092",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210184116,
+   "fee": 2500,
+   "prices": [
+    {
+     "price": 2500,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251022223724/https://www.igi-global.com/journal/international-journal-knowledge-management/1083",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 164447516,
+   "fee": 2250,
+   "prices": [
+    {
+     "price": 2250,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118202400/https://www.igi-global.com/journal/international-journal-asian-business-information/1137",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 53932126,
+   "fee": 4000,
+   "prices": [
+    {
+     "price": 4000,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118192406/https://www.igi-global.com/journal/international-journal-data-warehousing-mining/1085",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 8943243,
+   "fee": 2050,
+   "prices": [
+    {
+     "price": 2050,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118203044/https://www.igi-global.com/journal/international-journal-digital-crime-forensics/1112",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210210041,
+   "fee": 2050,
+   "prices": [
+    {
+     "price": 2050,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118195545/https://www.igi-global.com/journal/international-journal-system-dynamics-applications/51803",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 119470311,
+   "fee": 4000,
+   "prices": [
+    {
+     "price": 4000,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118200917/https://www.igi-global.com/journal/international-journal-web-services-research/1079",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210169281,
+   "fee": 2200,
+   "prices": [
+    {
+     "price": 2200,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118201807/https://www.igi-global.com/journal/international-journal-planning-research-ijepr/44994",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 96210769,
+   "fee": 2200,
+   "prices": [
+    {
+     "price": 2200,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118201108/https://www.igi-global.com/journal/journal-electronic-commerce-organizations-jeco/1076",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210193066,
+   "fee": 1700,
+   "prices": [
+    {
+     "price": 1700,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118201728/https://www.igi-global.com/journal/international-journal-online-pedagogy-course/1183",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 184213297,
+   "fee": 2050,
+   "prices": [
+    {
+     "price": 2050,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118201107/https://www.igi-global.com/journal/international-journal-business-intelligence-research/1168",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 7509020,
+   "fee": 1550,
+   "prices": [
+    {
+     "price": 1550,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118201116/https://www.igi-global.com/journal/international-journal-applied-metaheuristic-computing/1139",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210202265,
+   "fee": 1550,
+   "prices": [
+    {
+     "price": 1550,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118200314/https://www.igi-global.com/journal/international-journal-applied-management-theory/214081",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210202449,
+   "fee": 1300,
+   "prices": [
+    {
+     "price": 1300,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118201953/https://www.igi-global.com/journal/international-journal-standardization-research-ijsr/145878",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210220392,
+   "fee": 1400,
+   "prices": [
+    {
+     "price": 1400,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118202416/https://www.igi-global.com/journal/international-journal-applied-industrial-engineering/41034",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210177549,
+   "fee": 2050,
+   "prices": [
+    {
+     "price": 2050,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118202230/https://www.igi-global.com/journal/international-journal-computer-vision-image/1181",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  },
+  {
+   "id": 4210218498,
+   "fee": 1300,
+   "prices": [
+    {
+     "price": 1300,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://web.archive.org/web/20251118200204/https://www.igi-global.com/journal/international-journal-applied-nanotechnology-research/214903",
+   "apc_prices_before": [],
+   "publisher_id": 4310320424
+  }
+ ],
+ "igi_skipped": []
+}
