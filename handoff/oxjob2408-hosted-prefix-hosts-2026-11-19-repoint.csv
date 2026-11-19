@@ -1,0 +1,193 @@
+source_id,tier,action,target_kind,target_id,target_name,expected_publisher_text,old_column,old_id
+2764587604,D,repoint,publisher,4404685358,Valley International,Valley International,publisher_id,4322632079
+4404660671,D,repoint,publisher,4404685391,Comprehensive Publications,Prime Publications,publisher_id,4404571801
+4404571802,D,repoint,publisher,4404685391,Comprehensive Publications,Prime Publications,publisher_id,4404571801
+4404662161,D,repoint,publisher,4404685391,Comprehensive Publications,Prime Publications,publisher_id,4404571801
+4404663816,D,repoint,publisher,4404685391,Comprehensive Publications,Prime Publications,publisher_id,4404571801
+4404663449,D,repoint,publisher,4404685391,Comprehensive Publications,Prime Publications,publisher_id,4404571801
+4404663015,D,repoint,publisher,4404685391,Comprehensive Publications,Prime Publications,publisher_id,4404571801
+4404661750,D,repoint,publisher,4404685391,Comprehensive Publications,Prime Publications,publisher_id,4404571801
+4404664119,D,repoint,publisher,4404685391,Comprehensive Publications,Prime Publications,publisher_id,4404571801
+4404664149,D,repoint,publisher,4310311714,Institution of Engineering and Technology,,publisher_id,4404660744
+4404663293,D,repoint,publisher,4404685450,Singapore Juzhi Journal Publishing PTE. Ltd.,Ju zhi kan chu ban she,publisher_id,4404663292
+4210167558,D,repoint,institution,12003341,National University of Science and Technology,National University of Science and Technology MISiS,publisher_id,4310319900
+4404662555,D,repoint,publisher,4310319385,Chulalongkorn University,"Institute of Thai Studies, Chulalongkorn University",publisher_id,4404662554
+4210203308,D,repoint,publisher,4320800604,"Institute of Electronics, Information and Communication Engineers",,publisher_id,4310319808
+4404669249,D,repoint,publisher,4404685439,Ali Institute of Research & Skills Development,Ali Institute of Research and Skill Development,publisher_id,4404669248
+136112250,D,repoint,publisher,4404685340,Element d.o.o.,Element d.o.o.,publisher_id,4310314832
+4210209318,D,repoint,publisher,4404685340,Element d.o.o.,Element d.o.o.,publisher_id,4310322558
+87350844,D,repoint,publisher,4404685340,Element d.o.o.,Element d.o.o.,publisher_id,4310314832
+4210232958,D,repoint,publisher,4310320440,Peter Lang,"Peter Lang, International Academic Publishers",publisher_id,4310322741
+4210226302,D,repoint,institution,98559091,University of Rzeszów,University of Rzeszow,publisher_id,4310317448
+127459061,D,repoint,publisher,4310318547,Wolters Kluwer,Springer Nature,publisher_id,4310311835
+111356358,D,repoint,publisher,4310317552,University of Pisa,Pisa University Press,publisher_id,4310317720
+4220651011,D,repoint,publisher,4310317552,University of Pisa,Pisa University Press,publisher_id,4310317720
+4210232054,D,repoint,publisher,4310317552,University of Pisa,Pisa University Press,publisher_id,4310317720
+4210179048,D,repoint,publisher,4310317552,University of Pisa,Pisa University Press,publisher_id,4310317720
+4210192378,D,repoint,publisher,4310317552,University of Pisa,Pisa University Press,publisher_id,4310317720
+4210223654,D,repoint,publisher,4310317552,University of Pisa,Pisa University Press,publisher_id,4310317720
+4210190773,D,repoint,publisher,4320800759,The Japan Society for Aeronautical and Space Sciences,Japan Society for Aeronautical and Space Sciences,publisher_id,4310322607
+4210200820,D,repoint,publisher,4320800759,The Japan Society for Aeronautical and Space Sciences,Japan Society for Aeronautical and Space Sciences,publisher_id,4310322607
+4210222082,D,repoint,publisher,4320800759,The Japan Society for Aeronautical and Space Sciences,Japan Society for Aeronautical and Space Sciences,publisher_id,4310322607
+2764592171,D,repoint,publisher,4320800759,The Japan Society for Aeronautical and Space Sciences,Japan Society for Aeronautical and Space Sciences,publisher_id,4310322607
+2764358856,D,repoint,publisher,4320800759,The Japan Society for Aeronautical and Space Sciences,Japan Society for Aeronautical and Space Sciences,publisher_id,4310322607
+2764545682,D,repoint,publisher,4320800759,The Japan Society for Aeronautical and Space Sciences,Japan Society for Aeronautical and Space Sciences,publisher_id,4310322607
+2764377017,D,repoint,publisher,4360969325,Cognizant Communication Corporation,"Cognizant, LLC",publisher_id,4310320146
+4210208443,D,repoint,publisher,4383858765,Internet Scientific Publications,"Internet Scientific Publishers, LLC",publisher_id,4310320466
+4210214827,D,repoint,publisher,4383858765,Internet Scientific Publications,"Internet Scientific Publishers, LLC",publisher_id,4310315771
+2764981211,D,repoint,publisher,4310316445,Purdue University,,publisher_id,4310315739
+4210216673,D,repoint,publisher,4404685427,"Angle Publishing Co., Ltd.","Angle Publishing Co., Ltd.",publisher_id,4310320547
+4210212906,D,repoint,publisher,4404685384,Adonis and Abbey Publishers,Adonis and Abbey Publishers,publisher_id,4310320366
+969025446,D,repoint,publisher,4404685374,Lodzkie Towarzystwo Naukowe,Lodzkie Towarzystwo Naukowe,publisher_id,4310317403
+4210199872,D,repoint,publisher,4404685407,Scientific Technologies LLC,Scientific Technologies LLC,publisher_id,4364118902
+83938913,D,repoint,publisher,4404685459,New Left Review,,publisher_id,4310319847
+4210228893,D,repoint,publisher,4404685359,ERM Publications,"UUM Press, Universiti Utara Malaysia",institution_id,94625822
+115443242,D,repoint,publisher,4320800545,"International Institute of Anticancer Research (IIAR) Conferences 1997. Athens, Greece. Abstracts",Anticancer Research USA Inc.,publisher_id,4322764940
+4210191434,D,repoint,publisher,4310321684,University of Malaya,Univ. of Malaya,publisher_id,4310311721
+4404661969,D,repoint,publisher,4310321684,University of Malaya,,publisher_id,4404660744
+2764446821,D,repoint,publisher,4310321684,University of Malaya,,publisher_id,4310311721
+4404669271,D,repoint,publisher,4404685453,"The Publishing House ""NAUCHTEHLITIZDAT",Nauka,publisher_id,4310320007
+2738849737,D,repoint,publisher,4310314680,West University of Timișoara,,publisher_id,4310322005
+4210213143,D,repoint,publisher,4404685369,BPM Medica,,publisher_id,4310320990
+4210234042,D,repoint,publisher,4404685336,"Sophia Publishing Group, Inc.","Sophia Publishing Group, Inc.",publisher_id,4310320017
+190413008,D,repoint,publisher,4404685413,Juta and Company (Pty) Ltd,Juta and Company (Pty) Ltd,publisher_id,4310315354
+143806524,D,repoint,publisher,4404685330,With Intelligence LLC,Pageant Media US,publisher_id,4310320662
+4210197218,D,repoint,publisher,4404685330,With Intelligence LLC,,publisher_id,4310320662
+4210173923,D,repoint,publisher,4404685377,Pen Academic Publishing,Pen Academic Publishing,publisher_id,4310316380
+4210198541,D,repoint,publisher,4404685377,Pen Academic Publishing,,publisher_id,4310316380
+4404669689,D,repoint,publisher,4310315207,State University of Makassar,Program Studi Bahasa dan Sastra Indonesia  Universitas Negeri Makassar,publisher_id,4404669409
+4404670314,D,repoint,publisher,4404685456,Resagate Global,Publications,publisher_id,4310313756
+4210208169,D,repoint,publisher,4310314699,"Editura Universităţii ""Alexandru Ioan Cuza"" Iaşi",Editura Universitatii Alexandru Ioan Cuza din Iasi,publisher_id,4310314632
+4210212154,D,repoint,institution,60342839,Qatar University,Qatar University,publisher_id,4310320064
+4210239383,D,repoint,institution,60342839,Qatar University,Qatar University,publisher_id,4310320064
+4210224113,D,repoint,institution,60342839,Qatar University,Qatar University,publisher_id,4310320064
+4404571753,D,repoint,publisher,4404685435,Acadlore Publishing Services Limited,Acadlore Publishing Services Limited,publisher_id,4404571752
+4404663409,D,repoint,institution,7435137,Marien Ngouabi University,Université Marien Ngouabi,publisher_id,4404663408
+4210224497,D,repoint,publisher,4310317463,University of Łódź,Uniwersytet Lodzki (University of Lodz),publisher_id,4310320322
+4210193115,D,repoint,publisher,4310317463,University of Łódź,Uniwersytet Lodzki (University of Lodz),publisher_id,4310320322
+4210197733,D,repoint,publisher,4310317463,University of Łódź,Uniwersytet Lodzki (University of Lodz),publisher_id,4310320322
+4210172112,D,repoint,institution,92961808,Riau University,Lembaga Penelitian dan Pengabdian kepada Masyarakat Universitas Riau,publisher_id,4310315155
+4210196397,D,repoint,institution,3122011922,University of Žilina,University of Zilina,publisher_id,4310318780
+4210199547,D,repoint,institution,3122011922,University of Žilina,University of Zilina,publisher_id,4310318780
+4210194339,D,repoint,institution,3122011922,University of Žilina,University of Zilina,publisher_id,4310318780
+4210224026,D,repoint,institution,3122011922,University of Žilina,University of Zilina,publisher_id,4310318780
+4210189476,D,repoint,institution,3122011922,University of Žilina,University of Zilina,publisher_id,4310318780
+4404675161,D,repoint,institution,59272784,"Arab Academy for Science, Technology, and Maritime Transport","Academy Publishing Center (APC), Arab Academy for Science, Technology and Maritime Transport (AASTMT)",publisher_id,4404675160
+2756341326,D,repoint,publisher,4404685434,All4holdings ltd,Plymouth,publisher_id,4310320990
+162003222,D,repoint,institution,82724352,Universiti Teknologi MARA,,publisher_id,4320800569
+4210177542,D,repoint,institution,79741316,University of Pecs,University Library of Pecs,publisher_id,4310320017
+2764610705,D,repoint,institution,181233156,University of Oregon,Oregon State University,publisher_id,4310320466
+4210230342,D,repoint,publisher,4310320686,University of Sarajevo,"University of Sarajevo, Faculty of Science",publisher_id,4310322603
+4404670273,D,repoint,institution,124793430,State University of Tetova,Faculty of Economics,publisher_id,4310321691
+4404673514,D,repoint,institution,124793430,State University of Tetova,Faculty of Law,publisher_id,4327986075
+4404662556,D,repoint,institution,124793430,State University of Tetova,Faculty of Physical Education,publisher_id,4310321222
+2737814782,D,repoint,publisher,4310318775,University of the Andes,,publisher_id,4310318859
+4210190928,D,repoint,publisher,4310318775,University of the Andes,"Universidad de Los Andes, Venezuela",publisher_id,4310318859
+4306503889,D,repoint,publisher,4310318775,University of the Andes,,publisher_id,4310318859
+4210214091,D,repoint,publisher,4310318775,University of the Andes,"Universidad de Los Andes, Venezuela",publisher_id,4310318859
+4404571794,D,repoint,institution,4392738155,Indonesian Journal Publisher (Indonesia),Publisher,publisher_id,4310317973
+4404669379,D,repoint,institution,4392738155,Indonesian Journal Publisher (Indonesia),Publisher,publisher_id,4310317973
+4404662734,D,repoint,institution,4392738155,Indonesian Journal Publisher (Indonesia),Publisher,publisher_id,4310317973
+4404662580,D,repoint,institution,4392738155,Indonesian Journal Publisher (Indonesia),Publisher,publisher_id,4310317973
+4404678059,D,repoint,institution,4392738155,Indonesian Journal Publisher (Indonesia),Publisher,publisher_id,4310317973
+4404662097,D,repoint,publisher,4310315165,Muhammadiyah University of Makassar,FKIP Universitas Muhammadiyah Makassar,publisher_id,4404669409
+2765028110,D,repoint,publisher,4310318613,University of Otago,University of Otago Library,publisher_id,4310314071
+4210219642,D,repoint,publisher,4310318613,University of Otago,University of Otago Library,publisher_id,4310314071
+2764783660,D,repoint,publisher,4310318613,University of Otago,University of Otago Library,publisher_id,4310314071
+2764840155,D,repoint,publisher,4310318613,University of Otago,University of Otago Library,publisher_id,4310314071
+4210208982,D,repoint,institution,4210147980,Libertas International University,Libertas medunarodno sveuciliste,publisher_id,4310314831
+4210215530,D,repoint,institution,114017466,University of Technology Sydney,"University of Technology, Sydney",publisher_id,4310317996
+4210207159,D,repoint,institution,114017466,University of Technology Sydney,"University of Technology, Sydney",publisher_id,4310317996
+4210228477,D,repoint,publisher,4404685416,Lexis srl,Lexis srl,publisher_id,4310311504
+4210209694,D,repoint,publisher,4404685357,Policy Studies Organization,Policy Studies Organization,publisher_id,4310320595
+4210183188,D,repoint,publisher,4404685357,Policy Studies Organization,Policy Studies Organization,publisher_id,4310320595
+4210171514,D,repoint,publisher,4404685357,Policy Studies Organization,Policy Studies Organization,publisher_id,4310320595
+4210215584,D,repoint,publisher,4404685357,Policy Studies Organization,Policy Studies Organization,publisher_id,4310320595
+4210218286,D,repoint,publisher,4404685357,Policy Studies Organization,Policy Studies Organization,publisher_id,4310320595
+4210227841,D,repoint,publisher,4404685393,Canadian Institute for Knowledge Development,Canadian Institute for Knowledge Development,publisher_id,4310319111
+4404664011,D,repoint,institution,4405257675,Universitas Islam Negeri Sulthan Thaha Saifuddin Jambi,Lembaga Penelitian Dan Pengabdian Kepada Masyarakat Uin Sulthan Thaha Saifuddin Jambi,publisher_id,4404664010
+4404661730,D,repoint,institution,4210086371,Azerbaijan State University of Economics,Iqtisad universiteti,publisher_id,4404661729
+88864742,D,repoint,publisher,4404685429,Imprint Academic Ltd,,publisher_id,4310319847
+187383566,D,repoint,publisher,4404685429,Imprint Academic Ltd,,publisher_id,4310319847
+4404662204,D,repoint,institution,4405275529,Universitas Al-Falah As-Sunniyah,Universitas Al Falah As Sunniyah Kencong Jember,publisher_id,4404662203
+4404661605,D,repoint,publisher,4310316421,Seton Hall University,,publisher_id,4404660744
+2737790442,D,repoint,institution,4405260750,Editorial Cuadernos de Sofía (Chile),,publisher_id,4310315521
+4404670422,D,repoint,publisher,4310319809,University of Brasília,Religião,publisher_id,4310312267
+4210226692,D,repoint,institution,4210148707,Universidade Estadual do Maranhão,Universidade Estadual do Maranhao,publisher_id,4310312464
+4210173801,D,repoint,institution,4210148707,Universidade Estadual do Maranhão,Universidade Estadual do Maranhao,publisher_id,4310312464
+4210227785,D,repoint,institution,4210148707,Universidade Estadual do Maranhão,Universidade Estadual do Maranhao,publisher_id,4310312464
+4210210881,D,repoint,institution,4210148707,Universidade Estadual do Maranhão,Universidade Estadual do Maranhao,publisher_id,4310312464
+4404660791,D,repoint,publisher,4310318237,Pontifical Catholic University of Peru,Sección matemáticas del Departamento de ciencias de la Pontificia universidad católica del Perú,publisher_id,4404660790
+4210239026,D,repoint,publisher,4310318237,Pontifical Catholic University of Peru,Sistema de Bibliotecas PUCP,publisher_id,4310320517
+2736761984,D,repoint,institution,4210113907,Universitas Muhammadiyah Prof Dr Hamka,University of Muhammadiyah Prof. Hamka (UHAMKA),publisher_id,4310315165
+4210201666,D,repoint,institution,4210113907,Universitas Muhammadiyah Prof Dr Hamka,,publisher_id,4310314982
+4210189395,D,repoint,publisher,4310321503,"IIUM Press, International Islamic University Malaysia",TechKnowledge General Trading LLC,publisher_id,4324277456
+4404675219,D,repoint,publisher,4404685426,Directive Publications,Japanese Journal of Gastroenterology,publisher_id,4404675218
+2764454290,D,repoint,publisher,4404685436,SCIRES WEB - RITHA Publishing,,publisher_id,4310319847
+4306504679,D,repoint,publisher,4404685455,Asociación Española de Entomología,,publisher_id,4310321408
+4387282044,D,repoint,publisher,4404676540,Universitas Kadiri,Universitas Kediri,publisher_id,4310315204
+4387290138,D,repoint,publisher,4404676540,Universitas Kadiri,Universitas Kediri,publisher_id,4310315204
+4387287611,D,repoint,publisher,4404676540,Universitas Kadiri,Universitas Kediri,publisher_id,4310315204
+4387282465,D,repoint,publisher,4404676540,Universitas Kadiri,Universitas Kediri,publisher_id,4310315204
+4389157726,D,repoint,publisher,4404676540,Universitas Kadiri,Universitas Kediri,publisher_id,4310315204
+4404669797,D,repoint,institution,142652706,Autonomous University of Chihuahua,Universidad Autónoma de Chihuahua,publisher_id,4404669796
+4210230876,D,repoint,publisher,4310321127,University of Technology Malaysia,Penerbit UTM Press,publisher_id,4310315125
+4404676427,D,repoint,publisher,4310311024,Afe Babalola University,State,publisher_id,4310320470
+4404675805,D,repoint,publisher,4310311024,Afe Babalola University,"College of Social and Management Sciences Afe Babalola University Ado-Ekiti. (ABUAD) ,  Address- Km 8.5, Afe Babalola way, Ado-Ekiti,Ekiti State",publisher_id,4404675804
+4210180229,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210210293,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210194186,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210187379,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210183079,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210199590,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210239865,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210192965,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210217986,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210204659,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210173456,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210213155,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210237013,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210201187,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210198241,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210237358,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210211492,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4210237765,D,repoint,institution,3131389504,Muhammadiyah University of Surakarta,Universitas Muhammadiyah Surakarta,publisher_id,4310314899
+4404663420,D,repoint,publisher,4310312325,University of Campinas,Universidade Estadual de Campinas,publisher_id,4310318510
+4210188476,D,repoint,institution,4210121060,Universitas Muhamadiyah Sorong,Universitas Muhammadiyah Sorong,publisher_id,4310315274
+4210183576,D,repoint,institution,4210121060,Universitas Muhamadiyah Sorong,Universitas Muhammadiyah Sorong,publisher_id,4310315274
+4210215830,D,repoint,institution,4210121060,Universitas Muhamadiyah Sorong,Universitas Muhammadiyah Sorong,publisher_id,4310315274
+4210239376,D,repoint,institution,4210121060,Universitas Muhamadiyah Sorong,Universitas Muhammadiyah Sorong,publisher_id,4310315274
+4210226917,D,repoint,institution,4210121060,Universitas Muhamadiyah Sorong,Universitas Muhammadiyah Sorong,publisher_id,4310315274
+4210178408,D,repoint,institution,4210121060,Universitas Muhamadiyah Sorong,Universitas Muhammadiyah Sorong,publisher_id,4310315274
+4210213310,D,repoint,institution,4210121060,Universitas Muhamadiyah Sorong,Universitas Muhammadiyah Sorong,publisher_id,4310315274
+4210192663,D,repoint,institution,4210121060,Universitas Muhamadiyah Sorong,Universitas Muhammadiyah Sorong,publisher_id,4310315274
+113214489,D,repoint,publisher,4310315844,American Institute of Mathematical Sciences,American Institute of Mathematical Sciences,publisher_id,4310316012
+34944277,D,repoint,institution,63135867,University of Cincinnati,,publisher_id,4310319847
+4210194415,D,repoint,publisher,4310315177,Indonesia University of Education,Universitas Pendidikan Indonesia,publisher_id,4310315061
+4404673952,D,repoint,publisher,4404680668,South American Publishing,Tecnología,publisher_id,4310322404
+4210193286,D,repoint,publisher,4310311721,Cambridge University Press,Wiley,publisher_id,4310320595
+72921495,D,repoint,publisher,4322697005,Asian Network for Scientific Information,Science Alert,publisher_id,4324034792
+4210212565,D,repoint,publisher,4322697005,Asian Network for Scientific Information,Science Alert,publisher_id,4310315148
+131394487,D,repoint,publisher,4404682887,AccScience Publishing,,publisher_id,4310316678
+2764728095,D,repoint,publisher,4404682611,Narr Francke Attempto Verlag GmbH + Co. KG,"Sachsische Landesbibliothek, Staats- und Universitatsbibliothek Dresden",publisher_id,4320800715
+4404669871,D,repoint,publisher,4404683078,Bright Publisher,Bright Publisher,publisher_id,4404669870
+2898346768,D,repoint,publisher,4310319658,National Autonomous University of Mexico,Universidad Nacional Autonoma de Mexico,publisher_id,4310320990
+2898160451,D,repoint,publisher,4310319658,National Autonomous University of Mexico,Universidad Nacional Autonoma de Mexico,publisher_id,4310320990
+2898153572,D,repoint,publisher,4310319658,National Autonomous University of Mexico,Universidad Nacional Autonoma de Mexico,publisher_id,4310320990
+2898087311,D,repoint,publisher,4310319658,National Autonomous University of Mexico,Universidad Nacional Autonoma de Mexico,publisher_id,4310315687
+4404669702,D,repoint,publisher,4310311721,Cambridge University Press,Press,publisher_id,4310311648
+2898414286,D,repoint,publisher,4404678942,"Publicidad Permanyer, SLU","Publicidad Permanyer, SLU",publisher_id,4310315687
+2755455544,D,repoint,publisher,4404678942,"Publicidad Permanyer, SLU",,publisher_id,4310320990
+2755134353,D,repoint,publisher,4310320364,Akadémiai Kiadó,Akademiai Kiado Zrt.,publisher_id,4360969213
+4210196789,D,repoint,publisher,4404682669,Castledown Publishers,Castledown Publishers,publisher_id,4310317996
+4404664091,D,repoint,publisher,4404683298,Pustaka Digital Indonesia,Indonesia,publisher_id,4310315272
+109349230,D,repoint,publisher,4363601005,CSIR-NIScPR,,publisher_id,4310319965
+2736852014,D,repoint,publisher,4310321022,University of Barcelona,,publisher_id,4310321029
+4404664286,D,repoint,publisher,4404684271,Fringe Global Scientific Press,Press,publisher_id,4310311648
+4404676691,D,repoint,publisher,4404684271,Fringe Global Scientific Press,Press,publisher_id,4310311648
+4210206068,D,repoint,publisher,4404571743,editorial universidad de Granada,,publisher_id,4310321176
+4404675436,D,repoint,publisher,4404683507,Ilmu Bersama Center,Center,publisher_id,4310315703
+4404663827,D,repoint,publisher,4404683103,SABA Publishing,Saba Publishing,publisher_id,4404663826
+4404571728,D,repoint,publisher,4404683272,Yayasan Kita Menulis,Yayasan Seri Amal Medan,publisher_id,4404571727
+4404663318,D,repoint,publisher,4404683878,Yayasan Insan Mulia Bima,Yayasan Insan Mulia Bima,publisher_id,4404668945
+4210187448,D,repoint,publisher,4404682605,Iskender AKKURT,International Journal of Computational and Experimental Science and Engineering (IJCESEN),publisher_id,4310318383
