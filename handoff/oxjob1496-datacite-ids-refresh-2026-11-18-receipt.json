@@ -1,0 +1,123 @@
+{
+ "run_at": "2026-11-20T20:23:11.663747+00:00",
+ "execute": true,
+ "fix_drift": false,
+ "job": 1496,
+ "before": {
+  "4210204615": {
+   "display_name": "CEUR Workshop Proceedings",
+   "datacite_id": null,
+   "datacite_ids": [],
+   "_links": [
+    "zqfs.ceurws"
+   ]
+  },
+  "4306400453": {
+   "display_name": "mediaTUM (Technical University of Munich)",
+   "datacite_id": null,
+   "datacite_ids": [],
+   "_links": [
+    "tib.ubtum"
+   ]
+  }
+ },
+ "drift": [
+  {
+   "id": "102900456",
+   "display_name": "Refugee Survey Quarterly",
+   "datacite_id": null,
+   "datacite_ids": [],
+   "agg": [
+    "grjh.qrp"
+   ]
+  },
+  {
+   "id": "4210192494",
+   "display_name": "Journal of Basic Medical Veterinary",
+   "datacite_id": null,
+   "datacite_ids": [],
+   "agg": [
+    "rhtq.lfewlq"
+   ]
+  },
+  {
+   "id": "4210204615",
+   "display_name": "CEUR Workshop Proceedings",
+   "datacite_id": null,
+   "datacite_ids": [],
+   "agg": [
+    "zqfs.ceurws"
+   ]
+  },
+  {
+   "id": "4306400274",
+   "display_name": "Murdoch University Research Portal",
+   "datacite_id": null,
+   "datacite_ids": [
+    "murdoch.repo"
+   ],
+   "agg": [
+    "murdoch.repo",
+    "murdoch.repo2"
+   ]
+  },
+  {
+   "id": "4306400453",
+   "display_name": "mediaTUM (Technical University of Munich)",
+   "datacite_id": null,
+   "datacite_ids": [],
+   "agg": [
+    "tib.ubtum"
+   ]
+  },
+  {
+   "id": "4306402094",
+   "display_name": "Otago University Research Archive (University of Otago)",
+   "datacite_id": "otagouni.snbodh",
+   "datacite_ids": [
+    "otagouni.snbodh"
+   ],
+   "agg": [
+    "otagouni.snbodh",
+    "otagouni.yngzuv"
+   ]
+  },
+  {
+   "id": "4394736481",
+   "display_name": "TFMJ",
+   "datacite_id": null,
+   "datacite_ids": [],
+   "agg": [
+    "vsdn.invufc"
+   ]
+  }
+ ],
+ "actions": [
+  "drift sweep: 7 sources differ (5 besides the two): [102900456, 4210192494, 4306400274, 4306402094, 4394736481]",
+  "REFRESHED datacite_ids on 2 sources: [4210204615, 4306400453]",
+  "drift after: [102900456, 4210192494, 4306400274, 4306402094, 4394736481]",
+  "COMMITTED"
+ ],
+ "after": {
+  "4210204615": {
+   "display_name": "CEUR Workshop Proceedings",
+   "datacite_id": "zqfs.ceurws",
+   "datacite_ids": [
+    "zqfs.ceurws"
+   ],
+   "_links": [
+    "zqfs.ceurws"
+   ]
+  },
+  "4306400453": {
+   "display_name": "mediaTUM (Technical University of Munich)",
+   "datacite_id": "tib.ubtum",
+   "datacite_ids": [
+    "tib.ubtum"
+   ],
+   "_links": [
+    "tib.ubtum"
+   ]
+  }
+ }
+}

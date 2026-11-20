@@ -45,7 +45,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 from sqlalchemy import text
 
 from db import engine
-from sources_lib import insert_issns, normalize_name, refresh_issns_column, resolve_issn_l, sync_issn_l_flags
+from sources_lib import refresh_datacite_column, insert_issns, normalize_name, refresh_issns_column, resolve_issn_l, sync_issn_l_flags
 
 EXECUTE = "--execute" in sys.argv
 JOB = 629
@@ -179,6 +179,8 @@ def merge(conn, loser, winner, rule, detail):
                          {"l": loser, "w": winner}).rowcount
     ep = conn.execute(text("UPDATE oai_pmh_endpoint SET source_id = :w WHERE source_id = :l"), {"l": loser, "w": winner}).rowcount
     dc = conn.execute(text("UPDATE source_datacite_id SET source_id = :w WHERE source_id = :l"), {"l": loser, "w": winner}).rowcount
+    if dc:  # added 2026-11-20 (#1496), after this script ran: keep the derived column in step
+        refresh_datacite_column(conn, winner)
     bm = conn.execute(text("INSERT INTO ojs_beacon_mint (source_id, edition, receipt, minted_at) "
                            "SELECT :w, edition, receipt, minted_at FROM ojs_beacon_mint WHERE source_id = :l "
                            "ON CONFLICT DO NOTHING"), {"l": loser, "w": winner}).rowcount

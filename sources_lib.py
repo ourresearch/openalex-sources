@@ -173,6 +173,22 @@ def refresh_issns_column(conn, source_id):
     )
 
 
+def refresh_datacite_column(conn, source_id):
+    """Re-derive sources.datacite_ids (and fill datacite_id if empty) from source_datacite_id.
+    source_datacite_id is the authority; datacite_ids is the only DataCite field the nightly
+    Sources_Snapshot copies, so a script that moves source_datacite_id rows (a merge) must call
+    this on the winner, or that client's works lose their source (#1496, 2026-11-20)."""
+    conn.execute(
+        text(
+            "UPDATE sources SET datacite_ids = COALESCE((SELECT jsonb_agg(datacite_id ORDER BY datacite_id) "
+            "FROM source_datacite_id WHERE source_id = :id), '[]'::jsonb), "
+            "datacite_id = COALESCE(datacite_id, (SELECT MIN(datacite_id) FROM source_datacite_id "
+            "WHERE source_id = :id)), updated_date = now() WHERE id = :id"
+        ),
+        {"id": source_id},
+    )
+
+
 def insert_issns(conn, source_id, issns, issn_l):
     """Attach ISSNs and maintain the ISSN-L invariant: sources.issn_l is one of
     the source's OWN ISSNs (FK-enforced, mig. 014) and is_issn_l flags exactly
