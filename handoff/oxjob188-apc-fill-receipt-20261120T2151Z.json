@@ -1,0 +1,72 @@
+{
+ "run_at": "2026-11-20T21:51:23.578000+00:00",
+ "execute": true,
+ "filled": [
+  {
+   "id": 7407089804,
+   "ticket": "26817",
+   "fee": 221,
+   "prices": [
+    {
+     "price": 200,
+     "currency": "EUR"
+    }
+   ],
+   "page": "https://lyrascience.org/apc",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407089770,
+   "ticket": "26817",
+   "fee": 221,
+   "prices": [
+    {
+     "price": 200,
+     "currency": "EUR"
+    }
+   ],
+   "page": "https://lyrascience.org/apc",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 114429563,
+   "ticket": "5213",
+   "fee": 750,
+   "prices": [
+    {
+     "price": 750,
+     "currency": "USD"
+    },
+    {
+     "price": 10000,
+     "currency": "ZAR"
+    }
+   ],
+   "page": "ZD 5213 attachment 'OpenAlex updates for SAJAS.docx'",
+   "apc_usd_before": 500,
+   "apc_prices_before": [
+    {
+     "price": 6000,
+     "currency": "ZAR"
+    },
+    {
+     "price": 500,
+     "currency": "USD"
+    }
+   ]
+  }
+ ],
+ "skipped": [],
+ "homepage_filled": [
+  {
+   "id": 7407089804,
+   "homepage_url": "https://lyrascience.org/lcsai"
+  },
+  {
+   "id": 7407089770,
+   "homepage_url": "https://lyrascience.org/jspe"
+  }
+ ]
+}
