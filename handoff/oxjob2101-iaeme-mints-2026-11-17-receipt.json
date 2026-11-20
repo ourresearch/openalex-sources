@@ -1,0 +1,1485 @@
+{
+ "run_at": "2026-11-20T21:17:18.701478+00:00",
+ "execute": true,
+ "job": 2101,
+ "approved": "support factory #2254 (standing authority, reversible registry edit); D5 ruling 2026-11-16 (RULINGS.md § 3 Coverage)",
+ "actions": [
+  "MINTED S7407153687 'INTERNATIONAL JOURNAL OF STRUCTURAL ENGINEERING' https://iaeme.com/Home/journal/IJSE (moves 29 IAEME locations off [178805903]; board 12, issues 8)",
+  "MINTED S7407153688 'INTERNATIONAL JOURNAL OF COMPUTER APPLICATIONS' https://iaeme.com/Home/journal/IJCA (moves 22 IAEME locations off [4210206007]; board 142, issues 8)",
+  "MINTED S7407153689 'INTERNATIONAL JOURNAL OF ENGLISH LANGUAGE AND LITERATURE STUDIES' https://iaeme.com/Home/journal/IJELLS (moves 22 IAEME locations off [2764394334]; board 5, issues 8)",
+  "MINTED S7407153690 'INTERNATIONAL JOURNAL OF INFORMATION SECURITY' https://iaeme.com/Home/journal/IJIS (moves 15 IAEME locations off [164062316]; board 54, issues 8)",
+  "MINTED S7407153691 'INTERNATIONAL JOURNAL OF CLOUD COMPUTING' https://iaeme.com/Home/journal/IJCC (moves 14 IAEME locations off [4210172516]; board 147, issues 8)",
+  "MINTED S7407153692 'INTERNATIONAL JOURNAL OF MATHEMATICS' https://iaeme.com/Home/journal/IJMM (moves 11 IAEME locations off [105014038]; board 17, issues 7)",
+  "MINTED S7407153693 'INTERNATIONAL JOURNAL OF PHYSIOTHERAPY' https://iaeme.com/Home/journal/IJPH (moves 9 IAEME locations off [2764442288]; board 2, issues 7)",
+  "MINTED S7407153694 'INTERNATIONAL JOURNAL OF TOURISM RESEARCH' https://iaeme.com/Home/journal/IJTR (moves 9 IAEME locations off [172501620]; board 1, issues 5)",
+  "MINTED S7407153695 'INTERNATIONAL JOURNAL OF COMPUTER SCIENCE AND APPLICATIONS' https://iaeme.com/Home/journal/IJCSA (moves 7 IAEME locations off [20945777]; board 5, issues 8)",
+  "MINTED S7407153696 'INTERNATIONAL JOURNAL OF THERMAL ENGINEERING' https://iaeme.com/Home/journal/IJTE (moves 7 IAEME locations off [4210174147]; board 21, issues 8)",
+  "MINTED S7407153697 'INTERNATIONAL JOURNAL OF AGRICULTURAL SCIENCE AND TECHNOLOGY' https://iaeme.com/Home/journal/IJAST (moves 6 IAEME locations off [4210206098]; board 22, issues 8)",
+  "MINTED S7407153698 'INTERNATIONAL JOURNAL OF GENERAL MEDICINE' https://iaeme.com/Home/journal/IJGMED (moves 6 IAEME locations off [123199335]; board 7, issues 6)",
+  "MINTED S7407153699 'INTERNATIONAL JOURNAL OF NEUROLOGY' https://iaeme.com/Home/journal/IJNUE (moves 6 IAEME locations off [2764769398]; board 2, issues 6)",
+  "MINTED S7407153700 'INTERNATIONAL JOURNAL OF PHARMACOLOGY' https://iaeme.com/Home/journal/IJPHM (moves 6 IAEME locations off [46065367]; board 6, issues 7)",
+  "MINTED S7407153701 'INTERNATIONAL JOURNAL ON DIGITAL LIBRARIES' https://iaeme.com/Home/journal/IJDL (moves 6 IAEME locations off [110615584]; board 1, issues 5)",
+  "MINTED S7407153702 'JOURNAL OF SOFTWARE ENGINEERING' https://iaeme.com/Home/journal/JSE (moves 6 IAEME locations off [4210212565]; board 56, issues 7)",
+  "MINTED S7407153703 'INTERNATIONAL JOURNAL OF ACCOUNTING AND FINANCE' https://iaeme.com/Home/journal/IJAF (moves 5 IAEME locations off [173177581]; board 9, issues 5)",
+  "MINTED S7407153704 'INTERNATIONAL JOURNAL OF ADVANCED RESEARCH IN COMPUTER SCIENCE AND ENGINEERING' https://iaeme.com/Home/journal/IJARCSE (moves 5 IAEME locations off [7407056034]; board 4, issues 6)",
+  "MINTED S7407153705 'INTERNATIONAL JOURNAL OF COMMERCE AND MANAGEMENT' https://iaeme.com/Home/journal/IJCAM (moves 5 IAEME locations off [100820205]; board 1, issues 5)",
+  "MINTED S7407153706 'INTERNATIONAL JOURNAL OF DATA ANALYTICS' https://iaeme.com/Home/journal/IJDA (moves 5 IAEME locations off [4210195268]; board 51, issues 8)",
+  "MINTED S7407153707 'INTERNATIONAL JOURNAL OF ECONOMICS' https://iaeme.com/Home/journal/IJECO (moves 5 IAEME locations off [4210231152]; board 1, issues 5)",
+  "MINTED S7407153708 'INTERNATIONAL JOURNAL OF MACHINE LEARNING AND CYBERNETICS' https://iaeme.com/Home/journal/IJMLC (moves 5 IAEME locations off [2764999920]; board 17, issues 7)",
+  "MINTED S7407153709 'INTERNATIONAL SOCIAL SCIENCE JOURNAL' https://iaeme.com/Home/journal/ISSJ (moves 5 IAEME locations off [100444555]; board 2, issues 5)",
+  "MINTED S7407153710 'JOURNAL OF ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING' https://iaeme.com/Home/journal/JAIML (moves 5 IAEME locations off [4394708398]; board 51, issues 8)",
+  "MINTED S7407153711 'JOURNAL OF ENVIRONMENTAL MANAGEMENT' https://iaeme.com/Home/journal/JEM (moves 5 IAEME locations off [44455300]; board 2, issues 6)",
+  "MINTED S7407153712 'INTERNATIONAL JOURNAL OF AEROSPACE ENGINEERING' https://iaeme.com/Home/journal/IJASE (moves 4 IAEME locations off [75380005]; board 24, issues 7)",
+  "MINTED S7407153713 'INTERNATIONAL JOURNAL OF AVIATION MANAGEMENT' https://iaeme.com/Home/journal/IJAM (moves 4 IAEME locations off [4210168010]; board 8, issues 7)",
+  "MINTED S7407153714 'INTERNATIONAL JOURNAL OF HEALTHCARE INFORMATION SYSTEMS AND INFORMATICS' https://iaeme.com/Home/journal/IJHISI (moves 4 IAEME locations off [139009114]; board 19, issues 6)",
+  "MINTED S7407153715 'INTERNATIONAL JOURNAL OF HUMAN RESOURCES DEVELOPMENT AND MANAGEMENT' https://iaeme.com/Home/journal/IJHRDM (moves 4 IAEME locations off [84210283]; board 1, issues 7)",
+  "MINTED S7407153716 'INTERNATIONAL JOURNAL OF NEUROSURGERY' https://iaeme.com/Home/journal/IJNEU (moves 4 IAEME locations off [4210179568]; board 1, issues 6)",
+  "MINTED S7407153717 'INTERNATIONAL JOURNAL OF ASTRONOMY AND ASTROPHYSICS' https://iaeme.com/Home/journal/IJAA (moves 3 IAEME locations off [2764899421]; board 2, issues 6)",
+  "MINTED S7407153718 'INTERNATIONAL JOURNAL OF BUSINESS ANALYTICS' https://iaeme.com/Home/journal/IJBAN (moves 3 IAEME locations off [4210200043]; board 4, issues 6)",
+  "MINTED S7407153719 'INTERNATIONAL JOURNAL OF BUSINESS INTELLIGENCE RESEARCH' https://iaeme.com/Home/journal/IJBIR (moves 3 IAEME locations off [184213297]; board 19, issues 8)",
+  "MINTED S7407153720 'INTERNATIONAL JOURNAL OF CARDIOLOGY' https://iaeme.com/Home/journal/IJC (moves 3 IAEME locations off [13342628]; board 1, issues 8)",
+  "MINTED S7407153721 'INTERNATIONAL JOURNAL OF CUSTOMER RELATIONSHIP MARKETING AND MANAGEMENT' https://iaeme.com/Home/journal/IJCRMM (moves 3 IAEME locations off [1034618884]; board 12, issues 7)",
+  "MINTED S7407153722 'INTERNATIONAL JOURNAL OF CYBER WARFARE AND TERRORISM' https://iaeme.com/Home/journal/IJCWT (moves 3 IAEME locations off [4210168647]; board 4, issues 7)",
+  "MINTED S7407153723 'INTERNATIONAL JOURNAL OF DATA SCIENCE AND ANALYTICS' https://iaeme.com/Home/journal/IJDSA (moves 3 IAEME locations off [4210195017]; board 29, issues 7)",
+  "MINTED S7407153724 'INTERNATIONAL JOURNAL OF GREEN ENERGY' https://iaeme.com/Home/journal/IJOGE (moves 3 IAEME locations off [65809584]; board 2, issues 6)",
+  "MINTED S7407153725 'INTERNATIONAL JOURNAL OF MEDICAL MICROBIOLOGY' https://iaeme.com/Home/journal/IJOMM (moves 3 IAEME locations off [41453107]; board 4, issues 7)",
+  "MINTED S7407153726 'INTERNATIONAL JOURNAL OF PHYSIOLOGY' https://iaeme.com/Home/journal/IJPHY (moves 3 IAEME locations off [2764881697]; board 2, issues 6)",
+  "MINTED S7407153727 'INTERNATIONAL JOURNAL OF PLANT BIOTECHNOLOGY' https://iaeme.com/Home/journal/IJPBT (moves 3 IAEME locations off [4387290653]; board 2, issues 5)",
+  "MINTED S7407153728 'INTERNATIONAL JOURNAL OF RADIOLOGY' https://iaeme.com/Home/journal/IJR (moves 3 IAEME locations off [4210233878]; board 1, issues 6)",
+  "MINTED S7407153729 'JOURNAL OF OIL AND GAS TECHNOLOGY' https://iaeme.com/Home/journal/JOGT (moves 3 IAEME locations off [2765033345]; board 11, issues 7)",
+  "MINTED S7407153730 'JOURNAL OF SOLAR ENERGY' https://iaeme.com/Home/journal/JOSE (moves 3 IAEME locations off [4210203647]; board 20, issues 6)",
+  "MINTED S7407153731 'INTERNATIONAL JOURNAL OF BUSINESS AND DATA ANALYTICS' https://iaeme.com/Home/journal/IJBDA (moves 2 IAEME locations off [4210199297]; board 10, issues 6)",
+  "MINTED S7407153732 'INTERNATIONAL JOURNAL OF COMPUTER VISION' https://iaeme.com/Home/journal/IJCV (moves 2 IAEME locations off [25538012]; board 3, issues 6)",
+  "MINTED S7407153733 'INTERNATIONAL JOURNAL OF DISTANCE EDUCATION TECHNOLOGIES' https://iaeme.com/Home/journal/IJDET (moves 2 IAEME locations off [103640237]; board 1, issues 6)",
+  "MINTED S7407153734 'INTERNATIONAL JOURNAL OF ECONOMICS AND BUSINESS RESEARCH' https://iaeme.com/Home/journal/IJEBR (moves 2 IAEME locations off [187151359]; board 1, issues 5)",
+  "MINTED S7407153735 'INTERNATIONAL JOURNAL OF ENGINEERING SCIENCE' https://iaeme.com/Home/journal/IJES (moves 2 IAEME locations off [102630943]; board 1, issues 6)",
+  "MINTED S7407153736 'INTERNATIONAL JOURNAL OF FISHERIES AND AQUACULTURE' https://iaeme.com/Home/journal/IJFAQ (moves 2 IAEME locations off [2764529728]; board 1, issues 5)",
+  "MINTED S7407153737 'INTERNATIONAL JOURNAL OF INDUSTRIAL ERGONOMICS' https://iaeme.com/Home/journal/IJIER (moves 2 IAEME locations off [92539022]; board 1, issues 6)",
+  "MINTED S7407153738 'INTERNATIONAL JOURNAL OF MACHINE INTELLIGENCE' https://iaeme.com/Home/journal/IJMI (moves 2 IAEME locations off [4210168556]; board 2, issues 8)",
+  "MINTED S7407153739 'INTERNATIONAL JOURNAL OF OBSTETRICS AND GYNAECOLOGY' https://iaeme.com/Home/journal/IJOG (moves 2 IAEME locations off [4387290288]; board 7, issues 6)",
+  "MINTED S7407153740 'INTERNATIONAL JOURNAL OF OPHTHALMOLOGY' https://iaeme.com/Home/journal/IJOP (moves 2 IAEME locations off [2481947471]; board 1, issues 6)",
+  "MINTED S7407153741 'INTERNATIONAL JOURNAL OF POLITICS, CULTURE, AND SOCIETY' https://iaeme.com/Home/journal/IJPCS (moves 2 IAEME locations off [42865813]; board 1, issues 5)",
+  "MINTED S7407153742 'INTERNATIONAL JOURNAL OF PROBABILITY AND STATISTICS' https://iaeme.com/Home/journal/IJPST (moves 2 IAEME locations off [4210193220]; board 1, issues 8)",
+  "MINTED S7407153743 'INTERNATIONAL JOURNAL OF PUBLIC POLICY' https://iaeme.com/Home/journal/IJPP (moves 2 IAEME locations off [188124791]; board 1, issues 6)",
+  "MINTED S7407153744 'INTERNATIONAL JOURNAL OF UROLOGY' https://iaeme.com/Home/journal/IJU (moves 2 IAEME locations off [134892809]; board 1, issues 6)",
+  "MINTED S7407153745 'INTERNATIONAL JOURNAL OF AGRICULTURAL ECONOMICS' https://iaeme.com/Home/journal/IJAGRE (moves 1 IAEME locations off [4210207208]; board 3, issues 8)",
+  "MINTED S7407153746 'INTERNATIONAL JOURNAL OF ANALYTICAL CHEMISTRY' https://iaeme.com/Home/journal/IJAC (moves 1 IAEME locations off [127888171]; board 3, issues 5)",
+  "MINTED S7407153747 'INTERNATIONAL JOURNAL OF ARTIFICIAL INTELLIGENCE TOOLS' https://iaeme.com/Home/journal/IJAIT (moves 1 IAEME locations off [178780388]; board 5, issues 6)",
+  "MINTED S7407153748 'INTERNATIONAL JOURNAL OF AUTOMOBILE ENGINEERING' https://iaeme.com/Home/journal/IJAUE (moves 1 IAEME locations off [4404661863]; board 22, issues 8)",
+  "MINTED S7407153749 'INTERNATIONAL JOURNAL OF BEHAVIORAL SCIENCES' https://iaeme.com/Home/journal/IJOBS (moves 1 IAEME locations off [5407047218]; board 1, issues 5)",
+  "MINTED S7407153750 'INTERNATIONAL JOURNAL OF BLOCKCHAINS AND CRYPTOCURRENCIES' https://iaeme.com/Home/journal/IJBC (moves 1 IAEME locations off [4210223274]; board 4, issues 6)",
+  "MINTED S7407153751 'INTERNATIONAL JOURNAL OF BUSINESS INNOVATION AND RESEARCH' https://iaeme.com/Home/journal/IJBIRE (moves 1 IAEME locations off [155657779]; board 2, issues 6)",
+  "MINTED S7407153752 'INTERNATIONAL JOURNAL OF CLINICAL PRACTICE' https://iaeme.com/Home/journal/IJCP (moves 1 IAEME locations off [22344484]; board 2, issues 6)",
+  "MINTED S7407153753 'INTERNATIONAL JOURNAL OF COMPUTATIONAL BIOLOGY' https://iaeme.com/Home/journal/IJCB (moves 1 IAEME locations off [4210170868]; board 3, issues 8)",
+  "MINTED S7407153754 'INTERNATIONAL JOURNAL OF COMPUTER SCIENCES AND ENGINEERING' https://iaeme.com/Home/journal/IJCSE (moves 1 IAEME locations off [4210169770]; board 3, issues 6)",
+  "MINTED S7407153755 'INTERNATIONAL JOURNAL OF DATA SCIENCE' https://iaeme.com/Home/journal/IJDS (moves 1 IAEME locations off [4210179791]; board 15, issues 6)",
+  "MINTED S7407153756 'INTERNATIONAL JOURNAL OF DENTAL SCIENCES' https://iaeme.com/Home/journal/IJDENT (moves 1 IAEME locations off [7407058479]; board 3, issues 6)",
+  "MINTED S7407153757 'INTERNATIONAL JOURNAL OF E-ENTREPRENEURSHIP AND INNOVATION' https://iaeme.com/Home/journal/IJEEI (moves 1 IAEME locations off [4210191280]; board 1, issues 6)",
+  "MINTED S7407153758 'INTERNATIONAL JOURNAL OF EMBEDDED SYSTEMS' https://iaeme.com/Home/journal/IJEMS (moves 1 IAEME locations off [204369148]; board 7, issues 6)",
+  "MINTED S7407153759 'INTERNATIONAL JOURNAL OF ENDOCRINOLOGY' https://iaeme.com/Home/journal/IJEN (moves 1 IAEME locations off [123631873]; board 1, issues 7)",
+  "MINTED S7407153760 'INTERNATIONAL JOURNAL OF ENTREPRENEURSHIP AND SMALL BUSINESS' https://iaeme.com/Home/journal/IJESB (moves 1 IAEME locations off [123914889]; board 1, issues 5)",
+  "MINTED S7407153761 'INTERNATIONAL JOURNAL OF GENERATIVE ARTIFICIAL INTELLIGENCE IN BUSINESS' https://iaeme.com/Home/journal/IJGAIB (moves 1 IAEME locations off [5407052546]; board 3, issues 3)",
+  "MINTED S7407153762 'INTERNATIONAL JOURNAL OF HYPERTENSION' https://iaeme.com/Home/journal/IJHY (moves 1 IAEME locations off [52659601]; board 1, issues 6)",
+  "MINTED S7407153763 'INTERNATIONAL JOURNAL OF MANUFACTURING, MATERIALS, AND MECHANICAL ENGINEERING' https://iaeme.com/Home/journal/IJMMME (moves 1 IAEME locations off [4210226236]; board 9, issues 7)",
+  "MINTED S7407153764 'INTERNATIONAL JOURNAL OF NANOTECHNOLOGY' https://iaeme.com/Home/journal/IJNT (moves 1 IAEME locations off [200612592]; board 19, issues 6)",
+  "MINTED S7407153765 'INTERNATIONAL JOURNAL OF NEMATOLOGY' https://iaeme.com/Home/journal/IJNMT (moves 1 IAEME locations off [2764360568]; board 3, issues 8)",
+  "MINTED S7407153766 'INTERNATIONAL JOURNAL OF NEPHROLOGY' https://iaeme.com/Home/journal/IJNE (moves 1 IAEME locations off [120416549]; board 1, issues 7)",
+  "MINTED S7407153767 'INTERNATIONAL JOURNAL OF PAIN RESEARCH AND TREATMENT' https://iaeme.com/Home/journal/IJPART (moves 1 IAEME locations off [4210223289]; board 2, issues 3)",
+  "MINTED S7407153768 'INTERNATIONAL JOURNAL OF PRODUCTION RESEARCH' https://iaeme.com/Home/journal/IJPR (moves 1 IAEME locations off [65690446]; board 1, issues 5)",
+  "MINTED S7407153769 'INTERNATIONAL JOURNAL OF RELIABILITY, QUALITY AND SAFETY ENGINEERING' https://iaeme.com/Home/journal/IJRQSE (moves 1 IAEME locations off [18122089]; board 1, issues 2)",
+  "MINTED S7407153770 'INTERNATIONAL JOURNAL OF RELIGIOUS AND CULTURAL STUDIES' https://iaeme.com/Home/journal/IJRCS (moves 1 IAEME locations off [4210225145]; board 1, issues 7)",
+  "MINTED S7407153771 'INTERNATIONAL JOURNAL OF SOCIAL ECONOMICS' https://iaeme.com/Home/journal/IJSECO (moves 1 IAEME locations off [49131624]; board 1, issues 5)",
+  "MINTED S7407153772 'INTERNATIONAL JOURNAL OF SOIL SCIENCE' https://iaeme.com/Home/journal/IJSOS (moves 1 IAEME locations off [109079305]; board 1, issues 5)",
+  "MINTED S7407153773 'INTERNATIONAL JOURNAL OF VETERINARY SCIENCE AND MEDICINE' https://iaeme.com/Home/journal/IJVSM (moves 1 IAEME locations off [2898220704]; board 2, issues 6)",
+  "MINTED S7407153774 'JOURNAL OF CARDIOLOGY AND CARDIOVASCULAR MEDICINE' https://iaeme.com/Home/journal/JCCM (moves 1 IAEME locations off [4210200178]; board 1, issues 2)",
+  "MINTED S7407153775 'JOURNAL OF ENGINEERING DESIGN' https://iaeme.com/Home/journal/JED (moves 1 IAEME locations off [2912548]; board 17, issues 6)",
+  "MINTED S7407153776 'JOURNAL OF INDUSTRIAL TECHNOLOGY AND INNOVATION' https://iaeme.com/Home/journal/JITI (moves 1 IAEME locations off [4387281474]; board 2, issues 2)",
+  "MINTED S7407153777 'JOURNAL OF LEARNING DEVELOPMENT IN HIGHER EDUCATION' https://iaeme.com/Home/journal/JLDHE (moves 1 IAEME locations off [2764854317]; board 1, issues 5)",
+  "MINTED S7407153778 'JOURNAL OF ORGANIZATIONAL BEHAVIOR' https://iaeme.com/Home/journal/JOB (moves 1 IAEME locations off [160573970]; board 2, issues 6)",
+  "minted 92, skipped 0",
+  "COMMITTED"
+ ],
+ "minted": [
+  {
+   "source_id": 7407153687,
+   "name": "INTERNATIONAL JOURNAL OF STRUCTURAL ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJSE",
+   "foreign_namesakes_today": [
+    178805903
+   ],
+   "iaeme_locations_on_foreign": 29,
+   "namesakes_in_registry": [
+    178805903
+   ],
+   "site_board": 12,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153688,
+   "name": "INTERNATIONAL JOURNAL OF COMPUTER APPLICATIONS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCA",
+   "foreign_namesakes_today": [
+    4210206007
+   ],
+   "iaeme_locations_on_foreign": 22,
+   "namesakes_in_registry": [
+    4210206007
+   ],
+   "site_board": 142,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153689,
+   "name": "INTERNATIONAL JOURNAL OF ENGLISH LANGUAGE AND LITERATURE STUDIES",
+   "homepage_url": "https://iaeme.com/Home/journal/IJELLS",
+   "foreign_namesakes_today": [
+    2764394334
+   ],
+   "iaeme_locations_on_foreign": 22,
+   "namesakes_in_registry": [
+    2764394334
+   ],
+   "site_board": 5,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153690,
+   "name": "INTERNATIONAL JOURNAL OF INFORMATION SECURITY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJIS",
+   "foreign_namesakes_today": [
+    164062316
+   ],
+   "iaeme_locations_on_foreign": 15,
+   "namesakes_in_registry": [
+    164062316
+   ],
+   "site_board": 54,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153691,
+   "name": "INTERNATIONAL JOURNAL OF CLOUD COMPUTING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCC",
+   "foreign_namesakes_today": [
+    4210172516
+   ],
+   "iaeme_locations_on_foreign": 14,
+   "namesakes_in_registry": [
+    4210172516
+   ],
+   "site_board": 147,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153692,
+   "name": "INTERNATIONAL JOURNAL OF MATHEMATICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJMM",
+   "foreign_namesakes_today": [
+    105014038
+   ],
+   "iaeme_locations_on_foreign": 11,
+   "namesakes_in_registry": [
+    105014038
+   ],
+   "site_board": 17,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153693,
+   "name": "INTERNATIONAL JOURNAL OF PHYSIOTHERAPY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPH",
+   "foreign_namesakes_today": [
+    2764442288
+   ],
+   "iaeme_locations_on_foreign": 9,
+   "namesakes_in_registry": [
+    2764442288
+   ],
+   "site_board": 2,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153694,
+   "name": "INTERNATIONAL JOURNAL OF TOURISM RESEARCH",
+   "homepage_url": "https://iaeme.com/Home/journal/IJTR",
+   "foreign_namesakes_today": [
+    172501620
+   ],
+   "iaeme_locations_on_foreign": 9,
+   "namesakes_in_registry": [
+    172501620
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153695,
+   "name": "INTERNATIONAL JOURNAL OF COMPUTER SCIENCE AND APPLICATIONS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCSA",
+   "foreign_namesakes_today": [
+    20945777
+   ],
+   "iaeme_locations_on_foreign": 7,
+   "namesakes_in_registry": [
+    20945777
+   ],
+   "site_board": 5,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153696,
+   "name": "INTERNATIONAL JOURNAL OF THERMAL ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJTE",
+   "foreign_namesakes_today": [
+    4210174147
+   ],
+   "iaeme_locations_on_foreign": 7,
+   "namesakes_in_registry": [
+    4210174147
+   ],
+   "site_board": 21,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153697,
+   "name": "INTERNATIONAL JOURNAL OF AGRICULTURAL SCIENCE AND TECHNOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJAST",
+   "foreign_namesakes_today": [
+    4210206098
+   ],
+   "iaeme_locations_on_foreign": 6,
+   "namesakes_in_registry": [
+    4210206098
+   ],
+   "site_board": 22,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153698,
+   "name": "INTERNATIONAL JOURNAL OF GENERAL MEDICINE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJGMED",
+   "foreign_namesakes_today": [
+    123199335
+   ],
+   "iaeme_locations_on_foreign": 6,
+   "namesakes_in_registry": [
+    123199335
+   ],
+   "site_board": 7,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153699,
+   "name": "INTERNATIONAL JOURNAL OF NEUROLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJNUE",
+   "foreign_namesakes_today": [
+    2764769398
+   ],
+   "iaeme_locations_on_foreign": 6,
+   "namesakes_in_registry": [
+    2764769398
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153700,
+   "name": "INTERNATIONAL JOURNAL OF PHARMACOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPHM",
+   "foreign_namesakes_today": [
+    46065367
+   ],
+   "iaeme_locations_on_foreign": 6,
+   "namesakes_in_registry": [
+    46065367
+   ],
+   "site_board": 6,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153701,
+   "name": "INTERNATIONAL JOURNAL ON DIGITAL LIBRARIES",
+   "homepage_url": "https://iaeme.com/Home/journal/IJDL",
+   "foreign_namesakes_today": [
+    110615584
+   ],
+   "iaeme_locations_on_foreign": 6,
+   "namesakes_in_registry": [
+    110615584
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153702,
+   "name": "JOURNAL OF SOFTWARE ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/JSE",
+   "foreign_namesakes_today": [
+    4210212565
+   ],
+   "iaeme_locations_on_foreign": 6,
+   "namesakes_in_registry": [
+    4210212565
+   ],
+   "site_board": 56,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153703,
+   "name": "INTERNATIONAL JOURNAL OF ACCOUNTING AND FINANCE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJAF",
+   "foreign_namesakes_today": [
+    173177581
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    173177581
+   ],
+   "site_board": 9,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153704,
+   "name": "INTERNATIONAL JOURNAL OF ADVANCED RESEARCH IN COMPUTER SCIENCE AND ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJARCSE",
+   "foreign_namesakes_today": [
+    7407056034
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    7407056034
+   ],
+   "site_board": 4,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153705,
+   "name": "INTERNATIONAL JOURNAL OF COMMERCE AND MANAGEMENT",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCAM",
+   "foreign_namesakes_today": [
+    100820205
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    100820205
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153706,
+   "name": "INTERNATIONAL JOURNAL OF DATA ANALYTICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJDA",
+   "foreign_namesakes_today": [
+    4210195268
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    4210195268
+   ],
+   "site_board": 51,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153707,
+   "name": "INTERNATIONAL JOURNAL OF ECONOMICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJECO",
+   "foreign_namesakes_today": [
+    4210231152
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    4210231152
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153708,
+   "name": "INTERNATIONAL JOURNAL OF MACHINE LEARNING AND CYBERNETICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJMLC",
+   "foreign_namesakes_today": [
+    2764999920
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    2764999920
+   ],
+   "site_board": 17,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153709,
+   "name": "INTERNATIONAL SOCIAL SCIENCE JOURNAL",
+   "homepage_url": "https://iaeme.com/Home/journal/ISSJ",
+   "foreign_namesakes_today": [
+    100444555
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    100444555
+   ],
+   "site_board": 2,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153710,
+   "name": "JOURNAL OF ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+   "homepage_url": "https://iaeme.com/Home/journal/JAIML",
+   "foreign_namesakes_today": [
+    4394708398
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    4394708398
+   ],
+   "site_board": 51,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153711,
+   "name": "JOURNAL OF ENVIRONMENTAL MANAGEMENT",
+   "homepage_url": "https://iaeme.com/Home/journal/JEM",
+   "foreign_namesakes_today": [
+    44455300
+   ],
+   "iaeme_locations_on_foreign": 5,
+   "namesakes_in_registry": [
+    44455300
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153712,
+   "name": "INTERNATIONAL JOURNAL OF AEROSPACE ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJASE",
+   "foreign_namesakes_today": [
+    75380005
+   ],
+   "iaeme_locations_on_foreign": 4,
+   "namesakes_in_registry": [
+    75380005
+   ],
+   "site_board": 24,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153713,
+   "name": "INTERNATIONAL JOURNAL OF AVIATION MANAGEMENT",
+   "homepage_url": "https://iaeme.com/Home/journal/IJAM",
+   "foreign_namesakes_today": [
+    4210168010
+   ],
+   "iaeme_locations_on_foreign": 4,
+   "namesakes_in_registry": [
+    4210168010
+   ],
+   "site_board": 8,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153714,
+   "name": "INTERNATIONAL JOURNAL OF HEALTHCARE INFORMATION SYSTEMS AND INFORMATICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJHISI",
+   "foreign_namesakes_today": [
+    139009114
+   ],
+   "iaeme_locations_on_foreign": 4,
+   "namesakes_in_registry": [
+    139009114
+   ],
+   "site_board": 19,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153715,
+   "name": "INTERNATIONAL JOURNAL OF HUMAN RESOURCES DEVELOPMENT AND MANAGEMENT",
+   "homepage_url": "https://iaeme.com/Home/journal/IJHRDM",
+   "foreign_namesakes_today": [
+    84210283
+   ],
+   "iaeme_locations_on_foreign": 4,
+   "namesakes_in_registry": [
+    84210283
+   ],
+   "site_board": 1,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153716,
+   "name": "INTERNATIONAL JOURNAL OF NEUROSURGERY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJNEU",
+   "foreign_namesakes_today": [
+    4210179568
+   ],
+   "iaeme_locations_on_foreign": 4,
+   "namesakes_in_registry": [
+    4210179568
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153717,
+   "name": "INTERNATIONAL JOURNAL OF ASTRONOMY AND ASTROPHYSICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJAA",
+   "foreign_namesakes_today": [
+    2764899421
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    2764899421
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153718,
+   "name": "INTERNATIONAL JOURNAL OF BUSINESS ANALYTICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJBAN",
+   "foreign_namesakes_today": [
+    4210200043
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    4210200043
+   ],
+   "site_board": 4,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153719,
+   "name": "INTERNATIONAL JOURNAL OF BUSINESS INTELLIGENCE RESEARCH",
+   "homepage_url": "https://iaeme.com/Home/journal/IJBIR",
+   "foreign_namesakes_today": [
+    184213297
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    184213297
+   ],
+   "site_board": 19,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153720,
+   "name": "INTERNATIONAL JOURNAL OF CARDIOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJC",
+   "foreign_namesakes_today": [
+    13342628
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    13342628
+   ],
+   "site_board": 1,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153721,
+   "name": "INTERNATIONAL JOURNAL OF CUSTOMER RELATIONSHIP MARKETING AND MANAGEMENT",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCRMM",
+   "foreign_namesakes_today": [
+    1034618884
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    1034618884
+   ],
+   "site_board": 12,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153722,
+   "name": "INTERNATIONAL JOURNAL OF CYBER WARFARE AND TERRORISM",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCWT",
+   "foreign_namesakes_today": [
+    4210168647
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    4210168647
+   ],
+   "site_board": 4,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153723,
+   "name": "INTERNATIONAL JOURNAL OF DATA SCIENCE AND ANALYTICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJDSA",
+   "foreign_namesakes_today": [
+    4210195017
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    4210195017
+   ],
+   "site_board": 29,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153724,
+   "name": "INTERNATIONAL JOURNAL OF GREEN ENERGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJOGE",
+   "foreign_namesakes_today": [
+    65809584
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    65809584
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153725,
+   "name": "INTERNATIONAL JOURNAL OF MEDICAL MICROBIOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJOMM",
+   "foreign_namesakes_today": [
+    41453107
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    41453107
+   ],
+   "site_board": 4,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153726,
+   "name": "INTERNATIONAL JOURNAL OF PHYSIOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPHY",
+   "foreign_namesakes_today": [
+    2764881697
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    2764881697
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153727,
+   "name": "INTERNATIONAL JOURNAL OF PLANT BIOTECHNOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPBT",
+   "foreign_namesakes_today": [
+    4387290653
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    4387290653
+   ],
+   "site_board": 2,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153728,
+   "name": "INTERNATIONAL JOURNAL OF RADIOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJR",
+   "foreign_namesakes_today": [
+    4210233878
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    4210233878
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153729,
+   "name": "JOURNAL OF OIL AND GAS TECHNOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/JOGT",
+   "foreign_namesakes_today": [
+    2765033345
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    2765033345
+   ],
+   "site_board": 11,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153730,
+   "name": "JOURNAL OF SOLAR ENERGY",
+   "homepage_url": "https://iaeme.com/Home/journal/JOSE",
+   "foreign_namesakes_today": [
+    4210203647
+   ],
+   "iaeme_locations_on_foreign": 3,
+   "namesakes_in_registry": [
+    4210203647
+   ],
+   "site_board": 20,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153731,
+   "name": "INTERNATIONAL JOURNAL OF BUSINESS AND DATA ANALYTICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJBDA",
+   "foreign_namesakes_today": [
+    4210199297
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    4210199297
+   ],
+   "site_board": 10,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153732,
+   "name": "INTERNATIONAL JOURNAL OF COMPUTER VISION",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCV",
+   "foreign_namesakes_today": [
+    25538012
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    25538012
+   ],
+   "site_board": 3,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153733,
+   "name": "INTERNATIONAL JOURNAL OF DISTANCE EDUCATION TECHNOLOGIES",
+   "homepage_url": "https://iaeme.com/Home/journal/IJDET",
+   "foreign_namesakes_today": [
+    103640237
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    103640237
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": 27210
+  },
+  {
+   "source_id": 7407153734,
+   "name": "INTERNATIONAL JOURNAL OF ECONOMICS AND BUSINESS RESEARCH",
+   "homepage_url": "https://iaeme.com/Home/journal/IJEBR",
+   "foreign_namesakes_today": [
+    187151359
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    187151359
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153735,
+   "name": "INTERNATIONAL JOURNAL OF ENGINEERING SCIENCE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJES",
+   "foreign_namesakes_today": [
+    102630943
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    102630943
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153736,
+   "name": "INTERNATIONAL JOURNAL OF FISHERIES AND AQUACULTURE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJFAQ",
+   "foreign_namesakes_today": [
+    2764529728
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    2764529728
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153737,
+   "name": "INTERNATIONAL JOURNAL OF INDUSTRIAL ERGONOMICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJIER",
+   "foreign_namesakes_today": [
+    92539022
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    92539022
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153738,
+   "name": "INTERNATIONAL JOURNAL OF MACHINE INTELLIGENCE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJMI",
+   "foreign_namesakes_today": [
+    4210168556
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    4210168556
+   ],
+   "site_board": 2,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153739,
+   "name": "INTERNATIONAL JOURNAL OF OBSTETRICS AND GYNAECOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJOG",
+   "foreign_namesakes_today": [
+    4387290288
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    4387290288
+   ],
+   "site_board": 7,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153740,
+   "name": "INTERNATIONAL JOURNAL OF OPHTHALMOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJOP",
+   "foreign_namesakes_today": [
+    2481947471
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    2481947471
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153741,
+   "name": "INTERNATIONAL JOURNAL OF POLITICS, CULTURE, AND SOCIETY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPCS",
+   "foreign_namesakes_today": [
+    42865813
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    42865813
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153742,
+   "name": "INTERNATIONAL JOURNAL OF PROBABILITY AND STATISTICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPST",
+   "foreign_namesakes_today": [
+    4210193220
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    4210193220
+   ],
+   "site_board": 1,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153743,
+   "name": "INTERNATIONAL JOURNAL OF PUBLIC POLICY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPP",
+   "foreign_namesakes_today": [
+    188124791
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    188124791
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153744,
+   "name": "INTERNATIONAL JOURNAL OF UROLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJU",
+   "foreign_namesakes_today": [
+    134892809
+   ],
+   "iaeme_locations_on_foreign": 2,
+   "namesakes_in_registry": [
+    134892809
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153745,
+   "name": "INTERNATIONAL JOURNAL OF AGRICULTURAL ECONOMICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJAGRE",
+   "foreign_namesakes_today": [
+    4210207208
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210207208
+   ],
+   "site_board": 3,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153746,
+   "name": "INTERNATIONAL JOURNAL OF ANALYTICAL CHEMISTRY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJAC",
+   "foreign_namesakes_today": [
+    127888171
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    127888171
+   ],
+   "site_board": 3,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153747,
+   "name": "INTERNATIONAL JOURNAL OF ARTIFICIAL INTELLIGENCE TOOLS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJAIT",
+   "foreign_namesakes_today": [
+    178780388
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    178780388
+   ],
+   "site_board": 5,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153748,
+   "name": "INTERNATIONAL JOURNAL OF AUTOMOBILE ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJAUE",
+   "foreign_namesakes_today": [
+    4404661863
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4404661863
+   ],
+   "site_board": 22,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153749,
+   "name": "INTERNATIONAL JOURNAL OF BEHAVIORAL SCIENCES",
+   "homepage_url": "https://iaeme.com/Home/journal/IJOBS",
+   "foreign_namesakes_today": [
+    5407047218
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    5407047218
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153750,
+   "name": "INTERNATIONAL JOURNAL OF BLOCKCHAINS AND CRYPTOCURRENCIES",
+   "homepage_url": "https://iaeme.com/Home/journal/IJBC",
+   "foreign_namesakes_today": [
+    4210223274
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210223274
+   ],
+   "site_board": 4,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153751,
+   "name": "INTERNATIONAL JOURNAL OF BUSINESS INNOVATION AND RESEARCH",
+   "homepage_url": "https://iaeme.com/Home/journal/IJBIRE",
+   "foreign_namesakes_today": [
+    155657779
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    155657779
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153752,
+   "name": "INTERNATIONAL JOURNAL OF CLINICAL PRACTICE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCP",
+   "foreign_namesakes_today": [
+    22344484
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    22344484
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153753,
+   "name": "INTERNATIONAL JOURNAL OF COMPUTATIONAL BIOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCB",
+   "foreign_namesakes_today": [
+    4210170868
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210170868
+   ],
+   "site_board": 3,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153754,
+   "name": "INTERNATIONAL JOURNAL OF COMPUTER SCIENCES AND ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJCSE",
+   "foreign_namesakes_today": [
+    4210169770
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210169770
+   ],
+   "site_board": 3,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153755,
+   "name": "INTERNATIONAL JOURNAL OF DATA SCIENCE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJDS",
+   "foreign_namesakes_today": [
+    4210179791
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210179791
+   ],
+   "site_board": 15,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153756,
+   "name": "INTERNATIONAL JOURNAL OF DENTAL SCIENCES",
+   "homepage_url": "https://iaeme.com/Home/journal/IJDENT",
+   "foreign_namesakes_today": [
+    7407058479
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    7407058479
+   ],
+   "site_board": 3,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153757,
+   "name": "INTERNATIONAL JOURNAL OF E-ENTREPRENEURSHIP AND INNOVATION",
+   "homepage_url": "https://iaeme.com/Home/journal/IJEEI",
+   "foreign_namesakes_today": [
+    4210191280
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210191280
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153758,
+   "name": "INTERNATIONAL JOURNAL OF EMBEDDED SYSTEMS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJEMS",
+   "foreign_namesakes_today": [
+    204369148
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    204369148
+   ],
+   "site_board": 7,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153759,
+   "name": "INTERNATIONAL JOURNAL OF ENDOCRINOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJEN",
+   "foreign_namesakes_today": [
+    123631873
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    123631873
+   ],
+   "site_board": 1,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153760,
+   "name": "INTERNATIONAL JOURNAL OF ENTREPRENEURSHIP AND SMALL BUSINESS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJESB",
+   "foreign_namesakes_today": [
+    123914889
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    123914889
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153761,
+   "name": "INTERNATIONAL JOURNAL OF GENERATIVE ARTIFICIAL INTELLIGENCE IN BUSINESS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJGAIB",
+   "foreign_namesakes_today": [
+    5407052546
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    5407052546
+   ],
+   "site_board": 3,
+   "site_issues": 3,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153762,
+   "name": "INTERNATIONAL JOURNAL OF HYPERTENSION",
+   "homepage_url": "https://iaeme.com/Home/journal/IJHY",
+   "foreign_namesakes_today": [
+    52659601
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    52659601
+   ],
+   "site_board": 1,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153763,
+   "name": "INTERNATIONAL JOURNAL OF MANUFACTURING, MATERIALS, AND MECHANICAL ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJMMME",
+   "foreign_namesakes_today": [
+    4210226236
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210226236
+   ],
+   "site_board": 9,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153764,
+   "name": "INTERNATIONAL JOURNAL OF NANOTECHNOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJNT",
+   "foreign_namesakes_today": [
+    200612592
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    200612592
+   ],
+   "site_board": 19,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153765,
+   "name": "INTERNATIONAL JOURNAL OF NEMATOLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJNMT",
+   "foreign_namesakes_today": [
+    2764360568
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    2764360568
+   ],
+   "site_board": 3,
+   "site_issues": 8,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153766,
+   "name": "INTERNATIONAL JOURNAL OF NEPHROLOGY",
+   "homepage_url": "https://iaeme.com/Home/journal/IJNE",
+   "foreign_namesakes_today": [
+    120416549
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    120416549
+   ],
+   "site_board": 1,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153767,
+   "name": "INTERNATIONAL JOURNAL OF PAIN RESEARCH AND TREATMENT",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPART",
+   "foreign_namesakes_today": [
+    4210223289
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210223289
+   ],
+   "site_board": 2,
+   "site_issues": 3,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153768,
+   "name": "INTERNATIONAL JOURNAL OF PRODUCTION RESEARCH",
+   "homepage_url": "https://iaeme.com/Home/journal/IJPR",
+   "foreign_namesakes_today": [
+    65690446
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    65690446
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153769,
+   "name": "INTERNATIONAL JOURNAL OF RELIABILITY, QUALITY AND SAFETY ENGINEERING",
+   "homepage_url": "https://iaeme.com/Home/journal/IJRQSE",
+   "foreign_namesakes_today": [
+    18122089
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    18122089
+   ],
+   "site_board": 1,
+   "site_issues": 2,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153770,
+   "name": "INTERNATIONAL JOURNAL OF RELIGIOUS AND CULTURAL STUDIES",
+   "homepage_url": "https://iaeme.com/Home/journal/IJRCS",
+   "foreign_namesakes_today": [
+    4210225145
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210225145
+   ],
+   "site_board": 1,
+   "site_issues": 7,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153771,
+   "name": "INTERNATIONAL JOURNAL OF SOCIAL ECONOMICS",
+   "homepage_url": "https://iaeme.com/Home/journal/IJSECO",
+   "foreign_namesakes_today": [
+    49131624
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    49131624
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153772,
+   "name": "INTERNATIONAL JOURNAL OF SOIL SCIENCE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJSOS",
+   "foreign_namesakes_today": [
+    109079305
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    109079305
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153773,
+   "name": "INTERNATIONAL JOURNAL OF VETERINARY SCIENCE AND MEDICINE",
+   "homepage_url": "https://iaeme.com/Home/journal/IJVSM",
+   "foreign_namesakes_today": [
+    2898220704
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    2898220704
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153774,
+   "name": "JOURNAL OF CARDIOLOGY AND CARDIOVASCULAR MEDICINE",
+   "homepage_url": "https://iaeme.com/Home/journal/JCCM",
+   "foreign_namesakes_today": [
+    4210200178
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4210200178
+   ],
+   "site_board": 1,
+   "site_issues": 2,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153775,
+   "name": "JOURNAL OF ENGINEERING DESIGN",
+   "homepage_url": "https://iaeme.com/Home/journal/JED",
+   "foreign_namesakes_today": [
+    2912548
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    2912548
+   ],
+   "site_board": 17,
+   "site_issues": 6,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153776,
+   "name": "JOURNAL OF INDUSTRIAL TECHNOLOGY AND INNOVATION",
+   "homepage_url": "https://iaeme.com/Home/journal/JITI",
+   "foreign_namesakes_today": [
+    4387281474
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    4387281474
+   ],
+   "site_board": 2,
+   "site_issues": 2,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153777,
+   "name": "JOURNAL OF LEARNING DEVELOPMENT IN HIGHER EDUCATION",
+   "homepage_url": "https://iaeme.com/Home/journal/JLDHE",
+   "foreign_namesakes_today": [
+    2764854317
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    2764854317
+   ],
+   "site_board": 1,
+   "site_issues": 5,
+   "ticket": null
+  },
+  {
+   "source_id": 7407153778,
+   "name": "JOURNAL OF ORGANIZATIONAL BEHAVIOR",
+   "homepage_url": "https://iaeme.com/Home/journal/JOB",
+   "foreign_namesakes_today": [
+    160573970
+   ],
+   "iaeme_locations_on_foreign": 1,
+   "namesakes_in_registry": [
+    160573970
+   ],
+   "site_board": 2,
+   "site_issues": 6,
+   "ticket": null
+  }
+ ],
+ "skipped": []
+}
