@@ -1,0 +1,133 @@
+{
+ "run_at": "2026-11-20T21:14:26.013620+00:00",
+ "execute": true,
+ "job": "oxjob #1855, ZD 27823",
+ "before": {
+  "id": 25010850,
+  "display_name": "Publications mathématiques de l IHÉS",
+  "apc_usd": 0,
+  "apc_prices": [
+   {
+    "price": 0,
+    "currency": "USD"
+   }
+  ],
+  "apc_usd_by_year": {
+   "2022": 3385,
+   "2023": 3290,
+   "2024": 3390,
+   "2025": 3590
+  },
+  "apc_prices_by_year": {
+   "2022": [
+    {
+     "price": 3385,
+     "currency": "USD"
+    },
+    {
+     "price": 2750,
+     "currency": "EUR"
+    },
+    {
+     "price": 2310,
+     "currency": "GBP"
+    }
+   ],
+   "2023": [
+    {
+     "price": 3290,
+     "currency": "USD"
+    },
+    {
+     "price": 2690,
+     "currency": "EUR"
+    },
+    {
+     "price": 2290,
+     "currency": "GBP"
+    }
+   ],
+   "2024": [
+    {
+     "price": 3390,
+     "currency": "USD"
+    },
+    {
+     "price": 2790,
+     "currency": "EUR"
+    },
+    {
+     "price": 2390,
+     "currency": "GBP"
+    }
+   ],
+   "2025": [
+    {
+     "price": 3590,
+     "currency": "USD"
+    },
+    {
+     "price": 2890,
+     "currency": "EUR"
+    },
+    {
+     "price": 2490,
+     "currency": "GBP"
+    }
+   ]
+  },
+  "is_oa": true,
+  "is_in_doaj": false,
+  "publisher_id": 4310311539
+ },
+ "after": {
+  "id": 25010850,
+  "display_name": "Publications mathématiques de l IHÉS",
+  "apc_usd": 0,
+  "apc_prices": [
+   {
+    "price": 0,
+    "currency": "USD"
+   }
+  ],
+  "apc_usd_by_year": {
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0
+  },
+  "apc_prices_by_year": {
+   "2022": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "2023": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "2024": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "2025": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ]
+  },
+  "is_oa": true,
+  "is_in_doaj": false,
+  "publisher_id": 4310311539
+ },
+ "actions": [
+  "UPDATE sources 25010850: apc_usd_by_year {\"2022\": 3385, \"2023\": 3290, \"2024\": 3390, \"2025\": 3590} -> {\"2022\": 0, \"2023\": 0, \"2024\": 0, \"2025\": 0}; apc_prices_by_year 2022-2025 Springer USD/EUR/GBP -> single USD 0 entries  (ZD 27823 IHES: no author APC from 2021 (link.springer.com/journal/10240: 'Article processing charges are not the responsibility of any individual researcher'; pmihes.centre-mersenne.org/page/about: 'no charges'))",
+  "written 1 of 1; is_oa unchanged"
+ ]
+}
