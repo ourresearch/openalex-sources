@@ -1,0 +1,20 @@
+{
+ "run_at": "2026-11-20T23:18:30.944763+00:00",
+ "execute": true,
+ "revert_of": null,
+ "job": 1817,
+ "approved": "support factory #2254; RULINGS § 3 D12 (17 Nov) + D5 (16 Nov); standing authority",
+ "actions": [
+  "MINTED S7407153780 ebook platform 'Éditions Orbis Tertius eBooks', alt ['Editions Orbis Tertius eBooks'], publisher_id 4404685466 (ZD 26966)",
+  "row: {\"id\": 7407153780, \"display_name\": \"Éditions Orbis Tertius eBooks\", \"type\": \"ebook platform\", \"publisher\": \"Éditions Orbis Tertius\", \"publisher_id\": 4404685466, \"institution_id\": null, \"homepage_url\": \"https://www.editionsorbistertius.website/\", \"country_code\": \"FR\", \"is_oa\": false, \"alternate_titles\": [\"Editions Orbis Tertius eBooks\"]}",
+  "COMMITTED"
+ ],
+ "minted": [
+  {
+   "source_id": 7407153780,
+   "name": "Éditions Orbis Tertius eBooks",
+   "publisher_id": 4404685466,
+   "ticket": 26966
+  }
+ ]
+}
