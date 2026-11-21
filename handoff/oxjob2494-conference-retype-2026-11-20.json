@@ -1,0 +1,7734 @@
+{
+"oxjob": 2494,
+"built": "2026-11-20",
+"sources": [
+{
+"id": 183492911,
+"name": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+"works": 436676,
+"class": "paper90"
+},
+{
+"id": 2764696622,
+"name": "AIP conference proceedings",
+"works": 282435,
+"class": "paper90"
+},
+{
+"id": 4210187594,
+"name": "Journal of Physics Conference Series",
+"works": 221697,
+"class": "paper90"
+},
+{
+"id": 2764664775,
+"name": "Bulletin of the American Physical Society",
+"works": 215091,
+"class": "abstract90"
+},
+{
+"id": 4306501062,
+"name": "AGU Fall Meeting Abstracts",
+"works": 181093,
+"class": "abstract90"
+},
+{
+"id": 4210202285,
+"name": "SAE technical papers on CD-ROM/SAE technical paper series",
+"works": 121252,
+"class": "paper90"
+},
+{
+"id": 4306501063,
+"name": "AGUFM",
+"works": 113431,
+"class": "abstract90"
+},
+{
+"id": 4210168594,
+"name": "ECS Meeting Abstracts",
+"works": 106929,
+"class": "abstract90"
+},
+{
+"id": 4210196743,
+"name": "Acta Horticulturae",
+"works": 78845,
+"class": "paper90"
+},
+{
+"id": 4210223487,
+"name": "Academy of Management Proceedings",
+"works": 69808,
+"class": "abstract90"
+},
+{
+"id": 2898246533,
+"name": "IFAC Proceedings Volumes",
+"works": 66725,
+"class": "paper90"
+},
+{
+"id": 4210186093,
+"name": "E3S Web of Conferences",
+"works": 62979,
+"class": "paper90"
+},
+{
+"id": 4220651000,
+"name": "Abstracts with programs - Geological Society of America",
+"works": 57863,
+"class": "abstract90"
+},
+{
+"id": 2764860693,
+"name": "The Japan Society of Applied Physics",
+"works": 55073,
+"class": "abstract90"
+},
+{
+"id": 4306508950,
+"name": "EGUGA",
+"works": 53564,
+"class": "abstract90"
+},
+{
+"id": 4306502653,
+"name": "APS",
+"works": 45725,
+"class": "abstract90"
+},
+{
+"id": 4306509401,
+"name": "Endocrine Abstracts",
+"works": 38326,
+"class": "abstract90"
+},
+{
+"id": 120348307,
+"name": "Procedia Computer Science",
+"works": 36721,
+"class": "paper90"
+},
+{
+"id": 4393919366,
+"name": "Advances in Social Science, Education and Humanities Research/Advances in social science, education and humanities research",
+"works": 34828,
+"class": "paper90"
+},
+{
+"id": 104917558,
+"name": "Procedia - Social and Behavioral Sciences",
+"works": 30590,
+"class": "paper90"
+},
+{
+"id": 4210175061,
+"name": "MATEC Web of Conferences",
+"works": 30113,
+"class": "paper90"
+},
+{
+"id": 45645249,
+"name": "Procedia Engineering",
+"works": 29375,
+"class": "paper90"
+},
+{
+"id": 39160355,
+"name": "Bulletin of the American Astronomical Society",
+"works": 28579,
+"class": "abstract90"
+},
+{
+"id": 19068271,
+"name": "EPJ Web of Conferences",
+"works": 27795,
+"class": "paper90"
+},
+{
+"id": 4210219382,
+"name": "The Proceedings of the Annual Convention of the Japanese Psychological Association",
+"works": 26593,
+"class": "abstract90"
+},
+{
+"id": 4210205149,
+"name": "ECS Transactions",
+"works": 25425,
+"class": "paper90"
+},
+{
+"id": 2764931430,
+"name": "Japan Geoscience Union",
+"works": 25414,
+"class": "abstract90"
+},
+{
+"id": 4306499932,
+"name": "AAS",
+"works": 24670,
+"class": "abstract90"
+},
+{
+"id": 75069817,
+"name": "Energy Procedia",
+"works": 23525,
+"class": "paper90"
+},
+{
+"id": 4404663355,
+"name": "IET conference proceedings.",
+"works": 22479,
+"class": "paper90"
+},
+{
+"id": 4306531450,
+"name": "Symposium - International Astronomical Union",
+"works": 21269,
+"class": "paper90"
+},
+{
+"id": 4220650854,
+"name": "Proceedings",
+"works": 20517,
+"class": "paper90"
+},
+{
+"id": 4306501066,
+"name": "AGU Spring Meeting Abstracts",
+"works": 19092,
+"class": "abstract90"
+},
+{
+"id": 4210171700,
+"name": "SID Symposium Digest of Technical Papers",
+"works": 16616,
+"class": "paper90"
+},
+{
+"id": 4306518891,
+"name": "LPI",
+"works": 16043,
+"class": "abstract90"
+},
+{
+"id": 4210168758,
+"name": "BIO Web of Conferences",
+"works": 16028,
+"class": "paper90"
+},
+{
+"id": 4210195765,
+"name": "ISEE Conference Abstracts",
+"works": 15765,
+"class": "mixed90"
+},
+{
+"id": 4210202797,
+"name": "SHS Web of Conferences",
+"works": 15194,
+"class": "paper90"
+},
+{
+"id": 4210220879,
+"name": "The European Proceedings of Social & Behavioural Sciences",
+"works": 13747,
+"class": "paper90"
+},
+{
+"id": 4306507096,
+"name": "cosp",
+"works": 11721,
+"class": "abstract90"
+},
+{
+"id": 4306501536,
+"name": "American Astronomical Society Meeting Abstracts",
+"works": 10939,
+"class": "abstract90"
+},
+{
+"id": 4306502659,
+"name": "APS Division of Plasma Physics Meeting Abstracts",
+"works": 10886,
+"class": "abstract90"
+},
+{
+"id": 4306503539,
+"name": "ASPC",
+"works": 10790,
+"class": "paper90"
+},
+{
+"id": 4306500017,
+"name": "ABM Proceedings",
+"works": 9772,
+"class": "paper90"
+},
+{
+"id": 7407050898,
+"name": "JACOW",
+"works": 9656,
+"class": "paper90"
+},
+{
+"id": 4220651426,
+"name": "Civil-comp proceedings",
+"works": 9031,
+"class": "paper90"
+},
+{
+"id": 2764431638,
+"name": "Atomic Energy Society of Japan",
+"works": 8349,
+"class": "abstract90"
+},
+{
+"id": 4220651959,
+"name": "AHFE international",
+"works": 8158,
+"class": "paper90"
+},
+{
+"id": 4306502657,
+"name": "APS Division of Fluid Dynamics Meeting Abstracts",
+"works": 7953,
+"class": "abstract90"
+},
+{
+"id": 4306532118,
+"name": "The Chemical Society of Japan",
+"works": 7899,
+"class": "abstract90"
+},
+{
+"id": 4306518892,
+"name": "LPICo",
+"works": 7200,
+"class": "paper90"
+},
+{
+"id": 4306509627,
+"name": "epsc",
+"works": 6888,
+"class": "mixed90"
+},
+{
+"id": 4306508944,
+"name": "EGS - AGU - EUG Joint Assembly",
+"works": 6875,
+"class": "abstract90"
+},
+{
+"id": 4306532640,
+"name": "The Pharmaceutical Society of Japan",
+"works": 6313,
+"class": "abstract90"
+},
+{
+"id": 4210172101,
+"name": "The Proceedings of the Thermal Engineering Conference",
+"works": 6189,
+"class": "mixed90"
+},
+{
+"id": 4306512700,
+"name": "ICRC",
+"works": 6044,
+"class": "paper90"
+},
+{
+"id": 4306508392,
+"name": "DPS",
+"works": 5934,
+"class": "abstract90"
+},
+{
+"id": 4210191366,
+"name": "Baioenjiniaringu Koenkai koen ronbunshu/Baioenjiniaringu Kouenkai kouen rombunshuu/Ippan Shadan Hojin Nihon Kikai Gakkai Baioenjiniaringu Koenkai",
+"works": 5872,
+"class": "paper90"
+},
+{
+"id": 4306497243,
+"name": "142nd APHA Annual Meeting and Exposition (November 15 - November 19, 2014)",
+"works": 5829,
+"class": "abstract90"
+},
+{
+"id": 4306502655,
+"name": "APS April Meeting Abstracts",
+"works": 5789,
+"class": "abstract90"
+},
+{
+"id": 4210240185,
+"name": "Report",
+"works": 5478,
+"class": "paper90"
+},
+{
+"id": 4306500044,
+"name": "Abstracts",
+"works": 5463,
+"class": "abstract90"
+},
+{
+"id": 4306549087,
+"name": "情報科学技術フォーラム講演論文集",
+"works": 5397,
+"class": "abstract90"
+},
+{
+"id": 4220651047,
+"name": "Thermal spray",
+"works": 5331,
+"class": "paper90"
+},
+{
+"id": 4210184246,
+"name": "The Proceedings of Conference of Kyushu Branch",
+"works": 5248,
+"class": "mixed90"
+},
+{
+"id": 4306508511,
+"name": "EAEJA",
+"works": 4854,
+"class": "abstract90"
+},
+{
+"id": 4210211349,
+"name": "INCOSE International Symposium",
+"works": 4782,
+"class": "paper90"
+},
+{
+"id": 4306523472,
+"name": "Proceedings of meetings on acoustics",
+"works": 4758,
+"class": "mixed90"
+},
+{
+"id": 4210218293,
+"name": "Materials research proceedings",
+"works": 4420,
+"class": "paper90"
+},
+{
+"id": 4306532259,
+"name": "The Japanese Biochemical Society",
+"works": 4380,
+"class": "abstract90"
+},
+{
+"id": 4210171711,
+"name": "ITM Web of Conferences",
+"works": 4342,
+"class": "paper90"
+},
+{
+"id": 4210175795,
+"name": "Symposium (International) on Combustion",
+"works": 4242,
+"class": "paper90"
+},
+{
+"id": 4393920180,
+"name": "NOISE-CON proceedings",
+"works": 4221,
+"class": "paper90"
+},
+{
+"id": 4210180733,
+"name": "International Oil Spill Conference Proceedings",
+"works": 4153,
+"class": "paper90"
+},
+{
+"id": 4220651901,
+"name": "Electronic workshops in computing",
+"works": 4150,
+"class": "paper90"
+},
+{
+"id": 4306532260,
+"name": "The Japanese Biochemical Society/The Molecular Biology Society of Japan",
+"works": 4142,
+"class": "abstract90"
+},
+{
+"id": 4306502656,
+"name": "APS Division of Atomic, Molecular and Optical Physics Meeting Abstracts",
+"works": 4062,
+"class": "abstract90"
+},
+{
+"id": 4210193069,
+"name": "Technical programs and proceedings/Technical program and proceedings",
+"works": 3791,
+"class": "paper90"
+},
+{
+"id": 4306514873,
+"name": "Japanese Society of Anesthesiologists",
+"works": 3615,
+"class": "abstract90"
+},
+{
+"id": 4220651471,
+"name": "Advanced science and technology letters",
+"works": 3554,
+"class": "paper90"
+},
+{
+"id": 4306502658,
+"name": "APS Division of Nuclear Physics Meeting Abstracts",
+"works": 3477,
+"class": "abstract90"
+},
+{
+"id": 2764838636,
+"name": "The Mining and Materials Processing Institute of Japan",
+"works": 3345,
+"class": "abstract90"
+},
+{
+"id": 4306499462,
+"name": "46th Annual Meeting",
+"works": 3181,
+"class": "abstract90"
+},
+{
+"id": 4306499853,
+"name": "97th American Meteorological Society Annual Meeting",
+"works": 3094,
+"class": "abstract90"
+},
+{
+"id": 4220651532,
+"name": "Proceedings of DRS",
+"works": 3081,
+"class": "paper90"
+},
+{
+"id": 4306497801,
+"name": "2012 GSA Annual Meeting in Charlotte",
+"works": 3040,
+"class": "abstract90"
+},
+{
+"id": 4210223242,
+"name": "The Proceedings of the Transportation and Logistics Conference",
+"works": 2903,
+"class": "mixed90"
+},
+{
+"id": 4210189795,
+"name": "Proceedings of the International Display Workshops",
+"works": 2884,
+"class": "paper90"
+},
+{
+"id": 4306499854,
+"name": "98th American Meteorological Society Annual Meeting",
+"works": 2814,
+"class": "abstract90"
+},
+{
+"id": 4210218012,
+"name": "The Proceedings of Ibaraki District Conference",
+"works": 2779,
+"class": "mixed90"
+},
+{
+"id": 4404660849,
+"name": "Universal.",
+"works": 2775,
+"class": "paper90"
+},
+{
+"id": 4210176592,
+"name": "SOCIETY INTEGRATION EDUCATION Proceedings of the International Scientific Conference",
+"works": 2739,
+"class": "mixed90"
+},
+{
+"id": 2764852880,
+"name": "Japan Gastroenterological Endoscopy Soaciety",
+"works": 2686,
+"class": "abstract90"
+},
+{
+"id": 4210172664,
+"name": "Baiofurontia Kouenkai kouen rombunshuu/Baiofurontia Koenkai koen ronbunshu",
+"works": 2647,
+"class": "mixed90"
+},
+{
+"id": 4210219430,
+"name": "The Proceedings of Yamanashi District Conference",
+"works": 2640,
+"class": "mixed90"
+},
+{
+"id": 4306532271,
+"name": "The Japanese Society for Artificial Intelligence",
+"works": 2568,
+"class": "abstract90"
+},
+{
+"id": 4210230958,
+"name": "The Proceedings of Conference of Tohoku Branch",
+"works": 2549,
+"class": "paper90"
+},
+{
+"id": 4306512590,
+"name": "IAU General Assembly",
+"works": 2539,
+"class": "abstract90"
+},
+{
+"id": 4306520767,
+"name": "NEUROSCIENCE FOR MEDICINE AND PSYCHOLOGY",
+"works": 2396,
+"class": "paper90"
+},
+{
+"id": 4306514874,
+"name": "Japanese Society of Child Neurology",
+"works": 2374,
+"class": "abstract90"
+},
+{
+"id": 4306508945,
+"name": "EGSGA",
+"works": 2355,
+"class": "abstract90"
+},
+{
+"id": 4210183323,
+"name": "International Journal of Modern Physics Conference Series",
+"works": 2344,
+"class": "paper90"
+},
+{
+"id": 4306502654,
+"name": "APS Annual Gaseous Electronics Meeting Abstracts",
+"works": 2268,
+"class": "abstract90"
+},
+{
+"id": 4210206931,
+"name": "Proceedings of International Forestry and Environment Symposium",
+"works": 2244,
+"class": "paper90"
+},
+{
+"id": 4387284482,
+"name": "Proceedings of the International AAAI Conference on Web and Social Media",
+"works": 2232,
+"class": "paper90"
+},
+{
+"id": 4210192688,
+"name": "Social Humanities and Educational Studies (SHEs) Conference Series",
+"works": 2220,
+"class": "mixed90"
+},
+{
+"id": 4306522277,
+"name": "Peptide science : proceedings of the ... Japanese Peptide Symposium",
+"works": 2218,
+"class": "paper90"
+},
+{
+"id": 4306504531,
+"name": "Blucher Chemical Engineering Proceedings",
+"works": 2202,
+"class": "paper90"
+},
+{
+"id": 4306499424,
+"name": "43rd COSPAR Scientific Assembly. Held 28 January - 4 February",
+"works": 2200,
+"class": "abstract90"
+},
+{
+"id": 4306512537,
+"name": "Report",
+"works": 2193,
+"class": "paper90"
+},
+{
+"id": 4306532277,
+"name": "The Japanese Society of Hematology",
+"works": 2189,
+"class": "abstract90"
+},
+{
+"id": 4306502662,
+"name": "APS Meeting Abstracts",
+"works": 2179,
+"class": "abstract90"
+},
+{
+"id": 4306497246,
+"name": "145th Annual Meeting of the American Fisheries Society",
+"works": 2169,
+"class": "abstract90"
+},
+{
+"id": 4306499412,
+"name": "42nd COSPAR Scientific Assembly",
+"works": 2145,
+"class": "abstract90"
+},
+{
+"id": 4306532281,
+"name": "The Japan Institute of Metals and Materials",
+"works": 2138,
+"class": "abstract90"
+},
+{
+"id": 2764939022,
+"name": "The Japanese Society of Intensive Care Medicine",
+"works": 2060,
+"class": "abstract90"
+},
+{
+"id": 193378857,
+"name": "Nucleic Acids Symposium Series",
+"works": 2059,
+"class": "paper90"
+},
+{
+"id": 4306499303,
+"name": "38th COSPAR Scientific Assembly",
+"works": 2050,
+"class": "abstract90"
+},
+{
+"id": 4306501064,
+"name": "AGUOS",
+"works": 2049,
+"class": "abstract90"
+},
+{
+"id": 4306514878,
+"name": "Japanese Society of Neurology",
+"works": 2042,
+"class": "abstract90"
+},
+{
+"id": 4306511951,
+"name": "HEAD",
+"works": 2024,
+"class": "abstract90"
+},
+{
+"id": 4393916958,
+"name": "ACADIA quarterly",
+"works": 2021,
+"class": "paper90"
+},
+{
+"id": 4306499266,
+"name": "35th COSPAR Scientific Assembly",
+"works": 2018,
+"class": "abstract90"
+},
+{
+"id": 4210190144,
+"name": "Environment Technology Resources Proceedings of the International Scientific and Practical Conference",
+"works": 1908,
+"class": "paper90"
+},
+{
+"id": 4306524212,
+"name": "PROCEEDINGS OF THE JSCE EARTHQUAKE ENGINEERING SYMPOSIUM",
+"works": 1887,
+"class": "paper90"
+},
+{
+"id": 4306499374,
+"name": "40th COSPAR Scientific Assembly",
+"works": 1887,
+"class": "abstract90"
+},
+{
+"id": 4210188835,
+"name": "The Abstracts of ATEM International Conference on Advanced Technology in Experimental Mechanics Asian Conference on Experimental Mechanics",
+"works": 1863,
+"class": "mixed90"
+},
+{
+"id": 4306497863,
+"name": "2014 ADSA-ASAS-CSAS Joint Annual Meeting",
+"works": 1827,
+"class": "abstract90"
+},
+{
+"id": 4210193398,
+"name": "Seisan Kakou, Kousaku Kikai Bumon Kouenkai kouen rombunshuu/Seisan Kako, Kosaku Kikai Bumon Koenkai",
+"works": 1821,
+"class": "mixed90"
+},
+{
+"id": 4210193667,
+"name": "Color and Imaging Conference",
+"works": 1814,
+"class": "paper90"
+},
+{
+"id": 4306532262,
+"name": "The Japanese Geotechnical Society",
+"works": 1805,
+"class": "abstract90"
+},
+{
+"id": 4306499292,
+"name": "37th COSPAR Scientific Assembly",
+"works": 1794,
+"class": "abstract90"
+},
+{
+"id": 4210206154,
+"name": "The Proceedings of Conference of Hokkaido Branch",
+"works": 1779,
+"class": "paper90"
+},
+{
+"id": 2764718349,
+"name": "Japanese Society of Radiological Technology",
+"works": 1765,
+"class": "abstract90"
+},
+{
+"id": 4306499279,
+"name": "36th COSPAR Scientific Assembly",
+"works": 1738,
+"class": "abstract90"
+},
+{
+"id": 4306504852,
+"name": "Book of Abstracts",
+"works": 1718,
+"class": "mixed90"
+},
+{
+"id": 4220651395,
+"name": "EPiC series in computing",
+"works": 1693,
+"class": "paper90"
+},
+{
+"id": 4306499852,
+"name": "93rd American Meteorological Society Annual Meeting",
+"works": 1659,
+"class": "abstract90"
+},
+{
+"id": 4306502647,
+"name": "Apresentações Trabalhos Científicos",
+"works": 1617,
+"class": "paper90"
+},
+{
+"id": 4210176011,
+"name": "The Proceedings of the Symposium on the Motion and Vibration Control",
+"works": 1604,
+"class": "mixed90"
+},
+{
+"id": 4306517810,
+"name": "KOSCO SYMPOSIUM 논문집",
+"works": 1578,
+"class": "paper90"
+},
+{
+"id": 4210220188,
+"name": "The Proceedings of the Symposium on sports and human dynamics",
+"works": 1561,
+"class": "mixed90"
+},
+{
+"id": 4306513439,
+"name": "INSAR 2019 Annual Meeting",
+"works": 1543,
+"class": "abstract90"
+},
+{
+"id": 4210211854,
+"name": "The Proceedings of the Conference on Information Intelligence and Precision Equipment IIP",
+"works": 1537,
+"class": "paper90"
+},
+{
+"id": 4306532069,
+"name": "The Annual ASCRS and ASOA Symposium and Congress",
+"works": 1506,
+"class": "paper90"
+},
+{
+"id": 4306499251,
+"name": "34th COSPAR Scientific Assembly",
+"works": 1501,
+"class": "abstract90"
+},
+{
+"id": 2764698135,
+"name": "Japanese Society for Magnetic Resonance in Medicine",
+"works": 1464,
+"class": "abstract90"
+},
+{
+"id": 4306497935,
+"name": "2015 ASCRS ASOA Symposium and Congress",
+"works": 1443,
+"class": "paper90"
+},
+{
+"id": 4306514181,
+"name": "International Symposium on the Chemistry of Natural Products",
+"works": 1428,
+"class": "mixed90"
+},
+{
+"id": 4210169277,
+"name": "PROCEEDINGS OF THE JAPANESE CONFERENCE ON HYDRAULICS",
+"works": 1365,
+"class": "paper90"
+},
+{
+"id": 4306525938,
+"name": "Resumos do...",
+"works": 1357,
+"class": "mixed90"
+},
+{
+"id": 4306497245,
+"name": "144th Annual Meeting of the American Fisheries Society",
+"works": 1346,
+"class": "abstract90"
+},
+{
+"id": 4210189957,
+"name": "Additional Conferences (Device Packaging HiTEC HiTEN & CICMT)",
+"works": 1342,
+"class": "paper90"
+},
+{
+"id": 4306503623,
+"name": "Astronomische Gesellschaft Abstract Series",
+"works": 1333,
+"class": "abstract90"
+},
+{
+"id": 4306501572,
+"name": "American Astronomical Society Meeting Abstracts #233",
+"works": 1327,
+"class": "abstract90"
+},
+{
+"id": 4306514829,
+"name": "Japanese Association of Cardiovascular Intervention and Therapeutics",
+"works": 1321,
+"class": "abstract90"
+},
+{
+"id": 4210239219,
+"name": "Proceedings of the ISCIE International Symposium on Stochastic Systems Theory and its Applications",
+"works": 1316,
+"class": "paper90"
+},
+{
+"id": 4306499476,
+"name": "47th Annual Meeting",
+"works": 1302,
+"class": "abstract90"
+},
+{
+"id": 4306499317,
+"name": "39th COSPAR Scientific Assembly",
+"works": 1300,
+"class": "abstract90"
+},
+{
+"id": 4210204367,
+"name": "The Conference Book of the General Union of Arab Archaeologists/The Conference Book of the General Union of Arab Archaeologists",
+"works": 1265,
+"class": "paper90"
+},
+{
+"id": 4210221660,
+"name": "The Proceedings of the Symposium on Stirlling Cycle",
+"works": 1264,
+"class": "mixed90"
+},
+{
+"id": 4220651447,
+"name": "Metal ...",
+"works": 1252,
+"class": "paper90"
+},
+{
+"id": 4306512592,
+"name": "IAU Joint Discussion",
+"works": 1245,
+"class": "abstract90"
+},
+{
+"id": 4306520151,
+"name": "Molecular and Cellular Biology / Genetics",
+"works": 1225,
+"class": "abstract90"
+},
+{
+"id": 4387283601,
+"name": "Proceedings of the International Conference on Automated Planning and Scheduling",
+"works": 1220,
+"class": "paper90"
+},
+{
+"id": 4306501574,
+"name": "American Astronomical Society Meeting Abstracts #235",
+"works": 1211,
+"class": "abstract90"
+},
+{
+"id": 4387284112,
+"name": "Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment",
+"works": 1198,
+"class": "paper90"
+},
+{
+"id": 4306514877,
+"name": "Japanese Society of Interventional Radiology",
+"works": 1193,
+"class": "abstract90"
+},
+{
+"id": 4306513438,
+"name": "INSAR 2018 Annual Meeting",
+"works": 1190,
+"class": "abstract90"
+},
+{
+"id": 4306506846,
+"name": "Confit Support",
+"works": 1176,
+"class": "abstract90"
+},
+{
+"id": 4404533563,
+"name": "Proceedings of the International Conference on Networked Learning",
+"works": 1171,
+"class": "paper90"
+},
+{
+"id": 4306524050,
+"name": "Proceedings of the European Microscopy Congress 2020",
+"works": 1170,
+"class": "paper90"
+},
+{
+"id": 4306534676,
+"name": "WebNet",
+"works": 1149,
+"class": "paper90"
+},
+{
+"id": 4306499452,
+"name": "45th Annual Meeting",
+"works": 1127,
+"class": "abstract90"
+},
+{
+"id": 4306499409,
+"name": "42nd Annual Meeting",
+"works": 1093,
+"class": "abstract90"
+},
+{
+"id": 4393920001,
+"name": "Proceedings in Technology Transfer",
+"works": 1089,
+"class": "paper90"
+},
+{
+"id": 2764749937,
+"name": "Proceedings of the ... PME Conference",
+"works": 1087,
+"class": "paper90"
+},
+{
+"id": 5407050492,
+"name": "Global Conference on Business and Social Sciences Proceeding",
+"works": 1068,
+"class": "abstract90"
+},
+{
+"id": 4210174098,
+"name": "College music symposium",
+"works": 1052,
+"class": "paper90"
+},
+{
+"id": 4306499422,
+"name": "43rd Annual Meeting",
+"works": 1044,
+"class": "abstract90"
+},
+{
+"id": 4306499437,
+"name": "44th Annual Meeting",
+"works": 1041,
+"class": "abstract90"
+},
+{
+"id": 4210240747,
+"name": "AIJR Proceedings",
+"works": 1028,
+"class": "paper90"
+},
+{
+"id": 4306500832,
+"name": "AERA Online Paper Repository",
+"works": 1022,
+"class": "paper90"
+},
+{
+"id": 4306523259,
+"name": "Proc. Annu. Meet. - Am. Sect. Int. Sol. Energy Soc.; (United States)",
+"works": 1013,
+"class": "paper90"
+},
+{
+"id": 2765075670,
+"name": "ASHRAE winter conference papers",
+"works": 1011,
+"class": "paper90"
+},
+{
+"id": 4306509631,
+"name": "EPSC-DPS Joint Meeting 2019",
+"works": 1000,
+"class": "abstract90"
+},
+{
+"id": 4306532278,
+"name": "THE JAPANESE SOCIETY OF NUCLEAR MEDICINE / The Japanese Society of Nuclear Medicine Technology",
+"works": 995,
+"class": "abstract90"
+},
+{
+"id": 4306501570,
+"name": "American Astronomical Society Meeting Abstracts #231",
+"works": 993,
+"class": "abstract90"
+},
+{
+"id": 4306499395,
+"name": "41st COSPAR Scientific Assembly",
+"works": 971,
+"class": "abstract90"
+},
+{
+"id": 4306512591,
+"name": "IAUJD",
+"works": 962,
+"class": "abstract90"
+},
+{
+"id": 4306501556,
+"name": "American Astronomical Society Meeting Abstracts #215",
+"works": 961,
+"class": "abstract90"
+},
+{
+"id": 4306510252,
+"name": "Experimental and Molecular Therapeutics",
+"works": 959,
+"class": "abstract90"
+},
+{
+"id": 4210178324,
+"name": "Symposium",
+"works": 947,
+"class": "paper90"
+},
+{
+"id": 4306514892,
+"name": "Japan Society of Kansei Engineering",
+"works": 945,
+"class": "abstract90"
+},
+{
+"id": 4306502668,
+"name": "APS Southeastern Section Meeting Abstracts",
+"works": 944,
+"class": "abstract90"
+},
+{
+"id": 4306534504,
+"name": "Volume 3: Coal, Biomass and Alternative Fuels; Combustion and Fuels; Oil and Gas Applications; Cycle Innovations",
+"works": 937,
+"class": "paper90"
+},
+{
+"id": 4404660855,
+"name": "Tudo é Ciência.",
+"works": 935,
+"class": "paper90"
+},
+{
+"id": 4306497930,
+"name": "2015 Annual Meeting (July 25 - 28, 2015)",
+"works": 926,
+"class": "abstract90"
+},
+{
+"id": 4306501563,
+"name": "American Astronomical Society Meeting Abstracts #223",
+"works": 910,
+"class": "abstract90"
+},
+{
+"id": 4404660825,
+"name": "Systems and Control Transactions",
+"works": 909,
+"class": "paper90"
+},
+{
+"id": 4220651242,
+"name": "Computing in construction",
+"works": 897,
+"class": "paper90"
+},
+{
+"id": 4220651560,
+"name": "Anais do Congresso Internacional de Engenharia Mecânica e Industrial",
+"works": 893,
+"class": "paper90"
+},
+{
+"id": 4306497062,
+"name": "100th American Meteorological Society Annual Meeting",
+"works": 881,
+"class": "abstract90"
+},
+{
+"id": 4210192739,
+"name": "Proceedings of the JFPS International Symposium on Fluid Power",
+"works": 874,
+"class": "paper90"
+},
+{
+"id": 4389157828,
+"name": "Proceedings of the AAAI Symposium Series",
+"works": 874,
+"class": "paper90"
+},
+{
+"id": 4306524455,
+"name": "Proc., Intersoc. Energy Convers. Eng. Conf.; (United States)",
+"works": 862,
+"class": "paper90"
+},
+{
+"id": 4306539674,
+"name": "Наука России: Цели и задачи",
+"works": 856,
+"class": "paper90"
+},
+{
+"id": 4393919110,
+"name": "Proceedings",
+"works": 854,
+"class": "paper90"
+},
+{
+"id": 4306500912,
+"name": "AGAb",
+"works": 854,
+"class": "abstract90"
+},
+{
+"id": 4306501558,
+"name": "American Astronomical Society Meeting Abstracts #217",
+"works": 850,
+"class": "abstract90"
+},
+{
+"id": 4306497924,
+"name": "2015 AAAS Annual Meeting (12-16 February 2015)",
+"works": 848,
+"class": "abstract90"
+},
+{
+"id": 4306499856,
+"name": "99th American Meteorological Society Annual Meeting",
+"works": 843,
+"class": "abstract90"
+},
+{
+"id": 4387278947,
+"name": "Bandung Conference Series Psychology Science",
+"works": 839,
+"class": "paper90"
+},
+{
+"id": 4210214950,
+"name": "Archiving Conference",
+"works": 836,
+"class": "paper90"
+},
+{
+"id": 4306550452,
+"name": "日本分子生物学会/日本生化学会",
+"works": 830,
+"class": "abstract90"
+},
+{
+"id": 4306501554,
+"name": "American Astronomical Society Meeting Abstracts #213",
+"works": 828,
+"class": "abstract90"
+},
+{
+"id": 4220650793,
+"name": "Engineering Mechanics ...",
+"works": 822,
+"class": "paper90"
+},
+{
+"id": 4306501562,
+"name": "American Astronomical Society Meeting Abstracts #221",
+"works": 821,
+"class": "abstract90"
+},
+{
+"id": 4306531979,
+"name": "The 20th IEA World Congress of Epidemiology (17-21 August 2014, Anchorage, AK)",
+"works": 819,
+"class": "abstract90"
+},
+{
+"id": 4363606842,
+"name": "Physics, Chemistry and Application of Nanostructures",
+"works": 807,
+"class": "paper90"
+},
+{
+"id": 4306530593,
+"name": "SPD",
+"works": 806,
+"class": "abstract90"
+},
+{
+"id": 4210235447,
+"name": "The Proceedings of the Tecnology and Society Conference",
+"works": 799,
+"class": "mixed90"
+},
+{
+"id": 4306523257,
+"name": "Proc. Am. Power Conf.; (United States)",
+"works": 797,
+"class": "paper90"
+},
+{
+"id": 4306522750,
+"name": "Políticas Educacionais e Suas Interfaces: Desafios e Perspectivas na Construção de Sociedades Sustentáveis",
+"works": 793,
+"class": "paper90"
+},
+{
+"id": 4306501565,
+"name": "American Astronomical Society Meeting Abstracts #225",
+"works": 791,
+"class": "abstract90"
+},
+{
+"id": 4306518666,
+"name": "Liege International Astrophysical Colloquia",
+"works": 788,
+"class": "paper90"
+},
+{
+"id": 4306501560,
+"name": "American Astronomical Society Meeting Abstracts #219",
+"works": 787,
+"class": "abstract90"
+},
+{
+"id": 4387278881,
+"name": "Bandung Conference Series Business and Management",
+"works": 782,
+"class": "paper90"
+},
+{
+"id": 4220651356,
+"name": "Proceedings",
+"works": 780,
+"class": "paper90"
+},
+{
+"id": 4387278948,
+"name": "Bandung Conference Series Medical Science",
+"works": 774,
+"class": "paper90"
+},
+{
+"id": 4306498130,
+"name": "2017 AAAS Annual Meeting (February 16-20, 2017)",
+"works": 773,
+"class": "abstract90"
+},
+{
+"id": 4306532272,
+"name": "The Japanese Society for Cardiovascular Surgery",
+"works": 771,
+"class": "abstract90"
+},
+{
+"id": 4387278935,
+"name": "Bandung Conference Series Law Studies",
+"works": 769,
+"class": "paper90"
+},
+{
+"id": 4404670259,
+"name": "Advances in materials technology for fossil power plants :",
+"works": 765,
+"class": "paper90"
+},
+{
+"id": 4306502667,
+"name": "APS Shock Compression of Condensed Matter Meeting Abstracts",
+"works": 765,
+"class": "abstract90"
+},
+{
+"id": 4306497824,
+"name": "2013 Annual Meeting (July 28 - 31, 2013)",
+"works": 762,
+"class": "abstract90"
+},
+{
+"id": 4306529465,
+"name": "Seismological Society of Japan",
+"works": 761,
+"class": "abstract90"
+},
+{
+"id": 4306509744,
+"name": "ESOC",
+"works": 752,
+"class": "paper90"
+},
+{
+"id": 2764846635,
+"name": "International Association for Development of the Information Society",
+"works": 751,
+"class": "paper90"
+},
+{
+"id": 4363605071,
+"name": "Sensors and Microsystems",
+"works": 746,
+"class": "paper90"
+},
+{
+"id": 2764710436,
+"name": "Japanese Society of Cancer Nursing",
+"works": 743,
+"class": "abstract90"
+},
+{
+"id": 4306499213,
+"name": "32nd Aerospace Sciences Meeting and Exhibit",
+"works": 742,
+"class": "paper90"
+},
+{
+"id": 4220651789,
+"name": "ARPHA proceedings",
+"works": 736,
+"class": "paper90"
+},
+{
+"id": 4306523868,
+"name": "Proceedings of the 5th European Congress of Conservation Biology",
+"works": 733,
+"class": "paper90"
+},
+{
+"id": 5407054195,
+"name": "Wafer-Level Packaging Symposium",
+"works": 729,
+"class": "paper90"
+},
+{
+"id": 4306522146,
+"name": "peac",
+"works": 724,
+"class": "paper90"
+},
+{
+"id": 4306506268,
+"name": "CIÊNCIA, TECNOLOGIA E DESENVOLVIMENTO RURAL: COMPARTILHANDO CONHECIMENTOS INOVADORES E EXPERIÊNCIAS",
+"works": 723,
+"class": "paper90"
+},
+{
+"id": 4306521325,
+"name": "Oceans 2003. Celebrating the Past ... Teaming Toward the Future (IEEE Cat. No.03CH37492)",
+"works": 723,
+"class": "mixed90"
+},
+{
+"id": 4210237211,
+"name": "Lumen Proceedings",
+"works": 719,
+"class": "paper90"
+},
+{
+"id": 4387281558,
+"name": "PHM Society European Conference",
+"works": 718,
+"class": "paper90"
+},
+{
+"id": 4306531530,
+"name": "Tagungsband",
+"works": 716,
+"class": "paper90"
+},
+{
+"id": 4306534469,
+"name": "Volume 1: Aircraft Engine; Marine; Turbomachinery; Microturbines and Small Turbomachinery",
+"works": 710,
+"class": "paper90"
+},
+{
+"id": 5407050985,
+"name": "The International Conference on Sustainable Economics Management and Accounting Proceeding",
+"works": 707,
+"class": "paper90"
+},
+{
+"id": 4306498022,
+"name": "2016 AAAS Annual Meeting (February 11-15, 2016)",
+"works": 707,
+"class": "abstract90"
+},
+{
+"id": 4306497658,
+"name": "2006 Portland, Oregon, July 9-12, 2006",
+"works": 700,
+"class": "paper90"
+},
+{
+"id": 4387284494,
+"name": "Proceedings of the International Symposium on Combinatorial Search",
+"works": 700,
+"class": "paper90"
+},
+{
+"id": 4306514498,
+"name": "ISRM International Symposium",
+"works": 699,
+"class": "paper90"
+},
+{
+"id": 4387278946,
+"name": "Bandung Conference Series Communication Management",
+"works": 697,
+"class": "paper90"
+},
+{
+"id": 4393919706,
+"name": "Engineering headway",
+"works": 697,
+"class": "paper90"
+},
+{
+"id": 4306506411,
+"name": "Clinical Research (Excluding Clinical Trials)",
+"works": 695,
+"class": "abstract90"
+},
+{
+"id": 4306512122,
+"name": "High Energy Physics",
+"works": 681,
+"class": "paper90"
+},
+{
+"id": 4306530576,
+"name": "Space Technology and Science",
+"works": 679,
+"class": "paper90"
+},
+{
+"id": 4306522931,
+"name": "PPSC",
+"works": 674,
+"class": "paper90"
+},
+{
+"id": 4306497067,
+"name": "101st ESA Annual Meeting (August 7 -- 12, 2016)",
+"works": 670,
+"class": "abstract90"
+},
+{
+"id": 4306497606,
+"name": "2003, Las Vegas, NV July 27-30, 2003",
+"works": 668,
+"class": "paper90"
+},
+{
+"id": 4306509630,
+"name": "EPSC-DPS Joint Meeting 2011",
+"works": 666,
+"class": "mixed90"
+},
+{
+"id": 5407051156,
+"name": "Exploring Science Academic Conference Series",
+"works": 665,
+"class": "paper90"
+},
+{
+"id": 4220651564,
+"name": "EURODYN ...",
+"works": 664,
+"class": "paper90"
+},
+{
+"id": 4306497616,
+"name": "2004, Ottawa, Canada August 1 - 4, 2004",
+"works": 663,
+"class": "paper90"
+},
+{
+"id": 4306514872,
+"name": "Japanese Society of Allergology",
+"works": 656,
+"class": "abstract90"
+},
+{
+"id": 4306534484,
+"name": "Volume 2: Aircraft Engine; Marine; Microturbines and Small Turbomachinery",
+"works": 656,
+"class": "paper90"
+},
+{
+"id": 4306501566,
+"name": "American Astronomical Society Meeting Abstracts #227",
+"works": 653,
+"class": "abstract90"
+},
+{
+"id": 2764568175,
+"name": "The Japanese Society for Pediatric Endocrinology",
+"works": 653,
+"class": "abstract90"
+},
+{
+"id": 4387278943,
+"name": "Bandung Conference Series Public Relations",
+"works": 649,
+"class": "paper90"
+},
+{
+"id": 4306521875,
+"name": "PAAS",
+"works": 643,
+"class": "paper90"
+},
+{
+"id": 4306514888,
+"name": "Japan Shoulder Society combined with The 1st Asia-Pacific Shoulder & Elbow Symposium",
+"works": 641,
+"class": "paper90"
+},
+{
+"id": 4220651495,
+"name": "EPiC series in built environment",
+"works": 641,
+"class": "paper90"
+},
+{
+"id": 4306503630,
+"name": "Astroparticle, Particle and Space Physics, Detectors and Medical Physics Applications",
+"works": 639,
+"class": "paper90"
+},
+{
+"id": 4306499794,
+"name": "80th AMS Annual  Meeting",
+"works": 637,
+"class": "abstract90"
+},
+{
+"id": 2765042703,
+"name": "The International Commission for Optics",
+"works": 628,
+"class": "abstract90"
+},
+{
+"id": 4306497675,
+"name": "2007 Minneapolis, Minnesota, June 17-20, 2007",
+"works": 628,
+"class": "paper90"
+},
+{
+"id": 116973605,
+"name": "Journal of Investigative Dermatology Symposium Proceedings",
+"works": 626,
+"class": "mixed90"
+},
+{
+"id": 4210237249,
+"name": "The Proceedings of the International symposium on diagnostics and modeling of combustion in internal combustion engines",
+"works": 622,
+"class": "paper90"
+},
+{
+"id": 4387278939,
+"name": "Bandung Conference Series Pharmacy",
+"works": 622,
+"class": "paper90"
+},
+{
+"id": 4387278933,
+"name": "Bandung Conference Series Islamic Education",
+"works": 621,
+"class": "paper90"
+},
+{
+"id": 4306529434,
+"name": "Security and Management",
+"works": 619,
+"class": "paper90"
+},
+{
+"id": 4306529733,
+"name": "sf2a",
+"works": 619,
+"class": "paper90"
+},
+{
+"id": 4306501568,
+"name": "American Astronomical Society Meeting Abstracts #229",
+"works": 615,
+"class": "abstract90"
+},
+{
+"id": 4306499825,
+"name": "8th Cuban Congress on Microbiology and Parasitology, 5th National Congress on Tropical Medicine and 5th International Symposium on HIV/aids infection in Cuba",
+"works": 612,
+"class": "paper90"
+},
+{
+"id": 4306497698,
+"name": "2008 Providence, Rhode Island, June 29 - July 2, 2008",
+"works": 612,
+"class": "paper90"
+},
+{
+"id": 4363604354,
+"name": "Poster presentations",
+"works": 612,
+"class": "paper90"
+},
+{
+"id": 4306532789,
+"name": "The World Buiatrics Congress",
+"works": 608,
+"class": "abstract90"
+},
+{
+"id": 5407055981,
+"name": "Academic Conferences Series",
+"works": 607,
+"class": "paper90"
+},
+{
+"id": 4306497586,
+"name": "2002 Chicago, IL July 28-31, 2002",
+"works": 606,
+"class": "paper90"
+},
+{
+"id": 4306497361,
+"name": "17th Congress of the International Commission for Optics: Optics for Science and New Technology",
+"works": 599,
+"class": "paper90"
+},
+{
+"id": 4306502669,
+"name": "APS Texas Sections Fall Meeting Abstracts",
+"works": 598,
+"class": "abstract90"
+},
+{
+"id": 4306500903,
+"name": "AFS 142nd Annual Meeting",
+"works": 596,
+"class": "abstract90"
+},
+{
+"id": 4210199101,
+"name": "International scientific and technical conference Information technologies in metallurgy and machine building",
+"works": 590,
+"class": "paper90"
+},
+{
+"id": 4210227776,
+"name": "Research for Rural Development/Research for Rural Development (Online)",
+"works": 589,
+"class": "paper90"
+},
+{
+"id": 4387289665,
+"name": "Conference on Colour in Graphics Imaging and Vision",
+"works": 589,
+"class": "paper90"
+},
+{
+"id": 4306520792,
+"name": "New Frontiers in Tropical Biology: The Next 50 Years (A Joint Meeting of ATBC and OTS)",
+"works": 588,
+"class": "abstract90"
+},
+{
+"id": 4306532027,
+"name": "The 81st AMS Annual Meeting",
+"works": 582,
+"class": "abstract90"
+},
+{
+"id": 4306497632,
+"name": "2005 Tampa, FL July 17-20, 2005",
+"works": 574,
+"class": "paper90"
+},
+{
+"id": 4306518620,
+"name": "LIACo",
+"works": 571,
+"class": "paper90"
+},
+{
+"id": 4306534487,
+"name": "Volume 2: Coal, Biomass and Alternative Fuels; Combustion and Fuels; Oil and Gas Applications; Cycle Innovations",
+"works": 571,
+"class": "paper90"
+},
+{
+"id": 4306509439,
+"name": "Energy Technol. (Wash., D.C.); (United States)",
+"works": 571,
+"class": "paper90"
+},
+{
+"id": 4306514869,
+"name": "Japanese Society for Bacteriology",
+"works": 568,
+"class": "abstract90"
+},
+{
+"id": 4306512973,
+"name": "IKE",
+"works": 566,
+"class": "paper90"
+},
+{
+"id": 4306507600,
+"name": "DDA",
+"works": 564,
+"class": "abstract90"
+},
+{
+"id": 4306514207,
+"name": "International Workshop \"Multiscale Biomechanics and Tribology of Inorganic and Organic Systems\" ; Mezhdunarodnaja konferencija \"Perspektivnye materialy s ierarhicheskoj strukturoj dlja novyh tehnologij i nadezhnyh konstrukcij\" ; VIII Vserossijskaja nauchno-prakticheskaja konferencija s mezhdunarodnym uchastiem, posvjashhennaja 50-letiju osnovanija Instituta himii nefti \"Dobycha, podgotovka, transport nefti i gaza\" : tezisy dokladov",
+"works": 556,
+"class": "paper90"
+},
+{
+"id": 4306504356,
+"name": "BIOCOMP",
+"works": 555,
+"class": "paper90"
+},
+{
+"id": 4306515130,
+"name": "Joint Annual Meeting of 51st JSDB and 70th JSCB",
+"works": 554,
+"class": "abstract90"
+},
+{
+"id": 4210170374,
+"name": "Chikyuu Kankyou Shimpojiumu kouen rombunshuu",
+"works": 547,
+"class": "paper90"
+},
+{
+"id": 4306497727,
+"name": "2009 Reno, Nevada, June 21 - June 24, 2009",
+"works": 545,
+"class": "paper90"
+},
+{
+"id": 4306497582,
+"name": "2001 Sacramento, CA July 29-August 1,2001",
+"works": 542,
+"class": "paper90"
+},
+{
+"id": 4393918290,
+"name": "Seminário de Iniciação Científica e Tecnológica da UTFPR/Anais do ... Seminário de Iniciação Científica e Tecnológica da UTFPR",
+"works": 541,
+"class": "paper90"
+},
+{
+"id": 2764768365,
+"name": "Alternative Energy Sources",
+"works": 535,
+"class": "paper90"
+},
+{
+"id": 4306497846,
+"name": "2013 Kansas City, Missouri, July 21 - July 24, 2013",
+"works": 533,
+"class": "paper90"
+},
+{
+"id": 4306503538,
+"name": "ASPB PLANT BIOLOGY 2020",
+"works": 528,
+"class": "paper90"
+},
+{
+"id": 4387284198,
+"name": "Proceedings of the ALISE Annual Conference",
+"works": 524,
+"class": "paper90"
+},
+{
+"id": 4306550975,
+"name": "日本教育心理学会総会発表論文集 第52回総会発表論文集",
+"works": 523,
+"class": "abstract90"
+},
+{
+"id": 4306499938,
+"name": "AAS/Division for Extreme Solar Systems Abstracts",
+"works": 522,
+"class": "abstract90"
+},
+{
+"id": 4306511556,
+"name": "Global Oceans 2020: Singapore – U.S. Gulf Coast",
+"works": 522,
+"class": "paper90"
+},
+{
+"id": 4306534509,
+"name": "Volume 3: Heat Transfer; Electric Power; Industrial and Cogeneration",
+"works": 520,
+"class": "paper90"
+},
+{
+"id": 4306497798,
+"name": "2012 Dallas, Texas, July 29 - August 1, 2012",
+"works": 520,
+"class": "paper90"
+},
+{
+"id": 4306539522,
+"name": "материалы конференции",
+"works": 517,
+"class": "paper90"
+},
+{
+"id": 4220651843,
+"name": "NANOCOM ...",
+"works": 515,
+"class": "paper90"
+},
+{
+"id": 4306498231,
+"name": "2017 Spokane, Washington July 16 - July 19, 2017",
+"works": 512,
+"class": "paper90"
+},
+{
+"id": 4210177401,
+"name": "Digest of technical papers/Digest of technical papers - IEEE/ACM International Conference on Computer-Aided Design",
+"works": 512,
+"class": "mixed90"
+},
+{
+"id": 4210213142,
+"name": "Supēsu, Enjiniaringu, Konfarensu kōen rombunshū/Supesu, Enjiniaringu, Konfarensu koen ronbunshu",
+"works": 510,
+"class": "mixed90"
+},
+{
+"id": 4306514678,
+"name": "IV Congresso Internacional de História",
+"works": 509,
+"class": "paper90"
+},
+{
+"id": 4306503286,
+"name": "Asian College of Neuropsychopharmacology",
+"works": 507,
+"class": "abstract90"
+},
+{
+"id": 4387279907,
+"name": "National Quail Symposium Proceedings",
+"works": 506,
+"class": "paper90"
+},
+{
+"id": 4306497753,
+"name": "2010 Pittsburgh, Pennsylvania, June 20 - June 23, 2010",
+"works": 504,
+"class": "paper90"
+},
+{
+"id": 4306509270,
+"name": "ems",
+"works": 504,
+"class": "mixed90"
+},
+{
+"id": 4306524013,
+"name": "Proceedings of the Chemical Sensor Symposium",
+"works": 503,
+"class": "paper90"
+},
+{
+"id": 5407048894,
+"name": "CIB Conferences",
+"works": 502,
+"class": "paper90"
+},
+{
+"id": 4306514176,
+"name": "International Symposium on Remote Sensing",
+"works": 501,
+"class": "paper90"
+},
+{
+"id": 4306539731,
+"name": "Научное творчество молодежи - лесному комплексу России",
+"works": 496,
+"class": "paper90"
+},
+{
+"id": 4306499939,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts",
+"works": 495,
+"class": "abstract90"
+},
+{
+"id": 4404661624,
+"name": "Людина і космос.",
+"works": 494,
+"class": "paper90"
+},
+{
+"id": 4306498573,
+"name": "2019 Spring Meeting and 15th Global Congress on Process Safety",
+"works": 491,
+"class": "abstract90"
+},
+{
+"id": 4363607690,
+"name": "Critical Transitions in Water and Environmental Resources Management",
+"works": 490,
+"class": "paper90"
+},
+{
+"id": 4306512558,
+"name": "IAF abstracts, 34th COSPAR Scientific Assembly",
+"works": 490,
+"class": "paper90"
+},
+{
+"id": 4387278929,
+"name": "Bandung Conference Series Accountancy",
+"works": 489,
+"class": "paper90"
+},
+{
+"id": 4210233505,
+"name": "Conference on Applied Statistics in Agriculture",
+"works": 489,
+"class": "paper90"
+},
+{
+"id": 4306512808,
+"name": "iece",
+"works": 488,
+"class": "paper90"
+},
+{
+"id": 4306514714,
+"name": "IX Congress of society physiologists of plants of Russia \"Plant physiology is the basis for creating plants of the future\"",
+"works": 487,
+"class": "paper90"
+},
+{
+"id": 4306499962,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #48",
+"works": 487,
+"class": "abstract90"
+},
+{
+"id": 4306501178,
+"name": "AIHce 1999",
+"works": 487,
+"class": "paper90"
+},
+{
+"id": 4306497775,
+"name": "2011 Louisville, Kentucky, August 7 - August 10, 2011",
+"works": 485,
+"class": "paper90"
+},
+{
+"id": 4390297286,
+"name": "International Conference of Business and Social Sciences",
+"works": 483,
+"class": "mixed90"
+},
+{
+"id": 4306523352,
+"name": "Proceedings IMCS 2012",
+"works": 482,
+"class": "paper90"
+},
+{
+"id": 4306522540,
+"name": "pig",
+"works": 479,
+"class": "paper90"
+},
+{
+"id": 4306522533,
+"name": "PICS",
+"works": 477,
+"class": "paper90"
+},
+{
+"id": 4306531448,
+"name": "한국자동차공학회 Symposium",
+"works": 476,
+"class": "paper90"
+},
+{
+"id": 4306506665,
+"name": "COMPCON",
+"works": 474,
+"class": "paper90"
+},
+{
+"id": 2764454831,
+"name": "Parallel and distributed computing and systems",
+"works": 472,
+"class": "paper90"
+},
+{
+"id": 4306501561,
+"name": "American Astronomical Society Meeting Abstracts #220",
+"works": 471,
+"class": "abstract90"
+},
+{
+"id": 4306498299,
+"name": "2018 Detroit, Michigan July 29 - August 1, 2018",
+"works": 470,
+"class": "paper90"
+},
+{
+"id": 4306525077,
+"name": "Qatar Foundation Annual Research Forum Volume 2012 Issue 1",
+"works": 469,
+"class": "paper90"
+},
+{
+"id": 4390296887,
+"name": "SolarPACES Conference Proceedings",
+"works": 469,
+"class": "paper90"
+},
+{
+"id": 4210178292,
+"name": "Lonergan Workshop",
+"works": 468,
+"class": "paper90"
+},
+{
+"id": 4306514875,
+"name": "JAPANESE SOCIETY of DEVELOPMENTAL BIOLOGISTS",
+"works": 462,
+"class": "abstract90"
+},
+{
+"id": 4306534891,
+"name": "한국자동차공학회 Workshop",
+"works": 462,
+"class": "paper90"
+},
+{
+"id": 4387278940,
+"name": "Bandung Conference Series Urban & Regional Planning",
+"works": 461,
+"class": "paper90"
+},
+{
+"id": 5407016075,
+"name": "Clays and clay minerals (National Conference on Clays and Clay Minerals)",
+"works": 458,
+"class": "paper90"
+},
+{
+"id": 4306508000,
+"name": "Die Natur der Gesellschaft: Verhandlungen des 33. Kongresses der Deutschen Gesellschaft für Soziologie in Kassel 2006. Teilbd. 1 u. 2",
+"works": 457,
+"class": "paper90"
+},
+{
+"id": 4306511249,
+"name": "GEO 2010",
+"works": 457,
+"class": "paper90"
+},
+{
+"id": 4306533342,
+"name": "Tropical agriculture research series : proceedings of a symposium on tropical agriculture researches",
+"works": 456,
+"class": "paper90"
+},
+{
+"id": 4306501544,
+"name": "American Astronomical Society Meeting Abstracts #194",
+"works": 456,
+"class": "abstract90"
+},
+{
+"id": 4393918283,
+"name": "Anais do ... Simpósio de Ensino, Pesquisa e Extensão/Anais Simpósio de Ensino, Pesquisa e Extensão",
+"works": 455,
+"class": "paper90"
+},
+{
+"id": 4306524756,
+"name": "prpl",
+"works": 455,
+"class": "paper90"
+},
+{
+"id": 4306501175,
+"name": "AIHce 1996 - Health Care Industries Papers",
+"works": 454,
+"class": "paper90"
+},
+{
+"id": 4306497244,
+"name": "143rd Annual Meeting of the American Fisheries Society",
+"works": 454,
+"class": "abstract90"
+},
+{
+"id": 4387289276,
+"name": "CONECT International Scientific Conference of Environmental and Climate Technologies",
+"works": 450,
+"class": "mixed90"
+},
+{
+"id": 4306499284,
+"name": "36th Symposium on Biotechnology for Fuels and Chemicals (April 28-May 1, 2014)",
+"works": 450,
+"class": "paper90"
+},
+{
+"id": 4306501552,
+"name": "American Astronomical Society Meeting Abstracts #210",
+"works": 449,
+"class": "abstract90"
+},
+{
+"id": 4306523353,
+"name": "Proceedings IMCS 2018",
+"works": 448,
+"class": "paper90"
+},
+{
+"id": 4306501177,
+"name": "AIHce 1998",
+"works": 448,
+"class": "paper90"
+},
+{
+"id": 4306535293,
+"name": "XXIst International Carbohydrate Symposium 2002",
+"works": 447,
+"class": "paper90"
+},
+{
+"id": 4306497326,
+"name": "16th Congress of the International Commission for Optics: Optics as a Key to High Technology",
+"works": 447,
+"class": "paper90"
+},
+{
+"id": 4306502145,
+"name": "anme",
+"works": 445,
+"class": "paper90"
+},
+{
+"id": 4306498459,
+"name": "2019 Boston, Massachusetts July 7- July 10, 2019",
+"works": 444,
+"class": "paper90"
+},
+{
+"id": 4306499030,
+"name": "24th Aerospace Sciences Meeting",
+"works": 444,
+"class": "paper90"
+},
+{
+"id": 4306501181,
+"name": "AIHce 2002",
+"works": 442,
+"class": "paper90"
+},
+{
+"id": 4306502660,
+"name": "APS Four Corners Section Meeting Abstracts",
+"works": 440,
+"class": "abstract90"
+},
+{
+"id": 4306501549,
+"name": "American Astronomical Society Meeting Abstracts #204",
+"works": 440,
+"class": "abstract90"
+},
+{
+"id": 4306506020,
+"name": "Childhood Stunting, Wasting, and Obesity, as the Critical Global Health Issues: Forging Cross-Sectoral Solutions",
+"works": 439,
+"class": "paper90"
+},
+{
+"id": 4306501179,
+"name": "AIHce 2000",
+"works": 439,
+"class": "paper90"
+},
+{
+"id": 4306507052,
+"name": "Cool Stars, Stellar Systems, and the Sun",
+"works": 438,
+"class": "paper90"
+},
+{
+"id": 4389157856,
+"name": "PHM Society Asia-Pacific Conference",
+"works": 438,
+"class": "paper90"
+},
+{
+"id": 4306528704,
+"name": "RMxAC",
+"works": 436,
+"class": "paper90"
+},
+{
+"id": 4306501547,
+"name": "American Astronomical Society Meeting Abstracts #200",
+"works": 434,
+"class": "abstract90"
+},
+{
+"id": 4306497063,
+"name": "100th ESA Annual Meeting (August 9 -- 14, 2015)",
+"works": 434,
+"class": "abstract90"
+},
+{
+"id": 4306498995,
+"name": "23rd Aerospace Sciences Meeting",
+"works": 432,
+"class": "paper90"
+},
+{
+"id": 4306529839,
+"name": "shin",
+"works": 429,
+"class": "abstract90"
+},
+{
+"id": 4210230693,
+"name": "The Proceedings of International Symposium on Seed-up and Service Technology for Railway and Maglev Systems STECH",
+"works": 426,
+"class": "mixed90"
+},
+{
+"id": 4306501575,
+"name": "American Astronomical Society Meeting Abstracts #236",
+"works": 424,
+"class": "abstract90"
+},
+{
+"id": 4404675468,
+"name": "日本食品科学工学会大会講演要旨集 =",
+"works": 423,
+"class": "abstract90"
+},
+{
+"id": 4210229038,
+"name": "Abstracts of the Papers Communicated to the Royal Society of London",
+"works": 421,
+"class": "abstract90"
+},
+{
+"id": 4306498386,
+"name": "2018 Simposio Brasileiro de Sistemas Eletricos (SBSE)",
+"works": 418,
+"class": "paper90"
+},
+{
+"id": 4387278882,
+"name": "Bandung Conference Series Sharia Economic Law",
+"works": 414,
+"class": "paper90"
+},
+{
+"id": 2764552788,
+"name": "Power and energy systems",
+"works": 412,
+"class": "paper90"
+},
+{
+"id": 4306500741,
+"name": "ADSA-ASAS 2015 Midwest Meeting",
+"works": 411,
+"class": "abstract90"
+},
+{
+"id": 4220650884,
+"name": "Kalpa publications in computing",
+"works": 410,
+"class": "paper90"
+},
+{
+"id": 4210232179,
+"name": "Construction technologies and architecture",
+"works": 409,
+"class": "paper90"
+},
+{
+"id": 4306499658,
+"name": "62nd ASH Annual Meeting and Exposition",
+"works": 407,
+"class": "abstract90"
+},
+{
+"id": 4306532273,
+"name": "The Japanese Society for Cognitive Psychology",
+"works": 407,
+"class": "abstract90"
+},
+{
+"id": 4387284122,
+"name": "Proceedings of the AAAI Conference on Human Computation and Crowdsourcing",
+"works": 407,
+"class": "paper90"
+},
+{
+"id": 4306498829,
+"name": "2021 International Applied Computational Electromagnetics Society (ACES-China) Symposium",
+"works": 406,
+"class": "paper90"
+},
+{
+"id": 4306501180,
+"name": "AIHce 2001",
+"works": 403,
+"class": "paper90"
+},
+{
+"id": 4306506560,
+"name": "Collection of scientific papers",
+"works": 403,
+"class": "paper90"
+},
+{
+"id": 4306530963,
+"name": "Strengthening Hospital Competitiveness to Improve Patient Satisfaction and Better Health Outcomes",
+"works": 402,
+"class": "mixed90"
+},
+{
+"id": 4306521328,
+"name": "OCEANS 2016 - Shanghai",
+"works": 402,
+"class": "paper90"
+},
+{
+"id": 4306535195,
+"name": "xru",
+"works": 401,
+"class": "paper90"
+},
+{
+"id": 4306520564,
+"name": "Natl. Bur. Stand. (U.S.), Spec. Publ.; (United States)",
+"works": 401,
+"class": "paper90"
+},
+{
+"id": 4306514887,
+"name": "Japan Primary Care Association",
+"works": 400,
+"class": "abstract90"
+},
+{
+"id": 4306499296,
+"name": "37th Symposium on Biotechnology for Fuels and Chemicals",
+"works": 398,
+"class": "paper90"
+},
+{
+"id": 4306519345,
+"name": "Mathematics Education Across Cultures: Proceedings of the 42nd Meeting of the North American Chapter of the International Group for the Psychology of Mathematics Education",
+"works": 398,
+"class": "paper90"
+},
+{
+"id": 4306501176,
+"name": "AIHce 1997 - Taking Responsibility...Building Tomorrow's Profession Papers",
+"works": 395,
+"class": "paper90"
+},
+{
+"id": 4210221424,
+"name": "International Symposium on Affective Science and Engineering",
+"works": 393,
+"class": "paper90"
+},
+{
+"id": 4210178439,
+"name": "Computer Science Research Notes",
+"works": 392,
+"class": "paper90"
+},
+{
+"id": 4306499561,
+"name": "53rd U.S. Rock Mechanics/Geomechanics Symposium",
+"works": 392,
+"class": "paper90"
+},
+{
+"id": 4306530798,
+"name": "spte",
+"works": 390,
+"class": "paper90"
+},
+{
+"id": 4306501559,
+"name": "American Astronomical Society Meeting Abstracts #218",
+"works": 389,
+"class": "abstract90"
+},
+{
+"id": 4306511248,
+"name": "GEO 2008",
+"works": 385,
+"class": "paper90"
+},
+{
+"id": 4306510153,
+"name": "European Planetary Science Congress 2010",
+"works": 385,
+"class": "mixed90"
+},
+{
+"id": 4306501185,
+"name": "AIHce 2006",
+"works": 385,
+"class": "paper90"
+},
+{
+"id": 4306519746,
+"name": "Mensch & Computer Workshopband",
+"works": 384,
+"class": "paper90"
+},
+{
+"id": 4306507793,
+"name": "Deseret Language and Linguistic Society Symposium",
+"works": 383,
+"class": "paper90"
+},
+{
+"id": 4306501538,
+"name": "American Astronomical Society Meeting Abstracts #182",
+"works": 383,
+"class": "abstract90"
+},
+{
+"id": 4363606487,
+"name": "Fundamental Interactions",
+"works": 382,
+"class": "paper90"
+},
+{
+"id": 4306530542,
+"name": "Soziale Ungleichheit, kulturelle Unterschiede: Verhandlungen des 32. Kongresses der Deutschen Gesellschaft für Soziologie in München. Teilbd. 1 und 2",
+"works": 382,
+"class": "paper90"
+},
+{
+"id": 4306524289,
+"name": "Proceedings of the NIPR Symposium on Polar Meteorology and Glaciology",
+"works": 378,
+"class": "paper90"
+},
+{
+"id": 4306512557,
+"name": "iaf",
+"works": 378,
+"class": "paper90"
+},
+{
+"id": 4306502663,
+"name": "APS Northwest Section Meeting Abstracts",
+"works": 377,
+"class": "abstract90"
+},
+{
+"id": 4306509802,
+"name": "ESS",
+"works": 377,
+"class": "abstract90"
+},
+{
+"id": 4306501183,
+"name": "AIHce 2004",
+"works": 376,
+"class": "paper90"
+},
+{
+"id": 4306521156,
+"name": "Nucl. Mater. Manage. Annu. Meet. Proc.; (United States)",
+"works": 376,
+"class": "paper90"
+},
+{
+"id": 4306498171,
+"name": "2017 International Applied Computational Electromagnetics Society Symposium (ACES)",
+"works": 374,
+"class": "paper90"
+},
+{
+"id": 4306525057,
+"name": "pvsp",
+"works": 371,
+"class": "paper90"
+},
+{
+"id": 4306504080,
+"name": "BDA",
+"works": 368,
+"class": "paper90"
+},
+{
+"id": 4306530386,
+"name": "Software Engineering (Workshops)",
+"works": 367,
+"class": "paper90"
+},
+{
+"id": 4387278931,
+"name": "Bandung Conference Series Economics Studies",
+"works": 367,
+"class": "paper90"
+},
+{
+"id": 4306525937,
+"name": "Resumos...",
+"works": 366,
+"class": "mixed90"
+},
+{
+"id": 4306532257,
+"name": "The Japan Endocrine Society",
+"works": 365,
+"class": "abstract90"
+},
+{
+"id": 4306528918,
+"name": "Russian science: actual researches and developments,Part 1",
+"works": 364,
+"class": "paper90"
+},
+{
+"id": 4387282930,
+"name": "CTE Workshop Proceedings",
+"works": 364,
+"class": "paper90"
+},
+{
+"id": 4306501184,
+"name": "AIHce 2005",
+"works": 364,
+"class": "paper90"
+},
+{
+"id": 4387285337,
+"name": "Agropross National Conference Proceedings of Agriculture",
+"works": 363,
+"class": "paper90"
+},
+{
+"id": 4306497368,
+"name": "17th International Congress of Mucosal Immunology (ICMI 2015)",
+"works": 362,
+"class": "abstract90"
+},
+{
+"id": 4404571732,
+"name": "Proceeding of International Conference on Social Science and Humanity",
+"works": 362,
+"class": "paper90"
+},
+{
+"id": 4306501564,
+"name": "American Astronomical Society Meeting Abstracts #224",
+"works": 357,
+"class": "abstract90"
+},
+{
+"id": 4306509708,
+"name": "ESA Living Planet Symposium",
+"works": 356,
+"class": "paper90"
+},
+{
+"id": 4306499220,
+"name": "32nd Conf. on Agricultural and Forest Meteorology/22nd Symp. Boundary Layers and Turbulence/ Third Conf. on Atmospheric Biogeosciences (20 – 24 June, 2016)",
+"works": 356,
+"class": "abstract90"
+},
+{
+"id": 4306519160,
+"name": "Managing Requirements Knowledge, International Workshop on",
+"works": 355,
+"class": "paper90"
+},
+{
+"id": 4306499552,
+"name": "52nd U.S. Rock Mechanics/Geomechanics Symposium",
+"works": 355,
+"class": "paper90"
+},
+{
+"id": 4306515057,
+"name": "JISBD",
+"works": 354,
+"class": "paper90"
+},
+{
+"id": 4306498877,
+"name": "20th Aerospace Sciences Meeting",
+"works": 353,
+"class": "paper90"
+},
+{
+"id": 4306497088,
+"name": "10th EMS Annual Meeting",
+"works": 352,
+"class": "paper90"
+},
+{
+"id": 4387278950,
+"name": "Bandung Conference Series Industrial Engineering Science",
+"works": 351,
+"class": "paper90"
+},
+{
+"id": 4387278937,
+"name": "Bandung Conference Series Statistics",
+"works": 349,
+"class": "paper90"
+},
+{
+"id": 4306501546,
+"name": "American Astronomical Society Meeting Abstracts #198",
+"works": 348,
+"class": "abstract90"
+},
+{
+"id": 4306510375,
+"name": "FECS",
+"works": 346,
+"class": "paper90"
+},
+{
+"id": 4220651462,
+"name": "EPiC series in engineering",
+"works": 345,
+"class": "paper90"
+},
+{
+"id": 4306499582,
+"name": "55th U.S. Rock Mechanics/Geomechanics Symposium",
+"works": 345,
+"class": "paper90"
+},
+{
+"id": 4306554564,
+"name": "特定非営利活動法人 日本分子生物学会",
+"works": 344,
+"class": "abstract90"
+},
+{
+"id": 5407055014,
+"name": "Papers from the International Scientific Conference of the European Studies Department Jean Monnet Centre of Excellence Faculty of Philosophy at Sofia University “St Kliment Ohridski”",
+"works": 340,
+"class": "paper90"
+},
+{
+"id": 4306500055,
+"name": "Abstracts of Annual Congress of The Japan Society of Home Economics 55th Annual Congress of The Japan Society of Home Economics",
+"works": 340,
+"class": "abstract90"
+},
+{
+"id": 4306499953,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #38",
+"works": 339,
+"class": "abstract90"
+},
+{
+"id": 4387278883,
+"name": "Bandung Conference Series Islamic Broadcast Communication",
+"works": 339,
+"class": "paper90"
+},
+{
+"id": 4306522504,
+"name": "Physics of Electronic and Atomic Collisions: ICPEAC X",
+"works": 338,
+"class": "paper90"
+},
+{
+"id": 4306503624,
+"name": "Astronomische Gesellschaft Meeting Abstracts",
+"works": 338,
+"class": "abstract90"
+},
+{
+"id": 4387280574,
+"name": "International Conference on Tourism Research",
+"works": 338,
+"class": "paper90"
+},
+{
+"id": 4306508181,
+"name": "Division of Colloid and Surface Chemistry",
+"works": 338,
+"class": "abstract90"
+},
+{
+"id": 4306511283,
+"name": "GeoFlorida 2010",
+"works": 337,
+"class": "paper90"
+},
+{
+"id": 4210213588,
+"name": "The Proceedings of the Symposium on Motion and Power Transmission",
+"works": 336,
+"class": "paper90"
+},
+{
+"id": 4306507676,
+"name": "DEMOCRATIZAÇÃO DO CONHECIMENTO E VALORIZAÇÃO PROFISSIONAL: CAMINHOS PARA O DESENVOLVIMENTO TECNOLÓGICO E SOCIAL",
+"works": 335,
+"class": "paper90"
+},
+{
+"id": 4306497349,
+"name": "17th Aerospace Sciences Meeting",
+"works": 335,
+"class": "paper90"
+},
+{
+"id": 4306524405,
+"name": "Proceedings of XXIIIrd International Symposium on Lattice Field Theory — PoS(LAT2005)",
+"works": 333,
+"class": "paper90"
+},
+{
+"id": 4306512886,
+"name": "IFSA",
+"works": 333,
+"class": "abstract90"
+},
+{
+"id": 5407055739,
+"name": "Specialized and Legacy Electronics Manufacturing Conferences",
+"works": 333,
+"class": "paper90"
+},
+{
+"id": 2764817531,
+"name": "Bulgarian Comparative Education Society",
+"works": 333,
+"class": "paper90"
+},
+{
+"id": 4306499572,
+"name": "54th U.S. Rock Mechanics/Geomechanics Symposium",
+"works": 333,
+"class": "paper90"
+},
+{
+"id": 4306517881,
+"name": "Kultur und Gesellschaft: gemeinsamer Kongreß der Deutschen, der Österreichischen und der Schweizerischen Gesellschaft für Soziologie, Zürich 1988 ; Beiträge der Forschungskomitees, Sektionen und Ad-hoc-Gruppen",
+"works": 332,
+"class": "paper90"
+},
+{
+"id": 4306499131,
+"name": "29th Conf. on Agricultural and Forest Meteorology/19th Symp. on Boundary Layers and Turbulence/Ninth Symp. on the Urban Environment (1-6 August 2010)",
+"works": 332,
+"class": "abstract90"
+},
+{
+"id": 4306512844,
+"name": "IEICE Conferences Archives",
+"works": 331,
+"class": "paper90"
+},
+{
+"id": 4306499071,
+"name": "26th Agricultural and Forest Meteorology/13th Air Pollution/5th Urban Environment/16th Biometeorology and Aerobiology",
+"works": 330,
+"class": "abstract90"
+},
+{
+"id": 4306497388,
+"name": "18th Aerospace Sciences Meeting",
+"works": 327,
+"class": "paper90"
+},
+{
+"id": 4306499964,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #50",
+"works": 326,
+"class": "abstract90"
+},
+{
+"id": 4306520303,
+"name": "MSIE 2011",
+"works": 325,
+"class": "paper90"
+},
+{
+"id": 4306534531,
+"name": "Volume 5: Manufacturing Materials and Metallurgy; Ceramics; Structures and Dynamics; Controls, Diagnostics and Instrumentation; Education; General",
+"works": 325,
+"class": "paper90"
+},
+{
+"id": 4393918417,
+"name": "Anais do ... Congresso Brasileiro de Qualidade em Serviços e Sistemas de Saúde",
+"works": 325,
+"class": "paper90"
+},
+{
+"id": 4306499957,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #42",
+"works": 325,
+"class": "abstract90"
+},
+{
+"id": 4306532581,
+"name": "The National Workshop on Large Landscape Conservation",
+"works": 324,
+"class": "paper90"
+},
+{
+"id": 4306521324,
+"name": "OCEANS'10 IEEE SYDNEY",
+"works": 324,
+"class": "paper90"
+},
+{
+"id": 4306540173,
+"name": "Сборник тезисов",
+"works": 323,
+"class": "paper90"
+},
+{
+"id": 4306511357,
+"name": "Geophysics of the 21st Century - The Leap into the Future",
+"works": 322,
+"class": "paper90"
+},
+{
+"id": 4306499308,
+"name": "38th Symposium on Biotechnology for Fuels and Chemicals",
+"works": 322,
+"class": "paper90"
+},
+{
+"id": 4306511220,
+"name": "General question of world science",
+"works": 320,
+"class": "paper90"
+},
+{
+"id": 4210214518,
+"name": "INDIVIDUAL SOCIETY STATE Proceedings of the International Student and Teacher Scientific and Practical Conference",
+"works": 319,
+"class": "mixed90"
+},
+{
+"id": 4306530415,
+"name": "Solar-Terrestrial Energy Program",
+"works": 316,
+"class": "paper90"
+},
+{
+"id": 4306539526,
+"name": "МАТЕРІАЛИ МІЖНАРОДНОЇ НАУКОВО-ПРАКТИЧНОЇ КОНФЕРЕНЦІЇ",
+"works": 316,
+"class": "paper90"
+},
+{
+"id": 4306509426,
+"name": "Energy and protein metabolism and nutrition",
+"works": 316,
+"class": "paper90"
+},
+{
+"id": 4210207532,
+"name": "The Proceedings of the Elevator Escalator and Amusement Rides Conference",
+"works": 315,
+"class": "mixed90"
+},
+{
+"id": 4210235610,
+"name": "Gercenovskie čteniâ: psihologičeskie issledovaniâ v obrazovanii",
+"works": 314,
+"class": "paper90"
+},
+{
+"id": 4306499952,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #37",
+"works": 313,
+"class": "abstract90"
+},
+{
+"id": 4306530056,
+"name": "SIP",
+"works": 313,
+"class": "paper90"
+},
+{
+"id": 4306521614,
+"name": "Oral Presentations",
+"works": 311,
+"class": "paper90"
+},
+{
+"id": 4306513560,
+"name": "INTEGRAR E INOVAR SABERES PARA A DEMOCRATIZAÇÃO DO CONHECIMENTO",
+"works": 310,
+"class": "paper90"
+},
+{
+"id": 4306498433,
+"name": "2019 5th International Workshop on Education, Development and Social Sciences",
+"works": 310,
+"class": "paper90"
+},
+{
+"id": 5407051303,
+"name": "Scientific and Practical Journal \"Materials of Scientific Conferences of the Petro Mohyla Black Sea National University\"",
+"works": 308,
+"class": "paper90"
+},
+{
+"id": 4306500156,
+"name": "acm",
+"works": 308,
+"class": "mixed90"
+},
+{
+"id": 5407049553,
+"name": "SciEn Conference Series Engineering",
+"works": 308,
+"class": "paper90"
+},
+{
+"id": 4306507866,
+"name": "De volta ao futuro da lingua portuguesa. Atas do V SIMELP - Simpósio Mundial de Estudos de Língua Portuguesa",
+"works": 307,
+"class": "paper90"
+},
+{
+"id": 4306499947,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #32",
+"works": 306,
+"class": "abstract90"
+},
+{
+"id": 4306533906,
+"name": "University of the Future: Re-Imagining Research and Higher Education",
+"works": 306,
+"class": "mixed90"
+},
+{
+"id": 4306513257,
+"name": "Informatiktage",
+"works": 306,
+"class": "paper90"
+},
+{
+"id": 4306501158,
+"name": "AIAA SPACE 2016",
+"works": 305,
+"class": "paper90"
+},
+{
+"id": 4306511222,
+"name": "General Relativity and Gravitation, Volume 1",
+"works": 304,
+"class": "paper90"
+},
+{
+"id": 4306501543,
+"name": "American Astronomical Society Meeting Abstracts #192",
+"works": 304,
+"class": "abstract90"
+},
+{
+"id": 4306497942,
+"name": "2015 Digital Heritage",
+"works": 302,
+"class": "paper90"
+},
+{
+"id": 4306518808,
+"name": "Livro de Resumos do X Congresso Brasileiro sobre Crustáceos",
+"works": 302,
+"class": "mixed90"
+},
+{
+"id": 4306501182,
+"name": "AIHce 2003",
+"works": 301,
+"class": "paper90"
+},
+{
+"id": 4306534470,
+"name": "Volume 1B: Extremity; Fluid Mechanics; Gait; Growth, Remodeling, and Repair; Heart Valves; Injury Biomechanics; Mechanotransduction and Sub-Cellular Biophysics; MultiScale Biotransport; Muscle, Tendon and Ligament; Musculoskeletal Devices; Multiscale Mechanics; Thermal Medicine; Ocular Biomechanics; Pediatric Hemodynamics; Pericellular Phenomena; Tissue Mechanics; Biotransport Design and Devices; Spine; Stent Device Hemodynamics; Vascular Solid Mechanics; Student Paper and Design Competitions",
+"works": 301,
+"class": "paper90"
+},
+{
+"id": 4306513072,
+"name": "IMSA",
+"works": 301,
+"class": "paper90"
+},
+{
+"id": 4306532289,
+"name": "The Japan Society for Computational Engineering and Science",
+"works": 300,
+"class": "abstract90"
+},
+{
+"id": 4306497537,
+"name": "1st Annual Meeting",
+"works": 300,
+"class": "paper90"
+},
+{
+"id": 4306500058,
+"name": "Abstracts of Annual Congress of The Japan Society of Home Economics 58th Annual Congress of The Japan Society of Home Economics",
+"works": 299,
+"class": "abstract90"
+},
+{
+"id": 4306534523,
+"name": "Volume 4: Manufacturing Materials and Metallurgy; Ceramics; Structures and Dynamics; Controls, Diagnostics and Instrumentation; Education; IGTI Scholar Award",
+"works": 299,
+"class": "paper90"
+},
+{
+"id": 4393920003,
+"name": "Springer Proceedings in Humanities and Social Sciences",
+"works": 298,
+"class": "paper90"
+},
+{
+"id": 4306530792,
+"name": "spre",
+"works": 298,
+"class": "paper90"
+},
+{
+"id": 4306499948,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #33",
+"works": 298,
+"class": "abstract90"
+},
+{
+"id": 4306521327,
+"name": "OCEANS 2007 - Europe",
+"works": 298,
+"class": "paper90"
+},
+{
+"id": 4220651230,
+"name": "European Proceedings of Multidisciplinary Sciences",
+"works": 297,
+"class": "paper90"
+},
+{
+"id": 4306530089,
+"name": "Sixth International Scientific Agricultural Symposium \"Agrosym 2015\", Jahorina, Bosnia and Herzegovina, October 15-18, 2015. Book of Proceedings",
+"works": 297,
+"class": "paper90"
+},
+{
+"id": 4306499855,
+"name": "98th ESA Annual Meeting (August 4 -- 9, 2013)",
+"works": 296,
+"class": "abstract90"
+},
+{
+"id": 4306499290,
+"name": "37th Annual Meeting of the Society for Medical Decision Making",
+"works": 296,
+"class": "abstract90"
+},
+{
+"id": 4363604372,
+"name": "IV",
+"works": 294,
+"class": "paper90"
+},
+{
+"id": 4306511710,
+"name": "Ground-based and Airborne Instrumentation for Astronomy VII",
+"works": 293,
+"class": "paper90"
+},
+{
+"id": 4306534463,
+"name": "Volume 1A: Abdominal Aortic Aneurysms; Active and Reactive Soft Matter; Atherosclerosis; BioFluid Mechanics; Education; Biotransport Phenomena; Bone, Joint and Spine Mechanics; Brain Injury; Cardiac Mechanics; Cardiovascular Devices, Fluids and Imaging; Cartilage and Disc Mechanics; Cell and Tissue Engineering; Cerebral Aneurysms; Computational Biofluid Dynamics; Device Design, Human Dynamics, and Rehabilitation; Drug Delivery and Disease Treatment; Engineered Cellular Environments",
+"works": 292,
+"class": "paper90"
+},
+{
+"id": 4306514946,
+"name": "jena",
+"works": 292,
+"class": "paper90"
+},
+{
+"id": 4306510156,
+"name": "European Rocket and Balloon Programmes and Related Research",
+"works": 292,
+"class": "paper90"
+},
+{
+"id": 4306522505,
+"name": "Physics of Electronic and Atomic Collisions: ICPEAC XI",
+"works": 291,
+"class": "paper90"
+},
+{
+"id": 4306522500,
+"name": "Physics of Electronic and Atomic Collisions: ICPEAC IX",
+"works": 291,
+"class": "paper90"
+},
+{
+"id": 4306497873,
+"name": "2014 Beltwide Cotton Conferences (January 6-8, 2014)",
+"works": 288,
+"class": "paper90"
+},
+{
+"id": 4306499940,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #24",
+"works": 286,
+"class": "abstract90"
+},
+{
+"id": 4306501557,
+"name": "American Astronomical Society Meeting Abstracts #216",
+"works": 286,
+"class": "abstract90"
+},
+{
+"id": 4306497526,
+"name": "19th Texas Symposium on Relativistic Astrophysics and Cosmology",
+"works": 285,
+"class": "paper90"
+},
+{
+"id": 4390648395,
+"name": "Conference on Innovation and Application of Science and Technology (CIASTECH)",
+"works": 285,
+"class": "paper90"
+},
+{
+"id": 4306551238,
+"name": "日本理科教育学会東海支部大会研究発表要旨集",
+"works": 284,
+"class": "abstract90"
+},
+{
+"id": 4306499961,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #47",
+"works": 284,
+"class": "abstract90"
+},
+{
+"id": 4306524741,
+"name": "Protostars and Planets V Posters",
+"works": 284,
+"class": "paper90"
+},
+{
+"id": 4306522546,
+"name": "pimo",
+"works": 283,
+"class": "paper90"
+},
+{
+"id": 4306499956,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #41",
+"works": 282,
+"class": "abstract90"
+},
+{
+"id": 4306499942,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #26",
+"works": 282,
+"class": "abstract90"
+},
+{
+"id": 4306499959,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #45",
+"works": 279,
+"class": "abstract90"
+},
+{
+"id": 4306519863,
+"name": "mgm",
+"works": 279,
+"class": "paper90"
+},
+{
+"id": 4306524554,
+"name": "Promoting Population Mental Health and Well-Being",
+"works": 278,
+"class": "mixed90"
+},
+{
+"id": 4306535320,
+"name": "XXVIII Российская конференция по электронной микроскопии и VI школа молодых учёных \"Современные методы электронной, зондовой микроскопии и комплементарные методы в исследованиях наноструктур и наноматериалов\"",
+"works": 278,
+"class": "paper90"
+},
+{
+"id": 4306501555,
+"name": "American Astronomical Society Meeting Abstracts #214",
+"works": 276,
+"class": "abstract90"
+},
+{
+"id": 4363607039,
+"name": "Socio-Pedagogical Issues of Education and Upbringing",
+"works": 275,
+"class": "paper90"
+},
+{
+"id": 4306518202,
+"name": "lase",
+"works": 273,
+"class": "paper90"
+},
+{
+"id": 4306531686,
+"name": "Technology Management : the New International Language",
+"works": 272,
+"class": "mixed90"
+},
+{
+"id": 4306514871,
+"name": "Japanese Society for Medical and Biological Engineering",
+"works": 271,
+"class": "abstract90"
+},
+{
+"id": 4220651345,
+"name": "Proceedings of the ... International Design Conference/Design ...",
+"works": 271,
+"class": "paper90"
+},
+{
+"id": 4306520308,
+"name": "MSV",
+"works": 271,
+"class": "paper90"
+},
+{
+"id": 4306525416,
+"name": "Reaching the Unreached: Improving Population Health in the Rural and Remote Areas",
+"works": 270,
+"class": "mixed90"
+},
+{
+"id": 4306501736,
+"name": "Anais do CIPCEn: Congresso Internacional de Produção Científica em Enfermagem",
+"works": 270,
+"class": "mixed90"
+},
+{
+"id": 4306522541,
+"name": "pig1",
+"works": 269,
+"class": "paper90"
+},
+{
+"id": 4306499941,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #25",
+"works": 269,
+"class": "abstract90"
+},
+{
+"id": 4306497247,
+"name": "146th Annual Meeting of the American Fisheries Society",
+"works": 269,
+"class": "abstract90"
+},
+{
+"id": 4306499943,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #27",
+"works": 268,
+"class": "abstract90"
+},
+{
+"id": 4306511569,
+"name": "GMDS",
+"works": 267,
+"class": "paper90"
+},
+{
+"id": 4306510152,
+"name": "European Planetary Science Congress 2009",
+"works": 267,
+"class": "mixed90"
+},
+{
+"id": 4306506787,
+"name": "Concepts and Approaches for Mars Exploration",
+"works": 267,
+"class": "paper90"
+},
+{
+"id": 4393914735,
+"name": "Proceedings of the National Association of Insurance Commissioners",
+"works": 267,
+"class": "paper90"
+},
+{
+"id": 4306499954,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #39",
+"works": 267,
+"class": "abstract90"
+},
+{
+"id": 4210216461,
+"name": "Biological Markers in Fundamental and Clinical Medicine (collection of abstracts)",
+"works": 266,
+"class": "abstract90"
+},
+{
+"id": 4306503322,
+"name": "ASInC",
+"works": 265,
+"class": "paper90"
+},
+{
+"id": 4306499880,
+"name": "9th EMS Annual Meeting",
+"works": 264,
+"class": "mixed90"
+},
+{
+"id": 4306499963,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #49",
+"works": 264,
+"class": "abstract90"
+},
+{
+"id": 4306499960,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #46",
+"works": 263,
+"class": "abstract90"
+},
+{
+"id": 4306512584,
+"name": "IATDMCT",
+"works": 263,
+"class": "abstract90"
+},
+{
+"id": 5407052556,
+"name": "Proceeding International Conference on Islam Law and Society (INCOILS)",
+"works": 263,
+"class": "paper90"
+},
+{
+"id": 4306499327,
+"name": "3rd and 4th Aerospace Sciences Meeting",
+"works": 263,
+"class": "paper90"
+},
+{
+"id": 4387285859,
+"name": "ASPS Conference Proceedings",
+"works": 262,
+"class": "paper90"
+},
+{
+"id": 4306501537,
+"name": "American Astronomical Society Meeting Abstracts #180",
+"works": 262,
+"class": "abstract90"
+},
+{
+"id": 4306499934,
+"name": "AAS/AGU Triennial Earth-Sun Summit",
+"works": 261,
+"class": "abstract90"
+},
+{
+"id": 4306533913,
+"name": "Univ. Ky., Off. Eng. Serv., (Bull.); (United States)",
+"works": 261,
+"class": "paper90"
+},
+{
+"id": 4306539779,
+"name": "Научный диалог: Молодой ученый",
+"works": 261,
+"class": "paper90"
+},
+{
+"id": 4210216155,
+"name": "HUMAN ENVIRONMENT TECHNOLOGIES Proceedings of the Students International Scientific and Practical Conference",
+"works": 261,
+"class": "paper90"
+},
+{
+"id": 4306501541,
+"name": "American Astronomical Society Meeting Abstracts #188",
+"works": 260,
+"class": "abstract90"
+},
+{
+"id": 4306524461,
+"name": "Proc. Symp. Eng. Probl. Fusion Res.; (United States)",
+"works": 260,
+"class": "paper90"
+},
+{
+"id": 4306498083,
+"name": "2016 SIMB Annual Meeting and Exhibition",
+"works": 259,
+"class": "abstract90"
+},
+{
+"id": 4306503997,
+"name": "Banat's University of Agronomical Sciences and Veterinary Medicine International Scientific Symposium, Timisoara, Romania, 14-15 May 2009.",
+"works": 259,
+"class": "paper90"
+},
+{
+"id": 4306499800,
+"name": "82nd Annual Meeting of The Meteoritical Society",
+"works": 259,
+"class": "paper90"
+},
+{
+"id": 4306501539,
+"name": "American Astronomical Society Meeting Abstracts #184",
+"works": 257,
+"class": "abstract90"
+},
+{
+"id": 4306523581,
+"name": "Proceedings of the 1st Borobudur International Symposium on Humanities, Economics and Social Sciences (BIS-HESS 2019)",
+"works": 257,
+"class": "paper90"
+},
+{
+"id": 5407054197,
+"name": "Soldering and Reliability Conferences",
+"works": 257,
+"class": "paper90"
+},
+{
+"id": 4210235486,
+"name": "Conference SENATIK STT Adisutjipto Yogyakarta",
+"works": 257,
+"class": "paper90"
+},
+{
+"id": 4306502665,
+"name": "APS Ohio Sections Spring Meeting Abstracts",
+"works": 255,
+"class": "abstract90"
+},
+{
+"id": 4306499955,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #40",
+"works": 255,
+"class": "abstract90"
+},
+{
+"id": 4306510180,
+"name": "EUROSIM",
+"works": 254,
+"class": "paper90"
+},
+{
+"id": 4306522276,
+"name": "Peptide chemistry : proceedings of the ... Symposium on Peptide Chemistry",
+"works": 254,
+"class": "paper90"
+},
+{
+"id": 4306523463,
+"name": "Proceedings of International Symposium on Scheduling",
+"works": 254,
+"class": "paper90"
+},
+{
+"id": 4387278863,
+"name": "Proceedings of The International Conference on Data Science and Official Statistics",
+"works": 253,
+"class": "paper90"
+},
+{
+"id": 4306501848,
+"name": "Anais do XVII Encontro Nacional de Estudantes de Engenharia Ambiental e V Fórum Latino-Americano de Engenharia e Sustentabilidade",
+"works": 251,
+"class": "paper90"
+},
+{
+"id": 4306497982,
+"name": "2015 SIMB Annual Meeting and Exhibition",
+"works": 251,
+"class": "abstract90"
+},
+{
+"id": 4306499951,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #36",
+"works": 251,
+"class": "abstract90"
+},
+{
+"id": 4306506857,
+"name": "Conf. Rec. IEEE Photovoltaic Spec. Conf.; (United States)",
+"works": 250,
+"class": "paper90"
+},
+{
+"id": 4306502664,
+"name": "APS Ohio Sections Fall Meeting Abstracts",
+"works": 250,
+"class": "abstract90"
+},
+{
+"id": 4306511976,
+"name": "Healthy, Intelligent and Resilient Buildings and Urban Environments",
+"works": 250,
+"class": "paper90"
+},
+{
+"id": 5407050065,
+"name": "Proceeding International Collaborative Conference on Multidisciplinary Science",
+"works": 250,
+"class": "paper90"
+},
+{
+"id": 4306512561,
+"name": "IAFP's 12th European Symposium on Food Safety",
+"works": 249,
+"class": "paper90"
+},
+{
+"id": 5407050106,
+"name": "Proceeding of International Students Conference of Economics and Business Excellence",
+"works": 248,
+"class": "paper90"
+},
+{
+"id": 4306523427,
+"name": "Proceedings of European Symposium on Organic Chemistry 2019",
+"works": 247,
+"class": "paper90"
+},
+{
+"id": 4306500924,
+"name": "AGM",
+"works": 246,
+"class": "abstract90"
+},
+{
+"id": 4306501545,
+"name": "American Astronomical Society Meeting Abstracts #196",
+"works": 246,
+"class": "abstract90"
+},
+{
+"id": 4393920120,
+"name": "Anais da Semana Científica da Faculdade de Medicina de Campos",
+"works": 245,
+"class": "mixed90"
+},
+{
+"id": 4306514824,
+"name": "Japan Association for Medical Informatics",
+"works": 245,
+"class": "abstract90"
+},
+{
+"id": 4387278941,
+"name": "Bandung Conference Series Mining Engineering",
+"works": 244,
+"class": "paper90"
+},
+{
+"id": 4306524288,
+"name": "Proceedings of the NIPR Symposium on Polar Biology",
+"works": 244,
+"class": "paper90"
+},
+{
+"id": 4393919726,
+"name": "Proceedings/Memorias",
+"works": 242,
+"class": "paper90"
+},
+{
+"id": 4306498334,
+"name": "2018 International Applied Computational Electromagnetics Society Symposium (ACES)",
+"works": 242,
+"class": "paper90"
+},
+{
+"id": 4306538276,
+"name": "Археологические открытия 2017 год",
+"works": 242,
+"class": "paper90"
+},
+{
+"id": 4306499950,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #35",
+"works": 241,
+"class": "abstract90"
+},
+{
+"id": 4306499958,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #44",
+"works": 241,
+"class": "abstract90"
+},
+{
+"id": 4306512703,
+"name": "ICSCRM2019 Organizing Committee",
+"works": 241,
+"class": "abstract90"
+},
+{
+"id": 4306503583,
+"name": "Asteroids, Comets, Meteors 2014",
+"works": 240,
+"class": "abstract90"
+},
+{
+"id": 4306512021,
+"name": "hell",
+"works": 240,
+"class": "paper90"
+},
+{
+"id": 4306534099,
+"name": "V Encontro Nacional da Agroindústria",
+"works": 240,
+"class": "paper90"
+},
+{
+"id": 4306535139,
+"name": "X International Agriculture Symposium, Agrosym 2019, Jahorina, Bosnia and Herzegovina, 3-6 October 2019. Proceedings",
+"works": 239,
+"class": "paper90"
+},
+{
+"id": 4306558299,
+"name": "ジョイント・シンポジウム講演論文集 : スポーツ工学シンポジウム : シンポジウム:ヒューマン・ダイナミックス : symposium on sports engineering : symposium on human dynamics",
+"works": 238,
+"class": "mixed90"
+},
+{
+"id": 4306499751,
+"name": "79th Annual Meeting of the Meteoritical Society",
+"works": 238,
+"class": "paper90"
+},
+{
+"id": 4306501853,
+"name": "Anais do XXV Simpósio de Ensino, Pesquisa e Extensão, edição 2021",
+"works": 238,
+"class": "paper90"
+},
+{
+"id": 4306497315,
+"name": "16th Aerospace Sciences Meeting",
+"works": 237,
+"class": "paper90"
+},
+{
+"id": 4404669876,
+"name": "Anais da Semana de Iniciação Científica da FAI.",
+"works": 236,
+"class": "paper90"
+},
+{
+"id": 4306502340,
+"name": "Annual Meeting and Exhibition 2014 (July 20-24, 2014)",
+"works": 236,
+"class": "abstract90"
+},
+{
+"id": 4306507206,
+"name": "CSREA EEE",
+"works": 235,
+"class": "paper90"
+},
+{
+"id": 4306532053,
+"name": "The Academic Association for Organizational Science",
+"works": 235,
+"class": "abstract90"
+},
+{
+"id": 7407058101,
+"name": "International Conference on Economics Business and Management Research (ICEBMR)",
+"works": 234,
+"class": "paper90"
+},
+{
+"id": 4306529056,
+"name": "SAKHAROV READINGS 2020: ENVIRONMENTAL PROBLEMS OF THE XXI CENTURY",
+"works": 234,
+"class": "paper90"
+},
+{
+"id": 4306499857,
+"name": "99th ESA Annual Meeting (August 10 -- 15, 2014)",
+"works": 233,
+"class": "abstract90"
+},
+{
+"id": 4306511377,
+"name": "Geotechnical Earthquake Engineering and Soil Dynamics V",
+"works": 232,
+"class": "paper90"
+},
+{
+"id": 4306523431,
+"name": "Proceedings of Frontiers of Fundamental Physics 14 — PoS(FFP14)",
+"works": 232,
+"class": "paper90"
+},
+{
+"id": 7407064176,
+"name": "Proceeding Cendekia International Conference Health and Technology",
+"works": 231,
+"class": "paper90"
+},
+{
+"id": 4306499465,
+"name": "46th Croatian and 6th International Symposium on Agriculture, Opatija, Croatia, 14-18 February 2011. Proceedings",
+"works": 230,
+"class": "paper90"
+},
+{
+"id": 4306529309,
+"name": "Scientific achievements of the third millennium",
+"works": 230,
+"class": "paper90"
+},
+{
+"id": 4306514979,
+"name": "JFSMA",
+"works": 228,
+"class": "paper90"
+},
+{
+"id": 4306502670,
+"name": "APS Texas Sections Spring Meeting Abstracts",
+"works": 228,
+"class": "abstract90"
+},
+{
+"id": 4404676433,
+"name": "Proceedings of the International Conference on AI Research.",
+"works": 227,
+"class": "paper90"
+},
+{
+"id": 4306521120,
+"name": "ntc",
+"works": 226,
+"class": "paper90"
+},
+{
+"id": 4306538277,
+"name": "Археологические открытия 2018 год",
+"works": 226,
+"class": "paper90"
+},
+{
+"id": 4306532148,
+"name": "The Electrochemical Society of Japan",
+"works": 226,
+"class": "abstract90"
+},
+{
+"id": 4306532283,
+"name": "The Japan Neuroscience Society",
+"works": 225,
+"class": "abstract90"
+},
+{
+"id": 4306499944,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #28",
+"works": 224,
+"class": "abstract90"
+},
+{
+"id": 4387285480,
+"name": "JJAP Conference Proceedings",
+"works": 224,
+"class": "paper90"
+},
+{
+"id": 4306522503,
+"name": "Physics of Electronic and Atomic Collisions: ICPEAC VIII",
+"works": 224,
+"class": "paper90"
+},
+{
+"id": 4387290358,
+"name": "Proceeding International Conference on Science and Engineering",
+"works": 223,
+"class": "paper90"
+},
+{
+"id": 5406971072,
+"name": "Contemporary Issues of Literary Studies - International Symposium Proceedings",
+"works": 223,
+"class": "paper90"
+},
+{
+"id": 4387280012,
+"name": "European Conference on Social Media",
+"works": 223,
+"class": "paper90"
+},
+{
+"id": 4387279127,
+"name": "Proceedings of International Conference on Business Management",
+"works": 223,
+"class": "paper90"
+},
+{
+"id": 5407048214,
+"name": "Proceeding of International Conference on Digital Social and Science",
+"works": 223,
+"class": "paper90"
+},
+{
+"id": 4306534530,
+"name": "Volume 5: Manufacturing Materials and Metallurgy; Ceramics; Structures and Dynamics; Controls, Diagnostics and Instrumentation; Education",
+"works": 223,
+"class": "paper90"
+},
+{
+"id": 4306501573,
+"name": "American Astronomical Society Meeting Abstracts #234",
+"works": 222,
+"class": "abstract90"
+},
+{
+"id": 4220651850,
+"name": "Tourism in South East Europe .../Tourism in Southern and Eastern Europe",
+"works": 222,
+"class": "paper90"
+},
+{
+"id": 4306530018,
+"name": "Simpósio de Pesquisa Operacional e Logística da Marinha - Publicação Online",
+"works": 222,
+"class": "paper90"
+},
+{
+"id": 4306508845,
+"name": "Education and Awareness of Sustainability",
+"works": 221,
+"class": "paper90"
+},
+{
+"id": 4306502652,
+"name": "aprs",
+"works": 221,
+"class": "paper90"
+},
+{
+"id": 4393919648,
+"name": "Encuentros Diseño Social RAD",
+"works": 221,
+"class": "paper90"
+},
+{
+"id": 4306500693,
+"name": "Adaptive Optics Systems VI",
+"works": 219,
+"class": "paper90"
+},
+{
+"id": 4306501719,
+"name": "Anais de XXX Simpósio Brasileiro de Telecomunicações",
+"works": 219,
+"class": "paper90"
+},
+{
+"id": 4306499966,
+"name": "AAS/High Energy Astrophysics Division",
+"works": 219,
+"class": "abstract90"
+},
+{
+"id": 4387280559,
+"name": "Pattimura Proceeding Conference of Science and Technology",
+"works": 218,
+"class": "paper90"
+},
+{
+"id": 5407054198,
+"name": "Medical Electronics Symposium",
+"works": 218,
+"class": "paper90"
+},
+{
+"id": 5407054390,
+"name": "Anais do Seminário de Iniciação Científica da Universidade do Vale do Itajaí",
+"works": 218,
+"class": "paper90"
+},
+{
+"id": 4306512884,
+"name": "IFPA",
+"works": 217,
+"class": "abstract90"
+},
+{
+"id": 4306499149,
+"name": "2nd Annual Meeting",
+"works": 216,
+"class": "paper90"
+},
+{
+"id": 4306519360,
+"name": "MAVEBA",
+"works": 216,
+"class": "paper90"
+},
+{
+"id": 4306506334,
+"name": "CISST",
+"works": 216,
+"class": "paper90"
+},
+{
+"id": 4306499610,
+"name": "5th Aerospace Sciences Meeting",
+"works": 216,
+"class": "paper90"
+},
+{
+"id": 4306523764,
+"name": "Proceedings of the 2nd International Symposium on Science at J-PARC — Unlocking the Mysteries of Life, Matter and the Universe —",
+"works": 215,
+"class": "paper90"
+},
+{
+"id": 4306524511,
+"name": "Progress in Canadian Mechanical Engineering",
+"works": 215,
+"class": "paper90"
+},
+{
+"id": 4306499815,
+"name": "8th Aerospace Sciences Meeting",
+"works": 215,
+"class": "paper90"
+},
+{
+"id": 4306501553,
+"name": "American Astronomical Society Meeting Abstracts #212",
+"works": 214,
+"class": "abstract90"
+},
+{
+"id": 4306532127,
+"name": "The Committee of Battery Technology The Electrochemical Society of Japan",
+"works": 214,
+"class": "abstract90"
+},
+{
+"id": 4306523147,
+"name": "President, Geodetic Society of Japan,President, Seismological Society of Japan",
+"works": 214,
+"class": "abstract90"
+},
+{
+"id": 4306530298,
+"name": "SOCIEDADE 5.0:EDUCAÇÃO,CIÊNCIA,TECNOLOGIA E AMOR",
+"works": 213,
+"class": "paper90"
+},
+{
+"id": 4306500072,
+"name": "Abstracts of Symposium on Physical Organic Chemistry",
+"works": 213,
+"class": "abstract90"
+},
+{
+"id": 4306522502,
+"name": "Physics of Electronic and Atomic Collisions: ICPEAC VII",
+"works": 212,
+"class": "paper90"
+},
+{
+"id": 4306507030,
+"name": "Contributions to the XIV.0 Scientific Meeting (virtual) of the Spanish Astronomical Society",
+"works": 212,
+"class": "paper90"
+},
+{
+"id": 4210192171,
+"name": "The International Conference on Business & Technology Transfer",
+"works": 212,
+"class": "mixed90"
+},
+{
+"id": 4306514825,
+"name": "Japan Association of Mineralogical Sciences",
+"works": 212,
+"class": "abstract90"
+},
+{
+"id": 4306524161,
+"name": "Proceedings of the international conferences on the bearing capacity of roads, railways and airfields",
+"works": 212,
+"class": "paper90"
+},
+{
+"id": 4306497173,
+"name": "12th Aerospace Sciences Meeting",
+"works": 211,
+"class": "paper90"
+},
+{
+"id": 4306497077,
+"name": "10th Aerospace Sciences Meeting",
+"works": 211,
+"class": "paper90"
+},
+{
+"id": 4306524305,
+"name": "Proceedings of the Proceedings of the 7th Mathematics, Science, and Computer Science Education International Seminar, MSCEIS 2019, 12 October 2019, Bandung, West Java, Indonesia",
+"works": 211,
+"class": "paper90"
+},
+{
+"id": 4306524287,
+"name": "Proceedings of the NIPR Symposium on Antarctic Geosciences",
+"works": 210,
+"class": "paper90"
+},
+{
+"id": 4220651661,
+"name": "Memorias",
+"works": 209,
+"class": "paper90"
+},
+{
+"id": 4306512562,
+"name": "IAFP's 13th European Symposium on Food Safety",
+"works": 208,
+"class": "paper90"
+},
+{
+"id": 4306532286,
+"name": "The Japan Radiation Research Society Annual Meeting Abstracts The 47th Annual Meeting of The Japan Radiation Research Society",
+"works": 208,
+"class": "abstract90"
+},
+{
+"id": 4306497082,
+"name": "10th Annual IEEE (GaAs IC) Symposium, Gallium Arsenide Integrated Circuit. Technical Digest 1988.",
+"works": 208,
+"class": "paper90"
+},
+{
+"id": 4306497284,
+"name": "15th Aerospace Sciences Meeting",
+"works": 208,
+"class": "paper90"
+},
+{
+"id": 4306506868,
+"name": "Congrès Mondial de Linguistique Française 2008",
+"works": 207,
+"class": "paper90"
+},
+{
+"id": 4210234244,
+"name": "The Proceedings of the Asian Symposium on Materials and Processing",
+"works": 207,
+"class": "mixed90"
+},
+{
+"id": 4306524190,
+"name": "Proceedings of the International Symposium on Auditory and Audiological Research",
+"works": 207,
+"class": "paper90"
+},
+{
+"id": 4387288651,
+"name": "Proceedings of the 2nd International Conference on Social Science (ICSS)",
+"works": 207,
+"class": "paper90"
+},
+{
+"id": 4306504442,
+"name": "Biotechnol. Bioeng. Symp.; (United States)",
+"works": 206,
+"class": "paper90"
+},
+{
+"id": 4306532061,
+"name": "The Albuquerque Meeting, Vol. 2.",
+"works": 206,
+"class": "paper90"
+},
+{
+"id": 4210240286,
+"name": "The Proceedings of the Industrial Chemical Machinery & Safety Division Conference",
+"works": 206,
+"class": "paper90"
+},
+{
+"id": 4220651362,
+"name": "Proceedings",
+"works": 206,
+"class": "paper90"
+},
+{
+"id": 4306505007,
+"name": "Building Resilience at Universities: Role of Innovation and Entrepreneurship",
+"works": 205,
+"class": "mixed90"
+},
+{
+"id": 4306499580,
+"name": "55th Society of Polymer Science Japan Symposium on Macromolecules",
+"works": 205,
+"class": "paper90"
+},
+{
+"id": 4210175022,
+"name": "Proceedings of the African Futures Conference",
+"works": 204,
+"class": "mixed90"
+},
+{
+"id": 4306523737,
+"name": "Proceedings of the 2nd Borobudur International Symposium on Humanities and Social Sciences, BIS-HSS 2020, 18 November 2020, Magelang, Central Java, Indonesia",
+"works": 203,
+"class": "paper90"
+},
+{
+"id": 4306530766,
+"name": "SPLT",
+"works": 203,
+"class": "paper90"
+},
+{
+"id": 4306530983,
+"name": "Structures Congress 2012",
+"works": 203,
+"class": "paper90"
+},
+{
+"id": 4306530334,
+"name": "Society for Serviceology",
+"works": 202,
+"class": "abstract90"
+},
+{
+"id": 4306502803,
+"name": "Archive of Conferences",
+"works": 202,
+"class": "paper90"
+},
+{
+"id": 4306501551,
+"name": "American Astronomical Society Meeting Abstracts #208",
+"works": 202,
+"class": "abstract90"
+},
+{
+"id": 4306522501,
+"name": "Physics of Electronic and Atomic Collisions: ICPEAC VI",
+"works": 202,
+"class": "paper90"
+},
+{
+"id": 4306506474,
+"name": "Coal Technol. (Houston); (United States)",
+"works": 202,
+"class": "paper90"
+},
+{
+"id": 4404669159,
+"name": "Proceeding International Business and Economic Conference.",
+"works": 200,
+"class": "paper90"
+},
+{
+"id": 4306510092,
+"name": "Euro-Asia Conferences",
+"works": 200,
+"class": "paper90"
+},
+{
+"id": 4306506633,
+"name": "Communications in Computing",
+"works": 200,
+"class": "paper90"
+},
+{
+"id": 4306518644,
+"name": "Libro Comunicaciones",
+"works": 200,
+"class": "paper90"
+},
+{
+"id": 4306524513,
+"name": "Progress in Canadian Mechanical Engineering. Volume 4",
+"works": 199,
+"class": "paper90"
+},
+{
+"id": 4306510851,
+"name": "Fourth International Scientific Symposium \"Agrosym 2013\", Jahorina, Bosnia and Herzegovina, 3-6 October, 2013. Book of Proceedings.",
+"works": 199,
+"class": "paper90"
+},
+{
+"id": 4306510370,
+"name": "FCS",
+"works": 199,
+"class": "paper90"
+},
+{
+"id": 4306499795,
+"name": "80th Annual Meeting of the Meteoritical Society",
+"works": 199,
+"class": "paper90"
+},
+{
+"id": 4306507580,
+"name": "Data Science and Knowledge Engineering for Sensing Decision Support",
+"works": 198,
+"class": "paper90"
+},
+{
+"id": 4306533595,
+"name": "tx19",
+"works": 198,
+"class": "paper90"
+},
+{
+"id": 4306540258,
+"name": "Современные тенденции развития физики полупроводников: достижения, проблемы и перспективы",
+"works": 197,
+"class": "paper90"
+},
+{
+"id": 4387286463,
+"name": "Symposium of Literature Culture and Communication (SYLECTION) 2022",
+"works": 197,
+"class": "paper90"
+},
+{
+"id": 4306521677,
+"name": "Orlando Meeting",
+"works": 196,
+"class": "abstract90"
+},
+{
+"id": 4306514826,
+"name": "Japan Automobile Research Institute",
+"works": 196,
+"class": "abstract90"
+},
+{
+"id": 4306501708,
+"name": "Anais da Semana Nacional de Ciência e Tecnologia do Instituto Federal de Rondônia - Campus Cacoal",
+"works": 196,
+"class": "paper90"
+},
+{
+"id": 2764391250,
+"name": "The Phenomenon of Singing",
+"works": 196,
+"class": "paper90"
+},
+{
+"id": 4306499798,
+"name": "81st Annual Meeting of the Meteoritical Society",
+"works": 196,
+"class": "paper90"
+},
+{
+"id": 7407065011,
+"name": "Proceedings of the International Conference on Secure Systems Design and Technology Development",
+"works": 196,
+"class": "paper90"
+},
+{
+"id": 4306501522,
+"name": "Am. Chem. Soc., Div. Gas Fuel Chem., Prepr.; (United States)",
+"works": 196,
+"class": "paper90"
+},
+{
+"id": 4306499945,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #29",
+"works": 196,
+"class": "abstract90"
+},
+{
+"id": 4306510853,
+"name": "Fourth Seminar on Novel Optoelectronic Detection Technology and Application",
+"works": 195,
+"class": "paper90"
+},
+{
+"id": 4306501571,
+"name": "American Astronomical Society Meeting Abstracts #232",
+"works": 195,
+"class": "abstract90"
+},
+{
+"id": 4306514134,
+"name": "International Snow Science Workshop 2016 Proceedings, Breckenridge, CO, USA",
+"works": 194,
+"class": "paper90"
+},
+{
+"id": 4306501615,
+"name": "American Society of Sugarbeet Technologist",
+"works": 194,
+"class": "paper90"
+},
+{
+"id": 4210221911,
+"name": "Economic and Business Trends Shaping the Future",
+"works": 194,
+"class": "paper90"
+},
+{
+"id": 4306524740,
+"name": "Protostars and Planets VI Posters",
+"works": 193,
+"class": "paper90"
+},
+{
+"id": 4306498943,
+"name": "21st Symposium on Boundary Layers and Turbulence",
+"works": 193,
+"class": "paper90"
+},
+{
+"id": 4220650801,
+"name": "Topics in economics, business and management",
+"works": 193,
+"class": "paper90"
+},
+{
+"id": 4363605694,
+"name": "x",
+"works": 193,
+"class": "paper90"
+},
+{
+"id": 4306510923,
+"name": "Frontier Objects in Astrophysics and Particle Physics",
+"works": 193,
+"class": "paper90"
+},
+{
+"id": 4306539766,
+"name": "Научные тенденции: Педагогика и психология",
+"works": 193,
+"class": "paper90"
+},
+{
+"id": 4387284182,
+"name": "Proceeding of The International Conference on Economics and Business",
+"works": 193,
+"class": "paper90"
+},
+{
+"id": 4363607409,
+"name": "Multiparticle Dynamics",
+"works": 192,
+"class": "paper90"
+},
+{
+"id": 4306503565,
+"name": "ASSL",
+"works": 192,
+"class": "paper90"
+},
+{
+"id": 4306501550,
+"name": "American Astronomical Society Meeting Abstracts #206",
+"works": 192,
+"class": "abstract90"
+},
+{
+"id": 4306514341,
+"name": "Ionization Phenomena in Gases, Volume I",
+"works": 192,
+"class": "paper90"
+},
+{
+"id": 4306499975,
+"name": "AAS/High Energy Astrophysics Division #5",
+"works": 192,
+"class": "abstract90"
+},
+{
+"id": 4306528087,
+"name": "Revitalizing Family Planning Program and Women’s Empowerment for the Improvement of Population Well-being and Economic Development",
+"works": 191,
+"class": "mixed90"
+},
+{
+"id": 4306523462,
+"name": "Proceedings of International Symposium on Nuclear Astrophysics - Nuclei in the Cosmos - IX — PoS(NIC-IX)",
+"works": 191,
+"class": "paper90"
+},
+{
+"id": 2764959294,
+"name": "Teleteaching",
+"works": 190,
+"class": "paper90"
+},
+{
+"id": 4306501880,
+"name": "Anais VIII Simpósio Internacional Trabalho, Relações de Trabalho, Educação e Identidade",
+"works": 190,
+"class": "paper90"
+},
+{
+"id": 4306514499,
+"name": "ISRM International Symposium - 10th Asian Rock Mechanics Symposium",
+"works": 190,
+"class": "paper90"
+},
+{
+"id": 4306530988,
+"name": "Structures Congress 2017",
+"works": 189,
+"class": "paper90"
+},
+{
+"id": 4306532287,
+"name": "The Japan Radiation Research Society Annual Meeting Abstracts The 48th Annual Meeting of The Japan Radiation Research Society",
+"works": 188,
+"class": "abstract90"
+},
+{
+"id": 4306539765,
+"name": "Научные тенденции: Вопросы точных и технических наук",
+"works": 188,
+"class": "paper90"
+},
+{
+"id": 4306514177,
+"name": "International Symposium on Remote Sensing of Environment",
+"works": 188,
+"class": "paper90"
+},
+{
+"id": 4306499867,
+"name": "9th Aerospace Sciences Meeting",
+"works": 188,
+"class": "paper90"
+},
+{
+"id": 4306500797,
+"name": "Advances in Optical and Mechanical Technologies for Telescopes and Instrumentation III",
+"works": 188,
+"class": "paper90"
+},
+{
+"id": 4306499968,
+"name": "AAS/High Energy Astrophysics Division #11",
+"works": 188,
+"class": "abstract90"
+},
+{
+"id": 4306503582,
+"name": "Asteroids, Comets, Meteors 2012",
+"works": 187,
+"class": "paper90"
+},
+{
+"id": 4306539780,
+"name": "Научный диалог: Экономика и менеджмент",
+"works": 187,
+"class": "paper90"
+},
+{
+"id": 4306519063,
+"name": "magr",
+"works": 187,
+"class": "paper90"
+},
+{
+"id": 4306530751,
+"name": "Spine Surgery Education Programme",
+"works": 186,
+"class": "paper90"
+},
+{
+"id": 4306507862,
+"name": "Developments of Artificial Intelligence Technologies in Computation and Robotics",
+"works": 186,
+"class": "paper90"
+},
+{
+"id": 4306514978,
+"name": "JFPLC",
+"works": 186,
+"class": "paper90"
+},
+{
+"id": 4306523128,
+"name": "PRE-PRINTS OF THE SYMPOSIUM ON GLOBAL ENVIRONMENT",
+"works": 186,
+"class": "paper90"
+},
+{
+"id": 4306528908,
+"name": "RUSSIA AND CHINA: A VECTOR OF DEVELOPMENT",
+"works": 185,
+"class": "paper90"
+},
+{
+"id": 4306499571,
+"name": "54th SPSJ Symposium on Macromolecules",
+"works": 185,
+"class": "paper90"
+},
+{
+"id": 4210226930,
+"name": "Blucher Social Sciences Proceedings",
+"works": 185,
+"class": "paper90"
+},
+{
+"id": 4306497346,
+"name": "17º Congresso da Associação Nacional de Medicina do Trabalho",
+"works": 185,
+"class": "paper90"
+},
+{
+"id": 4306530854,
+"name": "STATE AND DEVELOPMENT PROSPECTS OF AGRIBUSINESS. In the frame of the XXIII Agribusiness Forum of the South of Russia and the Exhibition «Interagromash» Volume 2",
+"works": 185,
+"class": "paper90"
+},
+{
+"id": 4306497575,
+"name": "2000 Proceedings Beltwide Cotton Conferences, San Antonio, USA, 4-8 January, 2000: Volume 2.",
+"works": 184,
+"class": "paper90"
+},
+{
+"id": 4306525842,
+"name": "Research, Development and Practice in Structural Engineering and Construction",
+"works": 184,
+"class": "paper90"
+},
+{
+"id": 4306498891,
+"name": "20th International Congress of Biometeorology (28 September–2 October 2014)",
+"works": 184,
+"class": "abstract90"
+},
+{
+"id": 5407048565,
+"name": "Proceedings of Forum Manajemen Indonesia s International Conferences",
+"works": 183,
+"class": "paper90"
+},
+{
+"id": 4306510843,
+"name": "Fourth Huntsville gamma-ray burst symposium",
+"works": 183,
+"class": "paper90"
+},
+{
+"id": 4306524290,
+"name": "Proceedings of the NIPR Symposium on Upper Atmosphere Physics",
+"works": 183,
+"class": "paper90"
+},
+{
+"id": 4306515136,
+"name": "Joint Workshop of the German Research Training Groups in Computer Science",
+"works": 183,
+"class": "paper90"
+},
+{
+"id": 4306531334,
+"name": "Sun II",
+"works": 183,
+"class": "paper90"
+},
+{
+"id": 4306510964,
+"name": "Ft. Lauderdale Meeting",
+"works": 183,
+"class": "abstract90"
+},
+{
+"id": 4306499745,
+"name": "77th Annual Meeting of the Meteoritical Society",
+"works": 182,
+"class": "paper90"
+},
+{
+"id": 4306514136,
+"name": "International Snow Science Workshop Grenoble – Chamonix Mont-Blanc - October 07-11, 2013",
+"works": 181,
+"class": "paper90"
+},
+{
+"id": 4393917234,
+"name": "Matteh ...",
+"works": 181,
+"class": "paper90"
+},
+{
+"id": 4306497574,
+"name": "2000 Proceedings Beltwide Cotton Conferences, San Antonio, USA, 4-8 January, 2000: Volume 1.",
+"works": 181,
+"class": "paper90"
+},
+{
+"id": 4306510460,
+"name": "Fifth Symposium on Novel Optoelectronic Detection Technology and Application",
+"works": 181,
+"class": "paper90"
+},
+{
+"id": 4306501540,
+"name": "American Astronomical Society Meeting Abstracts #186",
+"works": 181,
+"class": "abstract90"
+},
+{
+"id": 4306530853,
+"name": "STATE AND DEVELOPMENT PROSPECTS OF AGRIBUSINESS. In the frame of the XXIII Agribusiness Forum of the South of Russia and the Exhibition «Interagromash» Volume 1",
+"works": 181,
+"class": "paper90"
+},
+{
+"id": 4306532290,
+"name": "The Japan Society for Precision Engineering",
+"works": 181,
+"class": "abstract90"
+},
+{
+"id": 4306529980,
+"name": "Signal and Image Processing",
+"works": 180,
+"class": "paper90"
+},
+{
+"id": 4387289117,
+"name": "The International Conference on Education Social Sciences and Technology (ICESST)",
+"works": 180,
+"class": "paper90"
+},
+{
+"id": 4393917264,
+"name": "Quaesti",
+"works": 180,
+"class": "paper90"
+},
+{
+"id": 4306528515,
+"name": "RIAO",
+"works": 179,
+"class": "paper90"
+},
+{
+"id": 4306499758,
+"name": "7th Aerospace Sciences Meeting",
+"works": 179,
+"class": "paper90"
+},
+{
+"id": 4306501548,
+"name": "American Astronomical Society Meeting Abstracts #202",
+"works": 179,
+"class": "abstract90"
+},
+{
+"id": 4306532274,
+"name": "The Japanese Society for Neurochemistry",
+"works": 179,
+"class": "abstract90"
+},
+{
+"id": 4306499977,
+"name": "AAS/High Energy Astrophysics Division #8",
+"works": 179,
+"class": "abstract90"
+},
+{
+"id": 4306511711,
+"name": "Ground-based and Airborne Telescopes VII",
+"works": 178,
+"class": "paper90"
+},
+{
+"id": 4306514949,
+"name": "JENAM-2007, \"Our Non-Stable Universe\"",
+"works": 178,
+"class": "paper90"
+},
+{
+"id": 4306521569,
+"name": "Optical Microlithography XVIII",
+"works": 178,
+"class": "paper90"
+},
+{
+"id": 4306521201,
+"name": "Numerical Methods in Laminar and Turbulent Flow",
+"works": 178,
+"class": "paper90"
+},
+{
+"id": 4306513842,
+"name": "International Days of Statistics and Economics 2019",
+"works": 177,
+"class": "paper90"
+},
+{
+"id": 4306512594,
+"name": "IAU Special Session",
+"works": 177,
+"class": "paper90"
+},
+{
+"id": 4210208640,
+"name": "14th International Symposium on Particle Image Velocimetry",
+"works": 176,
+"class": "paper90"
+},
+{
+"id": 4306499441,
+"name": "44th U.S. Rock Mechanics Symposium and 5th U.S.-Canada Rock Mechanics Symposium",
+"works": 176,
+"class": "paper90"
+},
+{
+"id": 4306511221,
+"name": "General Relativity and Gravitational Physics",
+"works": 175,
+"class": "paper90"
+},
+{
+"id": 4306501730,
+"name": "Anais do 5º Encontro Brasileiro para Inovação Terapêutica",
+"works": 175,
+"class": "paper90"
+},
+{
+"id": 4363605483,
+"name": "ER",
+"works": 175,
+"class": "paper90"
+},
+{
+"id": 4306506450,
+"name": "Close-Range Photogrammetry Meets Machine Vision",
+"works": 174,
+"class": "paper90"
+},
+{
+"id": 4306499749,
+"name": "78th Annual Meeting of the Meteoritical Society",
+"works": 174,
+"class": "paper90"
+},
+{
+"id": 4306510212,
+"name": "evn",
+"works": 174,
+"class": "paper90"
+},
+{
+"id": 4210201396,
+"name": "UNIVERSITY LIBRARY AT A NEW STAGE OF SOCIAL COMMUNICATIONS DEVELOPMENT CONFERENCE PROCEEDINGS",
+"works": 173,
+"class": "paper90"
+},
+{
+"id": 4306508020,
+"name": "Digest on Nonlinear Optics: Materials, Phenomena and Devices",
+"works": 173,
+"class": "mixed90"
+},
+{
+"id": 4306515133,
+"name": "Joint European and National Astronomical Meeting",
+"works": 172,
+"class": "paper90"
+},
+{
+"id": 4306497249,
+"name": "14th Aerospace Sciences Meeting",
+"works": 172,
+"class": "paper90"
+},
+{
+"id": 4306524090,
+"name": "Proceedings of the IEEE International Workshop on Intelligent Motion Control",
+"works": 172,
+"class": "paper90"
+},
+{
+"id": 4387290072,
+"name": "Prosiding Workshop dan Seminar Nasional Farmasi",
+"works": 171,
+"class": "paper90"
+},
+{
+"id": 4306512353,
+"name": "How to Cope With Disrupted Times",
+"works": 171,
+"class": "mixed90"
+},
+{
+"id": 4306538994,
+"name": "Всероссийская научно-практическая конференция молодых ученых,аспирантов и студентов",
+"works": 171,
+"class": "paper90"
+},
+{
+"id": 4404675578,
+"name": "Proceedings of International Conference on Education",
+"works": 171,
+"class": "paper90"
+},
+{
+"id": 4306503580,
+"name": "Asteroids, Comets, Meteors 1993",
+"works": 170,
+"class": "paper90"
+},
+{
+"id": 4306534522,
+"name": "Volume 4: Manufacturing Materials and Metallurgy; Ceramics; Structures and Dynamics; Controls, Diagnostics and Instrumentation; Education",
+"works": 170,
+"class": "paper90"
+},
+{
+"id": 5407044762,
+"name": "Bengkulu International Conference on Economics Management Business and Accounting (BICEMBA)",
+"works": 170,
+"class": "paper90"
+},
+{
+"id": 4387291423,
+"name": "International Conference on Applied Engineering and Natural Sciences",
+"works": 170,
+"class": "paper90"
+},
+{
+"id": 4306503611,
+"name": "Astronomical Data Analysis Software and Systems XXVII",
+"works": 169,
+"class": "paper90"
+},
+{
+"id": 4306499691,
+"name": "6th Aerospace Sciences Meeting",
+"works": 169,
+"class": "paper90"
+},
+{
+"id": 7407056518,
+"name": "Excellence in Pediatrics Abstracts",
+"works": 169,
+"class": "abstract90"
+},
+{
+"id": 4306523316,
+"name": "Proceedings 24th ISUF 2017 - City and Territory in the Globalization Age",
+"works": 169,
+"class": "paper90"
+},
+{
+"id": 4306520439,
+"name": "naec",
+"works": 169,
+"class": "paper90"
+},
+{
+"id": 4306521326,
+"name": "OCEANS 2006 - Asia Pacific",
+"works": 168,
+"class": "paper90"
+},
+{
+"id": 4306506832,
+"name": "한국창업학회 Conferences",
+"works": 168,
+"class": "paper90"
+},
+{
+"id": 4306514503,
+"name": "ISRM International Symposium - 8th Asian Rock Mechanics Symposium",
+"works": 168,
+"class": "paper90"
+},
+{
+"id": 4306521957,
+"name": "PanAm Unsaturated Soils 2017",
+"works": 168,
+"class": "paper90"
+},
+{
+"id": 4306530324,
+"name": "Society for Astronomical Sciences Annual Symposium",
+"works": 168,
+"class": "paper90"
+},
+{
+"id": 4306502565,
+"name": "AOPC 2020: Optical Sensing and Imaging Technology",
+"works": 168,
+"class": "paper90"
+},
+{
+"id": 4306511558,
+"name": "Global science. Development and novelty",
+"works": 168,
+"class": "paper90"
+},
+{
+"id": 4306512595,
+"name": "IAUSS",
+"works": 168,
+"class": "paper90"
+},
+{
+"id": 4306530547,
+"name": "Soziologie in der Gesellschaft: Referate aus den Veranstaltungen der Sektionen der Deutschen Gesellschaft für Soziologie, der Ad-hoc-Gruppen und des Berufsverbandes Deutscher Soziologen beim 20. Deutschen Soziologentag in Bremen 1980",
+"works": 167,
+"class": "paper90"
+},
+{
+"id": 4306501542,
+"name": "American Astronomical Society Meeting Abstracts #190",
+"works": 167,
+"class": "abstract90"
+},
+{
+"id": 4306559507,
+"name": "関東甲信越ブロック理学療法士学会 第36回関東甲信越ブロック理学療法士学会",
+"works": 167,
+"class": "abstract90"
+},
+{
+"id": 4306519830,
+"name": "METMBS",
+"works": 167,
+"class": "paper90"
+},
+{
+"id": 5407047962,
+"name": "ICEETE Conference Series",
+"works": 167,
+"class": "paper90"
+},
+{
+"id": 4306532219,
+"name": "The Imaging Society of Japan",
+"works": 167,
+"class": "abstract90"
+},
+{
+"id": 4306530962,
+"name": "Stream Stability and Scour at Highway Bridges: Compendium of Stream Stability and Scour Papers Presented at Conferences Sponsored by the Water Resources Engineering (Hydraulics) Division of the American Society of Civil Engineers",
+"works": 167,
+"class": "paper90"
+},
+{
+"id": 4306506909,
+"name": "Congresso Internacional sobre Patologia e Reabilitação das Construções",
+"works": 166,
+"class": "paper90"
+},
+{
+"id": 4306505825,
+"name": "ceme",
+"works": 166,
+"class": "paper90"
+},
+{
+"id": 4306517945,
+"name": "KỶ YẾU HỘI THẢO CAREES 2019 NGHIÊN CỨU CƠ BẢN TRONG LĨNH VỰC  KHOA HỌC TRÁI ĐẤT VÀ MÔI TRƯỜNG",
+"works": 166,
+"class": "paper90"
+},
+{
+"id": 4306497134,
+"name": "11th Aerospace Sciences Meeting",
+"works": 166,
+"class": "paper90"
+},
+{
+"id": 4306514870,
+"name": "Japanese Society for Engineering Education",
+"works": 165,
+"class": "abstract90"
+},
+{
+"id": 5407031727,
+"name": "Proceedings of the 6th Product Lifetimes and the Environment Conference (PLATE2025)",
+"works": 165,
+"class": "paper90"
+},
+{
+"id": 5407056423,
+"name": "Proceedings of the National Conference on Electrical Engineering Informatics Industrial Technology and Creative Media",
+"works": 164,
+"class": "paper90"
+},
+{
+"id": 4306510624,
+"name": "foap",
+"works": 164,
+"class": "paper90"
+},
+{
+"id": 4306514830,
+"name": "Japanese Economic Association",
+"works": 164,
+"class": "abstract90"
+},
+{
+"id": 4306540228,
+"name": "Современная психология и педагогика: проблемы, анализ и результаты",
+"works": 164,
+"class": "paper90"
+},
+{
+"id": 4306505919,
+"name": "cfd",
+"works": 164,
+"class": "paper90"
+},
+{
+"id": 4306497545,
+"name": "1st IASTED International Symposium on Signal Processing and its Applications",
+"works": 164,
+"class": "paper90"
+},
+{
+"id": 4306515019,
+"name": "JIISIC",
+"works": 164,
+"class": "paper90"
+},
+{
+"id": 4306514133,
+"name": "International Snow Science Workshop 2014 Proceedings, Banff, Canada",
+"works": 164,
+"class": "paper90"
+},
+{
+"id": 4306535317,
+"name": "XXVIII Encontro da SOBRAC",
+"works": 164,
+"class": "paper90"
+},
+{
+"id": 4306499969,
+"name": "AAS/High Energy Astrophysics Division #12",
+"works": 163,
+"class": "abstract90"
+},
+{
+"id": 4306499978,
+"name": "AAS/High Energy Astrophysics Division #9",
+"works": 163,
+"class": "abstract90"
+},
+{
+"id": 4210208094,
+"name": "Challenges of Science",
+"works": 163,
+"class": "paper90"
+},
+{
+"id": 4306522539,
+"name": "PIERS: Progress in Electromagnetics Research Symposium",
+"works": 162,
+"class": "paper90"
+},
+{
+"id": 4393918874,
+"name": "Anais do Encontro Pernambucano de Educação Matemática",
+"works": 162,
+"class": "paper90"
+},
+{
+"id": 4210179770,
+"name": "Vārds un tā pētīšanas aspekti rakstu krājums = The Word Aspects of Research conference proceedings",
+"works": 162,
+"class": "paper90"
+},
+{
+"id": 4306530201,
+"name": "slft",
+"works": 162,
+"class": "paper90"
+},
+{
+"id": 4306512651,
+"name": "ICF10, Honolulu (USA) 2001",
+"works": 162,
+"class": "paper90"
+},
+{
+"id": 4306524512,
+"name": "Progress in Canadian Mechanical Engineering. Volume 3",
+"works": 161,
+"class": "paper90"
+},
+{
+"id": 4306499522,
+"name": "4th International Symposium on Power Electronics and Control Engineering (ISPECE 2021)",
+"works": 161,
+"class": "paper90"
+},
+{
+"id": 4306511176,
+"name": "GCA",
+"works": 161,
+"class": "paper90"
+},
+{
+"id": 4306523516,
+"name": "Proceedings of the 12th International Modal Analysis",
+"works": 161,
+"class": "paper90"
+},
+{
+"id": 4306534489,
+"name": "Volume 2: Emissions Control Systems; Instrumentation, Controls, and Hybrids; Numerical Simulation; Engine Design and Mechanical Development",
+"works": 161,
+"class": "paper90"
+},
+{
+"id": 4306529549,
+"name": "Seminar Ikatan Peneliti Lingkungan Binaan Indonesia",
+"works": 160,
+"class": "paper90"
+},
+{
+"id": 4306498293,
+"name": "2018 Condition Monitoring and Diagnosis (CMD)",
+"works": 160,
+"class": "paper90"
+},
+{
+"id": 4306524303,
+"name": "Proceedings of the Proceedings of The 5th Annual International Seminar on Trends in Science and Science Education, AISTSSE 2018, 18-19 October 2018, Medan, Indonesia",
+"works": 159,
+"class": "paper90"
+},
+{
+"id": 4393917261,
+"name": "Scieconf",
+"works": 159,
+"class": "paper90"
+},
+{
+"id": 4306511546,
+"name": "GLOBALISTICS-2020: GLOBAL ISSUES AND THE FUTURE OF HUMANKIND: COLLECTION OF ARTICLES OF THE INTERNATIONAL SCIENTIFIC CONGRESS",
+"works": 158,
+"class": "paper90"
+},
+{
+"id": 4306515052,
+"name": "JIRCAS International Symposium Proceedings",
+"works": 157,
+"class": "paper90"
+},
+{
+"id": 4393919381,
+"name": "Computational design and robotic fabrication",
+"works": 157,
+"class": "paper90"
+},
+{
+"id": 4306499949,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #34",
+"works": 157,
+"class": "abstract90"
+},
+{
+"id": 4210230307,
+"name": "Proceedings of the Nordic Insulation Symposium",
+"works": 157,
+"class": "paper90"
+},
+{
+"id": 4306522445,
+"name": "PHILOLOGICAL SCIENCES, INTERCULTURAL COMMUNICATION AND TRANSLATION STUDIES: AN EXPERIENCE AND CHALLENGES",
+"works": 157,
+"class": "paper90"
+},
+{
+"id": 4306497418,
+"name": "18th Symposium on Boundary Layers and Turbulence (9–13 June 2008)",
+"works": 157,
+"class": "paper90"
+},
+{
+"id": 4306532576,
+"name": "The Molecular Universe",
+"works": 157,
+"class": "paper90"
+},
+{
+"id": 4306524523,
+"name": "Progress in Propulsion Physics",
+"works": 156,
+"class": "paper90"
+},
+{
+"id": 4306499760,
+"name": "7th AIAA ATIO Conf, 2nd CEIAT Int'l Conf on Innov and Integr in Aero Sciences,17th LTA Systems Tech Conf; followed by 2nd TEOS Forum",
+"works": 156,
+"class": "paper90"
+},
+{
+"id": 4306531437,
+"name": "SWWS",
+"works": 156,
+"class": "paper90"
+},
+{
+"id": 4306511072,
+"name": "Galaxy Formation",
+"works": 156,
+"class": "paper90"
+},
+{
+"id": 5407050416,
+"name": "Iqtishaduna International Conference Proceeding",
+"works": 156,
+"class": "paper90"
+},
+{
+"id": 4306530406,
+"name": "Solar Heliospheric and INterplanetary Environment (SHINE 2012)",
+"works": 155,
+"class": "abstract90"
+},
+{
+"id": 4306524160,
+"name": "Proceedings of the International Conferences on Educational, Social Sciences and Technology - ICESST 2018",
+"works": 154,
+"class": "paper90"
+},
+{
+"id": 4306497199,
+"name": "12th Natural Gas Conversion Symposium",
+"works": 154,
+"class": "paper90"
+},
+{
+"id": 4387279836,
+"name": "Proceedings Of International Conference On Communication Science",
+"works": 154,
+"class": "paper90"
+},
+{
+"id": 5407038870,
+"name": "Proceeding Conference On Psychology and Behavioral Sciences",
+"works": 154,
+"class": "paper90"
+},
+{
+"id": 4306514831,
+"name": "JAPANESE FEDERATION OF STATISTICAL SCIENCE ASSOCIATIONS",
+"works": 154,
+"class": "abstract90"
+},
+{
+"id": 4306540206,
+"name": "СИНТЕЗ И КОНСОЛИДАЦИЯ ПОРОШКОВЫХ МАТЕРИАЛОВ. Сборник тезисов Международной конференции",
+"works": 154,
+"class": "paper90"
+},
+{
+"id": 4306535431,
+"name": "Young Scientists Forum 2017",
+"works": 154,
+"class": "paper90"
+},
+{
+"id": 5407048499,
+"name": "International Conference on Aplied Social Sciences in Education",
+"works": 154,
+"class": "paper90"
+},
+{
+"id": 4306501108,
+"name": "AIAA 5th ATIO and16th Lighter-Than-Air Sys Tech. and Balloon Systems Conferences",
+"works": 153,
+"class": "paper90"
+},
+{
+"id": 4306533962,
+"name": "Urbanization Challenges in Emerging Economies",
+"works": 153,
+"class": "paper90"
+},
+{
+"id": 4306533105,
+"name": "Trace Subst. Environ. Health; (United States)",
+"works": 152,
+"class": "paper90"
+},
+{
+"id": 4306532794,
+"name": "The X-ray Universe 2014",
+"works": 152,
+"class": "paper90"
+},
+{
+"id": 4306511316,
+"name": "Geoinformatics: Theoretical and Applied Aspects 2020",
+"works": 152,
+"class": "paper90"
+},
+{
+"id": 4210239511,
+"name": "Kalpa publications in engineering",
+"works": 152,
+"class": "paper90"
+},
+{
+"id": 4387290654,
+"name": "Proceedings University of Muhammadiyah Yogyakarta Undergraduate Conference",
+"works": 151,
+"class": "paper90"
+},
+{
+"id": 4306504857,
+"name": "Book of proceedings: Fifth International Scientific Agricultural Symposium \"Agrosym 2014\", Jahorina, Bosnia and Herzegovina, October 23-26, 2014",
+"works": 151,
+"class": "paper90"
+},
+{
+"id": 7407063591,
+"name": "Proceedings of the International Conference on Rural Development and Entrepreneurship (ICORE)",
+"works": 151,
+"class": "paper90"
+},
+{
+"id": 5407033368,
+"name": "Proceeding Bali-Bhuwana Waskita Global Art Creativity Conference",
+"works": 151,
+"class": "paper90"
+},
+{
+"id": 4393919989,
+"name": "Nebraska Symposium on Motivation/The Nebraska symposium on motivation",
+"works": 151,
+"class": "paper90"
+},
+{
+"id": 4306501567,
+"name": "American Astronomical Society Meeting Abstracts #228",
+"works": 150,
+"class": "abstract90"
+},
+{
+"id": 4306499981,
+"name": "AAS/Solar Physics Division Abstracts #42",
+"works": 150,
+"class": "abstract90"
+},
+{
+"id": 4306510742,
+"name": "Formação de professores: práticas de ensino, avaliação e cooperação no despertar para a carreira docente",
+"works": 150,
+"class": "paper90"
+},
+{
+"id": 5407032836,
+"name": "ICONIS International Conference on Islamic Studies",
+"works": 150,
+"class": "paper90"
+},
+{
+"id": 4306502635,
+"name": "Applied Mechanics Committee, JSCE",
+"works": 150,
+"class": "abstract90"
+},
+{
+"id": 4306500798,
+"name": "Advances in Optical and Mechanical Technologies for Telescopes and Instrumentation IV",
+"works": 150,
+"class": "paper90"
+},
+{
+"id": 4306509581,
+"name": "epfr",
+"works": 150,
+"class": "paper90"
+},
+{
+"id": 4306504143,
+"name": "Beltwide Cotton Conferences (USA)",
+"works": 150,
+"class": "paper90"
+},
+{
+"id": 4306551184,
+"name": "日本火山学会講演予稿集 2009",
+"works": 150,
+"class": "abstract90"
+},
+{
+"id": 4210231061,
+"name": "International Scientific and Technical conference The Progressive Technics Technology and Engineering Education",
+"works": 149,
+"class": "paper90"
+},
+{
+"id": 4306532792,
+"name": "The X-ray Universe 2008",
+"works": 149,
+"class": "paper90"
+},
+{
+"id": 2764645363,
+"name": "Natural Product Discovery & Development in the Post Genomic Era",
+"works": 149,
+"class": "abstract90"
+},
+{
+"id": 4306501833,
+"name": "ANAIS DO VI SIMPOSIO BRASILEIRO DE QUALIDADE DO PROJETO NO AMBIENTE CONSTRUIDO",
+"works": 148,
+"class": "paper90"
+},
+{
+"id": 4306501787,
+"name": "Anais do I Seminário Internacional de Linguagens, Culturas, Tecnologias e Inclusão",
+"works": 148,
+"class": "paper90"
+},
+{
+"id": 4306502566,
+"name": "AOPC 2021: Optical Sensing and Imaging Technology",
+"works": 148,
+"class": "paper90"
+},
+{
+"id": 4306499970,
+"name": "AAS/High Energy Astrophysics Division #13",
+"works": 147,
+"class": "abstract90"
+},
+{
+"id": 4306507800,
+"name": "Design, Application, Performance and Emissions of Modern Internal Combustion Engine Systems and Components",
+"works": 147,
+"class": "paper90"
+},
+{
+"id": 4306524320,
+"name": "Proceedings of the Seventh Marcel Grossman Meeting on recent developments in theoretical and experimental general relativity, gravitation, and relativistic field theories",
+"works": 147,
+"class": "paper90"
+},
+{
+"id": 4306522563,
+"name": "Pipelines 2021",
+"works": 147,
+"class": "paper90"
+},
+{
+"id": 4210223711,
+"name": "Proceedings of geotextile symposium",
+"works": 147,
+"class": "paper90"
+},
+{
+"id": 4306524436,
+"name": "Proceedings Whistler 2008 International Snow Science Workshop September 21-27, 2008",
+"works": 147,
+"class": "paper90"
+},
+{
+"id": 4306525442,
+"name": "Recent Advances in IT, Tourism, Economics, Management and Agriculture",
+"works": 146,
+"class": "paper90"
+},
+{
+"id": 4306499989,
+"name": "AAS/Solar Physics Division Meeting #40",
+"works": 146,
+"class": "abstract90"
+},
+{
+"id": 4306532793,
+"name": "The X-ray Universe 2011",
+"works": 146,
+"class": "paper90"
+},
+{
+"id": 4306535177,
+"name": "XIX. mezinárodní kolokvium o regionálních vědách. Sborník příspěvků.",
+"works": 146,
+"class": "paper90"
+},
+{
+"id": 4387278934,
+"name": "Bandung Conference Series Early Childhood Teacher Education",
+"works": 146,
+"class": "paper90"
+},
+{
+"id": 4404674218,
+"name": "Conference on systems engineering research series",
+"works": 145,
+"class": "paper90"
+},
+{
+"id": 4393919000,
+"name": "Proceedings of the Society of Architectural Historians, Australia and New Zealand.",
+"works": 145,
+"class": "paper90"
+},
+{
+"id": 4306512666,
+"name": "iche",
+"works": 145,
+"class": "paper90"
+},
+{
+"id": 4306499084,
+"name": "27. Kongreß der Deutschen Gesellschaft für Soziologie - Gesellschaften im Umbruch: Sektionen und Arbeitsgruppen",
+"works": 144,
+"class": "paper90"
+},
+{
+"id": 7407076151,
+"name": "ANAIS CONGRESSO DE EDUCAÇÃO, INTERDISCIPLINARIDADE E PRÁTICAS ESCOLARES",
+"works": 144,
+"class": "paper90"
+},
+{
+"id": 4387997476,
+"name": "Symposium on Energy Geotechnics 2023",
+"works": 144,
+"class": "paper90"
+},
+{
+"id": 4306532284,
+"name": "The Japan Petroleum Institute",
+"works": 144,
+"class": "abstract90"
+},
+{
+"id": 4306520084,
+"name": "MLMTA",
+"works": 144,
+"class": "paper90"
+},
+{
+"id": 4210220753,
+"name": "Proceedings of Annual Conference Japan Society of Information and Knowledge",
+"works": 143,
+"class": "paper90"
+},
+{
+"id": 4306500767,
+"name": "Advanced Topics in Optoelectronics, Microelectronics, and Nanotechnologies IX",
+"works": 143,
+"class": "paper90"
+},
+{
+"id": 4306500078,
+"name": "Abstracts of the General Sessions of the Japanese Society for Dental Materials and Devices 50th General Session of the Japanese Society for Dental Materials and Devices in conjunction with International Dental Materials Congress 2007",
+"works": 142,
+"class": "abstract90"
+},
+{
+"id": 4306530554,
+"name": "Spacecraft Guidance, Navigation and Control Systems",
+"works": 142,
+"class": "paper90"
+},
+{
+"id": 4210211666,
+"name": "Arts and Music in Cultural Discourse Proceedings of the International Scientific and Practical Conference",
+"works": 142,
+"class": "mixed90"
+},
+{
+"id": 4306501832,
+"name": "Anais do VIII Seminário de Integração Científica da Universidade do Estado do Pará",
+"works": 142,
+"class": "paper90"
+},
+{
+"id": 4306506986,
+"name": "CONTEMPORARY ECONOMIC PROBLEMS OF RUSSIA AND CHINA",
+"works": 141,
+"class": "paper90"
+},
+{
+"id": 4306523256,
+"name": "Proc., Am. Pet. Inst., Refin. Dep.; (United States)",
+"works": 141,
+"class": "paper90"
+},
+{
+"id": 4306506495,
+"name": "Coasts, Marine Structures and Breakwaters 2017",
+"works": 141,
+"class": "paper90"
+},
+{
+"id": 4306525318,
+"name": "Rail Transit ConferenceAmerican Public Transportation Association",
+"works": 141,
+"class": "paper90"
+},
+{
+"id": 4306498427,
+"name": "2019 4th International Symposium on Management, Economics, E-business and Marketing",
+"works": 141,
+"class": "paper90"
+},
+{
+"id": 4306508984,
+"name": "The International Conference \"The European Integration - Realities and Perspectives\"",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4306511200,
+"name": "GEM",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4306512577,
+"name": "IASSE",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4306509102,
+"name": "Electro International, 1991",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4210222288,
+"name": "Conferences of Medical Sciences Dies Natalis Faculty of Medicine Universitas Sriwijaya",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4306512941,
+"name": "II Simpósio Nacional de Epistemologia Qualitativa e Subjetividade",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 5407045507,
+"name": "INTERNATIONAL CONFERENCE ON DIGITAL ADVANCE TOURISM MANAGEMENT AND TECHNOLOGY",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4306498830,
+"name": "2021 International Applied Computational Electromagnetics Society Symposium (ACES)",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4306532010,
+"name": "The 42nd U.S. Rock Mechanics Symposium (USRMS)",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4306551183,
+"name": "日本火山学会講演予稿集 2008",
+"works": 140,
+"class": "abstract90"
+},
+{
+"id": 4306505626,
+"name": "Cancer Chemistry",
+"works": 140,
+"class": "abstract90"
+},
+{
+"id": 4306509572,
+"name": "Envisat & ERS Symposium",
+"works": 140,
+"class": "paper90"
+},
+{
+"id": 4306511842,
+"name": "Hadron Spectroscopy and Structure",
+"works": 139,
+"class": "paper90"
+},
+{
+"id": 4306539016,
+"name": "Геология и минерально-сырьевые ресурсы Северо-Востока России. Материалы XI Всероссийской научно-практической конференции с международным участием",
+"works": 139,
+"class": "paper90"
+},
+{
+"id": 4306497810,
+"name": "2012 NGWA Ground Water Summit: Innovate and Integrate",
+"works": 139,
+"class": "abstract90"
+},
+{
+"id": 4306498691,
+"name": "2020 IEEE Problems of Automated Electrodrive. Theory and Practice (PAEP)",
+"works": 139,
+"class": "paper90"
+},
+{
+"id": 4306503280,
+"name": "Asheville Meeting",
+"works": 139,
+"class": "abstract90"
+},
+{
+"id": 4306523461,
+"name": "Proceedings of International Symposium on Extremophiles and Their Applications International Symposium on Extremophiles and Their Applications 2005",
+"works": 139,
+"class": "paper90"
+},
+{
+"id": 4306532809,
+"name": "Third ERS Symposium on Space at the service of our Environment",
+"works": 139,
+"class": "paper90"
+},
+{
+"id": 4306510207,
+"name": "evga",
+"works": 139,
+"class": "paper90"
+},
+{
+"id": 4387278949,
+"name": "Bandung Conference Series Islamic Family Law",
+"works": 138,
+"class": "paper90"
+},
+{
+"id": 4306523437,
+"name": "Proceedings of IFoU 2018: Reframing Urban Resilience Implementation: Aligning Sustainability and Resilience",
+"works": 138,
+"class": "mixed90"
+},
+{
+"id": 4306505009,
+"name": "Building sustainable rural futures: the added value of systems approaches in times of change and uncertainty. 9th European IFSA Symposium, Vienna, Austria, 4-7 July 2010.",
+"works": 138,
+"class": "paper90"
+},
+{
+"id": 4306507592,
+"name": "DBSec",
+"works": 138,
+"class": "paper90"
+},
+{
+"id": 4306499983,
+"name": "AAS/Solar Physics Division Abstracts #47",
+"works": 138,
+"class": "abstract90"
+},
+{
+"id": 4306501382,
+"name": "AlgoSyn",
+"works": 138,
+"class": "paper90"
+},
+{
+"id": 4306514509,
+"name": "ISRM International Symposium - EUROCK 2020",
+"works": 138,
+"class": "paper90"
+},
+{
+"id": 4306499967,
+"name": "AAS/High Energy Astrophysics Division #10",
+"works": 138,
+"class": "abstract90"
+},
+{
+"id": 4306514889,
+"name": "Japan Society for Occupational Health",
+"works": 137,
+"class": "abstract90"
+},
+{
+"id": 4306534028,
+"name": "Vacuum Ultraviolet Radiation Physics IV",
+"works": 137,
+"class": "paper90"
+},
+{
+"id": 4306524497,
+"name": "Program and Abstracts of Annual Meeting of the Japanese Society of Periodontology",
+"works": 137,
+"class": "abstract90"
+},
+{
+"id": 4387292475,
+"name": "Proceedings of the Conference on Research Data Infrastructure",
+"works": 136,
+"class": "paper90"
+},
+{
+"id": 4306507421,
+"name": "CULTURAL STUDIES AND ART CRITICISM: THINGS IN COMMON AND DEVELOPMENT PROSPECTS",
+"works": 136,
+"class": "paper90"
+},
+{
+"id": 4306520945,
+"name": "Nonlinear Optics: Materials, Fundamentals, and Applications. Technical Digest. Postconference Edition. TOPS Vol.46 (IEEE Cat. No.00CH37174)",
+"works": 136,
+"class": "paper90"
+},
+{
+"id": 4306498698,
+"name": "2020 International Applied Computational Electromagnetics Society Symposium (ACES)",
+"works": 136,
+"class": "paper90"
+},
+{
+"id": 4387278958,
+"name": "Bandung Conference Series Journalism",
+"works": 136,
+"class": "paper90"
+},
+{
+"id": 4306499141,
+"name": "2nd Aerospace Sciences Meeting",
+"works": 135,
+"class": "paper90"
+},
+{
+"id": 4306522137,
+"name": "pcms",
+"works": 135,
+"class": "paper90"
+},
+{
+"id": 4306532285,
+"name": "The Japan Radiation Research Society Annual Meeting Abstracts The 46th Annual Meeting of The Japan Radiation Research Society",
+"works": 135,
+"class": "abstract90"
+},
+{
+"id": 4306531330,
+"name": "Summer Meeting",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4306507463,
+"name": "CURRENT TRENDS AND FACTORS OF THE DEVELOPMENT OF PEDAGOGICAL AND PSYCHOLOGICAL SCIENCES IN UKRAINE AND EU COUNTRIES",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4306528919,
+"name": "Russian State Agrarian University-Moscow State Agricultural Academy named after K. A. Timiryazev",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4306499879,
+"name": "9th EEGS Symposium on the Application of Geophysics to Engineering and Environmental Problems",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4394708522,
+"name": "International Sustainable Energy Conference - Proceedings",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4387289283,
+"name": "All Sciences Abstracts",
+"works": 134,
+"class": "abstract90"
+},
+{
+"id": 4306529045,
+"name": "Saint Petersburg 2020",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4306531917,
+"name": "Textile Society of America Symposium Proceedings",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4306499617,
+"name": "5th Congress of Balkan Geophysical Society",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4306499987,
+"name": "AAS/Solar Physics Division Meeting #34",
+"works": 134,
+"class": "abstract90"
+},
+{
+"id": 4210229350,
+"name": "Proceedings of the annual workshop - World Mariculture Society",
+"works": 134,
+"class": "paper90"
+},
+{
+"id": 4306499988,
+"name": "AAS/Solar Physics Division Meeting #37",
+"works": 134,
+"class": "abstract90"
+},
+{
+"id": 4306523423,
+"name": "Proceedings of Entropy 2021: The Scientific Tool of the 21st Century",
+"works": 133,
+"class": "mixed90"
+},
+{
+"id": 5407047287,
+"name": "International Conference on Education Research",
+"works": 133,
+"class": "paper90"
+},
+{
+"id": 4404674245,
+"name": "Conference on Physical Modelling in Coastal Engineering and Science",
+"works": 132,
+"class": "paper90"
+},
+{
+"id": 4306530409,
+"name": "Solar Heliospheric and INterplanetary Environment (SHINE 2018)",
+"works": 132,
+"class": "abstract90"
+},
+{
+"id": 4306502564,
+"name": "AOPC 2019: Optical Sensing and Imaging Technology",
+"works": 132,
+"class": "paper90"
+},
+{
+"id": 4306530818,
+"name": "sros",
+"works": 132,
+"class": "paper90"
+},
+{
+"id": 5407055870,
+"name": "Proceeding International Conference on Digital Education and Social Science",
+"works": 132,
+"class": "paper90"
+},
+{
+"id": 4306500679,
+"name": "Actual problems of fighting crime: issues of theory and practice. Материалы XXIII международной научно-практической конференции. В 2-х частях. Часть 2",
+"works": 132,
+"class": "paper90"
+},
+{
+"id": 4306530821,
+"name": "SSII",
+"works": 132,
+"class": "abstract90"
+},
+{
+"id": 5407054199,
+"name": "Cleaning and Coating Conference",
+"works": 132,
+"class": "paper90"
+},
+{
+"id": 4306524400,
+"name": "Proceedings of XII International Symposium on Nuclei in the Cosmos — PoS(NIC XII)",
+"works": 132,
+"class": "paper90"
+},
+{
+"id": 4306499003,
+"name": "23rd EEGS Symposium on the Application of Geophysics to Engineering and Environmental Problems",
+"works": 131,
+"class": "paper90"
+},
+{
+"id": 4306520909,
+"name": "nmlt",
+"works": 131,
+"class": "paper90"
+},
+{
+"id": 4404670381,
+"name": "Magiâ INNO.",
+"works": 131,
+"class": "paper90"
+},
+{
+"id": 4306511716,
+"name": "Grouting 2017",
+"works": 131,
+"class": "paper90"
+},
+{
+"id": 4306507598,
+"name": "DC Rocks 2001, The 38th U.S. Symposium on Rock Mechanics (USRMS)",
+"works": 131,
+"class": "paper90"
+},
+{
+"id": 4220651059,
+"name": "Sbornik tezisov dokladov... Rossijskoj nacionalʹnoj konferencii po sejsmostojkomu stroitelʹstvu i sejsmičeskomu rajonirovaniû",
+"works": 131,
+"class": "paper90"
+},
+{
+"id": 4306534005,
+"name": "usra",
+"works": 131,
+"class": "paper90"
+},
+{
+"id": 4306507588,
+"name": "Davis Meeting",
+"works": 130,
+"class": "abstract90"
+},
+{
+"id": 4306501727,
+"name": "Anais do 2º CONGRESSO BRASILEIRO CIÊNCIA E SOCIEDADE",
+"works": 130,
+"class": "paper90"
+},
+{
+"id": 4306518803,
+"name": "Living Planet Symposium",
+"works": 130,
+"class": "paper90"
+},
+{
+"id": 4306530993,
+"name": "sts",
+"works": 130,
+"class": "paper90"
+},
+{
+"id": 4306498375,
+"name": "2018 International Workshop on Advances in Social Sciences",
+"works": 130,
+"class": "paper90"
+},
+{
+"id": 4306497263,
+"name": "14th EEGS Symposium on the Application of Geophysics to Engineering and Environmental Problems",
+"works": 129,
+"class": "paper90"
+},
+{
+"id": 4210181686,
+"name": "Grapholinguistics and its applications",
+"works": 129,
+"class": "paper90"
+},
+{
+"id": 4306501569,
+"name": "American Astronomical Society Meeting Abstracts #230",
+"works": 129,
+"class": "abstract90"
+},
+{
+"id": 4306523852,
+"name": "Proceedings of the 4th International Symposium on Health Research (ISHR 2019)",
+"works": 129,
+"class": "paper90"
+},
+{
+"id": 4306512665,
+"name": "ICGA",
+"works": 129,
+"class": "paper90"
+},
+{
+"id": 4306534862,
+"name": "WLP",
+"works": 128,
+"class": "paper90"
+},
+{
+"id": 5407056455,
+"name": "INTERNATIONAL SCIENTIFIC CONFERENCE - UNITECH",
+"works": 128,
+"class": "paper90"
+},
+{
+"id": 4306521870,
+"name": "Ozone in the Atmosphere",
+"works": 128,
+"class": "paper90"
+},
+{
+"id": 4306499946,
+"name": "AAS/Division for Planetary Sciences Meeting Abstracts #30",
+"works": 128,
+"class": "abstract90"
+},
+{
+"id": 5407027705,
+"name": "Proceedings of the International Topical Workshop on Fukushima Decommissioning Research",
+"works": 128,
+"class": "abstract90"
+},
+{
+"id": 4306523313,
+"name": "Proceedings, 2012 International Snow Science Workshop, Anchorage, Alaska",
+"works": 128,
+"class": "paper90"
+},
+{
+"id": 4306517483,
+"name": "Knowledge based sustainable economic development",
+"works": 127,
+"class": "mixed90"
+},
+{
+"id": 4210198214,
+"name": "Engineering Proceedings",
+"works": 127,
+"class": "paper90"
+},
+{
+"id": 4306501784,
+"name": "Anais do InovAção UNOPAR 2019",
+"works": 127,
+"class": "paper90"
+},
+{
+"id": 4306534339,
+"name": "VII. UZAKTAN ALGILAMA VE CBS SEMPOZYUMU UZAL-CBS2018",
+"works": 127,
+"class": "paper90"
+},
+{
+"id": 4306535303,
+"name": "XX. mezinárodní kolokvium o regionálních vědách. Sborník příspěvků.",
+"works": 127,
+"class": "paper90"
+},
+{
+"id": 5407047608,
+"name": "PROCEEDINGS OF THE PERFORMING SPACE 2023 CONFERENCE",
+"works": 127,
+"class": "paper90"
+},
+{
+"id": 4306525815,
+"name": "Republic of Buryatia – 95",
+"works": 126,
+"class": "paper90"
+},
+{
+"id": 4306499986,
+"name": "AAS/Solar Physics Division Meeting #31",
+"works": 126,
+"class": "abstract90"
+},
+{
+"id": 4306523362,
+"name": "Proceedings: International Symposium for Olympic Research",
+"works": 126,
+"class": "paper90"
+},
+{
+"id": 4306503596,
+"name": "Astrochemistry: Recent Successes and Current Challenges",
+"works": 125,
+"class": "paper90"
+},
+{
+"id": 4306524037,
+"name": "Proceedings of the Ecological-Socio-Economic Systems: Models of Competition and Cooperation (ESES 2019)",
+"works": 125,
+"class": "paper90"
+},
+{
+"id": 4306507212,
+"name": "CTC 2021 PROCEEDINGS BOOK",
+"works": 125,
+"class": "mixed90"
+},
+{
+"id": 4306530405,
+"name": "Solar Heliospheric and INterplanetary Environment (SHINE 2011)",
+"works": 125,
+"class": "abstract90"
+},
+{
+"id": 4306525582,
+"name": "REFSQ Workshops",
+"works": 125,
+"class": "paper90"
+},
+{
+"id": 4387290901,
+"name": "Proceeding of International Conference on Special Education in South East Asia Region",
+"works": 125,
+"class": "paper90"
+},
+{
+"id": 4306498967,
+"name": "22nd EEGS Symposium on the Application of Geophysics to Engineering and Environmental Problems",
+"works": 124,
+"class": "paper90"
+},
+{
+"id": 7407064380,
+"name": "IC-BESTS International Conference on Business Economics Technology and Social Sciences",
+"works": 124,
+"class": "paper90"
+},
+{
+"id": 4306531814,
+"name": "Temu Ilmiah Ikatan Peneliti Lingkungan Binaan Indonesia 6",
+"works": 124,
+"class": "paper90"
+},
+{
+"id": 4306499787,
+"name": "7TH INTERNATIONAL SYMPOSIUM ON CONCRETE ROADS, VIENNA, 3-5 OCTOBER 1994",
+"works": 124,
+"class": "paper90"
+},
+{
+"id": 4210174621,
+"name": "International Symposium The Environmental and The Industry",
+"works": 123,
+"class": "paper90"
+},
+{
+"id": 4306497139,
+"name": "11th Cambridge Workshop on Cool Stars, Stellar Systems and the Sun",
+"works": 123,
+"class": "paper90"
+},
+{
+"id": 4387286551,
+"name": "Proceeding of The International Conference on Business and Economics",
+"works": 123,
+"class": "paper90"
+},
+{
+"id": 4306523607,
+"name": "Proceedings of the 2000 IEEE Engineering Management Society. EMS - 2000 (Cat. No.00CH37139)",
+"works": 123,
+"class": "paper90"
+},
+{
+"id": 4306512791,
+"name": "IDIMT",
+"works": 123,
+"class": "paper90"
+},
+{
+"id": 4306534524,
+"name": "Volume 4: Manufacturing Materials and Metallurgy; Ceramics; Structures and Dynamics; Controls, Diagnostics and Instrumentation; Education; IGTI Scholar Award; General",
+"works": 123,
+"class": "paper90"
+},
+{
+"id": 4306505373,
+"name": "CAD/EDA, modeling and simulation in the modern electronics. Сборник научных трудов IV Международной научно-практической конференции",
+"works": 123,
+"class": "paper90"
+},
+{
+"id": 4306530683,
+"name": "SPE/ISRM Rock Mechanics in Petroleum Engineering",
+"works": 122,
+"class": "paper90"
+},
+{
+"id": 4306523614,
+"name": "Proceedings of the 2006 International Snow Science Workshop, Telluride, Colorado",
+"works": 122,
+"class": "paper90"
+},
+{
+"id": 4306506481,
+"name": "Coastal Structures and Solutions to Coastal Disasters 2015",
+"works": 122,
+"class": "paper90"
+},
+{
+"id": 4306524449,
+"name": "Processing and Fabrication of Advanced Materials VIII",
+"works": 122,
+"class": "paper90"
+},
+{
+"id": 4306525346,
+"name": "Rarefied Gas Dynamics",
+"works": 122,
+"class": "paper90"
+},
+{
+"id": 4306511588,
+"name": "Golden Rocks 2006, The 41st U.S. Symposium on Rock Mechanics (USRMS)",
+"works": 121,
+"class": "paper90"
+},
+{
+"id": 4220651696,
+"name": "Modern building materials, structures and techniques",
+"works": 121,
+"class": "paper90"
+},
+{
+"id": 4306508050,
+"name": "DINAME2019",
+"works": 121,
+"class": "paper90"
+},
+{
+"id": 4306513391,
+"name": "Innovaciones docentes en tiempos de pandemia.",
+"works": 121,
+"class": "paper90"
+},
+{
+"id": 4393919572,
+"name": "St. Petersburg university studies in social sciences & humanities",
+"works": 121,
+"class": "paper90"
+},
+{
+"id": 4306501824,
+"name": "Anais do Simpósio Nacional de Pesquisa do Doutorado Interinstitucional em Educação-UERJ/UEA; Ciclo Nacional de Debates Interdisciplinares CEST/UEA; Seminário EDUCA; Semana da Pedagogia; Mostra da Residência Pedagógica de Tefé e PIBID-CEST-UEA",
+"works": 121,
+"class": "paper90"
+},
+{
+"id": 4306503950,
+"name": "Back to the Sense of the City: International Monograph Book",
+"works": 121,
+"class": "paper90"
+},
+{
+"id": 4306522926,
+"name": "ppcn",
+"works": 120,
+"class": "paper90"
+},
+{
+"id": 4393920116,
+"name": "Anais do Encontro Científico de Física Aplicada",
+"works": 120,
+"class": "paper90"
+},
+{
+"id": 4306506746,
+"name": "Computing in Civil Engineering and Geographic Information Systems Symposium",
+"works": 120,
+"class": "paper90"
+},
+{
+"id": 4306532795,
+"name": "The X-ray Universe 2017",
+"works": 120,
+"class": "paper90"
+},
+{
+"id": 4306499976,
+"name": "AAS/High Energy Astrophysics Division #7",
+"works": 120,
+"class": "abstract90"
+},
+{
+"id": 4306525272,
+"name": "Radiation in the Atmosphere",
+"works": 120,
+"class": "paper90"
+},
+{
+"id": 4306520942,
+"name": "Nonlinear and Turbulent Processes in Physics",
+"works": 120,
+"class": "paper90"
+},
+{
+"id": 4306523221,
+"name": "Problems of chronology and cultural genesis of ancient sedentary societies of Eurаsia (from the neolithic period through the Early Iron Age)",
+"works": 120,
+"class": "paper90"
+},
+{
+"id": 4306514950,
+"name": "JENAM 2010, Joint European and National Astronomy Meeting",
+"works": 119,
+"class": "paper90"
+},
+{
+"id": 4306514653,
+"name": "IUI Workshops",
+"works": 119,
+"class": "paper90"
+},
+{
+"id": 4306499281,
+"name": "36th Hydrology and Water Resources Symposium: The art and science of water",
+"works": 119,
+"class": "paper90"
+},
+{
+"id": 4306530404,
+"name": "Solar Heliospheric and INterplanetary Environment (SHINE 2010)",
+"works": 119,
+"class": "abstract90"
+},
+{
+"id": 4306524185,
+"name": "Proceedings of the International Session on Factors of Regional Extensive Development (FRED 2019)",
+"works": 119,
+"class": "paper90"
+},
+{
+"id": 4306538239,
+"name": "Актуальные проблемы борьбы с преступностью: вопросы теории и практики. материалы XХIV международной научно-практической конференции. Часть 1",
+"works": 118,
+"class": "paper90"
+},
+{
+"id": 4306518900,
+"name": "Lubricants SYMPOSIUM",
+"works": 118,
+"class": "paper90"
+},
+{
+"id": 4306511816,
+"name": "H2009: 32nd Hydrology and Water Resources Symposium, Newcastle : Adapting to Change",
+"works": 118,
+"class": "paper90"
+},
+{
+"id": 4306507730,
+"name": "Depression in the Century of Mind, 4th Croatian Congress in Prevention and Rehabilitation in Psychiatry",
+"works": 118,
+"class": "paper90"
+},
+{
+"id": 4306514114,
+"name": "International Radiation Symposium",
+"works": 118,
+"class": "paper90"
+},
+{
+"id": 4306504426,
+"name": "Biophotonics: Photonic Solutions for Better Health Care VI",
+"works": 118,
+"class": "paper90"
+},
+{
+"id": 4306531454,
+"name": "Symposium on Deep Submergence Propulsion and Marine Systems",
+"works": 118,
+"class": "paper90"
+},
+{
+"id": 4306524006,
+"name": "Proceedings of the Biennial International Symposium, Forest and Sustainable Development, Braşov, Romania, 15-16th October 2010.",
+"works": 117,
+"class": "paper90"
+},
+{
+"id": 4306498244,
+"name": "2018 1st Workshop on Wide Bandgap Power Devices and Applications in Asia (WiPDA Asia)",
+"works": 117,
+"class": "paper90"
+},
+{
+"id": 4306531469,
+"name": "Symposium - Universidade Catolica de Pernambuco",
+"works": 117,
+"class": "paper90"
+},
+{
+"id": 4306501693,
+"name": "Anais da II Semana de Iniciação Científica da FAI",
+"works": 117,
+"class": "paper90"
+},
+{
+"id": 4306530403,
+"name": "Solar Heliospheric and INterplanetary Environment (SHINE 2009",
+"works": 117,
+"class": "abstract90"
+},
+{
+"id": 4306522590,
+"name": "Planetary Science Vision 2050 Workshop",
+"works": 117,
+"class": "paper90"
+},
+{
+"id": 4306507593,
+"name": "DCFS",
+"works": 116,
+"class": "paper90"
+},
+{
+"id": 4306540163,
+"name": "сборник",
+"works": 116,
+"class": "paper90"
+},
+{
+"id": 4306498092,
+"name": "2017 18th International Symposium on Electromagnetic Fields in Mechatronics, Electrical and Electronic Engineering (ISEF) Book of Abstracts",
+"works": 116,
+"class": "paper90"
+},
+{
+"id": 4306530060,
+"name": "SIROCCO",
+"works": 116,
+"class": "paper90"
+},
+{
+"id": 4306506383,
+"name": "CLEF (Online Working Notes/Labs/Workshop)",
+"works": 116,
+"class": "paper90"
+},
+{
+"id": 4306520814,
+"name": "NEW TRENDS AND UNRESOLVED ISSUES OF PREVENTIVE AND CLINICAL MEDICINE",
+"works": 116,
+"class": "paper90"
+},
+{
+"id": 4210202479,
+"name": "Bulletin of Scientific Conferences",
+"works": 116,
+"class": "paper90"
+},
+{
+"id": 4306522174,
+"name": "PEDAGOGY AND PSYCHOLOGY IN THE MODERN WORLD: THE ART OF TEACHING AND LEARNING",
+"works": 116,
+"class": "paper90"
+},
+{
+"id": 4306498518,
+"name": "2019 International Applied Computational Electromagnetics Society Symposium (ACES)",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306521576,
+"name": "Optical Sensing and Imaging Technologies and Applications",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306531332,
+"name": "sun2",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306530416,
+"name": "Solar Variability: From Core to Outer Frontiers",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 5407048280,
+"name": "Proceeding of International Conference on Education and Sharia",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306520776,
+"name": "New Century of X-ray Astronomy",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 5407027134,
+"name": "AgriVoltaics Conference Proceedings",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306513564,
+"name": "Integrated Photonics and Nanophotonics Research and Applications",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306501694,
+"name": "Anais da I Semana de Iniciação Científica da FAI: I SICFAI",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306499679,
+"name": "68th International Symposium on Molecular Spectroscopy",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306499402,
+"name": "42èmes Journées de Statistique",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306503632,
+"name": "Astrophysics of Dust",
+"works": 115,
+"class": "paper90"
+},
+{
+"id": 4306506734,
+"name": "Computer Graphics and Imaging",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 4306512516,
+"name": "Hydrology and Water Resources Symposium 2012",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 4306500680,
+"name": "Actual problems of fighting crime: issues of theory and practice. материалы XХIV международной научно-практической конференции. Часть 2",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 2765000596,
+"name": "Circuits, Signals, and Systems",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 4306507209,
+"name": "csss",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 5407053757,
+"name": "Proceeding of the International Conference on Management Entrepreneurship and Business",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 4306499331,
+"name": "3rd Annual Meeting",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 4306530410,
+"name": "Solar Heliospheric and INterplanetary Environment (SHINE 2019)",
+"works": 114,
+"class": "abstract90"
+},
+{
+"id": 5407054196,
+"name": "Harsh Environments Conference",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 4306528728,
+"name": "Rockets and Astronautics",
+"works": 114,
+"class": "paper90"
+},
+{
+"id": 4404663690,
+"name": "Anais da ... Mostra de Pesquisa em Ciência e Tecnologia.",
+"works": 113,
+"class": "paper90"
+},
+{
+"id": 4386622175,
+"name": "Educational Studies Conference Series",
+"works": 113,
+"class": "paper90"
+},
+{
+"id": 4306503998,
+"name": "Banat's University of Agronomical Sciences and Veterinary Medicine International Scientific Symposium, Timisoara, Romania, 20-21 May 2010.",
+"works": 113,
+"class": "paper90"
+},
+{
+"id": 4306514354,
+"name": "Iowa State University Summer Symposium on Science Communication",
+"works": 113,
+"class": "paper90"
+},
+{
+"id": 4306506005,
+"name": "chep",
+"works": 113,
+"class": "paper90"
+},
+{
+"id": 4306521559,
+"name": "Optical and Quantum Sensing and Precision Metrology",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306519872,
+"name": "Michael Faraday IET International Summit 2015",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306508093,
+"name": "Direct Interactions and Nuclear Reaction Mechanisms",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306508529,
+"name": "easc",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306502650,
+"name": "aprm",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306497142,
+"name": "11th EEGS Symposium on the Application of Geophysics to Engineering and Environmental Problems",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306499844,
+"name": "8th Symposium on Engineering Problems of Fusion Research",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4210178191,
+"name": "Proceedings of the Optimization Symposium",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306525443,
+"name": "Recent Developments in Theoretical and Experimental General Relativity, Gravitation, and Relativistic Field Theories",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306540344,
+"name": "Тенденции развития легкой промышленности в Республике Узбекистан: проблемы, анализ и пути решения",
+"works": 112,
+"class": "paper90"
+},
+{
+"id": 4306519846,
+"name": "Metrology, Inspection, and Process Control for Semiconductor Manufacturing XXXV",
+"works": 111,
+"class": "paper90"
+},
+{
+"id": 4306545799,
+"name": "回路とシステムワークショップ論文集 Workshop on Circuits and Systems",
+"works": 111,
+"class": "paper90"
+},
+{
+"id": 4306528504,
+"name": "rgd",
+"works": 111,
+"class": "paper90"
+},
+{
+"id": 4306521159,
+"name": "nuco",
+"works": 111,
+"class": "paper90"
+},
+{
+"id": 4306501780,
+"name": "Anais do I Congresso Virtual de Estudantes e Profissionais de Engenharia Ambiental e Sanitária",
+"works": 111,
+"class": "paper90"
+},
+{
+"id": 4306499851,
+"name": "8-й Российский семинар по волоконным лазерам : материалы семинара",
+"works": 111,
+"class": "paper90"
+},
+{
+"id": 4306532773,
+"name": "The Virtual Reality Society of Japan",
+"works": 111,
+"class": "abstract90"
+},
+{
+"id": 4306501753,
+"name": "Anais do Congresso de Medicina de Família e Comunidade do Oeste do Pará",
+"works": 111,
+"class": "paper90"
+},
+{
+"id": 4306499973,
+"name": "AAS/High Energy Astrophysics Division #16",
+"works": 111,
+"class": "abstract90"
+},
+{
+"id": 4306500640,
+"name": "Actual Archaeology 5",
+"works": 111,
+"class": "paper90"
+},
+{
+"id": 4306523610,
+"name": "Proceedings of the 2004 International Snow Science Workshop, Jackson Hole, Wyoming",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4404664077,
+"name": "Proceedings",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306499382,
+"name": "41èmes Journées de Statistique, SFdS, Bordeaux",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306522623,
+"name": "Plasma Astrophysics",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306520187,
+"name": "Monitoring 2019",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306499985,
+"name": "AAS/Solar Physics Division Meeting #28",
+"works": 110,
+"class": "abstract90"
+},
+{
+"id": 4306530407,
+"name": "Solar Heliospheric and INterplanetary Environment (SHINE 2016)",
+"works": 110,
+"class": "abstract90"
+},
+{
+"id": 4306498409,
+"name": "2019 2nd International Workshop on Advances in Social Sciences",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306531460,
+"name": "Symposium on Organometallic Chemistry, Japan",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306499982,
+"name": "AAS/Solar Physics Division Abstracts #44",
+"works": 110,
+"class": "abstract90"
+},
+{
+"id": 4306523571,
+"name": "Proceedings of the 1998 Rapid Transit ConferenceAmerican Public Transportation AssociationAmerican Public Transit Association",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306507631,
+"name": "Deep Space Gateway Concept Science Workshop",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306540214,
+"name": "Системный анализ в экономике – 2018: сборник трудов V Международной научно-практической конференции – биеннале (21–23 ноября 2018) / под общ. ред. Г.Б. Клейнера, С.Е. Щепетовой",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306514443,
+"name": "ISAE 2013. Proceedings of the International Symposium on Agriculture and Environment 2013, 28 November 2013, University of Ruhuna, Sri Lanka",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4387280349,
+"name": "Proceedings of International Conference on Real Estate Management and Valuation",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306534640,
+"name": "Water Challenge: Balancing the Risks: Hydrology and Water Resources Symposium 2002",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 7407059019,
+"name": "NCODA Oncology and Hematology Meeting Abstracts",
+"works": 110,
+"class": "abstract90"
+},
+{
+"id": 4306514144,
+"name": "International Symposium, ISB-INMA TEH' 2018, Agricultural and mechanical engineering, Bucharest, Romania, 1-3 November 2018",
+"works": 110,
+"class": "paper90"
+},
+{
+"id": 4306557385,
+"name": "自律分散システム・シンポジウム資料 = SICE Symposium on Decentralized Autonomous Systems",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306520770,
+"name": "Neutrino Physics and Astrophysics",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306512131,
+"name": "Highlights of Spanish Astrophysics VII",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306521345,
+"name": "Odgovorna organizacija / Responsible Organization",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306499901,
+"name": "9-й Международный семинар по волоконным лазерам: материалы семинара",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306503252,
+"name": "ASAE Publ.; (United States)",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306529420,
+"name": "Second IYSF Academic Symposium on Artificial Intelligence and Computer Engineering",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306540316,
+"name": "СТРАТЕГИЧЕСКИЕ ОРИЕНТИРЫ СОВРЕМЕННОГО ОБРАЗОВАНИЯ. сборник научных статей. Часть 2",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306524189,
+"name": "Proceedings of the International Symposium “Engineering and Earth Sciences: Applied and Fundamental Research” (ISEES 2018)",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306540317,
+"name": "СТРАТЕГИЧЕСКИЕ ОРИЕНТИРЫ СОВРЕМЕННОГО ОБРАЗОВАНИЯ. сборник научных статей. Часть 3",
+"works": 109,
+"class": "paper90"
+},
+{
+"id": 4306497183,
+"name": "12th EEGS Symposium on the Application of Geophysics to Engineering and Environmental Problems",
+"works": 108,
+"class": "paper90"
+},
+{
+"id": 5407052837,
+"name": "Proceedings of the International CALL Research Conference",
+"works": 108,
+"class": "paper90"
+},
+{
+"id": 4306514501,
+"name": "ISRM International Symposium - 5th Asian Rock Mechanics Symposium",
+"works": 108,
+"class": "paper90"
+},
+{
+"id": 4306533594,
+"name": "Two Years of Science with Chandra",
+"works": 108,
+"class": "paper90"
+},
+{
+"id": 4306523762,
+"name": "Proceedings of the 2nd International Symposium of Public Health",
+"works": 108,
+"class": "paper90"
+},
+{
+"id": 4306532198,
+"name": "The Geological Evolution of the Water-Rock Interaction",
+"works": 108,
+"class": "paper90"
+},
+{
+"id": 5407036457,
+"name": "SiliconPV Conference Proceedings",
+"works": 108,
+"class": "paper90"
+},
+{
+"id": 4306524184,
+"name": "Proceedings of the International Seminar of Science and Applied Technology (ISSAT 2020)",
+"works": 108,
+"class": "paper90"
+},
+{
+"id": 4306506887,
+"name": "CONGRESSO BRASILEIRO CIÊNCIA E SOCIEDADE",
+"works": 107,
+"class": "paper90"
+},
+{
+"id": 4389157562,
+"name": "Proceedings of London International Conferences",
+"works": 107,
+"class": "mixed90"
+},
+{
+"id": 4306506926,
+"name": "Connections, contacts and interactions between ancient cultures of Northern Eurasia and civilizations of the East during the Palaeometal period (IV–I mil. BC)",
+"works": 107,
+"class": "paper90"
+},
+{
+"id": 4306499821,
+"name": "8th Asian-Pacific Regional Meeting, Volume II",
+"works": 107,
+"class": "paper90"
+},
+{
+"id": 4306534532,
+"name": "Volume 5: Manufacturing Materials and Metallurgy; Ceramics; Structures and Dynamics; Controls, Diagnostics and Instrumentation; Education; IGTI Scholar Award",
+"works": 107,
+"class": "paper90"
+},
+{
+"id": 4306522075,
+"name": "Particle Physics at the Year of 150th Anniversary of the Mendeleev's Periodic Table of Chemical Elements",
+"works": 107,
+"class": "paper90"
+},
+{
+"id": 4306509742,
+"name": "ESLAB Symposium on the Exploration of Halley's Comet",
+"works": 107,
+"class": "paper90"
+},
+{
+"id": 4306497144,
+"name": "11th European IFSA Symposium, Farming Systems Facing Global Challenges: Capacities and Strategies, Proceedings, Berlin, Germany, 1-4 April 2014",
+"works": 107,
+"class": "paper90"
+},
+{
+"id": 5407015008,
+"name": "Proceedings of the International Conference on Condition Monitoring and Asset Management",
+"works": 107,
+"class": "paper90"
+},
+{
+"id": 4306497087,
+"name": "10th EEGS Symposium on the Application of Geophysics to Engineering and Environmental Problems",
+"works": 106,
+"class": "paper90"
+},
+{
+"id": 4306513422,
+"name": "inpc",
+"works": 106,
+"class": "paper90"
+},
+{
+"id": 4306512930,
+"name": "III Simpósio Estadual de Ensino Pesquisa e Extensão da FBJ: Ética, Política e Cidadania na formação profissional: contextos, desafios e possibilidades",
+"works": 106,
+"class": "paper90"
+},
+{
+"id": 4306523395,
+"name": "Proceedings of 6th International Workshop on Chiral Dynamics — PoS(CD09)",
+"works": 106,
+"class": "paper90"
+},
+{
+"id": 4306524518,
+"name": "Progress in Flight Physics",
+"works": 106,
+"class": "paper90"
+},
+{
+"id": 4306539767,
+"name": "Научные тенденции: Юриспруденция",
+"works": 106,
+"class": "paper90"
+},
+{
+"id": 4306530667,
+"name": "SPE Intelligent Energy International",
+"works": 106,
+"class": "paper90"
+},
+{
+"id": 4404674955,
+"name": "Simpósio de Pesquisa em Direito.",
+"works": 105,
+"class": "paper90"
+},
+{
+"id": 5407054756,
+"name": "Journal of Scientific Conferences",
+"works": 105,
+"class": "paper90"
+},
+{
+"id": 4306512901,
+"name": "IIA/SOCO",
+"works": 105,
+"class": "paper90"
+},
+{
+"id": 4306536374,
+"name": "التحديات الجيوفيزيائية والاجتماعية والانسانية والطبيعية في بيئة متغيرة",
+"works": 105,
+"class": "paper90"
+},
+{
+"id": 5407049881,
+"name": "The Proceedings of the ASEAN School of Business Network International Conference",
+"works": 105,
+"class": "paper90"
+},
+{
+"id": 4306530217,
+"name": "SLP",
+"works": 105,
+"class": "paper90"
+},
+{
+"id": 4306514511,
+"name": "ISRM International Symposium - EUROCK 96",
+"works": 105,
+"class": "paper90"
+},
+{
+"id": 4306510158,
+"name": "European Solar Physics Meeting",
+"works": 105,
+"class": "paper90"
+},
+{
+"id": 4306538235,
+"name": "АКТУАЛЬНЫЕ ПРОБЛЕМЫ БОРЬБЫ С ПРЕСТУПНОСТЬЮ: ВОПРОСЫ ТЕОРИИ И ПРАКТИКИ. Материалы XXIII международной научно-практической конференции: В 2 частях. 1",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4306535289,
+"name": "XXI. mezinárodní kolokvium o regionálních vědách, Kurdějov, 13. - 15. června 2018",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4306520647,
+"name": "NCMA",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4387281391,
+"name": "SUMO Conference Proceedings",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4306513163,
+"name": "Induced plant mutations in the genomics era. Proceedings of an International Joint FAO/IAEA Symposium, 2008",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4306530548,
+"name": "Soziologische Analysen: Referate aus den Veranstaltungen der Sektionen der Deutschen Gesellschaft für Soziologie und der ad-hoc-Gruppen beim 19. Deutschen Soziologentag (Berlin, 17.-20. April 1979)",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4210172710,
+"name": "Symposium on Combustion and Flame and Explosion Phenomena",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4306534032,
+"name": "Vail Rocks 1999, The 37th U.S. Symposium on Rock Mechanics (USRMS)",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4306530555,
+"name": "Spacecraft Structures, Materials and Mechanical Testing",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4306530558,
+"name": "Space Mission Operations and Ground Data Systems - SpaceOps '96",
+"works": 104,
+"class": "paper90"
+},
+{
+"id": 4306503578,
+"name": "Asteroids, Comets, and Meteors: ACM 2002",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306518827,
+"name": "LMO",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306538236,
+"name": "АКТУАЛЬНЫЕ ПРОБЛЕМЫ БОРЬБЫ С ПРЕСТУПНОСТЬЮ: ВОПРОСЫ ТЕОРИИ И ПРАКТИКИ. Материалы XXII международной научно-практической конференции: в 2 частях. Часть 1",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4220651940,
+"name": "Proceedings",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306499521,
+"name": "4th International Symposium on Innovative Approaches in Engineering and Natural Sciences Proceedings",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306524282,
+"name": "Proceedings of the National Symposium on arid legumes, for food nutrition security and promotion of trade, Hisar, India, 15-16 May 2002.",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306512936,
+"name": "IIKI",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306499637,
+"name": "5th ISRM Young Scholars' Symposium on Rock Mechanics and International Symposium on Rock Engineering for Innovative Future",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306505535,
+"name": "CAIA",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306522446,
+"name": "PHILOLOGICAL SCIENCES, INTERCULTURAL COMMUNICATION AND TRANSLATION STUDIES: THEORETICAL AND PRACTICAL ASPECTS",
+"works": 103,
+"class": "paper90"
+},
+{
+"id": 4306518949,
+"name": "Lunar Surface Science Workshop",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306503271,
+"name": "asdy",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306500848,
+"name": "Aerospace Sciences Meeting",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306538238,
+"name": "Актуальные проблемы борьбы с преступностью: вопросы теории и практики. Материалы XXI международной научно-практической конференции: в 2-х частях. Часть 2",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306499524,
+"name": "4th North American Rock Mechanics Symposium",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306523792,
+"name": "Proceedings of the 34th International Power Sources Symposium",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4404670296,
+"name": "International Marine Design Conference",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306529424,
+"name": "Second Symposium on Novel Technology of X-Ray Imaging",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306520503,
+"name": "NASA University Research Centers Technical Advances in Aeronautics, Space Sciences and Technology, Earth Systems Sciences, Global Hydrology, and Education",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306532623,
+"name": "Theory and practice of forensic science in modern conditions",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306514137,
+"name": "International Snow Science Workshop Proceedings 2018, Innsbruck, Austria",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306539778,
+"name": "Научный диалог: Вопросы медицины",
+"works": 102,
+"class": "paper90"
+},
+{
+"id": 4306500799,
+"name": "Advances in Optoelectronics and Micro/nano-optics",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4306535190,
+"name": "XMM-Newton: The Next Decade",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4306520331,
+"name": "Multichip Modules",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4306524192,
+"name": "Proceedings of the International Symposium on Okhotsk Sea & Sea Ice",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4306499355,
+"name": "3rd International Symposium on Mine Safety Science and Engineering",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4306518670,
+"name": "Life in Space for Life on Earth",
+"works": 101,
+"class": "mixed90"
+},
+{
+"id": 4306510600,
+"name": "Floriculture research trend in India. Proceedings of the national symposium on Indian floriculture in the new millennium, Lal-Bagh, Bangalore, 25-27 February, 2002.",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4393918002,
+"name": "Anais do Fórum Nacional de Atendimento Escolar Hospitalar/Anais do ... Fórum Nacional de Atendimento Escolar Hospitalar",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4306514516,
+"name": "ISRM Regional Symposium - EUROCK 2015",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4306497689,
+"name": "2008 Concrete Bridge ConferenceFederal Highway AdministrationNational Concrete Bridge CouncilMissouri Department of TransportationAmerican Concrete Institute (ACI)",
+"works": 101,
+"class": "paper90"
+},
+{
+"id": 4306523399,
+"name": "Proceedings of 7th International Fermi Symposium — PoS(IFS2017)",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306498749,
+"name": "2020 Virtual AIChE Annual Meeting",
+"works": 100,
+"class": "abstract90"
+},
+{
+"id": 4387278930,
+"name": "Bandung Conference Series Syariah Banking",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306420936,
+"name": "Sprachkommunikation",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306523170,
+"name": "Primeiro Congresso da REBRATS",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306503543,
+"name": "Aspen Meeting",
+"works": 100,
+"class": "abstract90"
+},
+{
+"id": 4306538237,
+"name": "АКТУАЛЬНЫЕ ПРОБЛЕМЫ БОРЬБЫ С ПРЕСТУПНОСТЬЮ: ВОПРОСЫ ТЕОРИИ И ПРАКТИКИ. Материалы XXII международной научно-практической конференции: в 2 частях. Часть 2",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306497237,
+"name": "13th Symposium Pesticide Chemistry, Piacenza, Italy, 3-6 September 2007.",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306533593,
+"name": "Two Topics in X-Ray Astronomy, Volume 1: X Ray Binaries.  Volume 2: AGN and the X Ray Background",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306539963,
+"name": "ПОВЫШЕНИЕ ЭФФЕКТИВНОСТИ УПРАВЛЕНИЯ УСТОЙЧИВЫМ РАЗВИТИЕМ ЛЕСОПРОМЫШЛЕННОГО КОМПЛЕКСА",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306531452,
+"name": "Symposium on Chemical Information and Computer Sciences Symposium on Structure-Activity Relationships 24th Symposium on Chemical Information and Computer Sciences",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306534533,
+"name": "Volume 5: Manufacturing Materials and Metallurgy; Ceramics; Structures and Dynamics; Controls, Diagnostics and Instrumentation; Education; IGTI Scholar Award; General",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306535194,
+"name": "X-Ray Imaging and Spectroscopy of Cosmic Hot Plasmas",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 4306499111,
+"name": "28th International Hydrology and Water Resources Symposium: About Water; Symposium Proceedings",
+"works": 100,
+"class": "paper90"
+},
+{
+"id": 5407045916,
+"name": "INTERNATIONAL CONFERENCE ON ECONOMICS BUSINESS & MANAGEMENT",
+"works": 100,
+"class": "paper90"
+}
+]
+}
