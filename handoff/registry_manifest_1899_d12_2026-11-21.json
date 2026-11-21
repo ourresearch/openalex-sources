@@ -1,0 +1,251 @@
+{
+ "built": "2026-11-21 desk apply lane (#1899, support factory)",
+ "job": 1899,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-16.py",
+ "entries": [
+  {
+   "entry": "S102700472",
+   "source_id": 102700472,
+   "tickets": [
+    4884
+   ],
+   "now": {
+    "display_name": "Financial Services Review",
+    "host": "P4310320990",
+    "homepage_url": "https://openjournals.libs.uga.edu/fsr/index",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685467
+   },
+   "host_after": "P4404685467",
+   "why": "Academy of Financial Services: Crossref member 39864 deposits its DOIs; journal site openjournals.libs.uga.edu/fsr names it",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S102700472"
+  },
+  {
+   "entry": "S4404662150",
+   "source_id": 4404662150,
+   "tickets": [
+    5366
+   ],
+   "now": {
+    "display_name": "Computing and artificial intelligence.",
+    "host": null,
+    "homepage_url": "https://ojs.acad-pub.com/index.php/CAI",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685468
+   },
+   "host_after": "P4404685468",
+   "why": "Academic Publishing Pte. Ltd.: Crossref member 38742 deposits its DOIs (ISSN 3029-2786)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S4404662150"
+  },
+  {
+   "entry": "S4404668935",
+   "source_id": 4404668935,
+   "tickets": [
+    5366
+   ],
+   "now": {
+    "display_name": "Forum for education studies.",
+    "host": null,
+    "homepage_url": "https://ojs.acad-pub.com/index.php/FES",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685468
+   },
+   "host_after": "P4404685468",
+   "why": "Academic Publishing Pte. Ltd.: Crossref member 38742 deposits its DOIs (ISSN 3029-2956)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S4404668935"
+  },
+  {
+   "entry": "S2753831433",
+   "source_id": 2753831433,
+   "tickets": [
+    23748
+   ],
+   "now": {
+    "display_name": "Surgery",
+    "host": "P4361727471",
+    "homepage_url": "https://bgss.eu/index.php/surgery",
+    "country_code": "BG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685469
+   },
+   "host_after": "P4404685469",
+   "why": "Bulgarian Surgical Society: Crossref member 57335 deposits its DOIs (ISSN 0450-2167)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S2753831433"
+  },
+  {
+   "entry": "S4210226426",
+   "source_id": 4210226426,
+   "tickets": [
+    26822,
+    26823
+   ],
+   "now": {
+    "display_name": "Future Cities and Environment",
+    "host": "P4310320511",
+    "homepage_url": "https://futurecitiesandenvironment.com",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685470
+   },
+   "host_after": "P4404685470",
+   "why": "Cerebration Science Publishing Co., Limited: Crossref member 51771 deposits its DOIs (ISSN 2363-9075)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S4210226426"
+  },
+  {
+   "entry": "S4210189181",
+   "source_id": 4210189181,
+   "tickets": [
+    26822,
+    26823
+   ],
+   "now": {
+    "display_name": "Journal of Climate Change",
+    "host": "P4310318577",
+    "homepage_url": "https://www.cspub-jcc.org",
+    "country_code": "HK",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685470
+   },
+   "host_after": "P4404685470",
+   "why": "Cerebration Science Publishing Co., Limited: Crossref member 51771 deposits its DOIs (ISSN 2395-7611)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S4210189181"
+  },
+  {
+   "entry": "S4390296568",
+   "source_id": 4390296568,
+   "tickets": [
+    24311
+   ],
+   "now": {
+    "display_name": "advances.in/psychology",
+    "host": null,
+    "homepage_url": "https://advances.in/psychology/",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685471
+   },
+   "host_after": "P4404685471",
+   "why": "Advances.in Ltd.: Crossref member 35526 deposits its DOIs (ISSN 2976-937X)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S4390296568"
+  },
+  {
+   "entry": "S2764502452",
+   "source_id": 2764502452,
+   "tickets": [
+    4813
+   ],
+   "now": {
+    "display_name": "The European Research Journal",
+    "host": "P4310318383",
+    "homepage_url": "https://www.eurj.org.tr/",
+    "country_code": "TR",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685472
+   },
+   "host_after": "P4404685472",
+   "why": "Nicaea Medical Publishing Limited Company: Crossref member 7865 deposits its DOIs (ISSN 2149-3189)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S2764502452"
+  },
+  {
+   "entry": "S4210209114",
+   "source_id": 4210209114,
+   "tickets": [
+    5632
+   ],
+   "now": {
+    "display_name": "Environmental Research and Technology",
+    "host": "P4310318380",
+    "homepage_url": "https://ertjournal.org/index.php/pub/index",
+    "country_code": "TR",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685473
+   },
+   "host_after": "P4404685473",
+   "why": "Echo Academic Publishing: Crossref member 20462 deposits its DOIs (ISSN 2636-8498)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S4210209114"
+  },
+  {
+   "entry": "S2739373051",
+   "source_id": 2739373051,
+   "tickets": [
+    4448
+   ],
+   "now": {
+    "display_name": "Challenges in Sustainability",
+    "host": "P4310317796",
+    "homepage_url": "https://www.acadlore.com/journals/cis",
+    "country_code": "HK",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685435
+   },
+   "host_after": "P4404685435",
+   "why": "Acadlore Publishing Services Limited (P4404685435, minted 19 Nov): Crossref member 35910 deposits its DOIs (ISSN 2297-6477)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S2739373051"
+  },
+  {
+   "entry": "S5407027522",
+   "source_id": 5407027522,
+   "tickets": [
+    26673
+   ],
+   "now": {
+    "display_name": "Transactions on Engineering and Computing Sciences",
+    "host": null,
+    "homepage_url": "https://scholarpublishing.org/journals/index.php/TECS",
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4365924618
+   },
+   "host_after": "P4365924618",
+   "why": "Scholar Publishing (P4365924618, renamed today from its legal name Services for Science and Education; hosts the other 7 journals on prefix 10.14738): Crossref member 5756 deposits its DOIs (ISSN 2756-2638)",
+   "evidence": "Crossref members API + journal works by ISSN, 21 Nov (desk)",
+   "check": "https://api.openalex.org/sources/S5407027522"
+  }
+ ]
+}
