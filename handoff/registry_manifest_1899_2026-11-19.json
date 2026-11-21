@@ -1,0 +1,2384 @@
+{
+ "built": "2026-11-19 off-desk lane 1899-1119-1042 (17 Nov manifest, re-checked live 19 Nov: 43 unchanged + 1 done, plus S4387284326 publisher and new entries)",
+ "job": 1899,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-16.py",
+ "entries": [
+  {
+   "entry": "S4306527699",
+   "source_id": 4306527699,
+   "tickets": [
+    26698
+   ],
+   "now": {
+    "display_name": "Revista Médico Científica",
+    "host": null,
+    "homepage_url": "http://www.revistamedicocientifica.org",
+    "country_code": "PA",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://revistas.up.ac.pa/index.php/revistamedicocientifica"
+   },
+   "why": "homepage moved to the University of Panama OJS",
+   "evidence": "200, title 'Revista médico científica' (17 Nov)",
+   "check": "https://api.openalex.org/sources/S4306527699"
+  },
+  {
+   "entry": "S4210172128",
+   "source_id": 4210172128,
+   "tickets": [
+    26744,
+    26745
+   ],
+   "now": {
+    "display_name": "Jurnal Ners dan Kebidanan (Journal of Ners and Midwifery)",
+    "host": "I4405275388",
+    "homepage_url": "http://jnk.phb.ac.id/index.php/jnk/index",
+    "country_code": "ID",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://ojs.phb.ac.id/index.php/jnk"
+   },
+   "why": "journal site migrated",
+   "evidence": "200, title 'Jurnal Ners dan Kebidanan (Journal of Ners and Midwifery)'",
+   "check": "https://api.openalex.org/sources/S4210172128"
+  },
+  {
+   "entry": "S2764726520",
+   "source_id": 2764726520,
+   "tickets": [
+    26751,
+    26752
+   ],
+   "now": {
+    "display_name": "Medical Gas Research",
+    "host": "P4310320448",
+    "homepage_url": "http://www.medicalgasresearch.com/",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://www.medgasres.com"
+   },
+   "why": "editor's current homepage",
+   "evidence": "200, redirects to ovid.com/jnls/mgar 'Medical Gas Research'",
+   "check": "https://api.openalex.org/sources/S2764726520"
+  },
+  {
+   "entry": "S116843975",
+   "source_id": 116843975,
+   "tickets": [
+    26983
+   ],
+   "now": {
+    "display_name": "Journal of Emerging Technologies in Accounting",
+    "host": "P4310316290",
+    "homepage_url": "https://sanad.iau.ir/journal/jeta",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://publications.aaahq.org/jeta"
+   },
+   "why": "homepage pointed at an unrelated Iranian JETA; AAA Director of Publications gave publications.aaahq.org/jeta",
+   "evidence": "403 from the container (Silverchair bot wall); aaahq.org JETA page 200; publisher's own domain",
+   "check": "https://api.openalex.org/sources/S116843975"
+  },
+  {
+   "entry": "S186143862",
+   "source_id": 186143862,
+   "tickets": [
+    27194
+   ],
+   "now": {
+    "display_name": "Baltica",
+    "host": null,
+    "homepage_url": "http://ei.libis.lt/pradinis.php?url=http://www.geo.lt/Baltica/baltica.htm",
+    "country_code": "LT",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://baltica.gamtc.lt/en"
+   },
+   "why": "old ei.libis.lt URL dead",
+   "evidence": "200, title 'Baltica'",
+   "check": "https://api.openalex.org/sources/S186143862"
+  },
+  {
+   "entry": "S5407040253",
+   "source_id": 5407040253,
+   "tickets": [
+    26758
+   ],
+   "now": {
+    "display_name": "Research and Reviews in Sustainability",
+    "host": null,
+    "homepage_url": "https://jaima.uoanbar.edu.iq/index.php/rrs",
+    "country_code": "IQ",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://caravelpress.com/journals/rrs"
+   },
+   "why": "homepage pointed at jaima.uoanbar.edu.iq (another institution) or was empty",
+   "evidence": "caravelpress.com/journals/rrs 200 with the journal's title",
+   "check": "https://api.openalex.org/sources/S5407040253"
+  },
+  {
+   "entry": "S7407056311",
+   "source_id": 7407056311,
+   "tickets": [
+    26758
+   ],
+   "now": {
+    "display_name": "Green Technology & Innovation",
+    "host": null,
+    "homepage_url": "https://jaima.uoanbar.edu.iq/index.php/gti",
+    "country_code": "IQ",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://caravelpress.com/journals/gti"
+   },
+   "why": "homepage pointed at jaima.uoanbar.edu.iq (another institution) or was empty",
+   "evidence": "caravelpress.com/journals/gti 200 with the journal's title",
+   "check": "https://api.openalex.org/sources/S7407056311"
+  },
+  {
+   "entry": "S5407047342",
+   "source_id": 5407047342,
+   "tickets": [
+    26758
+   ],
+   "now": {
+    "display_name": "Global Decarbonisation",
+    "host": null,
+    "homepage_url": "https://jaima.uoanbar.edu.iq/index.php/gd",
+    "country_code": "IQ",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://caravelpress.com/journals/gd"
+   },
+   "why": "homepage pointed at jaima.uoanbar.edu.iq (another institution) or was empty",
+   "evidence": "caravelpress.com/journals/gd 200 with the journal's title",
+   "check": "https://api.openalex.org/sources/S5407047342"
+  },
+  {
+   "entry": "S5407050330",
+   "source_id": 5407050330,
+   "tickets": [
+    26758
+   ],
+   "now": {
+    "display_name": "Energy Catalyst",
+    "host": null,
+    "homepage_url": "https://jaima.uoanbar.edu.iq/index.php/ec",
+    "country_code": "IQ",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://caravelpress.com/journals/ec"
+   },
+   "why": "homepage pointed at jaima.uoanbar.edu.iq (another institution) or was empty",
+   "evidence": "caravelpress.com/journals/ec 200 with the journal's title",
+   "check": "https://api.openalex.org/sources/S5407050330"
+  },
+  {
+   "entry": "S7407056312",
+   "source_id": 7407056312,
+   "tickets": [
+    26758
+   ],
+   "now": {
+    "display_name": "Artificial Intelligence for Sustainable Cities",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://caravelpress.com/journals/aifsc"
+   },
+   "why": "homepage pointed at jaima.uoanbar.edu.iq (another institution) or was empty",
+   "evidence": "caravelpress.com/journals/aifsc 200 with the journal's title",
+   "check": "https://api.openalex.org/sources/S7407056312"
+  },
+  {
+   "entry": "S7407058095",
+   "source_id": 7407058095,
+   "tickets": [
+    26806
+   ],
+   "now": {
+    "display_name": "Australian Journal of Artificial Intelligence Review",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://aaireview.org/index.php/aair",
+    "country_code": "AU",
+    "display_name": "The Australian Journal of Artificial Intelligence Review"
+   },
+   "why": "title as on the journal site and ISSN record; homepage; country",
+   "evidence": "aaireview.org 200, title 'The Australian Journal of Artificial Intelligence Review'",
+   "check": "https://api.openalex.org/sources/S7407058095",
+   "alt_add": [
+    "Australian Journal of Artificial Intelligence Review"
+   ]
+  },
+  {
+   "entry": "S4210189181",
+   "source_id": 4210189181,
+   "tickets": [
+    26822,
+    26823
+   ],
+   "now": {
+    "display_name": "Journal of Climate Change",
+    "host": "P4310318577",
+    "homepage_url": null,
+    "country_code": "IN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://www.cspub-jcc.org",
+    "country_code": "HK"
+   },
+   "why": "transferred to Cerebration Science Publishing (Hong Kong) in 2024; Crossref member 51771 deposits its 2026 DOIs",
+   "evidence": "cspub-jcc.org 200; Crossref 10.70917/jcc-2026-032 publisher Cerebration Science Publishing Co., Limited",
+   "check": "https://api.openalex.org/sources/S4210189181"
+  },
+  {
+   "entry": "S7407089466",
+   "source_id": 7407089466,
+   "tickets": [
+    26675
+   ],
+   "now": {
+    "display_name": "Revista Latinoamericana de Estudios de la Escritura",
+    "host": "P4310316763",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://wacclearinghouse.org/rlee/"
+   },
+   "why": "homepage empty",
+   "evidence": "200, title 'Revista Latinoamericana de Estudios de la Escritura - WAC'",
+   "check": "https://api.openalex.org/sources/S7407089466"
+  },
+  {
+   "entry": "S4210175023",
+   "source_id": 4210175023,
+   "tickets": [
+    27052
+   ],
+   "now": {
+    "display_name": "Anthropologica",
+    "host": "P4310320517",
+    "homepage_url": "http://www.utpjournals.press/loi/anth",
+    "country_code": "CA",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://cas-sca.journals.uvic.ca/index.php/anthropologica",
+    "publisher_id": 4310313033
+   },
+   "why": "moved from University of Toronto Press to UVic; Crossref member 8280 University of Victoria Libraries registers its 2026 DOIs (10.18357); UVic entity as for CJPE (ZD 9061)",
+   "evidence": "UVic OJS 200 title 'Anthropologica'; Crossref 10.18357/anthropologica68120262820",
+   "check": "https://api.openalex.org/sources/S4210175023",
+   "host_after": "P4310313033"
+  },
+  {
+   "entry": "S5407055641",
+   "source_id": 5407055641,
+   "tickets": [
+    27079
+   ],
+   "now": {
+    "display_name": "Geodynamica",
+    "host": "P4310320339",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://escholarship.org/uc/geodynamica"
+   },
+   "why": "homepage empty (the requester's evidence URL)",
+   "evidence": "eScholarship journal page (202 bot wall from the container)",
+   "check": "https://api.openalex.org/sources/S5407055641"
+  },
+  {
+   "entry": "S7407089767",
+   "source_id": 7407089767,
+   "tickets": [
+    27158
+   ],
+   "now": {
+    "display_name": "Staféta",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://stafeta.partium.ro/index.php/stafeta/en/index"
+   },
+   "why": "homepage empty",
+   "evidence": "200 (with cookies), title 'Staféta', CC BY 4.0",
+   "check": "https://api.openalex.org/sources/S7407089767"
+  },
+  {
+   "entry": "S4306513027",
+   "source_id": 4306513027,
+   "tickets": [
+    27192
+   ],
+   "now": {
+    "display_name": "Il sogno della farfalla",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://ilsognodellafarfalla.it/SdF/",
+    "country_code": "IT"
+   },
+   "why": "ISSN, homepage, country missing",
+   "evidence": "site 200 'Il sogno della farfalla'; doi.org/10.14663/sdf.v33i4.926 resolves to it",
+   "check": "https://api.openalex.org/sources/S4306513027",
+   "issn_add": [
+    "1121-0664"
+   ]
+  },
+  {
+   "entry": "S4306522465",
+   "source_id": 4306522465,
+   "tickets": [
+    27205
+   ],
+   "now": {
+    "display_name": "Photo interprétation",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://journaleska.com/index.php/pi",
+    "publisher_id": 4310311240
+   },
+   "why": "editor's notes (KyLLM reply 10 Nov promised these): print ISSN 0031-8523, publisher Éditions Eska",
+   "evidence": "journaleska.com/index.php/pi 200 'Photo Interprétation'; Editions ESKA P4310311240 exists",
+   "check": "https://api.openalex.org/sources/S4306522465",
+   "host_after": "P4310311240",
+   "issn_add": [
+    "0031-8523"
+   ]
+  },
+  {
+   "entry": "S4210193443",
+   "source_id": 4210193443,
+   "tickets": [
+    27267
+   ],
+   "now": {
+    "display_name": "philoSOPHIA",
+    "host": "P4310315898",
+    "homepage_url": "http://www.springer.com/philosophy/journal/11406",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://sunypress.edu/Journals/philoSOPHIA",
+    "publisher_id": 4310320225
+   },
+   "why": "homepage pointed at Springer's unrelated Philosophia; SUNY Press is the publisher (child of SUNY P4310315898)",
+   "evidence": "sunypress.edu/Journals/philoSOPHIA 200 'philoSOPHIA'",
+   "check": "https://api.openalex.org/sources/S4210193443",
+   "host_after": "P4310320225"
+  },
+  {
+   "entry": "S4404675289",
+   "source_id": 4404675289,
+   "tickets": [
+    27371
+   ],
+   "now": {
+    "display_name": "Interdisciplinary journal of didactics",
+    "host": "P4310322230",
+    "homepage_url": "https://revistes.ua.es/ijd",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310321247
+   },
+   "why": "requester names University of Alicante P4310321247 (ROR 05t8bcz72)",
+   "evidence": "P4310322230 (an institute of the university) has no parent",
+   "check": "https://api.openalex.org/sources/S4404675289",
+   "host_after": "P4310321247"
+  },
+  {
+   "entry": "S4306531806",
+   "source_id": 4306531806,
+   "tickets": [
+    27549
+   ],
+   "now": {
+    "display_name": "Tempo exterior",
+    "host": null,
+    "homepage_url": "https://pub.igadi.gal/tempoexterior/gl",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://pub.igadi.gal/tempoexterior/es"
+   },
+   "why": "requester's homepage (Spanish interface)",
+   "evidence": "200 (with cookies), title 'Tempo Exterior'",
+   "check": "https://api.openalex.org/sources/S4306531806"
+  },
+  {
+   "entry": "S5407051371",
+   "source_id": 5407051371,
+   "tickets": [
+    27016
+   ],
+   "now": {
+    "display_name": "Journal of Science & Engineering",
+    "host": null,
+    "homepage_url": "https://j.snerds.org/index.php/jse",
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "institution_id": 4210139330
+   },
+   "why": "published by Freehold Regional High School District (editor); the district is in ROR (03bhwa869), Kyle's rule 4",
+   "evidence": "I4210139330 Freehold Regional High School District",
+   "check": "https://api.openalex.org/sources/S5407051371",
+   "host_after": "I4210139330"
+  },
+  {
+   "entry": "S4210236435",
+   "source_id": 4210236435,
+   "tickets": [
+    4854
+   ],
+   "now": {
+    "display_name": "Image Journal of Advanced Materials and Technologies",
+    "host": "I195795380",
+    "homepage_url": null,
+    "country_code": "RU",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "display_name": "Journal of Advanced Materials and Technologies"
+   },
+   "why": "Crossref title for 2782-2192/2782-2206; 'Image ...' was a parsing artifact",
+   "evidence": "api.crossref.org/journals/2782-2192 title 'Journal of Advanced Materials and Technologies'",
+   "check": "https://api.openalex.org/sources/S4210236435",
+   "alt_add": [
+    "Advanced Materials & Technologies"
+   ]
+  },
+  {
+   "entry": "S4210231393",
+   "source_id": 4210231393,
+   "tickets": [
+    5070
+   ],
+   "now": {
+    "display_name": "Bezpieczeństwo i Technika Pożarnicza",
+    "host": "I4210145160",
+    "homepage_url": "https://sft.cnbop.pl/en",
+    "country_code": "PL",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "display_name": "Safety & Fire Technology"
+   },
+   "why": "current title",
+   "evidence": "sft.cnbop.pl/en title 'SFT CNBOP - Safety & Fire Technology'",
+   "check": "https://api.openalex.org/sources/S4210231393",
+   "alt_add": [
+    "Bezpieczeństwo i Technika Pożarnicza"
+   ]
+  },
+  {
+   "entry": "S4210191046",
+   "source_id": 4210191046,
+   "tickets": [
+    5415
+   ],
+   "now": {
+    "display_name": "Revista Academiei Forţelor Terestre",
+    "host": "P4310320322",
+    "homepage_url": null,
+    "country_code": "RO",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "display_name": "Land Forces Academy Review"
+   },
+   "why": "English title on Sciendo and in Crossref; new ISSNs from Sciendo's A&I team",
+   "evidence": "api.crossref.org/journals/2247-840X title 'Land Forces Academy Review'; portal.issn.org blocked from the container: desk, open portal.issn.org/resource/ISSN/3100-5071 before --execute",
+   "check": "https://api.openalex.org/sources/S4210191046",
+   "alt_add": [
+    "Revista Academiei Forţelor Terestre"
+   ],
+   "issn_add": [
+    "3100-5063",
+    "3100-5071"
+   ]
+  },
+  {
+   "entry": "S4363607694",
+   "source_id": 4363607694,
+   "tickets": [
+    22900
+   ],
+   "now": {
+    "display_name": "Research Data Repository, Duke University",
+    "host": null,
+    "homepage_url": "https://archive.data.jhu.edu/",
+    "country_code": null,
+    "type": "repository",
+    "is_oa": false
+   },
+   "set": {
+    "display_name": "Johns Hopkins Research Data Repository",
+    "institution_id": 145311948
+   },
+   "why": "archive.data.jhu.edu is JHU's data repository, not Duke's (JHU Data Management Specialist)",
+   "evidence": "homepage already archive.data.jhu.edu (403 bot wall from the container)",
+   "check": "https://api.openalex.org/sources/S4363607694",
+   "host_after": "I145311948"
+  },
+  {
+   "entry": "S4306401632",
+   "source_id": 4306401632,
+   "tickets": [
+    26874
+   ],
+   "now": {
+    "display_name": "USC Research Bank (University of the Sunshine Coast)",
+    "host": "I174025329",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "repository",
+    "is_oa": false
+   },
+   "set": {
+    "display_name": "UniSC Research Bank (University of the Sunshine Coast)"
+   },
+   "why": "university renamed its acronym USC -> UniSC",
+   "evidence": "institution I174025329 homepage unisc.edu.au",
+   "check": "https://api.openalex.org/sources/S4306401632",
+   "alt_add": [
+    "USC Research Bank (University of the Sunshine Coast)"
+   ]
+  },
+  {
+   "entry": "S2739231050",
+   "source_id": 2739231050,
+   "tickets": [
+    4160
+   ],
+   "now": {
+    "display_name": "Cultura Lenguaje y Representación",
+    "host": "P4310321179",
+    "homepage_url": "http://www.e-revistes.uji.es/index.php/clr",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 10902133
+   },
+   "why": "journal director: published by Universitat Jaume I (ROR 02ws1xc11), not 'Carlos V'",
+   "evidence": "homepage e-revistes.uji.es",
+   "check": "https://api.openalex.org/sources/S2739231050",
+   "host_after": "I10902133"
+  },
+  {
+   "entry": "S4210204615",
+   "source_id": 4210204615,
+   "tickets": [
+    4756
+   ],
+   "now": {
+    "display_name": "CEUR Workshop Proceedings",
+    "host": "P4310312761",
+    "homepage_url": "http://ceur-ws.org/",
+    "country_code": "DE",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4210134436
+   },
+   "why": "never Samara; the ISSN register (DNB, copied on ceur-ws.org 13 Apr 2026) names CEUR-WS Team c/o Gesellschaft für Informatik (GI) from 2026, RWTH Aachen before",
+   "evidence": "ceur-ws.org/issn-1613-0073.html; I4210134436 German Informatics Society",
+   "check": "https://api.openalex.org/sources/S4210204615",
+   "host_after": "I4210134436"
+  },
+  {
+   "entry": "S4210232051",
+   "source_id": 4210232051,
+   "tickets": [
+    1939,
+    1940
+   ],
+   "now": {
+    "display_name": "International Journal of Educational Methodology",
+    "host": "P4310315601",
+    "homepage_url": "http://www.ijem.com/",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://www.ijem.com/",
+    "country_code": "GB"
+   },
+   "why": "RHAPSODE (London) publishes IJEM; https homepage",
+   "evidence": "www.ijem.com 200 'International Journal of Educational Methodology'; ISSN portal country GB (triage)",
+   "check": "https://api.openalex.org/sources/S4210232051"
+  },
+  {
+   "entry": "S4387284869",
+   "source_id": 4387284869,
+   "tickets": [
+    2906
+   ],
+   "now": {
+    "display_name": "Yemen Journal of Medicine",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://yemenjmed.com/"
+   },
+   "why": "homepage empty",
+   "evidence": "200 'Yemen Journal of Medicine'",
+   "check": "https://api.openalex.org/sources/S4387284869"
+  },
+  {
+   "entry": "S2739373051",
+   "source_id": 2739373051,
+   "tickets": [
+    4448
+   ],
+   "now": {
+    "display_name": "Challenges in Sustainability",
+    "host": "P4310317796",
+    "homepage_url": "http://www.librelloph.com/challengesinsustainability",
+    "country_code": "CH",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://www.acadlore.com/journals/cis",
+    "country_code": "HK"
+   },
+   "why": "Acadlore (Hong Kong) publishes Challenges in Sustainability now",
+   "evidence": "200 'ACADlore - CIS'",
+   "check": "https://api.openalex.org/sources/S2739373051"
+  },
+  {
+   "entry": "S4210189740",
+   "source_id": 4210189740,
+   "tickets": [
+    4505
+   ],
+   "now": {
+    "display_name": "Ehquidad Revista Internacional de Políticas de Bienestar y Trabajo Social",
+    "host": "P4310321212",
+    "homepage_url": "https://revistas.proeditio.com/ehquidad/",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://revista.ehquidad.org/es/"
+   },
+   "why": "journal's own site",
+   "evidence": "200 'EHQUIDAD. Revista Internacional de Políticas de Bienestar y Trabajo Social'",
+   "check": "https://api.openalex.org/sources/S4210189740"
+  },
+  {
+   "entry": "S4210190514",
+   "source_id": 4210190514,
+   "tickets": [
+    4781
+   ],
+   "now": {
+    "display_name": "Revista Latina de Comunicación Social",
+    "host": "P4310321416",
+    "homepage_url": "http://www.ull.es/publicaciones/latina/",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://nuevaepoca.revistalatinacs.org/index.php/revista/index"
+   },
+   "why": "old ull.es page 404s",
+   "evidence": "200 (OJS)",
+   "check": "https://api.openalex.org/sources/S4210190514"
+  },
+  {
+   "entry": "S2764502452",
+   "source_id": 2764502452,
+   "tickets": [
+    4813
+   ],
+   "now": {
+    "display_name": "The European Research Journal",
+    "host": "P4310318383",
+    "homepage_url": "http://dergipark.ulakbim.gov.tr/eurj",
+    "country_code": "TR",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://www.eurj.org.tr/"
+   },
+   "why": "moved off DergiPark",
+   "evidence": "200 'The European Research Journal'",
+   "check": "https://api.openalex.org/sources/S2764502452"
+  },
+  {
+   "entry": "S102700472",
+   "source_id": 102700472,
+   "tickets": [
+    4884
+   ],
+   "now": {
+    "display_name": "Financial Services Review",
+    "host": "P4310320990",
+    "homepage_url": "https://academyfinancial.org/Journal",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://openjournals.libs.uga.edu/fsr/index"
+   },
+   "why": "old homepage 404s; journal on UGA Libraries' OJS",
+   "evidence": "200 'Financial Services Review'",
+   "check": "https://api.openalex.org/sources/S102700472"
+  },
+  {
+   "entry": "S4210209114",
+   "source_id": 4210209114,
+   "tickets": [
+    5632
+   ],
+   "now": {
+    "display_name": "Environmental Research and Technology",
+    "host": "P4310318380",
+    "homepage_url": "http://dergipark.gov.tr/ert",
+    "country_code": "TR",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://ertjournal.org/index.php/pub/index"
+   },
+   "why": "moved off DergiPark",
+   "evidence": "200 'Environmental Research and Technology'",
+   "check": "https://api.openalex.org/sources/S4210209114"
+  },
+  {
+   "entry": "S1021851039",
+   "source_id": 1021851039,
+   "tickets": [
+    5778,
+    4225
+   ],
+   "now": {
+    "display_name": "Psicologica",
+    "host": "P4310321408",
+    "homepage_url": "http://www.uv.es/psicologica",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "homepage_url": "https://psicologicajournal.com/"
+   },
+   "why": "journal's new site",
+   "evidence": "200 'Home - Psicológica'",
+   "check": "https://api.openalex.org/sources/S1021851039"
+  },
+  {
+   "entry": "S4210213006",
+   "source_id": 4210213006,
+   "tickets": [
+    5781
+   ],
+   "now": {
+    "display_name": "Fénix/Fénix",
+    "host": null,
+    "homepage_url": "https://revistafenix.bnp.gob.pe/index.php/fenix",
+    "country_code": "PE",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "display_name": "Fénix. Revista de la Biblioteca Nacional del Perú"
+   },
+   "why": "doubled name 'Fénix/Fénix'; title as the National Library of Peru asks and its site shows",
+   "evidence": "revistafenix.bnp.gob.pe header 'FÉNIX Revista de la Biblioteca Nacional del Perú'",
+   "check": "https://api.openalex.org/sources/S4210213006",
+   "alt_add": [
+    "Fénix"
+   ]
+  },
+  {
+   "entry": "S4404661862",
+   "source_id": 4404661862,
+   "tickets": [
+    6245
+   ],
+   "now": {
+    "display_name": "Ciencia y reflexión :",
+    "host": null,
+    "homepage_url": "https://cienciayreflexion.org/index.php/Revista/issue/archive",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "display_name": "Ciencia y Reflexión",
+    "homepage_url": "https://cienciayreflexion.org/index.php/Revista"
+   },
+   "why": "name carried the ISSN cataloguing colon; homepage pointed at the archive page",
+   "evidence": "site 200 title 'Ciencia y Reflexión'",
+   "check": "https://api.openalex.org/sources/S4404661862",
+   "alt_add": [
+    "Revista Ciencia y Reflexión"
+   ]
+  },
+  {
+   "entry": "S4387284326",
+   "source_id": 4387284326,
+   "tickets": [
+    7876
+   ],
+   "now": {
+    "display_name": "Circular Economy",
+    "host": null,
+    "homepage_url": "https://circulareconomyjournal.org/ojs/JoCE",
+    "country_code": "DE",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "display_name": "Journal of Circular Economy",
+    "publisher_id": 4404680211
+   },
+   "why": "masthead and Crossref title; publisher DSRPT GbR P4404680211 (minted by #2385 18 Nov under D12: Crossref member 34750 DSRPT GbR)",
+   "evidence": "triage: masthead and Crossref say 'Journal of Circular Economy'",
+   "check": "https://api.openalex.org/sources/S4387284326",
+   "alt_add": [
+    "Circular Economy"
+   ],
+   "host_after": "P4404680211"
+  },
+  {
+   "entry": "S4210222429",
+   "source_id": 4210222429,
+   "tickets": [
+    8269
+   ],
+   "now": {
+    "display_name": "BenchCouncil Transactions on Benchmarks Standards and Evaluations",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/benchcouncil-transactions-on-benchmarks-standards-and-evaluations",
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://journal.benchcouncil.org/TBench/"
+   },
+   "why": "moved from Elsevier/KeAi to BenchCouncil Press (2025-12)",
+   "evidence": "200 'BenchCouncil Transactions on Benchmarks, Standards and Evaluations'",
+   "check": "https://api.openalex.org/sources/S4210222429"
+  },
+  {
+   "entry": "S4404662150",
+   "source_id": 4404662150,
+   "tickets": [
+    5366
+   ],
+   "now": {
+    "display_name": "Computing and artificial intelligence.",
+    "host": "P4310314086",
+    "homepage_url": "https://ojs.acad-pub.com/index.php/CAI",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "host_after": null,
+   "why": "matched to Septentrio Academic Publishing (UiT, Norway) by name similarity; these Singapore journals (ojs.acad-pub.com) were never Septentrio's; their publisher Academic Publishing Pte. Ltd. has no entity (D12), so the wrong host is removed",
+   "evidence": "homepage ojs.acad-pub.com, country SG",
+   "check": "https://api.openalex.org/sources/S4404662150"
+  },
+  {
+   "entry": "S4404668935",
+   "source_id": 4404668935,
+   "tickets": [
+    5366
+   ],
+   "now": {
+    "display_name": "Forum for education studies.",
+    "host": "P4310314086",
+    "homepage_url": "https://ojs.acad-pub.com/index.php/FES",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "host_after": null,
+   "why": "matched to Septentrio Academic Publishing (UiT, Norway) by name similarity; these Singapore journals (ojs.acad-pub.com) were never Septentrio's; their publisher Academic Publishing Pte. Ltd. has no entity (D12), so the wrong host is removed",
+   "evidence": "homepage ojs.acad-pub.com, country SG",
+   "check": "https://api.openalex.org/sources/S4404668935"
+  },
+  {
+   "entry": "S4210225727",
+   "source_id": 4210225727,
+   "tickets": [
+    27908
+   ],
+   "now": {
+    "display_name": "Journal of Applied Life Sciences and Environment",
+    "host": null,
+    "homepage_url": null,
+    "country_code": "RO",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "institution_id": 4210104996
+   },
+   "why": "host = the university that publishes ALSE (requester, editor-in-chief; Crossref member 26329 University of Life Sciences in Iasi registers its DOIs)",
+   "evidence": "I4210104996 \"Ion Ionescu de la Brad\" Iasi University of Life Sciences, ROR 01s1a1r54",
+   "check": "https://api.openalex.org/sources/S4210225727",
+   "host_after": "I4210104996"
+  },
+  {
+   "entry": "S2764650929",
+   "source_id": 2764650929,
+   "tickets": [
+    27763
+   ],
+   "now": {
+    "display_name": "Journal of Health Informatics",
+    "host": null,
+    "homepage_url": "http://www.jhi-sbis.saude.ws",
+    "country_code": "BR",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "institution_id": 4405266410,
+    "homepage_url": "https://jhi.sbis.org.br/"
+   },
+   "why": "host = SBIS, which publishes JHI and registers its DOIs (Crossref member 39148 Sociedade Brasileira de Informática em Saúde); old homepage jhi-sbis.saude.ws dead",
+   "evidence": "I4405266410 SBIS ROR 02rh7tg22; https://jhi.sbis.org.br/ 200 title \"Journal of Health Informatics\" (19 Nov)",
+   "check": "https://api.openalex.org/sources/S2764650929",
+   "host_after": "I4405266410"
+  },
+  {
+   "entry": "S4210235929",
+   "source_id": 4210235929,
+   "tickets": [
+    22896
+   ],
+   "now": {
+    "display_name": "Critical Studies in Teaching and Learning",
+    "host": "P4310315335",
+    "homepage_url": "https://cristal.org.za",
+    "country_code": "ZA",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310315356
+   },
+   "why": "host = Academy of Science of South Africa: hosts CriSTaL on Khulisa Journals (requester) and registers its DOIs (Crossref member 6689); University of the Western Cape is wrong",
+   "evidence": "P4310315356 Academy of Science of South Africa; Crossref 2310-7103 member 6689 ASSAf (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4210235929",
+   "host_after": "P4310315356"
+  },
+  {
+   "entry": "S7407059543",
+   "source_id": 7407059543,
+   "tickets": [
+    27758
+   ],
+   "now": {
+    "display_name": "Journal of Digital Health and Advanced Biomaterials",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://journal.jdhab.org/index.php/jhab",
+    "country_code": "BR"
+   },
+   "why": "homepage + country from the journal (Scientexa Editora Ltda., Maringá, BR; Crossref member 57212 location Brazil)",
+   "evidence": "https://journal.jdhab.org/index.php/jhab 200 title \"Journal of Digital Health and Advanced Biomaterials\" (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407059543"
+  },
+  {
+   "entry": "S2739234119",
+   "source_id": 2739234119,
+   "tickets": [
+    27355
+   ],
+   "now": {
+    "display_name": "International Journal of Agricultural Research Innovation and Technology",
+    "host": "P4310319541",
+    "homepage_url": "https://ijarit.online/index.php/journal",
+    "country_code": "BD",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "display_name": "International Journal of Agricultural Research, Innovation and Technology"
+   },
+   "why": "official title has a comma (ISSN portal 2224-0616, DOAJ, journal site)",
+   "evidence": "requester; journal site ijarit.online",
+   "check": "https://api.openalex.org/sources/S2739234119",
+   "alt_add": [
+    "International Journal of Agricultural Research Innovation and Technology"
+   ]
+  },
+  {
+   "entry": "S4394736638",
+   "source_id": 4394736638,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Journal of the American Statistical Association",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320547
+   },
+   "why": "JASA has no publisher; Taylor & Francis publishes it for the ASA and registers its DOIs (Crossref member 301 Informa UK)",
+   "evidence": "Crossref 0162-1459 member 301 Informa UK Limited (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4394736638",
+   "host_after": "P4310320547"
+  },
+  {
+   "entry": "S5407042868",
+   "source_id": 5407042868,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Applied Sciences",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-9261 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s42452-025-06497-1 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042868",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4387288106",
+   "source_id": 4387288106,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Nano",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 2731-9229 member 297 Springer Science and Business Media LLC, e.g. 10.1186/s11671-025-04410-8 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4387288106",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407036663",
+   "source_id": 5407036663,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Computing",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 2948-2992 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s10791-026-09994-y (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407036663",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042889",
+   "source_id": 5407042889,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Public Health",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-0774 member 297 Springer Science and Business Media LLC, e.g. 10.1186/s12982-025-00425-9 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042889",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407036627",
+   "source_id": 5407036627,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Civil Engineering",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 2948-1546 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44290-025-00373-y (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407036627",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042860",
+   "source_id": 5407042860,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Medicine",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-8885 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44337-024-00003-z (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042860",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042847",
+   "source_id": 5407042847,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Cities",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-8311 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44327-025-00159-y (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042847",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407036633",
+   "source_id": 5407036633,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Electronics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 2948-1600 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44291-026-00243-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407036633",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407036629",
+   "source_id": 5407036629,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Oceans",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 2948-1562 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44289-026-00132-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407036629",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042865",
+   "source_id": 5407042865,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Animals",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-894X member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44338-024-00001-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042865",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407047667",
+   "source_id": 5407047667,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Concrete and Cement",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-2674 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44416-026-00075-3 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407047667",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042861",
+   "source_id": 5407042861,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Toxicology",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-8893 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44339-025-00030-0 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042861",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042862",
+   "source_id": 5407042862,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Biotechnology",
+    "host": null,
+    "homepage_url": null,
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-8907 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44340-025-00020-3 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042862",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407047666",
+   "source_id": 5407047666,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Forests",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-2666 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44415-025-00065-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407047666",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042876",
+   "source_id": 5407042876,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Conservation",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-9784 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44353-025-00060-0 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042876",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042914",
+   "source_id": 5407042914,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Sensors",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-1851 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44397-026-00071-z (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042914",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042912",
+   "source_id": 5407042912,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Pharmaceutical Sciences",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-1835 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44395-025-00002-8 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042912",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407047677",
+   "source_id": 5407047677,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Robotics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-3204 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44430-026-00017-5 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407047677",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042869",
+   "source_id": 5407042869,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Molecules",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-9350 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44345-024-00006-4 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042869",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042911",
+   "source_id": 5407042911,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Neuroscience",
+    "host": null,
+    "homepage_url": null,
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-1827 member 297 Springer Science and Business Media LLC, e.g. 10.1186/s13064-026-00293-2 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042911",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407053093",
+   "source_id": 5407053093,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Hazards",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-4936 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44475-025-00002-3 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407053093",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042877",
+   "source_id": 5407042877,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Networks",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-9792 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44354-025-00007-w (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042877",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407055520",
+   "source_id": 7407055520,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Green Chemistry",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3091-4019 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44509-026-00012-4 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407055520",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407042913",
+   "source_id": 5407042913,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Ecology",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-1843 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44396-025-00016-7 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407042913",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407052033",
+   "source_id": 5407052033,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Vehicles",
+    "host": null,
+    "homepage_url": null,
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-4480 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44465-026-00024-1 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407052033",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407047693",
+   "source_id": 5407047693,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Quantum Science",
+    "host": null,
+    "homepage_url": null,
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-4529 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44464-026-00016-w (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407047693",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407047668",
+   "source_id": 5407047668,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Endocrinology and Metabolism",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-2682 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44417-026-00016-5 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407047668",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407025771",
+   "source_id": 5407025771,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Epidemics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 2731-4545 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44203-024-00004-5 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407025771",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407056096",
+   "source_id": 7407056096,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Industrial Chemistry and Materials",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3091-3861 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44508-026-00027-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407056096",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407047669",
+   "source_id": 5407047669,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Physics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-2690 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44418-026-00010-2 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407047669",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407059026",
+   "source_id": 7407059026,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Metals",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3091-3462 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s13404-026-00372-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407059026",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407047675",
+   "source_id": 5407047675,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Fluid Mechanics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-3158 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44369-026-00014-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407047675",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407058843",
+   "source_id": 7407058843,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Informatics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-1754 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44564-026-00019-w (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407058843",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407057397",
+   "source_id": 7407057397,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Surfaces",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3091-3853 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44507-026-00011-9 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407057397",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407053846",
+   "source_id": 7407053846,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Aging",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3091-4469 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44518-026-00010-5 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407053846",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S5407047680",
+   "source_id": 5407047680,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Developmental Biology",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-3247 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s00427-026-00730-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S5407047680",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407063462",
+   "source_id": 7407063462,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Condensed Matter",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3120-4910 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44570-026-00002-3 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407063462",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407063446",
+   "source_id": 7407063446,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Pediatrics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3120-4929 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44571-026-00009-1 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407063446",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407082343",
+   "source_id": 7407082343,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Telecommunications",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3120-5941 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44595-026-00005-5 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407082343",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407064676",
+   "source_id": 7407064676,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Composites",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3120-5321 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44578-026-00001-2 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407064676",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407089563",
+   "source_id": 7407089563,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Computer Vision",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3120-5631 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44584-026-00006-9 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407089563",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407121739",
+   "source_id": 7407121739,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Earth Observation",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3120-4937 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44572-026-00006-9 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407121739",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407089634",
+   "source_id": 7407089634,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Applied Mathematics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3120-564X member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44585-026-00003-3 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407089634",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407121736",
+   "source_id": 7407121736,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Respiratory Health",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-3190 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44429-026-00003-w (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407121736",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407056249",
+   "source_id": 7407056249,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Genetics and Evolution",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3091-3217 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s00294-026-01339-y (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407056249",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S7407122379",
+   "source_id": 7407122379,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Optics and Photonics",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: no publisher; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3120-5305 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44576-026-00001-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S7407122379",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404533546",
+   "source_id": 4404533546,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Plants.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44372",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-1207 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44372-025-00212-5 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404533546",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404676319",
+   "source_id": 4404676319,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Soil.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44378",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-1223 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44378-025-00131-7 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404676319",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404669874",
+   "source_id": 4404669874,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Electrochemistry.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44373",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-1215 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44373-025-00089-9 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404669874",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404670392",
+   "source_id": 4404670392,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Polymers.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44347",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-9377 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44347-026-00064-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404670392",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404677052",
+   "source_id": 4404677052,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Catalysis.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44344",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-9520 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44344-026-00051-w (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404677052",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404676811",
+   "source_id": 4404676811,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Bacteria.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44351",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-9768 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44351-024-00006-2 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404676811",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404675676",
+   "source_id": 4404675676,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Viruses.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44370",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-0960 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44370-026-00051-2 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404675676",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404669141",
+   "source_id": 4404669141,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "Discover Minerals.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44346",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "Springer Nature \"Discover\" journal: wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3004-9369 member 297 Springer Science and Business Media LLC, e.g. 10.1007/s44346-025-00011-6 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404669141",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404673862",
+   "source_id": 4404673862,
+   "tickets": [],
+   "now": {
+    "display_name": "Food, Nutrition and Health.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44403",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "found with ZD 1986: Springer journal wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3059-2658 member 297, e.g. 10.1007/s44403-026-00080-1 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404673862",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4404676885",
+   "source_id": 4404676885,
+   "tickets": [],
+   "now": {
+    "display_name": "Vicinagearth.",
+    "host": "P4310317082",
+    "homepage_url": "http://link.springer.com/journal/44336",
+    "country_code": "SG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319900
+   },
+   "why": "found with ZD 1986: Springer journal wrongly on Academy of Medicine, Singapore; Springer registers its DOIs (Crossref member 297)",
+   "evidence": "Crossref 3005-060X member 297, e.g. 10.1007/s44336-025-00027-8 (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4404676885",
+   "host_after": "P4310319900"
+  },
+  {
+   "entry": "S4306542128",
+   "source_id": 4306542128,
+   "tickets": [
+    1986
+   ],
+   "now": {
+    "display_name": "中国科学通报：英文版",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320990,
+    "display_name": "Science Bulletin"
+   },
+   "why": "ISSN 2095-9273 is Science Bulletin (renamed from Chinese Science Bulletin in 2015); the record has its Chinese ISSN key title and no publisher; Elsevier co-publishes it with Science China Press and registers its DOIs (Crossref member 78)",
+   "evidence": "Crossref 2095-9273 member 78 Elsevier BV (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4306542128",
+   "host_after": "P4310320990",
+   "alt_add": [
+    "中国科学通报：英文版"
+   ]
+  }
+ ]
+}
