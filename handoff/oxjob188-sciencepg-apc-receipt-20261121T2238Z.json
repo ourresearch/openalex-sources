@@ -1,0 +1,4473 @@
+{
+ "run_at": "2026-11-21T22:38:05.809366+00:00",
+ "execute": true,
+ "filled": [
+  {
+   "id": 2764765233,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2765013471,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764477354,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2765032820,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764521145,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764997759,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764739410,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764541676,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2765018237,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210170540,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764724366,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210196877,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764580412,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210190255,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764959962,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764913631,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2765059650,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764608139,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764497336,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764584474,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764633882,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764394148,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210188922,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764720108,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210172378,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764760021,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210184943,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764710832,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764910338,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764651290,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764944778,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764929687,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764966495,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210203824,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764730747,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764975923,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210204544,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210229914,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2765012913,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210196721,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764545255,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764763772,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2765021674,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210207208,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764787255,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210239760,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764620840,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764365032,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210186732,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210220575,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210205509,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764902500,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210180380,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210215441,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2765065537,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764897100,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210194161,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210183509,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764445038,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764729963,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210189349,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210189504,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764401008,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210175147,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210184240,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210196527,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210219781,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210177254,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210195440,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210220645,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210169893,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210183177,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210199267,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210214906,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210179125,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210202448,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210181938,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210190562,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210200291,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210220101,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210188275,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210196377,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210229190,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210210494,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210236255,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210233096,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210190032,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210206130,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210231141,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210191770,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210202106,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210211972,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210197428,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210187390,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210197699,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210170955,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210187980,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210174695,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210182697,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210183586,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210190091,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210231171,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210197215,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210185220,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210197570,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210233317,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210193310,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210181692,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210195315,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210211252,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210167832,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210221331,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210232081,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210170576,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210195162,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210203615,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210238777,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210167651,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210219039,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210169306,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210239851,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210222357,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210168689,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210173715,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210170960,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210215936,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210205168,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210237206,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210192341,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210169519,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210176301,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210179637,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210182888,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210208697,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210220676,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210225081,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210204110,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210216012,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210177201,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210223983,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210184793,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210226162,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210186588,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210221460,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210175355,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210206297,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210212112,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210220644,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210216496,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210216768,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210195403,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2736724886,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210226462,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210194789,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210207542,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210174603,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210209363,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210171009,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210208006,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210228653,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210228996,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210236654,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210223751,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210188589,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210216566,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210216655,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210231170,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210234902,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210194427,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210228819,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210234061,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210183639,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210204160,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210207771,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210198431,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210201318,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210169176,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210170684,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210173847,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210178983,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210212158,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210179494,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210186800,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210192856,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210204319,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210210282,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210223190,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210177052,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210179631,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210213255,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210206648,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210171667,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210221081,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210179568,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210208402,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210229758,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210177995,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210180895,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210197481,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210210945,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210230165,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210199083,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210187317,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210191698,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210213988,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210204114,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210218324,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210182289,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210188871,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210199333,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210201356,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210228319,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210207623,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210238250,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210234624,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210213987,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210228285,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210172399,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210179532,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210194741,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210196719,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210239381,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210214104,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210174244,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210181598,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210184920,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210237718,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210174480,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210178374,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210181539,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210237784,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210174270,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210178853,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210208645,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210169041,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210226463,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210236673,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210177101,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210171965,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210171554,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210184155,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210207256,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210203346,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210239212,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210236095,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210210822,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 2764778204,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210191906,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210196029,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210198866,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210220576,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210218156,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210227582,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210211999,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210188898,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210198937,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210200629,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210200987,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210216505,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210240292,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210198093,
+   "ticket": "",
+   "fee": 1070,
+   "prices": [
+    {
+     "price": 1070,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210203806,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210236589,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210173667,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4210193252,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  },
+  {
+   "id": 4404670124,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708360,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708372,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708365,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708368,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708358,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708371,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708369,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708373,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4404663982,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708363,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708366,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708356,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 5407056472,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708362,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708355,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708367,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 5407056473,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 5407054930,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708370,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708357,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708359,
+   "ticket": "",
+   "fee": 970,
+   "prices": [
+    {
+     "price": 970,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708364,
+   "ticket": "",
+   "fee": 870,
+   "prices": [
+    {
+     "price": 870,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4394708361,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407057827,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407058237,
+   "ticket": "",
+   "fee": 570,
+   "prices": [
+    {
+     "price": 570,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 4404674561,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407053595,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 5407054929,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407058236,
+   "ticket": "",
+   "fee": 570,
+   "prices": [
+    {
+     "price": 570,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407063365,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 5407056474,
+   "ticket": "",
+   "fee": 570,
+   "prices": [
+    {
+     "price": 570,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407053596,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407057435,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 5407054931,
+   "ticket": "",
+   "fee": 770,
+   "prices": [
+    {
+     "price": 770,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407057434,
+   "ticket": "",
+   "fee": 570,
+   "prices": [
+    {
+     "price": 570,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407057436,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407057828,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407063067,
+   "ticket": "",
+   "fee": 570,
+   "prices": [
+    {
+     "price": 570,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407055961,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407057451,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407058801,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407058802,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407063068,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407059701,
+   "ticket": "",
+   "fee": 570,
+   "prices": [
+    {
+     "price": 570,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407063069,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407058314,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407058318,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407063066,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407063364,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407058319,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407063595,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407065108,
+   "ticket": "",
+   "fee": 670,
+   "prices": [
+    {
+     "price": 670,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  },
+  {
+   "id": 7407122251,
+   "ticket": "",
+   "fee": 570,
+   "prices": [
+    {
+     "price": 570,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://www.sciencepublishinggroup.com/information/article-processing-charges",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  }
+ ],
+ "skipped": []
+}

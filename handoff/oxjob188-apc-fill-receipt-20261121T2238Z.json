@@ -1,0 +1,27 @@
+{
+ "run_at": "2026-11-21T22:38:04.386636+00:00",
+ "execute": true,
+ "filled": [
+  {
+   "id": 7407122396,
+   "ticket": "26817",
+   "fee": 221,
+   "prices": [
+    {
+     "price": 200,
+     "currency": "EUR"
+    }
+   ],
+   "page": "https://lyrascience.org/ljbhs",
+   "apc_usd_before": null,
+   "apc_prices_before": null
+  }
+ ],
+ "skipped": [],
+ "homepage_filled": [
+  {
+   "id": 7407122396,
+   "homepage_url": "https://lyrascience.org/ljbhs"
+  }
+ ]
+}
