@@ -1,0 +1,45 @@
+{
+ "run_at": "2026-11-21T22:01:39.392116+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 1225,
+ "tickets": [
+  7482
+ ],
+ "approved_by": "support factory #2254 (Jason 2026-11-15 yes; standing authority, reversible registry edit)",
+ "before": {
+  "source": {
+   "id": 4210176169,
+   "display_name": "Journal of Remote Sensing and Gis",
+   "issns": [
+    "2008-5966",
+    "2588-6185"
+   ],
+   "publisher_id": 4327876842,
+   "institution_id": null,
+   "homepage_url": null,
+   "type": "journal"
+  }
+ },
+ "actions": [
+  "S4210176169 publisher_id 4327876842 -> 4310319054",
+  "S4210176169 homepage_url -> https://gisj.sbu.ac.ir/",
+  "COMMITTED"
+ ],
+ "after": {
+  "source": {
+   "id": 4210176169,
+   "display_name": "Journal of Remote Sensing and Gis",
+   "issns": [
+    "2008-5966",
+    "2588-6185"
+   ],
+   "publisher_id": 4310319054,
+   "institution_id": null,
+   "homepage_url": "https://gisj.sbu.ac.ir/",
+   "type": "journal"
+  }
+ },
+ "publisher_changed": true,
+ "homepage_changed": true
+}
