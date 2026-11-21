@@ -52,6 +52,7 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | `issn_to_issnl` | Reload the ISSN→ISSN-L table from issn.org (atomic TRUNCATE + COPY), then run `reconcile_issn_l --apply` (repoint only, 500-change guard). |
 | `reconcile_issn_l` | Set `sources.issn_l` to the ISSN IC's ISSN-L wherever the source owns it (oxjob #2154: 5,402 sources disagreed on 2026-11-11). Adds a missing ISSN-L only for ids in `--adopt-ids`; leaves two-family sources and ISSN-Ls another source owns alone. Receipt + `--revert`. |
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
+| `fill_country_from_host` | Fill a NULL `country_code` from the source's host (publisher, else institution) when >= 3 of the host's other titles carry a country and all carry the same one (oxjobs #2208, #2513), so a journal that gets a host also gets its country. Holds: DOAJ journals, `data/host_country_holds.csv`, a publisher record or institution naming another country, China via a publisher host, works' authors >= 80% from one other country (OpenAlex API). Writes NULLs only, guarded on the host; prints a RECEIPT line; `--revert <receipt.json>`. |
 | `apply_oa_flags` | Recompute `is_oa_high_oa_rate` (mapping tables + `ojs_beacon_mint`), `is_fully_open_in_jstage`, and `is_ojs` from `ojs_beacon_issn`. |
 | `apply_source_curations` | Copy journals' OA corrections from users-api's central curations table (entity `sources`: `is_oa`, `oa_flip_year`; oxjob #1224) into `source_oa_override`, latest per source and field, then re-derive those sources' flags. Correct a journal's OA flag by POSTing a curation, never by editing `source_oa_override` (Jason, 14 Nov 2026: one corrections table). Needs `USERS_API_KEY`: a site curator's key (curation-bot), never an admin one. |
 | `load_ojs_beacon` | **By hand**, yearly when PKP publishes a new Beacon edition (Harvard Dataverse doi:10.7910/DVN/OCZNVY). Full-replace `ojs_beacon_issn` from `data/ojs_beacon/`, then recompute `is_ojs`. |
@@ -129,6 +130,7 @@ Bearer `ADVANCED_SCHEDULER_API_TOKEN`) — no dashboard clicking. Current schedu
 | Mon 05:45 | `doaj --mint` |
 | Mon 05:55 | `apply_oa_flags` |
 | daily 02:00 | `apply_source_curations` (20:00 CT, so a curation posted by then rides that night's End 2 End) |
+| daily 02:10 | `fill_country_from_host` (20:10 CT: a host bound during the day brings its country before the night) |
 | daily 06:00 | `crossref_journals && sync_crossref_journals` |
 | daily 06:30 | `resolve_conflicts` |
 
