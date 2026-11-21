@@ -1,0 +1,370 @@
+{
+ "run_at": "2026-11-21T22:09:11.075045+00:00",
+ "execute": true,
+ "job": 954,
+ "ticket": 22329,
+ "template": {
+  "pmh_url": "https://avesis.uludag.edu.tr/api/oai2",
+  "pmh_set": null,
+  "metadata_prefix": "oai_dc",
+  "green_scrape": "True",
+  "is_journal_host": "False",
+  "in_walden": "True",
+  "ready_to_run": "True",
+  "status": "active",
+  "source_id": "7407055210"
+ },
+ "minted": [
+  {
+   "source_id": 7407153835,
+   "name": "Police Academy - AVESIS",
+   "institution_id": 181033969,
+   "slug": "pa",
+   "repositoryName": "AVESIS - Polis Akademisi",
+   "feed_records": 2579
+  },
+  {
+   "source_id": 7407153836,
+   "name": "Abdullah Gül University - AVESIS",
+   "institution_id": 95293974,
+   "slug": "agu",
+   "repositoryName": "AVESIS - Abdullah Gül Üniversitesi",
+   "feed_records": 6492
+  },
+  {
+   "source_id": 7407153837,
+   "name": "Hakkari University - AVESIS",
+   "institution_id": 160534799,
+   "slug": "hakkari",
+   "repositoryName": "AVESIS - Hakkari Üniversitesi",
+   "feed_records": 7598
+  },
+  {
+   "source_id": 7407153838,
+   "name": "TED University - AVESIS",
+   "institution_id": 4210115299,
+   "slug": "tedu",
+   "repositoryName": "AVESIS - TED Üniversitesi",
+   "feed_records": 8931
+  },
+  {
+   "source_id": 7407153839,
+   "name": "Istanbul Kent University - AVESIS",
+   "institution_id": 4210109286,
+   "slug": "kent",
+   "repositoryName": "AVESIS - İstanbul Kent Üniversitesi",
+   "feed_records": 9182
+  },
+  {
+   "source_id": 7407153840,
+   "name": "Istanbul Kültür University - AVESIS",
+   "institution_id": 197185219,
+   "slug": "iku",
+   "repositoryName": "AVESIS - İstanbul Kültür Üniversitesi",
+   "feed_records": 14753
+  },
+  {
+   "source_id": 7407153841,
+   "name": "Istanbul Commerce University - AVESIS",
+   "institution_id": 53210213,
+   "slug": "ticaret",
+   "repositoryName": "AVESIS - İstanbul Ticaret University",
+   "feed_records": 16870
+  },
+  {
+   "source_id": 7407153842,
+   "name": "Maltepe University - AVESIS",
+   "institution_id": 44457188,
+   "slug": "maltepe",
+   "repositoryName": "AVESIS - Maltepe Üniversitesi",
+   "feed_records": 17203
+  },
+  {
+   "source_id": 7407153843,
+   "name": "Lokman Hekim Üniversitesi - AVESIS",
+   "institution_id": 4210139404,
+   "slug": "lokmanhekim",
+   "repositoryName": "AVESIS - Lokman Hekim Üniversitesi",
+   "feed_records": 18488
+  },
+  {
+   "source_id": 7407153844,
+   "name": "Kırklareli University - AVESIS",
+   "institution_id": 264262938,
+   "slug": "klu",
+   "repositoryName": "AVESIS - Kırklareli Üniversitesi",
+   "feed_records": 21097
+  },
+  {
+   "source_id": 7407153845,
+   "name": "Kutahya Saglik Bilimleri Universitesi - AVESIS",
+   "institution_id": 4387156457,
+   "slug": "ksbu",
+   "repositoryName": "AVESIS - Kütahya Sağlık Bilimleri Üniversitesi",
+   "feed_records": 21259
+  },
+  {
+   "source_id": 7407153846,
+   "name": "Isparta University of Applied Sciences - AVESIS",
+   "institution_id": 4210118295,
+   "slug": "isparta",
+   "repositoryName": "AVESIS - Isparta Uygulamalı Bilimler Üniversitesi",
+   "feed_records": 24421
+  },
+  {
+   "source_id": 7407153847,
+   "name": "İstanbul Gelişim Üniversitesi - AVESIS",
+   "institution_id": 4210091267,
+   "slug": "gelisim",
+   "repositoryName": "AVESIS - İstanbul Gelişim Üniversitesi",
+   "feed_records": 25730
+  },
+  {
+   "source_id": 7407153848,
+   "name": "Bilecik Şeyh Edebali Üniversitesi - AVESIS",
+   "institution_id": 169255954,
+   "slug": "bilecik",
+   "repositoryName": "AVESIS - Bilecik Şeyh Edebali Üniversitesi",
+   "feed_records": 26792
+  },
+  {
+   "source_id": 7407153849,
+   "name": "Usak University - AVESIS",
+   "institution_id": 204585392,
+   "slug": "usak",
+   "repositoryName": "AVESIS - Uşak Üniversitesi",
+   "feed_records": 28587
+  }
+ ],
+ "endpoints": [
+  {
+   "endpoint_id": "9hhgteay66st7s71bf0o",
+   "pmh_url": "https://avesis.pa.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153835,
+   "slug": "pa"
+  },
+  {
+   "endpoint_id": "1rczbm2b2qpe734qsi5p",
+   "pmh_url": "https://avesis.agu.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153836,
+   "slug": "agu"
+  },
+  {
+   "endpoint_id": "0xf3mdm7iya5coagd9kw",
+   "pmh_url": "https://avesis.hakkari.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153837,
+   "slug": "hakkari"
+  },
+  {
+   "endpoint_id": "uypfezclovt35u5d1lej",
+   "pmh_url": "https://avesis.tedu.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153838,
+   "slug": "tedu"
+  },
+  {
+   "endpoint_id": "wa3xhumzzecs23sc6saf",
+   "pmh_url": "https://avesis.kent.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153839,
+   "slug": "kent"
+  },
+  {
+   "endpoint_id": "yecdfc9x20cgolsr74sf",
+   "pmh_url": "https://avesis.iku.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153840,
+   "slug": "iku"
+  },
+  {
+   "endpoint_id": "jzzrqu2kquyd1rskt0zz",
+   "pmh_url": "https://avesis.ticaret.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153841,
+   "slug": "ticaret"
+  },
+  {
+   "endpoint_id": "yk0nfihy0h8uqykgpf3m",
+   "pmh_url": "https://avesis.maltepe.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153842,
+   "slug": "maltepe"
+  },
+  {
+   "endpoint_id": "kiee85fvdy9q5yzl4vpe",
+   "pmh_url": "https://avesis.lokmanhekim.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153843,
+   "slug": "lokmanhekim"
+  },
+  {
+   "endpoint_id": "d6ho8bido0jxiw6itqsm",
+   "pmh_url": "https://avesis.klu.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153844,
+   "slug": "klu"
+  },
+  {
+   "endpoint_id": "qpq682rrfp7cwb47idbc",
+   "pmh_url": "https://avesis.ksbu.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153845,
+   "slug": "ksbu"
+  },
+  {
+   "endpoint_id": "588sp5rlmb05dq0zyile",
+   "pmh_url": "https://avesis.isparta.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153846,
+   "slug": "isparta"
+  },
+  {
+   "endpoint_id": "umqurdav9hv9pbc5fb23",
+   "pmh_url": "https://avesis.gelisim.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153847,
+   "slug": "gelisim"
+  },
+  {
+   "endpoint_id": "5bvm5qty945osy03t1vr",
+   "pmh_url": "https://avesis.bilecik.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153848,
+   "slug": "bilecik"
+  },
+  {
+   "endpoint_id": "zwceekt6ok140ii4zik1",
+   "pmh_url": "https://avesis.usak.edu.tr/api/oai2",
+   "pmh_set": null,
+   "source_id": 7407153849,
+   "slug": "usak"
+  }
+ ],
+ "host_set": [
+  {
+   "source_id": 7407055159,
+   "before": {
+    "institution_id": null,
+    "country_code": null
+   },
+   "after": {
+    "institution_id": 64134780,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055213,
+   "before": {
+    "institution_id": null,
+    "country_code": null
+   },
+   "after": {
+    "institution_id": 4210150808,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055198,
+   "before": {
+    "institution_id": null,
+    "country_code": null
+   },
+   "after": {
+    "institution_id": 115953327,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055139,
+   "before": {
+    "institution_id": null,
+    "country_code": null
+   },
+   "after": {
+    "institution_id": 87673952,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055142,
+   "before": {
+    "institution_id": null,
+    "country_code": null
+   },
+   "after": {
+    "institution_id": 94294566,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055337,
+   "before": {
+    "institution_id": null,
+    "country_code": "TR"
+   },
+   "after": {
+    "institution_id": 4387154747,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055291,
+   "before": {
+    "institution_id": null,
+    "country_code": "TR"
+   },
+   "after": {
+    "institution_id": 51826884,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055210,
+   "before": {
+    "institution_id": null,
+    "country_code": null
+   },
+   "after": {
+    "institution_id": 131835042,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055138,
+   "before": {
+    "institution_id": null,
+    "country_code": null
+   },
+   "after": {
+    "institution_id": 311431067,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055331,
+   "before": {
+    "institution_id": null,
+    "country_code": "TR"
+   },
+   "after": {
+    "institution_id": 4101805,
+    "country_code": "TR"
+   }
+  },
+  {
+   "source_id": 7407055328,
+   "before": {
+    "institution_id": null,
+    "country_code": "TR"
+   },
+   "after": {
+    "institution_id": 118567650,
+    "country_code": "TR"
+   }
+  }
+ ],
+ "skipped": []
+}
