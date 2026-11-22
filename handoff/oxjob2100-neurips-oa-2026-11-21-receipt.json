@@ -1,0 +1,30 @@
+{
+ "run_at": "2026-11-22T01:37:28.535159+00:00",
+ "dry_run": false,
+ "curations": 974,
+ "sources": 1,
+ "changes": [
+  {
+   "source_id": 4363606243,
+   "override_before": null,
+   "override_after": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "note": "users-api curations: cur-daL8HMPXcCC7"
+   },
+   "flags_before": {
+    "is_oa": false,
+    "is_oa_high_oa_rate": false,
+    "high_oa_rate_start_year": null
+   },
+   "flags_after": {
+    "is_oa": true,
+    "is_oa_high_oa_rate": true,
+    "high_oa_rate_start_year": null
+   }
+  }
+ ],
+ "skipped": [],
+ "flag_rows": 1,
+ "is_oa_recomputed": 1
+}
