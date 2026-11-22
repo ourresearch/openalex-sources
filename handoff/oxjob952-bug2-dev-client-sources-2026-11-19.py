@@ -56,7 +56,7 @@ from sources_lib import refresh_issns_column, resolve_issn_l  # noqa: E402
 
 EXECUTE = "--execute" in sys.argv
 JOB = 952
-APPROVED = "support factory #2254 (Jason 2026-11-15 yes); #952 eBiltegia precedent (DataCite client source into its OAI source)"
+APPROVED = "support factory #2254 (standing authority); #952 eBiltegia precedent (DataCite client source into its OAI source)"
 
 # loser -> (expected name, expected datacite client, winner, expected winner name prefix, winner feed id, homepage)
 MERGES = [

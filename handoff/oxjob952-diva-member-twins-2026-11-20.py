@@ -42,7 +42,7 @@ from sources_lib import refresh_issns_column, resolve_issn_l  # noqa: E402
 
 EXECUTE = "--execute" in sys.argv
 JOB = 952
-APPROVED = "support factory #2254 (Jason 2026-11-15 yes); duplicate repository sources merge as eBiltegia (#952, 15 Nov)"
+APPROVED = "support factory #2254 (standing authority); duplicate repository sources merge as eBiltegia (#952, 15 Nov)"
 
 # endpoint id -> (expected pmh_url, expected source_id now)
 EXPECT_EP = {
