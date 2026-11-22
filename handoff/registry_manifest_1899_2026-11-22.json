@@ -1,0 +1,109 @@
+{
+ "built": "2026-11-22 CT desk, wake 1899-1122-1200 (5 entries; now = API values 22 Nov)",
+ "job": 1899,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-16.py",
+ "entries": [
+  {
+   "entry": "S2764640232",
+   "source_id": 2764640232,
+   "tickets": [
+    26673
+   ],
+   "now": {
+    "display_name": "Advances in Social Sciences Research Journal",
+    "host": "P4323985168",
+    "homepage_url": "http://scholarpublishing.org/index.php/ASSRJ/index",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4365924618
+   },
+   "host_after": "P4365924618",
+   "why": "ZD 26673: Advances in Social Sciences Research Journal is Scholar Publishing's (the requester is its editorial office); its host P4323985168 'Society for Science and Education' is a former name of the same publisher, which OpenAlex now holds as P4365924618 Scholar Publishing",
+   "evidence": "Crossref ISSN 2055-0286: latest DOIs 10.14738/assrj.1311.12688 and .12647 publisher 'Scholar Publishing', member 5756 (22 Nov)",
+   "check": "https://api.openalex.org/sources/S2764640232"
+  },
+  {
+   "entry": "S4377196329",
+   "source_id": 4377196329,
+   "tickets": [],
+   "now": {
+    "display_name": "HAL Portal Artxiker (Hindustan Aeronautics Limited (India))",
+    "host": "I4210088939",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "repository",
+    "is_oa": false
+   },
+   "set": {
+    "institution_id": 4405252976,
+    "display_name": "HAL Portal Artxiker",
+    "homepage_url": "https://artxiker.ccsd.cnrs.fr",
+    "country_code": "FR"
+   },
+   "host_after": "I4405252976",
+   "why": "#1976: HAL portal whose host was matched to Hindustan Aeronautics Limited (acronym clash HAL); HAL portals are run by CCSD (I4405252976, the host of HAL S4306402512)",
+   "evidence": "HAL instance list api.archives-ouvertes.fr/ref/instance: code artxiker, name Artxiker, url https://artxiker.ccsd.cnrs.fr; HAL search artxiker numFound 566 (22 Nov)",
+   "check": "https://api.openalex.org/sources/S4377196329"
+  },
+  {
+   "entry": "S4210183410",
+   "source_id": 4210183410,
+   "tickets": [],
+   "now": {
+    "display_name": "YMER Digital",
+    "host": "P4310317175",
+    "homepage_url": "http://ssag.se/publikationer/ymer/",
+    "country_code": "SE",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "display_name": "Ymer"
+   },
+   "why": "#2261: the real Ymer (Swedish Society for Anthropology and Geography) carried the hijacked clone's Crossref title 'YMER Digital'",
+   "evidence": "portal.issn.org ISSN 0044-0477 title 'Ymer' (22 Nov); #2261 Log 22 Nov",
+   "check": "https://api.openalex.org/sources/S4210183410"
+  },
+  {
+   "entry": "S1011389943",
+   "source_id": 1011389943,
+   "tickets": [],
+   "now": {
+    "display_name": "Strad Research",
+    "host": null,
+    "homepage_url": null,
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "display_name": "The Strad"
+   },
+   "why": "#2261: ISSN 0039-2049 is The Strad (music magazine); 'Strad Research' is the hijacked clone's title",
+   "evidence": "portal.issn.org ISSN 0039-2049 title 'Strad' (22 Nov); #2261 Log 22 Nov",
+   "check": "https://api.openalex.org/sources/S1011389943"
+  },
+  {
+   "entry": "S4210217801",
+   "source_id": 4210217801,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Research on the Lepidoptera",
+    "host": null,
+    "homepage_url": "http://www.lepidopteraresearchfoundation.org",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://www.biodiversitylibrary.org/bibliography/129988"
+   },
+   "why": "#2261: the journal ceased in 2017 and lepidopteraresearchfoundation.org was resurrected by a pirate publisher; all volumes 1-49 are free on BHL. Not null: feed enrichment would refill an empty homepage",
+   "evidence": "blog.biodiversitylibrary.org/2022/10/journal-of-research-on-lepidoptera.html links BHL bibliography 129988 (22 Nov)",
+   "check": "https://api.openalex.org/sources/S4210217801"
+  }
+ ]
+}

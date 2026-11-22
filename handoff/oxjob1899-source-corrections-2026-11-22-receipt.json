@@ -1,0 +1,271 @@
+{
+ "run_at": "2026-11-22T18:18:14.622655+00:00",
+ "execute": true,
+ "revert_of": null,
+ "manifest": "handoff/registry_manifest_1899_2026-11-22.json",
+ "before": {
+  "S2764640232": {
+   "display_name": "Advances in Social Sciences Research Journal",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "ASSRJ"
+   ],
+   "publisher_id": 4323985168,
+   "institution_id": null,
+   "homepage_url": "http://scholarpublishing.org/index.php/ASSRJ/index",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "2055-0286",
+   "issns": [
+    "2055-0286"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S4377196329": {
+   "display_name": "HAL Portal Artxiker (Hindustan Aeronautics Limited (India))",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": 4210088939,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "repository",
+   "issn_l": null,
+   "issns": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210183410": {
+   "display_name": "YMER Digital",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310317175,
+   "institution_id": null,
+   "homepage_url": "http://ssag.se/publikationer/ymer/",
+   "country_code": "SE",
+   "type": "journal",
+   "issn_l": "0044-0477",
+   "issns": [
+    "0044-0477"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S1011389943": {
+   "display_name": "Strad Research",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0039-2049",
+   "issns": [
+    "0039-2049"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210217801": {
+   "display_name": "Journal of Research on the Lepidoptera",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "http://www.lepidopteraresearchfoundation.org",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0022-4324",
+   "issns": [
+    "0022-4324",
+    "2156-5457"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  }
+ },
+ "overrides_before": {
+  "S2764640232": null,
+  "S4377196329": null,
+  "S4210183410": null,
+  "S1011389943": null,
+  "S4210217801": null
+ },
+ "decisions": {
+  "S2764640232": {
+   "host": [
+    "P4323985168",
+    "P4365924618"
+   ]
+  },
+  "S4377196329": {
+   "host": [
+    "I4210088939",
+    "I4405252976"
+   ],
+   "homepage_url": [
+    null,
+    "https://artxiker.ccsd.cnrs.fr"
+   ],
+   "country_code": [
+    null,
+    "FR"
+   ],
+   "display_name": [
+    "HAL Portal Artxiker (Hindustan Aeronautics Limited (India))",
+    "HAL Portal Artxiker"
+   ]
+  },
+  "S4210183410": {
+   "display_name": [
+    "YMER Digital",
+    "Ymer"
+   ]
+  },
+  "S1011389943": {
+   "display_name": [
+    "Strad Research",
+    "The Strad"
+   ]
+  },
+  "S4210217801": {
+   "homepage_url": [
+    "http://www.lepidopteraresearchfoundation.org",
+    "https://www.biodiversitylibrary.org/bibliography/129988"
+   ]
+  }
+ },
+ "skipped": {},
+ "after": {
+  "S2764640232": {
+   "display_name": "Advances in Social Sciences Research Journal",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "ASSRJ"
+   ],
+   "publisher_id": 4365924618,
+   "institution_id": null,
+   "homepage_url": "http://scholarpublishing.org/index.php/ASSRJ/index",
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "2055-0286",
+   "issns": [
+    "2055-0286"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4377196329": {
+   "display_name": "HAL Portal Artxiker",
+   "display_name_before_override": "HAL Portal Artxiker (Hindustan Aeronautics Limited (India))",
+   "override_timestamp": "2026-11-22 18:18:15.774820+00:00",
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": 4405252976,
+   "homepage_url": "https://artxiker.ccsd.cnrs.fr",
+   "country_code": "FR",
+   "type": "repository",
+   "issn_l": null,
+   "issns": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210183410": {
+   "display_name": "Ymer",
+   "display_name_before_override": "YMER Digital",
+   "override_timestamp": "2026-11-22 18:18:15.983555+00:00",
+   "alternate_titles": [],
+   "publisher_id": 4310317175,
+   "institution_id": null,
+   "homepage_url": "http://ssag.se/publikationer/ymer/",
+   "country_code": "SE",
+   "type": "journal",
+   "issn_l": "0044-0477",
+   "issns": [
+    "0044-0477"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S1011389943": {
+   "display_name": "The Strad",
+   "display_name_before_override": "Strad Research",
+   "override_timestamp": "2026-11-22 18:18:16.200036+00:00",
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "GB",
+   "type": "journal",
+   "issn_l": "0039-2049",
+   "issns": [
+    "0039-2049"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210217801": {
+   "display_name": "Journal of Research on the Lepidoptera",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://www.biodiversitylibrary.org/bibliography/129988",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0022-4324",
+   "issns": [
+    "0022-4324",
+    "2156-5457"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  }
+ },
+ "is_oa_recomputed_before": 0,
+ "is_oa_recomputed_after": {
+  "changed": 0,
+  "expected": 0
+ },
+ "changed": [
+  "S2764640232",
+  "S4377196329",
+  "S4210183410",
+  "S1011389943",
+  "S4210217801"
+ ]
+}
