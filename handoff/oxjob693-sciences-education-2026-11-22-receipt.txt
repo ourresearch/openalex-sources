@@ -1,0 +1,5 @@
+MINTED 7407154446 'Sciences & Education' ['3119-6527']
+minted 1, existing 0, endpoints 0, held 0, refused 0; listed_in rows changed 0
+COMMITTED
+RECEIPT
+{"run_at": "2026-11-22T22:21:02.297838+00:00", "execute": true, "manifest": "--json /Users/jasonpriem/ox/oxjobs/working/datacite-issn-source-matching/work/add_journal_sciences_education_2026-11-22.json", "minted": [{"source_id": 7407154446, "name": "Sciences & Education", "issns": ["3119-6527"], "ticket": "28014;28015;28016"}], "updated": [], "endpoints": [], "held": [], "refused": [], "actions": ["MINTED 7407154446 'Sciences & Education' ['3119-6527']", "minted 1, existing 0, endpoints 0, held 0, refused 0; listed_in rows changed 0", "COMMITTED"]}
