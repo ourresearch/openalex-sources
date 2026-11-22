@@ -1,0 +1,239 @@
+{
+ "run_at": "2026-11-22T12:50:18.593267+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 1496,
+ "before": {
+  "endpoints_on_host": [],
+  "ICML": {
+   "source": {
+    "id": 4306419644,
+    "display_name": "International Conference on Machine Learning",
+    "type": "conference",
+    "homepage_url": null,
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "AISTATS": {
+   "source": {
+    "id": 4306419146,
+    "display_name": "International Conference on Artificial Intelligence and Statistics",
+    "type": "conference",
+    "homepage_url": "http://aistats.org/other.html",
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "UAI": {
+   "source": {
+    "id": 4306421103,
+    "display_name": "Uncertainty in Artificial Intelligence",
+    "type": "conference",
+    "homepage_url": null,
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "COLT": {
+   "source": {
+    "id": 4306418075,
+    "display_name": "Conference on Learning Theory",
+    "type": "conference",
+    "homepage_url": null,
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "CoRL": {
+   "source": {
+    "id": 4306506823,
+    "display_name": "Conference on Robot Learning",
+    "type": "conference",
+    "homepage_url": "http://www.robot-learning.org",
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "ACML": {
+   "source": {
+    "id": 4306417739,
+    "display_name": "Asian Conference on Machine Learning",
+    "type": "conference",
+    "homepage_url": null,
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "MIDL": {
+   "source": {
+    "id": 4306519517,
+    "display_name": "Medical Imaging with Deep Learning",
+    "type": "journal",
+    "homepage_url": null,
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "L4DC": {
+   "source": {
+    "id": 4306518315,
+    "display_name": "Learning for Dynamics and Control",
+    "type": "journal",
+    "homepage_url": null,
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "ALT": {
+   "source": {
+    "id": 4306417654,
+    "display_name": "Algorithmic Learning Theory",
+    "type": "conference",
+    "homepage_url": null,
+    "is_oa": false
+   },
+   "endpoints_on_source": []
+  },
+  "PMLR": {
+   "source": {
+    "id": 4363608721,
+    "display_name": "Proceedings of Machine Learning Research",
+    "type": "conference",
+    "homepage_url": "http://proceedings.mlr.press/index.html",
+    "is_oa": true
+   },
+   "endpoints_on_source": []
+  }
+ },
+ "actions": [
+  "REGISTERED endpoint r1uwta3ljkswpwsrku7f https://proceedings.mlr.press/ set pmlr-icml -> S4306419644 (ICML) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint b6nv0li5q6holc0atjzf https://proceedings.mlr.press/ set pmlr-aistats -> S4306419146 (AISTATS) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint wq7uk9d11rt32ctzf69x https://proceedings.mlr.press/ set pmlr-uai -> S4306421103 (UAI) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint pqqhhbydryq4jb76jhea https://proceedings.mlr.press/ set pmlr-colt -> S4306418075 (COLT) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint cuynjesiz6105yjkpevg https://proceedings.mlr.press/ set pmlr-corl -> S4306506823 (CoRL) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint v5j4ph7fyjprwszjw6eu https://proceedings.mlr.press/ set pmlr-acml -> S4306417739 (ACML) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint x61bqwp99zm9wn1yq564 https://proceedings.mlr.press/ set pmlr-midl -> S4306519517 (MIDL) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint qkzec0risd8ba9ly7i3h https://proceedings.mlr.press/ set pmlr-l4dc -> S4306518315 (L4DC) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint bfpxjz97zd07bhffwj4n https://proceedings.mlr.press/ set pmlr-alt -> S4306417654 (ALT) is_journal_host, ready_to_run false (files, not harvest)",
+  "REGISTERED endpoint yl687x2elee958uxdqp2 https://proceedings.mlr.press/ set pmlr-pmlr -> S4363608721 (PMLR) is_journal_host, ready_to_run false (files, not harvest)",
+  "COMMITTED"
+ ],
+ "after": {
+  "endpoints": [
+   {
+    "id": "bfpxjz97zd07bhffwj4n",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-alt",
+    "source_id": 4306417654,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "v5j4ph7fyjprwszjw6eu",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-acml",
+    "source_id": 4306417739,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "pqqhhbydryq4jb76jhea",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-colt",
+    "source_id": 4306418075,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "b6nv0li5q6holc0atjzf",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-aistats",
+    "source_id": 4306419146,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "r1uwta3ljkswpwsrku7f",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-icml",
+    "source_id": 4306419644,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "wq7uk9d11rt32ctzf69x",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-uai",
+    "source_id": 4306421103,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "cuynjesiz6105yjkpevg",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-corl",
+    "source_id": 4306506823,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "qkzec0risd8ba9ly7i3h",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-l4dc",
+    "source_id": 4306518315,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "x61bqwp99zm9wn1yq564",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-midl",
+    "source_id": 4306519517,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   },
+   {
+    "id": "yl687x2elee958uxdqp2",
+    "pmh_url": "https://proceedings.mlr.press/",
+    "pmh_set": "pmlr-pmlr",
+    "source_id": 4363608721,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   }
+  ]
+ },
+ "revert": [
+  "DELETE FROM oai_pmh_endpoint WHERE id IN ('r1uwta3ljkswpwsrku7f', 'b6nv0li5q6holc0atjzf', 'wq7uk9d11rt32ctzf69x', 'pqqhhbydryq4jb76jhea', 'cuynjesiz6105yjkpevg', 'v5j4ph7fyjprwszjw6eu', 'x61bqwp99zm9wn1yq564', 'qkzec0risd8ba9ly7i3h', 'bfpxjz97zd07bhffwj4n', 'yl687x2elee958uxdqp2') AND pmh_url = 'https://proceedings.mlr.press/';"
+ ]
+}
