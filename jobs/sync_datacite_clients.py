@@ -15,6 +15,7 @@ vector this fixes):
   python -m jobs.sync_datacite_clients [--dry-run] [--limit N]
 """
 import argparse
+import re
 from collections import Counter
 
 from sqlalchemy import text
@@ -29,6 +30,23 @@ CLIENT_TYPE_TO_SOURCE_TYPE = {"periodical": "journal", "repository": "repository
 # LLM audit found 234 sources minted from these buckets — parked as
 # 'invalid_source' in the queue).
 ADMIN_PROVIDER_PREFIXES = ("deactivated repositories", "repositories moved")
+
+# DataCite test and sandbox client accounts (oxjob #952 Bug 2, 19-20 Nov 2026): their DOIs are test records, not a
+# venue, yet 3 of them had minted repository sources holding 20 junk works ("OP Test account", "hbz ... Test
+# Repository", "Dev box tool"). Matched on the client's name, or a client id ending ".test" (DataCite's own test
+# symbols: ethz.test, europ.test, figshare.test, ...). On 20 Nov the pattern matched 16 of the 44 DataCite clients
+# named like test/dev/pre-production, all test accounts. The "-DEV"/"-PROD" clients are NOT matched on purpose: each
+# mints findable production DOIs to a live site (6 sampled per client, 19 Nov); they are only misnamed.
+TEST_CLIENT_NAME = re.compile(r"(?i)\btest\b|sandbox|\bdev box\b|pre-production|^\s*dev\s*$")
+# A client named like a DataCite account label rather than its venue: still minted (its DOIs are real), but printed so
+# the run's reader renames the new source after the site its DOIs resolve to (as #952 did for AcadiaU-DEV, 19 Nov).
+ACCOUNT_LABEL_NAME = re.compile(r"(?i)[-_ ](dev|prod)$|\bprod repo\b")
+
+
+def is_test_client(client_id, display_name):
+    """True for a DataCite test/sandbox account: never mint or link it."""
+    return bool(TEST_CLIENT_NAME.search((display_name or "").strip())) or \
+        (client_id or "").strip().lower().endswith(".test")
 
 
 def _refresh_datacite_jsonb(conn, source_id):
@@ -92,6 +110,10 @@ def run(dry_run=False, limit=None, batch=200):
             if (c.provider_name or "").strip().lower().startswith(ADMIN_PROVIDER_PREFIXES):
                 counts["skipped_admin_provider"] += 1
                 continue
+            if is_test_client(c.id, c.display_name):
+                counts["skipped_test_client"] += 1
+                print(f"  skip test client {c.id}: {c.display_name}", flush=True)
+                continue
             issns = normalize_issns(list(c.issns or []))
             if c.id in linked:
                 counts["already_linked"] += 1
@@ -132,6 +154,9 @@ def run(dry_run=False, limit=None, batch=200):
                                      f"{c.id}: {c.display_name}")
             else:  # 'none'
                 counts["added"] += 1
+                if ACCOUNT_LABEL_NAME.search((c.display_name or "").strip()):
+                    counts["added_account_label_name"] += 1
+                    print(f"  minted under an account label, rename it: {c.id}: {c.display_name}", flush=True)
                 if not dry_run:
                     linked[c.id] = _mint(conn, ctx, c, issns)
             done += 1
