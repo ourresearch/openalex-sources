@@ -1,0 +1,42 @@
+{
+ "run_at": "2026-11-22T20:25:12.123593+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 2507,
+ "before": {
+  "sources_naming_it": [],
+  "endpoints_on_hosts": []
+ },
+ "actions": [
+  "MINTED S7407154444 'Open Conference of AI Agents for Science' (conference, alternate title ['Agents4Science'], homepage https://agents4science.stanford.edu/)",
+  "REGISTERED endpoint ni7plyt3kadohy25hzva https://openreview.net/group?id=Agents4Science/2025/Conference -> S7407154444 is_journal_host, ready_to_run false (files, not harvest)",
+  "COMMITTED"
+ ],
+ "after": {
+  "source": [
+   {
+    "id": 7407154444,
+    "display_name": "Open Conference of AI Agents for Science",
+    "type": "conference",
+    "homepage_url": "https://agents4science.stanford.edu/",
+    "alternate_titles": [
+     "Agents4Science"
+    ],
+    "is_oa": false
+   }
+  ],
+  "endpoint": [
+   {
+    "id": "ni7plyt3kadohy25hzva",
+    "pmh_url": "https://openreview.net/group?id=Agents4Science/2025/Conference",
+    "source_id": 7407154444,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   }
+  ]
+ },
+ "source_id": 7407154444
+}
