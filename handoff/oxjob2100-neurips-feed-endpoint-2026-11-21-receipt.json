@@ -1,0 +1,54 @@
+{
+ "run_at": "2026-11-22T01:36:18.987655+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 2100,
+ "before": {
+  "source": {
+   "id": 4363606243,
+   "display_name": "neural information processing systems",
+   "type": "conference",
+   "issn_l": "1049-5258",
+   "issns": [
+    "1049-5258"
+   ],
+   "homepage_url": null,
+   "is_oa": false
+  },
+  "endpoints_on_source": [],
+  "endpoints_on_hosts": []
+ },
+ "actions": [
+  "REGISTERED endpoint eijnazg474c9pb6u2fac https://proceedings.neurips.cc/ -> S4363606243 is_journal_host, ready_to_run false (files, not harvest)",
+  "S4363606243 homepage_url NULL -> https://neurips.cc/",
+  "COMMITTED"
+ ],
+ "after": {
+  "endpoint": [
+   {
+    "id": "eijnazg474c9pb6u2fac",
+    "pmh_url": "https://proceedings.neurips.cc/",
+    "pmh_set": null,
+    "source_id": 4363606243,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false,
+    "harvest_identify_response": "No OAI-PMH server: this is NeurIPS's proceedings site. Records are written to S3 by oxjob #2100's build_neurips_feed.py; ready_to_run stays false so the harvester never calls it."
+   }
+  ],
+  "source": [
+   {
+    "id": 4363606243,
+    "display_name": "neural information processing systems",
+    "homepage_url": "https://neurips.cc/"
+   }
+  ]
+ },
+ "revert": [
+  "DELETE FROM oai_pmh_endpoint WHERE id = 'eijnazg474c9pb6u2fac' AND source_id = 4363606243;",
+  "UPDATE sources SET homepage_url = NULL WHERE id = 4363606243 AND homepage_url = 'https://neurips.cc/';"
+ ],
+ "homepage_set": true
+}
