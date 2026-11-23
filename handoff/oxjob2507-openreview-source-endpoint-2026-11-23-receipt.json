@@ -1,0 +1,47 @@
+{
+ "run_at": "2026-11-23T14:10:06.483929+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 2507,
+ "before": {
+  "sources_naming_it": [],
+  "endpoints_on_host": [
+   {
+    "id": "ni7plyt3kadohy25hzva",
+    "pmh_url": "https://openreview.net/group?id=Agents4Science/2025/Conference",
+    "source_id": 7407154444,
+    "status": "active"
+   }
+  ]
+ },
+ "actions": [
+  "MINTED S7407154486 'OpenReview' (repository, homepage https://openreview.net/)",
+  "REGISTERED endpoint olz3gr672weg55vcdvj9 https://openreview.net/ -> S7407154486 not a journal host, ready_to_run false (files, not harvest)",
+  "COMMITTED"
+ ],
+ "after": {
+  "source": [
+   {
+    "id": 7407154486,
+    "display_name": "OpenReview",
+    "type": "repository",
+    "homepage_url": "https://openreview.net/",
+    "alternate_titles": null,
+    "is_oa": false
+   }
+  ],
+  "endpoint": [
+   {
+    "id": "olz3gr672weg55vcdvj9",
+    "pmh_url": "https://openreview.net/",
+    "source_id": 7407154486,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": false,
+    "green_scrape": false
+   }
+  ]
+ },
+ "source_id": 7407154486
+}
