@@ -1,0 +1,603 @@
+{
+ "run_at": "2026-11-23T15:42:30.696974+00:00",
+ "execute": true,
+ "revert_of": null,
+ "manifest": "handoff/registry_manifest_1899_d12_2026-11-23.json",
+ "before": {
+  "S4404662753": {
+   "display_name": "Svāsthya: Trends in General Medicine and Public Health",
+   "display_name_before_override": "Svāsthya.",
+   "override_timestamp": "2026-11-23 15:42:13.447587+00:00",
+   "alternate_titles": [
+    "Svāsthya (online)",
+    "Svāsthya"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://journal.megsci-ind.com/index.php/Svasthya",
+   "country_code": "ID",
+   "type": "journal",
+   "issn_l": "3063-0649",
+   "issns": [
+    "3063-0649"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407065328": {
+   "display_name": "Journal of Environmental Education Research and Sustainable Development",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://jeeresd.online/",
+   "country_code": "CM",
+   "type": "journal",
+   "issn_l": "3078-2112",
+   "issns": [
+    "3078-2112"
+   ],
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S86672399": {
+   "display_name": "Language learning & technology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Language learning and technology",
+    "LLT journal",
+    "LLT",
+    "LL & T"
+   ],
+   "publisher_id": 4310315701,
+   "institution_id": null,
+   "homepage_url": "http://www.lltjournal.org",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1094-3501",
+   "issns": [
+    "1094-3501"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S5407051349": {
+   "display_name": "Reading in a Foreign Language",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "RFL. Reading in a foreign language"
+   ],
+   "publisher_id": 4310315701,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0264-2425",
+   "issns": [
+    "0264-2425",
+    "1539-0578"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4210222429": {
+   "display_name": "BenchCouncil Transactions on Benchmarks Standards and Evaluations",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310320990,
+   "institution_id": null,
+   "homepage_url": "https://journal.benchcouncil.org/TBench/",
+   "country_code": "CN",
+   "type": "journal",
+   "issn_l": "2772-4859",
+   "issns": [
+    "2772-4859"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407089804": {
+   "display_name": "Lyra Computer Science and Artificial Intelligence",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://lyrascience.org/lcsai",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3137-9710",
+   "issns": [
+    "3137-9710"
+   ],
+   "is_oa": true,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S7407089770": {
+   "display_name": "Journal of Society Policy and Education",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://lyrascience.org/jspe",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3138-0093",
+   "issns": [
+    "3138-0093"
+   ],
+   "is_oa": true,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S7407122396": {
+   "display_name": "Lyra Journal of Biomedical and Health Sciences",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://lyrascience.org/ljbhs",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3138-0867",
+   "issns": [
+    "3138-0867"
+   ],
+   "is_oa": true,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S4210189740": {
+   "display_name": "Ehquidad Revista Internacional de Políticas de Bienestar y Trabajo Social",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310321212,
+   "institution_id": null,
+   "homepage_url": "https://revista.ehquidad.org/es/",
+   "country_code": "ES",
+   "type": "journal",
+   "issn_l": "2386-4915",
+   "issns": [
+    "2386-4915"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S2765017568": {
+   "display_name": "International Journal of Research",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "IJAR"
+   ],
+   "publisher_id": 4322614449,
+   "institution_id": null,
+   "homepage_url": "http://internationaljournalofresearch.com",
+   "country_code": "IN",
+   "type": "journal",
+   "issn_l": "2348-6848",
+   "issns": [
+    "2348-6848",
+    "2348-795X"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S4394736658": {
+   "display_name": "Swiss Medical Weekly",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Schweizerische medizinische Wochenschrift",
+    "SMW",
+    "Journal suisse de médecine"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://smw.ch/index.php/smw",
+   "country_code": "CH",
+   "type": "journal",
+   "issn_l": "0036-7672",
+   "issns": [
+    "0036-7672",
+    "1424-3997",
+    "1424-7860"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  }
+ },
+ "overrides_before": {
+  "S4404662753": null,
+  "S7407065328": null,
+  "S86672399": null,
+  "S5407051349": null,
+  "S4210222429": null,
+  "S7407089804": {
+   "curated_is_oa": true,
+   "curated_flip_year": null,
+   "note": "users-api curations: cur-GDseUsPCLYdw"
+  },
+  "S7407089770": {
+   "curated_is_oa": true,
+   "curated_flip_year": null,
+   "note": "users-api curations: cur-jrZqpMRi5wDe"
+  },
+  "S7407122396": {
+   "curated_is_oa": true,
+   "curated_flip_year": null,
+   "note": "users-api curations: cur-8HuHz4PQGbLB"
+  },
+  "S4210189740": null,
+  "S2765017568": null,
+  "S4394736658": null
+ },
+ "decisions": {
+  "S4404662753": {
+   "host": [
+    null,
+    "P4404685474"
+   ]
+  },
+  "S7407065328": {
+   "host": [
+    null,
+    "P4404685475"
+   ]
+  },
+  "S86672399": {
+   "host": [
+    "P4310315701",
+    "P4404685476"
+   ]
+  },
+  "S5407051349": {
+   "host": [
+    "P4310315701",
+    "P4404685476"
+   ]
+  },
+  "S4210222429": {
+   "host": [
+    "P4310320990",
+    "P4404685477"
+   ]
+  },
+  "S7407089804": {
+   "host": [
+    null,
+    "P4404685478"
+   ]
+  },
+  "S7407089770": {
+   "host": [
+    null,
+    "P4404685478"
+   ]
+  },
+  "S7407122396": {
+   "host": [
+    null,
+    "P4404685478"
+   ]
+  },
+  "S4210189740": {
+   "host": [
+    "P4310321212",
+    "P4404685479"
+   ]
+  },
+  "S2765017568": {
+   "host": [
+    "P4322614449",
+    "P4404685480"
+   ]
+  },
+  "S4394736658": {
+   "host": [
+    null,
+    "P4404685481"
+   ]
+  }
+ },
+ "skipped": {},
+ "after": {
+  "S4404662753": {
+   "display_name": "Svāsthya: Trends in General Medicine and Public Health",
+   "display_name_before_override": "Svāsthya.",
+   "override_timestamp": "2026-11-23 15:42:13.447587+00:00",
+   "alternate_titles": [
+    "Svāsthya (online)",
+    "Svāsthya"
+   ],
+   "publisher_id": 4404685474,
+   "institution_id": null,
+   "homepage_url": "https://journal.megsci-ind.com/index.php/Svasthya",
+   "country_code": "ID",
+   "type": "journal",
+   "issn_l": "3063-0649",
+   "issns": [
+    "3063-0649"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407065328": {
+   "display_name": "Journal of Environmental Education Research and Sustainable Development",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": 4404685475,
+   "institution_id": null,
+   "homepage_url": "https://jeeresd.online/",
+   "country_code": "CM",
+   "type": "journal",
+   "issn_l": "3078-2112",
+   "issns": [
+    "3078-2112"
+   ],
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S86672399": {
+   "display_name": "Language learning & technology",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Language learning and technology",
+    "LLT journal",
+    "LLT",
+    "LL & T"
+   ],
+   "publisher_id": 4404685476,
+   "institution_id": null,
+   "homepage_url": "http://www.lltjournal.org",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "1094-3501",
+   "issns": [
+    "1094-3501"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S5407051349": {
+   "display_name": "Reading in a Foreign Language",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "RFL. Reading in a foreign language"
+   ],
+   "publisher_id": 4404685476,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "0264-2425",
+   "issns": [
+    "0264-2425",
+    "1539-0578"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4210222429": {
+   "display_name": "BenchCouncil Transactions on Benchmarks Standards and Evaluations",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4404685477,
+   "institution_id": null,
+   "homepage_url": "https://journal.benchcouncil.org/TBench/",
+   "country_code": "CN",
+   "type": "journal",
+   "issn_l": "2772-4859",
+   "issns": [
+    "2772-4859"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407089804": {
+   "display_name": "Lyra Computer Science and Artificial Intelligence",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": 4404685478,
+   "institution_id": null,
+   "homepage_url": "https://lyrascience.org/lcsai",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3137-9710",
+   "issns": [
+    "3137-9710"
+   ],
+   "is_oa": true,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "note": "users-api curations: cur-GDseUsPCLYdw"
+   }
+  },
+  "S7407089770": {
+   "display_name": "Journal of Society Policy and Education",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": 4404685478,
+   "institution_id": null,
+   "homepage_url": "https://lyrascience.org/jspe",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3138-0093",
+   "issns": [
+    "3138-0093"
+   ],
+   "is_oa": true,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "note": "users-api curations: cur-jrZqpMRi5wDe"
+   }
+  },
+  "S7407122396": {
+   "display_name": "Lyra Journal of Biomedical and Health Sciences",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": 4404685478,
+   "institution_id": null,
+   "homepage_url": "https://lyrascience.org/ljbhs",
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3138-0867",
+   "issns": [
+    "3138-0867"
+   ],
+   "is_oa": true,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "note": "users-api curations: cur-8HuHz4PQGbLB"
+   }
+  },
+  "S4210189740": {
+   "display_name": "Ehquidad Revista Internacional de Políticas de Bienestar y Trabajo Social",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4404685479,
+   "institution_id": null,
+   "homepage_url": "https://revista.ehquidad.org/es/",
+   "country_code": "ES",
+   "type": "journal",
+   "issn_l": "2386-4915",
+   "issns": [
+    "2386-4915"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2765017568": {
+   "display_name": "International Journal of Research",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "IJAR"
+   ],
+   "publisher_id": 4404685480,
+   "institution_id": null,
+   "homepage_url": "http://internationaljournalofresearch.com",
+   "country_code": "IN",
+   "type": "journal",
+   "issn_l": "2348-6848",
+   "issns": [
+    "2348-6848",
+    "2348-795X"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4394736658": {
+   "display_name": "Swiss Medical Weekly",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Schweizerische medizinische Wochenschrift",
+    "SMW",
+    "Journal suisse de médecine"
+   ],
+   "publisher_id": 4404685481,
+   "institution_id": null,
+   "homepage_url": "https://smw.ch/index.php/smw",
+   "country_code": "CH",
+   "type": "journal",
+   "issn_l": "0036-7672",
+   "issns": [
+    "0036-7672",
+    "1424-3997",
+    "1424-7860"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  }
+ },
+ "is_oa_recomputed_before": 0,
+ "is_oa_recomputed_after": {
+  "changed": 0,
+  "expected": 0
+ },
+ "changed": [
+  "S4404662753",
+  "S7407065328",
+  "S86672399",
+  "S5407051349",
+  "S4210222429",
+  "S7407089804",
+  "S7407089770",
+  "S7407122396",
+  "S4210189740",
+  "S2765017568",
+  "S4394736658"
+ ]
+}

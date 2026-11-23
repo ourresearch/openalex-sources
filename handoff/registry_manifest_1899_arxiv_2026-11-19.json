@@ -1,0 +1,35 @@
+{
+ "built": "2026-11-19 off-desk lane 1899-1119-1042",
+ "job": 1899,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-16.py",
+ "note": "SEPARATE run (--only not needed: 1 entry). Re-stamps every work with an arXiv location: 3,217,617 works on 23 Nov (897,829 primary) -> pre-clear +3,862,000 recorded with oxpreclear by the 23 Nov lane. If the E2E shepherd wants it on a night of its own, hold it one night; nothing else depends on it.",
+ "entries": [
+  {
+   "entry": "S4306400194",
+   "source_id": 4306400194,
+   "tickets": [
+    3299
+   ],
+   "now": {
+    "display_name": "arXiv (Cornell University)",
+    "host": "I205783295",
+    "homepage_url": "https://arxiv.org",
+    "country_code": "US",
+    "type": "repository",
+    "is_oa": true
+   },
+   "set": {
+    "institution_id": 4402554005,
+    "display_name": "arXiv"
+   },
+   "why": "arXiv left Cornell: info.arxiv.org/about says it \"was established as an independent nonprofit organization in 2026\" (requester: 1 July 2026); host = arXiv I4402554005 (ROR 00m2zh467), name without \"(Cornell University)\"",
+   "evidence": "https://info.arxiv.org/about/index.html (19 Nov)",
+   "check": "https://api.openalex.org/sources/S4306400194",
+   "host_after": "I4402554005",
+   "alt_add": [
+    "arXiv (Cornell University)"
+   ]
+  }
+ ],
+ "rechecked": "2026-11-23 09:20 CT off-desk lane: live S4306400194 still display_name 'arXiv (Cornell University)', host I205783295, homepage https://arxiv.org, US, repository, is_oa true (now values unchanged). I4402554005 = arXiv, ROR 00m2zh467, nonprofit, US. Jason ruled card D36 on 22 Nov: 'Yes: arXiv's host becomes arXiv itself and the source is renamed arXiv' (RULINGS § 3 Sources)."
+}

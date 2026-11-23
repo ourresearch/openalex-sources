@@ -1,0 +1,258 @@
+{
+ "built": "2026-11-23 09:35 CT, off-desk lane (wake 1899-1123-1200); run AFTER d12_mint_package_2026-11-23.json's mint and AFTER registry_manifest_1899_2026-11-23.json (its homepage/name entries change these two sources' now values); 23 Nov 09:27 CT: + S86672399, S5407051349 (NFLRC) and S4210222429 (BenchCouncil Press); 09:35 CT: + Lyra Science (3), AICTS (Ehquidad), Edupedia (IJR), SMW Supporting Association (SMW)",
+ "job": 1899,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-16.py",
+ "entries": [
+  {
+   "entry": "S4404662753",
+   "source_id": 4404662753,
+   "tickets": [
+    28076
+   ],
+   "now": {
+    "display_name": "Svāsthya: Trends in General Medicine and Public Health",
+    "host": null,
+    "homepage_url": "https://journal.megsci-ind.com/index.php/Svasthya",
+    "country_code": "ID",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4404685474
+   },
+   "host_after": "P4404685474",
+   "why": "D12 mint P4404685474 (PT. Mega Science Indonesia) hosts this journal",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S4404662753"
+  },
+  {
+   "entry": "S7407065328",
+   "source_id": 7407065328,
+   "tickets": [
+    28136
+   ],
+   "now": {
+    "display_name": "Journal of Environmental Education Research and Sustainable Development",
+    "host": null,
+    "homepage_url": "https://jeeresd.online/",
+    "country_code": "CM",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4404685475
+   },
+   "host_after": "P4404685475",
+   "why": "D12 mint P4404685475 (EcoClean Environment) hosts this journal",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S7407065328"
+  },
+  {
+   "entry": "S86672399",
+   "source_id": 86672399,
+   "tickets": [
+    3285
+   ],
+   "now": {
+    "display_name": "Language learning & technology",
+    "host": "P4310315701",
+    "homepage_url": "http://www.lltjournal.org",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685476
+   },
+   "host_after": "P4404685476",
+   "why": "D12 mint P4404685476 (National Foreign Language Resource Center) hosts this journal: Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S86672399",
+   "works_count": 1259
+  },
+  {
+   "entry": "S5407051349",
+   "source_id": 5407051349,
+   "tickets": [
+    3285
+   ],
+   "now": {
+    "display_name": "Reading in a Foreign Language",
+    "host": "P4310315701",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4404685476
+   },
+   "host_after": "P4404685476",
+   "why": "D12 mint P4404685476 (National Foreign Language Resource Center) hosts this journal: Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S5407051349",
+   "works_count": 687
+  },
+  {
+   "entry": "S4210222429",
+   "source_id": 4210222429,
+   "tickets": [
+    8269
+   ],
+   "now": {
+    "display_name": "BenchCouncil Transactions on Benchmarks Standards and Evaluations",
+    "host": "P4310320990",
+    "homepage_url": "https://journal.benchcouncil.org/TBench/",
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4404685477
+   },
+   "host_after": "P4404685477",
+   "why": "D12 mint P4404685477 (BenchCouncil Press) hosts this journal: Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S4210222429",
+   "works_count": 141
+  },
+  {
+   "entry": "S7407089804",
+   "source_id": 7407089804,
+   "tickets": [
+    26817
+   ],
+   "now": {
+    "display_name": "Lyra Computer Science and Artificial Intelligence",
+    "host": null,
+    "homepage_url": "https://lyrascience.org/lcsai",
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685478
+   },
+   "host_after": "P4404685478",
+   "why": "D12 mint P4404685478 (Lyra Science) hosts this journal: the Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S7407089804",
+   "works_count": 1
+  },
+  {
+   "entry": "S7407089770",
+   "source_id": 7407089770,
+   "tickets": [
+    26817
+   ],
+   "now": {
+    "display_name": "Journal of Society Policy and Education",
+    "host": null,
+    "homepage_url": "https://lyrascience.org/jspe",
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685478
+   },
+   "host_after": "P4404685478",
+   "why": "D12 mint P4404685478 (Lyra Science) hosts this journal: the Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S7407089770",
+   "works_count": 1
+  },
+  {
+   "entry": "S7407122396",
+   "source_id": 7407122396,
+   "tickets": [
+    26817
+   ],
+   "now": {
+    "display_name": "Lyra Journal of Biomedical and Health Sciences",
+    "host": null,
+    "homepage_url": "https://lyrascience.org/ljbhs",
+    "country_code": null,
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685478
+   },
+   "host_after": "P4404685478",
+   "why": "D12 mint P4404685478 (Lyra Science) hosts this journal: the Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S7407122396",
+   "works_count": 1
+  },
+  {
+   "entry": "S4210189740",
+   "source_id": 4210189740,
+   "tickets": [
+    4505
+   ],
+   "now": {
+    "display_name": "Ehquidad Revista Internacional de Políticas de Bienestar y Trabajo Social",
+    "host": "P4310321212",
+    "homepage_url": "https://revista.ehquidad.org/es/",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685479
+   },
+   "host_after": "P4404685479",
+   "why": "D12 mint P4404685479 (Asociación Internacional de Ciencias Sociales y Trabajo Social) hosts this journal: the Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S4210189740",
+   "works_count": 288
+  },
+  {
+   "entry": "S2765017568",
+   "source_id": 2765017568,
+   "tickets": [
+    2003
+   ],
+   "now": {
+    "display_name": "International Journal of Research",
+    "host": "P4322614449",
+    "homepage_url": "http://internationaljournalofresearch.com",
+    "country_code": "IN",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685480
+   },
+   "host_after": "P4404685480",
+   "why": "D12 mint P4404685480 (Edupedia Publications Pvt Ltd) hosts this journal: the Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S2765017568",
+   "works_count": 736
+  },
+  {
+   "entry": "S4394736658",
+   "source_id": 4394736658,
+   "tickets": [
+    4663
+   ],
+   "now": {
+    "display_name": "Swiss Medical Weekly",
+    "host": null,
+    "homepage_url": "https://smw.ch/index.php/smw",
+    "country_code": "CH",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404685481
+   },
+   "host_after": "P4404685481",
+   "why": "D12 mint P4404685481 (SMW Supporting Association) hosts this journal: the Crossref member that deposits its DOIs + the journal site names it",
+   "evidence": "see d12_mint_package_2026-11-23.json",
+   "check": "https://api.openalex.org/sources/S4394736658",
+   "works_count": 5874
+  }
+ ]
+}

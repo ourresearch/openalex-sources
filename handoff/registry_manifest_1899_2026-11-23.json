@@ -1,0 +1,356 @@
+{
+ "built": "2026-11-23 09:25 CT, off-desk lane (wake 1899-1123-1200); now = live API values 23 Nov",
+ "job": 1899,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-16.py",
+ "note": "14 entries, ~165K works re-stamp (S4406922265 MPG eDoc alone 162K: every work with an edoc.mpg.de location). OA for 28076/28136/2628 goes by users-api curations (posted), not by this manifest.",
+ "entries": [
+  {
+   "entry": "S2736656839",
+   "source_id": 2736656839,
+   "tickets": [
+    27966
+   ],
+   "now": {
+    "display_name": "Journal of Librarianship and Scholarly Communication",
+    "host": "P4310315716",
+    "homepage_url": "http://jlsc-pub.org/",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4324047741,
+    "homepage_url": "https://www.iastatedigitalpress.com/jlsc/"
+   },
+   "host_after": "P4324047741",
+   "why": "ZD 27966: JLSC is published by Iowa State University Digital Press, not Pacific University Library (requester is a JLSC board member); host it on P4324047741 Iowa State University (ROR 04rswrd78), the Crossref member and the publisher record its sibling Digital Press journals already use (Meat and Muscle Biology S4210196985, Journal of Critical Thought and Praxis S4210229447)",
+   "evidence": "Crossref ISSN 2162-3309: latest DOIs 10.31274/jlsc.26711, .25425 member 13687 Iowa State University, landing pages iastatedigitalpress.com/jlsc; jlsc-pub.org redirects to iastatedigitalpress.com/jlsc/ (23 Nov)",
+   "check": "https://api.openalex.org/sources/S2736656839",
+   "works_count": 440
+  },
+  {
+   "entry": "S4210239676",
+   "source_id": 4210239676,
+   "tickets": [
+    28235
+   ],
+   "now": {
+    "display_name": "Áreas Revista Internacional de Ciencias Sociales",
+    "host": "P4310321098",
+    "homepage_url": "https://revistas.um.es/index.php/areas",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310321247,
+    "homepage_url": "https://revistes.ua.es/areas/"
+   },
+   "host_after": "P4310321247",
+   "why": "ZD 28235: Áreas moved from the University of Murcia to the University of Alicante",
+   "evidence": "Crossref ISSN 1989-6190/0211-6707: 133 DOIs, latest 10.14198/areas.33152 and .33393 publisher Universidad de Alicante Servicio de Publicaciones, member 5330, landing revistes.ua.es/areas; revistes.ua.es/areas/ answers 200 with title Áreas: Revista Internacional de Ciencias Sociales, ISSN 1989-6190 (23 Nov)",
+   "check": "https://api.openalex.org/sources/S4210239676",
+   "works_count": 601
+  },
+  {
+   "entry": "S4404662753",
+   "source_id": 4404662753,
+   "tickets": [
+    28076
+   ],
+   "now": {
+    "display_name": "Svāsthya.",
+    "host": null,
+    "homepage_url": "https://journal.megsci-ind.org/index.php/Svasthya",
+    "country_code": "ID",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://journal.megsci-ind.com/index.php/Svasthya",
+    "display_name": "Svāsthya: Trends in General Medicine and Public Health"
+   },
+   "alt_add": [
+    "Svāsthya"
+   ],
+   "why": "ZD 28076: homepage moved from journal.megsci-ind.org to .com; the name carried a trailing period (\"Svāsthya.\") and dropped the subtitle",
+   "evidence": "Crossref ISSN 3063-0649: 51 DOIs, container-title Svāsthya: Trends in General Medicine and Public Health, landing pages journal.megsci-ind.com; site title the same (23 Nov). Publisher waits on the D12 mint (d12_mint_package_2026-11-23.json)",
+   "check": "https://api.openalex.org/sources/S4404662753",
+   "works_count": 50
+  },
+  {
+   "entry": "S7407065328",
+   "source_id": 7407065328,
+   "tickets": [
+    28136
+   ],
+   "now": {
+    "display_name": "Journal of Environmental Education Research and Sustainable Development",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "homepage_url": "https://jeeresd.online/",
+    "country_code": "CM"
+   },
+   "why": "ZD 28136: JEERESD has no homepage or country",
+   "evidence": "jeeresd.online: title JEERESD, ISSN 3078-2112, footer \"Yaoundé, Cameroon\", \"© 2026 EcoClean Environment\"; Crossref member 58098 EcoClean Environment, Yaoundé (23 Nov). Publisher waits on the D12 mint",
+   "check": "https://api.openalex.org/sources/S7407065328",
+   "works_count": 22
+  },
+  {
+   "entry": "S7407121871",
+   "source_id": 7407121871,
+   "tickets": [
+    28139
+   ],
+   "now": {
+    "display_name": "Moroccan Journal of Biological Sciences",
+    "host": null,
+    "homepage_url": "https://mjbsjournal.com/index.php/home",
+    "country_code": "MA",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "display_name": "Moroccan Journal of Multidisciplinary, Biological and Informatics Sciences"
+   },
+   "alt_add": [
+    "Moroccan Journal of Biological Sciences"
+   ],
+   "why": "ZD 28139: the journal renamed itself; the old title stays as an alternate",
+   "evidence": "mjbsjournal.com About: \"The Moroccan Journal of Multidisciplinary, Biological and Informatics Sciences, formerly known as the Moroccan Journal of Biological Sciences\" (23 Nov); no ISSN yet",
+   "check": "https://api.openalex.org/sources/S7407121871",
+   "works_count": 5
+  },
+  {
+   "entry": "S4306511492",
+   "source_id": 4306511492,
+   "tickets": [
+    28237
+   ],
+   "now": {
+    "display_name": "Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva",
+    "host": null,
+    "homepage_url": "https://ojs.gsdjournal.it/index.php/gsdj",
+    "country_code": "IT",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "display_name": "Italian Journal of Health Education, Sport and Inclusive Didactics",
+    "homepage_url": "https://renpress.it/index.php/gsdj"
+   },
+   "alt_add": [
+    "Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva"
+   ],
+   "why": "ZD 28237: the journal uses its English title and moved from ojs.gsdjournal.it to REN Press",
+   "evidence": "renpress.it/index.php/gsdj/en/about: title ITALIAN JOURNAL OF HEALTH EDUCATION, SPORT AND INCLUSIVE DIDACTICS (ISSN 2532-3296, E-ISSN 3103-5744); published by Gaia srl - Edizioni Universitarie Romane 2017-2024, by Cares srl - REN Press since 2025 (Vol. 9); DOIs 10.32043 at mEDRA (23 Nov). Publisher left open: no Crossref witness for D12",
+   "check": "https://api.openalex.org/sources/S4306511492",
+   "works_count": 1148
+  },
+  {
+   "entry": "S7407057661",
+   "source_id": 7407057661,
+   "tickets": [
+    2628
+   ],
+   "now": {
+    "display_name": "Academia Drug Development and Pharmacotherapy",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4405254463,
+    "country_code": "US"
+   },
+   "host_after": "I4405254463",
+   "why": "ZD 2628: Academia Drug Development and Pharmacotherapy is an Academia.edu Journals title with no host; its siblings (Academia Biology, Academia Letters, Academia Neuroscience and Brain Research) are hosted by I4405254463 Academia.edu Journals, US",
+   "evidence": "Crossref: every DOI on this ISSN is publisher Academia.edu Journals, member 9563, prefix 10.20935 (23 Nov)",
+   "check": "https://api.openalex.org/sources/S7407057661",
+   "works_count": 20
+  },
+  {
+   "entry": "S7407059567",
+   "source_id": 7407059567,
+   "tickets": [
+    2628
+   ],
+   "now": {
+    "display_name": "Academia Immunity and Disease",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4405254463,
+    "country_code": "US"
+   },
+   "host_after": "I4405254463",
+   "why": "ZD 2628: Academia Immunity and Disease is an Academia.edu Journals title with no host; its siblings (Academia Biology, Academia Letters, Academia Neuroscience and Brain Research) are hosted by I4405254463 Academia.edu Journals, US",
+   "evidence": "Crossref: every DOI on this ISSN is publisher Academia.edu Journals, member 9563, prefix 10.20935 (23 Nov)",
+   "check": "https://api.openalex.org/sources/S7407059567",
+   "works_count": 17
+  },
+  {
+   "entry": "S7407056243",
+   "source_id": 7407056243,
+   "tickets": [
+    2628
+   ],
+   "now": {
+    "display_name": "Academia AI and Applications",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4405254463,
+    "country_code": "US"
+   },
+   "host_after": "I4405254463",
+   "why": "ZD 2628: Academia AI and Applications is an Academia.edu Journals title with no host; its siblings (Academia Biology, Academia Letters, Academia Neuroscience and Brain Research) are hosted by I4405254463 Academia.edu Journals, US",
+   "evidence": "Crossref: every DOI on this ISSN is publisher Academia.edu Journals, member 9563, prefix 10.20935 (23 Nov)",
+   "check": "https://api.openalex.org/sources/S7407056243",
+   "works_count": 28
+  },
+  {
+   "entry": "S7407062867",
+   "source_id": 7407062867,
+   "tickets": [
+    2628
+   ],
+   "now": {
+    "display_name": "Academia Catalysis",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4405254463,
+    "country_code": "US"
+   },
+   "host_after": "I4405254463",
+   "why": "ZD 2628: Academia Catalysis is an Academia.edu Journals title with no host; its siblings (Academia Biology, Academia Letters, Academia Neuroscience and Brain Research) are hosted by I4405254463 Academia.edu Journals, US",
+   "evidence": "Crossref: every DOI on this ISSN is publisher Academia.edu Journals, member 9563, prefix 10.20935 (23 Nov)",
+   "check": "https://api.openalex.org/sources/S7407062867",
+   "works_count": 17
+  },
+  {
+   "entry": "S7407056634",
+   "source_id": 7407056634,
+   "tickets": [
+    2628
+   ],
+   "now": {
+    "display_name": "Academia Global and Public Health",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4405254463,
+    "country_code": "US"
+   },
+   "host_after": "I4405254463",
+   "why": "ZD 2628: Academia Global and Public Health is an Academia.edu Journals title with no host; its siblings (Academia Biology, Academia Letters, Academia Neuroscience and Brain Research) are hosted by I4405254463 Academia.edu Journals, US",
+   "evidence": "Crossref: every DOI on this ISSN is publisher Academia.edu Journals, member 9563, prefix 10.20935 (23 Nov)",
+   "check": "https://api.openalex.org/sources/S7407056634",
+   "works_count": 29
+  },
+  {
+   "entry": "S7407063856",
+   "source_id": 7407063856,
+   "tickets": [
+    2628
+   ],
+   "now": {
+    "display_name": "Academia Earth and Planetary Science",
+    "host": null,
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4405254463,
+    "country_code": "US"
+   },
+   "host_after": "I4405254463",
+   "why": "ZD 2628: Academia Earth and Planetary Science is an Academia.edu Journals title with no host; its siblings (Academia Biology, Academia Letters, Academia Neuroscience and Brain Research) are hosted by I4405254463 Academia.edu Journals, US",
+   "evidence": "Crossref: every DOI on this ISSN is publisher Academia.edu Journals, member 9563, prefix 10.20935 (23 Nov)",
+   "check": "https://api.openalex.org/sources/S7407063856",
+   "works_count": 18
+  },
+  {
+   "entry": "S2739114148",
+   "source_id": 2739114148,
+   "tickets": [
+    26733
+   ],
+   "now": {
+    "display_name": "Atti della Accademia Peloritana dei Pericolanti. Classe di Scienze Fisiche, Matematiche e Naturali/Atti della Accademia Peloritana dei Pericolanti, Classe di Scienze Fisiche, Matematiche e Naturali",
+    "host": "P4310317608",
+    "homepage_url": "http://www.actapeloritana.it",
+    "country_code": "IT",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "display_name": "Atti della Accademia Peloritana dei Pericolanti. Classe di Scienze Fisiche, Matematiche e Naturali"
+   },
+   "alt_add": [
+    "Atti della Accademia Peloritana dei Pericolanti, Classe di Scienze Fisiche, Matematiche e Naturali"
+   ],
+   "why": "ZD 26733: the name is two spellings of the title joined by a slash; keep the first, the comma spelling goes to alternate titles",
+   "evidence": "live display_name 'Atti della Accademia Peloritana dei Pericolanti. Classe di Scienze Fisiche, Matematiche e Naturali/Atti della Accademia Peloritana dei Pericolanti, Classe di Scienze Fisiche, Matematiche e Naturali' (23 Nov); mEDRA-registered (Crossref journals/1825-1242 names agency mEDRA)",
+   "check": "https://api.openalex.org/sources/S2739114148",
+   "works_count": 648
+  },
+  {
+   "entry": "S4406922265",
+   "source_id": 4406922265,
+   "tickets": [
+    28126
+   ],
+   "now": {
+    "display_name": "Max Planck Institute for Plasma Physics",
+    "host": null,
+    "homepage_url": "http://edoc.mpg.de/search.epl",
+    "country_code": null,
+    "type": "repository",
+    "is_oa": false
+   },
+   "set": {
+    "display_name": "MPG eDoc (Max Planck Society)",
+    "institution_id": 149899117,
+    "country_code": "DE"
+   },
+   "host_after": "I149899117",
+   "why": "ZD 28126: this repository source holds edoc.mpg.de records (the Max Planck Society's eDoc server, PuRe's predecessor) but is named 'Max Planck Institute for Plasma Physics' and has no host; name it for the server (as its sibling S4306400654 'MPG.PuRe (Max Planck Society)') and host it at the Max Planck Society",
+   "evidence": "live: homepage http://edoc.mpg.de/search.epl, type repository, 162,141 works carry its location, every sampled landing page http://edoc.mpg.de/<n> (e.g. W785968623 http://edoc.mpg.de/232958); http://edoc.mpg.de/232958 answers 301 -> https://pure.mpg.de/ (23 Nov); I149899117 = Max Planck Society, ROR 01hhn8329",
+   "check": "https://api.openalex.org/sources/S4406922265",
+   "works_count": 50820
+  }
+ ]
+}

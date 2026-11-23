@@ -1,0 +1,89 @@
+{
+ "run_at": "2026-11-23T15:43:25.710655+00:00",
+ "execute": true,
+ "revert_of": null,
+ "manifest": "handoff/registry_manifest_1899_arxiv_2026-11-19.json",
+ "before": {
+  "S4306400194": {
+   "display_name": "arXiv (Cornell University)",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "ArXiv.org"
+   ],
+   "publisher_id": null,
+   "institution_id": 205783295,
+   "homepage_url": "https://arxiv.org",
+   "country_code": "US",
+   "type": "repository",
+   "issn_l": "2331-8422",
+   "issns": [
+    "2331-8422"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  }
+ },
+ "overrides_before": {
+  "S4306400194": {
+   "curated_is_oa": true,
+   "curated_flip_year": null,
+   "note": "users-api curations: cur-acgftpLi3kGT | was: arXiv (Cornell University)"
+  }
+ },
+ "decisions": {
+  "S4306400194": {
+   "host": [
+    "I205783295",
+    "I4402554005"
+   ],
+   "display_name": [
+    "arXiv (Cornell University)",
+    "arXiv"
+   ],
+   "alternate_titles_added": [
+    "arXiv (Cornell University)"
+   ]
+  }
+ },
+ "skipped": {},
+ "after": {
+  "S4306400194": {
+   "display_name": "arXiv",
+   "display_name_before_override": "arXiv (Cornell University)",
+   "override_timestamp": "2026-11-23 15:43:26.915351+00:00",
+   "alternate_titles": [
+    "ArXiv.org",
+    "arXiv (Cornell University)"
+   ],
+   "publisher_id": null,
+   "institution_id": 4402554005,
+   "homepage_url": "https://arxiv.org",
+   "country_code": "US",
+   "type": "repository",
+   "issn_l": "2331-8422",
+   "issns": [
+    "2331-8422"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "note": "users-api curations: cur-acgftpLi3kGT | was: arXiv (Cornell University)"
+   }
+  }
+ },
+ "is_oa_recomputed_before": 0,
+ "is_oa_recomputed_after": {
+  "changed": 0,
+  "expected": 0
+ },
+ "changed": [
+  "S4306400194"
+ ]
+}

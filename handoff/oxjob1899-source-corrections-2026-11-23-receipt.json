@@ -1,0 +1,774 @@
+{
+ "run_at": "2026-11-23T15:42:11.923628+00:00",
+ "execute": true,
+ "revert_of": null,
+ "manifest": "handoff/registry_manifest_1899_2026-11-23.json",
+ "before": {
+  "S2736656839": {
+   "display_name": "Journal of Librarianship and Scholarly Communication",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JLiSC",
+    "JLSC",
+    "Journal of librarianship & scholarly communication"
+   ],
+   "publisher_id": 4310315716,
+   "institution_id": null,
+   "homepage_url": "http://jlsc-pub.org/",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2162-3309",
+   "issns": [
+    "2162-3309"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2012
+  },
+  "S4210239676": {
+   "display_name": "Áreas Revista Internacional de Ciencias Sociales",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310321098,
+   "institution_id": null,
+   "homepage_url": "https://revistas.um.es/index.php/areas",
+   "country_code": "ES",
+   "type": "journal",
+   "issn_l": "0211-6707",
+   "issns": [
+    "0211-6707",
+    "1989-6190"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S4404662753": {
+   "display_name": "Svāsthya.",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Svāsthya (online)"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://journal.megsci-ind.org/index.php/Svasthya",
+   "country_code": "ID",
+   "type": "journal",
+   "issn_l": "3063-0649",
+   "issns": [
+    "3063-0649"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407065328": {
+   "display_name": "Journal of Environmental Education Research and Sustainable Development",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3078-2112",
+   "issns": [
+    "3078-2112"
+   ],
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407121871": {
+   "display_name": "Moroccan Journal of Biological Sciences",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://mjbsjournal.com/index.php/home",
+   "country_code": "MA",
+   "type": "journal",
+   "issn_l": null,
+   "issns": null,
+   "is_oa": true,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S4306511492": {
+   "display_name": "Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://ojs.gsdjournal.it/index.php/gsdj",
+   "country_code": "IT",
+   "type": "journal",
+   "issn_l": null,
+   "issns": [
+    "2532-3296",
+    "3103-5744"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null
+  },
+  "S7407057661": {
+   "display_name": "Academia Drug Development and Pharmacotherapy",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3071-2521",
+   "issns": [
+    "3071-2521"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407059567": {
+   "display_name": "Academia Immunity and Disease",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3143-0481",
+   "issns": [
+    "3143-0481"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407056243": {
+   "display_name": "Academia AI and Applications",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3071-0286",
+   "issns": [
+    "3071-0286"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407062867": {
+   "display_name": "Academia Catalysis",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3143-5408",
+   "issns": [
+    "3143-5408"
+   ],
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407056634": {
+   "display_name": "Academia Global and Public Health",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3071-0324",
+   "issns": [
+    "3071-0324"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S7407063856": {
+   "display_name": "Academia Earth and Planetary Science",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": null,
+   "country_code": null,
+   "type": "journal",
+   "issn_l": "3143-6692",
+   "issns": [
+    "3143-6692"
+   ],
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S2739114148": {
+   "display_name": "Atti della Accademia Peloritana dei Pericolanti. Classe di Scienze Fisiche, Matematiche e Naturali/Atti della Accademia Peloritana dei Pericolanti, Classe di Scienze Fisiche, Matematiche e Naturali",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "Atti dell'Accademia Peloritana, Classe di Scienze Fisiche, Matematiche e Naturali",
+    "AAPP  Physical, Mathematical, and Natural Sciences"
+   ],
+   "publisher_id": 4310317608,
+   "institution_id": null,
+   "homepage_url": "http://www.actapeloritana.it",
+   "country_code": "IT",
+   "type": "journal",
+   "issn_l": "0365-0359",
+   "issns": [
+    "0365-0359",
+    "1825-1242"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  },
+  "S4406922265": {
+   "display_name": "Max Planck Institute for Plasma Physics",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "http://edoc.mpg.de/search.epl",
+   "country_code": null,
+   "type": "repository",
+   "issn_l": null,
+   "issns": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null
+  }
+ },
+ "overrides_before": {
+  "S2736656839": null,
+  "S4210239676": null,
+  "S4404662753": null,
+  "S7407065328": null,
+  "S7407121871": {
+   "curated_is_oa": true,
+   "curated_flip_year": null,
+   "note": "users-api curations: cur-EVictayxTFuU | was: OJS journal: OA by default, as for Beacon mints (#1539); added via jobs.add_journal"
+  },
+  "S4306511492": null,
+  "S7407057661": null,
+  "S7407059567": null,
+  "S7407056243": null,
+  "S7407062867": null,
+  "S7407056634": null,
+  "S7407063856": null,
+  "S2739114148": null,
+  "S4406922265": null
+ },
+ "decisions": {
+  "S2736656839": {
+   "host": [
+    "P4310315716",
+    "P4324047741"
+   ],
+   "homepage_url": [
+    "http://jlsc-pub.org/",
+    "https://www.iastatedigitalpress.com/jlsc/"
+   ]
+  },
+  "S4210239676": {
+   "host": [
+    "P4310321098",
+    "P4310321247"
+   ],
+   "homepage_url": [
+    "https://revistas.um.es/index.php/areas",
+    "https://revistes.ua.es/areas/"
+   ]
+  },
+  "S4404662753": {
+   "homepage_url": [
+    "https://journal.megsci-ind.org/index.php/Svasthya",
+    "https://journal.megsci-ind.com/index.php/Svasthya"
+   ],
+   "display_name": [
+    "Svāsthya.",
+    "Svāsthya: Trends in General Medicine and Public Health"
+   ],
+   "alternate_titles_added": [
+    "Svāsthya"
+   ]
+  },
+  "S7407065328": {
+   "homepage_url": [
+    null,
+    "https://jeeresd.online/"
+   ],
+   "country_code": [
+    null,
+    "CM"
+   ]
+  },
+  "S7407121871": {
+   "display_name": [
+    "Moroccan Journal of Biological Sciences",
+    "Moroccan Journal of Multidisciplinary, Biological and Informatics Sciences"
+   ],
+   "alternate_titles_added": [
+    "Moroccan Journal of Biological Sciences"
+   ]
+  },
+  "S4306511492": {
+   "homepage_url": [
+    "https://ojs.gsdjournal.it/index.php/gsdj",
+    "https://renpress.it/index.php/gsdj"
+   ],
+   "display_name": [
+    "Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva",
+    "Italian Journal of Health Education, Sport and Inclusive Didactics"
+   ],
+   "alternate_titles_added": [
+    "Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva"
+   ]
+  },
+  "S7407057661": {
+   "host": [
+    null,
+    "I4405254463"
+   ],
+   "country_code": [
+    null,
+    "US"
+   ]
+  },
+  "S7407059567": {
+   "host": [
+    null,
+    "I4405254463"
+   ],
+   "country_code": [
+    null,
+    "US"
+   ]
+  },
+  "S7407056243": {
+   "host": [
+    null,
+    "I4405254463"
+   ],
+   "country_code": [
+    null,
+    "US"
+   ]
+  },
+  "S7407062867": {
+   "host": [
+    null,
+    "I4405254463"
+   ],
+   "country_code": [
+    null,
+    "US"
+   ]
+  },
+  "S7407056634": {
+   "host": [
+    null,
+    "I4405254463"
+   ],
+   "country_code": [
+    null,
+    "US"
+   ]
+  },
+  "S7407063856": {
+   "host": [
+    null,
+    "I4405254463"
+   ],
+   "country_code": [
+    null,
+    "US"
+   ]
+  },
+  "S2739114148": {
+   "display_name": [
+    "Atti della Accademia Peloritana dei Pericolanti. Classe di Scienze Fisiche, Matematiche e Naturali/Atti della Accademia Peloritana dei Pericolanti, Classe di Scienze Fisiche, Matematiche e Naturali",
+    "Atti della Accademia Peloritana dei Pericolanti. Classe di Scienze Fisiche, Matematiche e Naturali"
+   ],
+   "alternate_titles_added": [
+    "Atti della Accademia Peloritana dei Pericolanti, Classe di Scienze Fisiche, Matematiche e Naturali"
+   ]
+  },
+  "S4406922265": {
+   "host": [
+    null,
+    "I149899117"
+   ],
+   "country_code": [
+    null,
+    "DE"
+   ],
+   "display_name": [
+    "Max Planck Institute for Plasma Physics",
+    "MPG eDoc (Max Planck Society)"
+   ]
+  }
+ },
+ "skipped": {},
+ "after": {
+  "S2736656839": {
+   "display_name": "Journal of Librarianship and Scholarly Communication",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [
+    "JLiSC",
+    "JLSC",
+    "Journal of librarianship & scholarly communication"
+   ],
+   "publisher_id": 4324047741,
+   "institution_id": null,
+   "homepage_url": "https://www.iastatedigitalpress.com/jlsc/",
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "2162-3309",
+   "issns": [
+    "2162-3309"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": 2012,
+   "source_oa_override": null
+  },
+  "S4210239676": {
+   "display_name": "Áreas Revista Internacional de Ciencias Sociales",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": [],
+   "publisher_id": 4310321247,
+   "institution_id": null,
+   "homepage_url": "https://revistes.ua.es/areas/",
+   "country_code": "ES",
+   "type": "journal",
+   "issn_l": "0211-6707",
+   "issns": [
+    "0211-6707",
+    "1989-6190"
+   ],
+   "is_oa": true,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4404662753": {
+   "display_name": "Svāsthya: Trends in General Medicine and Public Health",
+   "display_name_before_override": "Svāsthya.",
+   "override_timestamp": "2026-11-23 15:42:13.447587+00:00",
+   "alternate_titles": [
+    "Svāsthya (online)",
+    "Svāsthya"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://journal.megsci-ind.com/index.php/Svasthya",
+   "country_code": "ID",
+   "type": "journal",
+   "issn_l": "3063-0649",
+   "issns": [
+    "3063-0649"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407065328": {
+   "display_name": "Journal of Environmental Education Research and Sustainable Development",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://jeeresd.online/",
+   "country_code": "CM",
+   "type": "journal",
+   "issn_l": "3078-2112",
+   "issns": [
+    "3078-2112"
+   ],
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407121871": {
+   "display_name": "Moroccan Journal of Multidisciplinary, Biological and Informatics Sciences",
+   "display_name_before_override": "Moroccan Journal of Biological Sciences",
+   "override_timestamp": "2026-11-23 15:42:14.070523+00:00",
+   "alternate_titles": [
+    "Moroccan Journal of Biological Sciences"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://mjbsjournal.com/index.php/home",
+   "country_code": "MA",
+   "type": "journal",
+   "issn_l": null,
+   "issns": null,
+   "is_oa": true,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": {
+    "curated_is_oa": true,
+    "curated_flip_year": null,
+    "note": "users-api curations: cur-EVictayxTFuU | was: OJS journal: OA by default, as for Beacon mints (#1539); added via jobs.add_journal"
+   }
+  },
+  "S4306511492": {
+   "display_name": "Italian Journal of Health Education, Sport and Inclusive Didactics",
+   "display_name_before_override": "Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva",
+   "override_timestamp": "2026-11-23 15:42:14.445202+00:00",
+   "alternate_titles": [
+    "Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva"
+   ],
+   "publisher_id": null,
+   "institution_id": null,
+   "homepage_url": "https://renpress.it/index.php/gsdj",
+   "country_code": "IT",
+   "type": "journal",
+   "issn_l": null,
+   "issns": [
+    "2532-3296",
+    "3103-5744"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": true,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407057661": {
+   "display_name": "Academia Drug Development and Pharmacotherapy",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": 4405254463,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "3071-2521",
+   "issns": [
+    "3071-2521"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407059567": {
+   "display_name": "Academia Immunity and Disease",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": 4405254463,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "3143-0481",
+   "issns": [
+    "3143-0481"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407056243": {
+   "display_name": "Academia AI and Applications",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": 4405254463,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "3071-0286",
+   "issns": [
+    "3071-0286"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407062867": {
+   "display_name": "Academia Catalysis",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": 4405254463,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "3143-5408",
+   "issns": [
+    "3143-5408"
+   ],
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407056634": {
+   "display_name": "Academia Global and Public Health",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": 4405254463,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "3071-0324",
+   "issns": [
+    "3071-0324"
+   ],
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S7407063856": {
+   "display_name": "Academia Earth and Planetary Science",
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": 4405254463,
+   "homepage_url": null,
+   "country_code": "US",
+   "type": "journal",
+   "issn_l": "3143-6692",
+   "issns": [
+    "3143-6692"
+   ],
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S2739114148": {
+   "display_name": "Atti della Accademia Peloritana dei Pericolanti. Classe di Scienze Fisiche, Matematiche e Naturali",
+   "display_name_before_override": "Atti della Accademia Peloritana dei Pericolanti. Classe di Scienze Fisiche, Matematiche e Naturali/Atti della Accademia Peloritana dei Pericolanti, Classe di Scienze Fisiche, Matematiche e Naturali",
+   "override_timestamp": "2026-11-23 15:42:16.324663+00:00",
+   "alternate_titles": [
+    "Atti dell'Accademia Peloritana, Classe di Scienze Fisiche, Matematiche e Naturali",
+    "AAPP  Physical, Mathematical, and Natural Sciences",
+    "Atti della Accademia Peloritana dei Pericolanti, Classe di Scienze Fisiche, Matematiche e Naturali"
+   ],
+   "publisher_id": 4310317608,
+   "institution_id": null,
+   "homepage_url": "http://www.actapeloritana.it",
+   "country_code": "IT",
+   "type": "journal",
+   "issn_l": "0365-0359",
+   "issns": [
+    "0365-0359",
+    "1825-1242"
+   ],
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  },
+  "S4406922265": {
+   "display_name": "MPG eDoc (Max Planck Society)",
+   "display_name_before_override": "Max Planck Institute for Plasma Physics",
+   "override_timestamp": "2026-11-23 15:42:16.673586+00:00",
+   "alternate_titles": null,
+   "publisher_id": null,
+   "institution_id": 149899117,
+   "homepage_url": "http://edoc.mpg.de/search.epl",
+   "country_code": "DE",
+   "type": "repository",
+   "issn_l": null,
+   "issns": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "source_oa_override": null
+  }
+ },
+ "is_oa_recomputed_before": 0,
+ "is_oa_recomputed_after": {
+  "changed": 0,
+  "expected": 0
+ },
+ "changed": [
+  "S2736656839",
+  "S4210239676",
+  "S4404662753",
+  "S7407065328",
+  "S7407121871",
+  "S4306511492",
+  "S7407057661",
+  "S7407059567",
+  "S7407056243",
+  "S7407062867",
+  "S7407056634",
+  "S7407063856",
+  "S2739114148",
+  "S4406922265"
+ ]
+}
