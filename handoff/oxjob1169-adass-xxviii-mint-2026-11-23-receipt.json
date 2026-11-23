@@ -1,0 +1,42 @@
+{
+ "run_at": "2026-11-23T16:28:37.194243+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 1169,
+ "ticket": 27219,
+ "approved": "card D5 ruling (oxjob #2254 RULINGS, 16 Nov 2026); standing authority (reversible)",
+ "before": {
+  "sources_naming_it": [],
+  "sibling": [
+   {
+    "id": 4306503611,
+    "display_name": "Astronomical Data Analysis Software and Systems XXVII",
+    "type": "conference",
+    "publisher_id": null
+   }
+  ]
+ },
+ "actions": [
+  "MINTED S7407154488 conference 'Astronomical Data Analysis Software and Systems XXVIII' alt ['ADASS XXVIII', 'ASP Conference Series vol. 523'] host P4322696608 homepage http://aspbooks.org/a/volumes/table_of_contents/?book_id=594 (ZD 27219)",
+  "COMMITTED"
+ ],
+ "after": {
+  "source": [
+   {
+    "id": 7407154488,
+    "display_name": "Astronomical Data Analysis Software and Systems XXVIII",
+    "type": "conference",
+    "publisher": "Astronomical Society of the Pacific",
+    "publisher_id": 4322696608,
+    "homepage_url": "http://aspbooks.org/a/volumes/table_of_contents/?book_id=594",
+    "alternate_titles": [
+     "ADASS XXVIII",
+     "ASP Conference Series vol. 523"
+    ],
+    "country_code": "US",
+    "is_oa": false
+   }
+  ]
+ },
+ "source_id": 7407154488
+}
