@@ -1,0 +1,1698 @@
+{
+ "built": "2026-11-22 CT",
+ "job": 2541,
+ "script": "handoff/oxjob1223-source-corrections-2026-11-17.py",
+ "entries": [
+  {
+   "entry": "S149374293",
+   "source_id": 149374293,
+   "tickets": [],
+   "now": {
+    "display_name": "Néphrologie & Thérapeutique",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/nephrologie-and-therapeutique",
+    "country_code": "FR",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320125
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 18929 JLE registers all its DOIs incl. the 10.1016 back file; 2026 issues at jle.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320125 John Libbey Eurotext. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 5,254 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S149374293",
+   "host_after": "P4310320125"
+  },
+  {
+   "entry": "S4210189827",
+   "source_id": 4210189827,
+   "tickets": [],
+   "now": {
+    "display_name": "Sexologies",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/sexologies",
+    "country_code": "FR",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320125
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 18929 JLE registers all its DOIs incl. the 10.1016 back file; 2026 issues at jle.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320125 John Libbey Eurotext. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,279 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210189827",
+   "host_after": "P4310320125"
+  },
+  {
+   "entry": "S4210193381",
+   "source_id": 4210193381,
+   "tickets": [],
+   "now": {
+    "display_name": "Juristische Blätter",
+    "host": "P4310319965",
+    "homepage_url": "https://link.springer.com/journal/503",
+    "country_code": "AT",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310317867
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. Crossref member 30674 registers prefix 10.33196 and the 10.1007 back file; 2026 issues at biblioscout.net (Verlag Österreich). Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310317867 Verlag Österreich. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 3,399 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210193381",
+   "host_after": "P4310317867"
+  },
+  {
+   "entry": "S2765062994",
+   "source_id": 2765062994,
+   "tickets": [],
+   "now": {
+    "display_name": "Renewable Energy and Power Quality Journal",
+    "host": "P4310320990",
+    "homepage_url": "http://www.icrepq.com/rev-papers-03.htm",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4404684701
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 53656 Cultech registers every DOI; repqj.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4404684701 Cultech Publishing Sdn. Bhd.. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 3,357 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2765062994",
+   "host_after": "P4404684701"
+  },
+  {
+   "entry": "S124442846",
+   "source_id": 124442846,
+   "tickets": [],
+   "now": {
+    "display_name": "Russian Geology and Geophysics",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/russian-geology-and-geophysics",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4210093729
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 859 GeoScienceWorld registers every DOI incl. 1991 back file; pubs.geoscienceworld.org. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I4210093729 GeoScienceWorld. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 3,130 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S124442846",
+   "host_after": "I4210093729"
+  },
+  {
+   "entry": "S123869642",
+   "source_id": 123869642,
+   "tickets": [],
+   "now": {
+    "display_name": "Czechoslovak Mathematical Journal",
+    "host": "P4310319965",
+    "homepage_url": "http://dx.doi.org/10.1007/10587.1572-9141",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310322158
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. Crossref member 8849 registers every DOI incl. the 10.1007 ones; articles.math.cas.cz. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310322158 Institute of Mathematics of the Czech Academy of Sciences. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 2,991 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S123869642",
+   "host_after": "P4310322158"
+  },
+  {
+   "entry": "S2764834445",
+   "source_id": 2764834445,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Orthopaedics",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/journal-of-orthopaedics",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4323830092
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 10894 Scientific Scholar registers every DOI incl. the 10.1016 back file; jortho.org. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4323830092 Scientific Scholar. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 2,553 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764834445",
+   "host_after": "P4323830092"
+  },
+  {
+   "entry": "S104011845",
+   "source_id": 104011845,
+   "tickets": [],
+   "now": {
+    "display_name": "Nonlinear Optics",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "conference",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310315679
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 285 Optica registers 2,066 of its 2,608 DOIs (10.1364/nlo conference papers 1992-2023); opg.optica.org. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310315679 Optica Publishing Group. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 2,396 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S104011845",
+   "host_after": "P4310315679"
+  },
+  {
+   "entry": "S104377164",
+   "source_id": 104377164,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Manipulative and Physiological Therapeutics",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/journal-of-manipulative-and-physiological-therapeutics",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 185849064
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 57152 NUHS registers every DOI incl. the 10.1016 back file; jmpt.kglmeridian.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I185849064 National University of Health Sciences. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 2,395 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S104377164",
+   "host_after": "I185849064"
+  },
+  {
+   "entry": "S67905653",
+   "source_id": 67905653,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Chiropractic Medicine",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/journal-of-chiropractic-medicine",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 185849064
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 57152 NUHS registers its DOIs incl. the 10.1016 back file; jcm.kglmeridian.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I185849064 National University of Health Sciences. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 484 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S67905653",
+   "host_after": "I185849064"
+  },
+  {
+   "entry": "S31784138",
+   "source_id": 31784138,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Chiropractic Humanities",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/journal-of-chiropractic-humanities",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 185849064
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 57152 NUHS registers every DOI incl. the 10.1016 back file; jch.kglmeridian.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I185849064 National University of Health Sciences. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 237 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S31784138",
+   "host_after": "I185849064"
+  },
+  {
+   "entry": "S104441155",
+   "source_id": 104441155,
+   "tickets": [],
+   "now": {
+    "display_name": "Acta Orthopaedica et Traumatologica Turcica",
+    "host": "P4310320990",
+    "homepage_url": "http://www.aott.org.tr/",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310318309
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 3111 AVES registers its DOIs; 2026 issues at aott.org.tr. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310318309 AVES Yayincilik. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 2,194 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S104441155",
+   "host_after": "P4310318309"
+  },
+  {
+   "entry": "S114012392",
+   "source_id": 114012392,
+   "tickets": [],
+   "now": {
+    "display_name": "European Journal of Mineralogy",
+    "host": "P4310320990",
+    "homepage_url": "https://www.european-journal-of-mineralogy.net/",
+    "country_code": "DE",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310313756
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 2020-2026 DOIs by member 3145 Copernicus (ejm.copernicus.org), 1989-2019 by member 181 Schweizerbart; never Elsevier. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310313756 Copernicus Publications. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 2,192 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S114012392",
+   "host_after": "P4310313756"
+  },
+  {
+   "entry": "S147001635",
+   "source_id": 147001635,
+   "tickets": [],
+   "now": {
+    "display_name": "ACTA THERIOLOGICA",
+    "host": "P4310319965",
+    "homepage_url": "http://www.zbs.bialowieza.pl/publikacje/?pole=acta%20theriologica",
+    "country_code": "DE",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 2803004145
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. Crossref member 2574 Mammal Research Institute PAS registers 10.4098 (1955-2015, rcin.org.pl); Springer's 2011-2014 10.1007 works stay hidden by the name arm. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I2803004145 Mammal Research Institute. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,703 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S147001635",
+   "host_after": "I2803004145"
+  },
+  {
+   "entry": "S85107651",
+   "source_id": 85107651,
+   "tickets": [],
+   "now": {
+    "display_name": "Neurologia i Neurochirurgia Polska",
+    "host": "P4310320990",
+    "homepage_url": "http://www.termedia.pl/czasopismo/neurologia_i_nbsp_neurochirurgia_polska-15/info",
+    "country_code": "PL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320293
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 3595 VM Media Group registers every DOI incl. the 10.1016 back file; journals.viamedica.pl. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320293 Via Medica. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,303 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S85107651",
+   "host_after": "P4310320293"
+  },
+  {
+   "entry": "S168508312",
+   "source_id": 168508312,
+   "tickets": [],
+   "now": {
+    "display_name": "Reports of Practical Oncology & Radiotherapy",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/reports-of-practical-oncology-and-radiotherapy",
+    "country_code": "PL",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320293
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 3595 VM Media Group registers every DOI incl. the 10.1016 back file; journals.viamedica.pl. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320293 Via Medica. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 279 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S168508312",
+   "host_after": "P4310320293"
+  },
+  {
+   "entry": "S4210184223",
+   "source_id": 4210184223,
+   "tickets": [],
+   "now": {
+    "display_name": "Advances in Mathematics Scientific Journal",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "MK",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4405266432
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 23657 registers every DOI; research-publication.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I4405266432 Union of Researchers of Macedonia. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,033 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210184223",
+   "host_after": "I4405266432"
+  },
+  {
+   "entry": "S2751575936",
+   "source_id": 2751575936,
+   "tickets": [],
+   "now": {
+    "display_name": "Pediatria Polska",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "PL",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320332
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 3061 Termedia registers every DOI incl. the 10.1016 back file; paediatrics.termedia.pl. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320332 Termedia Publishing House. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 965 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2751575936",
+   "host_after": "P4310320332"
+  },
+  {
+   "entry": "S14695856",
+   "source_id": 14695856,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Anatomical Society of India",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "IN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320448
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 10.4103 by member 276 (Wolters Kluwer Medknow), the 10.1016 back file by member 2581 Medknow. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320448 Medknow. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 851 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S14695856",
+   "host_after": "P4310320448"
+  },
+  {
+   "entry": "S146190922",
+   "source_id": 146190922,
+   "tickets": [],
+   "now": {
+    "display_name": "Dermatologica Sinica",
+    "host": "P4310320990",
+    "homepage_url": "http://www.dermsinica.org/",
+    "country_code": "TW",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320448
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 10.4103 by member 276 (Wolters Kluwer Medknow), the 10.1016 back file by member 2581 Medknow. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320448 Medknow. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 484 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S146190922",
+   "host_after": "P4310320448"
+  },
+  {
+   "entry": "S2764521089",
+   "source_id": 2764521089,
+   "tickets": [],
+   "now": {
+    "display_name": "Current Medicine Research and Practice",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "IN",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320448
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 10.4103 by member 276 (Wolters Kluwer Medknow), the 10.1016 back file by member 2581 Medknow. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320448 Medknow. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 318 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764521089",
+   "host_after": "P4310320448"
+  },
+  {
+   "entry": "S2898469566",
+   "source_id": 2898469566,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Arthroscopy and Joint Surgery",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/journal-of-arthroscopy-and-joint-surgery",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320448
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 10.4103 by member 276 (Wolters Kluwer Medknow), the 10.1016 back file by member 2581 Medknow. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320448 Medknow. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 293 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2898469566",
+   "host_after": "P4310320448"
+  },
+  {
+   "entry": "S2764616852",
+   "source_id": 2764616852,
+   "tickets": [],
+   "now": {
+    "display_name": "Indian Journal of Medical Specialities",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/indian-journal-of-medical-specialities",
+    "country_code": "IN",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320448
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 10.4103 by member 276 (Wolters Kluwer Medknow), older by member 2581 Medknow. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320448 Medknow. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 238 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764616852",
+   "host_after": "P4310320448"
+  },
+  {
+   "entry": "S2764962399",
+   "source_id": 2764962399,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Microscopy and Ultrastructure",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320448
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 10.4103 by member 276 (Wolters Kluwer Medknow), the 10.1016 back file by member 2581 Medknow. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320448 Medknow. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 220 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764962399",
+   "host_after": "P4310320448"
+  },
+  {
+   "entry": "S2765046882",
+   "source_id": 2765046882,
+   "tickets": [],
+   "now": {
+    "display_name": "Formosan Journal of Musculoskeletal Disorders",
+    "host": "P4310320990",
+    "homepage_url": "http://www.sciencedirect.com/science/journal/22107940",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310320448
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 10.4103 by member 276 (Wolters Kluwer Medknow), the 10.1016 back file by member 2581 Medknow. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320448 Medknow. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 204 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2765046882",
+   "host_after": "P4310320448"
+  },
+  {
+   "entry": "S72750922",
+   "source_id": 72750922,
+   "tickets": [],
+   "now": {
+    "display_name": "Saudi Journal of Ophthalmology",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/saudi-journal-of-ophthalmology",
+    "country_code": "SA",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320448
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 10.4103 by member 276 (Wolters Kluwer Medknow), the 10.1016 back file by member 2581 Medknow. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320448 Medknow. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 203 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S72750922",
+   "host_after": "P4310320448"
+  },
+  {
+   "entry": "S2898433336",
+   "source_id": 2898433336,
+   "tickets": [],
+   "now": {
+    "display_name": "Hipertensión y Riesgo Vascular",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/hipertension-y-riesgo-vascular",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310322006
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 8588 ARAN Ediciones registers every DOI incl. the 10.1016 back file. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310322006 Arán Ediciones. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 835 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2898433336",
+   "host_after": "P4310322006"
+  },
+  {
+   "entry": "S4210223617",
+   "source_id": 4210223617,
+   "tickets": [],
+   "now": {
+    "display_name": "Angiología",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310322006
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 8588 ARAN Ediciones registers every DOI incl. the 10.1016 back file. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310322006 Arán Ediciones. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 759 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210223617",
+   "host_after": "P4310322006"
+  },
+  {
+   "entry": "S4210224484",
+   "source_id": 4210224484,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Prosthodontic Research",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/journal-of-prosthodontic-research",
+    "country_code": "JP",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4320800762
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 996 registers every DOI incl. the 10.1016 back file; J-STAGE. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4320800762 Japan Prosthodontic Society. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 531 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210224484",
+   "host_after": "P4320800762"
+  },
+  {
+   "entry": "S4210182015",
+   "source_id": 4210182015,
+   "tickets": [],
+   "now": {
+    "display_name": "International Journal of Engineering Science and Technology",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "NG",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310321518
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 2895 AJOL registers every DOI; ajol.info. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310321518 African Journals OnLine. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 474 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210182015",
+   "host_after": "P4310321518"
+  },
+  {
+   "entry": "S125733402",
+   "source_id": 125733402,
+   "tickets": [],
+   "now": {
+    "display_name": "Investigación Económica",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "MX",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310319658
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 9467 UNAM registers its DOIs; revistas.unam.mx. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310319658 National Autonomous University of Mexico. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 470 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S125733402",
+   "host_after": "P4310319658"
+  },
+  {
+   "entry": "S76206574",
+   "source_id": 76206574,
+   "tickets": [],
+   "now": {
+    "display_name": "Swiss Journal of Geosciences",
+    "host": "P4310319965",
+    "homepage_url": "https://sjg.springeropen.com/",
+    "country_code": "CH",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310321056
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. Crossref member 2258 Pensoft registers every DOI incl. the 10.1007 back file; sjg.pensoft.net. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310321056 Pensoft Publishers. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 437 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S76206574",
+   "host_after": "P4310321056"
+  },
+  {
+   "entry": "S19156006",
+   "source_id": 19156006,
+   "tickets": [],
+   "now": {
+    "display_name": "International journal of gerontology",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4366111406
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 3252 Airiti Press holds the 10.1016 back file; later DOIs by Airiti's own agency. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4366111406 Airiti. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 407 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S19156006",
+   "host_after": "P4366111406"
+  },
+  {
+   "entry": "S4210178728",
+   "source_id": 4210178728,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Communications and Information Networks",
+    "host": "P4310319965",
+    "homepage_url": "https://link.springer.com/journal/41650",
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319808
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. Crossref member 263 IEEE registers every DOI incl. the 10.1007 back file; ieeexplore. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310319808 Institute of Electrical and Electronics Engineers. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 398 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210178728",
+   "host_after": "P4310319808"
+  },
+  {
+   "entry": "S44544138",
+   "source_id": 44544138,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Income Distribution",
+    "host": "P4310320990",
+    "homepage_url": "http://www.sciencedirect.com/science/journal/09266437",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310313002
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 10697 York University Libraries registers every DOI; jid.journals.yorku.ca. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310313002 York University. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 379 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S44544138",
+   "host_after": "P4310313002"
+  },
+  {
+   "entry": "S2764669882",
+   "source_id": 2764669882,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Pierre Fauchard Academy (India Section)",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "IN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4403928218
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 9296 registers every DOI incl. the 10.1016 back file; jpfa.in. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I4403928218 IP Innovative Publication Pvt. Ltd. (India). The Springer/Elsevier abstract takedown's host arm (#2351) hides about 359 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764669882",
+   "host_after": "I4403928218"
+  },
+  {
+   "entry": "S4210239799",
+   "source_id": 4210239799,
+   "tickets": [],
+   "now": {
+    "display_name": "Cirujano General",
+    "host": "P4310320990",
+    "homepage_url": "https://www.elsevier.es/es-revista-cirujano-general-218",
+    "country_code": "MX",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4404685389
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 18774 registers every DOI; medigraphic.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4404685389 GRAPHIMEDIC SA DE CV. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 291 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210239799",
+   "host_after": "P4404685389"
+  },
+  {
+   "entry": "S4210177465",
+   "source_id": 4210177465,
+   "tickets": [],
+   "now": {
+    "display_name": "Connect The World of Critical Care Nursing",
+    "host": "P4310319965",
+    "homepage_url": "https://connect.springerpub.com/content/sgrwfccn?implicit-login=true",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310320379
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. Crossref member 11723 University of Alberta Libraries registers every DOI; wfccn-ijcc.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310320379 University of Alberta Library. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 204 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210177465",
+   "host_after": "P4310320379"
+  },
+  {
+   "entry": "S2755767643",
+   "source_id": 2755767643,
+   "tickets": [],
+   "now": {
+    "display_name": "Boletín Médico del Hospital Infantil de México",
+    "host": "P4310320990",
+    "homepage_url": "https://bmhim.com",
+    "country_code": "MX",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404678942
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 10499 Permanyer registers 2014-2026 DOIs; bmhim.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4404678942 Publicidad Permanyer, SLU. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 704 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2755767643",
+   "host_after": "P4404678942"
+  },
+  {
+   "entry": "S2898152839",
+   "source_id": 2898152839,
+   "tickets": [],
+   "now": {
+    "display_name": "Revista Médica Del Hospital General De México",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/revista-medica-del-hospital-general-de-mexico",
+    "country_code": "MX",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404678942
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 10499 Permanyer registers its DOIs; hospitalgeneral.mx. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4404678942 Publicidad Permanyer, SLU. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 327 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2898152839",
+   "host_after": "P4404678942"
+  },
+  {
+   "entry": "S2898524072",
+   "source_id": 2898524072,
+   "tickets": [],
+   "now": {
+    "display_name": "Perinatología y Reproducción Humana",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/perinatologia-y-reproduccion-humana",
+    "country_code": "MX",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404678942
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 10499 Permanyer registers its DOIs; perinatologia.mx. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4404678942 Publicidad Permanyer, SLU. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 317 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2898524072",
+   "host_after": "P4404678942"
+  },
+  {
+   "entry": "S2737284857",
+   "source_id": 2737284857,
+   "tickets": [],
+   "now": {
+    "display_name": "Revista Mexicana de Oftalmología",
+    "host": "P4310320990",
+    "homepage_url": "http://www.rmo.com.mx",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4404678942
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 10499 Permanyer registers its DOIs incl. the 10.1016 back file; rmo.com.mx. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4404678942 Publicidad Permanyer, SLU. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 278 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2737284857",
+   "host_after": "P4404678942"
+  },
+  {
+   "entry": "S5835822",
+   "source_id": 5835822,
+   "tickets": [],
+   "now": {
+    "display_name": "The International Journal of Accounting",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319815
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 219 World Scientific registers every DOI incl. the 10.1016 back file; worldscientific.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310319815 World Scientific. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 618 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S5835822",
+   "host_after": "P4310319815"
+  },
+  {
+   "entry": "S4210175178",
+   "source_id": 4210175178,
+   "tickets": [],
+   "now": {
+    "display_name": "Advances in parallel computing",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "NL",
+    "type": "book series",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": 4310318577
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 7437 IOS Press registers the 2009-2022 volumes; Elsevier-era volumes stay hidden by the name arm. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310318577 IOS Press. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 577 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210175178",
+   "host_after": "P4310318577"
+  },
+  {
+   "entry": "S162117930",
+   "source_id": 162117930,
+   "tickets": [],
+   "now": {
+    "display_name": "Contemporary perspectives on family research",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "US",
+    "type": "book series",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319811
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 140 Emerald registers every DOI incl. the 10.1016 (JAI) back file; emerald.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310319811 Emerald Publishing Limited. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 203 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S162117930",
+   "host_after": "P4310319811"
+  },
+  {
+   "entry": "S2764929533",
+   "source_id": 2764929533,
+   "tickets": [],
+   "now": {
+    "display_name": "South Asian Journal of Management",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "IN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4210107197
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. Crossref member 48620 AMDISA registers its DOIs; sajm-amdisa.org. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I4210107197 Association of Management Development Institutions in South Asia. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 379 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764929533",
+   "host_after": "I4210107197"
+  },
+  {
+   "entry": "S74100341",
+   "source_id": 74100341,
+   "tickets": [],
+   "now": {
+    "display_name": "Opto-Electronics Review",
+    "host": "P4310320990",
+    "homepage_url": "https://www.wat.edu.pl/opto-electronics-review",
+    "country_code": "PL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310317485
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 37468 PAS Chancellery registers 2019-2026 DOIs; wydawnictwo.pan.pl. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310317485 Polish Academy of Sciences. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 371 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S74100341",
+   "host_after": "P4310317485"
+  },
+  {
+   "entry": "S2898508869",
+   "source_id": 2898508869,
+   "tickets": [],
+   "now": {
+    "display_name": "Ansiedad y Estrés",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/ansiedad-y-estres",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310322061
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 3052 registers its DOIs; ansiedadyestres.es. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310322061 Colegio Oficial de Psicólogos de Madrid. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 353 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2898508869",
+   "host_after": "P4310322061"
+  },
+  {
+   "entry": "S2754502527",
+   "source_id": 2754502527,
+   "tickets": [],
+   "now": {
+    "display_name": "Dental Cadmos",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "IT",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4404678849
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 9508 Edra registers 2016-2026 DOIs; dentalcadmos.com; Elsevier 2011-2016 works stay hidden by the name arm. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4404678849 Edra SpA. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,227 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2754502527",
+   "host_after": "P4404678849"
+  },
+  {
+   "entry": "S134953813",
+   "source_id": 134953813,
+   "tickets": [],
+   "now": {
+    "display_name": "Economics bulletin",
+    "host": "P4310319965",
+    "homepage_url": "http://www.economicsbulletin.com/",
+    "country_code": "US",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4320800638
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs of its own (repository DOIs only); the journal's own site (economicsbulletin.vanderbilt.edu) publishes it independently; SSRN 10.2139 copies named Elsevier BV stay hidden by the name arm. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4320800638 Economics Bulletin. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 4,376 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S134953813",
+   "host_after": "P4320800638"
+  },
+  {
+   "entry": "S2898123265",
+   "source_id": 2898123265,
+   "tickets": [],
+   "now": {
+    "display_name": "Revista Europea de Dirección y Economía de la Empresa",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/revista-europea-de-direccion-y-economia-de-la-empresa",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4404682820
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: AEDEM registers 249 of its DOIs; the 2015 10.1016 back file is now Emerald's (member 140). Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4404682820 Academia Europea de Direccion y Economia de la Empresa. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 461 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2898123265",
+   "host_after": "P4404682820"
+  },
+  {
+   "entry": "S60589374",
+   "source_id": 60589374,
+   "tickets": [],
+   "now": {
+    "display_name": "Acta Ecologica Sinica",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/acta-ecologica-sinica",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": 4310319982
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 3874 (the journal) registers every DOI; ecologica.cn; Elsevier published only the English edition (ISSN 1872-2032). Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = P4310319982 Science Press. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 13,080 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S60589374",
+   "host_after": "P4310319982"
+  },
+  {
+   "entry": "S15075267",
+   "source_id": 15075267,
+   "tickets": [],
+   "now": {
+    "display_name": "Archaeology Ethnology and Anthropology of Eurasia",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "RU",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4210164949
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 7151 Institute of Archaeology and Ethnography SB RAS registers every DOI incl. the 10.1016 back file; journal.archaeology.nsc.ru. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I4210164949 Institute of Archaeology and Ethnography. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 476 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S15075267",
+   "host_after": "I4210164949"
+  },
+  {
+   "entry": "S4210229707",
+   "source_id": 4210229707,
+   "tickets": [],
+   "now": {
+    "display_name": "Archaeology Ethnology and Anthropology of Eurasia (Russian-language)",
+    "host": "P4310320990",
+    "homepage_url": "http://www.archaeology.nsc.ru/lists/list9/allitems.aspx",
+    "country_code": "RU",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4210164949
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 7151 Institute of Archaeology and Ethnography SB RAS registers every DOI incl. the 10.1016 back file; archaeology.nsc.ru. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I4210164949 Institute of Archaeology and Ethnography. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 285 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S4210229707",
+   "host_after": "I4210164949"
+  },
+  {
+   "entry": "S155791383",
+   "source_id": 155791383,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Food and Drug Analysis",
+    "host": "P4310320990",
+    "homepage_url": "https://www.jfda-online.com/journal/",
+    "country_code": "TW",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null,
+    "institution_id": 4210125339
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 25385 JFDA (Food and Drug Administration, Taipei) registers every DOI incl. the 10.1016 back file; jfda-online.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = I4210125339 Taiwan Food and Drug Administration. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 244 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S155791383",
+   "host_after": "I4210125339"
+  },
+  {
+   "entry": "S27298842",
+   "source_id": 27298842,
+   "tickets": [],
+   "now": {
+    "display_name": "Heterocycles",
+    "host": "P4310320990",
+    "homepage_url": "http://www.heterocycles.jp/",
+    "country_code": "JP",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 5187 CLOCKSS Archive holds every DOI 1973-2023 (triggered content after the publisher stopped); never Elsevier's. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 13,887 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S27298842",
+   "host_after": null
+  },
+  {
+   "entry": "S19676749",
+   "source_id": 19676749,
+   "tickets": [],
+   "now": {
+    "display_name": "Mendeleev Communications",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/mendeleev-communications",
+    "country_code": "GB",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 2025-2026 DOIs by member 57159 ANO Publishing House of Scientific Chemical Journals (mathnet.ru), the 1991-2024 back file incl. 10.1016 by member 51372 OOO Zhurnal Mendeleevskie Soobshcheniya; Elsevier no longer registers any. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 5,829 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S19676749",
+   "host_after": null
+  },
+  {
+   "entry": "S85891262",
+   "source_id": 85891262,
+   "tickets": [],
+   "now": {
+    "display_name": "Mycoscience",
+    "host": "P4310320990",
+    "homepage_url": "http://www.springer.com/life+sciences/microbiology/journal/10267",
+    "country_code": "JP",
+    "type": "journal",
+    "is_oa": true
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 27064 The Mycological Society of Japan registers every DOI incl. the 10.1007/10.1016 back file; J-STAGE. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,084 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S85891262",
+   "host_after": null
+  },
+  {
+   "entry": "S121682720",
+   "source_id": 121682720,
+   "tickets": [],
+   "now": {
+    "display_name": "Medicina Paliativa",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/medicina-paliativa",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref: 2026 DOIs by member 8567 Inspira Network Group; the 10.1016 back file by member 53568 Academia de Ciencias Médicas de Bilbao. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 814 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S121682720",
+   "host_after": null
+  },
+  {
+   "entry": "S2898471107",
+   "source_id": 2898471107,
+   "tickets": [],
+   "now": {
+    "display_name": "Medicina General y de Familia",
+    "host": "P4310320990",
+    "homepage_url": "https://www.sciencedirect.com/journal/medicina-general-y-de-familia",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 10130 e-Medfarma 2020 registers every DOI; mgyf.org. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 434 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2898471107",
+   "host_after": null
+  },
+  {
+   "entry": "S2755928692",
+   "source_id": 2755928692,
+   "tickets": [],
+   "now": {
+    "display_name": "Cirugía pediátrica/Cirugía pediátrica",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 10130 e-Medfarma 2020 registers every DOI; revistacirugiapediatrica.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 238 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2755928692",
+   "host_after": null
+  },
+  {
+   "entry": "S32804322",
+   "source_id": 32804322,
+   "tickets": [],
+   "now": {
+    "display_name": "Osteopathic Family Physician",
+    "host": "P4310320990",
+    "homepage_url": "http://www.sciencedirect.com/science/journal/1877573X",
+    "country_code": "NL",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 18327 ACOFP registers every DOI incl. the 10.1016 back file; ofpjournal.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 355 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S32804322",
+   "host_after": null
+  },
+  {
+   "entry": "S2898482962",
+   "source_id": 2898482962,
+   "tickets": [],
+   "now": {
+    "display_name": "Hormigón y Acero",
+    "host": "P4310320990",
+    "homepage_url": "https://www.journals.elsevier.com/hormigon-y-acero",
+    "country_code": "ES",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. Crossref member 19159 CINTER registers 2026 DOIs; hormigonyacero.com. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 302 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2898482962",
+   "host_after": null
+  },
+  {
+   "entry": "S2764672140",
+   "source_id": 2764672140,
+   "tickets": [],
+   "now": {
+    "display_name": "Computer Knowledge and Technology",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 电脑知识与技术 (Computer knowledge ang technology Computer knowledge and tec; ISSN 1009-3044; 2007-), published by 《电脑知识与技术》杂志社, 合肥: http://find.nlc.cn/search/showDocDetails?docId=-5571442421648787991&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 21,080 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764672140",
+   "host_after": null
+  },
+  {
+   "entry": "S2764679879",
+   "source_id": 2764679879,
+   "tickets": [],
+   "now": {
+    "display_name": "Food Science",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. no Crossref DOIs; China's National Library holds 食品科学 (Food science; ISSN 1002-6630; 1980-), published by 中国食品杂志社, 北京: http://find.nlc.cn/search/showDocDetails?docId=2972623261706093294&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 14,574 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764679879",
+   "host_after": null
+  },
+  {
+   "entry": "S2764455361",
+   "source_id": 2764455361,
+   "tickets": [],
+   "now": {
+    "display_name": "Zhiye yu jiankang",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 职业与健康 (Occupation and health; ISSN 1004-1257; 1985-), published by 该杂志编辑部, 天津: http://find.nlc.cn/search/showDocDetails?docId=3396329428957570069&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 5,557 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764455361",
+   "host_after": null
+  },
+  {
+   "entry": "S2764876897",
+   "source_id": 2764876897,
+   "tickets": [],
+   "now": {
+    "display_name": "Kunming Yike Daxue xuebao",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. no Crossref DOIs; China's National Library holds 昆明医科大学学报 (Journal of Kunming Medical University; ISSN 2095-610X; 2012-), published by 昆明医科大学学报编辑部, 昆明: http://find.nlc.cn/search/showDocDetails?docId=3006789903421681678&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 4,073 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764876897",
+   "host_after": null
+  },
+  {
+   "entry": "S2764365421",
+   "source_id": 2764365421,
+   "tickets": [],
+   "now": {
+    "display_name": "Linchuang pifuke zazhi",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 临床皮肤科杂志 (Journal of clinical dermatology; ISSN 1000-4963; 1981-), published by 该刊编辑部, 南京: http://find.nlc.cn/search/showDocDetails?docId=-1008681430835949825&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 3,498 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764365421",
+   "host_after": null
+  },
+  {
+   "entry": "S2764964741",
+   "source_id": 2764964741,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Wuhan Institute of Technology",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 武汉工程大学学报 (Journal of Wuhan Institute of Technology; ISSN 1674-2869; 2007-), published by 武汉工程大学学报编辑部, 武汉: http://find.nlc.cn/search/showDocDetails?docId=-938456310510954667&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 3,002 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764964741",
+   "host_after": null
+  },
+  {
+   "entry": "S2764675429",
+   "source_id": 2764675429,
+   "tickets": [],
+   "now": {
+    "display_name": "Bandaoti guangdian",
+    "host": "P4310320990",
+    "homepage_url": "http://www.semiopto.net/bdtgz/home",
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. no Crossref DOIs; China's National Library holds 半导体光电 (Semiconductor Optoelectronics Semiconductor optoelectronics ; ISSN 1001-5868; 1977-), published by 《半导体光电》编辑部, 重庆: http://find.nlc.cn/search/showDocDetails?docId=-7729585895530038745&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 2,737 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764675429",
+   "host_after": null
+  },
+  {
+   "entry": "S2764790351",
+   "source_id": 2764790351,
+   "tickets": [],
+   "now": {
+    "display_name": "Zhongguo yixue wulixue zazhi",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. no Crossref DOIs; China's National Library holds 中国医学物理学杂志 (Chinese journal of medical physics; ISSN 1005-202X; 1993-), published by 第一军医大学, 广州: http://find.nlc.cn/search/showDocDetails?docId=2369171092196332288&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,839 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764790351",
+   "host_after": null
+  },
+  {
+   "entry": "S2764425450",
+   "source_id": 2764425450,
+   "tickets": [],
+   "now": {
+    "display_name": "Nondestructive Testing",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. no Crossref DOIs; China's National Library holds 无损检测 (Nondestructive testing; ISSN 1000-6656; 1979-), published by 第一机械工业部上海材料研究所, 上海: http://find.nlc.cn/search/showDocDetails?docId=-7492150794509107406&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,614 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764425450",
+   "host_after": null
+  },
+  {
+   "entry": "S2764635480",
+   "source_id": 2764635480,
+   "tickets": [],
+   "now": {
+    "display_name": "Optical Instruments",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 光学仪器 (Optical instruments; ISSN 1005-5630; 1979-), published by 《光学仪器》编辑部, 上海: http://find.nlc.cn/search/showDocDetails?docId=7554686260430018179&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,389 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764635480",
+   "host_after": null
+  },
+  {
+   "entry": "S2764532943",
+   "source_id": 2764532943,
+   "tickets": [],
+   "now": {
+    "display_name": "Youtian huaxue",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 油田化学 (Oilfield Chemistry; ISSN 1000-4092; 1984-), published by 四川大学高分子研究所高分子材料工程国家重点实验室, 成都: http://find.nlc.cn/search/showDocDetails?docId=-7021366409405026913&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,348 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764532943",
+   "host_after": null
+  },
+  {
+   "entry": "S2764422055",
+   "source_id": 2764422055,
+   "tickets": [],
+   "now": {
+    "display_name": "Steel Rolling",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 轧钢 (Steel rolling; ISSN 1003-9996; 1984-), published by 冶金工业部, 北京: http://find.nlc.cn/search/showDocDetails?docId=-8818432621135185391&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,325 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764422055",
+   "host_after": null
+  },
+  {
+   "entry": "S2764961071",
+   "source_id": 2764961071,
+   "tickets": [],
+   "now": {
+    "display_name": "Modern Manufacturing Engineering",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 现代制造工程 (Modern manufacturing engineering; ISSN 1671-3133; 2001-), published by 《现代制造工程》杂志社, 北京: http://find.nlc.cn/search/showDocDetails?docId=587307202881227618&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,285 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764961071",
+   "host_after": null
+  },
+  {
+   "entry": "S2764353760",
+   "source_id": 2764353760,
+   "tickets": [],
+   "now": {
+    "display_name": "Shengtai kexue",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 生态科学 (Ecologic science; ISSN 1008-8873; 1982-), published by 广东省生态学会, 广州: http://find.nlc.cn/search/showDocDetails?docId=-4791859015856057486&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,102 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764353760",
+   "host_after": null
+  },
+  {
+   "entry": "S2764393014",
+   "source_id": 2764393014,
+   "tickets": [],
+   "now": {
+    "display_name": "Chlor-alkali Industry",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 氯碱工业 (Chlor-alkali industry; ISSN 1008-133X; 1976-), published by 氯碱工业编辑部, 葫芦岛(辽宁): http://find.nlc.cn/search/showDocDetails?docId=-5238592015788755015&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,077 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764393014",
+   "host_after": null
+  },
+  {
+   "entry": "S2764783009",
+   "source_id": 2764783009,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Traffic and Transportation Engineering",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. no Crossref DOIs; China's National Library holds 交通运输工程学报 (Journal of traffic and transportation engineering; ISSN 1671-1637; 2001-), published by 长安大学杂志社, 西安: http://find.nlc.cn/search/showDocDetails?docId=8309262797025971408&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,035 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764783009",
+   "host_after": null
+  },
+  {
+   "entry": "S2764707531",
+   "source_id": 2764707531,
+   "tickets": [],
+   "now": {
+    "display_name": "Electronics Process Technology",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 电子工艺技术 (Electronics process technology Electronics manufacturing eng; ISSN 1001-3474; 1980-), published by 《电子工艺技术》编辑部, 太原: http://find.nlc.cn/search/showDocDetails?docId=-8546209190595659884&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,007 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764707531",
+   "host_after": null
+  },
+  {
+   "entry": "S2764918822",
+   "source_id": 2764918822,
+   "tickets": [],
+   "now": {
+    "display_name": "Zhongguo shiyong erke zazhi",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 中国实用儿科杂志 (Chinese journal of practical pediatrics; ISSN 1005-2224; 1993-), published by 中国实用医学杂志社, 沈阳: http://find.nlc.cn/search/showDocDetails?docId=6308017387159077151&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 935 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764918822",
+   "host_after": null
+  },
+  {
+   "entry": "S2764506998",
+   "source_id": 2764506998,
+   "tickets": [],
+   "now": {
+    "display_name": "Journal of Experimental Hematology",
+    "host": "P4310320990",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Elsevier is not this journal's publisher. no Crossref DOIs; China's National Library holds 中国实验血液学杂志 (Chinese journal of experimental hematology; ISSN ; 1993-1994), published by 北京中化生物技术研究所, 北京: http://find.nlc.cn/search/showDocDetails?docId=3130272108292079340&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 559 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764506998",
+   "host_after": null
+  },
+  {
+   "entry": "S2753569916",
+   "source_id": 2753569916,
+   "tickets": [],
+   "now": {
+    "display_name": "Yaoxue xuebao",
+    "host": "P4310319965",
+    "homepage_url": "http://www.yxxb.com.cn",
+    "country_code": "CN",
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 药学学报 (Acta Pharmaceutica Sinica Acta Pharmaceutica Sinicai; ISSN 0513-4870; 1953-), published by 药学学报编辑部, 北京: http://find.nlc.cn/search/showDocDetails?docId=-3783390380241928988&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 1,836 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2753569916",
+   "host_after": null
+  },
+  {
+   "entry": "S2764510484",
+   "source_id": 2764510484,
+   "tickets": [],
+   "now": {
+    "display_name": "Petroleum Geology & Experiment",
+    "host": "P4310319965",
+    "homepage_url": null,
+    "country_code": null,
+    "type": "journal",
+    "is_oa": false
+   },
+   "set": {
+    "publisher_id": null
+   },
+   "why": "stale host: Springer Nature is not this journal's publisher. no Crossref DOIs; China's National Library holds 石油实验地质 (Petroleum geology and experiment Experimental petroleum geol; ISSN 1001-6112; 1979-), published by 《石油实验地质》编辑部, 无锡(江苏): http://find.nlc.cn/search/showDocDetails?docId=6263242346304908478&dataSource=ucs01. Host = the DOI registrant (#1899's rule) or, for a DOI-less title, none until its publisher has an OpenAlex record = NULL no host. The Springer/Elsevier abstract takedown's host arm (#2351) hides about 341 of its works' abstracts through the stale host.",
+   "evidence": "Crossref REST API (works + members), 22 Nov 2026; China National Library find.nlc.cn holdings records for DOI-less Chinese titles; Databricks openalex.transient.oxjob2541_persrc (oxjob #2541)",
+   "check": "https://api.openalex.org/sources/S2764510484",
+   "host_after": null
+  }
+ ]
+}
