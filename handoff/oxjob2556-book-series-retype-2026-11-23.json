@@ -1,0 +1,9241 @@
+{
+"oxjob": 2556,
+"built": "2026-11-23",
+"sources": [
+{
+"id": 4393917809,
+"name": "Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
+"works": 21411
+},
+{
+"id": 4210203672,
+"name": "Frontiers research topics",
+"works": 15150
+},
+{
+"id": 4210201731,
+"name": "Frontiers in artificial intelligence and applications",
+"works": 14354
+},
+{
+"id": 4393912845,
+"name": "Pleadings, oral arguments, documents",
+"works": 4083
+},
+{
+"id": 4210231236,
+"name": "Mathematical surveys and monographs",
+"works": 3892
+},
+{
+"id": 4404663223,
+"name": "Information systems engineering and management",
+"works": 2029
+},
+{
+"id": 4393917656,
+"name": "Current studies in hematology and blood transfusion",
+"works": 1519
+},
+{
+"id": 4393919338,
+"name": "Urban sustainability",
+"works": 1166
+},
+{
+"id": 4210173684,
+"name": "Health informatics",
+"works": 1148
+},
+{
+"id": 4393918865,
+"name": "Atlantis Highlights in Intelligent Systems/Atlantis highlights in intelligent systems",
+"works": 1088
+},
+{
+"id": 4210181755,
+"name": "Bildungsforschung",
+"works": 1044
+},
+{
+"id": 4393912846,
+"name": "Reports of judgments, advisory opinions and orders",
+"works": 978
+},
+{
+"id": 4210170852,
+"name": "Patrick Moore's practical astronomy series/The Patrick Moore practical astronomy series",
+"works": 967
+},
+{
+"id": 4210238489,
+"name": "Repères/Repères",
+"works": 947
+},
+{
+"id": 4393920190,
+"name": "Smart nanomaterials technology",
+"works": 893
+},
+{
+"id": 4210175868,
+"name": "Biological and medical physics, biomedical engineering",
+"works": 822
+},
+{
+"id": 4210181011,
+"name": "Frontiers in mathematics",
+"works": 756
+},
+{
+"id": 4393919498,
+"name": "Education and human development",
+"works": 713
+},
+{
+"id": 4393919376,
+"name": "SDG - Forschung, Konzepte, Lösungsansätze zur Nachhaltigkeit",
+"works": 704
+},
+{
+"id": 4210208701,
+"name": "Monumenta artis musicae Sloveniae",
+"works": 657
+},
+{
+"id": 4210203380,
+"name": "Synthesis lectures on human language technologies",
+"works": 635
+},
+{
+"id": 4393920004,
+"name": "Maker Innovations Series",
+"works": 634
+},
+{
+"id": 4404674843,
+"name": "WU Institute for Austrian and International Tax Law, tax law and policy series.",
+"works": 632
+},
+{
+"id": 4210215084,
+"name": "Points de vue sur la jeunesse",
+"works": 625
+},
+{
+"id": 4393919215,
+"name": "Interdisciplinary biotechnological advances",
+"works": 623
+},
+{
+"id": 982029923,
+"name": "Synthesis lectures on data management",
+"works": 621
+},
+{
+"id": 956242008,
+"name": "Synthesis lectures on human-centered informatics",
+"works": 614
+},
+{
+"id": 4393919492,
+"name": "Business, management and economics",
+"works": 604
+},
+{
+"id": 962203723,
+"name": "Synthesis lectures on computer architecture",
+"works": 600
+},
+{
+"id": 4393914030,
+"name": "Report of the Committee on the Elimination of Discrimination against Women, United Nations",
+"works": 577
+},
+{
+"id": 4404676440,
+"name": "EC and international tax law series.",
+"works": 560
+},
+{
+"id": 4210227100,
+"name": "Biochemistry",
+"works": 553
+},
+{
+"id": 4393917700,
+"name": "International dialogue on migration",
+"works": 551
+},
+{
+"id": 933803995,
+"name": "Synthesis lectures on artificial intelligence and machine learning",
+"works": 543
+},
+{
+"id": 4393919309,
+"name": "Implementing the UN sustainable development goals - regional perspectives",
+"works": 534
+},
+{
+"id": 4393919489,
+"name": "Sustainable development",
+"works": 533
+},
+{
+"id": 4393919278,
+"name": "Interdisciplinary cancer research",
+"works": 529
+},
+{
+"id": 4393919351,
+"name": "Digital innovations in architecture, engineering and construction",
+"works": 522
+},
+{
+"id": 4404669424,
+"name": "Sustainable landscape planning and natural resources management",
+"works": 520
+},
+{
+"id": 4393919290,
+"name": "Engineering cyber-physical systems and critical infrastructures",
+"works": 509
+},
+{
+"id": 4393912977,
+"name": "Bibliographie de la Cour internationale de justice",
+"works": 503
+},
+{
+"id": 4393919494,
+"name": "Environmental sciences",
+"works": 487
+},
+{
+"id": 4393919937,
+"name": "International Historical Statistics",
+"works": 465
+},
+{
+"id": 4210186945,
+"name": "Statistics for biology and health",
+"works": 464
+},
+{
+"id": 4210218280,
+"name": "Textile science and clothing technology",
+"works": 458
+},
+{
+"id": 4404663755,
+"name": "Handbook of the Mammals of Middle and South America.",
+"works": 445
+},
+{
+"id": 4210240388,
+"name": "Design",
+"works": 443
+},
+{
+"id": 4404675564,
+"name": "Tax treaty case law around the globe.",
+"works": 427
+},
+{
+"id": 4393919380,
+"name": "Copernicus books",
+"works": 420
+},
+{
+"id": 4393918762,
+"name": "IRMA lectures in mathematics and theoretical physics",
+"works": 417
+},
+{
+"id": 4393918523,
+"name": "Globaler, lokaler Islam",
+"works": 416
+},
+{
+"id": 4404677197,
+"name": "Agricultural sciences.",
+"works": 414
+},
+{
+"id": 4210211784,
+"name": "Synthesis lectures on engineering",
+"works": 414
+},
+{
+"id": 4393918763,
+"name": "EMS series of congress reports",
+"works": 412
+},
+{
+"id": 4393918847,
+"name": "Geocriticism and spatial literary studies",
+"works": 392
+},
+{
+"id": 4393919370,
+"name": "Contributions to environmental sciences & innovative business technology",
+"works": 387
+},
+{
+"id": 4404663824,
+"name": "Philosophie - Aufklärung - Kritik",
+"works": 386
+},
+{
+"id": 4393919799,
+"name": "Fields of linguistics",
+"works": 384
+},
+{
+"id": 4393917650,
+"name": "Acta universitatis agriculturae Sueciae",
+"works": 380
+},
+{
+"id": 4393919307,
+"name": "Circular economy and sustainability",
+"works": 368
+},
+{
+"id": 4393917787,
+"name": "Literaturwissenschaft",
+"works": 367
+},
+{
+"id": 4393919806,
+"name": "The New Middle Ages",
+"works": 356
+},
+{
+"id": 4393920073,
+"name": "Etrade readiness assessment",
+"works": 351
+},
+{
+"id": 4393919374,
+"name": "Certification study companion series",
+"works": 349
+},
+{
+"id": 4393919212,
+"name": "Nutritional neurosciences",
+"works": 349
+},
+{
+"id": 4393919240,
+"name": "Sustainable materials and technology",
+"works": 349
+},
+{
+"id": 4393919273,
+"name": "Springer tracts in electrical and electronics engineering",
+"works": 348
+},
+{
+"id": 4393919337,
+"name": "Studies in childhood and youth",
+"works": 346
+},
+{
+"id": 4210203748,
+"name": "Synthesis lectures on ocean systems engineering",
+"works": 339
+},
+{
+"id": 4393919985,
+"name": "Palgrave socio-legal studies",
+"works": 336
+},
+{
+"id": 4404673695,
+"name": "Apress pocket guides.",
+"works": 323
+},
+{
+"id": 4393919228,
+"name": "Contemporary surgical clerkships",
+"works": 319
+},
+{
+"id": 4404670136,
+"name": "EATLP international tax series.",
+"works": 317
+},
+{
+"id": 4404664209,
+"name": "Zukunft der Hochschule",
+"works": 316
+},
+{
+"id": 4393919344,
+"name": "Comprehensive ENT",
+"works": 314
+},
+{
+"id": 4404674449,
+"name": "Techne.",
+"works": 313
+},
+{
+"id": 4404660638,
+"name": "GREIT series.",
+"works": 310
+},
+{
+"id": 3311537,
+"name": "Synthesis lectures on engineers, technology, and society",
+"works": 306
+},
+{
+"id": 4393917733,
+"name": "L'Univers des normes",
+"works": 303
+},
+{
+"id": 4210191745,
+"name": "Frontiers in electronic testing",
+"works": 302
+},
+{
+"id": 4393919485,
+"name": "Palgrave studies in prisons and penology",
+"works": 302
+},
+{
+"id": 4393919443,
+"name": "Literatur - Medien - Didaktik",
+"works": 296
+},
+{
+"id": 4393917802,
+"name": "Berliner Kommentare",
+"works": 295
+},
+{
+"id": 4393917788,
+"name": "Geschichtswissenschaft",
+"works": 295
+},
+{
+"id": 4210192643,
+"name": "Reti medievali e-book",
+"works": 294
+},
+{
+"id": 4210190494,
+"name": "Frontiers in nanobiomedical research",
+"works": 288
+},
+{
+"id": 199652756,
+"name": "Synthesis lectures on computational electromagnetics",
+"works": 275
+},
+{
+"id": 4393918738,
+"name": "Public administration, governance and globalization",
+"works": 272
+},
+{
+"id": 4210239883,
+"name": "Frontiers in economic history",
+"works": 271
+},
+{
+"id": 4393915268,
+"name": "Hamburger Universitätsreden",
+"works": 269
+},
+{
+"id": 4210169984,
+"name": "Issues in mathematics education",
+"works": 264
+},
+{
+"id": 4393918947,
+"name": "Artwork scholarship",
+"works": 258
+},
+{
+"id": 4393919216,
+"name": "Literatur und Recht",
+"works": 257
+},
+{
+"id": 4393919992,
+"name": "SDGs and textiles",
+"works": 256
+},
+{
+"id": 4393918729,
+"name": "Dortmunder Beiträge zur Entwicklung und Erforschung des Mathematikunterrichts",
+"works": 255
+},
+{
+"id": 4210232412,
+"name": "Oxalis",
+"works": 252
+},
+{
+"id": 4393919375,
+"name": "Innovations in Sustainable Technologies and Computing",
+"works": 251
+},
+{
+"id": 4393919394,
+"name": "Professional practice in governance and public organizations",
+"works": 245
+},
+{
+"id": 4393919803,
+"name": "Neue Ökonomie",
+"works": 242
+},
+{
+"id": 4210185852,
+"name": "Analecta Husserliana",
+"works": 238
+},
+{
+"id": 4404663875,
+"name": "Springer handbooks in languages and linguistics.",
+"works": 236
+},
+{
+"id": 4393919919,
+"name": "Christian faith perspectives in leadership and business",
+"works": 235
+},
+{
+"id": 4393919056,
+"name": "Atlantis highlights in economics, business and management/Atlantis Highlights in Economics, Business and Management",
+"works": 228
+},
+{
+"id": 4393918904,
+"name": "Edition transcript",
+"works": 226
+},
+{
+"id": 4393919148,
+"name": "History of science and technology",
+"works": 225
+},
+{
+"id": 4393919836,
+"name": "Design Thinking",
+"works": 225
+},
+{
+"id": 4393919336,
+"name": "International and development education",
+"works": 224
+},
+{
+"id": 4404662030,
+"name": "Contributions to security and defence studies",
+"works": 222
+},
+{
+"id": 4393919496,
+"name": "Palgrave studies in creativity and culture",
+"works": 222
+},
+{
+"id": 4393919220,
+"name": "GIScience and geo-environmental modelling",
+"works": 221
+},
+{
+"id": 4393919353,
+"name": "Springer Series in Astrophysics and Cosmology",
+"works": 220
+},
+{
+"id": 4393919263,
+"name": "Mathematics study resources",
+"works": 214
+},
+{
+"id": 4393916334,
+"name": "Forum für Fachsprachen-Forschung",
+"works": 214
+},
+{
+"id": 4393918869,
+"name": "Atlantis Highlights in Materials Science and Technology/Atlantis highlights in materials science and technology",
+"works": 213
+},
+{
+"id": 4393920005,
+"name": "Noninvasive ventilation. The essentials",
+"works": 213
+},
+{
+"id": 4210173850,
+"name": "Seminari internazionali del Centro interuniversitario per la storia e l'archeologia dell'alto medioevo",
+"works": 208
+},
+{
+"id": 4393920161,
+"name": "Food science and nutrition",
+"works": 208
+},
+{
+"id": 4393919923,
+"name": "Social Work",
+"works": 206
+},
+{
+"id": 4393919139,
+"name": "Edition panta rei",
+"works": 206
+},
+{
+"id": 4393919352,
+"name": "Palgrave studies in equity, diversity, inclusion, and indigenization in business",
+"works": 204
+},
+{
+"id": 4393918722,
+"name": "Literalität und Liminalität",
+"works": 204
+},
+{
+"id": 4393919928,
+"name": "CBT: science into practice",
+"works": 203
+},
+{
+"id": 4404662984,
+"name": "Globale Ziele für nachhaltige Entwicklung.",
+"works": 203
+},
+{
+"id": 4393917366,
+"name": "TransÜD",
+"works": 203
+},
+{
+"id": 1028473672,
+"name": "Synthesis lectures on image, video, and multimedia processing",
+"works": 200
+},
+{
+"id": 4404674913,
+"name": "Castrenianumin toimitteita.",
+"works": 199
+},
+{
+"id": 4404662387,
+"name": "Documenta mathematica series",
+"works": 199
+},
+{
+"id": 4393917803,
+"name": "Berliner Handbücher",
+"works": 197
+},
+{
+"id": 4393919315,
+"name": "Springer studies in alternative economics",
+"works": 197
+},
+{
+"id": 4404670356,
+"name": "SpringerBriefs in modern perspectives on disability research.",
+"works": 196
+},
+{
+"id": 4393919773,
+"name": "Gesundheit, Kommunikation und Gesellschaft",
+"works": 195
+},
+{
+"id": 4404675156,
+"name": "Pharmaceutical science.",
+"works": 195
+},
+{
+"id": 4393919033,
+"name": "Business Cases Review",
+"works": 194
+},
+{
+"id": 4393919262,
+"name": "Progress in landslide research and technology",
+"works": 193
+},
+{
+"id": 4210226002,
+"name": "Synthesis lectures on assistive, rehabilitative, and health-preserving technologies",
+"works": 193
+},
+{
+"id": 4404670159,
+"name": "University texts in the mathematical sciences.",
+"works": 190
+},
+{
+"id": 4404676474,
+"name": "Advances in plant breeding strategies",
+"works": 189
+},
+{
+"id": 4393919392,
+"name": "Biomedical materials for multi-functional applications",
+"works": 189
+},
+{
+"id": 4393919988,
+"name": "Palgrave studies in victims and victimology",
+"works": 187
+},
+{
+"id": 4393919371,
+"name": "Deltas of the world",
+"works": 187
+},
+{
+"id": 4393919931,
+"name": "Postdisciplinary studies in discourse",
+"works": 184
+},
+{
+"id": 4393919387,
+"name": "Contributions to Public Administration and Public Policy",
+"works": 183
+},
+{
+"id": 4404661702,
+"name": "Frontiers of artificial intelligence, ethics and multidisciplinary applications.",
+"works": 182
+},
+{
+"id": 4404676608,
+"name": "Civil engineering.",
+"works": 180
+},
+{
+"id": 4210177296,
+"name": "Advanced textbooks in control and signal processing",
+"works": 180
+},
+{
+"id": 4393918313,
+"name": "Transkulturalität - Translation - Transfer",
+"works": 179
+},
+{
+"id": 4393919914,
+"name": "The Palgrave Lacan Series",
+"works": 179
+},
+{
+"id": 4393920153,
+"name": "Studi e ricerche del Dipartimento di Lettere e Filosofia",
+"works": 178
+},
+{
+"id": 4393919310,
+"name": "Palgrave executive essentials",
+"works": 178
+},
+{
+"id": 4393919116,
+"name": "Easy - plain - accessible",
+"works": 176
+},
+{
+"id": 4393919259,
+"name": "Selected Chinese cases on the CISG",
+"works": 176
+},
+{
+"id": 949439436,
+"name": "Synthesis lectures on computer graphics and animation",
+"works": 174
+},
+{
+"id": 4393918731,
+"name": "Economic analysis of law in European legal scholarship",
+"works": 173
+},
+{
+"id": 4393919284,
+"name": "Emerging trends in mechatronics",
+"works": 172
+},
+{
+"id": 4393919436,
+"name": "Re-Figuration von Räumen/Re-Figuration von Räumen",
+"works": 172
+},
+{
+"id": 4393919253,
+"name": "New paradigms in healthcare",
+"works": 172
+},
+{
+"id": 4393918733,
+"name": "Rekonstruktive Bildungsforschung",
+"works": 172
+},
+{
+"id": 4393919335,
+"name": "Global histories of education",
+"works": 171
+},
+{
+"id": 4393919250,
+"name": "Palgrave Studies in Energy Transitions",
+"works": 171
+},
+{
+"id": 4393919440,
+"name": "Soziologie der Nachhaltigkeit",
+"works": 170
+},
+{
+"id": 4404678064,
+"name": "Cardiology and cardiovascular medicine.",
+"works": 169
+},
+{
+"id": 4393919378,
+"name": "Springer studies on populism, identity politics and social justice",
+"works": 169
+},
+{
+"id": 4393919025,
+"name": "Global culture and sport series",
+"works": 169
+},
+{
+"id": 4210176734,
+"name": "Synthesis lectures on visualization",
+"works": 168
+},
+{
+"id": 77298523,
+"name": "Synthesis lectures on communications",
+"works": 167
+},
+{
+"id": 4393919894,
+"name": "Palgrave Studies in International Relations",
+"works": 166
+},
+{
+"id": 4393919911,
+"name": "Palgrave Studies in Crime, Media and Culture",
+"works": 166
+},
+{
+"id": 4393919361,
+"name": "Ethics and integrity in educational contexts",
+"works": 165
+},
+{
+"id": 4393919369,
+"name": "Colloquium metaphysicum",
+"works": 165
+},
+{
+"id": 4404664212,
+"name": "CABI biotechnology series.",
+"works": 165
+},
+{
+"id": 4210180436,
+"name": "Synthesis lectures on visual computing",
+"works": 165
+},
+{
+"id": 4393919327,
+"name": "Mechanics and adaptronics",
+"works": 165
+},
+{
+"id": 4210174156,
+"name": "Digital humanities",
+"works": 164
+},
+{
+"id": 4393919896,
+"name": "New language learning and teaching environments",
+"works": 164
+},
+{
+"id": 4404674053,
+"name": "Obstetrics and gynecology.",
+"works": 161
+},
+{
+"id": 4404673935,
+"name": "Industrial engineering and management.",
+"works": 160
+},
+{
+"id": 4393919449,
+"name": "Religion in Bewegung",
+"works": 160
+},
+{
+"id": 4393918923,
+"name": "ATZ/MTZ-Fachbuch",
+"works": 160
+},
+{
+"id": 4393918934,
+"name": "Encyclopedia of complexity and systems science series",
+"works": 160
+},
+{
+"id": 4393919906,
+"name": "Challenges to democracy in the 21st century",
+"works": 159
+},
+{
+"id": 4393919313,
+"name": "Computer science foundations and applied logic",
+"works": 159
+},
+{
+"id": 4393919924,
+"name": "Palgrave studies in music and literature",
+"works": 157
+},
+{
+"id": 4210205800,
+"name": "Il Segno e le lettere. Saggi",
+"works": 157
+},
+{
+"id": 4210226979,
+"name": "Lingue culture mediazioni",
+"works": 155
+},
+{
+"id": 4393919355,
+"name": "Global Vietnam",
+"works": 154
+},
+{
+"id": 4210209699,
+"name": "Synthesis lectures on emerging engineering technologies",
+"works": 154
+},
+{
+"id": 4210174169,
+"name": "Colección Jornadas y congresos",
+"works": 154
+},
+{
+"id": 4393919347,
+"name": "Security, conflict and cooperation in the contemporary world",
+"works": 154
+},
+{
+"id": 4393919423,
+"name": "Kritische Landforschung",
+"works": 153
+},
+{
+"id": 4393919265,
+"name": "Studies in diplomacy and international relations",
+"works": 153
+},
+{
+"id": 4393920072,
+"name": "Global humanitarian overview",
+"works": 153
+},
+{
+"id": 4393919547,
+"name": "Synthesis lectures on technology and health",
+"works": 152
+},
+{
+"id": 4393919208,
+"name": "Neue Romantikforschung",
+"works": 152
+},
+{
+"id": 4393918815,
+"name": "Frankreich-Forum",
+"works": 152
+},
+{
+"id": 4393919977,
+"name": "Genders and sexualities in the social sciences",
+"works": 151
+},
+{
+"id": 4393919477,
+"name": "Cultural heritage studies",
+"works": 150
+},
+{
+"id": 4404670307,
+"name": "Experts' Perspectives on Medical Advances.",
+"works": 150
+},
+{
+"id": 4393918924,
+"name": "Nutrition and health",
+"works": 150
+},
+{
+"id": 4393919049,
+"name": "Subjektivierung und Gesellschaft",
+"works": 148
+},
+{
+"id": 4404675774,
+"name": "Nanotechnology and nanomaterials.",
+"works": 148
+},
+{
+"id": 4393919950,
+"name": "Palgrave studies in translating and interpreting",
+"works": 148
+},
+{
+"id": 4210189085,
+"name": "The city project",
+"works": 148
+},
+{
+"id": 4393917189,
+"name": "Társadalmi riport",
+"works": 146
+},
+{
+"id": 4393919863,
+"name": "Abhandlungen zur Philosophie",
+"works": 146
+},
+{
+"id": 4393919207,
+"name": "Springer texts in social sciences",
+"works": 146
+},
+{
+"id": 4393918749,
+"name": "The Springer series in applied machine learning",
+"works": 145
+},
+{
+"id": 4393919321,
+"name": "Artificial intelligence-enhanced software and systems engineering",
+"works": 145
+},
+{
+"id": 4393919219,
+"name": "Topics in Regulatory Economics and Policy",
+"works": 145
+},
+{
+"id": 4393919974,
+"name": "Crime files",
+"works": 145
+},
+{
+"id": 4393919022,
+"name": "Sustainable plant nutrition in a changing world",
+"works": 145
+},
+{
+"id": 4210206893,
+"name": "Synthesis lectures on advances in automotive technology",
+"works": 145
+},
+{
+"id": 4404663921,
+"name": "Palgrave Studies in Sustainable Futures.",
+"works": 145
+},
+{
+"id": 4393919264,
+"name": "Schriften zur Kritischen Lebenskunst",
+"works": 145
+},
+{
+"id": 4393919312,
+"name": "Palgrave studies in the history of genocide",
+"works": 144
+},
+{
+"id": 4393919367,
+"name": "Waste as a resource",
+"works": 143
+},
+{
+"id": 4393919318,
+"name": "Optical wireless communication theory and technology",
+"works": 142
+},
+{
+"id": 4393919242,
+"name": "Emerging globalities and civilizational perspectives",
+"works": 142
+},
+{
+"id": 4404660999,
+"name": "Religion und Bildung diskursiv",
+"works": 142
+},
+{
+"id": 4393919032,
+"name": "Microbial zoonoses",
+"works": 141
+},
+{
+"id": 4393919460,
+"name": "VerKörperungen",
+"works": 141
+},
+{
+"id": 4393919932,
+"name": "Palgrave Studies in European Political Sociology",
+"works": 140
+},
+{
+"id": 4393919926,
+"name": "Federalism and internal conflicts",
+"works": 140
+},
+{
+"id": 4404674741,
+"name": "Technology, peace and security",
+"works": 140
+},
+{
+"id": 4393919113,
+"name": "GenderCodes",
+"works": 139
+},
+{
+"id": 4393919418,
+"name": "Szenografie & Szenologie",
+"works": 139
+},
+{
+"id": 1007673213,
+"name": "Synthesis lectures on algorithms and software in engineering",
+"works": 139
+},
+{
+"id": 4393919840,
+"name": "The mycota",
+"works": 137
+},
+{
+"id": 4393919454,
+"name": "Global sentimentality",
+"works": 136
+},
+{
+"id": 4393919822,
+"name": "Palgrave Studies in African Leadership",
+"works": 136
+},
+{
+"id": 4393918739,
+"name": "Fehlzeiten-Report",
+"works": 135
+},
+{
+"id": 4393919946,
+"name": "Rhetoric, politics and society",
+"works": 135
+},
+{
+"id": 4404664081,
+"name": "The language of politics.",
+"works": 135
+},
+{
+"id": 4393919453,
+"name": "Literatur in der digitalen Gesellschaft",
+"works": 135
+},
+{
+"id": 4393919345,
+"name": "Palgrave Studies in Religion, Politics, and Policy",
+"works": 135
+},
+{
+"id": 4393919851,
+"name": "Germanistische Symposien",
+"works": 134
+},
+{
+"id": 4210171329,
+"name": "Documento de trabajo",
+"works": 134
+},
+{
+"id": 4404674767,
+"name": "Genetics.",
+"works": 134
+},
+{
+"id": 4393919814,
+"name": "The Evolving American Presidency",
+"works": 134
+},
+{
+"id": 4393919267,
+"name": "Engineering optimization",
+"works": 134
+},
+{
+"id": 4220651473,
+"name": "Historische Lebenswelten in populären Wissenskulturen",
+"works": 133
+},
+{
+"id": 4393919324,
+"name": "Biomedical visualization",
+"works": 133
+},
+{
+"id": 4393919776,
+"name": "Stadt in der Geschichte",
+"works": 133
+},
+{
+"id": 4404662893,
+"name": "Schriften aus der Fakultät Wirtschaftsinformatik und Angewandte Informatik der Otto-Friedrich-Universität Bamberg.",
+"works": 132
+},
+{
+"id": 4393918734,
+"name": "Schule und Gesellschaft",
+"works": 132
+},
+{
+"id": 4393919348,
+"name": "Palgrave studies of entrepreneurship and social challenges in developing economies",
+"works": 132
+},
+{
+"id": 4393919276,
+"name": "Neurocultural health and wellbeing",
+"works": 131
+},
+{
+"id": 4404673972,
+"name": "Ethnic and Indigenous Business Studies.",
+"works": 131
+},
+{
+"id": 4393919993,
+"name": "Die bAV und Vorsorge Themenreihe - Der Kompass",
+"works": 131
+},
+{
+"id": 4393919319,
+"name": "Advanced and intelligent manufacturing in China",
+"works": 130
+},
+{
+"id": 4393919274,
+"name": "Palgrave studies in comedy",
+"works": 130
+},
+{
+"id": 4393919343,
+"name": "Environmental Politics and Theory",
+"works": 130
+},
+{
+"id": 4393919828,
+"name": "Middle East Today",
+"works": 129
+},
+{
+"id": 4404663030,
+"name": "Iranian and Persian Studies.",
+"works": 129
+},
+{
+"id": 4393919124,
+"name": "Interkulturelle Germanistik",
+"works": 129
+},
+{
+"id": 4393919334,
+"name": "Curriculum studies worldwide",
+"works": 129
+},
+{
+"id": 4404663078,
+"name": "Botany, production and uses.",
+"works": 129
+},
+{
+"id": 4393919425,
+"name": "Einsichten",
+"works": 127
+},
+{
+"id": 4404660590,
+"name": "CABI climate change series.",
+"works": 126
+},
+{
+"id": 4210234805,
+"name": "New approaches to religion and power",
+"works": 126
+},
+{
+"id": 4393919967,
+"name": "Literary disability studies",
+"works": 126
+},
+{
+"id": 4393917347,
+"name": "Progress in inflammation research",
+"works": 126
+},
+{
+"id": 4404669099,
+"name": "Developments in applied phycology.",
+"works": 125
+},
+{
+"id": 4393917796,
+"name": "Slawistik",
+"works": 124
+},
+{
+"id": 4393919202,
+"name": "Collaborative bioethics",
+"works": 124
+},
+{
+"id": 4393919320,
+"name": "Advances in optics and optoelectronics",
+"works": 123
+},
+{
+"id": 4404669627,
+"name": "Repertorio de la práctica seguida por el Consejo de Seguridad.",
+"works": 122
+},
+{
+"id": 4393919875,
+"name": "Interdisziplinäre Architektur-Wissenschaft: Praxis - Theorie - Methodologie - Forschung",
+"works": 122
+},
+{
+"id": 4404669310,
+"name": "Dialoghi con la società.",
+"works": 122
+},
+{
+"id": 4393918919,
+"name": "Veröffentlichungen der Sektion Religionssoziologie der Deutschen Gesellschaft für Soziologie",
+"works": 121
+},
+{
+"id": 4393919811,
+"name": "The Sciences Po Series in International Relations and Political Economy",
+"works": 121
+},
+{
+"id": 4393919465,
+"name": "Interkulturelle Rhizome",
+"works": 121
+},
+{
+"id": 4393919848,
+"name": "Markt- und Unternehmensentwicklung Markets and Organisations",
+"works": 120
+},
+{
+"id": 4393918529,
+"name": "Philosophie, Naturwissenschaft und Technik",
+"works": 120
+},
+{
+"id": 4220651055,
+"name": "Space technology library",
+"works": 119
+},
+{
+"id": 4393919151,
+"name": "Linzer Beiträge zur Kunstwissenschaft und Philosophie",
+"works": 119
+},
+{
+"id": 4393919979,
+"name": "Global Shakespeares",
+"works": 119
+},
+{
+"id": 4393915481,
+"name": "Philologische Studien und Quellen",
+"works": 119
+},
+{
+"id": 4921394,
+"name": "Synthesis lectures on speech and audio processing",
+"works": 119
+},
+{
+"id": 4393914671,
+"name": "Mémoires de la Société néophilologique de Helsinki/Mémoires de la Société Néophilologique de Helsinki",
+"works": 118
+},
+{
+"id": 4393919268,
+"name": "Springer studies in media and political communication",
+"works": 118
+},
+{
+"id": 4393918957,
+"name": "Palgrave studies in audio-visual culture",
+"works": 118
+},
+{
+"id": 4393919044,
+"name": "China connections",
+"works": 118
+},
+{
+"id": 4393919470,
+"name": "Regensburger Beiträge zur Digitalisierung des Gesundheitswesens",
+"works": 118
+},
+{
+"id": 4393919234,
+"name": "Financial innovation and technology",
+"works": 118
+},
+{
+"id": 4393920002,
+"name": "Living signs of law",
+"works": 117
+},
+{
+"id": 4393919297,
+"name": "The politics of mental health and illness",
+"works": 117
+},
+{
+"id": 4404660872,
+"name": "ENGAGING INDONESIA: Critical Dialogues on Culture and Society.",
+"works": 117
+},
+{
+"id": 4393917603,
+"name": "Research in design series",
+"works": 117
+},
+{
+"id": 4210175578,
+"name": "Wie wir lesen - zur Geschichte, Praxis und Zukunft einer Kulturtechnik",
+"works": 115
+},
+{
+"id": 4404677686,
+"name": "Marǧa‘ū mummārasāt Maǧlis al-’Amn.",
+"works": 115
+},
+{
+"id": 4393919933,
+"name": "Early childhood research and education",
+"works": 114
+},
+{
+"id": 4404662434,
+"name": "Gender, justice and legal feminism",
+"works": 114
+},
+{
+"id": 4393918902,
+"name": "Key competences for higher education and employability",
+"works": 113
+},
+{
+"id": 4393919843,
+"name": "Interkulturelle Studien",
+"works": 113
+},
+{
+"id": 4393919866,
+"name": "Mathematikdidaktik im Fokus",
+"works": 113
+},
+{
+"id": 4404662332,
+"name": "Répertoire de la pratique du Conseil de sécurité.",
+"works": 112
+},
+{
+"id": 4404660543,
+"name": "Frontier studies in soil science",
+"works": 111
+},
+{
+"id": 4393919450,
+"name": "Game studies",
+"works": 111
+},
+{
+"id": 4393919986,
+"name": "Dynamics of virtual work",
+"works": 111
+},
+{
+"id": 4404663791,
+"name": "Konferenser /",
+"works": 110
+},
+{
+"id": 4393918956,
+"name": "Palgrave Macmillan transnational history series",
+"works": 110
+},
+{
+"id": 4404663274,
+"name": "Palgrave Studies in Global Security.",
+"works": 110
+},
+{
+"id": 4393919308,
+"name": "Data-intensive research",
+"works": 110
+},
+{
+"id": 4393919915,
+"name": "Palgrave Studies in Literary Anthropology",
+"works": 109
+},
+{
+"id": 4393919965,
+"name": "Britain and the world",
+"works": 109
+},
+{
+"id": 4393919362,
+"name": "Risk, reliability and safety engineering",
+"works": 109
+},
+{
+"id": 4210209171,
+"name": "Palgrave studies in populisms",
+"works": 108
+},
+{
+"id": 4393919209,
+"name": "Arctic encounters",
+"works": 108
+},
+{
+"id": 4393919372,
+"name": "Gender perspectives in law",
+"works": 107
+},
+{
+"id": 4210206542,
+"name": "Relational economics and organization governance",
+"works": 107
+},
+{
+"id": 4404664063,
+"name": "Climate Change and Energy Transition.",
+"works": 107
+},
+{
+"id": 4393919298,
+"name": "Cities, heritage and transformation",
+"works": 107
+},
+{
+"id": 4393919830,
+"name": "Latin American Political Economy",
+"works": 107
+},
+{
+"id": 4404663957,
+"name": "South Asia's Geopolitical & Strategic Engagement.",
+"works": 107
+},
+{
+"id": 4393919968,
+"name": "Central and Eastern European perspectives on international relations",
+"works": 107
+},
+{
+"id": 4393919983,
+"name": "Palgrave studies in language, gender and sexuality",
+"works": 106
+},
+{
+"id": 4393919424,
+"name": "1800 - 2000",
+"works": 106
+},
+{
+"id": 4393919978,
+"name": "Global issues",
+"works": 106
+},
+{
+"id": 4393920011,
+"name": "The information retrieval series",
+"works": 106
+},
+{
+"id": 4393919091,
+"name": "Synthesis lectures on renewable energy technologies",
+"works": 106
+},
+{
+"id": 4210205261,
+"name": "Cognitive linguistics in practice CLiP",
+"works": 105
+},
+{
+"id": 4393919333,
+"name": "Critical cultural studies of childhood",
+"works": 105
+},
+{
+"id": 4393919279,
+"name": "Social visualities",
+"works": 105
+},
+{
+"id": 4404670428,
+"name": "Verkkojulkaisuja /",
+"works": 105
+},
+{
+"id": 4404662568,
+"name": "Palgrave Studies in Cyberpsychology.",
+"works": 104
+},
+{
+"id": 4393919245,
+"name": "Militär und Sozialwissenschaften",
+"works": 104
+},
+{
+"id": 4404675240,
+"name": "Science, technology and innovation policy review.",
+"works": 104
+},
+{
+"id": 4393919929,
+"name": "Global political sociology",
+"works": 104
+},
+{
+"id": 4393919771,
+"name": "Pflege - Bildung - Wissen",
+"works": 104
+},
+{
+"id": 4393919040,
+"name": "Cognitive informatics in biomedicine and healthcare",
+"works": 103
+},
+{
+"id": 4404669086,
+"name": "Digitality and education",
+"works": 102
+},
+{
+"id": 4393919261,
+"name": "Palgrave advances in sex work studies",
+"works": 102
+},
+{
+"id": 4393919918,
+"name": "Palgrave studies in utopianism",
+"works": 102
+},
+{
+"id": 4393918935,
+"name": "Encyclopedia of sustainability science and technology series",
+"works": 102
+},
+{
+"id": 4393918728,
+"name": "EmotionsKulturen",
+"works": 102
+},
+{
+"id": 4393919364,
+"name": "Catholic education globally",
+"works": 102
+},
+{
+"id": 4404676453,
+"name": "Spravočnik po praktike Soveta Bezopasnosti",
+"works": 102
+},
+{
+"id": 4210196255,
+"name": "Think! Historically: teaching history and the dialogue of disciplines",
+"works": 101
+},
+{
+"id": 4393919233,
+"name": "AdminiStudies. Formen und Medien der Verwaltung",
+"works": 101
+},
+{
+"id": 4393919252,
+"name": "Water and waste water management",
+"works": 101
+},
+{
+"id": 4210183431,
+"name": "Synthesis lectures on sustainable development",
+"works": 101
+},
+{
+"id": 4393919959,
+"name": "Palgrave hate studies",
+"works": 101
+},
+{
+"id": 4210211517,
+"name": "Texte zur populären Musik",
+"works": 100
+},
+{
+"id": 4404673471,
+"name": "Inside Copilot.",
+"works": 100
+},
+{
+"id": 4393919134,
+"name": "Der Mensch im Netz der Kulturen",
+"works": 100
+},
+{
+"id": 4210170820,
+"name": "Cellular origin, life in extreme habitats and astrobiology",
+"works": 100
+},
+{
+"id": 4393918949,
+"name": "Global punk",
+"works": 100
+},
+{
+"id": 4210199599,
+"name": "Actes sémiotiques",
+"works": 100
+},
+{
+"id": 4393919794,
+"name": "E-Figurationen",
+"works": 99
+},
+{
+"id": 4393919990,
+"name": "Entwicklung neuer Ansätze zum nachhaltigen Planen und Bauen",
+"works": 99
+},
+{
+"id": 4393919456,
+"name": "GenderScripts",
+"works": 99
+},
+{
+"id": 4393919987,
+"name": "Palgrave philosophy today",
+"works": 98
+},
+{
+"id": 4393919442,
+"name": "Neue Horizonte der Religionsphilosophie",
+"works": 97
+},
+{
+"id": 4404660972,
+"name": "Palgrave studies in otherness and communication.",
+"works": 97
+},
+{
+"id": 4393913138,
+"name": "Publication - Field Museum of Natural History. Botanical series",
+"works": 97
+},
+{
+"id": 4393916344,
+"name": "Beiträge zur Popularmusikforschung",
+"works": 97
+},
+{
+"id": 4393918107,
+"name": "Károli könyvek. Tanulmánykötet",
+"works": 97
+},
+{
+"id": 2739250174,
+"name": "Philosophies",
+"works": 97
+},
+{
+"id": 4393919535,
+"name": "Public domain series",
+"works": 96
+},
+{
+"id": 4393919039,
+"name": "Springer tracts in human-centered computing",
+"works": 96
+},
+{
+"id": 4210224505,
+"name": "Rapport sur le développement humain",
+"works": 96
+},
+{
+"id": 4393917805,
+"name": "Ost-West-Express",
+"works": 96
+},
+{
+"id": 4393918396,
+"name": "WSL-Berichte/WSL Berichte",
+"works": 96
+},
+{
+"id": 4393919142,
+"name": "Fashion studies",
+"works": 96
+},
+{
+"id": 4393919393,
+"name": "Deutschdidaktik",
+"works": 96
+},
+{
+"id": 4393918522,
+"name": "Schriften zur Sprechwissenschaft und Phonetik",
+"works": 95
+},
+{
+"id": 4393919475,
+"name": "Biblioteca luso-afro-brasileira",
+"works": 94
+},
+{
+"id": 4393919852,
+"name": "Wahlen und politische Einstellungen",
+"works": 94
+},
+{
+"id": 993354952,
+"name": "Synthesis lectures on quantum computing",
+"works": 93
+},
+{
+"id": 4393919311,
+"name": "Palgrave series in Asian German studies",
+"works": 93
+},
+{
+"id": 4393918520,
+"name": "Forum: Österreich",
+"works": 93
+},
+{
+"id": 4393919257,
+"name": "Studies in energy, resource and environmental economics",
+"works": 92
+},
+{
+"id": 4393919155,
+"name": "Menschenrechte in der Medizin",
+"works": 92
+},
+{
+"id": 4393919213,
+"name": "Plant life and environment dynamics",
+"works": 92
+},
+{
+"id": 4393918898,
+"name": "Machina",
+"works": 92
+},
+{
+"id": 4404661784,
+"name": "BCMCR new directions in media and cultural research.",
+"works": 92
+},
+{
+"id": 4393919170,
+"name": "Advanced notes in information science",
+"works": 92
+},
+{
+"id": 4393917723,
+"name": "Playtext series",
+"works": 91
+},
+{
+"id": 4210206637,
+"name": "Alter(n)skulturen",
+"works": 91
+},
+{
+"id": 4210191114,
+"name": "What radiology residents need to know",
+"works": 91
+},
+{
+"id": 4393919214,
+"name": "Indoor Environment and Sustainable Building/Indoor environment and sustainable building",
+"works": 91
+},
+{
+"id": 4393917789,
+"name": "Romanistik",
+"works": 91
+},
+{
+"id": 4393919322,
+"name": "Just Transitions",
+"works": 90
+},
+{
+"id": 4210168794,
+"name": "Competition law and policy reviews",
+"works": 90
+},
+{
+"id": 4393918900,
+"name": "Perspectives in physiology",
+"works": 90
+},
+{
+"id": 4393919397,
+"name": "The Uniqueness of Chinese Civilization in World History",
+"works": 90
+},
+{
+"id": 4393918939,
+"name": "Pracatical anatomic pathology",
+"works": 90
+},
+{
+"id": 4210183859,
+"name": "Stochastic modelling and applied probability",
+"works": 90
+},
+{
+"id": 4210199790,
+"name": "Social statistics and indicators/Soc‪ial statistics and indicators",
+"works": 90
+},
+{
+"id": 4393919426,
+"name": "Commercial vehicle technology",
+"works": 89
+},
+{
+"id": 4393919842,
+"name": "Interdisziplinäre Organisations- und Verwaltungsforschung",
+"works": 89
+},
+{
+"id": 4393918807,
+"name": "Fish & fisheries series/Fish and fisheries series (Print)",
+"works": 89
+},
+{
+"id": 4404673702,
+"name": "Palgrave practical guides in communication.",
+"works": 89
+},
+{
+"id": 4210192305,
+"name": "Working paper - Bank of Greece",
+"works": 89
+},
+{
+"id": 4393919904,
+"name": "Histories of the Sacred and Secular, 1700-2000",
+"works": 88
+},
+{
+"id": 4393919948,
+"name": "Philosophers in depth",
+"works": 88
+},
+{
+"id": 4393919365,
+"name": "International law in Asia",
+"works": 88
+},
+{
+"id": 4393919150,
+"name": "Kultur und Kollektiv",
+"works": 88
+},
+{
+"id": 4393920056,
+"name": "Country cancer profiles",
+"works": 88
+},
+{
+"id": 4393919390,
+"name": "Palgrave studies in literary journalism",
+"works": 88
+},
+{
+"id": 4404661906,
+"name": "Springer Studies in American Politics.",
+"works": 87
+},
+{
+"id": 4393918641,
+"name": "Modélisations, simulations, systèmes complexes",
+"works": 87
+},
+{
+"id": 4210172726,
+"name": "Synthesis lectures on antennas",
+"works": 87
+},
+{
+"id": 4393919947,
+"name": "Political corruption and governance",
+"works": 86
+},
+{
+"id": 4393919796,
+"name": "Geschlecht als Erfahrung",
+"works": 86
+},
+{
+"id": 4393919901,
+"name": "Literatures, Cultures, and the Environment",
+"works": 86
+},
+{
+"id": 4393919791,
+"name": "Mainzer Studien zur Frühen Neuzeit",
+"works": 86
+},
+{
+"id": 4393919129,
+"name": "ArchitekturDenken",
+"works": 86
+},
+{
+"id": 4393919118,
+"name": "Leipzig Middle East studies",
+"works": 85
+},
+{
+"id": 4393919652,
+"name": "Topics in systems engineering",
+"works": 85
+},
+{
+"id": 4393919787,
+"name": "Critical futures",
+"works": 85
+},
+{
+"id": 4393919358,
+"name": "Future education and learning spaces",
+"works": 85
+},
+{
+"id": 4393919860,
+"name": "Organization, Management and Crime - Organisation, Management und Kriminalität",
+"works": 85
+},
+{
+"id": 4393919251,
+"name": "Studien zum nachhaltigen Bauen und Wirtschaften",
+"works": 84
+},
+{
+"id": 4393919332,
+"name": "Anthropocene - humanities and social sciences",
+"works": 84
+},
+{
+"id": 4393913612,
+"name": "Publications on geodesy. New series",
+"works": 84
+},
+{
+"id": 4210240465,
+"name": "Dinâmicas do desenvolvimento em África",
+"works": 84
+},
+{
+"id": 4393919458,
+"name": "Studien Deutsch als Fremd- und Zweitsprache",
+"works": 84
+},
+{
+"id": 4393919471,
+"name": "Literaturdidaktik und literarische Bildung",
+"works": 83
+},
+{
+"id": 4393919286,
+"name": "Series on grey system",
+"works": 83
+},
+{
+"id": 4393918730,
+"name": "Europäische Kulturen in der Wirtschaftskommunikation",
+"works": 83
+},
+{
+"id": 4393918903,
+"name": "Forschungen des Instituts für Archäologische Wissenschaften, Denkmalwissenschaften und Kunstgeschichte",
+"works": 83
+},
+{
+"id": 4404662330,
+"name": "Datini studies in economic history.",
+"works": 83
+},
+{
+"id": 4404676739,
+"name": "Smart Sustainable Cities Profile",
+"works": 83
+},
+{
+"id": 4393919356,
+"name": "SpringerBriefs on PDEs and Data Science",
+"works": 82
+},
+{
+"id": 4393919461,
+"name": "Digitale Soziologie",
+"works": 82
+},
+{
+"id": 4210208266,
+"name": "Synthesis lectures on chemical engineering and biochemical engineering",
+"works": 82
+},
+{
+"id": 4393919957,
+"name": "Palgrave politics of identity and citizenship series",
+"works": 82
+},
+{
+"id": 4393919962,
+"name": "New perspectives in German political studies",
+"works": 82
+},
+{
+"id": 4393919940,
+"name": "Understanding governance",
+"works": 82
+},
+{
+"id": 4393919120,
+"name": "Environmental and climate history",
+"works": 82
+},
+{
+"id": 4210198719,
+"name": "Statistiques et indicateurs sociaux",
+"works": 81
+},
+{
+"id": 4404663692,
+"name": "Palgrave studies in Austrian economics.",
+"works": 81
+},
+{
+"id": 4393918632,
+"name": "Forschungsperspektiven",
+"works": 81
+},
+{
+"id": 4404675363,
+"name": "Vsemirnaâ programma obrazovaniâ v oblasti prav čeloveka.",
+"works": 81
+},
+{
+"id": 4404675175,
+"name": "Enfoques.",
+"works": 81
+},
+{
+"id": 4393919956,
+"name": "Palgrave studies in languages at war",
+"works": 81
+},
+{
+"id": 4404663979,
+"name": "Key questions.",
+"works": 81
+},
+{
+"id": 4404669558,
+"name": "Crop production science in horticulture.",
+"works": 81
+},
+{
+"id": 4393919484,
+"name": "Global health humanities",
+"works": 81
+},
+{
+"id": 4393919982,
+"name": "Medicine and biomedical sciences in modern history",
+"works": 81
+},
+{
+"id": 4404669697,
+"name": "Germanistische Abhandlungen",
+"works": 81
+},
+{
+"id": 4404662439,
+"name": "The military and society",
+"works": 81
+},
+{
+"id": 4404669857,
+"name": "Crime prevention and security management.",
+"works": 81
+},
+{
+"id": 4393919976,
+"name": "Energy, climate and the environment",
+"works": 80
+},
+{
+"id": 4404663167,
+"name": "Palgrave companions.",
+"works": 80
+},
+{
+"id": 4393918521,
+"name": "Current clinical practice",
+"works": 80
+},
+{
+"id": 4210172472,
+"name": "Frontiers in clinical drug research. CNS and neurological disorders",
+"works": 80
+},
+{
+"id": 4210185379,
+"name": "Synthesis lectures on games and computational intelligence",
+"works": 80
+},
+{
+"id": 4393919975,
+"name": "EADI global development series",
+"works": 80
+},
+{
+"id": 4393919127,
+"name": "Transdisziplinäre Popkulturstudien",
+"works": 79
+},
+{
+"id": 4393919998,
+"name": "Public economy and urban governance in China",
+"works": 79
+},
+{
+"id": 4404674018,
+"name": "Sicherheit, Strategie & Innovation",
+"works": 78
+},
+{
+"id": 4393919889,
+"name": "Palgrave Studies in Risk, Crime and Society",
+"works": 78
+},
+{
+"id": 4404669028,
+"name": "Theologie/Religionswissenschaft.",
+"works": 78
+},
+{
+"id": 4393919255,
+"name": "Iris Murdoch today",
+"works": 78
+},
+{
+"id": 4404673460,
+"name": "Palgrave studies in political history.",
+"works": 78
+},
+{
+"id": 4393919905,
+"name": "Health, technology and society",
+"works": 78
+},
+{
+"id": 4393918889,
+"name": "Regional trends report on energy for sustainable development in Asia and the Pacific",
+"works": 77
+},
+{
+"id": 4404663151,
+"name": "Springer handbooks of political science and international relations",
+"works": 77
+},
+{
+"id": 4210180634,
+"name": "Advances in studies of aging and health",
+"works": 77
+},
+{
+"id": 4393919865,
+"name": "Beiträge zur Praxeologie / Contributions to Praxeology",
+"works": 77
+},
+{
+"id": 4393917743,
+"name": "Ainedidaktisia tutkimuksia",
+"works": 77
+},
+{
+"id": 4393918780,
+"name": "Latin American mathematics series. UFSCar subseries",
+"works": 76
+},
+{
+"id": 4393919802,
+"name": "Metaphor papers",
+"works": 76
+},
+{
+"id": 4220651816,
+"name": "Kritische Erziehungs- und Bildungswissenschaft",
+"works": 76
+},
+{
+"id": 4393918760,
+"name": "Evropejskoe soglašenie o meždunarodnoj perevozke opasnyh gruzov po vnutrennim vodnym putâm",
+"works": 76
+},
+{
+"id": 4393919913,
+"name": "Palgrave Studies in Relational Sociology",
+"works": 76
+},
+{
+"id": 4393917811,
+"name": "Düsseldorfer Schriften zum Versicherungsrecht/Düsseldorfer Schriften zum Versicherungsrecht",
+"works": 76
+},
+{
+"id": 4393915265,
+"name": "Veröffentlichungen aus dem Staatsarchiv der Freien und Hansestadt Hamburg",
+"works": 76
+},
+{
+"id": 4393919342,
+"name": "LCF studies in commercial and financial law",
+"works": 76
+},
+{
+"id": 4404664382,
+"name": "Mediated cities series.",
+"works": 75
+},
+{
+"id": 4393920092,
+"name": "Integration von Zuwanderern: Indikatoren",
+"works": 75
+},
+{
+"id": 4404677831,
+"name": "Sportpraxis",
+"works": 75
+},
+{
+"id": 4393919446,
+"name": "Vernetzen - bewegen - verorten",
+"works": 75
+},
+{
+"id": 4393919464,
+"name": "Materialien und Studien Deutsch als Fremd- und Zweitsprache",
+"works": 75
+},
+{
+"id": 4210171908,
+"name": "Beiträge zur Teilhabeforschung",
+"works": 75
+},
+{
+"id": 4393919855,
+"name": "Szene & Horizont. Theaterwissenschaftliche Studien",
+"works": 75
+},
+{
+"id": 4393919121,
+"name": "Achtsamkeit - Bildung - Medien",
+"works": 74
+},
+{
+"id": 4393919011,
+"name": "Vital Turn: Leib, Körper, Emotionen",
+"works": 74
+},
+{
+"id": 4393919296,
+"name": "Studies in Public Choice",
+"works": 74
+},
+{
+"id": 4393919721,
+"name": "Chronicle of computing",
+"works": 74
+},
+{
+"id": 4210224873,
+"name": "Palgrave games in context",
+"works": 74
+},
+{
+"id": 4210212090,
+"name": "Collection CNED-PUF",
+"works": 73
+},
+{
+"id": 4404663038,
+"name": "Handbooks of Crop Diversity : Conservation and Use of Plant Genetic Resources",
+"works": 73
+},
+{
+"id": 4404663092,
+"name": "Crime and justice briefing papers.",
+"works": 73
+},
+{
+"id": 4404669070,
+"name": "Palgrave studies in mediating kinship, representation, and difference.",
+"works": 73
+},
+{
+"id": 4210224046,
+"name": "Études économiques de l'OCDE. Norvège",
+"works": 73
+},
+{
+"id": 4393919157,
+"name": "Post_koloniale Medienwissenschaft",
+"works": 73
+},
+{
+"id": 4393920101,
+"name": "Innovation for sustainable development review",
+"works": 73
+},
+{
+"id": 4393919943,
+"name": "The theories, concepts and practices of democracy",
+"works": 73
+},
+{
+"id": 4393919256,
+"name": "Palgrave studies in digital inequalities",
+"works": 72
+},
+{
+"id": 4210180718,
+"name": "Frontiers in neuroengineering series/Frontiers in neuroengineering",
+"works": 72
+},
+{
+"id": 4210192681,
+"name": "Organisationsstudien",
+"works": 72
+},
+{
+"id": 4404660955,
+"name": "Frontiers in South and Southeast Asian Development Research.",
+"works": 71
+},
+{
+"id": 4393919153,
+"name": "MedienAnalysen",
+"works": 71
+},
+{
+"id": 4210206775,
+"name": "Bamberger Studien zu Literatur, Kultur und Medien",
+"works": 71
+},
+{
+"id": 4393919902,
+"name": "International perspectives on English language teaching",
+"works": 71
+},
+{
+"id": 4393918821,
+"name": "Grundwissen Politik/Grundwissen Politk",
+"works": 71
+},
+{
+"id": 4404661928,
+"name": "Therapie der Krankheiten im Kindes- und Jugendalter",
+"works": 71
+},
+{
+"id": 4393919813,
+"name": "The Palgrave Macmillan series in international political communication",
+"works": 70
+},
+{
+"id": 4393919916,
+"name": "Palgrave Studies in Migration History",
+"works": 70
+},
+{
+"id": 4404661833,
+"name": "Artificial intelligence, simulation and society",
+"works": 70
+},
+{
+"id": 4404669240,
+"name": "Doctoral series.",
+"works": 70
+},
+{
+"id": 4393919899,
+"name": "The New Antiquity",
+"works": 70
+},
+{
+"id": 4393918302,
+"name": "Studien zu Fach, Sprache und Kultur",
+"works": 70
+},
+{
+"id": 4393919260,
+"name": "SpringerBriefs in service science",
+"works": 70
+},
+{
+"id": 4393918101,
+"name": "Critical studies in architecture of the Middle East",
+"works": 70
+},
+{
+"id": 4210222411,
+"name": "Synthesis lectures on global engineering",
+"works": 69
+},
+{
+"id": 4404660816,
+"name": "The new",
+"works": 69
+},
+{
+"id": 4404675504,
+"name": "Performance and communities.",
+"works": 69
+},
+{
+"id": 4404675697,
+"name": "Etudes de Genève sur le bois et la forêt.",
+"works": 69
+},
+{
+"id": 4404675381,
+"name": "SpringerBriefs in Advancing Social Work and Social Work Education.",
+"works": 69
+},
+{
+"id": 4404673664,
+"name": "Yezidi studies",
+"works": 69
+},
+{
+"id": 4393919608,
+"name": "SDG pulse",
+"works": 69
+},
+{
+"id": 4210192209,
+"name": "Synthesis lectures on technology, management, and entrepreneurship",
+"works": 69
+},
+{
+"id": 4404664099,
+"name": "Palgrave studies in technical and vocational education and training.",
+"works": 69
+},
+{
+"id": 4393920006,
+"name": "Society, environment and statistics",
+"works": 68
+},
+{
+"id": 4393918656,
+"name": "Mycology",
+"works": 68
+},
+{
+"id": 4393912836,
+"name": "Biological notes",
+"works": 68
+},
+{
+"id": 4404669864,
+"name": "Geoenvironmental disaster reduction",
+"works": 68
+},
+{
+"id": 4404670157,
+"name": "Litterae humaniores.",
+"works": 68
+},
+{
+"id": 4393919847,
+"name": "Politische Kultur in den neuen Demokratien Europas",
+"works": 67
+},
+{
+"id": 4393919797,
+"name": "Literary ecologies",
+"works": 67
+},
+{
+"id": 4393919222,
+"name": "Maarif global education series",
+"works": 67
+},
+{
+"id": 4393919731,
+"name": "Standards in action",
+"works": 67
+},
+{
+"id": 4393919130,
+"name": "Ästhetik und Bildung",
+"works": 67
+},
+{
+"id": 4393917739,
+"name": "Sapientia füzetek",
+"works": 66
+},
+{
+"id": 4393918913,
+"name": "Statistik und ihre Anwendungen",
+"works": 66
+},
+{
+"id": 4210206041,
+"name": "Frontiers in applied dynamical systems: reviews and tutorials",
+"works": 66
+},
+{
+"id": 4393919360,
+"name": "City development",
+"works": 66
+},
+{
+"id": 4393912880,
+"name": "Monografie matematyczne",
+"works": 66
+},
+{
+"id": 4393919951,
+"name": "Palgrave studies in theatre and performance history",
+"works": 66
+},
+{
+"id": 4393919788,
+"name": "Diversity in culture",
+"works": 66
+},
+{
+"id": 4393919973,
+"name": "Consumption and public life",
+"works": 66
+},
+{
+"id": 4393919452,
+"name": "Atlas der Datenkörper",
+"works": 65
+},
+{
+"id": 4393919944,
+"name": "Sociology transformed",
+"works": 65
+},
+{
+"id": 4393919954,
+"name": "Palgrave studies in modern monarchy",
+"works": 65
+},
+{
+"id": 4393919419,
+"name": "Technik, Körper, Gesellschaft",
+"works": 65
+},
+{
+"id": 4393913979,
+"name": "Report on the ... session",
+"works": 65
+},
+{
+"id": 4393919068,
+"name": "Reformáció öröksége könyvek",
+"works": 65
+},
+{
+"id": 4393919439,
+"name": "Schriftenreihe des Deutschen Instituts für Tourismusforschung",
+"works": 65
+},
+{
+"id": 4393918967,
+"name": "Culture, mind, and society",
+"works": 65
+},
+{
+"id": 4393919886,
+"name": "Palgrave studies in urban anthropology",
+"works": 64
+},
+{
+"id": 4404663254,
+"name": "Human rights interventions.",
+"works": 64
+},
+{
+"id": 4404660947,
+"name": "Studies in mobilities, literature, and culture.",
+"works": 64
+},
+{
+"id": 4393917391,
+"name": "Advances in appreciative inquiry",
+"works": 64
+},
+{
+"id": 4393918764,
+"name": "EMS series of lectures in mathematics",
+"works": 64
+},
+{
+"id": 4404663005,
+"name": "Sustainable Development Goals (SDG) - Umsetzung in Praxis, Lehre und Entscheidungsprozessen",
+"works": 64
+},
+{
+"id": 4393918299,
+"name": "Bamberger Beiträge zur Linguistik",
+"works": 64
+},
+{
+"id": 4393919328,
+"name": "Artificial intelligence and the rule of law",
+"works": 64
+},
+{
+"id": 4210181269,
+"name": "Essays zur Gegenwartsästhetik",
+"works": 64
+},
+{
+"id": 4210170514,
+"name": "Estudios",
+"works": 64
+},
+{
+"id": 4393919903,
+"name": "Information Technology and Global Governance",
+"works": 63
+},
+{
+"id": 4393919029,
+"name": "Population, regional development and transport",
+"works": 63
+},
+{
+"id": 4393915001,
+"name": "Publication - Field Museum of Natural History. Geological series",
+"works": 63
+},
+{
+"id": 4393916345,
+"name": "Göttinger Bibliotheksschriften",
+"works": 63
+},
+{
+"id": 4393919810,
+"name": "Twenty-first Century Perspectives on War, Peace, and Human Conflict",
+"works": 63
+},
+{
+"id": 4393919292,
+"name": "Performance studies & cultural discourse in South Asia",
+"works": 63
+},
+{
+"id": 4393919772,
+"name": "Vermittlung und Übersetzung im Wandel",
+"works": 62
+},
+{
+"id": 4393919206,
+"name": "Historische Resilienz-Forschung",
+"works": 62
+},
+{
+"id": 4404661705,
+"name": "Creativity, education and the arts.",
+"works": 62
+},
+{
+"id": 4393919997,
+"name": "Nuclear science and technology",
+"works": 62
+},
+{
+"id": 2754391829,
+"name": "Bibliotheca ophthalmologica",
+"works": 62
+},
+{
+"id": 4210204361,
+"name": "Synthesis lectures on professionalism and career advancement for scientists and engineers",
+"works": 62
+},
+{
+"id": 4393919831,
+"name": "Historical Studies in Education",
+"works": 62
+},
+{
+"id": 4210204222,
+"name": "Cosmic ray studies with neutron detectors",
+"works": 61
+},
+{
+"id": 4404663100,
+"name": "Palgrave studies in green criminology.",
+"works": 61
+},
+{
+"id": 4393919295,
+"name": "Satoyama initiative thematic review",
+"works": 61
+},
+{
+"id": 4393919868,
+"name": "Schriften zu Gesundheit und Gesellschaft - Studies on Health and Society",
+"works": 61
+},
+{
+"id": 4393915667,
+"name": "Abhandlungen zur rechtswissenschaftlichen Grundlagenforschung",
+"works": 61
+},
+{
+"id": 4404663884,
+"name": "Sustainable business development",
+"works": 61
+},
+{
+"id": 4210210885,
+"name": "Frontiers in European radiology",
+"works": 61
+},
+{
+"id": 4393919143,
+"name": "Global studies & theory of society",
+"works": 61
+},
+{
+"id": 4393919341,
+"name": "Critical political theory and radical practice",
+"works": 61
+},
+{
+"id": 4404674799,
+"name": "ESI lectures in mathematics and physics",
+"works": 61
+},
+{
+"id": 4393919258,
+"name": "Montology",
+"works": 61
+},
+{
+"id": 4393919942,
+"name": "Thinking gender in transnational times",
+"works": 60
+},
+{
+"id": 4393919832,
+"name": "Chinese Literature and Culture in the World",
+"works": 60
+},
+{
+"id": 4393919816,
+"name": "Reform and transition in the Mediterranean",
+"works": 60
+},
+{
+"id": 4393918922,
+"name": "Schriftenreihe der HHL Leipzig Graduate School of Management",
+"works": 60
+},
+{
+"id": 4393919325,
+"name": "Ideologie und Gewalt - Schriften zur Deradikalisierung",
+"works": 60
+},
+{
+"id": 4393917819,
+"name": "Forum: Rumänien",
+"works": 60
+},
+{
+"id": 4393919368,
+"name": "Palgrave studies in language, literature and style",
+"works": 60
+},
+{
+"id": 4210167596,
+"name": "Perspectives économiques de l'Amérique latine",
+"works": 60
+},
+{
+"id": 4393919021,
+"name": "Sport - Gesellschaft - Kultur",
+"works": 60
+},
+{
+"id": 4404676813,
+"name": "Albert Salomon Werke.",
+"works": 60
+},
+{
+"id": 4404661902,
+"name": "Regionale Geographien =",
+"works": 60
+},
+{
+"id": 4393919363,
+"name": "Modern Antenna",
+"works": 60
+},
+{
+"id": 4393919883,
+"name": "Vallendarer Schriften der Pflegewissenschaft",
+"works": 60
+},
+{
+"id": 4393919922,
+"name": "Palgrave studies in alternative education",
+"works": 60
+},
+{
+"id": 4393919037,
+"name": "Palgrave Readers in Economics",
+"works": 59
+},
+{
+"id": 4393919012,
+"name": "Palgrave studies in creativity and innovation in organizations",
+"works": 59
+},
+{
+"id": 4404660535,
+"name": "Global perspectives in applied sport and performance psychology.",
+"works": 59
+},
+{
+"id": 4393919785,
+"name": "Interdisziplinäre Beiträge zu Medizin und Recht",
+"works": 59
+},
+{
+"id": 4393919999,
+"name": "Springer studies in law & geoeconomics/Springer studies in law & geoeconomicsd",
+"works": 59
+},
+{
+"id": 4393919160,
+"name": "Schriftenreihe des Weissenhof-Instituts zur Architektur- und Designtheorie",
+"works": 59
+},
+{
+"id": 4393919373,
+"name": "Literatur und Gesellschaft. Literatursoziologische Studien",
+"works": 59
+},
+{
+"id": 4393919384,
+"name": "New Perspectives in Behavioral & Health Sciences",
+"works": 59
+},
+{
+"id": 4393919210,
+"name": "Designing environments",
+"works": 58
+},
+{
+"id": 4393919841,
+"name": "Erlebniswelten",
+"works": 58
+},
+{
+"id": 4393918779,
+"name": "Contemporary Chinese Civil and Commercial Law",
+"works": 58
+},
+{
+"id": 4393918524,
+"name": "Sprachen lehren - Sprachen lernen",
+"works": 58
+},
+{
+"id": 4210235185,
+"name": "Guānyú wēixiǎn huòwù yùnshū de jiànyì shū. Shìyàn hé biāozhǔn shǒucè",
+"works": 58
+},
+{
+"id": 4393919473,
+"name": "Wissenschaftsdidaktik",
+"works": 58
+},
+{
+"id": 4393919281,
+"name": "Magdeburger Forschungen zu Bildungs-, Kultur- und Sozialwissenschaften",
+"works": 58
+},
+{
+"id": 4393919556,
+"name": "Advances in energy research and development",
+"works": 58
+},
+{
+"id": 4210183823,
+"name": "Frontiers in clinical drug research. Anti-infectives/Frontiers in clinical drug research. Anti infectives",
+"works": 58
+},
+{
+"id": 4393919223,
+"name": "New directions in welfare history",
+"works": 57
+},
+{
+"id": 4210238024,
+"name": "Social outlook for Asia and the Pacific",
+"works": 57
+},
+{
+"id": 4393918527,
+"name": "ZeitZeugnis",
+"works": 57
+},
+{
+"id": 4393913968,
+"name": "Actes et documents relatifs à l'organisation de la Cour",
+"works": 57
+},
+{
+"id": 4393918920,
+"name": "Inklusion und Gesellschaft",
+"works": 57
+},
+{
+"id": 4393919140,
+"name": "Edition Umbruch",
+"works": 57
+},
+{
+"id": 4393919162,
+"name": "Serien- und Fernsehforschung",
+"works": 56
+},
+{
+"id": 4404669048,
+"name": "Werkhefte des Landesarchivs Baden-Württemberg",
+"works": 56
+},
+{
+"id": 4393917798,
+"name": "Göttinger juristische Schriften",
+"works": 56
+},
+{
+"id": 4393919326,
+"name": "Internationale Berufsbildungsforschung",
+"works": 56
+},
+{
+"id": 4393919955,
+"name": "Palgrave studies in minority languages and communities",
+"works": 56
+},
+{
+"id": 4393919243,
+"name": "Springer series in international social work",
+"works": 56
+},
+{
+"id": 4393919169,
+"name": "Human development perspectives",
+"works": 56
+},
+{
+"id": 4393919789,
+"name": "Postcolonial writings",
+"works": 56
+},
+{
+"id": 4393919389,
+"name": "Palgrave Studies in Intermediality",
+"works": 56
+},
+{
+"id": 4404674932,
+"name": "The cultural and social foundations of education.",
+"works": 56
+},
+{
+"id": 4393919289,
+"name": "Interdisciplinary excellence accelerator series",
+"works": 56
+},
+{
+"id": 4393919592,
+"name": "Legal studies on Central Europe",
+"works": 56
+},
+{
+"id": 4393920070,
+"name": "Manuel ATP",
+"works": 55
+},
+{
+"id": 4393919205,
+"name": "Conflict, Environment, and Social Complexity",
+"works": 55
+},
+{
+"id": 4393919346,
+"name": "Palgrave Studies in US Elections",
+"works": 55
+},
+{
+"id": 4393918770,
+"name": "Serienräume - global, lokal, glokal",
+"works": 55
+},
+{
+"id": 4393919627,
+"name": "CIRIEC studies series",
+"works": 55
+},
+{
+"id": 4393918936,
+"name": "Soziologie der Konventionen",
+"works": 55
+},
+{
+"id": 4306504281,
+"name": "Bibliotheca Paediatrica",
+"works": 55
+},
+{
+"id": 4393919377,
+"name": "Reports of China's Basic Research",
+"works": 55
+},
+{
+"id": 4220651607,
+"name": "Environmental humanities",
+"works": 54
+},
+{
+"id": 4393919161,
+"name": "Schriftenreihe für Künstlerpublikationen",
+"works": 54
+},
+{
+"id": 4393919382,
+"name": "Key topics in behavioral sciences",
+"works": 54
+},
+{
+"id": 4404677278,
+"name": "Forschungsreihe PHW",
+"works": 54
+},
+{
+"id": 4393918293,
+"name": "Advances in psychology and psychological trends",
+"works": 54
+},
+{
+"id": 4393916319,
+"name": "Beihefte zur Zeitschrift für deutsche Philologie",
+"works": 54
+},
+{
+"id": 4393919857,
+"name": "Diversität und Bildung im digitalen Zeitalter",
+"works": 53
+},
+{
+"id": 4393919792,
+"name": "Corporeal matters",
+"works": 53
+},
+{
+"id": 4210175146,
+"name": "Synthesis lectures on software engineering",
+"works": 53
+},
+{
+"id": 4393919277,
+"name": "Palgrave studies in screenwriting",
+"works": 53
+},
+{
+"id": 4393920000,
+"name": "Manuale zu Testverfahren und Fragebögen",
+"works": 52
+},
+{
+"id": 4210222504,
+"name": "Talents à l’étranger",
+"works": 52
+},
+{
+"id": 4393919041,
+"name": "Contemporary rheumatology",
+"works": 52
+},
+{
+"id": 4393919447,
+"name": "Islamische praktische Theologie im Dialog",
+"works": 52
+},
+{
+"id": 4393919386,
+"name": "Friendly Guides to Technology",
+"works": 52
+},
+{
+"id": 4393918657,
+"name": "Muslims in global societies series",
+"works": 52
+},
+{
+"id": 4393919383,
+"name": "Tissue repair and reconstruction",
+"works": 52
+},
+{
+"id": 4220651767,
+"name": "Hydroscience and engineering",
+"works": 52
+},
+{
+"id": 4404661696,
+"name": "Palgrave studies in new religions and alternative spiritualities.",
+"works": 52
+},
+{
+"id": 4210203596,
+"name": "Depression and personality",
+"works": 52
+},
+{
+"id": 4220651289,
+"name": "Amerika: Kultur - Geschichte - Politik",
+"works": 52
+},
+{
+"id": 4210172401,
+"name": "Informed decisionmaking for sustainability",
+"works": 52
+},
+{
+"id": 4404674586,
+"name": "Asian Perspectives on Public Health.",
+"works": 51
+},
+{
+"id": 4404663184,
+"name": "Springer-AAS acoustics series.",
+"works": 51
+},
+{
+"id": 4393920191,
+"name": "Managementforschung",
+"works": 51
+},
+{
+"id": 4393920159,
+"name": "Axioma Series in Pedagogy and Philosophy of Education/Axioma series in pedagogy and philosophy of education",
+"works": 51
+},
+{
+"id": 4404669636,
+"name": "Intercultural reciprocal learning in Chinese and Western education.",
+"works": 51
+},
+{
+"id": 4404663455,
+"name": "Palgrave studies in entrepreneurship and society.",
+"works": 51
+},
+{
+"id": 4393918899,
+"name": "Springer series in vision research",
+"works": 51
+},
+{
+"id": 4393919379,
+"name": "SpringerBriefs in offending populations & correctional psychotherapy",
+"works": 51
+},
+{
+"id": 4393919218,
+"name": "Science meets practice",
+"works": 51
+},
+{
+"id": 4393919825,
+"name": "Asian Christianity in the Diaspora",
+"works": 51
+},
+{
+"id": 4220650906,
+"name": "Interdisziplinäre Studien zum östlichen Europa",
+"works": 51
+},
+{
+"id": 4393917823,
+"name": "Biometeorology",
+"works": 51
+},
+{
+"id": 4210216254,
+"name": "Schriften aus der Fakultät Humanwissenschaften der Otto-Friedrich-Universität Bamberg",
+"works": 50
+},
+{
+"id": 4393919316,
+"name": "Poverty-alleviation and social work in China",
+"works": 50
+},
+{
+"id": 4393919232,
+"name": "Texts in quantitative political analysis",
+"works": 50
+},
+{
+"id": 4210181954,
+"name": "Persönlichkeit und weltpolitische Gestaltung",
+"works": 50
+},
+{
+"id": 4404663670,
+"name": "Studies in magic and Kabbalah",
+"works": 50
+},
+{
+"id": 4404670139,
+"name": "Studies in digital interculturality",
+"works": 50
+},
+{
+"id": 4393919229,
+"name": "Cyberkriminologie - Theorien, Methoden, Erscheinungsformen",
+"works": 50
+},
+{
+"id": 4404663764,
+"name": "Synthesis lectures on green energy and technology",
+"works": 50
+},
+{
+"id": 4393920203,
+"name": "Statistical indicators of inclusive and sustainable industrialization",
+"works": 50
+},
+{
+"id": 4393919437,
+"name": "Public Interest Design",
+"works": 50
+},
+{
+"id": 4393919838,
+"name": "Zukunft und Forschung",
+"works": 49
+},
+{
+"id": 4393917361,
+"name": "Kleine Reihe - Stiftung Bundespräsident Theodor-Heuss-Haus/Kleine Reihe",
+"works": 49
+},
+{
+"id": 4404664014,
+"name": "The University of Tokyo Studies on Asia.",
+"works": 49
+},
+{
+"id": 4393919241,
+"name": "Advanced studies in diginomics and digitalization",
+"works": 49
+},
+{
+"id": 4404676519,
+"name": "OECD series on risk management of chemicals.",
+"works": 49
+},
+{
+"id": 4393918921,
+"name": "Studientexte zur Soziologie",
+"works": 49
+},
+{
+"id": 4393919752,
+"name": "Studies of the Ferenc Mádl Institute",
+"works": 49
+},
+{
+"id": 4210194649,
+"name": "Talent abroad",
+"works": 49
+},
+{
+"id": 4210192930,
+"name": "Perspectives des technologies de l'information de l'OCDE",
+"works": 49
+},
+{
+"id": 4393917608,
+"name": "Methodos series",
+"works": 49
+},
+{
+"id": 4393919801,
+"name": "Kritische Nachhaltigkeits- und Transformationsforschung",
+"works": 49
+},
+{
+"id": 4210226299,
+"name": "Synthesis lectures on electromagnetics",
+"works": 48
+},
+{
+"id": 4393919441,
+"name": "Gender, diversity and culture in history and politics",
+"works": 48
+},
+{
+"id": 4393918528,
+"name": "Schriften der Matthias-Kramer-Gesellschaft zur Erforschung der Geschichte des Fremdsprachenerwerbs und der Mehrsprachigkeit",
+"works": 48
+},
+{
+"id": 4393919466,
+"name": "Polen in der Gegenwart",
+"works": 48
+},
+{
+"id": 4393919995,
+"name": "Machine intelligence for materials science",
+"works": 48
+},
+{
+"id": 4393918954,
+"name": "Maritime literature and culture",
+"works": 48
+},
+{
+"id": 4393918761,
+"name": "EMS series in industrial and applied mathematics",
+"works": 48
+},
+{
+"id": 4393919306,
+"name": "Studien zur Philosophie des 20. und 21. Jahrhunderts",
+"works": 48
+},
+{
+"id": 4393916203,
+"name": "Publication - Field Museum of Natural History. Anthropological series/Publication. Anthropological series",
+"works": 48
+},
+{
+"id": 4393919141,
+"name": "Europäische Horizonte",
+"works": 48
+},
+{
+"id": 4404663457,
+"name": "Urban music studies.",
+"works": 48
+},
+{
+"id": 4393919119,
+"name": "K'Universale - interdisziplinäre Diskurse zu Fragen der Zeit",
+"works": 48
+},
+{
+"id": 4393918777,
+"name": "Dangerous behavior in clinical and forensic psychology",
+"works": 48
+},
+{
+"id": 4393917637,
+"name": "Praxiswissen Logopädie",
+"works": 48
+},
+{
+"id": 4393919898,
+"name": "New Directions in Islam",
+"works": 47
+},
+{
+"id": 4393918724,
+"name": "Rhetorik in Europa",
+"works": 47
+},
+{
+"id": 4404662713,
+"name": "Global foreign policy studies.",
+"works": 47
+},
+{
+"id": 4393919331,
+"name": "AI for risks",
+"works": 47
+},
+{
+"id": 4404668938,
+"name": "Framing film festivals.",
+"works": 47
+},
+{
+"id": 4393919890,
+"name": "Palgrave studies in pragmatics, language and cognition",
+"works": 47
+},
+{
+"id": 4393918721,
+"name": "Food and health",
+"works": 47
+},
+{
+"id": 4393919934,
+"name": "Planning, Environment, Cities",
+"works": 47
+},
+{
+"id": 4393919884,
+"name": "Medien - Aufklärung - Kritik",
+"works": 47
+},
+{
+"id": 4404674430,
+"name": "Research series on responsible enterprise ecosystems",
+"works": 47
+},
+{
+"id": 4210195691,
+"name": "Synthesis SEM lectures on experimental mechanics",
+"works": 46
+},
+{
+"id": 4393916071,
+"name": "Monographs of the United States Geological Survey",
+"works": 46
+},
+{
+"id": 4393917786,
+"name": "Steuerrecht und Steuerberatung",
+"works": 46
+},
+{
+"id": 4404662317,
+"name": "Springer graduate texts in philosophy.",
+"works": 46
+},
+{
+"id": 4393919294,
+"name": "KIAS Springer Series in Mathematics",
+"works": 46
+},
+{
+"id": 4393914614,
+"name": "Studienreihe Romania",
+"works": 46
+},
+{
+"id": 4393920156,
+"name": "Connessioni",
+"works": 46
+},
+{
+"id": 4210182470,
+"name": "Quaderni di Erga-logoi",
+"works": 46
+},
+{
+"id": 4210191981,
+"name": "Frontiers in probability and the statistical sciences",
+"works": 46
+},
+{
+"id": 4393919910,
+"name": "Gender and Cultural Studies in Africa and the Diaspora",
+"works": 46
+},
+{
+"id": 4210205583,
+"name": "International Marketing and Management Research",
+"works": 46
+},
+{
+"id": 4393919248,
+"name": "Educational research in China",
+"works": 45
+},
+{
+"id": 4393913192,
+"name": "Publication - Field Columbian Museum. Zoological series",
+"works": 45
+},
+{
+"id": 4210233600,
+"name": "Atti",
+"works": 45
+},
+{
+"id": 4404663117,
+"name": "Indo-Pacific focus.",
+"works": 45
+},
+{
+"id": 4393915409,
+"name": "Arbeiten zur Kirchengeschichte Hamburgs",
+"works": 45
+},
+{
+"id": 4393919476,
+"name": "Tod und Agency",
+"works": 45
+},
+{
+"id": 4393919571,
+"name": "Sinergiâ âzykov i kulʹtur: meždisciplinarnye issledovaniâ",
+"works": 45
+},
+{
+"id": 4210209840,
+"name": "Modern otology and neurotology",
+"works": 45
+},
+{
+"id": 4210237202,
+"name": "Frontiers in animal diabetes research",
+"works": 45
+},
+{
+"id": 4393919226,
+"name": "Microfluidics and Nanophotonics",
+"works": 45
+},
+{
+"id": 4210197707,
+"name": "Radical theologies and philosophies",
+"works": 45
+},
+{
+"id": 4393918118,
+"name": "Studia ad Archaeologiam Pazmaniensiae",
+"works": 45
+},
+{
+"id": 4393919132,
+"name": "Bibliothek dialektischer Grundbegriffe",
+"works": 45
+},
+{
+"id": 4404674566,
+"name": "World programme for human rights education (Arabic language).",
+"works": 45
+},
+{
+"id": 4404660965,
+"name": "Emder Beiträge zum reformierten Protestantismus.",
+"works": 45
+},
+{
+"id": 4393919293,
+"name": "Africa-East Asia international relations",
+"works": 45
+},
+{
+"id": 4393919555,
+"name": "Advances in biogerontology",
+"works": 45
+},
+{
+"id": 4404662780,
+"name": "Transformation im Bauwesen",
+"works": 45
+},
+{
+"id": 4404669619,
+"name": "Jogászegyleti értekezések /",
+"works": 44
+},
+{
+"id": 4393919203,
+"name": "Progress in Sleep Research",
+"works": 44
+},
+{
+"id": 4393917792,
+"name": "Kunst-, Musik- und Theaterwissenschaft",
+"works": 44
+},
+{
+"id": 4404662547,
+"name": "Methodologisch-methodische Perspektiven auf Kindheit(en)",
+"works": 44
+},
+{
+"id": 4393919945,
+"name": "Security, development and human rights in East Asia",
+"works": 44
+},
+{
+"id": 4393919435,
+"name": "Media - Literaturwissenschaftliche Forschungen",
+"works": 44
+},
+{
+"id": 4393917818,
+"name": "Leipziger Masterarbeiten",
+"works": 44
+},
+{
+"id": 4393917791,
+"name": "Bilanz-, Prüfungs- und Steuerwesen",
+"works": 44
+},
+{
+"id": 4210169205,
+"name": "Emerging issues in international business and global strategy",
+"works": 44
+},
+{
+"id": 4393919042,
+"name": "Digitale Linguistik",
+"works": 44
+},
+{
+"id": 4393919820,
+"name": "Palgrave Studies in Disability and International Development",
+"works": 44
+},
+{
+"id": 4393919920,
+"name": "Palgrave Studies in Indigenous Psychology",
+"works": 43
+},
+{
+"id": 4404663232,
+"name": "International and Comparative Law in the Asia Pacific.",
+"works": 43
+},
+{
+"id": 4404664393,
+"name": "Rapport sur le développement durable en Afrique.",
+"works": 43
+},
+{
+"id": 4210187038,
+"name": "Màoyì hè fāzhǎn lǐshìhuì de bàogào, Liánhéguó màoyì hè fāzhǎn huìyì",
+"works": 43
+},
+{
+"id": 4393919859,
+"name": "Wissenschaft - Hochschule - Bildung",
+"works": 43
+},
+{
+"id": 4393919396,
+"name": "Digital Privacy and Security",
+"works": 43
+},
+{
+"id": 4393920155,
+"name": "Studi di letterature moderne e comparate",
+"works": 43
+},
+{
+"id": 4393919237,
+"name": "Kritische Theorien in der globalen Moderne",
+"works": 42
+},
+{
+"id": 4393919391,
+"name": "SpringerBriefs in information security and cryptography",
+"works": 42
+},
+{
+"id": 4393919158,
+"name": "Reflexive Sozialpsychologie",
+"works": 42
+},
+{
+"id": 4393919417,
+"name": "Studien interdisziplinäre Geschlechterforschung",
+"works": 42
+},
+{
+"id": 4393919230,
+"name": "Europe-Asia connectivity",
+"works": 42
+},
+{
+"id": 4393919958,
+"name": "Palgrave modern legal history",
+"works": 42
+},
+{
+"id": 4393919023,
+"name": "Frontiers in the history of science",
+"works": 42
+},
+{
+"id": 4393919323,
+"name": "Additive manufacturing technology",
+"works": 42
+},
+{
+"id": 4393919921,
+"name": "Advances in preventing and treating violence and aggression",
+"works": 42
+},
+{
+"id": 4404677775,
+"name": "Issues of diversity in clinical neuropsychology.",
+"works": 42
+},
+{
+"id": 4210177043,
+"name": "Frontiers in clinical drug research. Diabetes and obesity",
+"works": 42
+},
+{
+"id": 4404660733,
+"name": "Designforschung - Designwissenschaft - Designtheorie",
+"works": 42
+},
+{
+"id": 4393919495,
+"name": "Studies on mathematics education and society",
+"works": 42
+},
+{
+"id": 4393919035,
+"name": "Ethik - Mensch - Technik",
+"works": 42
+},
+{
+"id": 4393919144,
+"name": "Habitat - international",
+"works": 42
+},
+{
+"id": 4393919793,
+"name": "New Europes",
+"works": 41
+},
+{
+"id": 4393919861,
+"name": "Juridicum - Schriften zum Zivilprozessrecht",
+"works": 41
+},
+{
+"id": 4393919895,
+"name": "Palgrave Studies in Global Citizenship Education and Democracy",
+"works": 41
+},
+{
+"id": 4393919891,
+"name": "Palgrave Studies in Political Psychology",
+"works": 41
+},
+{
+"id": 4404662466,
+"name": "Elections, Voting, Technology.",
+"works": 41
+},
+{
+"id": 4393919016,
+"name": "Innovativ und kompakt - gesellschaftliche Herausforderungen der Gegenwart",
+"works": 41
+},
+{
+"id": 4393919444,
+"name": "Der Anschnitt. Beiheft",
+"works": 41
+},
+{
+"id": 4393918305,
+"name": "Mitteilungen der Gemeinsamen Kommission für die Erforschung der jüngeren Geschichte der deutsch-russischen Beziehungen",
+"works": 41
+},
+{
+"id": 4210183817,
+"name": "Interdisciplinary research on particle collisions and quantitative spectroscopy",
+"works": 41
+},
+{
+"id": 4393919887,
+"name": "Palgrave Studies in the Theory and History of Psychology",
+"works": 41
+},
+{
+"id": 4404663096,
+"name": "Schule für Mathematik, Informatik, Logistik und Erfolg",
+"works": 41
+},
+{
+"id": 4404670127,
+"name": "Stadt, Raum und Gesellschaft.",
+"works": 41
+},
+{
+"id": 4404662065,
+"name": "Neopragmatic horizontal geographies",
+"works": 41
+},
+{
+"id": 4393919013,
+"name": "Palgrave studies in cultural participation",
+"works": 41
+},
+{
+"id": 4393920097,
+"name": "Working together for integration",
+"works": 41
+},
+{
+"id": 4404669698,
+"name": "UNHCR Global Trends",
+"works": 40
+},
+{
+"id": 4404677979,
+"name": "OECD series on the safety of manufactured nanomaterials and other advanced materials.",
+"works": 40
+},
+{
+"id": 4404662253,
+"name": "Water Informatics for Water Resource Management.",
+"works": 40
+},
+{
+"id": 4404670432,
+"name": "Palgrave studies in presidential politics.",
+"works": 40
+},
+{
+"id": 4393919272,
+"name": "Responsible innovation in industry",
+"works": 40
+},
+{
+"id": 4393919542,
+"name": "Synthesis lectures on threatcasting",
+"works": 40
+},
+{
+"id": 4210193835,
+"name": "Flora neotropica",
+"works": 40
+},
+{
+"id": 4404674604,
+"name": "Technosophy",
+"works": 40
+},
+{
+"id": 4393919882,
+"name": "Sozialer Wandel und Kohäsionsforschung",
+"works": 40
+},
+{
+"id": 4210202312,
+"name": "Frontiers in clinical drug research. Anti-cancer agents (Print)/Frontiers in clinical drug research. Anti-cancer agents",
+"works": 40
+},
+{
+"id": 4393919200,
+"name": "Computer-aided drug discovery and design",
+"works": 40
+},
+{
+"id": 4404661889,
+"name": "East Asian security.",
+"works": 40
+},
+{
+"id": 4210179348,
+"name": "Frontiers in anti-infective drug discovery",
+"works": 40
+},
+{
+"id": 4210238914,
+"name": "Studies on economic and social history from Southern Transdanubia",
+"works": 40
+},
+{
+"id": 4393919908,
+"name": "Executive Politics and Governance",
+"works": 39
+},
+{
+"id": 4210183333,
+"name": "IRENE",
+"works": 39
+},
+{
+"id": 4393919457,
+"name": "Göttinger Kolloquien zur Digitalisierung des Zivilverfahrensrechts",
+"works": 39
+},
+{
+"id": 4210178407,
+"name": "Synthesis lectures on control and mechatronics",
+"works": 39
+},
+{
+"id": 4393919034,
+"name": "Disaster risk, resilience, reconstruction and recovery",
+"works": 39
+},
+{
+"id": 4404660875,
+"name": "Statistics of road traffic accidents in Europe and North America.",
+"works": 39
+},
+{
+"id": 4210230258,
+"name": "Arcadia",
+"works": 39
+},
+{
+"id": 4393919270,
+"name": "Palgrave critical studies in human rights and criminology",
+"works": 39
+},
+{
+"id": 4393912897,
+"name": "Pädiatrische Fortbildungskurse für die Praxis",
+"works": 39
+},
+{
+"id": 4404675244,
+"name": "Palgrave studies in performance and technology.",
+"works": 39
+},
+{
+"id": 4393919217,
+"name": "Rethinking rural",
+"works": 39
+},
+{
+"id": 4210218635,
+"name": "Publication - Field Museum of Natural History. Zoological series",
+"works": 39
+},
+{
+"id": 4404662270,
+"name": "Springer Series in Policing.",
+"works": 39
+},
+{
+"id": 4220651645,
+"name": "Medienkulturanalyse",
+"works": 39
+},
+{
+"id": 4393919020,
+"name": "Palgrave studies on global policy and critical futures in education",
+"works": 39
+},
+{
+"id": 4393918915,
+"name": "Forschungen zur Europäischen Integration",
+"works": 39
+},
+{
+"id": 4404675979,
+"name": "Editionen und Studien zur Geschichte der Sexualitäten",
+"works": 39
+},
+{
+"id": 4210224932,
+"name": "Scuole di dottorato",
+"works": 39
+},
+{
+"id": 4393919879,
+"name": "Marketing und Marktorientierte Unternehmensführung",
+"works": 39
+},
+{
+"id": 4393919873,
+"name": "Neuere Geschichte der Pädagogik",
+"works": 39
+},
+{
+"id": 4404668885,
+"name": "Postcolonialism and religions.",
+"works": 38
+},
+{
+"id": 4210228821,
+"name": "Frontiers in computational chemistry",
+"works": 38
+},
+{
+"id": 4404662347,
+"name": "Economic governance report.",
+"works": 38
+},
+{
+"id": 4393919235,
+"name": "Studies in peace and security",
+"works": 38
+},
+{
+"id": 4393918750,
+"name": "Springerbriefs for data scientists and innovators",
+"works": 38
+},
+{
+"id": 4210229220,
+"name": "OECD economic surveys. Russian Federation",
+"works": 38
+},
+{
+"id": 4393918298,
+"name": "Sportmanagement",
+"works": 38
+},
+{
+"id": 4393919159,
+"name": "Religion und Medien",
+"works": 38
+},
+{
+"id": 4393919287,
+"name": "Beratung im Fokus",
+"works": 38
+},
+{
+"id": 4404674938,
+"name": "Rapport sur la gouvernance économique.",
+"works": 38
+},
+{
+"id": 4393918911,
+"name": "Vom Zählstein zum Computer",
+"works": 38
+},
+{
+"id": 4404669061,
+"name": "Springer Proceedings in Behavioral & Health Sciences.",
+"works": 38
+},
+{
+"id": 4393919163,
+"name": "Sozialphilosophische Studien",
+"works": 37
+},
+{
+"id": 4393919819,
+"name": "Palgrave studies on Chinese education in a global perspective",
+"works": 37
+},
+{
+"id": 4393920192,
+"name": "Edition Nachhaltig wirtschaften",
+"works": 37
+},
+{
+"id": 4393919154,
+"name": "MedienWelten",
+"works": 37
+},
+{
+"id": 4404676422,
+"name": "Findings from production management research",
+"works": 37
+},
+{
+"id": 4393919131,
+"name": "Bibliotheca Eurasica",
+"works": 37
+},
+{
+"id": 4393919479,
+"name": "Palgrave Macmillan studies on human rights in Asia",
+"works": 37
+},
+{
+"id": 4393919941,
+"name": "Transnational crime, crime control and security",
+"works": 37
+},
+{
+"id": 4393917808,
+"name": "DIIR-Schriftenreihe",
+"works": 37
+},
+{
+"id": 4404669202,
+"name": "Opolska Biblioteka Teologiczna.",
+"works": 37
+},
+{
+"id": 4404533586,
+"name": "EMS tracts in mathematics",
+"works": 37
+},
+{
+"id": 4404662909,
+"name": "Politics and Development of Contemporary China.",
+"works": 37
+},
+{
+"id": 4210237274,
+"name": "Demografie und Wirtschaft",
+"works": 37
+},
+{
+"id": 4393919357,
+"name": "Natural Orifice Specimen Extraction Surgery (NOSES) for Colorectal Cancer",
+"works": 37
+},
+{
+"id": 4393918916,
+"name": "Studien zur inneren Sicherheit",
+"works": 37
+},
+{
+"id": 4393918389,
+"name": "Le Forme del sentire. Strumenti",
+"works": 37
+},
+{
+"id": 4393919823,
+"name": "Palgrave Series in Islamic Theology, Law, and History",
+"works": 37
+},
+{
+"id": 4393919821,
+"name": "Palgrave Studies in Anthropology of Sustainability",
+"works": 36
+},
+{
+"id": 4393919952,
+"name": "Palgrave studies in science, knowledge and policy",
+"works": 36
+},
+{
+"id": 4393919892,
+"name": "Palgrave studies in political marketing and management",
+"works": 36
+},
+{
+"id": 4393919254,
+"name": "Ecocriticism",
+"works": 36
+},
+{
+"id": 4393919285,
+"name": "Ethnologie als Praxis",
+"works": 36
+},
+{
+"id": 4404668937,
+"name": "Zurich lectures in advanced mathematics",
+"works": 36
+},
+{
+"id": 4404662484,
+"name": "Slavolinguistica",
+"works": 36
+},
+{
+"id": 4393917303,
+"name": "Arts & cinéma",
+"works": 36
+},
+{
+"id": 4393917631,
+"name": "Schriften zu Tourismus und Freizeit",
+"works": 36
+},
+{
+"id": 4393919837,
+"name": "Governance, Security and Development",
+"works": 36
+},
+{
+"id": 4393919970,
+"name": "Communicating in professions and organizations",
+"works": 36
+},
+{
+"id": 4210224840,
+"name": "Frontiers in civil engineering",
+"works": 36
+},
+{
+"id": 4393919939,
+"name": "Adaptation in theatre and performance",
+"works": 35
+},
+{
+"id": 4393918774,
+"name": "Absentismus und Dropout",
+"works": 35
+},
+{
+"id": 4393919812,
+"name": "The Politics of Intersectionality",
+"works": 35
+},
+{
+"id": 4393919227,
+"name": "Palgrave handbooks in the philosophy of law",
+"works": 35
+},
+{
+"id": 4404677396,
+"name": "Blue Carbon Ecosystems for Sustainable Development.",
+"works": 35
+},
+{
+"id": 4393919953,
+"name": "Palgrave studies in political leadership",
+"works": 35
+},
+{
+"id": 4404674574,
+"name": "UN-Women Gender Alerts",
+"works": 35
+},
+{
+"id": 4393919925,
+"name": "Palgrave Studies in Law, Neuroscience, and Human Behavior",
+"works": 35
+},
+{
+"id": 4393919221,
+"name": "Crossing Cultures: Liberal Learning for a World in Flux",
+"works": 35
+},
+{
+"id": 4393918925,
+"name": "Unternehmensführung & Controlling",
+"works": 35
+},
+{
+"id": 4393919149,
+"name": "Kultur & Konflikt",
+"works": 35
+},
+{
+"id": 4404664387,
+"name": "Coimbra mathematical texts.",
+"works": 35
+},
+{
+"id": 4393919996,
+"name": "Berliner Rekonstruktionen des Mathematikunterrichts",
+"works": 35
+},
+{
+"id": 4210202148,
+"name": "Blinden- und Sehbehindertenpädagogik im Kontext Lebenslangen Lernens",
+"works": 35
+},
+{
+"id": 4393919927,
+"name": "Palgrave Studies in Literature, Culture and Economics",
+"works": 35
+},
+{
+"id": 4404674005,
+"name": "Palgrave studies in compromise after conflict.",
+"works": 35
+},
+{
+"id": 4210192470,
+"name": "Basiswissen Architektur",
+"works": 35
+},
+{
+"id": 4393918897,
+"name": "Auswärtige Kulturpolitik",
+"works": 34
+},
+{
+"id": 4404674715,
+"name": "Corpus Islamo-Christianum.",
+"works": 34
+},
+{
+"id": 4393919783,
+"name": "Abhandlungen der Niedersächsischen Akademie der Wissenschaften zu Göttingen",
+"works": 34
+},
+{
+"id": 4393919829,
+"name": "Literatures and Cultures of the Islamic World",
+"works": 34
+},
+{
+"id": 4393919780,
+"name": "Fokus Musikwissenschaft",
+"works": 34
+},
+{
+"id": 4393918767,
+"name": "Münster lectures in mathematics",
+"works": 34
+},
+{
+"id": 4210190929,
+"name": "Air pollution studies",
+"works": 34
+},
+{
+"id": 4393919122,
+"name": "Sprachlich-literarisches Lernen und Deutschdidaktik. Unterrichtsvorhaben",
+"works": 34
+},
+{
+"id": 4393919030,
+"name": "Praxiswissen Orthopädie Unfallchirurgie",
+"works": 34
+},
+{
+"id": 4210178132,
+"name": "Palgrave studies in globalization, culture and society",
+"works": 34
+},
+{
+"id": 4393919909,
+"name": "French Politics, Society and Culture",
+"works": 34
+},
+{
+"id": 4393919971,
+"name": "Comparative studies of political agendas",
+"works": 34
+},
+{
+"id": 4393919350,
+"name": "Synthesis lectures on intelligent technologies",
+"works": 34
+},
+{
+"id": 4306504279,
+"name": "Bibliotheca gynaecologica",
+"works": 34
+},
+{
+"id": 4393920063,
+"name": "Vulnerability profiles",
+"works": 34
+},
+{
+"id": 4393919455,
+"name": "Forced migration studies series",
+"works": 34
+},
+{
+"id": 4393919784,
+"name": "Werkhefte der Staatlichen Archivverwaltung Baden-Württemberg. Serie A",
+"works": 34
+},
+{
+"id": 4393919019,
+"name": "Psychology and our planet",
+"works": 34
+},
+{
+"id": 4393919280,
+"name": "Neue Soziologische Theorie",
+"works": 33
+},
+{
+"id": 4393917804,
+"name": "Bamberger interdisziplinäre Mittelalterstudien. Vorträge & Vorlesungen",
+"works": 33
+},
+{
+"id": 4393918952,
+"name": "New geographies of Europe",
+"works": 33
+},
+{
+"id": 4393919459,
+"name": "Literatur- und Kulturforschung",
+"works": 33
+},
+{
+"id": 4210203479,
+"name": "Report of the Disarmament Commission, United Nations",
+"works": 33
+},
+{
+"id": 4393919211,
+"name": "Angewandte Wirtschaftsinformatik und angewandte Informatik lernen",
+"works": 33
+},
+{
+"id": 4393920034,
+"name": "Perspectivas del comercio internacional de América Latina y el Caribe",
+"works": 33
+},
+{
+"id": 4404661764,
+"name": "Palgrave Critical Perspectives on Schooling, Teachers and Teaching.",
+"works": 33
+},
+{
+"id": 4393917815,
+"name": "Kulturen - Kommunikation - Kontakte",
+"works": 33
+},
+{
+"id": 4393919199,
+"name": "Lingue dei segni e sordità",
+"works": 33
+},
+{
+"id": 4393919798,
+"name": "Comic-Kulturen",
+"works": 33
+},
+{
+"id": 4393919835,
+"name": "Contemporary Religion and Popular Culture",
+"works": 33
+},
+{
+"id": 4404675844,
+"name": "Essentials of Diagnostic Gynecological Pathology.",
+"works": 32
+},
+{
+"id": 4210236310,
+"name": "Schriften zu Wirtschaftsprüfung, Steuerlehre und Controlling",
+"works": 32
+},
+{
+"id": 4393919991,
+"name": "Theorema - Literaturtheorie, Methodologie, Ästhetik",
+"works": 32
+},
+{
+"id": 4393919236,
+"name": "Non-state actors in international relations",
+"works": 32
+},
+{
+"id": 4404670013,
+"name": "Aleksej Tolstoj: dialogi so vremenem.",
+"works": 32
+},
+{
+"id": 4393918937,
+"name": "Rethinking university-community policy connections",
+"works": 32
+},
+{
+"id": 4210176292,
+"name": "SpringerBriefs in GIS",
+"works": 32
+},
+{
+"id": 4404663112,
+"name": "Positive Psychologie kompakt.",
+"works": 32
+},
+{
+"id": 4393918310,
+"name": "Europäische Schneisen",
+"works": 32
+},
+{
+"id": 4210226885,
+"name": "Comparative studies in continental and Anglo-American legal history",
+"works": 32
+},
+{
+"id": 4393919329,
+"name": "Innovation in risk analysis",
+"works": 32
+},
+{
+"id": 4393919433,
+"name": "Zürcher Begegnungen",
+"works": 32
+},
+{
+"id": 4393919809,
+"name": "Worlds of Consumption",
+"works": 32
+},
+{
+"id": 4210195251,
+"name": "Springer series on environmental management",
+"works": 32
+},
+{
+"id": 4393918311,
+"name": "Fokus Management und Führung",
+"works": 32
+},
+{
+"id": 4393918132,
+"name": "Veröffentlichungen zur Byzanzforschung",
+"works": 32
+},
+{
+"id": 4210230314,
+"name": "Contemporary performance interactions",
+"works": 32
+},
+{
+"id": 4220651018,
+"name": "Sound studies",
+"works": 32
+},
+{
+"id": 4393920024,
+"name": "Reinterpreting the Middle Ages",
+"works": 32
+},
+{
+"id": 4210197855,
+"name": "Detailwissen Bauphysik",
+"works": 32
+},
+{
+"id": 4393919152,
+"name": "Masse und Medium",
+"works": 32
+},
+{
+"id": 4393919607,
+"name": "Collection Technogenesis, green economy and sustainable development",
+"works": 32
+},
+{
+"id": 4393919912,
+"name": "New approaches to English historical linguistics",
+"works": 32
+},
+{
+"id": 4393919317,
+"name": "Interests politics series",
+"works": 31
+},
+{
+"id": 4210174455,
+"name": "Archeologia e arte antica",
+"works": 31
+},
+{
+"id": 4393919283,
+"name": "Contemporary humanitarian action and emergency management",
+"works": 31
+},
+{
+"id": 4210213312,
+"name": "Digital economy report",
+"works": 31
+},
+{
+"id": 4210172370,
+"name": "Bamberger Orientstudien",
+"works": 31
+},
+{
+"id": 4393920204,
+"name": "Fiscal panorama of Latin America and the Caribbean",
+"works": 31
+},
+{
+"id": 4404661779,
+"name": "Crossroads of knowledge in early modern literature.",
+"works": 31
+},
+{
+"id": 4393920205,
+"name": "Panorama fiscal de América Latina y el Caribe/Panorama Fiscal de América Latina y el Caribe",
+"works": 31
+},
+{
+"id": 4393918890,
+"name": "Rapport sur la gouvernance en Afrique",
+"works": 31
+},
+{
+"id": 4393919051,
+"name": "The frontier of public administration in China",
+"works": 31
+},
+{
+"id": 4393919871,
+"name": "Sachlernen & kindliche Bildung - Bedingungen, Strukturen, Kontexte",
+"works": 31
+},
+{
+"id": 4404664381,
+"name": "Democratic vistas",
+"works": 31
+},
+{
+"id": 4210186207,
+"name": "Estadísticas e indicadores sociales",
+"works": 31
+},
+{
+"id": 4393917799,
+"name": "Mäzene für Wissenschaft",
+"works": 31
+},
+{
+"id": 4404673830,
+"name": "UNHCR education report",
+"works": 31
+},
+{
+"id": 4404663872,
+"name": "Public sector organizations.",
+"works": 31
+},
+{
+"id": 4393918771,
+"name": "Managing the post-colony",
+"works": 31
+},
+{
+"id": 4404660660,
+"name": "Language and globalization.",
+"works": 31
+},
+{
+"id": 4393918818,
+"name": "Governance, development, and social inclusion in Latin America",
+"works": 31
+},
+{
+"id": 4210206028,
+"name": "Synthesis lectures on energy and the environment, technology, science, and society",
+"works": 31
+},
+{
+"id": 4210204503,
+"name": "Astrophysik aktuell",
+"works": 31
+},
+{
+"id": 4393919282,
+"name": "Energie aus Biomasse",
+"works": 31
+},
+{
+"id": 4210192307,
+"name": "WTO Appellate Body Repertory",
+"works": 30
+},
+{
+"id": 4393920199,
+"name": "Progress on the Sustainable Development Goals",
+"works": 30
+},
+{
+"id": 4404662192,
+"name": "Leisure studies in a global era.",
+"works": 30
+},
+{
+"id": 4404662272,
+"name": "Jüdische Studien",
+"works": 30
+},
+{
+"id": 4404669918,
+"name": "Building a sustainable political economy: SPERI research & policy.",
+"works": 30
+},
+{
+"id": 4404674744,
+"name": "Chapman mathematical notes",
+"works": 30
+},
+{
+"id": 4404675860,
+"name": "New transculturalisms, 1400-1800.",
+"works": 30
+},
+{
+"id": 4404675734,
+"name": "EMS Textbooks in mathematics",
+"works": 30
+},
+{
+"id": 4210238556,
+"name": "Études économiques de l'OCDE. Indonésie",
+"works": 30
+},
+{
+"id": 4393917814,
+"name": "Religionspädagogische Gespräche zwischen Juden, Christen und Muslimen",
+"works": 30
+},
+{
+"id": 4393919048,
+"name": "Produktionskulturen der Medien",
+"works": 30
+},
+{
+"id": 4393919854,
+"name": "Empirische Studien zur Parteienforschung",
+"works": 30
+},
+{
+"id": 4393918909,
+"name": "Baubetriebswirtschaftslehre und Infrastrukturmanagement",
+"works": 30
+},
+{
+"id": 4404661938,
+"name": "Studies in game sound and music.",
+"works": 30
+},
+{
+"id": 4393918905,
+"name": "Musik und Medien",
+"works": 30
+},
+{
+"id": 4210216743,
+"name": "Frontiers in clinical drug research. Hematology",
+"works": 30
+},
+{
+"id": 4393919833,
+"name": "Cognitive Studies in Literature and Performance",
+"works": 30
+},
+{
+"id": 4393919138,
+"name": "Dynamiken von Raum und Geschlecht",
+"works": 29
+},
+{
+"id": 4404662745,
+"name": "Palgrave studies in educational philosophy and theory.",
+"works": 29
+},
+{
+"id": 4210218360,
+"name": "Vita mathematica",
+"works": 29
+},
+{
+"id": 4393918714,
+"name": "Collana della Rivista di diritto romano",
+"works": 29
+},
+{
+"id": 4404673476,
+"name": "Nowy Napis.",
+"works": 29
+},
+{
+"id": 4393919930,
+"name": "Law and religion in a global context",
+"works": 29
+},
+{
+"id": 4393918820,
+"name": "Kompaktwissen Biologie",
+"works": 29
+},
+{
+"id": 4393919653,
+"name": "Science, technology and sustainability",
+"works": 29
+},
+{
+"id": 4404662918,
+"name": "Fontes et libri.",
+"works": 29
+},
+{
+"id": 4404663375,
+"name": "Centre for Justice briefing papers.",
+"works": 29
+},
+{
+"id": 4393919239,
+"name": "Sprache und Wirtschaft",
+"works": 29
+},
+{
+"id": 4393919398,
+"name": "Régiónk története",
+"works": 29
+},
+{
+"id": 4404670387,
+"name": "ifh Forschungsbericht.",
+"works": 29
+},
+{
+"id": 4393919050,
+"name": "FBL Klein-Vogelbach",
+"works": 29
+},
+{
+"id": 4393919015,
+"name": "Martial studies",
+"works": 29
+},
+{
+"id": 4210172800,
+"name": "Frontiers in cardiovascular drug discovery",
+"works": 29
+},
+{
+"id": 4210231510,
+"name": "Documentos PRESSEA de investigación",
+"works": 29
+},
+{
+"id": 4393920188,
+"name": "Néprajztudományi könyvtár",
+"works": 29
+},
+{
+"id": 4210187609,
+"name": "Advanced textbooks in chemistry",
+"works": 29
+},
+{
+"id": 4210189083,
+"name": "Principes de bonne pratique de l’OCDE en matière de politique réglementaire",
+"works": 29
+},
+{
+"id": 4404675799,
+"name": "Programme mondial en faveur de l’éducation aux droits de l’homme.",
+"works": 29
+},
+{
+"id": 4393919428,
+"name": "Präsenz und implizites Wissen",
+"works": 28
+},
+{
+"id": 4393918926,
+"name": "Organisation und Gesellschaft",
+"works": 28
+},
+{
+"id": 4404677718,
+"name": "Trajectories of Italian cinema and media.",
+"works": 28
+},
+{
+"id": 4210214923,
+"name": "Frontiers in inflammation",
+"works": 28
+},
+{
+"id": 4393919963,
+"name": "New dramaturgies",
+"works": 28
+},
+{
+"id": 4393919808,
+"name": "African American philosophy and the African diaspora",
+"works": 28
+},
+{
+"id": 4393918383,
+"name": "Socialter",
+"works": 28
+},
+{
+"id": 4393917794,
+"name": "Politikwissenschaft",
+"works": 28
+},
+{
+"id": 4210224047,
+"name": "Education trends in perspective/World education indicators",
+"works": 28
+},
+{
+"id": 4210172211,
+"name": "Le règlement des différends dans le cadre de l'OMC. Un différend, une page",
+"works": 28
+},
+{
+"id": 4404662009,
+"name": "People places architecture.",
+"works": 28
+},
+{
+"id": 4393919104,
+"name": "UCLA encyclopedia of Egyptology",
+"works": 28
+},
+{
+"id": 4393918867,
+"name": "Scales of transformation in prehistoric and archaic societies/Scales of transformation",
+"works": 28
+},
+{
+"id": 4210179513,
+"name": "WissensKulturen",
+"works": 28
+},
+{
+"id": 4404663062,
+"name": "Sexual crime.",
+"works": 28
+},
+{
+"id": 4210210884,
+"name": "Prace Geograficzne",
+"works": 28
+},
+{
+"id": 4404664007,
+"name": "Masterclass.",
+"works": 28
+},
+{
+"id": 4210228373,
+"name": "Synthesis lectures on emerging trends in librarianship",
+"works": 28
+},
+{
+"id": 4393918109,
+"name": "Károli könyvek. Monográfia",
+"works": 28
+},
+{
+"id": 4393919269,
+"name": "Mathematics of data",
+"works": 27
+},
+{
+"id": 4393918017,
+"name": "IAEA nuclear energy series",
+"works": 27
+},
+{
+"id": 4404673500,
+"name": "Evaluation: African perspectives.",
+"works": 27
+},
+{
+"id": 4404677448,
+"name": "Programa mundial para la educación en derechos humanos.",
+"works": 27
+},
+{
+"id": 4210188181,
+"name": "Unitext. Collana di fisica e astronomia",
+"works": 27
+},
+{
+"id": 4210229020,
+"name": "Solución de diferencias en la OMC. Resúmenes de una página por caso",
+"works": 27
+},
+{
+"id": 4210185075,
+"name": "Research monographs in Japan-U.S. business & economics",
+"works": 27
+},
+{
+"id": 4393919491,
+"name": "The global Qur'an",
+"works": 27
+},
+{
+"id": 4393917628,
+"name": "Studien zur aussereuropäischen Christentumsgeschichte",
+"works": 27
+},
+{
+"id": 4393919224,
+"name": "Global childhoods in the Asia-Pacific",
+"works": 27
+},
+{
+"id": 4306524521,
+"name": "Progress in medical virology",
+"works": 27
+},
+{
+"id": 4393919010,
+"name": "Material modernisms",
+"works": 27
+},
+{
+"id": 4210181811,
+"name": "Frontiers in clinical drug research. Anti-allergy agents/Frontiers in clinical drug research. Anti allergy agents",
+"works": 27
+},
+{
+"id": 4393917364,
+"name": "Finanzwesen der Gemeinden",
+"works": 27
+},
+{
+"id": 4393919869,
+"name": "Business - Innovation - High Tech",
+"works": 27
+},
+{
+"id": 4393919493,
+"name": "Review of management literature",
+"works": 27
+},
+{
+"id": 4404664020,
+"name": "Kungl. Vitterhets-, historie- och antikvitetsakademiens handlingar",
+"works": 26
+},
+{
+"id": 4393917633,
+"name": "Leipziger Versicherungsseminare",
+"works": 26
+},
+{
+"id": 4404676795,
+"name": "Investigations of lens and screen arts.",
+"works": 26
+},
+{
+"id": 4393919765,
+"name": "Legal Heritage",
+"works": 26
+},
+{
+"id": 4393912754,
+"name": "Bibliothek und Wissenschaft",
+"works": 26
+},
+{
+"id": 4393919964,
+"name": "New directions in the philosophy of science",
+"works": 26
+},
+{
+"id": 4393918938,
+"name": "Spirituality, religion, and education",
+"works": 26
+},
+{
+"id": 4393916331,
+"name": "Münsteraner Reihe/Münsteraner Reihe",
+"works": 26
+},
+{
+"id": 4210229571,
+"name": "Scientific papers - University of Kansas. Natural History Museum",
+"works": 26
+},
+{
+"id": 4393919949,
+"name": "Palgrave studies on children and development",
+"works": 26
+},
+{
+"id": 4393917099,
+"name": "Quaderni di Venezia arti",
+"works": 26
+},
+{
+"id": 4393919845,
+"name": "Verkehrspsychologie",
+"works": 26
+},
+{
+"id": 4393919897,
+"name": "New Directions in Philosophy and Cognitive Science",
+"works": 26
+},
+{
+"id": 4393916515,
+"name": "Taqrīr. Aqall al-buldān numūwā",
+"works": 26
+},
+{
+"id": 4393916630,
+"name": "Australasian anaesthesia",
+"works": 26
+},
+{
+"id": 4404662166,
+"name": "Fragmentaria.",
+"works": 26
+},
+{
+"id": 4404660861,
+"name": "Satellite navigation technology.",
+"works": 26
+},
+{
+"id": 4393919060,
+"name": "Norient sound series",
+"works": 25
+},
+{
+"id": 4393919031,
+"name": "Forum Gesundheitsmanagement",
+"works": 25
+},
+{
+"id": 4404676877,
+"name": "Alma mater.",
+"works": 25
+},
+{
+"id": 4210217170,
+"name": "Mémoires et documents de géographie",
+"works": 25
+},
+{
+"id": 4393916320,
+"name": "Berliner Beiträge zur Skandinavistik",
+"works": 25
+},
+{
+"id": 4220651938,
+"name": "Slavistische Beiträge",
+"works": 25
+},
+{
+"id": 4393919400,
+"name": "Kaleidoscope könyvek",
+"works": 25
+},
+{
+"id": 4393920066,
+"name": "ATP handbook",
+"works": 25
+},
+{
+"id": 4404673936,
+"name": "Military Behavioral Health Series.",
+"works": 25
+},
+{
+"id": 4393919826,
+"name": "Black Religion/Womanist Thought/Social Justice",
+"works": 25
+},
+{
+"id": 4210176432,
+"name": "Frontiers in arthritis",
+"works": 25
+},
+{
+"id": 4393920193,
+"name": "Geographies of Media",
+"works": 25
+},
+{
+"id": 4210218982,
+"name": "Recent advances in pediatric medicine",
+"works": 25
+},
+{
+"id": 4393914061,
+"name": "Musik und Gesellschaft",
+"works": 25
+},
+{
+"id": 4210237382,
+"name": "Monographs in the psychology of education",
+"works": 25
+},
+{
+"id": 4404675815,
+"name": "Frühe Monumentalität und soziale Differenzierung",
+"works": 25
+},
+{
+"id": 4393918300,
+"name": "Classica et orientalia",
+"works": 25
+},
+{
+"id": 4393919856,
+"name": "Der Mensch im Unternehmen: Impulse für Fach- und Führungskräfte",
+"works": 25
+},
+{
+"id": 4393913889,
+"name": "Mededeelingen uit 'S lands plantentuin",
+"works": 25
+},
+{
+"id": 4393919009,
+"name": "Philosophische Grundlagen der Soziologie",
+"works": 25
+},
+{
+"id": 4210207293,
+"name": "The CRC Press laser and optical science and technology series/Laser & optical science & technology",
+"works": 25
+},
+{
+"id": 4393919834,
+"name": "Contemporary African Political Economy",
+"works": 25
+},
+{
+"id": 4404674951,
+"name": "Public sector financial management.",
+"works": 25
+},
+{
+"id": 4393919782,
+"name": "Die Welt der Slaven. Sammelbände",
+"works": 25
+},
+{
+"id": 4393920071,
+"name": "Spravočnik SPS",
+"works": 25
+},
+{
+"id": 4393919027,
+"name": "Big and integrated artificial intelligence",
+"works": 24
+},
+{
+"id": 4210207715,
+"name": "Bamberger Beiträge zur Kommunikationswissenschaft",
+"works": 24
+},
+{
+"id": 4393916202,
+"name": "Publication. Anthropological series/Publication - Field Columbian Museum. Anthropological series",
+"works": 24
+},
+{
+"id": 4393917793,
+"name": "Pädagogik",
+"works": 24
+},
+{
+"id": 4393919340,
+"name": "Geoparks",
+"works": 24
+},
+{
+"id": 4393920157,
+"name": "Ricerche",
+"works": 24
+},
+{
+"id": 4393919225,
+"name": "Religion and society in Asia Pacific",
+"works": 24
+},
+{
+"id": 4393919145,
+"name": "Audiovisual translation studies",
+"works": 24
+},
+{
+"id": 4393919870,
+"name": "Wissen, Innovationen und Prozesse",
+"works": 24
+},
+{
+"id": 4404660659,
+"name": "Topics in Geriatric Care.",
+"works": 24
+},
+{
+"id": 4393919824,
+"name": "New Interpretations of Beckett in the Twenty-First Century",
+"works": 24
+},
+{
+"id": 4393919354,
+"name": "Smart animal production",
+"works": 24
+},
+{
+"id": 4393919778,
+"name": "Bärenreiter Werkeinführungen",
+"works": 24
+},
+{
+"id": 4393919961,
+"name": "Palgrave advances in language and linguistics",
+"works": 24
+},
+{
+"id": 4393919014,
+"name": "Palgrave studies of sustainable business in Africa",
+"works": 24
+},
+{
+"id": 4393919770,
+"name": "Worlding public cultures",
+"works": 24
+},
+{
+"id": 4404664229,
+"name": "Advances in metal music and culture.",
+"works": 24
+},
+{
+"id": 4404662729,
+"name": "The Modern Muslim World.",
+"works": 24
+},
+{
+"id": 4393913982,
+"name": "Report of the Committee on the Elimination of Racial Discrimination, United Nations",
+"works": 24
+},
+{
+"id": 4210182854,
+"name": "Frontiers in neurosurgery",
+"works": 24
+},
+{
+"id": 4393919779,
+"name": "Bärenreiter Studienbücher Musik",
+"works": 24
+},
+{
+"id": 4404663190,
+"name": "Asien- und Afrika-Studien der Humboldt-Universität zu Berlin.",
+"works": 24
+},
+{
+"id": 4393919314,
+"name": "Advances in critical zone science",
+"works": 24
+},
+{
+"id": 4393919764,
+"name": "IrKa könyvek",
+"works": 24
+},
+{
+"id": 4210174483,
+"name": "Frontiers in respiratory medicine",
+"works": 24
+},
+{
+"id": 4210208963,
+"name": "Biological Resource Management in Agriculture",
+"works": 24
+},
+{
+"id": 4404673886,
+"name": "OECD series on prevention and control of pollutant releases.",
+"works": 23
+},
+{
+"id": 4393918740,
+"name": "Theoretische Translationsforschung",
+"works": 23
+},
+{
+"id": 4393917614,
+"name": "Studia mythologica Slavica. Supplementum/Studia mythologica Slavica. Supplementa",
+"works": 23
+},
+{
+"id": 4210220134,
+"name": "Synthesis lectures on solid state materials and devices",
+"works": 23
+},
+{
+"id": 4393919288,
+"name": "IEA research for educators",
+"works": 23
+},
+{
+"id": 4393918907,
+"name": "Waste management principles and practice",
+"works": 23
+},
+{
+"id": 4393918112,
+"name": "Ősrégészeti tanulmányok",
+"works": 23
+},
+{
+"id": 4404677665,
+"name": "Studia doctorandorum alumnae :",
+"works": 23
+},
+{
+"id": 4393919249,
+"name": "Palgrave bioart",
+"works": 23
+},
+{
+"id": 4393918735,
+"name": "Schulentwicklungsforschung",
+"works": 23
+},
+{
+"id": 4393919486,
+"name": "Critical approaches to children's literature",
+"works": 23
+},
+{
+"id": 4404663370,
+"name": "Culture and Religion in International Relations.",
+"works": 23
+},
+{
+"id": 4210177538,
+"name": "Études économiques de l'OCDE. Brésil",
+"works": 23
+},
+{
+"id": 4404677190,
+"name": "Sanssouci - Forschungen zur Romanistik.",
+"works": 23
+},
+{
+"id": 4393916604,
+"name": "Beiträge zur Infusionstherapie und Transfusionsmedizin",
+"works": 23
+},
+{
+"id": 4393916593,
+"name": "IAEA safety standards series",
+"works": 23
+},
+{
+"id": 4393919421,
+"name": "Urbane Welten",
+"works": 23
+},
+{
+"id": 4393919038,
+"name": "Cereals, pulses and oilseeds",
+"works": 23
+},
+{
+"id": 4220651488,
+"name": "Soziale Arbeit in Theorie und Wissenschaft",
+"works": 23
+},
+{
+"id": 4393919017,
+"name": "Studies in Buddhist economics, management, and policy",
+"works": 23
+},
+{
+"id": 4393919790,
+"name": "Dialog digital Landesarchiv Baden-Württemberg",
+"works": 22
+},
+{
+"id": 4404676610,
+"name": "Pension markets in  focus.",
+"works": 22
+},
+{
+"id": 4210218809,
+"name": "ZELTForum",
+"works": 22
+},
+{
+"id": 4210216898,
+"name": "OECD. Economic surveys/OECD economic surveys",
+"works": 22
+},
+{
+"id": 4393918658,
+"name": "Frontiers in antimicrobial agents",
+"works": 22
+},
+{
+"id": 4210167658,
+"name": "Ophthalmology",
+"works": 22
+},
+{
+"id": 4393919299,
+"name": "Human intelligence",
+"works": 22
+},
+{
+"id": 4404669822,
+"name": "Research on Automotive Intelligent Cockpit.",
+"works": 22
+},
+{
+"id": 4393919045,
+"name": "Heritage studies in the Muslim world",
+"works": 22
+},
+{
+"id": 4393917810,
+"name": "Bamberger Beiträge zur Soziologie",
+"works": 22
+},
+{
+"id": 4393919468,
+"name": "The New Institute.Interventions",
+"works": 22
+},
+{
+"id": 4393919874,
+"name": "Schriften zur Weltliteratur/Studies on World Literature",
+"works": 22
+},
+{
+"id": 4393919818,
+"name": "Palgrave's Frontiers in Criminology Theory",
+"works": 22
+},
+{
+"id": 4220651138,
+"name": "Forschende Frauen in Bamberg",
+"works": 22
+},
+{
+"id": 4210238135,
+"name": "Frontiers in clinical drug research. Alzheimer disorders",
+"works": 22
+},
+{
+"id": 4393919769,
+"name": "Verwaltungskommunikation",
+"works": 22
+},
+{
+"id": 4404660986,
+"name": "Spatial demography book series",
+"works": 21
+},
+{
+"id": 4404674718,
+"name": "Report of the Committee on the Exercise of the Inalienable Rights of the Palestinian People.",
+"works": 21
+},
+{
+"id": 4210216519,
+"name": "Palgrave studies in world environmental history",
+"works": 21
+},
+{
+"id": 4210227610,
+"name": "Case studies in engineering",
+"works": 21
+},
+{
+"id": 4393919888,
+"name": "Palgrave studies in teaching and learning Chinese",
+"works": 21
+},
+{
+"id": 4393919969,
+"name": "Citizenship, gender and diversity",
+"works": 21
+},
+{
+"id": 4393918932,
+"name": "Soziologie des Wertens und Bewertens",
+"works": 21
+},
+{
+"id": 4210172683,
+"name": "Clinically oriented biomedical engineering",
+"works": 21
+},
+{
+"id": 4393917367,
+"name": "Leipziger Schriften zur Versicherungswissenschaft",
+"works": 21
+},
+{
+"id": 4210183918,
+"name": "Düsseldorfer Schriften zur Literatur- und Kulturwissenschaft",
+"works": 21
+},
+{
+"id": 4393919462,
+"name": "Formationen der Mediennutzung",
+"works": 21
+},
+{
+"id": 4404677283,
+"name": "TNT ebooks.",
+"works": 21
+},
+{
+"id": 4393915938,
+"name": "The Bryggen papers. Main series",
+"works": 21
+},
+{
+"id": 4210168829,
+"name": "Cross-reference. Policy development",
+"works": 21
+},
+{
+"id": 4404670401,
+"name": "Innovative Medical Devices.",
+"works": 21
+},
+{
+"id": 4393912934,
+"name": "Skrifter utgivna av Svenska institutet i Rom. 4:o",
+"works": 20
+},
+{
+"id": 4404669450,
+"name": "Regionalgeschichte heute",
+"works": 20
+},
+{
+"id": 4210213345,
+"name": "Applications of modern mass spectrometry",
+"works": 20
+},
+{
+"id": 4404662925,
+"name": "Neglected voices from the past.",
+"works": 20
+},
+{
+"id": 4393920217,
+"name": "Etnofon",
+"works": 20
+},
+{
+"id": 4210231070,
+"name": "Nonlinear topics in the mathematical sciences",
+"works": 20
+},
+{
+"id": 4393919472,
+"name": "Psychologie",
+"works": 20
+},
+{
+"id": 4393918720,
+"name": "Kommunikation - Partizipation - Inklusion",
+"works": 20
+},
+{
+"id": 4210222502,
+"name": "Frontiers in clinical drug research. Dementia",
+"works": 20
+},
+{
+"id": 4404661775,
+"name": "Husserliana.",
+"works": 20
+},
+{
+"id": 4210209658,
+"name": "CNRS histoire. Histoire contemporaine",
+"works": 20
+},
+{
+"id": 4393919994,
+"name": "Biome ecology",
+"works": 20
+},
+{
+"id": 2764588327,
+"name": "Progress in biochemical pharmacology",
+"works": 20
+},
+{
+"id": 4393919028,
+"name": "Marine algal flora of China",
+"works": 20
+},
+{
+"id": 4393913190,
+"name": "Publication - Field Columbian Museum. Geological series",
+"works": 20
+},
+{
+"id": 4210183559,
+"name": "Lehr- und Handbücher zu Geld, Börse, Bank und Versicherung",
+"works": 20
+},
+{
+"id": 4210178858,
+"name": "Education in Latin America and the Caribbean",
+"works": 19
+},
+{
+"id": 4393919271,
+"name": "Politische Ethnographie",
+"works": 19
+},
+{
+"id": 4393913654,
+"name": "Beiträge zur Geschichte Hamburgs",
+"works": 19
+},
+{
+"id": 4393918929,
+"name": "Methods in physiology",
+"works": 19
+},
+{
+"id": 4393919246,
+"name": "State Governance",
+"works": 19
+},
+{
+"id": 4393919432,
+"name": "Personalmanagement und Arbeits- und Organisationspsychologie",
+"works": 19
+},
+{
+"id": 4393919972,
+"name": "Comparative territorial politics",
+"works": 19
+},
+{
+"id": 4393912881,
+"name": "Monographs in developmental biology",
+"works": 19
+},
+{
+"id": 4393918308,
+"name": "Ibero-Romance studies in literature and translatology",
+"works": 19
+},
+{
+"id": 4393916032,
+"name": "Contemporary mathematicians/Contemporary Mathematicians",
+"works": 19
+},
+{
+"id": 4404661685,
+"name": "Ediciones Institucionales",
+"works": 19
+},
+{
+"id": 4393913416,
+"name": "Special publication - Carnegie Museum of Natural History",
+"works": 19
+},
+{
+"id": 4393919388,
+"name": "Palgrave Spanish and Latin American media studies",
+"works": 19
+},
+{
+"id": 4393917339,
+"name": "Social report",
+"works": 19
+},
+{
+"id": 4404660953,
+"name": "Juridicum - Schriften zu Recht und Digitalisierung",
+"works": 19
+},
+{
+"id": 4393918776,
+"name": "Military and veterans studies",
+"works": 19
+},
+{
+"id": 4393919266,
+"name": "Edition Kasuistik",
+"works": 19
+},
+{
+"id": 4393919839,
+"name": "Intralogistik",
+"works": 19
+},
+{
+"id": 4404674520,
+"name": "The Springer series in sustainable energy policy",
+"works": 19
+},
+{
+"id": 4393919756,
+"name": "Publications of the Institute for Hungarian Research",
+"works": 19
+},
+{
+"id": 4404669263,
+"name": "Reviews of shipbuilding economies",
+"works": 18
+},
+{
+"id": 4393918677,
+"name": "Frontiers in bioactive compounds",
+"works": 18
+},
+{
+"id": 4210215295,
+"name": "Frontiers in magnetic resonance",
+"works": 18
+},
+{
+"id": 4210229580,
+"name": "Radiological protection",
+"works": 18
+},
+{
+"id": 4210226611,
+"name": "Series on mathematical economics and game theory",
+"works": 18
+},
+{
+"id": 4393918111,
+"name": "Cathedra magistrorum",
+"works": 18
+},
+{
+"id": 4210199589,
+"name": "Blickpunkt Gesellschaft",
+"works": 18
+},
+{
+"id": 4404669628,
+"name": "Contemporary anthropology of religion.",
+"works": 18
+},
+{
+"id": 4404673441,
+"name": "[Collection Enjeux internationaux].",
+"works": 18
+},
+{
+"id": 4393920102,
+"name": "OECD Corporate Governance Factbook",
+"works": 18
+},
+{
+"id": 4210181070,
+"name": "Terrarum orbis",
+"works": 18
+},
+{
+"id": 4393919275,
+"name": "Advances in marine bioprocesses and bioproducts",
+"works": 18
+},
+{
+"id": 4404661712,
+"name": "Aquatic ecology series.",
+"works": 18
+},
+{
+"id": 4404669142,
+"name": "Historical and cultural interconnections between Latin America and Asia.",
+"works": 18
+},
+{
+"id": 4210225879,
+"name": "Leksičeskij atlas russkih narodnyh govorov",
+"works": 18
+},
+{
+"id": 4210211021,
+"name": "Türkisch-deutsche Studien",
+"works": 18
+},
+{
+"id": 4404664569,
+"name": "Critical photography series.",
+"works": 18
+},
+{
+"id": 4393919817,
+"name": "Politics, Economics, and Inclusive Development",
+"works": 18
+},
+{
+"id": 4210202022,
+"name": "Frontiers in clinical drug research. HIV",
+"works": 18
+},
+{
+"id": 4404677026,
+"name": "ELTE jogi kari tudomány /",
+"works": 18
+},
+{
+"id": 4210188350,
+"name": "Tsinghua global business journalism series",
+"works": 18
+},
+{
+"id": 4393919777,
+"name": "Beiträge zur kritischen Antiziganismusforschung",
+"works": 18
+},
+{
+"id": 4393917609,
+"name": "Emerging infectious diseases of the 21st century",
+"works": 18
+},
+{
+"id": 4393919244,
+"name": "Springer series in social work and social change",
+"works": 18
+},
+{
+"id": 4210184308,
+"name": "Palinsesti",
+"works": 17
+},
+{
+"id": 4404661870,
+"name": "Personalmanagement und Arbeitsorganisation",
+"works": 17
+},
+{
+"id": 4393919815,
+"name": "Religion and Global Migrations",
+"works": 17
+},
+{
+"id": 4210210727,
+"name": "Pamflet",
+"works": 17
+},
+{
+"id": 4210218871,
+"name": "Modern French identities",
+"works": 17
+},
+{
+"id": 4393918222,
+"name": "Advances in business and management",
+"works": 17
+},
+{
+"id": 4393919844,
+"name": "Ostasien im 21. Jahrhundert",
+"works": 17
+},
+{
+"id": 4404668914,
+"name": "DigiOst",
+"works": 17
+},
+{
+"id": 4393918930,
+"name": "Gesellschaftstheorien und Gender",
+"works": 17
+},
+{
+"id": 4404673762,
+"name": "Mediensymposium.",
+"works": 17
+},
+{
+"id": 4393913918,
+"name": "Texte und Materialien der Frau-Professor-Hilprecht-Collection of Babylonian Antiquities im Eigentum der Friedrich-Schiller-Universität Jena",
+"works": 17
+},
+{
+"id": 4404664130,
+"name": "Applied Intelligence and Informatics.",
+"works": 17
+},
+{
+"id": 4210186592,
+"name": "Frontiers in protein and peptide sciences",
+"works": 17
+},
+{
+"id": 4210236689,
+"name": "Bourdieu-Studien",
+"works": 17
+},
+{
+"id": 4210228904,
+"name": "Global geoscience transect",
+"works": 17
+},
+{
+"id": 4210204187,
+"name": "Werke der Kunst in Heidelberg",
+"works": 17
+},
+{
+"id": 4306500796,
+"name": "Advances in ophthalmology",
+"works": 17
+},
+{
+"id": 4393920015,
+"name": "Handbook of the economics of corporate finance",
+"works": 17
+},
+{
+"id": 4210211285,
+"name": "Theologische trends",
+"works": 17
+},
+{
+"id": 4404661701,
+"name": "Identities and modernities in Europe.",
+"works": 17
+},
+{
+"id": 4393919554,
+"name": "Innovations in language learning and assessment",
+"works": 17
+},
+{
+"id": 4210174646,
+"name": "Serie",
+"works": 17
+},
+{
+"id": 4404663794,
+"name": "Global insurance market trends.",
+"works": 17
+},
+{
+"id": 4393919133,
+"name": "Brennpunkt Doping",
+"works": 17
+},
+{
+"id": 4393917816,
+"name": "Schriften",
+"works": 17
+},
+{
+"id": 4393914342,
+"name": "Contributions to primatology",
+"works": 17
+},
+{
+"id": 4404668957,
+"name": "Magyarország honfoglalás kori és kora Árpád-kori sírleletei.",
+"works": 17
+},
+{
+"id": 4393919136,
+"name": "DiskurSys",
+"works": 17
+},
+{
+"id": 4404661736,
+"name": "Collegium Logicum :",
+"works": 17
+},
+{
+"id": 4393919849,
+"name": "Schriften der Mathematisch-naturwissenschaftlichen Klasse",
+"works": 16
+},
+{
+"id": 4393919036,
+"name": "Palgrave studies in family business heterogeneity",
+"works": 16
+},
+{
+"id": 4210226645,
+"name": "Progress in education",
+"works": 16
+},
+{
+"id": 4393919497,
+"name": "Learning and teaching methodologies",
+"works": 16
+},
+{
+"id": 4393918912,
+"name": "Zicklin School of Business Financial Markets series",
+"works": 16
+},
+{
+"id": 4393919774,
+"name": "Schriften der Brandes-Gesellschaft für Literaturvermittlung und Kulturtransfer",
+"works": 16
+},
+{
+"id": 4404660968,
+"name": "St Andrews studies in French history and culture.",
+"works": 16
+},
+{
+"id": 4404675794,
+"name": "The Royal Entomological Society handbooks ebook collection (1981-2022).",
+"works": 16
+},
+{
+"id": 4393918620,
+"name": "Frontiers in cancer immunology",
+"works": 16
+},
+{
+"id": 4404663260,
+"name": "Marktorientierte Unternehmensführung und Internetmanagement.",
+"works": 16
+},
+{
+"id": 4393917635,
+"name": "Studien zur Archäologie in Ostmitteleuropa",
+"works": 16
+},
+{
+"id": 4404669473,
+"name": "CABI religious tourism and pilgrimage series.",
+"works": 16
+},
+{
+"id": 4404662145,
+"name": "Monumenta Avarorum archaeologica.",
+"works": 16
+},
+{
+"id": 4210189072,
+"name": "Frontiers in horticulture",
+"works": 16
+},
+{
+"id": 4404673838,
+"name": "UNAIDS global AIDS update.",
+"works": 16
+},
+{
+"id": 4393918955,
+"name": "Asia today",
+"works": 16
+},
+{
+"id": 4393917822,
+"name": "Invading nature",
+"works": 16
+},
+{
+"id": 4393920013,
+"name": "Handbook of the economics of the family",
+"works": 16
+},
+{
+"id": 4210185683,
+"name": "Update in intensive care medicine",
+"works": 16
+},
+{
+"id": 4210168195,
+"name": "Fondo hispánico de lingüística y filología",
+"works": 16
+},
+{
+"id": 4210235034,
+"name": "Frontiers in nanobiotechnology (Print)/Frontiers in nanobiotechnology",
+"works": 16
+},
+{
+"id": 4210199721,
+"name": "Frontiers in drug safety",
+"works": 15
+},
+{
+"id": 4210218471,
+"name": "Partnership for democratic governance",
+"works": 15
+},
+{
+"id": 4404669827,
+"name": "Spatial demography and population governance.",
+"works": 15
+},
+{
+"id": 4393920082,
+"name": "Estudios económicos de la OCDE. Costa Rica",
+"works": 15
+},
+{
+"id": 4393918723,
+"name": "Germanistik international",
+"works": 15
+},
+{
+"id": 4404663787,
+"name": "Palgrave studies in lived religion and societal challenges.",
+"works": 15
+},
+{
+"id": 4404663900,
+"name": "Theatre in education.",
+"works": 15
+},
+{
+"id": 4393919509,
+"name": "Geologia Ambiental e Médica do Estado da Bahia",
+"works": 15
+},
+{
+"id": 4210219543,
+"name": "Medieval and Renaissance Court Cultures",
+"works": 15
+},
+{
+"id": 4393918737,
+"name": "Integrating food science and engineering knowledge into the food chain",
+"works": 15
+},
+{
+"id": 4404662052,
+"name": "CERC studies in comparative education.",
+"works": 15
+},
+{
+"id": 2764995466,
+"name": "Monographs on atherosclerosis",
+"works": 15
+},
+{
+"id": 4393918725,
+"name": "Hamburger Akademievorträge",
+"works": 15
+},
+{
+"id": 4393918727,
+"name": "Berliner Schriften zum Energierecht",
+"works": 15
+},
+{
+"id": 4393917807,
+"name": "IIR-Forum/DIIR-Forum",
+"works": 15
+},
+{
+"id": 4210177184,
+"name": "Stability and control, theory methods and applications",
+"works": 15
+},
+{
+"id": 4210173507,
+"name": "Bibliotheca scriptorum Graecorum et Romanorum Teubneriana",
+"works": 15
+},
+{
+"id": 4404676406,
+"name": "Język na Pograniczach.",
+"works": 15
+},
+{
+"id": 4210217529,
+"name": "BioValley monographs",
+"works": 15
+},
+{
+"id": 4210201358,
+"name": "Palgrave texts in econometrics",
+"works": 15
+},
+{
+"id": 4210235479,
+"name": "Routledge studies in development and society",
+"works": 15
+},
+{
+"id": 4404664767,
+"name": "Global financial markets.",
+"works": 15
+},
+{
+"id": 4393919385,
+"name": "Taiwan and world affairs",
+"works": 15
+},
+{
+"id": 4393919026,
+"name": "Palgrave studies in financial instability and banking crisis regulation",
+"works": 14
+},
+{
+"id": 4393915541,
+"name": "Albanische Forschungen",
+"works": 14
+},
+{
+"id": 4404662404,
+"name": "Planning for Climate Proof Cities.",
+"works": 14
+},
+{
+"id": 4404663102,
+"name": "Wissenskommunikation: maschinell - mehrsprachig - multimodal",
+"works": 14
+},
+{
+"id": 4393918765,
+"name": "EMS monographs in mathematics",
+"works": 14
+},
+{
+"id": 4393918928,
+"name": "Fokus Dienstleistungsmarketing",
+"works": 14
+},
+{
+"id": 4393919577,
+"name": "Marco Polo",
+"works": 14
+},
+{
+"id": 4393919024,
+"name": "SpringerBriefs in history of computing",
+"works": 14
+},
+{
+"id": 4210201865,
+"name": "Coopération fiscale. Vers des règles du jeu équitables",
+"works": 14
+},
+{
+"id": 4393918908,
+"name": "Gesundheitsförderung - Rehabilitation - Teilhabe",
+"works": 14
+},
+{
+"id": 4393919467,
+"name": "Edition eGov-Campus",
+"works": 14
+},
+{
+"id": 4210198589,
+"name": "Creditor reporting system/Creditor reporting system on aid activities",
+"works": 14
+},
+{
+"id": 4404674922,
+"name": "The medieval text consortium series.",
+"works": 14
+},
+{
+"id": 4393918773,
+"name": "Children of incarcerated parents",
+"works": 14
+},
+{
+"id": 4404662333,
+"name": "Phänomenologie der Bibliothek: Redescriptions",
+"works": 14
+},
+{
+"id": 4393919201,
+"name": "Global Institute for Sustainable Prosperity",
+"works": 14
+},
+{
+"id": 4404677964,
+"name": "Skrifter /",
+"works": 14
+},
+{
+"id": 4210207830,
+"name": "The state of food security and nutrition in the World",
+"works": 14
+},
+{
+"id": 4210192410,
+"name": "Phychologica",
+"works": 14
+},
+{
+"id": 4393919349,
+"name": "Springer proceedings in political science and international relations",
+"works": 13
+},
+{
+"id": 4393918065,
+"name": "Palma (Leiden. Online)/Papers on archaeologyof the Leiden Museum of Antiquities",
+"works": 13
+},
+{
+"id": 4393919984,
+"name": "Palgrave studies in Pacific history",
+"works": 13
+},
+{
+"id": 4210195678,
+"name": "Beiträge zu Literatur und Medien der Gegenwart",
+"works": 13
+},
+{
+"id": 2764754911,
+"name": "Reconstruction surgery and traumatology",
+"works": 13
+},
+{
+"id": 4210181287,
+"name": "Frontiers in reproductive science",
+"works": 13
+},
+{
+"id": 4404674963,
+"name": "Safety reports series.",
+"works": 13
+},
+{
+"id": 4404669381,
+"name": "Critical and applied approaches in sexuality, gender and identity.",
+"works": 13
+},
+{
+"id": 4210228717,
+"name": "Edition Management",
+"works": 13
+},
+{
+"id": 4404674387,
+"name": "South Asian education policy, research, and practice.",
+"works": 13
+},
+{
+"id": 4393919795,
+"name": "Nordelbische Ortsgeschichten",
+"works": 13
+},
+{
+"id": 4210198777,
+"name": "Development and governance",
+"works": 13
+},
+{
+"id": 4404662109,
+"name": "Creative economy outlook.",
+"works": 13
+},
+{
+"id": 4210168845,
+"name": "Microbiology of extreme and unusual environments/Microbiology of extreme & unusual environments",
+"works": 13
+},
+{
+"id": 4404661664,
+"name": "Schriften der Kalaidos Hochschule.",
+"works": 13
+},
+{
+"id": 4393920189,
+"name": "Wosinsky könyvek",
+"works": 13
+},
+{
+"id": 4393919330,
+"name": "Springer textbooks in archaeology and heritage",
+"works": 13
+},
+{
+"id": 4210179389,
+"name": "Issues in occupational health",
+"works": 13
+},
+{
+"id": 4393918910,
+"name": "Urban and Regional Research International",
+"works": 13
+},
+{
+"id": 4404675386,
+"name": "Report of the United Nations High Commissioner for Human Rights.",
+"works": 13
+},
+{
+"id": 4210229152,
+"name": "Sungkyunkwan University outstanding research",
+"works": 13
+},
+{
+"id": 4393913651,
+"name": "Veröffentlichungen der Religionskundlichen Sammlung Marburg/Veröffentlichungen der Religionskundlichen Sammlung der Philipps-Universität Marburg",
+"works": 13
+},
+{
+"id": 2764742366,
+"name": "Contributions to microbiology and immunology",
+"works": 13
+},
+{
+"id": 4210214566,
+"name": "Faits marquants",
+"works": 12
+},
+{
+"id": 4393915379,
+"name": "Wasserrecht und Wasserwirtschaft",
+"works": 12
+},
+{
+"id": 4393917904,
+"name": "Professional learning and development in schools and higher education",
+"works": 12
+},
+{
+"id": 4210228290,
+"name": "Frontiers in heart failure",
+"works": 12
+},
+{
+"id": 4210168459,
+"name": "OECD Global Forum on International Investment",
+"works": 12
+},
+{
+"id": 4210234569,
+"name": "Structure reports. B, Organic compounds",
+"works": 12
+},
+{
+"id": 4393920019,
+"name": "ROOTS studies",
+"works": 12
+},
+{
+"id": 4210172336,
+"name": "Synthesis lectures on synthetic biology",
+"works": 12
+},
+{
+"id": 4210239131,
+"name": "Biological magnetic resonance",
+"works": 12
+},
+{
+"id": 4393918741,
+"name": "Texte und Diskurse",
+"works": 12
+},
+{
+"id": 4393919877,
+"name": "Medienmanagement und E-Business",
+"works": 12
+},
+{
+"id": 4393919917,
+"name": "The Language of Mental Health",
+"works": 12
+},
+{
+"id": 4210184189,
+"name": "Politiques agricoles des économies émergentes",
+"works": 12
+},
+{
+"id": 4404662163,
+"name": "Neighborhoods, communities, and urban marginality.",
+"works": 12
+},
+{
+"id": 4393919960,
+"name": "Palgrave entertainment industries",
+"works": 12
+},
+{
+"id": 4393918636,
+"name": "Études économiques de l'OCDE. Lettonie",
+"works": 12
+},
+{
+"id": 4404662821,
+"name": "Studien zur Geschichte der Naturwissenschaften, Medizin und Technik - Studies on the History of Sciences, Medicine and Technology.",
+"works": 12
+},
+{
+"id": 4404663109,
+"name": "Wellbeing in politics and policy.",
+"works": 12
+},
+{
+"id": 4393919893,
+"name": "Palgrave Studies In Play, Performance, Learning, and Development",
+"works": 12
+},
+{
+"id": 4393919853,
+"name": "Politische Soziologie",
+"works": 12
+},
+{
+"id": 4404676538,
+"name": "Texte Metzler.",
+"works": 12
+},
+{
+"id": 4393913770,
+"name": "Special publication - University of Kansas, Museum of Natural History",
+"works": 12
+},
+{
+"id": 4210218225,
+"name": "Routledge studies in science, technology and society",
+"works": 12
+},
+{
+"id": 4210189094,
+"name": "Pergamenische Forschungen",
+"works": 12
+},
+{
+"id": 4393918325,
+"name": "Amsterdam studies in Jewish philosophy",
+"works": 12
+},
+{
+"id": 4404669157,
+"name": "Megatrends und Transformations-Management",
+"works": 12
+},
+{
+"id": 4210233873,
+"name": "Forum highlights",
+"works": 12
+},
+{
+"id": 4393918766,
+"name": "Heritage of European mathematics",
+"works": 12
+},
+{
+"id": 4210169003,
+"name": "OECD reviews of human resource management in government",
+"works": 12
+},
+{
+"id": 4393913466,
+"name": "Special publications. The Museum, Texas Tech University",
+"works": 12
+},
+{
+"id": 4210182408,
+"name": "Resolutions",
+"works": 11
+},
+{
+"id": 4393919876,
+"name": "Edition ZfAS",
+"works": 11
+},
+{
+"id": 4393918732,
+"name": "Schriftenreihe des Instituts für Versicherungswesen der TH Köln/Schriftenreihe des Instituts für Versicherungswesen der TH Köln",
+"works": 11
+},
+{
+"id": 4393918525,
+"name": "Blickpunkt Wandertourismus",
+"works": 11
+},
+{
+"id": 4210210913,
+"name": "Serie de Acuerdos de la OMC",
+"works": 11
+},
+{
+"id": 4210231508,
+"name": "Acta Byzantina Fennica. Supplementa",
+"works": 11
+},
+{
+"id": 4393918914,
+"name": "Schriften zur Gruppen- und Organisationsdynamik",
+"works": 11
+},
+{
+"id": 4393919759,
+"name": "Jogi kultúránk öröksége",
+"works": 11
+},
+{
+"id": 4210172523,
+"name": "Advances in materials science research",
+"works": 11
+},
+{
+"id": 4393912877,
+"name": "Methods and achievements in experimental pathology",
+"works": 11
+},
+{
+"id": 4404663095,
+"name": "Postkoloniale Studien in der Germanistik",
+"works": 11
+},
+{
+"id": 4404663185,
+"name": "Marktorientiertes Management",
+"works": 11
+},
+{
+"id": 4210229916,
+"name": "Frontiers in occupational health and safety",
+"works": 11
+},
+{
+"id": 4210192636,
+"name": "Archival Insights into the Evolution of Economics",
+"works": 11
+},
+{
+"id": 4210220648,
+"name": "Frontiers in structural biology",
+"works": 11
+},
+{
+"id": 4404677427,
+"name": "Transnational Histories of Design Cultures and Production.",
+"works": 11
+},
+{
+"id": 4393912912,
+"name": "Rheumatology",
+"works": 11
+},
+{
+"id": 4393916357,
+"name": "Kieler Berichte aus dem Institut für Pädagogik der Christian-Albrechts-Universität zu Kiel. Gelbe Reihe",
+"works": 11
+},
+{
+"id": 4404669414,
+"name": "Analecta musicologica",
+"works": 11
+},
+{
+"id": 4393918906,
+"name": "Forschung und Entwicklung in der analytischen Soziologie",
+"works": 11
+},
+{
+"id": 4393918031,
+"name": "Ikos: Installationer",
+"works": 11
+},
+{
+"id": 4210210787,
+"name": "Geoparks of the world",
+"works": 11
+},
+{
+"id": 4210169632,
+"name": "Études d'antiquités africaines",
+"works": 11
+},
+{
+"id": 4393917476,
+"name": "Advances in psychology research",
+"works": 11
+},
+{
+"id": 4210216363,
+"name": "Politiques agricoles : économies émergentes et pays en transition/Politiques agricoles: économies émergentes et pays en transition",
+"works": 11
+},
+{
+"id": 4404662752,
+"name": "Basiswissen Kriminologie.",
+"works": 11
+},
+{
+"id": 4393920062,
+"name": "Le financement climatique et l'objectif des 100 milliards de dollars",
+"works": 11
+},
+{
+"id": 4393920041,
+"name": "Études économiques de l’OCDE. Lituanie",
+"works": 11
+},
+{
+"id": 4404677272,
+"name": "The Science of Human History in Asia and the Pacific.",
+"works": 11
+},
+{
+"id": 4393913130,
+"name": "Fieldiana. Geology memoirs",
+"works": 11
+},
+{
+"id": 4393920206,
+"name": "OECD Competition Trends",
+"works": 11
+},
+{
+"id": 4393919339,
+"name": "CIMAT lectures in mathematical sciences",
+"works": 11
+},
+{
+"id": 4210210665,
+"name": "Molecular genetic medicine",
+"works": 11
+},
+{
+"id": 4210174884,
+"name": "Unitext. La matematica per il 3+2/Collana Unitext, la matematica per il 3+2",
+"works": 11
+},
+{
+"id": 4393912882,
+"name": "Monographs in paediatrics",
+"works": 11
+},
+{
+"id": 4393919858,
+"name": "Innovative Konfliktforschung - Innovation in Conflict Research",
+"works": 11
+},
+{
+"id": 4210190351,
+"name": "Routledge perspectives on development",
+"works": 10
+},
+{
+"id": 4404675373,
+"name": "Palgrave advances in managing and marketing tourism, hospitality, and events.",
+"works": 10
+},
+{
+"id": 4210197622,
+"name": "Developments in input-output analysis",
+"works": 10
+},
+{
+"id": 4393919018,
+"name": "Business information systems",
+"works": 10
+},
+{
+"id": 4393912555,
+"name": "Zoologica",
+"works": 10
+},
+{
+"id": 4404673456,
+"name": "Animalia ebooks.",
+"works": 10
+},
+{
+"id": 4404669885,
+"name": "Palgrave Studies in Discursive Psychology.",
+"works": 10
+},
+{
+"id": 4393918931,
+"name": "Food microbiology and food safety",
+"works": 10
+},
+{
+"id": 4393919938,
+"name": "A family business publication",
+"works": 10
+},
+{
+"id": 4210228982,
+"name": "Routledge international studies in the philosophy of education",
+"works": 10
+},
+{
+"id": 4210199631,
+"name": "Embedded systems",
+"works": 10
+},
+{
+"id": 4393918844,
+"name": "The world of the Roosevelts/The world of the Roosevelts",
+"works": 10
+},
+{
+"id": 4210202493,
+"name": "Frontiers in anatomy",
+"works": 10
+},
+{
+"id": 4210194169,
+"name": "Energie- und Mobilitätssysteme der Zukunft",
+"works": 10
+},
+{
+"id": 4404660725,
+"name": "Schriften der accadis Hochschule.",
+"works": 10
+},
+{
+"id": 4210212676,
+"name": "Quantitative management",
+"works": 10
+},
+{
+"id": 4393918768,
+"name": "Academic entrepreneurship, scientists, and scientific careers",
+"works": 10
+},
+{
+"id": 4210186907,
+"name": "Report of investigations - Iowa Geological Survey/Report of investigations",
+"works": 10
+},
+{
+"id": 4404676859,
+"name": "Europe in a global context.",
+"works": 10
+},
+{
+"id": 4210187896,
+"name": "Synthesis lectures on nuclear technology and society",
+"works": 10
+},
+{
+"id": 4393918775,
+"name": "Geschichte des digitalen Zeitalters",
+"works": 10
+},
+{
+"id": 4404677164,
+"name": "EMPATHIA3 working paper series",
+"works": 10
+},
+{
+"id": 4210204207,
+"name": "Examens de l'OCDE des politiques rurales",
+"works": 10
+},
+{
+"id": 4404660997,
+"name": "Palgrave studies in ethics and public policy.",
+"works": 10
+},
+{
+"id": 4210203783,
+"name": "Èkonomičeskie obzory OÈSR. Rossijskaâ Federaciâ",
+"works": 10
+},
+{
+"id": 4404668949,
+"name": "Global LGBTQ health",
+"works": 10
+},
+{
+"id": 4393919488,
+"name": "Inclusive education and lifelong learning.",
+"works": 10
+},
+{
+"id": 4393918772,
+"name": "Film, Fernsehen, neue Medien",
+"works": 10
+},
+{
+"id": 4393916201,
+"name": "Publication - Field Columbian Museum. Botanical series",
+"works": 10
+},
+{
+"id": 4210214661,
+"name": "APEC-OECD co-operative initiative on regulatory reform",
+"works": 10
+},
+{
+"id": 4210193813,
+"name": "Faunistisch-ökologische Mitteilungen. Supplement/Supplement zu Faunistisch-ökologische Mitteilungen",
+"works": 10
+},
+{
+"id": 4210178057,
+"name": "Tolimenses que dejan huella",
+"works": 9
+},
+{
+"id": 4210222152,
+"name": "Practical wisdom for sustainable organizations",
+"works": 9
+},
+{
+"id": 4210196654,
+"name": "Frontiers in CNS drug discovery",
+"works": 9
+},
+{
+"id": 4210225371,
+"name": "Synthesis lectures on theoretical computer science",
+"works": 9
+},
+{
+"id": 4393918778,
+"name": "Communication, culture, and gender in the Middle East and North Africa",
+"works": 9
+},
+{
+"id": 4404662948,
+"name": "Forum Erziehungswissenschaft und Bildungspraxis.",
+"works": 9
+},
+{
+"id": 4210187848,
+"name": "Multilateral treaties deposited with the Secretary-General",
+"works": 9
+},
+{
+"id": 4393919135,
+"name": "DiskursNetz",
+"works": 9
+},
+{
+"id": 4210168576,
+"name": "Legal affairs",
+"works": 9
+},
+{
+"id": 4393919238,
+"name": "Springer series in public health and health policy ethics",
+"works": 9
+},
+{
+"id": 4210177309,
+"name": "Erdőrezervátum füzetek",
+"works": 9
+},
+{
+"id": 4393918304,
+"name": "Wiborada/Wiborada online",
+"works": 9
+},
+{
+"id": 4393919588,
+"name": "Publications of the Institute for Hungarian Studies",
+"works": 9
+},
+{
+"id": 4404678055,
+"name": "Specimina nova dissertationum ex Instituto Historiae Antiquae et Archaeologiae Universitatis Quinqueecclesiensis.",
+"works": 9
+},
+{
+"id": 4210189266,
+"name": "Monatshefte für Chemie. Supplementum",
+"works": 9
+},
+{
+"id": 4393918917,
+"name": "Interkulturelle Studien",
+"works": 9
+},
+{
+"id": 4393919885,
+"name": "Research and practice in applied linguistics",
+"works": 9
+},
+{
+"id": 4220651063,
+"name": "Carte d'autore",
+"works": 9
+},
+{
+"id": 4393913186,
+"name": "Memoirs of the Southern California Academy of Sciences",
+"works": 9
+},
+{
+"id": 4393919900,
+"name": "Marxism and Education",
+"works": 9
+},
+{
+"id": 4393919046,
+"name": "Environmental informatics and modeling",
+"works": 9
+},
+{
+"id": 4393919043,
+"name": "Canon and world literature",
+"works": 9
+},
+{
+"id": 4210206782,
+"name": "Mechanics. Computational mechanics",
+"works": 9
+},
+{
+"id": 4393917758,
+"name": "The IAEA nuclear security series",
+"works": 9
+},
+{
+"id": 4404669847,
+"name": "Urban chic.",
+"works": 9
+},
+{
+"id": 4393918301,
+"name": "IHA Praxiswissen Hotellerie",
+"works": 9
+},
+{
+"id": 4404660707,
+"name": "Synthesis lectures on welding engineering",
+"works": 9
+},
+{
+"id": 4220651368,
+"name": "Politik in Afrika, Asien und Lateinamerika",
+"works": 9
+},
+{
+"id": 4404673872,
+"name": "Business Insights on Emerging Markets",
+"works": 9
+},
+{
+"id": 4210238715,
+"name": "Neue Perspektiven der marktorientierten Unternehmensführung",
+"works": 9
+},
+{
+"id": 4210210862,
+"name": "Springer-Manuale zur Verhaltenstherapie",
+"works": 9
+},
+{
+"id": 4210208106,
+"name": "Facetten",
+"works": 9
+},
+{
+"id": 4393919359,
+"name": "Research and practice in language assessment",
+"works": 9
+},
+{
+"id": 4404661584,
+"name": "Europe in transition",
+"works": 8
+},
+{
+"id": 4393919697,
+"name": "Penser la Suisse",
+"works": 8
+},
+{
+"id": 4393919980,
+"name": "Governance and limited statehood",
+"works": 8
+},
+{
+"id": 4393917278,
+"name": "International papers in political economy",
+"works": 8
+},
+{
+"id": 4393919907,
+"name": "Cultural Sociology",
+"works": 8
+},
+{
+"id": 4393918530,
+"name": "The Baltic Sea region",
+"works": 8
+},
+{
+"id": 4404669487,
+"name": "Studien zur Intermedialität.",
+"works": 8
+},
+{
+"id": 4393919936,
+"name": "Language, discourse, society",
+"works": 8
+},
+{
+"id": 4210205883,
+"name": "Theologische Frauenforschung",
+"works": 8
+},
+{
+"id": 4393919753,
+"name": "Europica varietas Tokajensis. Acta Universitatis Tokajensis Sárospatakini – patrimonium culturale – fontes",
+"works": 8
+},
+{
+"id": 4393920187,
+"name": "Egyetemtörténeti tanulmányok",
+"works": 8
+},
+{
+"id": 4393912779,
+"name": "Scientific publications of the Cleveland Museum of Natural History",
+"works": 8
+},
+{
+"id": 4393912751,
+"name": "Bibliotheca microbiologica",
+"works": 8
+},
+{
+"id": 4210214367,
+"name": "Thesaurus memoriae. Opuscula/Thesaurus memoriae. Opuscala",
+"works": 8
+},
+{
+"id": 4210200541,
+"name": "Examens du droit et de la politique de la concurrence",
+"works": 8
+},
+{
+"id": 4393919231,
+"name": "Studien zur Geschichte der Naturwissenschaft und Technik",
+"works": 8
+},
+{
+"id": 4393919872,
+"name": "Edition Versicherungsmagazin",
+"works": 8
+},
+{
+"id": 4393919878,
+"name": "Komplexität, Entrepreneurship und Ökonomische Bildung",
+"works": 8
+},
+{
+"id": 4393912978,
+"name": "Monograph of the Museum of Natural History, University of Kansas",
+"works": 8
+},
+{
+"id": 4210212781,
+"name": "Biennial report/Biennial report - Economic Commission for Latin America and the Caribbean",
+"works": 8
+},
+{
+"id": 4210201264,
+"name": "Commonwealth education handbooks",
+"works": 8
+},
+{
+"id": 4210177524,
+"name": "CTE",
+"works": 8
+},
+{
+"id": 4393919204,
+"name": "Juridicum - Schriften zum Bürgerlichen Recht",
+"works": 8
+},
+{
+"id": 4404663966,
+"name": "Initiatives in Strategic Studies: Issues and Policies.",
+"works": 8
+},
+{
+"id": 4393918303,
+"name": "Studien des Frankreich-Zentrums der Albert-Ludwigs-Universität Freiburg",
+"works": 8
+},
+{
+"id": 4210191144,
+"name": "Natures en sociétés",
+"works": 8
+},
+{
+"id": 4404663702,
+"name": "Biolegalities.",
+"works": 8
+},
+{
+"id": 4393919981,
+"name": "Palgrave studies in water governance",
+"works": 8
+},
+{
+"id": 4404677422,
+"name": "Schriften zur Modernisierung von Staat und Verwaltung",
+"works": 8
+},
+{
+"id": 4210186781,
+"name": "Etude sur la situation économique et sociale dans le monde",
+"works": 8
+},
+{
+"id": 4393919704,
+"name": "Soziale Arbeit im Fokus",
+"works": 8
+},
+{
+"id": 4393917636,
+"name": "Grundlehren Text editions",
+"works": 8
+},
+{
+"id": 4393919062,
+"name": "ds démocratie.suisse/demokratie.schweiz",
+"works": 8
+},
+{
+"id": 4393919176,
+"name": "Biblioteka \"Literaturnogo nasledstva\". Novaâ seriâ",
+"works": 8
+},
+{
+"id": 4404663790,
+"name": "Technical reports series.",
+"works": 8
+},
+{
+"id": 4210238956,
+"name": "Synthesis lectures on network systems",
+"works": 8
+},
+{
+"id": 4210181237,
+"name": "Taxing wages",
+"works": 8
+},
+{
+"id": 4393916346,
+"name": "KulturKommerz",
+"works": 7
+},
+{
+"id": 4393919123,
+"name": "Open series in prehistoric archaeology",
+"works": 7
+},
+{
+"id": 4393919187,
+"name": "Serie Cuadernos de Psicología y Psicopedagogía",
+"works": 7
+},
+{
+"id": 4393919880,
+"name": "Schriften zur Business Analytics und zum Informationsmanagement",
+"works": 7
+},
+{
+"id": 4404674428,
+"name": "Teremtésvédelem.",
+"works": 7
+},
+{
+"id": 4210198379,
+"name": "Commonwealth case studies in education",
+"works": 7
+},
+{
+"id": 4404664568,
+"name": "A fontosabb termékpályák piaci folyamatai",
+"works": 7
+},
+{
+"id": 4210172374,
+"name": "CSC technical publication series",
+"works": 7
+},
+{
+"id": 4393916350,
+"name": "Versicherungswissenschaft in Hannover",
+"works": 7
+},
+{
+"id": 4220651546,
+"name": "Acta Germanica iuvenum",
+"works": 7
+},
+{
+"id": 4210196088,
+"name": "Asia-Pacific regional MDGs report",
+"works": 7
+},
+{
+"id": 4393919695,
+"name": "Cohésion sociale et pluralisme culturel",
+"works": 7
+},
+{
+"id": 4393912696,
+"name": "Fortschritte der Geburtshilfe und Gynäkologie",
+"works": 7
+},
+{
+"id": 4404669600,
+"name": "Bamberger Texte für Bühne und Film.",
+"works": 7
+},
+{
+"id": 4393919165,
+"name": "Pluriverso",
+"works": 7
+},
+{
+"id": 4404664049,
+"name": "Methodenintegrative Sozialforschung",
+"works": 7
+},
+{
+"id": 4404669994,
+"name": "Marketing and communication in higher education.",
+"works": 7
+},
+{
+"id": 4393919395,
+"name": "Palgrave Studies in Decolonisation and Grassroots Black Organic Intellectualism",
+"works": 7
+},
+{
+"id": 4393918719,
+"name": "Questions de genre",
+"works": 7
+},
+{
+"id": 4210174931,
+"name": "Etudes économiques de l'OCDE/OCDE. Etudes économiques",
+"works": 7
+},
+{
+"id": 4393919399,
+"name": "Humaniórák",
+"works": 7
+},
+{
+"id": 4393919966,
+"name": "Modernism and ...",
+"works": 7
+},
+{
+"id": 4393920045,
+"name": "Les observateurs de l’action climatique de l’OCDE",
+"works": 7
+},
+{
+"id": 4404674107,
+"name": "CBM:s skriftserie /",
+"works": 7
+},
+{
+"id": 4393918886,
+"name": "Proektnij ta logìstičnij menedžment: novì znannâ na bazì dvuh metodologìj",
+"works": 7
+},
+{
+"id": 4393919827,
+"name": "Breaking Feminist Waves",
+"works": 7
+},
+{
+"id": 4393917790,
+"name": "Management und Wirtschaft Studien",
+"works": 7
+},
+{
+"id": 4393919867,
+"name": "Fachwissen Logistik",
+"works": 7
+},
+{
+"id": 4393919128,
+"name": "Migration - Macht - Bildung",
+"works": 6
+},
+{
+"id": 4404677963,
+"name": "Monumenta Germanorum archaeologica Hungariae.",
+"works": 6
+},
+{
+"id": 4393912835,
+"name": "Illinois biological monographs",
+"works": 6
+},
+{
+"id": 4393916351,
+"name": "Greifswalder Beiträge zur Musikwissenschaft",
+"works": 6
+},
+{
+"id": 4404662121,
+"name": "Anthropological studies of education.",
+"works": 6
+},
+{
+"id": 4210220054,
+"name": "Cross-reference. Learning",
+"works": 6
+},
+{
+"id": 4210201766,
+"name": "Arethuse",
+"works": 6
+},
+{
+"id": 4210192909,
+"name": "Environmental assessment and management",
+"works": 6
+},
+{
+"id": 4210195068,
+"name": "Commonwealth Secretariat local government reform series",
+"works": 6
+},
+{
+"id": 4404670049,
+"name": "Bamberger geographische Schriften. Sonderfolge",
+"works": 6
+},
+{
+"id": 4404676852,
+"name": "تنبيه بشأن النوع الاجتماعي",
+"works": 6
+},
+{
+"id": 4393919728,
+"name": "ClinMicroNow",
+"works": 6
+},
+{
+"id": 4404663889,
+"name": "Palgrave critical studies of antisemitism and racism.",
+"works": 6
+},
+{
+"id": 4393919696,
+"name": "Chôra",
+"works": 6
+},
+{
+"id": 4210216901,
+"name": "Physics in life sciences",
+"works": 6
+},
+{
+"id": 4393918026,
+"name": "Linköping studies in education and social sciences",
+"works": 6
+},
+{
+"id": 4393917575,
+"name": "New directions in Latino American cultures",
+"works": 6
+},
+{
+"id": 4210187852,
+"name": "Gestion publique études hors-série/Etudes hors série sur la gestion publique",
+"works": 6
+},
+{
+"id": 4210237462,
+"name": "National accounts of OECD countries. General government accounts",
+"works": 6
+},
+{
+"id": 4210240693,
+"name": "Der Staat. Beiheft",
+"works": 6
+},
+{
+"id": 4393920152,
+"name": "Disclosing collections",
+"works": 6
+},
+{
+"id": 4404675631,
+"name": "Bamberger geographische Schriften.",
+"works": 6
+},
+{
+"id": 4393913630,
+"name": "Analecta praehistorica leidensia/Analecta praehistorica Leidensia",
+"works": 6
+},
+{
+"id": 4210172480,
+"name": "Traités multilatéraux déposés auprès du Secrétaire général",
+"works": 6
+},
+{
+"id": 4404663381,
+"name": "Frontiers of globalization series.",
+"works": 6
+},
+{
+"id": 4393919247,
+"name": "Edition digital science",
+"works": 6
+},
+{
+"id": 4210188933,
+"name": "Africa investor report",
+"works": 6
+},
+{
+"id": 4393918918,
+"name": "Schriftenreihe des Instituts für Marktorientierte Unternehmensführung (IMU), Universität Mannheim",
+"works": 6
+},
+{
+"id": 4393920044,
+"name": "OECD climate action monitors",
+"works": 6
+},
+{
+"id": 4404675253,
+"name": "Berliner Reihe - Versicherungswisschenschaft in Berlin.",
+"works": 6
+},
+{
+"id": 4210184964,
+"name": "Rapport sur le développement humain en Afrique",
+"works": 6
+},
+{
+"id": 4393919590,
+"name": "A mezőgazdasági kockázatkezelési rendszer működésének értékelése",
+"works": 6
+},
+{
+"id": 4393919156,
+"name": "Popkulturen",
+"works": 6
+},
+{
+"id": 4210185199,
+"name": "Studies in euroculture",
+"works": 6
+},
+{
+"id": 4393918110,
+"name": "Károli könyvek. Műfordítás, forrás",
+"works": 6
+},
+{
+"id": 4393918901,
+"name": "Familie und Familienwissenschaft",
+"works": 6
+},
+{
+"id": 4393918959,
+"name": "Contemporary China studies",
+"works": 6
+},
+{
+"id": 4393914144,
+"name": "Memoirs read before the Boston Society of Natural History",
+"works": 5
+},
+{
+"id": 4210195580,
+"name": "Quality UPE good practice series",
+"works": 5
+},
+{
+"id": 4393919850,
+"name": "Heine-Studien",
+"works": 5
+},
+{
+"id": 4210215131,
+"name": "Série sur les accidents chimiques",
+"works": 5
+},
+{
+"id": 4210198886,
+"name": "KenKen",
+"works": 5
+},
+{
+"id": 4393918942,
+"name": "RendSzerTan",
+"works": 5
+},
+{
+"id": 4393915446,
+"name": "Magdeburger Telemann-Studien",
+"works": 5
+},
+{
+"id": 4210197585,
+"name": "Liángshí jí nóngyè zhuàngkuàng",
+"works": 5
+},
+{
+"id": 4393918116,
+"name": "A magyar rendvédelem-történet hagyatéka",
+"works": 5
+},
+{
+"id": 4210214333,
+"name": "Kinder- und Jugendkultur, -literatur und -medien",
+"works": 5
+},
+{
+"id": 4393912444,
+"name": "Das Tierreich",
+"works": 5
+},
+{
+"id": 4393919422,
+"name": "Wissensgesellschaft",
+"works": 5
+},
+{
+"id": 4393919061,
+"name": "CULTuREL",
+"works": 5
+},
+{
+"id": 4393918210,
+"name": "Advances in energy research",
+"works": 5
+},
+{
+"id": 4404662103,
+"name": "Kungl. Vitterhets-, historie- och antikvitetsakademiens handlingar",
+"works": 5
+},
+{
+"id": 4210225941,
+"name": "Resolutions",
+"works": 5
+},
+{
+"id": 2765009962,
+"name": "Primates in medicine",
+"works": 5
+},
+{
+"id": 4404663923,
+"name": "Badania Miast.",
+"works": 5
+},
+{
+"id": 4220651442,
+"name": "Frontiers in ecoacoustics",
+"works": 5
+},
+{
+"id": 4210216042,
+"name": "Littératures de langue française",
+"works": 5
+},
+{
+"id": 4210240851,
+"name": "Teoria della cultura",
+"works": 5
+},
+{
+"id": 4210200505,
+"name": "Advanced research on Asian economy and economies of other continents",
+"works": 5
+},
+{
+"id": 4393919632,
+"name": "L'Année des bibliothèques",
+"works": 5
+},
+{
+"id": 4393918868,
+"name": "Taboui",
+"works": 5
+},
+{
+"id": 4210195290,
+"name": "Commonwealth case studies in citizenship education",
+"works": 5
+},
+{
+"id": 4404676838,
+"name": "Transpositionen.",
+"works": 5
+},
+{
+"id": 4404673709,
+"name": "Reference data series.",
+"works": 5
+},
+{
+"id": 4393919762,
+"name": "Művészet és irodalom",
+"works": 5
+},
+{
+"id": 4210190206,
+"name": "ICP selected papers",
+"works": 5
+},
+{
+"id": 4210193866,
+"name": "La Chine dans l'économie mondiale",
+"works": 5
+},
+{
+"id": 4393912750,
+"name": "Bibliotheca gastroenterologica",
+"works": 5
+},
+{
+"id": 4210197099,
+"name": "Centaurus Pocket Apps",
+"works": 5
+},
+{
+"id": 4404670287,
+"name": "Kultúrák keresztútján.",
+"works": 5
+},
+{
+"id": 4210170476,
+"name": "Lateinische Sprache und Literatur des Mittelalters",
+"works": 5
+},
+{
+"id": 4393916358,
+"name": "Kieler Berichte",
+"works": 5
+},
+{
+"id": 4210204742,
+"name": "Série de manuels sur la justice pénale",
+"works": 5
+},
+{
+"id": 4393919147,
+"name": "Konglomerationen",
+"works": 5
+},
+{
+"id": 4393920075,
+"name": "Memorias del Foro de Investigadores",
+"works": 5
+},
+{
+"id": 4404664047,
+"name": "Humanities and healthcare.",
+"works": 5
+},
+{
+"id": 4210185680,
+"name": "Rapport statistique sur les accidents de la route .../Statistical report on road accidents ...",
+"works": 5
+},
+{
+"id": 4393918309,
+"name": "Forum Junge Romanistik",
+"works": 5
+},
+{
+"id": 4210185685,
+"name": "Cultural history and literary imagination",
+"works": 5
+},
+{
+"id": 4210214835,
+"name": "Best practice",
+"works": 5
+},
+{
+"id": 4210205014,
+"name": "Silsilaẗ at-ṭāqaẗ li-lağnaẗ al-umam al-muttaḥidaẗ al-iqtisādiyyaẗ li-ūrūbā",
+"works": 5
+},
+{
+"id": 4210239442,
+"name": "Rothenburger Beiträge zur Polizei- und Sicherheitsforschung",
+"works": 5
+},
+{
+"id": 4210169235,
+"name": "Studies in theology, society and culture",
+"works": 5
+},
+{
+"id": 4393917338,
+"name": "Agrárgazdasági statisztikai zsebkönyv",
+"works": 5
+},
+{
+"id": 4404662583,
+"name": "Kölner Reihe - Beiträge zum Privat- und Wirtschaftsrecht.",
+"works": 5
+},
+{
+"id": 4210206277,
+"name": "Quaderni di etnosemiotica",
+"works": 5
+},
+{
+"id": 4210180448,
+"name": "Serie de ciencias de la gestión",
+"works": 5
+},
+{
+"id": 4210229826,
+"name": "Congrès de la Société européenne d'ophtalmologie",
+"works": 5
+},
+{
+"id": 4404660530,
+"name": "SpringerBriefs in social policy",
+"works": 4
+},
+{
+"id": 4210183248,
+"name": "Schriften zum Strafrechtsvergleich",
+"works": 4
+},
+{
+"id": 4210192572,
+"name": "Beiträge zur angewandten Wirtschaftsforschung",
+"works": 4
+},
+{
+"id": 4393913162,
+"name": "Smithsonian contributions to knowledge",
+"works": 4
+},
+{
+"id": 4210183212,
+"name": "Comparatisme et Société",
+"works": 4
+},
+{
+"id": 4210229663,
+"name": "Psychologische Studien",
+"works": 4
+},
+{
+"id": 4393919137,
+"name": "Dresdner Schriften zu Kultur und Wissen",
+"works": 4
+},
+{
+"id": 4404663683,
+"name": "Kungl. Vitterhets-, historie- och antikvitetsakademiens handlingar",
+"works": 4
+},
+{
+"id": 4210211698,
+"name": "Slavica Helvetica",
+"works": 4
+},
+{
+"id": 4393918077,
+"name": "Critical guides to contemporary composers",
+"works": 4
+},
+{
+"id": 4393917368,
+"name": "Rechtsformen der Wirtschaft",
+"works": 4
+},
+{
+"id": 4393916532,
+"name": "Notice pour le practicien/Notice pour le praticien",
+"works": 4
+},
+{
+"id": 4404670093,
+"name": "Services series.",
+"works": 4
+},
+{
+"id": 4393918217,
+"name": "Advances in electrical engineering research",
+"works": 4
+},
+{
+"id": 4393919438,
+"name": "Religiöse Evolution",
+"works": 4
+},
+{
+"id": 4393919593,
+"name": "Mádl Ferenc emléksorozat",
+"works": 4
+},
+{
+"id": 4404660738,
+"name": "Public history of education.",
+"works": 4
+},
+{
+"id": 4210205213,
+"name": "Byzantine and neohellenic studies",
+"works": 4
+},
+{
+"id": 4393917813,
+"name": "Region im Umbruch",
+"works": 4
+},
+{
+"id": 4210236287,
+"name": "Horizons in cancer research",
+"works": 4
+},
+{
+"id": 4210207918,
+"name": "Philosophica",
+"works": 4
+},
+{
+"id": 4404676107,
+"name": "Süßwasserfauna von Mitteleuropa.",
+"works": 4
+},
+{
+"id": 4393916549,
+"name": "Cytokines",
+"works": 4
+},
+{
+"id": 4393918128,
+"name": "IAEA human health series",
+"works": 4
+},
+{
+"id": 4393918030,
+"name": "Studies in disability research",
+"works": 4
+},
+{
+"id": 4404673912,
+"name": "Agricultural statistics pocketbook /",
+"works": 4
+},
+{
+"id": 4393913911,
+"name": "Adattár XVI-XVIII. századi szellemi mozgalmaink történetéhez",
+"works": 4
+},
+{
+"id": 4393919069,
+"name": "Károli könyvek. Jegyzet",
+"works": 4
+},
+{
+"id": 4393912974,
+"name": "Monograph series - Delaware Museum of Natural History",
+"works": 4
+},
+{
+"id": 4210194961,
+"name": "Az agrár-kockázatkezelési rendszer működésének értékelése",
+"works": 4
+},
+{
+"id": 4210198798,
+"name": "Jogi- és társadalomtudományi közlemények a közösségek szolgálatában",
+"works": 4
+},
+{
+"id": 4210213678,
+"name": "Scripts in inorganic and organometallic chemistry",
+"works": 4
+},
+{
+"id": 4393919881,
+"name": "Philosophische Methoden",
+"works": 4
+},
+{
+"id": 4210207345,
+"name": "Progress in molecular and subcellular biology. Marine molecular biotechnology",
+"works": 3
+},
+{
+"id": 4404674968,
+"name": "Slavica Suecana.",
+"works": 3
+},
+{
+"id": 4210240264,
+"name": "Comparative studies in the history of insurance law",
+"works": 3
+},
+{
+"id": 4220651333,
+"name": "Working Papers zu Medien und Gesellschaft",
+"works": 3
+},
+{
+"id": 4210182347,
+"name": "Estudios económicos y financieros",
+"works": 3
+},
+{
+"id": 4393919766,
+"name": "Global Entrepreneurship Monitor Nemzeti jelentés – Magyarország",
+"works": 3
+},
+{
+"id": 4210237341,
+"name": "Le Corps plus que jamais/Collection Le Corps plus que jamais",
+"works": 3
+},
+{
+"id": 4393919757,
+"name": "Bölcselet és vallás",
+"works": 3
+},
+{
+"id": 4210235935,
+"name": "Medical primatology",
+"works": 3
+},
+{
+"id": 4404664048,
+"name": "Schriften der Universitätsbibliothek Bamberg.",
+"works": 3
+},
+{
+"id": 4404677332,
+"name": "Monumenta archaeologica barbarorum inter Pannoniam Daciamque /",
+"works": 3
+},
+{
+"id": 4393916206,
+"name": "Museum technique series",
+"works": 3
+},
+{
+"id": 4210230399,
+"name": "Documents pour l'histoire des francophonies. Théorie des francophonies",
+"works": 3
+},
+{
+"id": 4393918944,
+"name": "Metszéspontok",
+"works": 3
+},
+{
+"id": 4404675152,
+"name": "Življenja in dela",
+"works": 3
+},
+{
+"id": 4393919070,
+"name": "Tanulmányok a tudományelemzés mai gyakorlatából",
+"works": 3
+},
+{
+"id": 4393918811,
+"name": "Specimina ethnographica",
+"works": 3
+},
+{
+"id": 4393919768,
+"name": "Keleti nyelvek",
+"works": 3
+},
+{
+"id": 4393919705,
+"name": "Schriften zur sozialen Frage",
+"works": 3
+},
+{
+"id": 4393918102,
+"name": "KinoSputnik",
+"works": 3
+},
+{
+"id": 4210194797,
+"name": "Dokumente und Schriften der Europäischen Akademie Otzenhausen",
+"works": 3
+},
+{
+"id": 4210235626,
+"name": "Prosperitas monográfiák",
+"works": 3
+},
+{
+"id": 4210178734,
+"name": "SHT-Slovenska historična topografija",
+"works": 3
+},
+{
+"id": 4210221765,
+"name": "Iskolakultúra",
+"works": 3
+},
+{
+"id": 4404677452,
+"name": "Rencontres du MAN.",
+"works": 3
+},
+{
+"id": 4393918115,
+"name": "Beszéd, kutatás, alkalmazás",
+"works": 3
+},
+{
+"id": 4393915327,
+"name": "Memoirs of the Pacific Coast Entomological Society",
+"works": 3
+},
+{
+"id": 4393913844,
+"name": "A tesztüzemek ... évi gazdálkodásának eredményei/A tesztüzemek gazdálkodásának eredményei",
+"works": 3
+},
+{
+"id": 4393912942,
+"name": "Topical problems of psychotherapy",
+"works": 3
+},
+{
+"id": 4404677745,
+"name": "Rijks geschiedkundige Publicatiën.",
+"works": 3
+},
+{
+"id": 4404662106,
+"name": "Présent et histoire =",
+"works": 3
+},
+{
+"id": 4393913172,
+"name": "Miscellaneous publication - United States Department of Agriculture",
+"works": 3
+},
+{
+"id": 4393916207,
+"name": "Technique series - Field Museum of Natural History",
+"works": 3
+},
+{
+"id": 4393913631,
+"name": "Abfallwirtschaft in Forschung und Praxis",
+"works": 3
+},
+{
+"id": 4393919591,
+"name": "A Tan Kapuja tanítói",
+"works": 3
+},
+{
+"id": 4393913363,
+"name": "Keleti tanulmányok",
+"works": 3
+},
+{
+"id": 4393919755,
+"name": "Europica varietas Tokajensis. Acta Universitatis Tokajensis Sárospatakini – patrimonium culturale – dissertationes",
+"works": 3
+},
+{
+"id": 4393912215,
+"name": "Reader's digest",
+"works": 3
+},
+{
+"id": 4393918817,
+"name": "Wissenschaftler in Hamburg",
+"works": 3
+},
+{
+"id": 4210182943,
+"name": "Passions complices/Collection Passions complices",
+"works": 3
+},
+{
+"id": 4210191479,
+"name": "Schriften zu Regional- und Verkehrsproblem in Industrie- und Entwicklungsländern",
+"works": 3
+},
+{
+"id": 4210178948,
+"name": "Catalysis",
+"works": 3
+},
+{
+"id": 4393912790,
+"name": "Danmarks fauna",
+"works": 3
+},
+{
+"id": 4393919700,
+"name": "Terrains des sciences sociales",
+"works": 3
+},
+{
+"id": 4393918661,
+"name": "Bosque nativo",
+"works": 2
+},
+{
+"id": 4210221625,
+"name": "Wirtschaftspsychologische Schriften der Universitäten München und Augsburg",
+"works": 2
+},
+{
+"id": 4393919767,
+"name": "Global Entrepreneurship Monitor National Report – Hungary",
+"works": 2
+},
+{
+"id": 4210222335,
+"name": "Etudes économiques et financières",
+"works": 2
+},
+{
+"id": 4393918896,
+"name": "WSL fact sheet",
+"works": 2
+},
+{
+"id": 4210226226,
+"name": "Bremer Beiträge zur Literatur- und Ideengeschichte",
+"works": 2
+},
+{
+"id": 4210221018,
+"name": "Europäische Hochschulschriften. Reihe 36, Musikwissenschaften",
+"works": 2
+},
+{
+"id": 4393918945,
+"name": "Studia Armenologica Hungarica",
+"works": 2
+},
+{
+"id": 4210175608,
+"name": "Genèses de textes",
+"works": 2
+},
+{
+"id": 4393919190,
+"name": "Współczesna Nawigacja",
+"works": 2
+},
+{
+"id": 4393919420,
+"name": "Transcript Klassiker",
+"works": 2
+},
+{
+"id": 4404677674,
+"name": "Schriftenreihe zur Textualität des Films.",
+"works": 2
+},
+{
+"id": 4210226110,
+"name": "Schriften zum Wirtschafts- und Medienrecht, Steuerrecht und Zivilprozessrecht",
+"works": 2
+},
+{
+"id": 4210193437,
+"name": "Moving texts",
+"works": 2
+},
+{
+"id": 4393915920,
+"name": "Acta Societatis scientiarum Fennicae",
+"works": 2
+},
+{
+"id": 4404675432,
+"name": "Közgáz diáktudós :",
+"works": 2
+},
+{
+"id": 4393919415,
+"name": "Seminario de Grado de Ingeniería de Sistemas",
+"works": 2
+},
+{
+"id": 4393918033,
+"name": "Skrifter från Forum för ämnesdidaktik Linköpings universitet",
+"works": 2
+},
+{
+"id": 4393917617,
+"name": "Folklór",
+"works": 2
+},
+{
+"id": 4210194178,
+"name": "Texte der Hethiter",
+"works": 2
+},
+{
+"id": 4210214738,
+"name": "Advanced series in fullerences",
+"works": 2
+},
+{
+"id": 4210225898,
+"name": "Materializing culture",
+"works": 2
+},
+{
+"id": 4210179917,
+"name": "SpringerBriefs in biological imaging",
+"works": 2
+},
+{
+"id": 4210205639,
+"name": "Supplementband Tyche",
+"works": 2
+},
+{
+"id": 4404663891,
+"name": "Grifos :",
+"works": 2
+},
+{
+"id": 4210215302,
+"name": "Studentische Schriften zu den Sozialwissenschaften",
+"works": 2
+},
+{
+"id": 4210232423,
+"name": "KFO intern",
+"works": 2
+},
+{
+"id": 4393919067,
+"name": "Az agrárszakképzés szerepe a munkaerő-utánpótlásban",
+"works": 2
+},
+{
+"id": 4393913191,
+"name": "Memoirs of the Torrey Botanical Club",
+"works": 2
+},
+{
+"id": 4404677779,
+"name": "Biblioteka Szczecina Humanistycznego.",
+"works": 2
+},
+{
+"id": 4393916188,
+"name": "Augustana Library publications",
+"works": 2
+},
+{
+"id": 4393915608,
+"name": "Syllogeus - National Museum of Natural Sciences",
+"works": 2
+},
+{
+"id": 4210189371,
+"name": "Forum iuris",
+"works": 2
+},
+{
+"id": 4404676771,
+"name": "Carteggi e materiali del Centro interdipartimentale di ricerca Franco Fortini.",
+"works": 2
+},
+{
+"id": 4393913142,
+"name": "Entomologica Americana",
+"works": 2
+},
+{
+"id": 4210182182,
+"name": "Recht und Philosophie",
+"works": 2
+},
+{
+"id": 4393918108,
+"name": "A főbb mezőgazdasági ágazatok költség- és jövedelemhelyzete",
+"works": 2
+},
+{
+"id": 4210192193,
+"name": "Berkeley insights in linguistics and semiotics",
+"works": 2
+},
+{
+"id": 4210205153,
+"name": "Destini incrociati",
+"works": 2
+},
+{
+"id": 4393913361,
+"name": "A Magyar Nyelvtudományi Társaság kiadványai",
+"works": 2
+},
+{
+"id": 4393915636,
+"name": "Precios forestales",
+"works": 2
+},
+{
+"id": 4393913189,
+"name": "Fieldiana. Technique",
+"works": 2
+},
+{
+"id": 4404675398,
+"name": "Young Researchrs' Monographs.",
+"works": 2
+},
+{
+"id": 4393919763,
+"name": "Europica varietas Tokajensis. Acta Universitatis Tokajensis Sárospatakini - patrimonium culturale - dōron",
+"works": 2
+},
+{
+"id": 4393919703,
+"name": "Pathology & oncology research. Editors' picks",
+"works": 2
+},
+{
+"id": 4393917619,
+"name": "Studia ethnologica Hungarica",
+"works": 2
+},
+{
+"id": 4393918314,
+"name": "Forschungen des Instituts für Archäologie, Denkmalkunde und Kunstgeschichte",
+"works": 2
+},
+{
+"id": 4393913642,
+"name": "Arbeiten und Texte zur Slawistik",
+"works": 2
+},
+{
+"id": 4404676363,
+"name": "All colors of physics.",
+"works": 2
+},
+{
+"id": 4404677202,
+"name": "Dichtung und Erkenntnis.",
+"works": 2
+},
+{
+"id": 4393916269,
+"name": "Acta hyperborea",
+"works": 1
+},
+{
+"id": 4210238550,
+"name": "Kulturális örökség",
+"works": 1
+},
+{
+"id": 4393914993,
+"name": "Material und Organismen. Beihefte",
+"works": 1
+},
+{
+"id": 4393913966,
+"name": "Experimental hematology today",
+"works": 1
+},
+{
+"id": 4404673990,
+"name": "Zeszyty Energetyczne.",
+"works": 1
+},
+{
+"id": 4393914654,
+"name": "Rapport - Sveriges lantbruksuniversitet, Institutionen för skogsekonomi",
+"works": 1
+},
+{
+"id": 4404662213,
+"name": "Dani Ramira i Zorana Bujasa.",
+"works": 1
+},
+{
+"id": 4393915640,
+"name": "Exportaciones forestales",
+"works": 1
+},
+{
+"id": 4404675137,
+"name": "Biological Survey of Canada monograph series.",
+"works": 1
+},
+{
+"id": 4404662595,
+"name": "Proskenion",
+"works": 1
+},
+{
+"id": 4393917766,
+"name": "Quaderni di archeologia fenicio punica",
+"works": 1
+},
+{
+"id": 4404674612,
+"name": "Kultura na Pograniczach.",
+"works": 1
+},
+{
+"id": 4393912073,
+"name": "Nova acta Regiae societatis scientiarum Upsaliensis",
+"works": 1
+},
+{
+"id": 4393919427,
+"name": "Ästhetik(en) der Roma - Selbst- und Fremdrepräsentationen",
+"works": 1
+},
+{
+"id": 4393918105,
+"name": "ELTE jogi kari tankönyvek",
+"works": 1
+},
+{
+"id": 4404669052,
+"name": "AMANZschriften",
+"works": 1
+},
+{
+"id": 4210229319,
+"name": "Tutkimuksia - Helsingin yliopiston soveltavan kasvatustieteen laitos",
+"works": 1
+},
+{
+"id": 4404669069,
+"name": "Plumes.",
+"works": 1
+},
+{
+"id": 4210169560,
+"name": "Joint Studies Paper Series",
+"works": 1
+},
+{
+"id": 4393918399,
+"name": "Prawa Człowieka i Prawo Międzynarodowe",
+"works": 1
+},
+{
+"id": 4393918655,
+"name": "Historiografia Pomorska",
+"works": 1
+},
+{
+"id": 4393912701,
+"name": "Advances in tuberculosis research",
+"works": 1
+},
+{
+"id": 4393915641,
+"name": "Directorio de la industria forestal chilena/Directorio de la Industria Forestal Chilena",
+"works": 1
+},
+{
+"id": 4404676288,
+"name": "Studia Pisarskie.",
+"works": 1
+},
+{
+"id": 4210187518,
+"name": "Skeptic",
+"works": 1
+},
+{
+"id": 4393918933,
+"name": "Künstler in Hamburg",
+"works": 1
+},
+{
+"id": 4210214439,
+"name": "Studia Fennica. Linguistica",
+"works": 1
+},
+{
+"id": 4404664139,
+"name": "Editio ALAI Bohemica Academica.",
+"works": 1
+},
+{
+"id": 4404676782,
+"name": "Philosophica",
+"works": 1
+},
+{
+"id": 4393920028,
+"name": "Encuentro de Ética en Investigación en el Contexto Colombiano",
+"works": 1
+},
+{
+"id": 4404660769,
+"name": "Környezet és társadalom.",
+"works": 1
+},
+{
+"id": 4210205759,
+"name": "Èkonomičeskie voprosy razvitiâ selʹskogo hozâjstva BSSR",
+"works": 1
+},
+{
+"id": 4393919751,
+"name": "Kelet kincsei",
+"works": 1
+},
+{
+"id": 4393919647,
+"name": "Experiencias Significativas",
+"works": 1
+},
+{
+"id": 4393914026,
+"name": "Nova acta paracelsica",
+"works": 1
+},
+{
+"id": 4393918660,
+"name": "Mercado forestal",
+"works": 1
+},
+{
+"id": 4393915731,
+"name": "Contributions from the New York Botanical Garden",
+"works": 1
+},
+{
+"id": 4393920012,
+"name": "Doctor honoris causa series",
+"works": 1
+},
+{
+"id": 4404675448,
+"name": "Lexica Societatis Fenno-Ugricae.",
+"works": 1
+},
+{
+"id": 4393919646,
+"name": "Materia, Energía y Desarrollo Sostenible MEDS",
+"works": 1
+},
+{
+"id": 4404673897,
+"name": "Ethnos-toimite.",
+"works": 1
+},
+{
+"id": 4404676382,
+"name": "Magyarország honfoglalás és kora Árpád-kori temetőinek leletanyaga.",
+"works": 1
+},
+{
+"id": 4210191461,
+"name": "Schriften zum deutschen und internationalen Bau-, Umwelt- und Energierecht",
+"works": 1
+},
+{
+"id": 4210226026,
+"name": "Studien und Gutachten aus dem Institut für Staatslehre, Staats- und Verwaltungsrecht der Freien Universität Berlin",
+"works": 1
+},
+{
+"id": 4393918117,
+"name": "Segédtudományok a magyar rendvédelem-történet szolgálatában",
+"works": 1
+},
+{
+"id": 4393919168,
+"name": "ILO working paper",
+"works": 1
+},
+{
+"id": 4210239297,
+"name": "Texte und Untersuchungen zur englischen Philologie",
+"works": 1
+},
+{
+"id": 4393914889,
+"name": "Memorias del Instituto Espanol de Oceanografia",
+"works": 1
+},
+{
+"id": 4393912788,
+"name": "Aktuelle Probleme der Phoniatrie und Logopädie",
+"works": 1
+},
+{
+"id": 4393912769,
+"name": "Publications in botany",
+"works": 1
+},
+{
+"id": 4210202289,
+"name": "Dramaturgies",
+"works": 1
+},
+{
+"id": 4210191076,
+"name": "World scientific series on 21st century business",
+"works": 1
+},
+{
+"id": 4210223363,
+"name": "Framing film :",
+"works": 1
+},
+{
+"id": 4210182579,
+"name": "Historische Wissensforschung",
+"works": 1
+},
+{
+"id": 4210167448,
+"name": "Collection Portes ouvertes",
+"works": 1
+},
+{
+"id": 4393914744,
+"name": "Guidebook - Bureau of Economic Geology, the University of Texas at Austin",
+"works": 1
+},
+{
+"id": 4393919126,
+"name": "Arbeitshefte Architektur und Raum für die Aufführungskünste",
+"works": 1
+},
+{
+"id": 4393915639,
+"name": "Importaciones forestales",
+"works": 1
+},
+{
+"id": 4210201475,
+"name": "Studien zur Germanistik, Skandinavistik und Übersetzungskultur",
+"works": 1
+},
+{
+"id": 4393917740,
+"name": "Ökoetika",
+"works": 1
+},
+{
+"id": 4210233894,
+"name": "Literarische Studien",
+"works": 1
+},
+{
+"id": 4210235115,
+"name": "Studien zur Deutschlandfrage",
+"works": 1
+},
+{
+"id": 4393919800,
+"name": "Bamberger Junge Theologie",
+"works": 1
+},
+{
+"id": 4210173021,
+"name": "Education policy and leadership",
+"works": 1
+},
+{
+"id": 4404677207,
+"name": "INSAG series.",
+"works": 1
+},
+{
+"id": 4393915647,
+"name": "Productos forestales no madereros",
+"works": 1
+},
+{
+"id": 4393911957,
+"name": "Meddelelser om Grønland",
+"works": 1
+},
+{
+"id": 4393912878,
+"name": "Miscellaneous publications - Museum of Zoology, University of Michigan",
+"works": 1
+},
+{
+"id": 4393918088,
+"name": "Fan phenomena",
+"works": 1
+},
+{
+"id": 4210185803,
+"name": "Europäische Hochschulschriften. Reihe 22, Soziologie",
+"works": 1
+},
+{
+"id": 4393919474,
+"name": "Universitätsgeschichte Bamberg",
+"works": 1
+},
+{
+"id": 4404662044,
+"name": "Tiere - Medien - Bildung",
+"works": 1
+},
+{
+"id": 4393918106,
+"name": "Ancient Near Eastern and mediterranean studies",
+"works": 1
+},
+{
+"id": 4210208478,
+"name": "Polish studies in English language and literature",
+"works": 1
+},
+{
+"id": 4404660801,
+"name": "Nomologica.",
+"works": 1
+},
+{
+"id": 4210222771,
+"name": "Finnische Beiträge zur Germanistik",
+"works": 1
+},
+{
+"id": 4210219135,
+"name": "Bedrohte Ordnungen",
+"works": 1
+},
+{
+"id": 4404662452,
+"name": "Studier till Sveriges kyrkor",
+"works": 1
+},
+{
+"id": 4393918663,
+"name": "DidInfo",
+"works": 1
+},
+{
+"id": 4404663910,
+"name": "Fordítástudományi értekezések.",
+"works": 1
+},
+{
+"id": 4210223482,
+"name": "Warsaw studies in English language and literature",
+"works": 1
+},
+{
+"id": 4210204286,
+"name": "Histoire 20e siècle",
+"works": 1
+},
+{
+"id": 4393912167,
+"name": "The Popular science monthly",
+"works": 1
+},
+{
+"id": 4393917410,
+"name": "Notater fra Universitetet i Stavanger",
+"works": 1
+},
+{
+"id": 4393913165,
+"name": "University of Colorado studies. General series A",
+"works": 1
+},
+{
+"id": 4393917649,
+"name": "Texter om svenska med didaktisk inriktning",
+"works": 1
+},
+{
+"id": 4210229464,
+"name": "Schriften zur deutschen Sprache in Österreich",
+"works": 1
+},
+{
+"id": 4210209971,
+"name": "Berlinische Lebensbilder",
+"works": 1
+},
+{
+"id": 4210226900,
+"name": "Kieli",
+"works": 1
+},
+{
+"id": 4393917337,
+"name": "A fontosabb élelmiszeripari termékek ... költség- és jövedelemadatai",
+"works": 1
+},
+{
+"id": 4393914123,
+"name": "Occasional papers of the Boston Society of Natural History",
+"works": 1
+},
+{
+"id": 4393917188,
+"name": "Szegedi középkortörténeti könyvtár",
+"works": 1
+},
+{
+"id": 4210186274,
+"name": "Interkulturelle Begegnungen",
+"works": 1
+},
+{
+"id": 4210229386,
+"name": "Media Jako Źródło Wiedzy Rolników",
+"works": 1
+},
+{
+"id": 4210170729,
+"name": "Studia Uralo-Altaica. Supplementum",
+"works": 1
+},
+{
+"id": 4210201810,
+"name": "Handelsrättslig skriftserie",
+"works": 1
+},
+{
+"id": 4393919649,
+"name": "Prospectivas Profesionales",
+"works": 1
+},
+{
+"id": 4404661666,
+"name": "Linguistische Studien.",
+"works": 1
+},
+{
+"id": 4393917345,
+"name": "Notizie per la pratica",
+"works": 1
+},
+{
+"id": 4210219907,
+"name": "Politische Kulturforschung",
+"works": 1
+},
+{
+"id": 4404664221,
+"name": "Esterhazyana :",
+"works": 1
+},
+{
+"id": 4393918662,
+"name": "La industria de tableros y chapas",
+"works": 1
+},
+{
+"id": 4210228855,
+"name": "Ibérica",
+"works": 1
+},
+{
+"id": 4404674243,
+"name": "EIB Investment Report.",
+"works": 1
+},
+{
+"id": 4404676334,
+"name": "Restaurierungswissenschaften.",
+"works": 1
+},
+{
+"id": 4210192118,
+"name": "Middlebury studies in Russian language and literature",
+"works": 1
+},
+{
+"id": 4393913921,
+"name": "Mittheilungen aus dem Königl. Zoologischen Museum zu Dresden",
+"works": 1
+},
+{
+"id": 4393913526,
+"name": "Pacific coast avifauna",
+"works": 1
+},
+{
+"id": 4210223371,
+"name": "Seminario giuridico della Università di Bologna",
+"works": 1
+},
+{
+"id": 4210226920,
+"name": "Biblos",
+"works": 1
+},
+{
+"id": 4393919451,
+"name": "Bamberger Empfehlungen für Bauforschung und praktische Baudenkmalpflege",
+"works": 1
+},
+{
+"id": 4393917321,
+"name": "Rapport / SLU, Institutionen för husdjursgenetik",
+"works": 1
+},
+{
+"id": 4210238460,
+"name": "Dresdner Beiträge zur Betriebswirtschaftslehre",
+"works": 1
+}
+]
+}
