@@ -49,6 +49,7 @@ All run as `python -m jobs.<name>` on one-off dynos. Sync jobs accept `--dry-run
 | `datacite_clients` | Fetch api.datacite.org/clients + providers → `datacite_client` (~4.4K). |
 | `sync_datacite_clients` | Shared cascade, ISSN-first: already linked → fill-NULLs; ISSN match → link; no ISSN → guarded name link; else mint (`periodical`→journal, else repository). |
 | `doaj` | Fetch the public DOAJ CSV (~23K) and apply `is_in_doaj` / `doaj_license` / `is_in_doaj_start_year`, including delistings. Also fills a NULL `country_code` from DOAJ's 'Country of publisher' (never overwrites one; skips publishers DOAJ lists under several countries; oxjob #2185). `--mint` also adds journals the registry lacks (shared cascade: ISSN → guarded name link → mint). |
+| `ndl_journals` | Reload the National Diet Library's indexed-journal list (雑誌記事索引 採録誌一覧, ~27K Japanese journals, `sairokushi_YYYYMM.tsv`) into `ndl_journal`; tie every journal that owns one of a record's ISSNs (`source_ndl_journal`, plus checked one-off binds via `--bind-csv data/ndl/...`); fill, never overwriting, a tied journal's ISSNs + ISSN-L (only when it has none and no other source holds them), publisher text (when it has no publisher text or host) and country JP (when NULL and NDL's place of publication is in Japan). Receipt + `--revert` (oxjob #2547). An ISSN fill re-stamps the journal's works: a large bind needs a Guardrails pre-clear. |
 | `issn_to_issnl` | Reload the ISSN→ISSN-L table from issn.org (atomic TRUNCATE + COPY), then run `reconcile_issn_l --apply` (repoint only, 500-change guard). |
 | `reconcile_issn_l` | Set `sources.issn_l` to the ISSN IC's ISSN-L wherever the source owns it (oxjob #2154: 5,402 sources disagreed on 2026-11-11). Adds a missing ISSN-L only for ids in `--adopt-ids`; leaves two-family sources and ISSN-Ls another source owns alone. Receipt + `--revert`. |
 | `resolve_conflicts` | Drain the conflict queue: auto-merge 2-way, exact-normalized-name, type-compatible, un-curated pairs (winner = more works, then lower id); mark the rest `needs_review`. |
@@ -129,6 +130,7 @@ Bearer `ADVANCED_SCHEDULER_API_TOKEN`) — no dashboard clicking. Current schedu
 | Mon 05:30 | `datacite_clients && sync_datacite_clients` |
 | Mon 05:45 | `doaj --mint` |
 | Mon 05:55 | `apply_oa_flags` |
+| Mon 06:05 | `ndl_journals` (after the first run by hand for oxjob #2547) |
 | daily 02:00 | `apply_source_curations` (20:00 CT, so a curation posted by then rides that night's End 2 End) |
 | daily 02:10 | `fill_country_from_host` (20:10 CT: a host bound during the day brings its country before the night) |
 | daily 06:00 | `crossref_journals && sync_crossref_journals` |
