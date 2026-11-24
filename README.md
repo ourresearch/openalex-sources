@@ -130,7 +130,7 @@ Bearer `ADVANCED_SCHEDULER_API_TOKEN`) — no dashboard clicking. Current schedu
 | Mon 05:30 | `datacite_clients && sync_datacite_clients` |
 | Mon 05:45 | `doaj --mint` |
 | Mon 05:55 | `apply_oa_flags` |
-| Mon 06:05 | `ndl_journals` (after the first run by hand for oxjob #2547) |
+| Mon 06:05 | `ndl_journals` (trigger fba064a3; first run by hand 24 Nov 03:01 UTC, oxjob #2547) |
 | daily 02:00 | `apply_source_curations` (20:00 CT, so a curation posted by then rides that night's End 2 End) |
 | daily 02:10 | `fill_country_from_host` (20:10 CT: a host bound during the day brings its country before the night) |
 | daily 06:00 | `crossref_journals && sync_crossref_journals` |
