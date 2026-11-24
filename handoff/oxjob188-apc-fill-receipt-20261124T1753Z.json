@@ -1,0 +1,59 @@
+{
+ "run_at": "2026-11-24T17:53:18.866192+00:00",
+ "execute": true,
+ "filled": [
+  {
+   "id": 4210231393,
+   "ticket": "5070",
+   "fee": 0,
+   "prices": [
+    {
+     "price": 0,
+     "currency": "USD"
+    }
+   ],
+   "page": "https://sft.cnbop.pl/en/for-authors",
+   "apc_usd_before": 184,
+   "apc_prices_before": [
+    {
+     "price": 800,
+     "currency": "PLN"
+    }
+   ]
+  },
+  {
+   "id": 4210226426,
+   "ticket": "26822,26823",
+   "fee": 762,
+   "prices": [
+    {
+     "price": 582,
+     "currency": "GBP"
+    }
+   ],
+   "page": "https://www.futurecitiesandenvironment.com/article-processing-charge/",
+   "apc_usd_before": 613,
+   "apc_prices_before": [
+    {
+     "price": 500,
+     "currency": "GBP"
+    }
+   ]
+  },
+  {
+   "id": 2738172632,
+   "ticket": "26464 (#2308)",
+   "fee": 878,
+   "prices": [
+    {
+     "price": 800,
+     "currency": "EUR"
+    }
+   ],
+   "page": "https://journals.publisso.de/en/journals/jme/manuscript_guidelines",
+   "apc_usd_before": null,
+   "apc_prices_before": []
+  }
+ ],
+ "skipped": []
+}
