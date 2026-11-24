@@ -1,0 +1,5 @@
+MINTED 7407154776 'Replication Research' ['3052-5977']
+minted 1, existing 0, endpoints 0, held 0, refused 0; listed_in rows changed 0
+COMMITTED
+RECEIPT
+{"run_at": "2026-11-24T15:28:35.460175+00:00", "execute": true, "manifest": "--json /Users/jasonpriem/ox/oxjobs/working/datacite-issn-source-matching/work/add_journal_replication_research_2026-11-24.json", "minted": [{"source_id": 7407154776, "name": "Replication Research", "issns": ["3052-5977"], "ticket": "24980"}], "updated": [], "endpoints": [], "held": [], "refused": [], "actions": ["MINTED 7407154776 'Replication Research' ['3052-5977']", "minted 1, existing 0, endpoints 0, held 0, refused 0; listed_in rows changed 0", "COMMITTED"]}
