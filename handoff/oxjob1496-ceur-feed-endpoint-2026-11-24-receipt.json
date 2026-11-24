@@ -1,0 +1,41 @@
+{
+ "run_at": "2026-11-24T15:28:30.924291+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 1496,
+ "before": {
+  "endpoints_on_host": [],
+  "CEUR-WS": {
+   "source": {
+    "id": 4210204615,
+    "display_name": "CEUR Workshop Proceedings",
+    "type": "journal",
+    "homepage_url": "http://ceur-ws.org/",
+    "is_oa": true
+   },
+   "endpoints_on_source": []
+  }
+ },
+ "actions": [
+  "REGISTERED endpoint klmqstttv7fooh1stjig https://ceur-ws.org/ set ceur-ws -> S4210204615 (CEUR-WS) is_journal_host, ready_to_run false (files, not harvest)",
+  "COMMITTED"
+ ],
+ "after": {
+  "endpoints": [
+   {
+    "id": "klmqstttv7fooh1stjig",
+    "pmh_url": "https://ceur-ws.org/",
+    "pmh_set": "ceur-ws",
+    "source_id": 4210204615,
+    "ready_to_run": false,
+    "in_walden": true,
+    "status": "active",
+    "is_journal_host": true,
+    "green_scrape": false
+   }
+  ]
+ },
+ "revert": [
+  "DELETE FROM oai_pmh_endpoint WHERE id IN ('klmqstttv7fooh1stjig') AND pmh_url = 'https://ceur-ws.org/';"
+ ]
+}
