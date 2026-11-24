@@ -1,0 +1,190 @@
+{
+ "run_at": "2026-11-24T07:49:51.998895+00:00",
+ "execute": true,
+ "committed": true,
+ "revert_of": null,
+ "manifest": "oxjob2576-owner-country-2026-11-24.csv",
+ "before": {
+  "CH": 2711,
+  "DE": 6163,
+  "GB": 11398,
+  "US": 22288
+ },
+ "changed": {
+  "149016011": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "71857517": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "85427048": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "46640599": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "28122330": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "2764687066": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "95685352": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "3026325": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "30889260": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "166929102": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "97987397": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "58852226": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "22312033": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "30934864": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "4210196547": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "2764707789": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "4210178773": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "4210229996": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "4210206494": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "4210203241": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "4210192602": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "4210204386": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "4210224552": [
+   "US",
+   "GB",
+   "United States",
+   "United Kingdom",
+   "P4310311714"
+  ],
+  "108911230": [
+   "DE",
+   "CH",
+   "Germany",
+   "Switzerland",
+   "P4310310987"
+  ]
+ },
+ "skipped": {},
+ "after": {
+  "CH": 2712,
+  "DE": 6162,
+  "GB": 11421,
+  "US": 22265
+ }
+}
