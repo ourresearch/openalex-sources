@@ -1,0 +1,40 @@
+{
+ "run_at": "2026-11-25T15:37:34.899507+00:00",
+ "execute": true,
+ "revert_of": null,
+ "job": "oxjob #2386 (support factory, ZD 6878)",
+ "changed": {
+  "S7407122438": {
+   "publisher_id": [
+    null,
+    4404684918
+   ],
+   "homepage_url": [
+    null,
+    "https://centerofsciencepress.com/CES"
+   ]
+  },
+  "S7407056831": {
+   "homepage_url": [
+    null,
+    "https://centerofsciencepress.com/CoCS"
+   ]
+  },
+  "S5407056242": {
+   "homepage_url": [
+    null,
+    "https://centerofsciencepress.com/ai"
+   ]
+  }
+ },
+ "skipped": {},
+ "checked": {
+  "S5407054464": {
+   "display_name": "Center of Medicine",
+   "issn_l": "3106-5228",
+   "homepage_url": "https://centerofsciencepress.com/COM",
+   "publisher_id": 4404684918,
+   "institution_id": null
+  }
+ }
+}
