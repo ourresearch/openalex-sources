@@ -1,0 +1,122 @@
+{
+ "run_at": "2026-11-25T14:35:09.291033+00:00",
+ "execute": true,
+ "mode": "apply",
+ "job": 2591,
+ "approved_by": "oxjob #2591 phase 2 under standing authority (data-bugs charter rule 3: reversible registry edit; route of #2572 verified live after night 2026-11-25; selection v4 after outside review; bar on fresh random draws; guards 0 contributor dropped, 0 stranded works)",
+ "before": {
+  "6721e13cc293496fb3c": {
+   "id": "6721e13cc293496fb3c",
+   "pmh_url": "http://dovepress.com/oai.php",
+   "pmh_set": null,
+   "source_id": 4306401012,
+   "status": "active",
+   "retirement_reason": null,
+   "retired_at": null,
+   "ready_to_run": true,
+   "in_walden": true,
+   "is_journal_host": false
+  },
+  "a0895c2844d0f4e6910": {
+   "id": "a0895c2844d0f4e6910",
+   "pmh_url": "http://intechopen.com/oai/index.php",
+   "pmh_set": null,
+   "source_id": 4306401291,
+   "status": "active",
+   "retirement_reason": null,
+   "retired_at": null,
+   "ready_to_run": true,
+   "in_walden": true,
+   "is_journal_host": false
+  },
+  "source": {
+   "id": 4306401291,
+   "display_name": "Contact-less Assessment of In-vivo Body Signals Using Microwave Doppler Radar (InTech)",
+   "type": "repository",
+   "issn_l": null,
+   "issns": null,
+   "datacite_ids": [],
+   "publisher": "InTech",
+   "publisher_id": null,
+   "institution_id": 4210154139,
+   "homepage_url": null,
+   "country_code": null,
+   "is_oa": false,
+   "alternate_titles": []
+  }
+ },
+ "actions": [
+  "endpoint 6721e13cc293496fb3c (http://dovepress.com/oai.php, Dove Medical Press): is_journal_host true (was false); stays active",
+  "endpoint a0895c2844d0f4e6910 (http://intechopen.com/oai/index.php, IntechOpen): is_journal_host true (was false); stays active",
+  "source S4306401291: 'Contact-less Assessment of In-vivo Body Signals Using Microwave Doppler Radar (InTech)' (I4210154139) -> 'IntechOpen OAI-PMH repository' (publisher P4310322558 IntechOpen, GB, no institution)",
+  "COMMITTED"
+ ],
+ "after": {
+  "endpoints": [
+   {
+    "id": "6721e13cc293496fb3c",
+    "pmh_url": "http://dovepress.com/oai.php",
+    "pmh_set": null,
+    "source_id": 4306401012,
+    "status": "active",
+    "retirement_reason": null,
+    "retired_at": null,
+    "ready_to_run": true,
+    "in_walden": true,
+    "is_journal_host": true
+   },
+   {
+    "id": "a0895c2844d0f4e6910",
+    "pmh_url": "http://intechopen.com/oai/index.php",
+    "pmh_set": null,
+    "source_id": 4306401291,
+    "status": "active",
+    "retirement_reason": null,
+    "retired_at": null,
+    "ready_to_run": true,
+    "in_walden": true,
+    "is_journal_host": true
+   }
+  ],
+  "source": {
+   "id": 4306401291,
+   "display_name": "IntechOpen OAI-PMH repository",
+   "type": "repository",
+   "issn_l": null,
+   "issns": null,
+   "datacite_ids": [],
+   "publisher": "IntechOpen",
+   "publisher_id": 4310322558,
+   "institution_id": null,
+   "homepage_url": "https://www.intechopen.com",
+   "country_code": "GB",
+   "is_oa": false,
+   "alternate_titles": []
+  }
+ },
+ "revert": [
+  "run this script with --revert (restores each before-row where the row still holds what was written)"
+ ],
+ "expected_after": {
+  "endpoints": {
+   "6721e13cc293496fb3c": {
+    "source_id": 4306401012,
+    "pmh_url": "http://dovepress.com/oai.php",
+    "is_journal_host": true
+   },
+   "a0895c2844d0f4e6910": {
+    "source_id": 4306401291,
+    "pmh_url": "http://intechopen.com/oai/index.php",
+    "is_journal_host": true
+   }
+  },
+  "source": {
+   "display_name": "IntechOpen OAI-PMH repository",
+   "publisher": "IntechOpen",
+   "publisher_id": 4310322558,
+   "institution_id": null,
+   "homepage_url": "https://www.intechopen.com",
+   "country_code": "GB"
+  }
+ }
+}
