@@ -41,6 +41,9 @@ from db import engine
 
 EXECUTE = "--execute" in sys.argv
 REVERT = sys.argv[sys.argv.index("--revert") + 1] if "--revert" in sys.argv else None
+# Refuse any other argument: a typo such as --revert=<file> must never fall through to the write.
+if [a for a in sys.argv[1:] if a not in ("--execute", "--revert", REVERT)]:
+    sys.exit(f"unknown arguments {sys.argv[1:]}; use --execute and/or --revert <receipt.json>")
 FIELDS = {"homepage_url", "publisher_id"}
 EMPTY = None  # expected "empty": NULL, or '' for text columns
 P_CENTER_OF_SCIENCE = 4404684918
@@ -82,8 +85,12 @@ def apply(conn, receipt):
     for sid, (name, issn_l), want in CHECK_ONLY:
         cur = _row(conn, sid)
         receipt["checked"][f"S{sid}"] = dict(cur) if cur else None
-        print(f"CHECK S{sid}", "ok" if cur and cur["display_name"] == name and cur["issn_l"] == issn_l
-              and all(cur[f] == v for f, v in want.items()) else f"DIFFERS {dict(cur) if cur else None}", flush=True)
+        ok = cur and cur["display_name"] == name and cur["issn_l"] == issn_l and all(cur[f] == v for f, v in want.items())
+        print(f"CHECK S{sid}", "ok" if ok else f"DIFFERS {dict(cur) if cur else None}", flush=True)
+        # The sibling journal still on the publisher record is the proof that record is still the right one (not
+        # merged or replaced since): if it moved, write nothing.
+        if not ok:
+            raise RuntimeError(f"S{sid} no longer matches; nothing written")
     for sid, (name, issn_l), sets in EDITS:
         assert set(sets) <= FIELDS
         cur = _row(conn, sid)
@@ -106,7 +113,8 @@ def apply(conn, receipt):
                                   f"AND {f} IS NOT DISTINCT FROM :old"
                                   + (" AND institution_id IS NULL" if f == "publisher_id" else "")),
                              {"new": new, "old": old, "id": sid, "name": name, "issn_l": issn_l}).rowcount
-            assert n == 1, (sid, f, n)
+            if n != 1:   # a concurrent edit beat the guard: roll the whole run back
+                raise RuntimeError(f"S{sid} {f}: {n} rows updated; nothing written")
             entry[f] = [old, new]
         receipt["changed"][f"S{sid}"] = entry
     print(f"changed {len(receipt['changed'])} of {len(EDITS)}; skipped {len(receipt['skipped'])}", flush=True)
@@ -117,7 +125,13 @@ def apply(conn, receipt):
 
 
 def revert(conn, receipt):
-    prior = json.load(open(REVERT, encoding="utf-8"))
+    with open(REVERT, encoding="utf-8") as fh:
+        prior = json.load(fh)
+    # Only the receipt of a committed write: a dry run's receipt lists changes that never happened, and reverting it
+    # could clear a value someone else set later.
+    if prior.get("execute") is not True or prior.get("revert_of") or not set(prior.get("changed", {})) <= {
+            f"S{e[0]}" for e in EDITS}:
+        sys.exit("not the receipt of an executed write by this script; nothing reverted")
     receipt["reverted"], receipt["skipped"] = 0, {}
     for s, e in prior["changed"].items():
         sid, done = int(s.lstrip("S")), []
