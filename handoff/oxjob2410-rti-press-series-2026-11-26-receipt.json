@@ -1,0 +1,166 @@
+{
+ "run_at": "2026-11-26T15:12:48.523880+00:00",
+ "execute": true,
+ "job": 2410,
+ "ticket": 5353,
+ "approved": "support factory #2254 (Jason 2026-11-15 yes); RULINGS § 3 D5 and D12; standing authority",
+ "publisher_id": 4404685482,
+ "before": {
+  "7407060977": {
+   "id": 7407060977,
+   "display_name": "RTI Press Occasional Papers",
+   "type": "journal",
+   "issn_l": "2378-7996",
+   "issns": [
+    "2378-7996"
+   ],
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "RTI Press",
+   "publisher_id": null,
+   "institution_id": 4396570550,
+   "homepage_url": null,
+   "country": "United States",
+   "country_code": "US",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": null,
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": true,
+   "is_in_doaj": true,
+   "is_in_doaj_start_year": 2008,
+   "doaj_license": "cc-by-nc-nd",
+   "is_in_scielo": null,
+   "is_ojs": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "is_core": null,
+   "is_preprint_repository": null,
+   "created_date": "2026-07-05 20:14:59.495014+00:00",
+   "updated_date": "2026-11-12 15:12:09.588630+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": [
+    "doaj"
+   ]
+  },
+  "7407145182": {
+   "id": 7407145182,
+   "display_name": "RTI Press eBooks",
+   "type": "ebook platform",
+   "issn_l": null,
+   "issns": null,
+   "alternate_titles": null,
+   "display_name_before_override": null,
+   "override_timestamp": null,
+   "publisher": "RTI Press",
+   "publisher_id": null,
+   "institution_id": 4396570550,
+   "homepage_url": "https://www.rti.org/rti-press",
+   "country": "United States",
+   "country_code": "US",
+   "wikidata_id": null,
+   "fatcat_id": null,
+   "crossref_id": null,
+   "datacite_id": null,
+   "datacite_ids": null,
+   "sample_pmh_record": null,
+   "apc_usd": null,
+   "apc_prices": null,
+   "societies": null,
+   "is_society_journal": null,
+   "is_oa": false,
+   "is_in_doaj": null,
+   "is_in_doaj_start_year": null,
+   "doaj_license": null,
+   "is_in_scielo": null,
+   "is_ojs": false,
+   "is_oa_high_oa_rate": false,
+   "high_oa_rate_start_year": null,
+   "is_fully_open_in_jstage": false,
+   "is_core": null,
+   "is_preprint_repository": null,
+   "created_date": "2026-11-18 16:24:08.446570+00:00",
+   "updated_date": "2026-11-23 05:55:14.967855+00:00",
+   "apc_usd_by_year": null,
+   "apc_prices_by_year": null,
+   "listed_in": null
+  }
+ },
+ "actions": [
+  "alternate_titles S7407155044 += ['RTI Press Research Report Series']",
+  "MINTED S7407155044 journal 'RTI Press Research Reports' ['2378-7902'] host I4396570550 (ZD 5353)",
+  "alternate_titles S7407155045 += ['RTI Press Methods Report Series']",
+  "MINTED S7407155045 journal 'RTI Press Methods Reports' ['2378-7813'] host I4396570550 (ZD 5353)",
+  "alternate_titles S7407155046 += ['RTI Press Research Brief Series']",
+  "MINTED S7407155046 journal 'RTI Press Research Briefs' ['2378-7929'] host I4396570550 (ZD 5353)",
+  "MINTED S7407155047 journal 'RTI Press Policy Briefs' ['2378-7937'] host I4396570550 (ZD 5353)",
+  "MINTED S7407155048 conference 'RTI Press Conference Proceedings' ['2690-0343'] host I4396570550 (ZD 5353)",
+  "S7407060977 homepage_url NULL -> https://www.rti.org/rti-press-collection/occasional-papers: 1 row(s)",
+  "S7407155044 publisher_id NULL -> 4404685482: 1 row(s)",
+  "S7407155045 publisher_id NULL -> 4404685482: 1 row(s)",
+  "S7407155046 publisher_id NULL -> 4404685482: 1 row(s)",
+  "S7407155047 publisher_id NULL -> 4404685482: 1 row(s)",
+  "S7407155048 publisher_id NULL -> 4404685482: 1 row(s)",
+  "S7407060977 publisher_id NULL -> 4404685482: 1 row(s)",
+  "S7407145182 publisher_id NULL -> 4404685482: 1 row(s)",
+  "recompute_is_oa: 5 source(s) changed",
+  "recompute_listed_in: 0",
+  "COMMITTED"
+ ],
+ "minted": [
+  {
+   "source_id": 7407155044,
+   "name": "RTI Press Research Reports",
+   "type": "journal",
+   "issns": [
+    "2378-7902"
+   ],
+   "homepage_url": "https://www.rti.org/rti-press-collection/research-reports"
+  },
+  {
+   "source_id": 7407155045,
+   "name": "RTI Press Methods Reports",
+   "type": "journal",
+   "issns": [
+    "2378-7813"
+   ],
+   "homepage_url": "https://www.rti.org/rti-press-collection/methods-reports"
+  },
+  {
+   "source_id": 7407155046,
+   "name": "RTI Press Research Briefs",
+   "type": "journal",
+   "issns": [
+    "2378-7929"
+   ],
+   "homepage_url": "https://www.rti.org/rti-press-collection/research-briefs"
+  },
+  {
+   "source_id": 7407155047,
+   "name": "RTI Press Policy Briefs",
+   "type": "journal",
+   "issns": [
+    "2378-7937"
+   ],
+   "homepage_url": "https://www.rti.org/rti-press-collection/policy-briefs"
+  },
+  {
+   "source_id": 7407155048,
+   "name": "RTI Press Conference Proceedings",
+   "type": "conference",
+   "issns": [
+    "2690-0343"
+   ],
+   "homepage_url": "https://www.rti.org/rti-press-collection/conference-proceedings"
+  }
+ ]
+}
