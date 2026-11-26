@@ -1,5 +1,5 @@
-"""oxjob #954 (support factory #2254), off-desk lane #2263, 21 Nov 2026: AVESIS wave 1 for ZD 22329 (Burak: the
-client universities' AVESIS research-information systems, submitted through the retired /repositories/add form).
+"""oxjob #954 (support factory #2254), off-desk lane #2263, 21 Nov 2026: AVESIS wave 1 for a repository add request (the
+AVESIS research-information systems, submitted through the retired /repositories/add form).
 ONE transaction, dry run by default (rolled back); --execute commits.
 
 Rule: D4, 15 Nov 2026 (#2254): harvest university and national research-information systems (CRIS) such as Turkey's
