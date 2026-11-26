@@ -1,0 +1,4 @@
+SET dhqdpdbrf3b8hkfjyy8h (avesis.yildiz.edu.tr, S7407055331): most_recent_date_harvested 2019-09-03 00:00:00 -> 2026-11-25 00:00:00 (last run: connection_error, 37800 records, finished None)
+COMMITTED
+RECEIPT
+{"run_at": "2026-11-26T15:02:42.137910+00:00", "execute": true, "job": 954, "ticket": 22329, "set": [{"endpoint_id": "dhqdpdbrf3b8hkfjyy8h", "source_id": 7407055331, "checkpoint": "2026-11-25 00:00:00", "before": {"pmh_url": "https://avesis.yildiz.edu.tr/api/oai2", "source_id": "7407055331", "status": "active", "most_recent_date_harvested": "2019-09-03 00:00:00", "last_harvest_started": null, "last_harvest_finished": null, "last_record_count": "37800", "last_health_status": "connection_error", "error": "Error harvesting records: The value of the 'resumptionToken' argument is invalid or expired."}}], "skipped": []}
