@@ -1,0 +1,4 @@
+SET s6o25feo5psyjjjw87pm (avesis.mcbu.edu.tr, S7407155038): most_recent_date_harvested NULL -> 2026-03-03 00:00:00 (bad record 2026-03-01T00:00:00Z)
+COMMITTED
+RECEIPT
+{"run_at": "2026-11-27T19:20:30.121062+00:00", "execute": true, "job": 954, "set": [{"endpoint_id": "s6o25feo5psyjjjw87pm", "source_id": 7407155038, "host": "avesis.mcbu.edu.tr", "bad_record_datestamp": "2026-03-01T00:00:00Z", "checkpoint": "2026-03-03 00:00:00", "before": {"pmh_url": "https://avesis.mcbu.edu.tr/api/oai2", "source_id": "7407155038", "status": "active", "most_recent_date_harvested": null, "last_harvest_started": null, "last_harvest_finished": null, "last_record_count": "32800", "last_health_status": "connection_error", "error": "Error harvesting records: The value of the 'resumptionToken' argument is invalid or expired."}}], "skipped": []}
