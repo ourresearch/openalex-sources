@@ -1,0 +1,44 @@
+{
+ "written": "off-desk lane 27 Nov 2026 (oxjob #2467)",
+ "run_at": "2026-11-27T12:25:23.072575+00:00",
+ "execute": true,
+ "job": 2467,
+ "approved": "card D5 ruling (oxjob #2254 RULINGS, 16 Nov 2026)",
+ "actions": [
+  "MINTED S7407155085 journal 'International Journal of Justice and Police Sciences' ['3108-0804'] host institution I4405253450 alt ['IJJPS', 'International Journal of Justice & Police Sciences'] (ZD 28024)",
+  "listed_in rows changed 3",
+  "COMMITTED"
+ ],
+ "minted": [
+  {
+   "source_id": 7407155085,
+   "row": {
+    "id": 7407155085,
+    "display_name": "International Journal of Justice and Police Sciences",
+    "type": "journal",
+    "issn_l": "3108-0804",
+    "publisher": "International Institute of Justice and Police Sciences",
+    "publisher_id": null,
+    "institution_id": 4405253450,
+    "homepage_url": "https://www.justicepolicejournal.com/",
+    "country_code": "IN",
+    "is_oa": false,
+    "alternate_titles": [
+     "IJJPS",
+     "International Journal of Justice & Police Sciences"
+    ]
+   },
+   "source_issn": [
+    [
+     "3108-0804",
+     true
+    ]
+   ],
+   "ticket": 28024
+  }
+ ],
+ "revert": [
+  "DELETE FROM source_issn WHERE source_id = 7407155085;",
+  "DELETE FROM sources WHERE id = 7407155085;"
+ ]
+}
