@@ -1,0 +1,30 @@
+{
+ "run_at": "2026-11-27T12:03:11.855179+00:00",
+ "execute": true,
+ "job": 693,
+ "ticket": 24980,
+ "approved": "support factory #2254 (Jason 2026-11-15 yes); RULINGS § 3 D5; Casey's host rule #1563",
+ "before": {
+  "id": 7407154776,
+  "display_name": "Replication Research",
+  "type": "journal",
+  "publisher": "University of Münster",
+  "publisher_id": null,
+  "institution_id": null,
+  "issn_l": "3052-5977"
+ },
+ "after": {
+  "id": 7407154776,
+  "display_name": "Replication Research",
+  "type": "journal",
+  "publisher": "University of Münster",
+  "publisher_id": 4310313985,
+  "institution_id": null,
+  "issn_l": "3052-5977"
+ },
+ "actions": [
+  "publishers table not visible here; P4310313985 checked live on the API 27 Nov (University of Münster, not merged)",
+  "S7407154776 publisher_id NULL -> 4310313985 (University of Münster): 1 row(s)",
+  "COMMITTED"
+ ]
+}
