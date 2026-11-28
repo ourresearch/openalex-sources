@@ -1,0 +1,3553 @@
+{
+ "run_at": "2026-11-28T11:26:12.395902+00:00",
+ "execute": true,
+ "revert_of": null,
+ "job": 2693,
+ "status": "committed",
+ "manifest_sha256": "1647b4d20f0f1b35059c24d674fe1c79d1afcb93f38097dcaf39d9c94a4c05d3",
+ "changed": {
+  "25650217": {
+   "publisher_id": [
+    4310319945,
+    4310320990
+   ],
+   "publisher": [
+    "BMJ",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "67514239": {
+   "publisher_id": [
+    4310320017,
+    4310320527
+   ],
+   "publisher": [
+    "SAGE",
+    "Frontiers Media"
+   ],
+   "phase": 1
+  },
+  "142542876": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "British Institute of Radiology",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "19793444": {
+   "publisher_id": [
+    4310315671,
+    4310311648
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2764830807": {
+   "publisher_id": [
+    4310311721,
+    4310320547
+   ],
+   "publisher": [
+    "Cambridge University Press",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "41026820": {
+   "publisher_id": [
+    4310319945,
+    4310320990
+   ],
+   "publisher": [
+    "BMJ",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "197964821": {
+   "publisher_id": [
+    4310315671,
+    4310320595
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "9838493": {
+   "publisher_id": [
+    4310311648,
+    4310319900
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "45696439": {
+   "publisher_id": [
+    4310315671,
+    4310320595
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "124203677": {
+   "publisher_id": [
+    4310320547,
+    4310320990
+   ],
+   "publisher": [
+    "Informa",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "60318618": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "192518766": {
+   "publisher_id": [
+    4310320449,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "5398819": {
+   "publisher_id": [
+    4310320990,
+    4310315671
+   ],
+   "publisher": [
+    "Elsevier",
+    "Lippincott Williams & Wilkins"
+   ],
+   "phase": 1
+  },
+  "136710263": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2489920150": {
+   "publisher_id": [
+    4310320595,
+    4310315671
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "Lippincott Williams & Wilkins"
+   ],
+   "phase": 1
+  },
+  "169988927": {
+   "publisher_id": [
+    4310319703,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "106548112": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "109723506": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "51654951": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "40505786": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "207943242": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "144688638": {
+   "publisher_id": [
+    4310320256,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210211592": {
+   "publisher_id": [
+    4310318547,
+    4310320595
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "78051145": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "121647140": {
+   "publisher_id": [
+    4310319900,
+    4310320527
+   ],
+   "publisher": [
+    "Wiley",
+    "Frontiers Media"
+   ],
+   "phase": 1
+  },
+  "69093139": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "186577254": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "175287009": {
+   "publisher_id": [
+    4310311721,
+    4310320990
+   ],
+   "publisher": [
+    null,
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "186451451": {
+   "publisher_id": [
+    4310320006,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "109054653": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "177859656": {
+   "publisher_id": [
+    4310311648,
+    4310319900
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "6724074": {
+   "publisher_id": [
+    4310320595,
+    4310319900
+   ],
+   "publisher": [
+    "Wiley",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "172552266": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "178886870": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "122949266": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "62841813": {
+   "publisher_id": [
+    4310311742,
+    4310310987
+   ],
+   "publisher": [
+    "MDPI AG",
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "phase": 1
+  },
+  "161978192": {
+   "publisher_id": [
+    4310319900,
+    4310320561
+   ],
+   "publisher": [
+    "Brill",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "107262989": {
+   "publisher_id": [
+    4310319900,
+    4310311648
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "201014839": {
+   "publisher_id": [
+    4310319900,
+    4310311648
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2764888703": {
+   "publisher_id": [
+    4310320990,
+    4310320595
+   ],
+   "publisher": [
+    "Elsevier",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "31188771": {
+   "publisher_id": [
+    4310311721,
+    4310319869
+   ],
+   "publisher": [
+    "Hindawi Limited",
+    "Hindawi Publishing Corporation"
+   ],
+   "phase": 1
+  },
+  "186480540": {
+   "publisher_id": [
+    4310319900,
+    4310311721
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Cambridge University Press"
+   ],
+   "phase": 1
+  },
+  "55970647": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "71119591": {
+   "publisher_id": [
+    4310320017,
+    4310311648
+   ],
+   "publisher": [
+    "SAGE",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "14626285": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "152111507": {
+   "publisher_id": [
+    4310318577,
+    4310319869
+   ],
+   "publisher": [
+    "Hindawi Limited",
+    "Hindawi Publishing Corporation"
+   ],
+   "phase": 1
+  },
+  "207372207": {
+   "publisher_id": [
+    4310320990,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "149070780": {
+   "publisher_id": [
+    4310320595,
+    4310320017
+   ],
+   "publisher": [
+    "Wiley",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "171170158": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Korean Society for Molecular and Cellular Biology",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "2764810254": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "180401253": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "149305196": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "2737520951": {
+   "publisher_id": [
+    4310313990,
+    4310320595
+   ],
+   "publisher": [
+    "De Gruyter",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "196442619": {
+   "publisher_id": [
+    4310315671,
+    4310320017
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2764955546": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Elsevier",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "162998186": {
+   "publisher_id": [
+    4310311721,
+    4310320547
+   ],
+   "publisher": [
+    "Cambridge University Press",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "94854268": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "166785169": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "117562080": {
+   "publisher_id": [
+    4310320017,
+    4310320595
+   ],
+   "publisher": [
+    "SAGE",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "33142482": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "206927758": {
+   "publisher_id": [
+    4310320595,
+    4310320990
+   ],
+   "publisher": [
+    "Wiley",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "56956558": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "135158421": {
+   "publisher_id": [
+    4310320595,
+    4310311721
+   ],
+   "publisher": [
+    "Wiley",
+    "Cambridge University Press"
+   ],
+   "phase": 1
+  },
+  "156219422": {
+   "publisher_id": [
+    4310320595,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "107923245": {
+   "publisher_id": [
+    4310320061,
+    4310319808
+   ],
+   "publisher": [
+    "Institute of Electrical and Electronics Engineers",
+    "Institute of Electrical and Electronics Engineers"
+   ],
+   "phase": 1
+  },
+  "203731762": {
+   "publisher_id": [
+    4310320595,
+    4310319900
+   ],
+   "publisher": [
+    "Wiley",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "27728379": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "107104467": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "179017329": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2765071679": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "4210181306": {
+   "publisher_id": [
+    4310320017,
+    4310311648
+   ],
+   "publisher": [
+    "SAGE",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "4210200900": {
+   "publisher_id": [
+    4310320595,
+    4310315671
+   ],
+   "publisher": [
+    "Wiley",
+    "Lippincott Williams & Wilkins"
+   ],
+   "phase": 1
+  },
+  "18135458": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "151808461": {
+   "publisher_id": [
+    4310320547,
+    4310319900
+   ],
+   "publisher": [
+    "Informa",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "21218142": {
+   "publisher_id": [
+    4310320990,
+    4310320256
+   ],
+   "publisher": [
+    "Springer Nature",
+    "BioMed Central"
+   ],
+   "phase": 1
+  },
+  "112294809": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "75519821": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "203437272": {
+   "publisher_id": [
+    4310320990,
+    4310320448
+   ],
+   "publisher": [
+    "Medknow Publications",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "34730769": {
+   "publisher_id": [
+    4310311721,
+    4404685419
+   ],
+   "publisher": [
+    "Cambridge University Press",
+    "Maximum Academic Press"
+   ],
+   "phase": 1
+  },
+  "2764753230": {
+   "publisher_id": [
+    4310319908,
+    4310311648
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "5246876": {
+   "publisher_id": [
+    4310320448,
+    4310320017
+   ],
+   "publisher": [
+    "Medknow Publications",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "173726759": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "80347152": {
+   "publisher_id": [
+    4310319900,
+    4310311721
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Cambridge University Press"
+   ],
+   "phase": 1
+  },
+  "170348691": {
+   "publisher_id": [
+    4310319900,
+    4310313990
+   ],
+   "publisher": [
+    "Computers, Materials and Continua (Tech Science Press)",
+    "De Gruyter"
+   ],
+   "phase": 1
+  },
+  "2494728167": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "203071428": {
+   "publisher_id": [
+    4310320595,
+    4310320561
+   ],
+   "publisher": [
+    "Brill",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "99545789": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "2756291293": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "34003737": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Elsevier",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "42686363": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2764902628": {
+   "publisher_id": [
+    4310320990,
+    4310311901
+   ],
+   "publisher": [
+    "Elsevier",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "85666469": {
+   "publisher_id": [
+    4310319900,
+    4310313990
+   ],
+   "publisher": [
+    "De Gruyter",
+    "De Gruyter"
+   ],
+   "phase": 1
+  },
+  "2764573606": {
+   "publisher_id": [
+    4310320017,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "35316464": {
+   "publisher_id": [
+    4310320083,
+    4310311648
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "5415759": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210231731": {
+   "publisher_id": [
+    4310319908,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "79858223": {
+   "publisher_id": [
+    4310320017,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "33108253": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "69248470": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "2764836552": {
+   "publisher_id": [
+    4310320448,
+    4310320017
+   ],
+   "publisher": [
+    "Medknow Publications",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "78792899": {
+   "publisher_id": [
+    4310320595,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "113872774": {
+   "publisher_id": [
+    4310319965,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "77754710": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Elsevier",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "127393086": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "38341973": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "137490058": {
+   "publisher_id": [
+    4310317820,
+    4310313990
+   ],
+   "publisher": [
+    "De Gruyter",
+    "De Gruyter"
+   ],
+   "phase": 1
+  },
+  "4210207081": {
+   "publisher_id": [
+    4310320595,
+    4310320990
+   ],
+   "publisher": [
+    "Wiley",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "2764398103": {
+   "publisher_id": [
+    4310320595,
+    4310320561
+   ],
+   "publisher": [
+    "Wiley",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "2738219336": {
+   "publisher_id": [
+    4310319965,
+    4310320595
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "85146155": {
+   "publisher_id": [
+    4310320256,
+    4310320595
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "69331574": {
+   "publisher_id": [
+    4310320017,
+    4310320595
+   ],
+   "publisher": [
+    "SAGE",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "4210222123": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "MDPI AG",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "126440360": {
+   "publisher_id": [
+    4310319900,
+    4310311648
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "54749395": {
+   "publisher_id": [
+    4310319900,
+    4310320448
+   ],
+   "publisher": [
+    "Medknow Publications",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "195553305": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "21344893": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "199435188": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "4210237822": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "21826315": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "194317145": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "4210188816": {
+   "publisher_id": [
+    4310320990,
+    4310320448
+   ],
+   "publisher": [
+    "Medknow Publications",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "2898482455": {
+   "publisher_id": [
+    4310320990,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "116712389": {
+   "publisher_id": [
+    4310319703,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "3207227496": {
+   "publisher_id": [
+    4310319900,
+    4310320547
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "2764979341": {
+   "publisher_id": [
+    4310320990,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "89869488": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    null,
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "92813228": {
+   "publisher_id": [
+    4310320990,
+    4310320256
+   ],
+   "publisher": [
+    "Springer Nature",
+    "BioMed Central"
+   ],
+   "phase": 1
+  },
+  "111391483": {
+   "publisher_id": [
+    4310320595,
+    4310320561
+   ],
+   "publisher": [
+    "Wiley",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "132665167": {
+   "publisher_id": [
+    4310320017,
+    4310311648
+   ],
+   "publisher": [
+    "SAGE",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2764464234": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "2737730191": {
+   "publisher_id": [
+    4310320448,
+    4310320990
+   ],
+   "publisher": [
+    "Medknow Publications",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "47496282": {
+   "publisher_id": [
+    4310319702,
+    4310311721
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Cambridge University Press"
+   ],
+   "phase": 1
+  },
+  "4163774": {
+   "publisher_id": [
+    4310320990,
+    4310320448
+   ],
+   "publisher": [
+    "Medknow Publications",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "137506714": {
+   "publisher_id": [
+    4310311721,
+    4404685419
+   ],
+   "publisher": [
+    "Cambridge University Press",
+    "Maximum Academic Press"
+   ],
+   "phase": 1
+  },
+  "4210234811": {
+   "publisher_id": [
+    4310320990,
+    4310320595
+   ],
+   "publisher": [
+    "Elsevier",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "155547894": {
+   "publisher_id": [
+    4310320990,
+    4310311648
+   ],
+   "publisher": [
+    "Elsevier",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "4210170492": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "101999905": {
+   "publisher_id": [
+    4310320449,
+    4310319900
+   ],
+   "publisher": [
+    "Informa",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "2736340094": {
+   "publisher_id": [
+    4310319965,
+    4310311901
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "2764878180": {
+   "publisher_id": [
+    4310320017,
+    4310311721
+   ],
+   "publisher": [
+    "SAGE",
+    "Cambridge University Press"
+   ],
+   "phase": 1
+  },
+  "4210173874": {
+   "publisher_id": [
+    4310315671,
+    4310320990
+   ],
+   "publisher": [
+    null,
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "21836410": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2914543899": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "131162334": {
+   "publisher_id": [
+    4310319900,
+    4310319869
+   ],
+   "publisher": [
+    "Hindawi Limited",
+    "Hindawi Publishing Corporation"
+   ],
+   "phase": 1
+  },
+  "2764977103": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Elsevier",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "179996988": {
+   "publisher_id": [
+    4310320595,
+    4310320017
+   ],
+   "publisher": [
+    "Wiley",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "95601074": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2764627845": {
+   "publisher_id": [
+    4310320547,
+    4310311648
+   ],
+   "publisher": [
+    null,
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2765036585": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "30594836": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2737254583": {
+   "publisher_id": [
+    4310320256,
+    4310320547
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "2898321583": {
+   "publisher_id": [
+    4310320990,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "86794028": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "2764371953": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Atlantis Press",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "4210240812": {
+   "publisher_id": [
+    4310319965,
+    4310311648
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "4210187011": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2739331564": {
+   "publisher_id": [
+    4310320990,
+    4310311648
+   ],
+   "publisher": [
+    "Elsevier",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "34148795": {
+   "publisher_id": [
+    4310320561,
+    4310319811
+   ],
+   "publisher": [
+    "Emerald (MCB UP)",
+    "Emerald Publishing Limited"
+   ],
+   "phase": 1
+  },
+  "103253184": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2898275119": {
+   "publisher_id": [
+    4310320990,
+    4310320547
+   ],
+   "publisher": [
+    null,
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "119013950": {
+   "publisher_id": [
+    4310320547,
+    4310320527
+   ],
+   "publisher": [
+    "Informa",
+    "Frontiers Media"
+   ],
+   "phase": 1
+  },
+  "74519973": {
+   "publisher_id": [
+    4310320017,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "117581584": {
+   "publisher_id": [
+    4310321135,
+    4310320990
+   ],
+   "publisher": [
+    "Georg Thieme Verlag KG",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "69687699": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "115626870": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "4210233012": {
+   "publisher_id": [
+    4310320256,
+    4310320017
+   ],
+   "publisher": [
+    "Springer Nature",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2764822319": {
+   "publisher_id": [
+    4310320990,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "40198776": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "2764422388": {
+   "publisher_id": [
+    4310315671,
+    4310320256
+   ],
+   "publisher": [
+    "Springer Nature",
+    "BioMed Central"
+   ],
+   "phase": 1
+  },
+  "1565281": {
+   "publisher_id": [
+    4310320547,
+    4310320561
+   ],
+   "publisher": [
+    "Brill",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "70058116": {
+   "publisher_id": [
+    4310320017,
+    4310310987
+   ],
+   "publisher": [
+    "SAGE",
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "phase": 1
+  },
+  "181493553": {
+   "publisher_id": [
+    4310319900,
+    4310311721
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Cambridge University Press"
+   ],
+   "phase": 1
+  },
+  "79505318": {
+   "publisher_id": [
+    4310320322,
+    4310320017
+   ],
+   "publisher": [
+    "De Gruyter",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "79535635": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2765072490": {
+   "publisher_id": [
+    4310320990,
+    4310319900
+   ],
+   "publisher": [
+    "Elsevier",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "2736342340": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210240671": {
+   "publisher_id": [
+    4310315671,
+    4310320595
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "4210205394": {
+   "publisher_id": [
+    4310320017,
+    4310320595
+   ],
+   "publisher": [
+    "SAGE",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "2764591159": {
+   "publisher_id": [
+    4310320990,
+    4310320448
+   ],
+   "publisher": [
+    null,
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "1558111": {
+   "publisher_id": [
+    4310320017,
+    4310320595
+   ],
+   "publisher": [
+    "SAGE",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "104939991": {
+   "publisher_id": [
+    4310320595,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "2764945019": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "SERDI",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210233137": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2764681788": {
+   "publisher_id": [
+    4310320990,
+    4310320448
+   ],
+   "publisher": [
+    "Medknow Publications",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "81956514": {
+   "publisher_id": [
+    4310320547,
+    4310320561
+   ],
+   "publisher": [
+    "University of California Press",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "2898552557": {
+   "publisher_id": [
+    4310320990,
+    4310320256
+   ],
+   "publisher": [
+    "Springer Nature",
+    "BioMed Central"
+   ],
+   "phase": 1
+  },
+  "4210218522": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "13669392": {
+   "publisher_id": [
+    4310320595,
+    4310313990
+   ],
+   "publisher": [
+    "De Gruyter",
+    "De Gruyter"
+   ],
+   "phase": 1
+  },
+  "2764415853": {
+   "publisher_id": [
+    4310320547,
+    4310319900
+   ],
+   "publisher": [
+    "Informa",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "153445177": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2739160569": {
+   "publisher_id": [
+    4310320256,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210204301": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "2739019929": {
+   "publisher_id": [
+    4310320256,
+    4310311648
+   ],
+   "publisher": [
+    "Oxford University Press",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "42003292": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2764852108": {
+   "publisher_id": [
+    4310315671,
+    4310320256
+   ],
+   "publisher": [
+    "Springer Nature",
+    "BioMed Central"
+   ],
+   "phase": 1
+  },
+  "4210168890": {
+   "publisher_id": [
+    4310320595,
+    4310320017
+   ],
+   "publisher": [
+    "Wiley",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "171267539": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "2765004167": {
+   "publisher_id": [
+    4310320990,
+    4310311901
+   ],
+   "publisher": [
+    "Elsevier",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "4210236495": {
+   "publisher_id": [
+    4310320556,
+    4310311648
+   ],
+   "publisher": [
+    "The Royal Society of Chemistry",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2764527509": {
+   "publisher_id": [
+    4310319965,
+    4310311901
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "2764547716": {
+   "publisher_id": [
+    4310313990,
+    4310320527
+   ],
+   "publisher": [
+    "De Gruyter",
+    "Frontiers Media"
+   ],
+   "phase": 1
+  },
+  "4210192368": {
+   "publisher_id": [
+    4310319811,
+    4310320547
+   ],
+   "publisher": [
+    null,
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "10615428": {
+   "publisher_id": [
+    4310319900,
+    4310320547
+   ],
+   "publisher": [
+    "Informa",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "4210225740": {
+   "publisher_id": [
+    4310319945,
+    4310320595
+   ],
+   "publisher": [
+    "BMJ",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "4210186268": {
+   "publisher_id": [
+    4310320595,
+    4310311648
+   ],
+   "publisher": [
+    "Wiley",
+    "Oxford University Press"
+   ],
+   "phase": 1
+  },
+  "2765034686": {
+   "publisher_id": [
+    4310319900,
+    4310320527
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Frontiers Media"
+   ],
+   "phase": 1
+  },
+  "2487656537": {
+   "publisher_id": [
+    4310319965,
+    4310311901
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "89921308": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "101936814": {
+   "publisher_id": [
+    4310320547,
+    4310311901
+   ],
+   "publisher": [
+    "Informa",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "2765029502": {
+   "publisher_id": [
+    4323972300,
+    4310320448
+   ],
+   "publisher": [
+    "Informatics Publishing Limited",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "4210215212": {
+   "publisher_id": [
+    4310311721,
+    4310320017
+   ],
+   "publisher": [
+    "Cambridge University Press",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "162181308": {
+   "publisher_id": [
+    4310320547,
+    4310320595
+   ],
+   "publisher": [
+    "Informa",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "4210172333": {
+   "publisher_id": [
+    4310319900,
+    4310320595
+   ],
+   "publisher": [
+    "Engineering Sciences Press",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "4210185879": {
+   "publisher_id": [
+    4310315540,
+    4310320595
+   ],
+   "publisher": [
+    "Atlantis Press",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "119308939": {
+   "publisher_id": [
+    4310320017,
+    4310320547
+   ],
+   "publisher": [
+    "SAGE",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "2737612732": {
+   "publisher_id": [
+    4310319965,
+    4310320527
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Frontiers Media"
+   ],
+   "phase": 1
+  },
+  "3012771251": {
+   "publisher_id": [
+    4310320256,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "2737575852": {
+   "publisher_id": [
+    4310319965,
+    4310313990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "De Gruyter"
+   ],
+   "phase": 1
+  },
+  "2764804565": {
+   "publisher_id": [
+    4310320017,
+    4310320547
+   ],
+   "publisher": [
+    "SAGE",
+    "Taylor & Francis"
+   ],
+   "phase": 1
+  },
+  "2764442833": {
+   "publisher_id": [
+    4310320547,
+    4310320561
+   ],
+   "publisher": [
+    "Informa",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "4210211548": {
+   "publisher_id": [
+    4310320595,
+    4310320527
+   ],
+   "publisher": [
+    "Wiley",
+    "Frontiers Media"
+   ],
+   "phase": 1
+  },
+  "2764462915": {
+   "publisher_id": [
+    4310315671,
+    4310320017
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "4210198508": {
+   "publisher_id": [
+    4310320017,
+    4310319945
+   ],
+   "publisher": [
+    "SAGE",
+    "BMJ"
+   ],
+   "phase": 1
+  },
+  "4210170298": {
+   "publisher_id": [
+    4310311721,
+    4310319811
+   ],
+   "publisher": [
+    "Cambridge University Press",
+    "Emerald Publishing Limited"
+   ],
+   "phase": 1
+  },
+  "179261248": {
+   "publisher_id": [
+    4310320322,
+    4310310987
+   ],
+   "publisher": [
+    "De Gruyter",
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "phase": 1
+  },
+  "2764611280": {
+   "publisher_id": [
+    4310320990,
+    4310320448
+   ],
+   "publisher": [
+    "Elsevier",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "4210192817": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "4210225199": {
+   "publisher_id": [
+    4310320547,
+    4310310987
+   ],
+   "publisher": [
+    "Informa",
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "phase": 1
+  },
+  "4210215460": {
+   "publisher_id": [
+    4310320547,
+    4310319900
+   ],
+   "publisher": [
+    "Informa",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "66096211": {
+   "publisher_id": [
+    4310320547,
+    4310320561
+   ],
+   "publisher": [
+    "Brill",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "2737690631": {
+   "publisher_id": [
+    4310320322,
+    4310319900
+   ],
+   "publisher": [
+    null,
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "4404675084": {
+   "publisher_id": [
+    4310320443,
+    4310320990
+   ],
+   "publisher": [
+    "Inc.",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210189578": {
+   "publisher_id": [
+    4310320547,
+    4310320561
+   ],
+   "publisher": [
+    "Informa",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "88055436": {
+   "publisher_id": [
+    4310320017,
+    4404685419
+   ],
+   "publisher": [
+    "SAGE",
+    "Maximum Academic Press"
+   ],
+   "phase": 1
+  },
+  "4210232663": {
+   "publisher_id": [
+    4310319945,
+    4310320595
+   ],
+   "publisher": [
+    "Wiley",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "4210199842": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "4210188184": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210206148": {
+   "publisher_id": [
+    4310320561,
+    4310320017
+   ],
+   "publisher": [
+    null,
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2764625064": {
+   "publisher_id": [
+    4310320990,
+    4310319811
+   ],
+   "publisher": [
+    "Emerald (MCB UP)",
+    "Emerald Publishing Limited"
+   ],
+   "phase": 1
+  },
+  "4210218361": {
+   "publisher_id": [
+    4310320017,
+    4310310987
+   ],
+   "publisher": [
+    "SAGE",
+    "Multidisciplinary Digital Publishing Institute"
+   ],
+   "phase": 1
+  },
+  "2764539693": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Elsevier",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210229507": {
+   "publisher_id": [
+    4310320990,
+    4310319811
+   ],
+   "publisher": [
+    "Elsevier",
+    "Emerald Publishing Limited"
+   ],
+   "phase": 1
+  },
+  "4210195834": {
+   "publisher_id": [
+    4310320547,
+    4310320561
+   ],
+   "publisher": [
+    "Informa",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "2737635154": {
+   "publisher_id": [
+    4310320990,
+    4310319811
+   ],
+   "publisher": [
+    "Emerald (MCB UP)",
+    "Emerald Publishing Limited"
+   ],
+   "phase": 1
+  },
+  "4210224556": {
+   "publisher_id": [
+    4310320017,
+    4310320990
+   ],
+   "publisher": [
+    "SAGE",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4404662437": {
+   "publisher_id": [
+    4310320443,
+    4310320990
+   ],
+   "publisher": [
+    "Inc.",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210171502": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "2737368037": {
+   "publisher_id": [
+    4310320322,
+    4310319900
+   ],
+   "publisher": [
+    null,
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "4210189915": {
+   "publisher_id": [
+    4310320547,
+    4310313990
+   ],
+   "publisher": [
+    "Informa",
+    "De Gruyter"
+   ],
+   "phase": 1
+  },
+  "2898220704": {
+   "publisher_id": [
+    4310320547,
+    4310320448
+   ],
+   "publisher": [
+    "Informa",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "4210201792": {
+   "publisher_id": [
+    4310319965,
+    4310320448
+   ],
+   "publisher": [
+    "Atlantis Press",
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "4210216654": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "4210199963": {
+   "publisher_id": [
+    4310320990,
+    4310319945
+   ],
+   "publisher": [
+    "Elsevier",
+    "BMJ"
+   ],
+   "phase": 1
+  },
+  "4210197702": {
+   "publisher_id": [
+    4310320547,
+    4310320017
+   ],
+   "publisher": [
+    "Informa",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "2738361838": {
+   "publisher_id": [
+    4310320322,
+    4310319900
+   ],
+   "publisher": [
+    null,
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "4210199319": {
+   "publisher_id": [
+    4310319811,
+    4310311901
+   ],
+   "publisher": [
+    "Emerald (MCB UP)",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "4210174804": {
+   "publisher_id": [
+    4310313990,
+    4310320990
+   ],
+   "publisher": [
+    "De Gruyter",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210188693": {
+   "publisher_id": [
+    4310320584,
+    4310320448
+   ],
+   "publisher": [
+    null,
+    "Medknow"
+   ],
+   "phase": 1
+  },
+  "4210205160": {
+   "publisher_id": [
+    4310319900,
+    4310311721
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Cambridge University Press"
+   ],
+   "phase": 1
+  },
+  "4210192143": {
+   "publisher_id": [
+    4310319808,
+    4310311901
+   ],
+   "publisher": [
+    "Institute of Electrical and Electronics Engineers",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "2898577454": {
+   "publisher_id": [
+    4310315671,
+    4310319900
+   ],
+   "publisher": [
+    "Ovid Technologies (Wolters Kluwer)",
+    "Springer Science+Business Media"
+   ],
+   "phase": 1
+  },
+  "4210173844": {
+   "publisher_id": [
+    4310319811,
+    4310311901
+   ],
+   "publisher": [
+    "Emerald (MCB UP)",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "4210204874": {
+   "publisher_id": [
+    4310320990,
+    4310320017
+   ],
+   "publisher": [
+    "Elsevier",
+    "SAGE Publishing"
+   ],
+   "phase": 1
+  },
+  "4210228024": {
+   "publisher_id": [
+    4310319869,
+    4404685419
+   ],
+   "publisher": [
+    "Hindawi Limited",
+    "Maximum Academic Press"
+   ],
+   "phase": 1
+  },
+  "4210193571": {
+   "publisher_id": [
+    4310319900,
+    4310320990
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "2738087221": {
+   "publisher_id": [
+    4310319900,
+    4310320561
+   ],
+   "publisher": [
+    "Brill",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "4404669160": {
+   "publisher_id": [
+    4310320108,
+    4310320990
+   ],
+   "publisher": [
+    "B.V.",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210212740": {
+   "publisher_id": [
+    4310319965,
+    4310320561
+   ],
+   "publisher": [
+    "Brill",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "4210213030": {
+   "publisher_id": [
+    4310311721,
+    4310319869
+   ],
+   "publisher": [
+    "Hindawi Limited",
+    "Hindawi Publishing Corporation"
+   ],
+   "phase": 1
+  },
+  "4210236680": {
+   "publisher_id": [
+    4310320990,
+    4310315671
+   ],
+   "publisher": [
+    "Elsevier",
+    "Lippincott Williams & Wilkins"
+   ],
+   "phase": 1
+  },
+  "4404674960": {
+   "publisher_id": [
+    4310320108,
+    4310320990
+   ],
+   "publisher": [
+    "B.V.",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4387280368": {
+   "publisher_id": [
+    4310320990,
+    4310311901
+   ],
+   "publisher": [
+    "Elsevier ",
+    "Tsinghua University Press"
+   ],
+   "phase": 1
+  },
+  "4404663168": {
+   "publisher_id": [
+    4310319811,
+    4310320595
+   ],
+   "publisher": [
+    "Limited",
+    "Wiley"
+   ],
+   "phase": 1
+  },
+  "4404676861": {
+   "publisher_id": [
+    4310320108,
+    4310320990
+   ],
+   "publisher": [
+    "B.V.",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4404675171": {
+   "publisher_id": [
+    4310320108,
+    4310320990
+   ],
+   "publisher": [
+    "B.V.",
+    "Elsevier BV"
+   ],
+   "phase": 1
+  },
+  "4210238433": {
+   "publisher_id": [
+    4310319900,
+    4310320561
+   ],
+   "publisher": [
+    "Springer Nature",
+    "Brill"
+   ],
+   "phase": 1
+  },
+  "4404668967": {
+   "publisher_id": [
+    4310311648,
+    4404683680
+   ],
+   "publisher": [
+    "Press",
+    "Mesopotamian Academic Press"
+   ],
+   "phase": 1
+  },
+  "124014869": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210183093": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210206986": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "14419372": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210208105": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "163152955": {
+   "publisher_id": [
+    4310316053,
+    4320800609
+   ],
+   "publisher": [
+    "ASTM International",
+    "ASTM International"
+   ],
+   "phase": 2
+  },
+  "4210169712": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "182161918": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210187999": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210171160": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210206908": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "166541267": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "193263997": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4306462873": {
+   "publisher_id": [
+    4310316053,
+    4320800609
+   ],
+   "publisher": [
+    "ASTM International",
+    "ASTM International"
+   ],
+   "phase": 2
+  },
+  "17843412": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "201326824": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "186224356": {
+   "publisher_id": [
+    4310316053,
+    4320800609
+   ],
+   "publisher": [
+    "ASTM International",
+    "ASTM International"
+   ],
+   "phase": 2
+  },
+  "194951068": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "95396101": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "79617935": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210211731": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "86068118": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "189811788": {
+   "publisher_id": [
+    4310316053,
+    4320800609
+   ],
+   "publisher": [
+    "ASTM International",
+    "ASTM International"
+   ],
+   "phase": 2
+  },
+  "88554153": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "198805599": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "186254152": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "73930687": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "173178594": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "126985745": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "2764914145": {
+   "publisher_id": [
+    4310316053,
+    4320800609
+   ],
+   "publisher": [
+    "ASTM International",
+    "ASTM International"
+   ],
+   "phase": 2
+  },
+  "2764940244": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210172708": {
+   "publisher_id": [
+    4310316053,
+    4320800609
+   ],
+   "publisher": [
+    "ASTM International",
+    "ASTM International"
+   ],
+   "phase": 2
+  },
+  "4210230097": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210214807": {
+   "publisher_id": [
+    4310316053,
+    4320800609
+   ],
+   "publisher": [
+    "ASTM International",
+    "ASTM International"
+   ],
+   "phase": 2
+  },
+  "4210221713": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "2764568738": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210222365": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210171928": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "98216682": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210212451": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4220650986": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210223704": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210236461": {
+   "publisher_id": [
+    4310316053,
+    4320800609
+   ],
+   "publisher": [
+    "ASTM International",
+    "ASTM International"
+   ],
+   "phase": 2
+  },
+  "4210201098": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  },
+  "4210198216": {
+   "publisher_id": [
+    4310316053,
+    4310321320
+   ],
+   "publisher": [
+    "ASME International",
+    "American Society of Mechanical Engineers"
+   ],
+   "phase": 2
+  }
+ },
+ "skipped": {}
+}
