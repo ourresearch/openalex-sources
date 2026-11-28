@@ -74,8 +74,26 @@ def run(dry_run=False, limit=None, batch=500):
 
     if not dry_run:
         apply_scielo_flag()
+        check_moved_journals()
     print("outcome summary:", dict(counts))
     return counts
+
+
+def check_moved_journals():
+    """A change in Crossref's journal-level publisher queues the journal for a host check, and the check runs
+    (jobs/host_check, oxjob #2693). Its failure must not fail the sync, which has already committed."""
+    try:
+        from jobs import host_check
+        with engine.begin() as conn:
+            host_check.watch(conn)
+        host_check.run()
+    except Exception as e:  # report and carry on
+        print(f"host check failed: {e!r}", flush=True)
+        try:
+            import sentry_sdk
+            sentry_sdk.capture_exception(e)
+        except Exception:
+            pass
 
 
 def apply_scielo_flag():
